@@ -255,6 +255,15 @@ def main():
 
     data = load()
     published = {p.stem for p in DROPS.glob("*.md")} if DROPS.exists() else set()
+    try:
+        refs = subprocess.run(["git", "ls-remote", "--heads", "origin", "verify/*"], cwd=ROOT,
+                              capture_output=True, text=True, timeout=60).stdout
+        for line in refs.splitlines():
+            m = re.search(r"refs/heads/verify/(.+)$", line.strip())
+            if m:
+                published.add(m.group(1))
+    except Exception:
+        pass
     pool = [d for d in data if isinstance(d.get("confidence"), int) and d["confidence"] >= 40]
 
     if args.list:

@@ -23,8 +23,10 @@ REQUIRED_SECTIONS = ["## What it is", "## Official site", "## What it needs", "#
                      "## Evidence", "## Reviewer checklist"]
 TRACKER_DOMAINS = ("99airdrops.com", "airdropstop.com", "airdrops.io", "airdroplet.com",
                    "airdropvillage.io", "cryptorank.io")
-BANNED = (r"\bseed\s?phrase\b", r"\bprivate\s?key\b", r"\bmnemonic\b", r"\bTODO\b", r"\bTBD\b",
-          r"lorem ipsum")
+BANNED = (r"\bTODO\b", r"\bTBD\b", r"lorem ipsum")
+# Secret *requests* are forbidden; secret *warnings* are required practice.
+SECRET_RE = re.compile(r"\b(seed\s?phrase|private\s?key|mnemonic|recovery\s?phrase)\b", re.I)
+NEGATION = re.compile(r"\b(never|not|don't|do not|nobody|no one|avoid|refuse)\b", re.I)
 SCHEMA = {"name": str, "slug": str, "confidence": int, "source_url": str, "checked": str,
           "dossier": str}
 
@@ -106,6 +108,11 @@ def check(slug):
     for pat in BANNED:
         if re.search(pat, blob, re.I):
             errors.append(f"banned content in dossier: {pat}")
+    for sentence in re.split(r"(?<=[.!?])\s+", blob):
+        if SECRET_RE.search(sentence) and not NEGATION.search(sentence):
+            errors.append("secret request detected (mentions seed/private key without a warning): "
+                          + sentence.strip()[:90])
+            break
     if d["name"] not in blob.splitlines()[0]:
         errors.append("dossier H1 does not match record name")
     if "http://" in blob:

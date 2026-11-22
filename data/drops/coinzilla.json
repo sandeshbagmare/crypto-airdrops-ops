@@ -1,0 +1,50 @@
+{
+ "name": "Coinzilla",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://play.coinzilla.com",
+ "needs": "",
+ "steps": [
+  "Check that you can win. The contest is \"open to individuals aged 18 or older, with a valid email address\", and residents of about 80 countries are excluded (the list is below).",
+  "Open play.coinzilla.com and press Enter. Move with the arrow keys or A and D, and pause with the space bar. On a phone, the game asks you to turn it sideways.",
+  "Play a game past 30 points, then sign in with your email address and the code it sends. Use an inbox you read, because that is how winners are told.",
+  "Keep playing until 18 November at 23:59 EET. Only your best saved game counts, and \"Each person may take part with one account only.\""
+ ],
+ "end": "18 Nov",
+ "days": "",
+ "pool": "",
+ "what": "No Coinzilla airdrop. Its free BUGGED arcade game gives GTA VI keys to the top 10 scores and a PS5 voucher to 1st place until 18 November. Steps and rules.",
+ "behind": "The game and the contest are run by Sevio Digital Limited, the company behind Coinzilla, described in the rules as \"a private company limited by shares registered in Ireland\", registration number 729804, at 20 Harcourt Street, Dublin 2. The blog dates Coinzilla's start to 9 November 2016, and Coinzilla says \"Crypto Expo Europe named Coinzilla the Best Crypto Traffic Network for 2026\". Its X accoun",
+ "costs": "Entry costs nothing: \"Participation is free. No purchase or payment of any kind is necessary.\" You can even play without an account; you only need one to save a score. Coinzilla says of your email address: \"We do not send marketing email and do not sell or share your address.\" Prizes come as vouchers and digital keys by email, and \"Prizes cannot be exchanged for cash or other goods\". The organizer",
+ "risks": "Age: 18 or older. Employees and contractors of the organizer and its group, and their families, can play but can't win. Excluded countries, as the rules list them: Afghanistan, Algeria, Angola, Armenia, Azerbaijan, Bahrain, Belarus, Benin, Botswana, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Cote d'Ivoire, Democratic Republic of the Congo, Djibo",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/coinzilla/",
+ "checked": "2026-11-23",
+ "slug": "coinzilla",
+ "dossier": "drops/coinzilla.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-03-26 (7911 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 7911,
+  "checked": "2026-11-23T01:31:00"
+ }
+}

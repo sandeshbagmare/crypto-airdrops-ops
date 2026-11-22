@@ -1,0 +1,59 @@
+{
+ "name": "Derivio",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://derivio.xyz",
+ "needs": "",
+ "steps": [
+  "Open derivio.xyz and sign up with email, Google or a Phantom wallet.",
+  "Set a password. \"You'll be shown your Secret Recovery Phrase (seed phrase)\" for the wallet Derivio creates for you. Write it down offline. Warning Derivio says of that phrase: \"Do not share it with anyone. Ever.\" Its docs also warn: \"Scammers may impersonate support staff or offer unsolicited help in DMs.\"",
+  "\"You can deposit SOL directly into your new Derivio wallet.\"",
+  "Trade. Each trade earns points and SOL cashback.",
+  "Optional: share your referral link. People who sign up through it get 10% off fees."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Derivio, an AI trading terminal on Solana, gives points for trades and referrals. No token yet and no word on points since a June snapshot. Steps and risks.",
+ "behind": "Derivio doesn't name its team. ChainCatcher reported in March 2026 that it \"announced the completion of a $6 million financing round, with investors including YZiLabs, CMT Digital, Big Brain VC, Signum Capital, UOB Venture Management, Everstake Capital, and proximity.\" In 2023 it joined the sixth incubation season of Binance Labs, now YZi Labs. Its docs link a CertiK audit from March 2026. Get the",
+ "costs": "Points cost money, because they come only from trading. Fees are high: the starting tier pays 0.95% per trade with 0.05% back, and the top tier pays 0.60% with 0.40% back, since \"Tiers are based on your cumulative trading volume\". On top come Solana priority fees and validator tips, each \"Default: 0.002 SOL\" in the docs. Memecoins can lose most of their value in minutes.",
+ "risks": "No team member or company is named on Derivio's official pages. The current terms couldn't be read because derivio.xyz blocks automated visitors. The 2023 terms said the site \"IS NOT AVAILABLE TO PERSONS OR ENTITIES WHO RESIDE IN, ARE LOCATED IN, ARE INCORPORATED IN, OR HAVE A REGISTERED OFFICE IN THE UNITED STATES OF AMERICA OR CANADA\", excluded sanctioned places, and banned VPNs. The referral pr",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/derivio/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "trading",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-10-01 (1513 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 1513,
+  "checked": "2026-11-23T02:10:21"
+ },
+ "domain_age_days": 1513,
+ "slug": "derivio",
+ "dossier": "drops/derivio.md",
+ "published": "2026-11-23"
+}

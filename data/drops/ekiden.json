@@ -1,0 +1,50 @@
+{
+ "name": "Ekiden",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://app.ekiden.fi",
+ "needs": "",
+ "steps": [
+  "Open app.ekiden.fi , press Connect and sign in with Google or a Canton Console Wallet. Ekiden says: \"Google is the fastest option for a new account. Your Party ID is provisioned during the sign-in flow; no browser extension is required.\"",
+  "Enter your code and accept the terms, including the box that reads \"I acknowledge that I am trading with real money\".",
+  "Fund your account: \"In the app, open Deposit/Withdraw and select EVM to Canton Bridge.\" You'll need ETH for gas, and the deposit arrives as USDCx. Warning Check the Canton recipient before you send. The docs say: \"Transactions sent to a different recipient cannot be reassigned automatically.\"",
+  "Move margin into your trading account and trade. XP shows on the Portfolio page and the leaderboard. Warning Leverage goes up to 20x, and a bad move can wipe out your margin. On 6 October 2026 a faulty update applied funding wrongly and liquidated some accounts."
+ ],
+ "end": "6 Oct",
+ "days": "",
+ "pool": "",
+ "what": "Ekiden is an invite-only perps exchange on Canton that pays XP for trading fees. No token is confirmed, and a 6 Oct bug liquidated some accounts.",
+ "behind": "The only named person is Vitali Dervoed, its founder and chief executive. Yellow reported that \"Dervoed's background spans capital markets and roles tied to Neon EVM, RockawayX and Mango Markets.\" In May 2026, according to Yellow, \"Ekiden has closed a $2 million seed round to develop trading infrastructure aimed at professional and algorithmic participants in on-chain derivatives.\" It added: \"The ",
+ "costs": "Taking part costs money: XP comes only from trading, and every trade pays a fee. While mainnet is closed, \"we lower the fees, making them as low as 0.01% for the maker, 0.0350% for the taker, which corresponds to the standard $10M+ tier.\" The normal schedule starts at 0.02% maker and 0.05% taker. Ekiden's September recap says \"deposits and withdrawals moved to a flat 1 USDC.\" It also covers Canton",
+ "risks": "There are no full terms of use, no privacy policy and no list of excluded countries. The app blocks some locations, including sanctioned ones, without naming them. The only terms text sits in the sign-in window: \"This Interface and the Ekiden Protocol are made available by the Ekiden Holding Foundation\". It doesn't say where that foundation is. After the 6 October bug Ekiden wrote: \"We are reviewi",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/ekiden/",
+ "checked": "2026-11-23",
+ "slug": "ekiden",
+ "dossier": "drops/ekiden.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-04 (628 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 628,
+  "checked": "2026-11-23T01:31:32"
+ }
+}

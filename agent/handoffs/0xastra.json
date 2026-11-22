@@ -1,0 +1,24 @@
+{
+ "project": "0xAstra",
+ "official_url": "https://0xastra.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/0xastra",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the homepage Go to the 0xAstra homepage to read the game overview, the two game sections and the Season 1 banner.",
+  "2 Step 2 : Launch the game Use the launch button, which leads to the game page , to open the strategy game itself.",
+  "3 Step 3 : Look at the collect page Open the collect page , which the homepage links through its collect button. The homepage does not explain what the collect page does.",
+  "4 Step 4 : Find the community buttons The homepage shows Twitter and Discord buttons under the Season 1 banner."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://0xastra.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

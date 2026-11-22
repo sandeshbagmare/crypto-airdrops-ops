@@ -1,0 +1,25 @@
+{
+ "project": "EVAA Protocol",
+ "official_url": "https://app.evaa.finance",
+ "source_url": "https://www.airdropstop.com/airdrops/evaa-protocol",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the web app Go to the EVAA web app to use the lending protocol from a browser.",
+  "2 Step 2 : Or use it in Telegram EVAA also runs as a Telegram Mini App, reached from the Open in Telegram button on the EVAA homepage .",
+  "3 Step 3 : Use a TON wallet The homepage says EVAA supports TON Space, Telegram&#x27;s non-custodial wallet, so you can manage assets without leaving Telegram.",
+  "4 Step 4 : Choose to deposit or borrow Pick an asset the app supports and either deposit it to earn interest or borrow against what you hold.",
+  "5 Step 5 : Look at the EVAA Card Open the EVAA Card page if you want to see how spending against a deposit works."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.evaa.finance",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

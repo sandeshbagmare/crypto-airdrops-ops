@@ -1,0 +1,28 @@
+{
+ "project": "Jupiter",
+ "official_url": "https://docs.jup.ag/user-docs/more/jup-token",
+ "source_url": "https://99airdrops.com/airdrops/jupiter/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Get JUP into a Solana wallet. Check the token address against the one in Jupiter's docs .",
+  "Connect the wallet at vote.jup.ag , enter an amount and click Stake. Keep about 0.01 SOL for gas.",
+  "Stay staked. Your ASR share depends on how much you stake and for how long.",
+  "When claims open, connect the same wallet at jup.ag/rewards and claim. Warning ASR is not sent automatically. Rewards you don't claim in time return to the community treasury.",
+  "Follow @jup_dao for new proposals, including any vote on Jupuary."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.jup.ag/user-docs/more/jup-token",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Warning Staking means buying and holding JUP, and its price can fall while you hold it. Unstaking takes 7 days. Swaps in the default Ultra mode cost 0% to 0.5% depending on the pair, and Manual mode swaps carry no Jupiter commission.",
+ "risks": "No Jupuary is scheduled, and the proposal doesn't say when the DAO will vote again. It also doesn't promise that activity after the preserved snapshot will count. Jupiter's terms of use bar wallets in the United States, Singapore, Cuba, Iran, North Korea and other listed or sanctioned places, and prohibit using a VPN to get around the ban.",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,26 @@
+{
+ "project": "NUVA Finance",
+ "official_url": "https://app.nuva.finance/en/vaults",
+ "source_url": "https://www.airdropstop.com/airdrops/nuva-finance",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the NUVA vault app Go to the HOME vault page on the vault app, or start from the Start Earning button on the NUVA homepage .",
+  "2 Step 2 : Connect a wallet that holds stablecoins Use the Connect Wallet option on the vault page with a wallet that holds USDC or another stablecoin. NUVA screens deposits for AML and blocks restricted regions.",
+  "3 Step 3 : Deposit USDC into a vault Choose a vault and deposit USDC. In return you get vault tokens for your share of it, and the HOME vault has no minimum deposit. The HOME vault page showed a $12M cap with about $1.95M remaining on 28 October 2026, so check the remaining capacity first.",
+  "4 Step 4 : Let points accrue after depositing NUVA Points accrue in parallel with the vault&#x27;s yield after your deposit. The vault&#x27;s yield lifts the token price, so there is nothing to claim.",
+  "5 Step 5 : Withdraw when you choose to Exit by swapping the vault tokens back into stablecoins whenever you like. A HOME withdrawal pays USDC within 3 US business days."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.nuva.finance/en/vaults",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

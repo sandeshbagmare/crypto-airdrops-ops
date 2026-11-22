@@ -1,0 +1,23 @@
+{
+ "project": "Hotstuff",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/hotstuff",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Deadline Inferred No campaign deadline has been verified. Sources: hotstuff-testnet, hotstuff-expeditions, hotstuff-docs Recheck when: An official campaign source publishes or changes a deadline.",
+  "Verdict Inferred Watch for clearer official reward terms; test only with assets you can treat as test assets. Sources: hotstuff-website, hotstuff-testnet, hotstuff-expeditions Recheck when: New evidence changes the reward state, cost, eligibility, or risk.",
+  "Project Inferred Hotstuff is a DeFi chain and trade app. It says one margin account can give users crypto and tokenized market trades. Sources: hotstuff-website, hotstuff-testnet, hotstuff-expeditions Recheck when: The project changes its product, control model, or live status."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/hotstuff",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "3 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "You can view the testnet with no named cash deposit. Do not send real funds or use leverage for a possible reward. Real trades can lose funds and need wallet rights.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

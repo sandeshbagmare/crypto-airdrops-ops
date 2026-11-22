@@ -1,0 +1,29 @@
+{
+ "project": "Papertrade",
+ "official_url": "https://papertrade.xyz",
+ "source_url": "https://99airdrops.com/airdrops/papertrade/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open papertrade.xyz and check the address in your browser. Several accounts on X imitate the project.",
+  "Have an EVM wallet and at least 10 USDC on Hyperliquid, HyperEVM, Ethereum, Arbitrum or Solana.",
+  "Press Connect and sign once. The signature registers a session key, so later trades don't open your wallet again.",
+  "Press Deposit and follow the route the app offers. At least 10 USDC has to arrive after fees, and a first deposit also pays a 1 USDC activation fee. Warning Deposit only through the app. On sending tokens straight to your deposit address, the docs say: \"a raw ERC-20 transfer to the proxy is not monitored.\"",
+  "Pick BTC or ETH, long or short, your margin and your leverage, then press Buy or Sell. Warning At 1000x the docs say \"liquidation fires after a move of about 0.052%\", and a liquidation \"forfeits the full isolated margin\". That is your whole stake on the trade.",
+  "Withdraw when you want. You can take out any balance that isn't committed as margin, with a minimum of 10 USDC."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://papertrade.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Papertrade charges no fee on trade size, no spread and no funding, but trading there isn't free. The docs say the protocol \"takes its cut from profitable closes\". A winning trade loses a small price buffer, then a haircut on the gain, then \"A 2% win fee on the gain after impact.\" At the launch settings, \"a winning close never keeps more than 90% of its raw gain before the win fee\", and on a 0.1% m",
+ "risks": "The pool starts at $0 and is the other side of every trade. If it can't pay a winner in full, \"the unpaid portion of the win goes into a FIFO queue\". Your margin comes back at once, but the docs set no limit on how long the profit can wait. The developers are pseudonymous. Bankless names them as Jez and Blurr, and no company, legal name or investor is published. No audit report is published, and t",
+ "created": "2026-11-23",
+ "status": "open"
+}

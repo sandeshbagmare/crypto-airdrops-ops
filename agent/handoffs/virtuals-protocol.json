@@ -1,0 +1,25 @@
+{
+ "project": "Virtuals Protocol",
+ "official_url": "https://app.virtuals.io/dashboard",
+ "source_url": "https://www.airdropstop.com/airdrops/virtuals-protocol",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Virtuals dashboard Go to the Virtuals dashboard , where your veVIRTUAL, locks and airdrops are shown.",
+  "2 Step 2 : Connect a wallet that holds VIRTUAL on Base Staking is currently only supported on Base, so the VIRTUAL you stake needs to be on that network.",
+  "3 Step 3 : Stake VIRTUAL to receive veVIRTUAL Use the Stake button on the dashboard. Locking for longer earns more veVIRTUAL.",
+  "4 Step 4 : Check the airdrops list The dashboard lists each agent airdrop with its date and your allocation, for example Degen and Siren on 27 October 2026."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.virtuals.io/dashboard",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

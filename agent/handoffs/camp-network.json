@@ -1,0 +1,25 @@
+{
+ "project": "Camp Network",
+ "official_url": "https://www.campnetwork.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/camp-network",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Camp Network site Start at the Camp Network homepage , which describes the project as an Autonomous IP Layer and states that its mainnet is live.",
+  "2 Step 2 : Explore the mainnet The Explore Mainnet button on the homepage links to the Camp portal .",
+  "3 Step 3 : Read the technical docs Open the Camp docs introduction, which links onward to a page titled How Camp Works .",
+  "4 Step 4 : Read the whitepaper The project links its whitepaper from the docs introduction, covering the Autonomous IP Layer in more detail.",
+  "5 Step 5 : Follow the project&#x27;s updates Read the Camp Network blog for announcements, or join the Camp Network Discord , which the project invites readers to join."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.campnetwork.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

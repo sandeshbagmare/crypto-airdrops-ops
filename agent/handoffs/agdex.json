@@ -1,0 +1,24 @@
+{
+ "project": "AGDEX",
+ "official_url": "https://agdex.io/trading-campaign",
+ "source_url": "https://www.airdropstop.com/airdrops/agdex",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Trading Campaign page Go to the AGDEX Trading Campaign page, which shows Season 4, its leaderboard and the total rewards.",
+  "2 Step 2 : Connect a wallet and trade Use the AGDEX trade page to trade from a Web3 wallet or a social login. The leaderboard ranks addresses by volume.",
+  "3 Step 3 : Hold AGLP to earn AGPoints The AGDEX pool page is where the AGPoints page sends you for AGLP, which earns 1 point daily for every $1 worth held.",
+  "4 Step 4 : Track your AGPoints Open the AGPoints page to see your points and your individual and team rankings."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://agdex.io/trading-campaign",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

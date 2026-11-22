@@ -1,0 +1,25 @@
+{
+ "project": "Sweep Finance",
+ "official_url": "https://sweep.finance/airdrop",
+ "source_url": "https://www.airdropstop.com/airdrops/sweep-finance",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Sweep Finance airdrop page Go to the airdrop page , which shows the Sweepbird game, the Tasks tab and the Leaderboard. The homepage button labelled Join the Airdrop leads here.",
+  "2 Step 2 : Verify your email and connect your accounts Complete Email Verification, Connect X, Connect Google and Connect Wallet, which are worth 200 XP each. Enabling notifications also pays 200 XP.",
+  "3 Step 3 : Play Sweepbird and watch the leaderboard Start a round on the airdrop page and aim for a high rank before the reset timer runs out. The top three ranks are shown paying 2K, 1K and 400 XP.",
+  "4 Step 4 : Finish the social tasks Follow the project on X, join its Telegram and Discord, and take the other follow tasks, which are worth 100 XP each. Posting with the #SWEEP24h tag is worth 150 XP.",
+  "5 Step 5 : Pick the larger optional tasks Bigger XP rewards sit with KYC Verification (2.5K XP), game volume targets, SWEEP purchase targets and friend invites. Invite 1 Friend pays 2.5K XP."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://sweep.finance/airdrop",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

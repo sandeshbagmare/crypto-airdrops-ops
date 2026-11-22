@@ -1,0 +1,25 @@
+{
+ "project": "Delpho",
+ "official_url": "https://prism.delpho.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/delpho",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Prism Pass site Go to the Delpho Prism Pass site and use the Connect button to link your wallet and view your pass.",
+  "2 Step 2 : Check whether you joined the previous phase The site says wallets from the previous phase are eligible for the Soulbound Token claim. If that is you, use the claim button on the banner.",
+  "3 Step 3 : Use Hyperliquid and HyperEVM Trade spot or perps on Hyperliquid and use the listed HyperEVM protocols for protocol usage, liquidity provision and lending. Activity from the last 90 days counts toward your score.",
+  "4 Step 4 : Watch your score and tier Your score and tier refresh every 24 hours until the snapshot. Compare your adjusted score with the Bronze, Silver, Gold and Obsidian ranges on the site.",
+  "5 Step 5 : Mint the pass when it opens After the snapshot, the FAQ says a mint window begins. Qualifying wallets can then create the Prism Pass onchain as an SBT."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://prism.delpho.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "Defi App",
+ "official_url": "https://app.defi.app",
+ "source_url": "https://www.airdropstop.com/airdrops/defi-app",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Create a Defi App account Open Defi App and sign up with an email, a social login or an external wallet. The account setup guide walks through it.",
+  "2 Step 2 : Fund your account Move crypto into the account or buy crypto with fiat, following the funding guide .",
+  "3 Step 3 : Use the app The app offers token swaps , perpetuals trading and yield strategies . Defi App has not listed which of these actions earn Season 2 XP.",
+  "4 Step 4 : Stake HOME to multiply XP Staking HOME multiplies the XP you gain in Season 2. The tokenomics page covers the token.",
+  "5 Step 5 : Follow the season The help center&#x27;s Seasons page shows which season is current and what it offers."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.defi.app",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,28 @@
+{
+ "project": "Dexari",
+ "official_url": "https://dexari.com",
+ "source_url": "https://99airdrops.com/airdrops/dexari/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Download the app for iOS or Android from dexari.com .",
+  "Create an account with an email code or a Google or Apple login, then set up a passkey. Dexari says this takes no KYC or personal data.",
+  "Fund the wallet. You can receive crypto from another wallet, or buy it through MoonPay, which may ask you to complete its own KYC.",
+  "Add USDC to your trading account and trade spot or perps in the app. Warning With up to 40x leverage, a small move against you can liquidate a position.",
+  "Check your points in the Profile section. Distributions arrive on Wednesdays."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://dexari.com",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The fee page lists 0.10% per trade on perps and spot at the entry tier. At the top tier that falls to 0.01% on perps and 0.02% on spot. Tiers follow your rolling 30-day volume, and the page says Hyperliquid's own fees may also apply. Moving funds from the perps account back to the main wallet costs Hyperliquid's $1 withdrawal fee. The Fees page of the Dexari Help Center on 18 October 2026, with tr",
+ "risks": "Dexari says some jurisdictions are restricted and that perpetuals may be unavailable in certain regions. Its FAQ doesn't list them. The terms say points programs may not be available in all jurisdictions. Dexari can withhold or revoke rewards for fraud or abuse. No token is announced, and the points page says nothing about converting points.",
+ "created": "2026-11-23",
+ "status": "open"
+}

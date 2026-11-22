@@ -1,0 +1,24 @@
+{
+ "project": "Technotainment",
+ "official_url": "https://hub.technotainment.com",
+ "source_url": "https://www.airdropstop.com/airdrops/technotainment-and-reg",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Technotainment rewards hub Go to the Technotainment rewards hub , where the $1,000,000 Airdrop Program is listed.",
+  "2 Step 2 : Connect a wallet Connect your wallet on the hub and sign in. Signing in is what brings up the points and rewards history for that wallet.",
+  "3 Step 3 : Open the quests section Open the Technotainment Quests section and complete the tasks it shows. None were visible when this page was checked, and the project has not published tasks or point values.",
+  "4 Step 4 : Check the leaderboard and your history Follow the leaderboard the hub offers, and review the history section for the points and rewards shown for your wallet."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://hub.technotainment.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

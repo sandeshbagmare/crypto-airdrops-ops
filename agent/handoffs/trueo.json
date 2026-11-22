@@ -1,0 +1,29 @@
+{
+ "project": "Trueo",
+ "official_url": "https://trueo.com",
+ "source_url": "https://99airdrops.com/airdrops/trueo/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open trueo.com and connect a wallet you control. Signing in is a message signature and costs no gas.",
+  "Get TYD with USDC on the app's TYD page.",
+  "Pick one of the activities the app names: trade or propose a market, fund someone else's proposal, provide liquidity in a market, or stake TRUE.",
+  "If you propose a market, keep to events that resolve before 31 January 2027, as the page asks.",
+  "Follow @Trueo_ on X for the Ethereum launch and any reward terms. TRUE holders will be able to migrate, and Trueo says: \"There will be no migration cut-off.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://trueo.com",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing here is free. Positions are bought with TYD, and the losing side of a market ends up worthless. A 5% launch fee is charged when a funded proposal reaches its threshold and becomes a market. The proposal page shows the deployment fee and the early-withdrawal fee as blank placeholders, and the docs don't state the per-trade fee. You also pay network gas. Trueo's docs page on proposal funding",
+ "risks": "The terms state: \"All transactions on the blockchain are irreversible, final, and without refunds.\" The move to Ethereum is unfinished, so contracts, rewards and markets may change. Check the current page before you deposit. Outcomes are decided in stages by a council, TRUE holders and randomly picked attesters, and a disputed result can cost a resolver or disputer their bond. The terms can be cha",
+ "created": "2026-11-23",
+ "status": "open"
+}

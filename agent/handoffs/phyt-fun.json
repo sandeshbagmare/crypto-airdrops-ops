@@ -1,0 +1,25 @@
+{
+ "project": "Phyt.fun",
+ "official_url": "https://phyt.fun",
+ "source_url": "https://www.airdropstop.com/airdrops/phyt-fun",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Phyt site Visit phyt.fun , which carries the PHYT | SOON title and the Run, Bet, Earn headings. The homepage links no app yet.",
+  "2 Step 2 : Join the Discord Use the Phyt Discord invite , the link the homepage gives for the waitlist.",
+  "3 Step 3 : Read the whitepaper Open the whitepaper to see how Runners, Managers, Cards and Packs work.",
+  "4 Step 4 : Choose a role The whitepaper says anyone can be a Runner after answering some onboarding fitness questions, while Managers buy Cards with Base ETH.",
+  "5 Step 5 : Follow the project on X Follow Phytdotfun on X , the account linked from the homepage, for the project&#x27;s own updates."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://phyt.fun",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,24 @@
+{
+ "project": "Drake",
+ "official_url": "https://drake.exchange/earn",
+ "source_url": "https://www.airdropstop.com/airdrops/drake",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Earn page Go to the Drake Earn page and find the AUSD DLP Vault, which carries the &quot;2x Points&quot; tag.",
+  "2 Step 2 : Connect a wallet Connect your wallet on the app. The Earn page asks you to connect a wallet before it shows your positions and earnings.",
+  "3 Step 3 : Deposit AUSD into the vault Deposit AUSD into the vault and you receive dAUSD, a share of the vault. Read how the vault works in the Drake docs first, since the vault takes the other side of trades.",
+  "4 Step 4 : Look at the Leaderboard and Rewards tabs Open the Leaderboard and the Rewards tab from the app menu to see what they show."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://drake.exchange/earn",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

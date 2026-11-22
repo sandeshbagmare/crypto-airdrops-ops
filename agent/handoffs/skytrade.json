@@ -1,0 +1,24 @@
+{
+ "project": "SkyTrade",
+ "official_url": "https://www.genesis.sky.trade",
+ "source_url": "https://www.airdropstop.com/airdrops/skytrade",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Hold a SkyTrade Genesis NFT Staking applies to SkyTrade Genesis NFTs, so the wallet you use needs to hold one. The Genesis site points people without an NFT to the skytrade_genesis collection on MagicEden to buy one.",
+  "2 Step 2 : Connect your wallet on the Genesis site Open the SkyTrade Genesis site and connect the wallet that holds your NFT.",
+  "3 Step 3 : Stake your Genesis NFTs Stake the NFTs from the connected wallet on the Genesis site so they start earning Sky Points.",
+  "4 Step 4 : Keep them staked to build Sky Points Points grow the longer an NFT stays staked. Follow SkyTrade on X for any update on the program."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.genesis.sky.trade",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

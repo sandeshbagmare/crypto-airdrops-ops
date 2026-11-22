@@ -1,0 +1,28 @@
+{
+ "project": "Xyper",
+ "official_url": "https://xyper.market/points",
+ "source_url": "https://99airdrops.com/airdrops/xyper/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open xyper.market/points . Type the address yourself rather than following links from replies or DMs.",
+  "Link and verify your X account. One account per person: \"One verified X identity per person. One post or referred person can earn points only once.\"",
+  "Do the starter quests: follow @xypermarket on X, and if you like, confirm the newsletter, start @xyper_bot and join the Telegram chat.",
+  "Each week, publish the X quest post (a quote post or a #XyperPoints workflow post) from your verified account.",
+  "Optional: open the campaigns page, join a live brief, post on X, submit the post link and wait for the AI score. Approved posts claim a WUNIT0 reward on Unit Zero."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://xyper.market/points",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The points quests are free, and the docs say \"participating in campaigns is free\". Claiming a campaign reward on chain costs gas: \"Onchain approval and claiming require a small UNIT0 balance for gas.\" Xyper's live config shows it sponsors some Unit Zero gas. The cash rewards are tiny. The Xyper Points campaign holds 50,000 WUNIT0, which Xyper's own data valued at about $91, shared by 95 participan",
+ "risks": "You must be 18 or older: \"You must be at least 18 years old, have legal capacity to agree to these Terms\". No excluded countries are listed. The terms only say: \"Do not use the Service where prohibited.\" No KYC or VPN rule is mentioned. Extra accounts are banned, including \"multiple accounts or wallets intended to evade limits or receive duplicate rewards.\" Points can be taken back: \"Fraudulent re",
+ "created": "2026-11-23",
+ "status": "open"
+}

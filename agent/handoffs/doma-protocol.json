@@ -1,0 +1,28 @@
+{
+ "project": "Doma Protocol",
+ "official_url": "https://app.doma.xyz",
+ "source_url": "https://99airdrops.com/airdrops/doma-protocol/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open app.doma.xyz and sign in. A Google or email login creates a Doma wallet, which Doma describes as gasless. You can connect your own wallet instead.",
+  "Fund the wallet with USDC.e on Doma's chain. The Swap page bridges from Ethereum, Base, Arbitrum, Solana and other chains, or takes a card payment.",
+  "Buy or sell domain tokens . Your points follow the fees you pay. Warning You pay fees to earn points that have no stated payoff. A domain token is a stake in a single domain name, and the app warns that prices can fall and that liquidity varies.",
+  "Check the quest board and do the quests that fit your budget. Holding one domain token unlocks the daily check-in.",
+  "Track your points, weekly rank and level on the leaderboard ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.doma.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Signing up to the app and to Frontier is free. Earning leaderboard points costs money, because points are worked out from fees. Doma charges 0.50% while a token is still on its bonding curve and 0.10% after that, plus the liquidity pool's own fee, commonly 0.05% to 0.30%. With your own wallet you also pay gas in ETH. Doma publishes no minimum trade size. The quests we saw named amounts between a $",
+ "risks": "The terms say points have no cash value and can't be transferred. Doma can change, suspend or end the program, or expire points already awarded, at any time without notice. Frontier Points only set your place in the queue. A proposed extension may never be approved, and no registration is guaranteed. If your order does complete, you pay your full posted price even when the registry price is lower.",
+ "created": "2026-11-23",
+ "status": "open"
+}

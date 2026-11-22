@@ -1,0 +1,25 @@
+{
+ "project": "Chaos Labs",
+ "official_url": "https://chaoslabs.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/chaos-labs",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Chaos Labs site Go to the Chaos Labs home page to see the AI products and customers the company describes.",
+  "2 Step 2 : Read about Chaos AI Open the Introducing Chaos AI post to see how Chaos Labs describes Chaos AI.",
+  "3 Step 3 : Open the Chaos AI sign-up page Go to the Chaos AI sign-up page , which presents the waitlist.",
+  "4 Step 4 : Join the waitlist Enter your email on the sign-up page, or continue with Google or X, to join the waitlist. The page also mentions linking a crypto wallet.",
+  "5 Step 5 : Browse the research and news Read the research and news pages for what Chaos Labs publishes about its products."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://chaoslabs.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

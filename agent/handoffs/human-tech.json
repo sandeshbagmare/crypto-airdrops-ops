@@ -1,0 +1,29 @@
+{
+ "project": "human.tech",
+ "official_url": "https://app.passport.xyz",
+ "source_url": "https://99airdrops.com/airdrops/human-tech/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Use only app.passport.xyz and manifest.human.tech . Warning Never trust a HUMN link from a reply or direct message, and never share a seed phrase. The terms say: \"you should never share your wallet credentials or seed phrase with anyone\".",
+  "In Passport, connect a wallet and collect Stamps until your Unique Humanity Score reaches 20. Stick to one wallet, since several per person aren't allowed.",
+  "Open The Covenant with that same wallet and press Let's Begin.",
+  "Read the ten principles and sign the declaration. With a score of 20 or more, the app should recognise you. Official pages disagree on whether signing or verifying comes first.",
+  "Check HUMN Points Total in the account menu. It lists Season 1 and Season 2 points separately.",
+  "Follow @humntech on X, t.me/humantechofficial and the human.tech blog for token news. Nothing else is required."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.passport.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Signing has no stated fee, and no page says whether it needs gas. Reaching a score of 20 can be free: \"there is always a no-new-cost path to a passing score\". If your wallet has real history, the ETH Activity or NFT Stamp alone can get you there. Newer wallets need several free Stamps or a paid check. Government ID is \"$5 + gas\", and a Biometrics Stamp is \"~$5 for the verification fee\". Identity S",
+ "risks": "Excluded: no country list is published. The terms bar sanctioned people and anyone tied to places under comprehensive US sanctions, and warn: \"One or more of our Products may not be available or appropriate for use in your jurisdiction.\" You must be of legal age. The program has gone quiet. All 13 blog posts after 18 April 2026, including the second-quarter report, leave out HUMN and its points. W",
+ "created": "2026-11-23",
+ "status": "open"
+}

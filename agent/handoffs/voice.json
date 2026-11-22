@@ -1,0 +1,27 @@
+{
+ "project": "VOICE",
+ "official_url": "https://voice.cc/socialcamp",
+ "source_url": "https://99airdrops.com/airdrops/voice/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Sign in to Social Camp .",
+  "Clear the Core tasks, then the Daily ones. Most are posts, quotes, searches and bookmarks on X, plus joining the VOICE Discord. Warning Most tasks are promotional posts from your own X account. Bots, multiple accounts and referral farming can cost you your points.",
+  "Vote in the open polls. VOICE says every vote, quest and invite counts toward your next tier.",
+  "If you hold a pass, press the upgrade button on it each time you reach the next tier's CLOUT and task level. VOICE called the days before the snapshot the \"last chance to stack CLOUT and upgrade your Voicy Pass on Social Camp before the snapshot\"."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://voice.cc/socialcamp",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Social Camp is free. The pass was free too, apart from a little SOL for the network fee, but its mint has closed. The VOICY GENESIS mint, at 1 SOL, closed on 19 October 2026, so no VOICE mint was open when we checked on 23 October. Once the main app launches, voting will require holding $VOICE. A partner campaign page in Social Camp, shared on VOICE's X account on 30 September 2026, with Tasks and",
+ "risks": "VOICE hasn't published the airdrop size, the snapshot date or how CLOUT turns into tokens. New users can't get a pass any more, and VOICE hasn't said whether anyone without one shares in the airdrop. Its terms say points and tiers give no right to tokens, and rewards can be changed, reduced or cancelled. You must be at least 18, and VOICE can block users in restricted or sanctioned jurisdictions.",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,26 @@
+{
+ "project": "Quip Network",
+ "official_url": "https://points.quip.network",
+ "source_url": "https://www.airdropstop.com/airdrops/quip-network",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Quip Points site Go to the Quip Points site , which shows the campaign as live, and sign in to see your points and the leaderboard.",
+  "2 Step 2 : Link an X account and follow @quipnetwork The Quip wallet&#x27;s parent wallet must be linked to an X account, and that account must follow @quipnetwork. Both are listed as prerequisites for every earning route.",
+  "3 Step 3 : Sign in to your Quip account daily Sign in at the Quip account app . Each sign-in earns 1 QP, up to 5 QP a day.",
+  "4 Step 4 : Swap on QuipSwap Trade on the order book at QuipSwap . Each swap earns 5 points when the traded value is above $0.01 and the swap settles on chain, up to 15 swaps a day. Points can take up to 1 hour to appear.",
+  "5 Step 5 : Run a node Set up a testnet node using the node guide . Points are paid for qblocks mined and blocks won, up to 2,000 QP a week plus 20 points per qblock won.",
+  "6 Step 6 : Refer new users Take your referral link from the Quip Points site . You earn points for each person who joins through it and creates an account."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://points.quip.network",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

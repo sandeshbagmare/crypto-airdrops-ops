@@ -1,0 +1,28 @@
+{
+ "project": "RISEx",
+ "official_url": "https://www.rise.trade",
+ "source_url": "https://99airdrops.com/airdrops/risex/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Get an invite code. RISEx is in gated mainnet, and codes come from existing traders, the team or the waitlist referral leaderboard.",
+  "Go to rise.trade , click Trade Now and sign in with Google or an EVM wallet.",
+  "Enter the code, enable trading and switch to the RISE network.",
+  "Deposit USDC from your wallet or to a deposit address.",
+  "Trade. Your balance updates after each weekly drop on the points page ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.rise.trade",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "At the base fee tier takers pay 0.03% and makers 0.01%, with discounts at higher 14-day volume. The Fees page of the RISE docs on 18 October 2026, with a fee schedule by 14-day volume tier. Source: RISE docs Warning Because fees and slippage count toward points, more points generally means paying more to trade. Leveraged positions can be liquidated, and losses can exceed what the points turn out t",
+ "risks": "The terms bar people in the US, the UK, Canada, Russia, Vietnam, Venezuela and sanctioned countries, among others. From a restricted location the app allows withdrawals only. The audits are now published. The FAQ says: \"Yes. The RISEx exchange contracts were reviewed by Cantina, and the XLP Vault was audited by yAudit.\" An audit doesn't rule out bugs. The terms allow KYC or source-of-funds checks.",
+ "created": "2026-11-23",
+ "status": "open"
+}

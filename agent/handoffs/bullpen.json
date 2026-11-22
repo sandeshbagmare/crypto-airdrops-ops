@@ -1,0 +1,27 @@
+{
+ "project": "Bullpen",
+ "official_url": "https://app.bullpen.fi",
+ "source_url": "https://99airdrops.com/airdrops/bullpen/",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "Open app.bullpen.fi and sign up with a wallet, X, Google or email.",
+  "Deposit. The FAQ lists crypto transfers from any wallet or exchange, card payments and bank transfers.",
+  "Trade. Perps, Hyperliquid spot, Solana tokens and Polymarket positions all count toward points. Warning At 50x leverage, a 2% move against you wipes out the margin.",
+  "Create a referral link at app.bullpen.fi/referrals if you plan to invite other traders."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.bullpen.fi",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "On Hyperliquid perps Bullpen charges 3.5 basis points to makers and 4.5 to takers at the lowest tier, on top of Hyperliquid's own fees. Tiers follow 30-day volume. Hyperliquid spot buys carry no Bullpen fee, and spot sells cost 10 basis points. Solana swap fees depend on the route and are shown before you trade.",
+ "risks": "The terms bar nationals and residents of Cuba, Iran, North Korea, Sudan, Syria and other embargoed countries, along with anyone on a sanctions list. Users must have reached the age of majority where they live. Points have no stated value, and no token exists for them to convert into. The terms state that Bullpen is not registered or licensed by the CFTC, the SEC or any other financial regulator.",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,26 @@
+{
+ "project": "MovitOn",
+ "official_url": "https://hub.moviton.com",
+ "source_url": "https://www.airdropstop.com/airdrops/moviton",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the MovitOn Loyalty Program Go to the MovitOn rewards site , where the program runs under the line &quot;Complete Tasks &gt; Earn Move Points &gt; Get Airdrop Eligibility&quot;.",
+  "2 Step 2 : Connect a wallet Link your wallet through the rewards site. Your points history and rewards are shown only after a wallet is connected and you sign in.",
+  "3 Step 3 : Complete tasks to earn Move Points The program runs on the sequence &quot;Complete Tasks &gt; Earn Move Points &gt; Get Airdrop Eligibility&quot;. As of 28 October 2026 the rewards site does not list specific tasks.",
+  "4 Step 4 : Check your points history Come back to the rewards site to review the points and rewards credited to your wallet.",
+  "5 Step 5 : Follow MovitOn for TGE and claim news MovitOn has given no snapshot or claim timing so far. Watch its Telegram channel and X account for announcements."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://hub.moviton.com",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

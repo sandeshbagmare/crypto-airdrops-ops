@@ -1,0 +1,24 @@
+{
+ "project": "Curvance",
+ "official_url": "https://app.curvance.com/bytes",
+ "source_url": "https://www.airdropstop.com/airdrops/curvance",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Bytes page Go to the Bytes page of the Curvance app. It has Overview, Ranks, Leaderboard and Referral tabs.",
+  "2 Step 2 : Connect a wallet Press Connect wallet on the page. The page asks for this before it shows your referral code and lets you start earning Bytes. Until then, Your Bytes reads 0.",
+  "3 Step 3 : Check what earns Bytes The Bytes page does not list which actions earn Bytes. The Curvance docs describe the product the page belongs to.",
+  "4 Step 4 : Open Ranks and Leaderboard The Bytes page has Ranks and Leaderboard tabs, and it invites visitors to connect a wallet to track their ranking and rewards."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.curvance.com/bytes",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

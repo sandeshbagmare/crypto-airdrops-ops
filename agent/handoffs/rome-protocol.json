@@ -1,0 +1,30 @@
+{
+ "project": "Rome Protocol",
+ "official_url": "https://civitas.mainnet.romeprotocol.xyz/points",
+ "source_url": "https://99airdrops.com/airdrops/rome-protocol/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open civitas.mainnet.romeprotocol.xyz/points and paste an EVM or Solana address, or connect a wallet. Up to 20 wallets can be combined.",
+  "Practise free on Hadrian, the testnet, with test USDC from Circle's faucet, bridged in. It doesn't add to mainnet Laurels.",
+  "Add Rubicon to MetaMask by hand: chain ID 7531, RPC https://rubicon.mainnet.romeprotocol.xyz/, symbol USDC. Rome warns: \"Every transaction on Rubicon spends real USDC.\"",
+  "Fund it with the mainnet Rome Bridge : USDC over CCTP from Ethereum, Base, Arbitrum, Polygon, Avalanche, Monad or OP, or SOL and USDC from a Solana wallet. \"There is no faucet.\" The transfer itself counts.",
+  "Use Portus : \"Lend USDC in a Kamino market you choose and withdraw to the same wallet.\" Warning Portus puts your USDC into a lending market on Solana, where a contract bug or market stress can cost you part of it. Lend only what you can afford to lose.",
+  "If you build or promote, sign in to Arena with a wallet or email and pick a role. Ambassador posts on X must carry your Arena code. This route is free.",
+  "Treat the Imperia NFT as optional: \"Holding a Rome NFT does not create a right to Laurels, a bonus, a grant or a distribution.\" If you buy, use the link on rome.builders/imperia , because Rome says \"we never DM links\"."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://civitas.mainnet.romeprotocol.xyz/points",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Looking up Laurels and joining Arena are free. Everything counted on mainnet costs gas in real USDC, at a price the docs put at roughly ten times Hadrian's. They advise: \"Fund at least 0.5 USDC of gas; 1 USDC leaves comfortable headroom.\" For builders, a first contract deploy \"costs about 1.5 USDC at that price\". Bridging in also costs gas on the source chain, and Rome publishes no bridge fee. Imp",
+ "risks": "Nothing is owed: \"Laurels give you no right to tokens, payment, a grant or any other benefit.\" \"Rome alone decides whether to make a distribution, who is eligible, the amount and the conditions.\" KYC: \"Identity verification will be required at claim.\" Rome hasn't named the provider. Rome \"may change, suspend or end Civitas, Arena or any programme they record.\" \"You must be an adult with legal capa",
+ "created": "2026-11-23",
+ "status": "open"
+}

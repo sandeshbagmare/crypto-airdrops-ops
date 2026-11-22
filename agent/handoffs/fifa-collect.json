@@ -1,0 +1,24 @@
+{
+ "project": "FIFA Collect",
+ "official_url": "https://collect.fifa.com/signup",
+ "source_url": "https://www.airdropstop.com/airdrops/fifa-collect",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Create a FIFA ID account Sign up on the FIFA Collect sign-up page with an email and password. New accounts are told to check their email to claim a $5 welcome bonus.",
+  "2 Step 2 : Collect from an active drop Packs are paid: the drops page lists prices, for example US$9.99 for the Colo-Colo - Eterno Campeón drop. One drop, Defense Miracles, shows a price of US$0.00 with 59 of 60 claimed.",
+  "3 Step 3 : Join an open Challenge Open the Challenges page , choose a challenge such as a club&#x27;s Badge of Completion, and collect the required items to earn points.",
+  "4 Step 4 : Spend redemption points Visit the Redemption Center to use redemption points on limited edition packs."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://collect.fifa.com/signup",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

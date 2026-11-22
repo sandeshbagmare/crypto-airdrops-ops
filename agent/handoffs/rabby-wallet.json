@@ -1,0 +1,25 @@
+{
+ "project": "Rabby Wallet",
+ "official_url": "https://rabby.io/points",
+ "source_url": "https://www.airdropstop.com/airdrops/rabby-wallet",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Rabby Points page Go to the Rabby Points page , which opens with the invitation to Rabby Points and two routes in: browser extension or mobile beta.",
+  "2 Step 2 : Install the browser extension Download the Rabby Wallet browser extension from the install link on that page.",
+  "3 Step 3 : Migrate your address and open Rabby Points Migrate your address into Rabby Wallet, then go to Rabby Points.",
+  "4 Step 4 : Or use the Mobile Beta On mobile, download Rabby Wallet Mobile Beta, then connect your wallet and go to Rabby Points. The Google Play, Android APK and App Store listings showed as under review on 29 October 2026."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://rabby.io/points",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

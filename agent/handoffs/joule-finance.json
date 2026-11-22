@@ -1,0 +1,25 @@
+{
+ "project": "Joule Finance",
+ "official_url": "https://app.joule.finance/rewards",
+ "source_url": "https://www.airdropstop.com/airdrops/joule-finance",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the rewards page and connect a wallet Go to the Joule Finance rewards page and connect your wallet. The rewards page shows a profile with a points total and multiplier, and has Overview, Refer &amp; Earn and Leaderboard tabs.",
+  "2 Step 2 : Lend or borrow on the money market Open the money market and supply or borrow a supported token. The rewards page counts lending points and borrowing points per day.",
+  "3 Step 3 : Use the bridge Send tokens across with the Joule bridge . The rewards page tracks bridge points and total bridge volume.",
+  "4 Step 4 : Check the Refer &amp; Earn tab Open the Refer &amp; Earn tab on the rewards page. The rewards page counts referral points and the number of referred addresses.",
+  "5 Step 5 : Check your points and the leaderboard Return to the rewards page to read your total, your multiplier and the leaderboard, and to see whether any weekly mission has opened."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.joule.finance/rewards",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

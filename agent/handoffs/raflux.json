@@ -1,0 +1,27 @@
+{
+ "project": "Raflux",
+ "official_url": "https://raflux.io/quests",
+ "source_url": "https://99airdrops.com/airdrops/raflux/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open raflux.io/quests and sign in with Google or a wallet. \"Google sign-in: Privy creates an embedded Solana wallet for your account. No wallet extension is required.\"",
+  "Do the one-off quests: connect X, connect Telegram and verify your email.",
+  "Check in every day to keep the streak, and do the X tasks while they're up.",
+  "Share your referral link from the Refer and Earn page if you want. \"Self-referral is not permitted.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://raflux.io/quests",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Signing up and the quests are free. Pulls cost 10 to 100 USDC each plus network fees. \"Raflux does not add a platform fee to Super Gacha pulls, buyback, or physical redemption.\" Selling an item back loses at least 10%, and \"Collectors pay shipping for domestic and international delivery.\" In the raffle marketplace, \"an entry does not guarantee an item.\"",
+ "risks": "\"You must be at least 18 years old, or the age of majority in your place of residence if higher.\" There's no list of excluded countries; you may use Raflux \"only where your use is permitted by applicable law\". \"The Solana program used by Super Gacha has not yet undergone an independent third-party security review.\" The terms name no company, no address and no governing law, only \"the Raflux platfo",
+ "created": "2026-11-23",
+ "status": "open"
+}

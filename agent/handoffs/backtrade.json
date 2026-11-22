@@ -1,0 +1,28 @@
+{
+ "project": "Backtrade",
+ "official_url": "https://backtrade.xyz",
+ "source_url": "https://99airdrops.com/airdrops/backtrade/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Use only backtrade.xyz , its app, docs and partners subdomains, and @backtrade_xyz on X.",
+  "Press Join waitlist and enter a wallet address and an email. The form can answer \"Not available in your region.\" and no country list is published. Warning The form takes your email, but the docs say: \"The terms, privacy policy and risk disclosure are being prepared with counsel and are not published yet.\"",
+  "Deposit at least 10 USDC, counted after fees, from Hyperliquid or HyperEVM. A first deposit to an unused address also pays a one-time 1 USDC activation.",
+  "Pick BTC or ETH, long or short, from $10 of margin. Warning At 1000x on BTC, \"a move of about 0.052% against you liquidates the position, and the whole margin is lost\".",
+  "Losses mint BACK by themselves. Claim its USDC in the app, and withdraw your free balance at any time (at least 10 USDC through the app)."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://backtrade.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist is free. Opening a trade costs nothing, and \"Everything the protocol takes comes out of a winning close\": a deadband, a haircut that keeps at most 90% of the gain, a 2% win fee and a 1.2% referral fee. In the docs' example, a 0.5% BTC rise on a 100x long with $100 of margin pays $41.80 of a raw gain of about $50. \"A loss costs only the loss.\" The minimums are 10 USDC to deposit, $10 o",
+ "risks": "The LP starts empty, so early winners are paid through the queue, and \"Nothing caps the queue or bounds the wait.\" Asked whether the code has been audited, the FAQ answers \"Not yet.\" \"The contracts are upgradeable, so in principle the owner can make them do anything\", after a 1-day delay. At launch \"there is no outflow limiter and no circuit breaker\", and the docs call price manipulation through H",
+ "created": "2026-11-23",
+ "status": "open"
+}

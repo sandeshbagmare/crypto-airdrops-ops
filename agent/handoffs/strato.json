@@ -1,0 +1,26 @@
+{
+ "project": "STRATO",
+ "official_url": "https://strato.nexus/blog/tokenized-gold",
+ "source_url": "https://www.airdropstop.com/airdrops/strato",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Get GOLDST or SILVST The vaults accept GOLDST (tokenized gold) or SILVST (tokenized silver). STRATO&#x27;s guide to tokenized gold describes bridging in funds and acquiring GOLDST in the STRATO app.",
+  "2 Step 2 : Open a yield vault Go to the GOLDST yield vault or the SILVST yield vault .",
+  "3 Step 3 : Connect a wallet Select Connect Wallet to sign in, which shows your token balance and vault position.",
+  "4 Step 4 : Deposit into the vault Use the Deposit tab on the vault page. The page then shows the Reward Points per day you can earn at the current rate.",
+  "5 Step 5 : Check which positions earn The docs say the Rewards section lists which positions earn points and at what rate.",
+  "6 Step 6 : Claim points in Rewards Open Rewards and select Claim All, or claim per activity under My Active Positions."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://strato.nexus/blog/tokenized-gold",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,27 @@
+{
+ "project": "Fables",
+ "official_url": "https://claim.fables.fi",
+ "source_url": "https://99airdrops.com/airdrops/fables/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Accept the Claim Terms once with a signature, then claim your points allocation in a separate transaction before 20 November. You get the option you saved by 19 October; Fables' claim guide of 12 October says: \"Your choice is final.\"",
+  "If you held PROLOGUE at the snapshot, approve it and redeem your whole snapshot balance in one transaction on the same card, before 20 November. Confirm within 90 seconds of pressing Redeem, or the card fetches a fresh clearance.",
+  "To earn FABLES from now on, provide liquidity at fables.fi/markets and stake an eligible position for emissions. A position that falls out of range earns nothing while it is out. The points docs have the claim schedule."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://claim.fables.fi",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Direct deposits and withdrawals carry no Fables fee. Zap deposits, which route through outside markets such as KyberSwap, pay a 0.05% router fee on the routed amount. Fables takes 10% of the swap fees a position earns on most pools, and nothing on ETH/USDG, GLD/USDG and SPY/USDG. Warning The real cost is price risk: a position can end up worth less than the assets you put in, even after fees.",
+ "risks": "You must be 18 or older. The terms restrict the United States, Cuba, Iran, North Korea, Syria and the Crimea, Donetsk and Luhansk regions. The issuer of the stock tokens also restricts Canada, the United Kingdom and Switzerland. Fables says its interface doesn't block those three. Fables can correct or remove points, and its terms say they are not a promise of any distribution. The PROLOGUE docs s",
+ "created": "2026-11-23",
+ "status": "open"
+}

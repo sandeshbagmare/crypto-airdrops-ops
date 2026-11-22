@@ -1,0 +1,27 @@
+{
+ "project": "Antseed",
+ "official_url": "https://antseed.com",
+ "source_url": "https://99airdrops.com/airdrops/antseed/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Add funds. You can pay by card where it works or send USDC on Base. \"Each card payment is between $1 and $200, with at most two decimals.\"",
+  "Set your rewards wallet. \"Your ANTS go to the authorized wallet set in the AI VPN or console, under Rewards.\"",
+  "Use paid models from a provider with a boost above 0x. Compare boosts on antseedpoints.com .",
+  "After Thursday at 09:54 UTC, claim your ANTS from the points site with your rewards wallet, or stake it straight into a provider's pool."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://antseed.com",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "This is pay-to-earn. Every point comes from money spent on AI, at whatever price the provider charges, and \"Paying for service does not guarantee ANTS rewards.\" The protocol fee \"is set to 4% on Base mainnet (the contract source default is 2%) and capped at 10% by the contract.\" For card top-ups, \"A small fixed relay fee is deducted, and the wallet never needs ETH for gas.\" Staking is optional and",
+ "risks": "You must be 18 or older: \"You are (i) at least eighteen (18) years old\". The terms exclude people on sanctions lists and anyone in North Korea, \"Cuba, Iran, Syria, Russia, the Crimea region of Ukraine\", or any other place under full US, UN, EU or UK sanctions. \"Card checkout is not available in every region.\" \"Any use of VPNs or similar technology to circumvent such restrictions constitutes a mate",
+ "created": "2026-11-23",
+ "status": "open"
+}

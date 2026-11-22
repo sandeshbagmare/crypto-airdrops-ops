@@ -1,0 +1,25 @@
+{
+ "project": "Lithos",
+ "official_url": "https://lithos.to/genesis",
+ "source_url": "https://www.airdropstop.com/airdrops/lithos",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Lithos Genesis event Go to the Genesis Bootstrapping section of Lithos to see the designated pools and the allocation.",
+  "2 Step 2 : Connect a wallet Choose a wallet when Lithos asks, and accept its Terms of Use as part of connecting.",
+  "3 Step 3 : Pick a designated Genesis pool Choose one of the listed pools. Lithos says you can deposit in more than one, and its reward curve favors early depositors.",
+  "4 Step 4 : Add liquidity to the pool Deposit both assets of the pair as a liquidity provider. This earns Genesis points plus fees and bribes while your liquidity stays in the pool.",
+  "5 Step 5 : Track your points and claim Check your Genesis points and LITH allocation in the same interface. Claims are made there, split between veLITH and liquid LITH."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://lithos.to/genesis",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

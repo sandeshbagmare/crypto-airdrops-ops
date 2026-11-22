@@ -1,0 +1,24 @@
+{
+ "project": "Bombie",
+ "official_url": "https://bombie.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/bombie",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Bombie homepage Go to bombie.xyz and select Play Now to reach the game, which is offered on Telegram and LINE.",
+  "2 Step 2 : Start the game on Telegram or LINE Launch Bombie in the messaging app you prefer.",
+  "3 Step 3 : Slay zombies to earn BOMBIE Play the game and kill zombies, which the homepage names as the way to earn BOMBIE.",
+  "4 Step 4 : Complete the tasks in the game The homepage lists tasks for prizes. Check the game for any tasks on offer, since the project does not describe them on its homepage."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://bombie.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

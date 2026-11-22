@@ -1,0 +1,28 @@
+{
+ "project": "Dow Protocol",
+ "official_url": "https://app.dowprotocol.com/points",
+ "source_url": "https://99airdrops.com/airdrops/dow-protocol/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open the Dow XP page and connect an EVM wallet. BNB Chain is Dow's main network.",
+  "Connect your X account, then publish a post about Dow and submit it for review.",
+  "Link Telegram and Discord from the same quest list.",
+  "Once your post is approved, share your referral link.",
+  "Before depositing, read the vault terms , including the auto-roll deadline."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.dowprotocol.com/points",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The quests are free. Vault deposits are optional and lock stablecoins for a 90-day term, which opens with a subscription window (7 days by default) that earns no yield. Warning A vault deposit stays locked for the whole 90-day term. With auto-roll on, you must cancel by day 83 or your principal moves into the next term.",
+ "risks": "No token or airdrop has been announced, and XP may never convert into anything. Vault returns depend on merchants repaying their loans. Dow's risk disclosure says the estimated APY isn't guaranteed. The terms exclude people in mainland China, Hong Kong, Singapore, the United States, Australia and sanctioned countries, and ban VPNs used to get around this.",
+ "created": "2026-11-23",
+ "status": "open"
+}

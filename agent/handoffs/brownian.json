@@ -1,0 +1,25 @@
+{
+ "project": "Brownian",
+ "official_url": "https://brownian.xyz/trade/PERP_ETH_USDC",
+ "source_url": "https://www.airdropstop.com/airdrops/brownian",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open Brownian and connect a wallet Go to the Brownian trading page and use the Connect wallet screen, which lists the wallets and networks currently supported. Check the restricted jurisdictions page first to see whether you can use it from your location.",
+  "2 Step 2 : Pick a market and review the fees Browse the contracts on the Markets page and look up your rate on the Fee Tier page . Read the Risk Disclosure before you open a position.",
+  "3 Step 3 : Trade perpetual contracts Place orders that fill, because only filled perpetual trades count toward your weekly weight. Deposits, withdrawals and unfilled orders add nothing.",
+  "4 Step 4 : Invite other traders Create your referral link on the Referrals page , where fee commissions are also shown. For Points, each person you invite directly adds weight equal to 20% of their eligible trading, from the point their referral is verified.",
+  "5 Step 5 : Track your Points and rank Open the Points page to see your weekly share, then check standings on the leaderboard . Current-week results are provisional until the week is finalized."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://brownian.xyz/trade/PERP_ETH_USDC",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

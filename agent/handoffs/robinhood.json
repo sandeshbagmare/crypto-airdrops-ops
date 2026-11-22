@@ -1,0 +1,25 @@
+{
+ "project": "Robinhood",
+ "official_url": "https://robinhood.com/signup",
+ "source_url": "https://www.airdropstop.com/airdrops/robinhood",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open a Robinhood account Go to the signup page and sign up with your email, a Google account or an Apple account, then complete the application.",
+  "2 Step 2 : Check the crypto account rules The crypto page lists who can sign up for a Robinhood Crypto account, including age, Social Security Number and U.S. address requirements.",
+  "3 Step 3 : Try the trading tools The trading page describes Robinhood Legend charts and the options, crypto and futures tools you can open once signed up.",
+  "4 Step 4 : Use the Chain testnet faucet Open the Robinhood Chain faucet , connect a wallet and request testnet tokens, which can be claimed once every 24 hours.",
+  "5 Step 5 : Read about Stock Tokens The Stock Tokens page explains what they are and the regions where they are not offered, so read it before trying them."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://robinhood.com/signup",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

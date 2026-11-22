@@ -1,0 +1,25 @@
+{
+ "project": "Captain Tsubasa",
+ "official_url": "https://ton.tsubasa-rivals.com",
+ "source_url": "https://www.airdropstop.com/airdrops/captain-tsubasa",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the official Captain Tsubasa -RIVALS- site Go to the official site and choose to play on Telegram or on LINE.",
+  "2 Step 2 : Log in with Telegram or LINE The game starts from your Telegram or LINE account, with no separate wallet setup needed to begin playing.",
+  "3 Step 3 : Tap, collect coins and build your team Tap to collect coins, then boost your passive income and strengthen your soccer team, since accumulated balls, unlocked players and their levels count toward your JOHN allotment.",
+  "4 Step 4 : Finish tasks, invite friends and join the channel Complete the in-game tasks, invite friends, and subscribe to the official Telegram announcement channel , all of which are named as factors in allotments.",
+  "5 Step 5 : Connect a TON wallet on the airdrop page The Telegram mini app&#x27;s airdrop page lets you connect a TON wallet ahead of the drop. The project has not said when JOHN will launch."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://ton.tsubasa-rivals.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

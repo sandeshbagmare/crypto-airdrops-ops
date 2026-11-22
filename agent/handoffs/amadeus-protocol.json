@@ -1,0 +1,28 @@
+{
+ "project": "Amadeus Protocol",
+ "official_url": "https://amahub.ama.one/quests",
+ "source_url": "https://99airdrops.com/airdrops/amadeus-protocol/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open the AMA Hub Tasks page and connect an EVM wallet.",
+  "Create an Amadeus wallet and link it. It comes as a browser extension and as apps for iOS and Android. The Tasks page says: \"Every quest needs both wallets linked\".",
+  "Check in daily and clear the repeatable quests.",
+  "Build an agent, give it a skill and run it, then work toward First Chair.",
+  "Claim your points each week, starting on Monday."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://amahub.ama.one/quests",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Joining is free. A quest card says of campaign access: \"you do not need to buy or deposit AMA for that access.\" The free plan runs one private virtual machine at a time and stops it 24 hours after launch. The app's text adds: \"Starter is $9 a month.\" Warning The quests that pay the most points ask for real trading volume, such as $500 of trades for Heavy Hitter. Swaps and agent trades move your ow",
+ "risks": "The app's banner and its rules page disagree on whether points lead to tokens at all. The end date isn't settled in one clear statement, and no snapshot time is published. We found no terms of use, country list, age rule or anti-Sybil policy. The app's code says weekly points can be \"held for eligibility review\". The app describes a Prime Shop for perks such as fee discounts, so points have uses o",
+ "created": "2026-11-23",
+ "status": "open"
+}

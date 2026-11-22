@@ -1,0 +1,22 @@
+{
+ "project": "SnakeLite x SonicX",
+ "official_url": "",
+ "source_url": "https://www.airdropstop.com/airdrops/snakelite-x-sonicx",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Get Started with SnakeLite Open the SnakeLite bot on Telegram, link your TON wallet, and start earning coins by completing quests and inviting friends.",
+  "2 Step 2 : Log into SonicX Access SonicX using your TikTok account. Complete quests and invite friends to earn rewards, with your Solana wallet automatically connected to your TikTok.",
+  "3 Step 3 : Embark on the Sonic Odyssey Dive into the Sonic Odyssey to unlock additional quests and exclusive rewards. Compete, earn points, and advance through this thrilling adventure."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.airdropstop.com/airdrops/snakelite-x-sonicx",
+ "evidence_so_far": [],
+ "confidence": 25,
+ "evidence": [
+  "3 concrete steps"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

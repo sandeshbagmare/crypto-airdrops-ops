@@ -1,0 +1,26 @@
+{
+ "project": "Katana",
+ "official_url": "https://app.katana.network/quests",
+ "source_url": "https://www.airdropstop.com/airdrops/katana",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Connect a wallet on the Quests page Open the Katana quests page and connect a wallet to see your XP, rank and daily rate for the October 2026 season. The official rules are linked there.",
+  "2 Step 2 : Deposit into an earn vault Pick a vault on the Earn page , such as the USDC vault . Each vault lists its own XP rate.",
+  "3 Step 3 : Trade perps or borrow for extra XP Perps trades earn about 1.5 XP per dollar on the perps markets , and trading from the United States is blocked. Borrowing, for example USDC on the USDC market , earns up to 1.5 XP per dollar daily.",
+  "4 Step 4 : Check your XP and open Krates XP is credited daily at 00:00 UTC. Once you hold 350K XP, you can spend it on a Krate from the Krates tab , or keep it as an entry toward the season prizes.",
+  "5 Step 5 : Opt in to the perps competition If you also trade perps, opt in on the competition page before the round ends on 11 November 2026."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.katana.network/quests",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

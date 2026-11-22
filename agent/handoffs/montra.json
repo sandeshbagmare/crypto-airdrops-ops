@@ -1,0 +1,28 @@
+{
+ "project": "Montra",
+ "official_url": "https://montramarkets.xyz/airdrop",
+ "source_url": "https://99airdrops.com/airdrops/montra/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open montramarkets.xyz only from the link on Montra's X account, @MontraXYZ. Copycat sites and fake bridges around Elysium are common.",
+  "Check any wallet on the airdrop page. \"Paste any address. No connection, no signature.\" This shows your retroactive and points standing.",
+  "Buy, hold or trade tokens from the weekly Top 10 list shown on the airdrop page. Only the amounts inside the caps count.",
+  "For the free route, post about Montra or bring a project, then submit it on the airdrop page and follow the Discord ticket process to get it verified.",
+  "Check your address again after each weekly review, and watch @MontraXYZ for the claim date."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://montramarkets.xyz/airdrop",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Checking an address and sending contributions cost nothing. Trading is where the money goes. \"Every trade pays one fee, the same on buys and sells, at the tier the creator picked: 1%, 2%, 3%, 5%, 10%.\" Gas is paid in HYPE. In the first 30 minutes after a token launches, buys can pay an anti-snipe fee of up to 99%, falling to the pool's normal fee. Launching a token was free when we checked. Bridgi",
+ "risks": "No user terms, no list of excluded countries, no age rule and no KYC are published for users. The team is anonymous and no company is named. Montra says the project is team-funded. Many fake MONTRA tokens trade on Montra itself. Montra's docs: \"Anyone can launch a token called MONTRA. The official one is marked on this site, and nothing else is official, whatever its name, symbol or picture.\" The ",
+ "created": "2026-11-23",
+ "status": "open"
+}

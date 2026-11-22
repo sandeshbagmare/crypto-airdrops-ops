@@ -1,0 +1,26 @@
+{
+ "project": "Ritual",
+ "official_url": "https://airdrop.ritualfoundation.org",
+ "source_url": "https://99airdrops.com/airdrops/ritual/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Infernet node operators: \"Operators who ran those nodes are eligible, weighted by uptime (and purpose!) and workloads served.\"",
+  "Frenrug users: \"Users who held keys and pitched the agent are eligible subject to the same scrutiny around any botted behavior.\"",
+  "Community members: \"Long-time community members, including those consistently active in the Discord and ambassadors who helped grow it, are eligible.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrop.ritualfoundation.org",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "There's no claim fee, but you need RITUAL on Ritual Mainnet before you can claim, and the Foundation hasn't published an official route to get it there. The docs only say: \"You need RITUAL for transaction gas and for RitualWallet deposits that back async precompile calls.\" No deposit, purchase or minimum is part of the claim itself.",
+ "risks": "You must be 18 or older. Sanctioned people are excluded, along with anyone \"located, a resident of or organized in any jurisdiction or territory that is the subject of comprehensive country-wide or regional economic sanctions\". There's no longer list of countries. Don't use a VPN to get past a block: \"Any such circumvention, or attempted circumvention, may permanently disqualify you from participa",
+ "created": "2026-11-23",
+ "status": "open"
+}

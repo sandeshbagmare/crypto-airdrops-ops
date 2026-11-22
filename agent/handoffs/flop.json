@@ -1,0 +1,27 @@
+{
+ "project": "FLOP",
+ "official_url": "https://flop.finance/teaser",
+ "source_url": "https://99airdrops.com/airdrops/flop/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Read the teaser and project intro to pick a role.",
+  "If you have suitable hardware, fill in the miner or validator interest form. The miner form includes consumer GPUs with at least 16GB of VRAM.",
+  "Follow @flop_labs , which the FLOP homepage names as the place to watch for airdrop eligibility.",
+  "When the testnet opens, spend test tokens on inference as an agent or connect your GPU as a miner."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://flop.finance/teaser",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Applying is free, and agents will use faucet tokens. Mining means running or renting a GPU, and on the live network miners and validators must stake FLOP. The FLOP homepage on 18 October 2026, with the lines \"No pre-sale\", \"No VCs\" and \"100% fair launch\", a prompt to follow @flop_labs for airdrop eligibility and links to apply. Source: flop.finance",
+ "risks": "Most airdropped tokens start out locked or bonded. Stake can be slashed, up to a full loss and a ban, for lying about work or publishing dishonest blocks.",
+ "created": "2026-11-23",
+ "status": "open"
+}

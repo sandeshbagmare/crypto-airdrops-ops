@@ -1,0 +1,24 @@
+{
+ "project": "Affine",
+ "official_url": "https://restaking.affinedefi.com",
+ "source_url": "https://www.airdropstop.com/airdrops/affine",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Read the ultraETH overview Open the Affine restaking site to see how ultraETH, the Risk Engine and ultraPoints are described.",
+  "2 Step 2 : Open the Affine app Use the Restake Now button, which leads to the Affine app , and connect the wallet that holds your assets.",
+  "3 Step 3 : Restake into ultraETH Restake stETH-based assets into ultraETH as the app prompts. The project describes ultraETH as a stETH-focused token with instant entry.",
+  "4 Step 4 : Review the Season 1 terms The restaking site ties ultraPoints to restaking, allocates 8% to Season 1 and states no minimum, holding period or eligibility rule. The project says withdrawing from ultraETH takes 7 days."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://restaking.affinedefi.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

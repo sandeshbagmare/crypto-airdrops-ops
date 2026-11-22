@@ -1,0 +1,23 @@
+{
+ "project": "Concrete",
+ "official_url": "https://docs.concrete.xyz/Using-Concrete-Vaults/concrete-points",
+ "source_url": "https://www.airdropstop.com/airdrops/concrete",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Concrete Points Program docs Start from the Concrete Points Program page , which explains the difference between Bags and Concrete Points and points to the social campaign.",
+  "2 Step 2 : Sign in on Fuul and link your accounts Sign in to the campaign on Fuul with your wallet, add the X or Discord accounts the quests ask for, and keep them linked while you take part.",
+  "3 Step 3 : Complete the social quests Follow Concrete on X, join its Discord and, if you like, submit an entry to the Article of the Week using the rubric posted in Discord. Each completed quest earns Bags."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.concrete.xyz/Using-Concrete-Vaults/concrete-points",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "heyAura",
+ "official_url": "https://hub.heyaura.com",
+ "source_url": "https://www.airdropstop.com/airdrops/heyaura",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the heyAura rewards hub Go to the heyAura Loyalty Program hub , where the Farm Aura section and your points history are found.",
+  "2 Step 2 : Connect your wallet Use the Connect Wallet button on the hub to sign in, so your earned points and rewards history are tied to your address.",
+  "3 Step 3 : Earn AURA points Stake, swap, bridge or trade through the heyAura product, which you can open in the heyAura app , and support the project on social media such as X .",
+  "4 Step 4 : Check the Season 1 recap for claims The Season 1 rewards article explains the distribution and how to claim. The claim applies to the top 1,000 Season 1 participants, not to every participant. Claiming happens on the Ethereum mainnet and may cost a gas fee.",
+  "5 Step 5 : Keep farming for Season 2 AURA farming continues while Season 2 is prepared. Follow the project on X for any claim deadline or Season 2 details."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://hub.heyaura.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

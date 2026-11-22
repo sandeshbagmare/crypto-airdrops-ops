@@ -1,0 +1,29 @@
+{
+ "project": "Voltrade",
+ "official_url": "https://voltrade.xyz",
+ "source_url": "https://99airdrops.com/airdrops/voltrade/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Use only voltrade.xyz and connect a wallet. \"Voltrade registration should remain wallet-first\", so email is optional.",
+  "Connect X for the 1,000 VXP bonus if you are happy to link that account.",
+  "Wait for a competition, then read its page first: prize pool, dates, eligible markets, daily cap, minimum volume, payout method and any country limits. Each one can set its own \"geographic restrictions\".",
+  "Register before you trade. \"Registering costs nothing but a signature\", and on some venues earlier volume doesn't count.",
+  "Trade on the partner venue itself. Stop at any daily cap, because Voltrade says that beyond it \"every additional dollar you trade that day is pure cost\". Warning Competitions reward volume, which pushes people to overtrade. Leverage, fees and market moves can cost far more than a prize pays.",
+  "After the end, check how your prize is paid. \"A Merkl-distributed reward sitting unclaimed is still yours, but it does not arrive on its own.\" Other prizes are sent by Voltrade or the partner, with no fixed date."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://voltrade.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "\"Voltrade does not need to custody user trading funds\", and most entries cost only a signature, so your real costs are venue fees and market risk. Proof of Trader is free: \"Proving a wallet is yours takes one signature, which is not a transaction and costs no gas.\" PnL challenges on Hyperliquid are different. You buy a USDC ticket, with templates from $10 to $250 and a $1 minimum, and \"Every entra",
+ "risks": "Shown rewards aren't final. The terms let the operator \"withhold, delay, reduce, or cancel rewards\", and add: \"Any displayed ranking, projected payout, estimated reward, or timing is informational only unless expressly confirmed by us in writing.\" Some prizes depend on trust. Of off-platform payouts, Voltrade's own article says \"every property of the other two rails is replaced by trust in the ope",
+ "created": "2026-11-23",
+ "status": "open"
+}

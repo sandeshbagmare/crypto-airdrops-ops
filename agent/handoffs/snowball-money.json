@@ -1,0 +1,25 @@
+{
+ "project": "Snowball Money",
+ "official_url": "https://www.modular.name/rewards",
+ "source_url": "https://www.airdropstop.com/airdrops/snowball-money",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Connect a wallet on the rewards site Open the MNS Earn page and connect a supported wallet, such as Petra or OKX Wallet .",
+  "2 Step 2 : Claim an MNS identity Earn is aimed at identity owners, so claim a name with the native token of a supported network. Owners of an ENS domain can reclaim it on MNS for free and earn Flakes for that.",
+  "3 Step 3 : Complete the daily and special missions Work through the daily missions, such as liking and retweeting a post on X or sharing your identity card, and collect the Flakes for each. A daily task not collected within 24 hours is burned.",
+  "4 Step 4 : Take on repeatable tasks and achievements Claim further identities, share your successful claim card, and own names of different character lengths to earn more Flakes. Your history appears in the Earn History section.",
+  "5 Step 5 : Refer other users and track your rank Generate a link on the referral page and follow your Flakes and position on the leaderboard on the Earn page."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.modular.name/rewards",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

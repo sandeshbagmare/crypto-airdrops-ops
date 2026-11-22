@@ -1,0 +1,31 @@
+{
+ "project": "Polyester",
+ "official_url": "https://testnet.polyester.com",
+ "source_url": "https://99airdrops.com/airdrops/polyester/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open testnet.polyester.com and sign in with Google, email, MetaMask, Rabby, Phantom or WalletConnect. Signing in costs no gas. Warning Choose the sign-in method carefully. The docs say you can't replace or unlink it later, or close or delete the account.",
+  "Pick a username from the suggestions and finish the welcome screens.",
+  "Under Security, add a passkey or an authenticator app and save the recovery codes. The docs recommend this, and it is optional.",
+  "Connect your X and Discord accounts when the daily reward prompt asks. You need both to claim. Warning Polyester records that the X and Discord handles are yours, and its privacy policy says profile fields are visible to other users.",
+  "Press Claim in the daily reward prompt, or \"Claim reward\" in the navigation bar. Come back when the countdown reaches the next release.",
+  "Open Trade, choose a spot market such as BTC/USDT, and place an order with your Paper Assets.",
+  "Optional: get coins from one of the testnet faucets the docs list and try a deposit and a withdrawal.",
+  "Watch the Announcements page and @polyester on X for the rules of each giveaway or competition."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://testnet.polyester.com",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "8 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing. The testnet takes no real money, Polyester pays the gas, and trading fees are charged in test assets.",
+ "risks": "No token or airdrop is promised, and the terms rule out any entitlement from testnet activity. Testnet balances and rewards \"have no monetary value and are not redeemable\", and Polyester can reset or wipe the testnet at any time without notice. Only a prize that is promised in the rules of a specific event counts. Using several accounts or automation to gain an advantage can void it. You must be 1",
+ "created": "2026-11-23",
+ "status": "open"
+}

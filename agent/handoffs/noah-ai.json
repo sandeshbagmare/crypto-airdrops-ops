@@ -1,0 +1,28 @@
+{
+ "project": "Noah AI",
+ "official_url": "https://trynoah.ai",
+ "source_url": "https://99airdrops.com/airdrops/noah-ai/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open trynoah.ai and check the address in your browser. Several unrelated products use the Noah name, and noah.ai is not this project's site.",
+  "Sign in with a wallet, Google or X. The free plan gives 1 million credits a month and one project.",
+  "Open the Noah ID page, connect your X account and try the daily chest. Warning Check what a connection lets Noah do before you approve it. Noah's consent page for connected accounts reads: \"I authorise and instruct Noah AI to access and operate my connected account on my behalf\".",
+  "If you get an ID, share it on X and keep @TryNoahAI in the post. The app says that is what unlocks the point allocation.",
+  "Build something and post about it if you want credits. Tag @TryNoahAI on X, then submit the link in the app."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://trynoah.ai",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Noah IDs and the free plan cost nothing. The product itself is paid: plans run from 10 to 100 US dollars a month, and the terms say \"all payments made for access to the Services are non-refundable.\" Deploying an app to mainnet needs real SOL in a deployment wallet that Noah generates for you. The Plans and Credits page in the Noah AI docs on 18 October 2026, listing the free plan first. Source: No",
+ "risks": "The word allocation comes with no rules. Nothing says what the points are worth, when they are counted or whether they lead to a token. Getting an ID depends on a daily draw, and unlocking it takes a public post on X. Credits for posts are judged by Noah. The app says: \"Bad posts won't get rewards.\" The privacy policy still has unfilled placeholders, such as \"[Insert dedicated privacy email addres",
+ "created": "2026-11-23",
+ "status": "open"
+}

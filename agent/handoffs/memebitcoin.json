@@ -1,0 +1,29 @@
+{
+ "project": "MemeBitcoin",
+ "official_url": "https://www.memebitcoin.org",
+ "source_url": "https://99airdrops.com/airdrops/memebitcoin/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Read the terms first, because US persons are barred. Use only www.memebitcoin.org .",
+  "Press Sign up with X. The site says: \"We only read your X profile to identify you.\"",
+  "Post the MBTC article on X from that account and paste the link, then follow @1096361BTC. Join t.me/mbtc_official if the page asks. Warning The project says: \"We are aware that many community members have had their X accounts suspended.\" It gives no cause. Don't use an X account you can't afford to lose.",
+  "Add an email and type a wallet address. \"Type your address\" is the instruction, and the site says \"nothing is signed\" at this stage. Don't connect a wallet here.",
+  "When the steps are confirmed, enter the game. Crack up to 10 times a day, do the daily missions and submit a Proof of Viral post.",
+  "If you hold a BTC Event Winner emblem, wait for the claim to open. You'll need your own wallet and a little BNB."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.memebitcoin.org",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Taking part is free: \"No purchase of MBTC or any other crypto asset, asset deposit, trading activity, or payment is required to earn standard Points\". We found no presale or staking on official pages. Later steps need gas. For the SBT, \"Minting needs a little BNB for gas\", and a BTC prize claim is a transaction from your own wallet. The terms also mention donations: \"Any voluntary donation is sepa",
+ "risks": "Barred: anyone who is \"a citizen, resident, tax resident, or other person treated as a U.S. person\". The terms also mention \"other restricted jurisdictions\" without listing them. You must be 18, and VPNs are banned. The operator decides everything. It can \"reduce, withhold, cancel, reallocate, or burn an allocation\", and it may set the rules after a snapshot. We can't see the prize money. No offic",
+ "created": "2026-11-23",
+ "status": "open"
+}

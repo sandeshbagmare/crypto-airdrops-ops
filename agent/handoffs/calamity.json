@@ -1,0 +1,25 @@
+{
+ "project": "Calamity",
+ "official_url": "https://app.calamity.online",
+ "source_url": "https://www.airdropstop.com/airdrops/calamity",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Calamity app Go to the Calamity app , which shows an overview of the open world next to a Play button and a Connect Wallet button.",
+  "2 Step 2 : Connect a wallet Press Connect Wallet in the app; the app also has a wallet checker and a cosmetics minting page .",
+  "3 Step 3 : Press Play Use the Play button on the app&#x27;s home page to start the game, then pick Warrior, Archer or Mage and shape your class through its talent tree.",
+  "4 Step 4 : Explore the shared zones Start in the Outskirts, where the beta begins at level 1, and move on to the Forests, the Crypts and the Swamps as your level rises.",
+  "5 Step 5 : Read the wiki Open the Calamity wiki for the game&#x27;s systems, and the WYRM token page for the token plan as the project currently states it."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.calamity.online",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

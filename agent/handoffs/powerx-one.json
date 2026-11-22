@@ -1,0 +1,27 @@
+{
+ "project": "PowerX One",
+ "official_url": "https://powerx.one/en",
+ "source_url": "https://99airdrops.com/airdrops/powerx-one/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Open the airdrop section on powerx.one and press \"Open airdrop\". It opens the project's Telegram bot.",
+  "Complete the five tasks in the bot. They are social tasks: joining the Telegram chat, following PowerX on X, and liking, commenting and tagging friends on a post.",
+  "When the tasks are done, the bot shows the download links. Install the app from Google Play, or through TestFlight on an iPhone.",
+  "Complete the verification inside the app to have the 500 PX1 credited."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://powerx.one/en",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The airdrop and the app are free. The presale is the paid part: $0.0002 per PX1, with a $5 minimum and a $25,000 cap per wallet, payable in USDT. On 8 October 2026 the site showed $65,982 raised toward a $2 million target. The litepaper states that \"the value of PX1 may fall to zero\".",
+ "risks": "The audit claims don't agree with each other. The site's FAQ says the CertiK audit is done, its roadmap shows the audit as in progress, and the litepaper says \"no claim is made in this document that the platform is audited\". The project posted \"Price doubles at TGE\" while its own terms say price targets are not commitments. No end date, cap or lock-up terms are published for the airdrop. You must ",
+ "created": "2026-11-23",
+ "status": "open"
+}

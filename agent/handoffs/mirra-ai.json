@@ -1,0 +1,25 @@
+{
+ "project": "Mirra AI",
+ "official_url": "https://mirraai.xyz/contribute",
+ "source_url": "https://www.airdropstop.com/airdrops/mirra-ai",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Connect your X account Open the Mirra AI contribute page . The site tells you to connect your X account.",
+  "2 Step 2 : Find valuable content on X Identify high-value content on X. You can also post your own insights on X as a creator, so that a scout can submit them.",
+  "3 Step 3 : Tag @MirraTerminal in the replies Under the post you picked, reply and tag @MirraTerminal. This submits the content to Mirra for AI training.",
+  "4 Step 4 : Wait for validation Validators review the submission. If it passes, the scout and the creator both earn NLP.",
+  "5 Step 5 : Check your NLP on the leaderboard Follow your validated scouts, creations and NLP on the Mirra leaderboard ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://mirraai.xyz/contribute",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "GTR",
+ "official_url": "https://gtr.trade",
+ "source_url": "https://www.airdropstop.com/airdrops/gtr",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Open the GTR app Go to gtr.trade and choose Start Trading. The app is labelled beta on the homepage.",
+  "2 Step 2 : Create your account Sign up with your email. A self-custodial wallet is created automatically, and you hold the keys.",
+  "3 Step 3 : Fund your wallet Add funds with crypto, card or bank transfer. The supported chains page in the documentation lists the networks.",
+  "4 Step 4 : Browse the feeds Open the feeds page , then pick a market to look at.",
+  "5 Step 5 : Look at the clans Look at the clan leaderboard on the homepage, which also has a Create a Clan button. The documentation and the support centre are linked from the homepage."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://gtr.trade",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

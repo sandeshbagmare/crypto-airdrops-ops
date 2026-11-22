@@ -1,0 +1,25 @@
+{
+ "project": "PriveX",
+ "official_url": "https://app.prvx.io",
+ "source_url": "https://www.airdropstop.com/airdrops/privex",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the PriveX app Go to the PriveX app , which is where trading happens. The project&#x27;s homepage lists the points program under Trader Incentives.",
+  "2 Step 2 : Connect a self-custody wallet Connect a wallet you control. PriveX describes its trading as non-custodial, meaning you keep hold of your own funds.",
+  "3 Step 3 : Deposit into PriveX The Chainwire release says a deposit of at least $250 earns 1,000 PriveX points. The homepage describes cross-margin accounts that manage a universal margin combining all balances and positions.",
+  "4 Step 4 : Trade perpetual futures Open perpetual futures positions on the exchange, the activity the homepage&#x27;s Trader Incentives entry rewards. The homepage lists over 300 pairs.",
+  "5 Step 5 : Follow the official channels Watch the project&#x27;s X account and Discord for news on the airdrop, because the homepage gives no date or amount."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.prvx.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

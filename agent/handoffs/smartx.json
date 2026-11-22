@@ -1,0 +1,28 @@
+{
+ "project": "SmartX",
+ "official_url": "https://smartx.io/waitlist",
+ "source_url": "https://99airdrops.com/airdrops/smartx/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open smartx.io/waitlist and take the six-question test.",
+  "Sign in with your email and the code SmartX sends you.",
+  "Post your result on X with your invite link, then paste the post's link back on the waitlist page. \"Once verified, the X account that published it will be automatically connected to your SmartX account, and your rank will be unlocked.\"",
+  "Invite people if you want to climb. \"One person, one account. Self-invites and duplicate accounts are removed.\" Warning Round 2 has no published prizes or end date. Don't spam people for a reward nobody has described yet.",
+  "Watch @SmartXTerminal on X for the app launch and the reward claim."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://smartx.io/waitlist",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Joining costs nothing. There's no deposit, no wallet to connect and no payment. What you give is your email address, a public promotional post on X and a connected X account. The app will charge trading fees when it opens, since discounts on them are one of the prizes, but no fee schedule has been published.",
+ "risks": "\"You must be at least 18 years old\". No list of excluded countries is published. Rank depends almost entirely on invites, so late joiners without a following have little chance. The app is late. On 25 August SmartX posted \"App coming next month, stay tuned\", and it still hasn't launched. USDT prizes can only be claimed in it. SmartX decides the results: \"SmartX reserves the right to make the final",
+ "created": "2026-11-23",
+ "status": "open"
+}

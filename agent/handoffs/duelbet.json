@@ -1,0 +1,29 @@
+{
+ "project": "DuelBet",
+ "official_url": "https://duelbet.com/service-availability",
+ "source_url": "https://99airdrops.com/airdrops/duelbet/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Check that your country is on DuelBet's service availability list and not on the licence's excluded list (see risks below). Don't use a VPN: the terms ban it.",
+  "Type duelbet.com yourself and create an account. You must be \"at least 18 years old and have reached the higher legal gambling age\" where you live.",
+  "Deposit crypto through the cashier. Send it on the network the cashier shows: \"Funds sent to an unsupported network or incorrect address may be permanently lost.\" Warning Set a loss limit before you start. Points scale with the amount you bet, so chasing a race rank means chasing losses.",
+  "Play eligible games. Points are credited automatically and you are entered in the daily and monthly races.",
+  "If you place in a race, choose cash (which burns the points) or keep the points for the planned airdrop.",
+  "Watch @duelbetcasino on X and t.me/duel_bet for any snapshot or TGE news. There is no $DUEL contract yet, so any \"$DUEL\" token you see trading is not DuelBet's."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://duelbet.com/service-availability",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing here is free. DuelBet publishes no overall house edge. The 46 games listed on its homepage show return-to-player rates from 92.85% to 97.3%, so about 2.7% to 7.15% of every bet goes to the house over time. The welcome bonus offers \"up to 500% + up to 500 Free Spins\" on a deposit of at least $10, but \"The bonus becomes available once your main balance drops below\" $0.20, that is, after the ",
+ "risks": "Excluded countries: DuelBet publishes an allow-list of supported places. The US, UK, Canada, Australia, France, Germany and the Netherlands are not on it. The Anjouan licence page separately excludes \"Australia, Comoros, France, Netherlands, Spain, United Kingdom, USA.\" and \"All FATF-blacklisted countries and Sanctioned jurisdictions.\" Spain and Comoros are on DuelBet's list anyway; players there ",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "Canton Network",
+ "official_url": "https://www.canton.network/blog/canton-coin-rewarding-utility",
+ "source_url": "https://www.airdropstop.com/airdrops/canton-network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Read how Canton Coin rewards work Start with the project&#x27;s Canton Coin explainer , which covers who can mint rewards and how fees are burned.",
+  "2 Step 2 : Pick a role: connect, build or run The project splits participation into Connect , Build and Run . Choose the one that matches what you can contribute.",
+  "3 Step 3 : Request a validator node If you want to run a validator, use the Canton Foundation validators page . The FAQ notes that sponsorship is currently needed.",
+  "4 Step 4 : Build an app and apply for featured status Developers can begin from the developer pathways . The Cantonomics for App Builders post says a production-ready app applies for featured status at sync.global.",
+  "5 Step 5 : Explore live apps and assets Browse the Canton ecosystem to find wallets, apps and assets you can use on the network."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.canton.network/blog/canton-coin-rewarding-utility",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

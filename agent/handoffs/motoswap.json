@@ -1,0 +1,25 @@
+{
+ "project": "Motoswap",
+ "official_url": "https://motoswap.org/points",
+ "source_url": "https://www.airdropstop.com/airdrops/motoswap",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Connect a wallet on the Points page Open the Motoswap Points page and connect your wallet to see your Points and your rank.",
+  "2 Step 2 : Swap tokens on Motoswap Trade on the swap page . Real trading volume earns Points, and 0.2% of each trade is set aside as weekly rakeback.",
+  "3 Step 3 : Add liquidity to a pool Open a position from the pools page . Points follow the fees that position earns.",
+  "4 Step 4 : Stake Motocats for a boost If you hold a Motocat, stake it in Motocat staking to raise the Points you earn.",
+  "5 Step 5 : Follow your rank on the leaderboard Check the leaderboard to see how your Points rank. The top 100 are listed and the board is refreshed daily."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://motoswap.org/points",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

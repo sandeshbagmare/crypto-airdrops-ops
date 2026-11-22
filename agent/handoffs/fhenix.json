@@ -1,0 +1,28 @@
+{
+ "project": "Fhenix",
+ "official_url": "https://www.fhenix.io",
+ "source_url": "https://99airdrops.com/airdrops/fhenix/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Start from fhenix.io and use only the links on it, including @fhenix on X. The games run on outside hosts such as vercel.app and onrender.com, so open them from Fhenix's own pages.",
+  "For credits, open onlyfhens.fhenix.io, connect a wallet and an X account, and do the three required quests. The post and video quests unlock after that.",
+  "For shop credits, play one of the listed games with one wallet, then sign in to the shop with that same wallet.",
+  "After 21 October, watch @fhenix for the first mainnet apps. Fhenix hasn't published any steps for users yet."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.fhenix.io",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Everything here is free to try. Testnet demos need only free test ETH. The shop rules say: \"You do not need to pay, deposit, stake, or spend any token or cryptocurrency to participate or to earn Credits.\" Fhenix Pay, its testnet wallet app, says: \"We don't charge fees for using the app.\" Merch beyond your credits is paid in USDC, plus shipping, and \"Prices exclude taxes, customs duties, and import",
+ "risks": "You must be 18 or older. The terms exclude anyone in or from Cuba, Iran, North Korea, Russia, Syria and Belarus, and anyone on UN, US, EU, UK or Israeli sanctions lists. VPNs are banned: \"You may not use a VPN, proxy, false identity, or other technical or deceptive means for the purpose of circumventing geographic, sanctions, eligibility, or access restrictions.\" The shop says it screens wallets a",
+ "created": "2026-11-23",
+ "status": "open"
+}

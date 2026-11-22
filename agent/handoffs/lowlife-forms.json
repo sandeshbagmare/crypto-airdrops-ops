@@ -1,0 +1,24 @@
+{
+ "project": "Lowlife Forms",
+ "official_url": "https://www.rtrigger.com",
+ "source_url": "https://www.airdropstop.com/airdrops/lowlife-forms",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Right Trigger site Go to rtrigger.com to see Lowlife Forms, the Gameverse sections and the roadmap in one place.",
+  "2 Step 2 : Read the blockchain and roadmap sections Scroll to the currency token, governance and LLF NFT descriptions, then the roadmap, to see what the project says is built and what is still listed as coming.",
+  "3 Step 3 : Wishlist the game Use the Wishlist Now button at the top of the Right Trigger site to add Lowlife Forms to your wishlist.",
+  "4 Step 4 : Check its channels and buttons The site links its X account and Telegram group . The play button reads &quot;play soon&quot; and the connect wallet button reads &quot;coming soon&quot;, so check back on the site."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.rtrigger.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

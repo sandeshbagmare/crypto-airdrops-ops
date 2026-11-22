@@ -1,0 +1,24 @@
+{
+ "project": "Ithaca Protocol",
+ "official_url": "https://www.ithacaprotocol.io",
+ "source_url": "https://www.airdropstop.com/airdrops/ithaca-protocol-2",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Ithaca Protocol site Go to the Ithaca Protocol site and press Launch App to reach the options trading app.",
+  "2 Step 2 : Look through the app views The Ithaca App section of the site shows Market, Stories, Position Builder and Dynamic Option Strategies. Read what each view does before placing any order.",
+  "3 Step 3 : Read the legal pages The app&#x27;s Privacy Policy and Terms and Conditions are linked from the site. Read them before using the app.",
+  "4 Step 4 : Find the project&#x27;s channels The site links the project&#x27;s X account and a Telegram chat."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.ithacaprotocol.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

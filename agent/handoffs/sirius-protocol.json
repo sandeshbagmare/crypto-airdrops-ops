@@ -1,0 +1,29 @@
+{
+ "project": "Sirius Protocol",
+ "official_url": "https://app.siriusprotocol.xyz/invite",
+ "source_url": "https://99airdrops.com/airdrops/sirius-protocol/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Get an invite code. Sirius says to ask anyone already trading there, reply to its posts on X, or message @Sirius_Protocol. Warning Invite codes are being handed out by strangers on X. Take one only from the official account or someone you know, and never give a key or recovery phrase to anyone offering access.",
+  "Redeem the code at app.siriusprotocol.xyz/invite . That opens the app, and you still create an account inside.",
+  "Sign in with Google or email, then accept the Sirius Terms when the app asks. The app blocks deposits and trading until you do.",
+  "Deposit USDC on Solana. The first deposit has to be at least $12, with a one-time $2 account fee. Warning This is leveraged trading with real money. The app's own summary of its terms reads: \"Trading can lead to losses. Sirius is a beta and nothing here is advice.\"",
+  "Place a trade. The minimum is $10.",
+  "Open the Points page to create invites for friends."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.siriusprotocol.xyz/invite",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "You pay a $2 account fee with your first deposit and 0.20% on each withdrawal, with a $2 minimum. Each trade costs a fee, a spread and Hyperliquid's own fee. Sirius quotes its fee differently from page to page: the homepage says \"as low as 0.02%\", its posts on X say 0.1%, and the docs give a range. The FAQ's line that \"gas and all other costs are on us\" doesn't match the account and withdrawal fee",
+ "risks": "The terms and privacy policy aren't public. You see the terms only inside the app, after you have an invite. Some regions are blocked. The app's notice says Sirius is \"not offered in your jurisdiction\", which covers sanctioned places \"and places our banking partners do not serve\". No country list is published. No audit has been published. The docs say trades run through Sirius's own pooled account",
+ "created": "2026-11-23",
+ "status": "open"
+}

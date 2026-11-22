@@ -1,0 +1,29 @@
+{
+ "project": "PERPTools",
+ "official_url": "https://app.perptools.ai",
+ "source_url": "https://99airdrops.com/airdrops/perptools/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Connect a wallet and sign the one-time registration. It creates your trading account and costs only gas.",
+  "Deposit USDC from Arbitrum or Solana. The docs say other networks \"are not supported at this time\". There is no minimum for trading.",
+  "Trade spot as well if you like. PERPTools says spot counts toward Season 2 points, and it advertised 0% spot trading fees on 5 October 2026.",
+  "Share your referral link if you want to. You get points equal to 10% of what the people you refer earn, plus a USDC reward on their trading at a base rate of 10%. Self-referrals and bot accounts are banned.",
+  "Open the Points page after each Friday payout to see what you received."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.perptools.ai",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Taking part costs money, because points come from trading and from funding agents. On standard markets the fee is 0.01% for maker orders and 0.046% for taker orders. Markets on real-world assets charge 0.05% either way. The fee is charged on the full size of the position, not on your collateral. The Fees page in the PERPTools docs on 18 October 2026, with the maker and taker rates for standard cry",
+ "risks": "You can lose everything you deposit. The risk page says: \"Trade only with capital you can afford to lose entirely.\" The weekly pool is shared out by a private formula, so you can't work out in advance what a trade will earn. On the value of a point, the FAQ says: \"We don't speculate on dollar values.\" PERPTools' own advice is: \"Don't allocate to PERPTools based primarily on token speculation.\" The",
+ "created": "2026-11-23",
+ "status": "open"
+}

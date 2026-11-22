@@ -1,0 +1,24 @@
+{
+ "project": "GTE",
+ "official_url": "https://waitlist.gte.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/gte",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the GTE waitlist Go to the GTE waitlist site to get your personal card. The site lists the points beside each task, and a reserved username is locked to your card.",
+  "2 Step 2 : Reserve your username Type the username you want into the reservation field on the waitlist site, using 3 to 15 letters, numbers or underscores. The site gives names to whoever asks first, and it lists +25 points for reserving one.",
+  "3 Step 3 : Follow GTE on X and Instagram Follow GTE on X and follow @gte.xyz on Instagram. For Instagram, enter your handle on the waitlist site and continue in the Instagram app with that same account. A follow on either network is credited with 25 points once 24 hours have passed.",
+  "4 Step 4 : Refer friends Use the Refer a friend section on the waitlist site, which lists +100 points each."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://waitlist.gte.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

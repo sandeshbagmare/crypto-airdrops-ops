@@ -1,0 +1,28 @@
+{
+ "project": "Yakkamon",
+ "official_url": "https://yakkamon.com",
+ "source_url": "https://99airdrops.com/airdrops/yakkamon/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Pre-register with an email address at yakkamon.com . No wallet or Sunflower Land account is needed.",
+  "Tap your egg daily to build a streak.",
+  "Link Discord and X to your trainer profile and do the weekly quests.",
+  "Connect a wallet before the leaderboard is finalised on 27 November (UTC), since the NFT airdrop needs one. Rankings are hidden from 00:00 UTC on 26 November, so check the important dates page for any change."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://yakkamon.com",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Pre-registration and the tasks are free, and $FLOWER deposits are optional. The docs say deposits can be spent in the game or withdrawn tax-free from Chapter 0, which starts once early access is complete, with possible withdrawal caps in the first weeks.",
+ "risks": "Nobody knows yet what the monsters will be worth, and deposited $FLOWER keeps its price risk until you can withdraw it. Thought Farm's terms require you to be 18 or older and bar people in sanctioned countries. Bot and multi-account referrals are removed at the final review, and serious abuse can disqualify an account.",
+ "created": "2026-11-23",
+ "status": "open"
+}

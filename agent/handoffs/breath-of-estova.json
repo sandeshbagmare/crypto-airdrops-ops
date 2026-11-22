@@ -1,0 +1,28 @@
+{
+ "project": "Breath of Estova",
+ "official_url": "https://breathofestova.com/pre-register",
+ "source_url": "https://99airdrops.com/airdrops/breath-of-estova/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Open the pre-registration page , enter your email and press \"Send my code\". You don't need a wallet or a password.",
+  "Type in the six-digit code from the email. It expires after ten minutes.",
+  "Copy your referral link if you want gems. A referral only pays once your friend reaches level 5 in the game.",
+  "Follow @BreathOfEstova for the launch day, which isn't published yet.",
+  "At launch, press \"Enter Estova\" on the site to collect the bundle."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://breathofestova.com/pre-register",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Pre-registration is free and needs only an email address. Everything else is optional and costs real money. Founder packs cost $19.99, $49.99 or $99.99 and come with a head start of three, five or seven days. Genesis card packs cost $25 each. Both are paid in MON or USDC on Monad. The docs say everything in the shop can also be earned by playing. The Breath of Estova Founder Packs page on 18 Octob",
+ "risks": "There is no token and no airdrop. The pre-registration and referral rewards are in-game items. The $ESTOVA token was removed from the docs without an explanation. The launch has no exact date. The docs say cards, skins and cosmetics \"are not investments\" and promise no profit. The weekly revenue share has no published numbers. We found no terms of service, privacy policy, age rule or list of restr",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,32 @@
+{
+ "project": "SimpleChain",
+ "official_url": "https://task.simplechain.com",
+ "source_url": "https://99airdrops.com/airdrops/simplechain/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open task.simplechain.com , connect an EVM wallet such as MetaMask and sign the login message. It costs no gas. Warning Use a wallet that holds no real funds. The login box comes already ticked to accept a Terms of Service and Privacy Policy that the portal doesn't link to.",
+  "Add the testnet to your wallet if it asks: Network name: SimpleChain Testnet",
+  "RPC URL: https://rpc-c.simplechain.com",
+  "Currency symbol: SRW",
+  "Block explorer: https://testnet-explorer.simplechain.com",
+  "Request test SRW from the faucet . You can ask once every 24 hours.",
+  "Link your X account and either Telegram or Discord in the portal. Several tasks won't count without them. Warning These links tie your social accounts to your wallet address, and the Telegram link asks for write access.",
+  "On the Daily tab, claim the check-in and the website visit every day."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://task.simplechain.com",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "11 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing. The tasks run on free test SRW from the faucet, and we found no node sale, presale or paid boost.",
+ "risks": "Points only \"qualify\" you for a future distribution. Nothing says what a point is worth or whether points can be cancelled. No founders or team members are named on any SimpleChain page, and no audit is published. TechFlow and ChainCatcher reported a $15 million seed round on 10 April 2026, raised from \"family offices and institutional investors\". No investor is named, so the figure can't be check",
+ "created": "2026-11-23",
+ "status": "open"
+}

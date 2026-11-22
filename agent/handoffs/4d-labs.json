@@ -1,0 +1,29 @@
+{
+ "project": "4D Labs",
+ "official_url": "https://dapp.4dlabs.space/tasks",
+ "source_url": "https://99airdrops.com/airdrops/4d-labs/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open dapp.4dlabs.space/tasks directly. Warning We found no task that asks for a seed phrase. Anyone who asks for yours is running a scam.",
+  "Log in with \"a crypto wallet, a traditional email address, or a social media account such as Google or X\". Check-ins need a connected EVM wallet, so use a spare one instead of your main wallet.",
+  "Put a little BNB in that wallet on BNB Chain. Each check-in is a transaction, and you pay the gas.",
+  "Pick a continent and press Check In each day. The docs recommend \"checking in on the continent where you are located\", but all six pay the same.",
+  "Join the Discord server and the Telegram channel from the Social section. That's 100 Score without touching your X account.",
+  "Check your Score, rank and linked accounts on the Profile page, and follow t.me/official_4dlabs for news of later seasons."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://dapp.4dlabs.space/tasks",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The project says: \"Only a small network gas fee applies. 4D Labs charges no check-in fee.\" Social tasks cost nothing, and we found no deposit, mint or stake in Season 1. We didn't sign a check-in, so we can't give a gas figure. Checking in daily means one paid transaction a day for as long as the season runs, so keep only a small amount of BNB in that wallet. That may change. The docs say \"some up",
+ "risks": "Excluded: no country list is published. You \"must be at least 18 years old\", and you can't take part where it's \"prohibited by applicable law, sanctions, export controls, or an agreement binding on you\". Features may also be \"geographically limited\". 4D Labs may require \"identity, eligibility, rights, tax, sanctions, or fraud checks\" before it issues a reward. Points have no value of their own. Th",
+ "created": "2026-11-23",
+ "status": "open"
+}

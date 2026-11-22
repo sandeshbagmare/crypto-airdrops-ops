@@ -1,0 +1,24 @@
+{
+ "project": "Bless Network",
+ "official_url": "https://bless.network",
+ "source_url": "https://www.airdropstop.com/airdrops/bless-network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Add the Chrome extension or run the desktop installer Go to the Bless homepage and pick either the browser extension or the desktop installer to set Bless up.",
+  "2 Step 2 : Choose whether to allow data collection Collection of your data is opt-in. Turning it down means Bless collects nothing.",
+  "3 Step 3 : Stay online with a steady connection Keep your internet connection stable, the one requirement the homepage lists. Bless then matches your idle device with suitable computing tasks.",
+  "4 Step 4 : Leave Bless running to build uptime Your online time keeps adding up while Bless runs. Referrals and achievements can bring bonus rewards."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://bless.network",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

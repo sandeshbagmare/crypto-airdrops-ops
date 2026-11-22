@@ -1,0 +1,28 @@
+{
+ "project": "UP",
+ "official_url": "https://up33.xyz",
+ "source_url": "https://99airdrops.com/airdrops/up/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Bridge a little ETH to Robinhood Chain for gas and connect a wallet at up33.xyz .",
+  "Swap for UP, then lock it for veUP. Locks run from one week to four years. Warning A lock has no early exit. The veUP position can be transferred, but the UP inside stays locked until expiry.",
+  "Vote for pools before the 7-day epoch ends. A lock that has never voted earns no fees or incentives.",
+  "If you'd rather not lock, provide liquidity and stake the position in a gauge to earn UP emissions.",
+  "Check the Rewards page after each epoch flips."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://up33.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Using the app costs gas in ETH plus each pool's swap fee. The larger cost is the lock. UP inside a lock can't be withdrawn before the unlock date, and you have to buy or earn the token first. The UP docs page on locking on 18 October 2026, with the voting power formula and a table of lock durations. Source: up. docs",
+ "risks": "Shieldify's July 2026 review found no critical or high severity issues. Its three medium and three low findings are marked acknowledged, meaning the code wasn't changed. The weights between groups and the pace of payouts can change.",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,22 @@
+{
+ "project": "Gyndore",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/gyndore",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Reward Inferred Confirmed reward. DropWave redemption into bGYND or other published incentives; final user allocation is pending Sources: gyndore-site, gyndore-x-dropwave, gyndore-x-testnet Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
+  "Deadline Inferred No campaign deadline has been verified. Sources: gyndore-site, gyndore-x-dropwave, gyndore-x-testnet Recheck when: An official campaign source publishes or changes a deadline."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/gyndore",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "2 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "The current public testnet can be explored with test assets. The planned production product includes borrowing up to a high LTV, concentrated liquidity, and token incentives; those create liquidation, impermanent-loss, oracle, smart-contract, and token-price risks. Do not transfer real cbBTC for an unpublished reward.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

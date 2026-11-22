@@ -1,0 +1,30 @@
+{
+ "project": "IPX",
+ "official_url": "https://www.ipx.exchange/fanszn",
+ "source_url": "https://99airdrops.com/airdrops/ipx-exchange/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Open ipx.exchange/fanszn , the link on IPX's official X profile.",
+  "Press Sign in with X. The rules ask for an \"X account at least 90 days old with 50+ followers (or manual review)\".",
+  "Pick a fandom and take the Fan Check. You get one try, so answer fast.",
+  "Come back every day to keep your streak multiplier, and do the side tasks: Discord, Telegram and the waitlist.",
+  "Post your own content about IPX, tag @IPXExchange and submit the link for scoring. Paid posts don't count: \"Anyone paid by IPX or its agencies for campaign posts is not eligible for rewards.\"",
+  "Check the leaderboard before 15 November at 23:59 UTC and the results on 17 November. IPX hasn't said how winners link a wallet or claim. Warning Ignore anyone who messages you about prizes. The rules say: \"IPX never DMs first. Only trust ipx.exchange and x.com/IPXExchange.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.ipx.exchange/fanszn",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The sprint costs nothing. The rules say: \"FAN SZN is free to play.\" You don't need a wallet or a deposit to collect Aura. The wider IPX platform does charge fees and asks users to \"Complete required KYC/AML verification procedures\", but none of that is needed for FAN SZN. The IPX part of the prize has no price yet, since the token has no market, and it vests over 14 days. Only the USDC prizes have",
+ "risks": "The rules say \"Age and country restrictions are set out in the full terms\", but the terms of service, last updated on 8 October 2025, contain no country list and nothing about FAN SZN. The privacy policy says: \"The Services are intended for individuals 18 years of age or older.\" The prize list is incomplete. Only $20,000 USDC, a $5,000 celebrity pool and an unpriced IPX share are itemised against ",
+ "created": "2026-11-23",
+ "status": "open"
+}

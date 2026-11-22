@@ -1,0 +1,24 @@
+{
+ "project": "KOR Protocol",
+ "official_url": "https://airdrop.korprotocol.foundation",
+ "source_url": "https://www.airdropstop.com/airdrops/kor-protocol",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the KOR Airdrop site Go to the KOR Airdrop site , which invites you to verify your activity and unlock a KOR token reward, and press Enter.",
+  "2 Step 2 : Connect an EVM wallet On the flow page , connect your EVM wallet to register for the KOR airdrop.",
+  "3 Step 3 : Complete the Proof of Humanity stage The flow&#x27;s second stage is called Proof of Humanity. The airdrop site does not describe what it asks for, so follow the prompts it shows.",
+  "4 Step 4 : Fill in your registration info and finish The last two stages are registration info and registration complete. Finish both to complete your registration."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrop.korprotocol.foundation",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

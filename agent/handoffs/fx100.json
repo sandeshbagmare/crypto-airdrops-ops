@@ -1,0 +1,29 @@
+{
+ "project": "FX100",
+ "official_url": "https://testnet.fx100.club",
+ "source_url": "https://99airdrops.com/airdrops/fx100/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Get an access code from FX100's own site, hiring.fx100.club, by registering a wallet address. Don't use codes posted by promoters.",
+  "Open testnet.fx100.club , enter the code, then connect a wallet on Base Sepolia.",
+  "Claim mock ETH and mock USDC from the in-app faucet.",
+  "Pick a market, choose long or short, set collateral and leverage, read the preview, then confirm. You can close or set a stop loss afterwards.",
+  "Join the AladdinDAO Discord and FX100's Guild page at guild.xyz/fx100 to claim the testnet verified role.",
+  "Follow @FX100Perp on X and the Guild page for each week's testnet and X challenge."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://testnet.fx100.club",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The testnet is free: \"On testnet you don't need real funds. Collateral and gas are both mock tokens you claim from the faucet inside the app\". The fees it plans for mainnet are \"0.05% on BTC &amp; ETH · 0.075% on all other markets\" to open and again to close, plus keeper gas, funding and a dynamic spread. \"FX100 charges no borrowing fee at all.\" But funding \"is never exactly zero even in a perfect",
+ "risks": "We couldn't read FX100's terms or a list of excluded countries. Its main site shows a bot check, so the access details here come from its docs and archived copies of its pages. Access is gated by referral codes, and the docs (\"private testnet\") and the access pages (\"public testnet\") describe the stage differently. No team member is named for FX100 itself, and no audit is published yet. Paid extra",
+ "created": "2026-11-23",
+ "status": "open"
+}

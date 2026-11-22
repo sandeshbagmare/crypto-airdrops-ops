@@ -1,0 +1,25 @@
+{
+ "project": "Marginly",
+ "official_url": "https://app.marginly.com/mainnet/earn",
+ "source_url": "https://www.airdropstop.com/airdrops/marginly",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Marginly app Go to the Earn page of the Marginly app , which is where the homepage sends visitors to farm Sparks.",
+  "2 Step 2 : Connect your wallet Connect a crypto wallet that holds ETH or stablecoins, or Pendle Principal Tokens if you plan to farm.",
+  "3 Step 3 : Deposit into a pool Deposit ETH or stablecoins in a pool to earn interest and Sparks as a liquidity provider. The homepage says deposits double the Sparks rewards.",
+  "4 Step 4 : Or farm with leverage On the Farm page , pick a Pendle pool, enter an amount and choose a leverage level. Marginly&#x27;s 2024 post says farming leveraged yield also earns Sparks. A leveraged position can be liquidated if the PT falls in price against its underlying asset.",
+  "5 Step 5 : Check the homepage for the airdrop Follow the Marginly homepage , where the airdrop step is marked as coming soon."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.marginly.com/mainnet/earn",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

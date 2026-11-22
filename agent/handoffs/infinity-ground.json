@@ -1,0 +1,25 @@
+{
+ "project": "Infinity Ground",
+ "official_url": "https://www.infinityg.ai/voyage",
+ "source_url": "https://www.airdropstop.com/airdrops/infinity-ground",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Log in on the Voyage page Open the Voyage page and log in to see your total ING points.",
+  "2 Step 2 : Check in every day Use the daily check-in on the same page. The page shows a reward that grows over a run of consecutive days.",
+  "3 Step 3 : Follow the project&#x27;s channels Follow Infinity Ground on X and join the Telegram announcement channel and the community chat, since each is a listed task.",
+  "4 Step 4 : Build or remix an app in the Agentic IDE Open the Agentic IDE , describe an app in plain language, and publish or remix it. The Voyage page also lists tasks for generating apps with AI and sharing them.",
+  "5 Step 5 : Watch the claim portal The claim portal is a claims portal for contributors to the product, technology and ecosystem. A Season 1 claim guide is posted separately on Medium."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.infinityg.ai/voyage",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

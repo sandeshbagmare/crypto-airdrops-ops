@@ -1,0 +1,24 @@
+{
+ "project": "Wager Predict",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/wager-predict",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Reward Verified Confirmed reward. WP allocation is reported as confirmed by the source listing; final eligibility and value are not guaranteed Sources: wager-token-official, wager-roadmap-official, wager-site Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
+  "Deadline Verified No campaign deadline has been verified. Sources: wager-token-official, wager-roadmap-official, wager-site Recheck when: An official campaign source publishes or changes a deadline.",
+  "Verdict Verified A testnet opportunity with a reported allocation, but its final official terms need rechecking. Sources: wager-listing, wager-site, wager-token-official Recheck when: New evidence changes the reward state, cost, eligibility, or risk.",
+  "Project Verified Wager Predict is presented as a non-custodial prediction-market application on BSC testnet. Sources: wager-listing, wager-site, wager-token-official Recheck when: The project changes its product, control model, or live status."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/wager-predict",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "4 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "A legitimate testnet should not require a seed phrase or a payment to claim faucet assets. Confirm BSC testnet and the destination domain before signing any transaction.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

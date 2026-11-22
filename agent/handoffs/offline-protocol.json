@@ -1,0 +1,25 @@
+{
+ "project": "Offline Protocol",
+ "official_url": "https://mine.offlineprotocol.com",
+ "source_url": "https://www.airdropstop.com/airdrops/offline-protocol",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Mine page Go to the Mine page by Offline Protocol , the starting point for the points campaign.",
+  "2 Step 2 : Download the Mine app Use the Download Mine button on the Mine page to get the app.",
+  "3 Step 3 : Join the mesh near other devices Let the app connect with devices around you. This link-up with nearby peers is how you take part in the mesh.",
+  "4 Step 4 : Do the daily missions Work through the missions the app sets each day.",
+  "5 Step 5 : Keep growing the network Points are earned as the network grows, so keep linking up and doing missions. Offline Protocol has not published a points formula or a claim date."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://mine.offlineprotocol.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

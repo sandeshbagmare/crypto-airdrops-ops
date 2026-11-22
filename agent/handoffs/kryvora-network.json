@@ -1,0 +1,31 @@
+{
+ "project": "Kryvora Network",
+ "official_url": "https://faucet-testnet.kryvora.network",
+ "source_url": "https://99airdrops.com/airdrops/kryvora-network/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Add the network to an EVM wallet such as MetaMask or Rabby, with these settings: Network name: Kryvora Network",
+  "RPC URL: https://rpc-testnet.kryvora.network",
+  "Chain ID: 73829164",
+  "Currency symbol: ETH",
+  "Block explorer: https://explorer-testnet.kryvora.network",
+  "Open the Kryvora faucet , paste your address and pass the check. It sends 0.001 test ETH, once every 24 hours per wallet and IP address.",
+  "Open the task portal , connect the wallet and sign the login message. Then claim the three setup quests: Connect Your Wallet (100 points), Add Kryvora to Your Wallet (150) and Get ETH from the Faucet (250).",
+  "Make any transaction on Kryvora, such as a transfer or a swap, and claim Make a Kryvora Transaction (300). The portal checks your activity from the last 24 hours."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://faucet-testnet.kryvora.network",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "12 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The route above costs nothing. Gas is paid in test ETH from the faucet, and the swap, lending and bridge apps all run on test assets. The docs say Kryvora testnet assets have no real-world value. The paid item is the Genesis Node Key: 10 USDC on Arbitrum One, with a cap of 5,000 keys. The key contract showed 364 minted on 4 October 2026. Delegating a key through Node Hub carries a 5% operator fee.",
+ "risks": "The team is anonymous on the website, the docs and X. Two GitHub profiles claim founder and core roles, and we couldn't confirm either identity. The homepage shows \"$3.4M Funding Raised\" without naming an investor, a round or a date. We found no news report of it. There are no terms of service, no privacy policy and no published audit. The roadmap lists security reviews as a later phase. Kryvora h",
+ "created": "2026-11-23",
+ "status": "open"
+}

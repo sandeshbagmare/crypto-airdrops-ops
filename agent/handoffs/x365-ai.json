@@ -1,0 +1,25 @@
+{
+ "project": "x365 AI",
+ "official_url": "https://x365.ai/airdrop",
+ "source_url": "https://www.airdropstop.com/airdrops/x365-ai",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the airdrop page Go to the X365.AI airdrop page , which holds the sign-up form for the free coins.",
+  "2 Step 2 : Enter a valid email address Type your email into the form and submit it. The page asks for a valid address because a verification link is sent there.",
+  "3 Step 3 : Verify your email Open the verification link that arrives in your inbox. This is the first of the five stages the page lists.",
+  "4 Step 4 : Complete the YouTube, X and Telegram steps The airdrop page numbers the YouTube, X and Telegram stages 2 to 4. The project&#x27;s accounts are on X and Telegram .",
+  "5 Step 5 : Claim the airdrop Finish with the claim stage on the airdrop page to receive the 500 X365 coins."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://x365.ai/airdrop",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

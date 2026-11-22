@@ -1,0 +1,28 @@
+{
+ "project": "Derivio",
+ "official_url": "https://derivio.xyz",
+ "source_url": "https://99airdrops.com/airdrops/derivio/",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "Open derivio.xyz and sign up with email, Google or a Phantom wallet.",
+  "Set a password. \"You'll be shown your Secret Recovery Phrase (seed phrase)\" for the wallet Derivio creates for you. Write it down offline. Warning Derivio says of that phrase: \"Do not share it with anyone. Ever.\" Its docs also warn: \"Scammers may impersonate support staff or offer unsolicited help in DMs.\"",
+  "\"You can deposit SOL directly into your new Derivio wallet.\"",
+  "Trade. Each trade earns points and SOL cashback.",
+  "Optional: share your referral link. People who sign up through it get 10% off fees."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://derivio.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Points cost money, because they come only from trading. Fees are high: the starting tier pays 0.95% per trade with 0.05% back, and the top tier pays 0.60% with 0.40% back, since \"Tiers are based on your cumulative trading volume\". On top come Solana priority fees and validator tips, each \"Default: 0.002 SOL\" in the docs. Memecoins can lose most of their value in minutes.",
+ "risks": "No team member or company is named on Derivio's official pages. The current terms couldn't be read because derivio.xyz blocks automated visitors. The 2023 terms said the site \"IS NOT AVAILABLE TO PERSONS OR ENTITIES WHO RESIDE IN, ARE LOCATED IN, ARE INCORPORATED IN, OR HAVE A REGISTERED OFFICE IN THE UNITED STATES OF AMERICA OR CANADA\", excluded sanctioned places, and banned VPNs. The referral pr",
+ "created": "2026-11-23",
+ "status": "open"
+}

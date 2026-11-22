@@ -1,0 +1,29 @@
+{
+ "project": "Panther Protocol",
+ "official_url": "https://pantherdao.app",
+ "source_url": "https://99airdrops.com/airdrops/panther-protocol/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Open pantherdao.app , the app linked from Panther's X profile, and read the legal notice before you tick it.",
+  "Connect a wallet and pick the network: Polygon or Base for now.",
+  "Complete onboarding and pass KYC with the compliance provider the app sends you to. It checks your ID and runs sanctions screening, and the fee is paid in ZKP.",
+  "Activate your Panther account. Keep a little POL or ETH for gas; the first activation is subsidised. Claim the onboarding PRP under Rewards.",
+  "Deposit an approved token in the zAssets tab. Holding builds pending PRP; sending, swapping or withdrawing makes it available. Warning You are putting real money into a pool that has been drained before. Deposit only what you can afford to lose, and never enter a seed phrase on any site.",
+  "Redeem available PRP for ZKP in the Rewards tab. Check the rate shown before you confirm, because it moves."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://pantherdao.app",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Under PIP-26, the KYC check costs 100 ZKP and the transaction check (KYT) 25 ZKP, paid to the compliance provider. Withdrawals pay a 0.30% protocol fee. You also pay gas and relayer fees; only account activation gets a 200 ZKP subsidy. The PRP that matter most come from deposits, so the program is not free in practice. Limits per person per day are set by vote: \"a deposit limit of $25,000 per day ",
+ "risks": "The app is closed to US persons and to people in embargoed or sanctioned places. No full country list is published, and the app blocks some regions. \"Users must not use a virtual private network, proxy or other means to circumvent applicable access restrictions.\" The Base pool was \"drained on 2026-08-06 through a compromised Reality.eth Zodiac module\". The DAO minted about 5.1 million ZKP to resto",
+ "created": "2026-11-23",
+ "status": "open"
+}

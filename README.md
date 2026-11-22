@@ -11,6 +11,27 @@ airdrops.io also publishes per-project requirement flags, so the ledger can tell
 need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
 X post, 54 need email, 19 require KYC.
 
+## For autonomous agents
+
+Start at **[AGENTS.md](AGENTS.md)** - it is the whole operating context: schema, script order,
+selection policy, per-drop loop, handoff contract, session model and the four hard boundaries.
+
+- `agent/STATE.json` - live queue, 522 drops with `status`, `blocked_on`, `next_action`
+- `agent/handoffs/*.json` - 393 pre-written packets for every drop that needs a human (KYC, login,
+  wallet signature, email), each with the exact steps, official URL and resume command
+- `agent/sessions/<identity>/` - Playwright persistent profiles; you log in once, the session
+  survives restarts. Gitignored, because a profile is equivalent to a login.
+- `BLOCKERS.md` - what is deliberately not automated, and why
+
+Classified queue: 231 need a wallet signature, 129 need nothing human-only, 95 need a Telegram/X
+session, 43 need KYC, 24 need an email click. An agent can work the 129 alone; the rest resume from
+its handoff file the moment the operator does their part.
+
+```bash
+python tools/agent_bootstrap.py --top 30     # rebuild the queue and packets
+python tools/agent_browser.py --identity main --url <official>   # login window + saved session
+```
+
 ## Browser site
 
 **https://sandeshbagmare.github.io/crypto-airdrops-ops/** - searchable, filterable by confidence,

@@ -1,0 +1,22 @@
+{
+ "project": "MoonPay",
+ "official_url": "",
+ "source_url": "https://airdrops.io/moonpay/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "ChatGPT: On the ChatGPT website (Developer mode is unavailable in the mobile app), open Settings, enable Developer mode under Security, then go to Plugins, select New Plugin, name it PayBox, paste the server URL, and set Authentication to OAuth.",
+  "Claude: Select “Open Claude Settings” from the PayBox site, and the connector should appear pre-filled; select “Add.” If it does not show up, go to Settings, then Connectors, and add a custom connector named PayBox with the same URL."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/moonpay/",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "2 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "Free",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

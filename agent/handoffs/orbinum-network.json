@@ -1,0 +1,22 @@
+{
+ "project": "Orbinum Network",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/orbinum-network",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Reward Verified Confirmed reward. Season 1 ORB credits convert to a stated share of 20 million ORB at TGE Sources: orbinum-season-1, orbinum-distribution Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
+  "Deadline Verified No campaign deadline has been verified. Sources: orbinum-season-1, orbinum-distribution Recheck when: An official campaign source publishes or changes a deadline."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/orbinum-network",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "2 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "The free route uses faucet tokens. The faucet provides 10 test ORB once every 24 hours and states that test tokens have no economic value. The main risks are wallet security, fake faucet links, Discord impersonation, time spent on streaks, and the possibility that an early project changes schedule. Do not send real crypto for test tokens.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

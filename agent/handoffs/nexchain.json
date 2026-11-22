@@ -1,0 +1,25 @@
+{
+ "project": "Nexchain",
+ "official_url": "https://nexchain.ai",
+ "source_url": "https://www.airdropstop.com/airdrops/nexchain",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the official site Go to nexchain.ai , the project&#x27;s homepage, and read the overview and the roadmap .",
+  "2 Step 2 : Read the how-to-buy guide The How to Buy page walks through the presale in four steps, from visiting the site to completing a purchase.",
+  "3 Step 3 : Connect your wallet Open the presale at nexchain.live and create an account with the wallet connect option.",
+  "4 Step 4 : Choose a payment currency Pick how you want to pay in crypto, with BTC, ETH and USDT named as examples on the how-to-buy page.",
+  "5 Step 5 : Confirm the payment Confirm in your wallet or use direct deposit. The how-to-buy page says purchased NEX shows up in your dashboard balance."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://nexchain.ai",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

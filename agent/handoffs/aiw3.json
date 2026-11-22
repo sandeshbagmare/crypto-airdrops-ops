@@ -1,0 +1,26 @@
+{
+ "project": "AIW3",
+ "official_url": "https://aiw3.ai/airdrop",
+ "source_url": "https://www.airdropstop.com/airdrops/aiw3",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the AIW3 Airdrop Center Go to the Airdrop Center and review the task list and your points balance. The site blocks access in some regions, so check that it loads for you.",
+  "2 Step 2 : Connect a wallet Connect a wallet on the Airdrop Center page so that your points are recorded against your address.",
+  "3 Step 3 : Check in each day Press the check-in button once a day to earn points. The daily reward rises across the seven days of the cycle, and a skipped day leaves your place in the cycle where it was.",
+  "4 Step 4 : Finish the community tasks Follow AIW3 on X and join its group on Telegram , then use each task&#x27;s verify button. Reposting the featured campaign post is also listed.",
+  "5 Step 5 : Publish a strategy Make a strategy on the Create Strategy page and list it in the Strategy Plaza for a single points reward.",
+  "6 Step 6 : Trade for volume points Trading volume earns further points, and a streak of three trading days, each with at least 2000 USDT traded, earns a milestone reward. These tasks need real trading activity with USDT, so they need trading funds. Browse strategies in the strategy square if you want to follow one."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://aiw3.ai/airdrop",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

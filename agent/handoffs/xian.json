@@ -1,0 +1,25 @@
+{
+ "project": "Xian",
+ "official_url": "https://airdrops.xian.org",
+ "source_url": "https://www.airdropstop.com/airdrops/xian",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Install a Xian wallet Add the Xian Wallet Chrome extension or the Android wallet .",
+  "2 Step 2 : Open the Xian airdrop site Go to the Xian Airdrop site and continue from the GitHub Developer Airdrop card.",
+  "3 Step 3 : Connect your Xian wallet Choose Connect Wallet under the Connect Xian Wallet heading and connect your Xian wallet.",
+  "4 Step 4 : Connect your GitHub account Choose Connect GitHub on the same page and link your GitHub account.",
+  "5 Step 5 : Claim the airdrop Submit the claim on the airdrop site once both connections are in place."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.xian.org",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

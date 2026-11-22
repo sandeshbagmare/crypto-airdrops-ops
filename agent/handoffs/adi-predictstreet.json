@@ -1,0 +1,27 @@
+{
+ "project": "ADI Predictstreet",
+ "official_url": "",
+ "source_url": "https://airdrops.io/adi-predictstreet/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Follow ADI Chain on X: +50 points",
+  "Follow Predictstreet on X: +50 points",
+  "Daily check-in: +10 points",
+  "Make a prediction today: +100 points (requires trading access in your region)",
+  "Open today’s Daily Pack: +10 points",
+  "Tweet about Predictstreet: +50 points",
+  "Visit the Predictstreet website: +25 points"
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/adi-predictstreet/",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "7 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "Free",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

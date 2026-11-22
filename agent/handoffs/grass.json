@@ -1,0 +1,28 @@
+{
+ "project": "Grass",
+ "official_url": "https://app.grass.io",
+ "source_url": "https://99airdrops.com/airdrops/grass/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Create an account at app.grass.io with an email address or Google account.",
+  "Install the app from grass.io/download . There are builds for Windows, macOS, Linux and Android.",
+  "Leave it running on a stable residential connection and keep the app updated. Grass says such nodes are more likely to get traffic. Warning Using a VPN to get around Grass's country restrictions can lead to permanent disqualification.",
+  "If you ran Grass during Stage 2, open the dashboard and claim your USDC before 22 January 2027. Warning Grass keeps whatever is unclaimed after 22 January 2027."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.grass.io",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Grass is free to run. Claiming through the wallet built into the app costs a flat $0.15 per transaction, charged by wallet provider Turnkey, plus the Solana network fee. Cashing out goes through MoonPay or Jupiter under their own terms and identity checks.",
+ "risks": "The rewards terms exclude minors and anyone in a prohibited jurisdiction. The list includes Russia, Belarus, Iran, Cuba, North Korea, Venezuela and parts of Ukraine, and Grass can change it. Rewards follow how much of your bandwidth the network uses. Grass said about 150,000 users received roughly 90% of the traffic in Stage 2. Stage 2 was paid in USDC. Grass hasn't said whether the next round wil",
+ "created": "2026-11-23",
+ "status": "open"
+}

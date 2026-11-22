@@ -1,0 +1,22 @@
+{
+ "project": "GenLayer",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/genlayer",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Deadline Verified No campaign deadline has been verified. Sources: genlayer-portal, genlayer-networks, genlayer-studio Recheck when: An official campaign source publishes or changes a deadline.",
+  "Verdict Verified Try the technology, not a payout. Hosted Studio is a good first evening. Run a validator only if you would do it without a token promise. Sources: genlayer-website, genlayer-portal, genlayer-networks Recheck when: New evidence changes the reward state, cost, eligibility, or risk."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/genlayer",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "2 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "Hosted Studio has a built-in faucet, and Bradbury has an official testnet faucet. The hosted exploration recorded here requires no token deposit or real capital. That does not make all GenLayer activity free: validator hardware, inference, staking and ongoing operation are separate costs and risks. Points have no monetary value under the current terms.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

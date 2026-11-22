@@ -1,0 +1,25 @@
+{
+ "project": "Titan Network",
+ "official_url": "https://www.titannet.io",
+ "source_url": "https://www.airdropstop.com/airdrops/titan-network",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Titan Network site Go to the Titan Network homepage for the project&#x27;s own account of its network for individuals and for enterprises.",
+  "2 Step 2 : Install the browser extension The homepage lists the extension in the Chrome Web Store. Use the extension download link from the official site rather than a search result.",
+  "3 Step 3 : Look at the video data collection page The homepage links to a video data collection page . Open it to see the service Titan Network offers to enterprises.",
+  "4 Step 4 : Read the tokenomics lightpaper The tokenomics lightpaper explains the testnets and the planned TNT token economy, and which parameters are still undecided.",
+  "5 Step 5 : Follow the official channels Titan Network lists its accounts on X , Discord and Telegram for project updates."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.titannet.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

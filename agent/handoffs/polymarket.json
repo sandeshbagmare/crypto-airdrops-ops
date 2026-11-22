@@ -1,0 +1,27 @@
+{
+ "project": "Polymarket",
+ "official_url": "https://help.polymarket.com/en/articles/13364163-geographic-restrictions",
+ "source_url": "https://99airdrops.com/airdrops/polymarket/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Read the geographic restrictions list first. Polymarket blocks 39 countries and prohibits VPN use.",
+  "Sign up at polymarket.com with Google, email or a crypto wallet.",
+  "Click Deposit, choose a token and network, and send funds to the address shown. Deposits under the minimum stay pending. The help center gives $20 on Ethereum and $3 on Solana as examples.",
+  "Trade markets you understand. Polymarket says announcements will only come from its website, its X account and its Discord."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://help.polymarket.com/en/articles/13364163-geographic-restrictions",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Takers pay a fee on certain markets and makers pay nothing. The fee is highest at a share price of $0.50, where 100 shares cost $1.75 on a crypto market and $1.00 on a politics market. Geopolitics markets are free. Polymarket doesn't charge for deposits or withdrawals. The Fees page of the Polymarket docs on 18 October 2026, with the fee formula and the taker fee rate for each market category. Sou",
+ "risks": "No airdrop terms exist. Polymarket hasn't said whether volume, profit or account age would count. The blocked list includes the United States, the United Kingdom, France, Germany, Italy, Australia and Singapore, plus four Canadian provinces. Access depends on where you physically are. US residents have a separate Polymarket US app, and its accounts aren't connected to polymarket.com. It opened to ",
+ "created": "2026-11-23",
+ "status": "open"
+}

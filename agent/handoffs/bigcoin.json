@@ -1,0 +1,24 @@
+{
+ "project": "Bigcoin",
+ "official_url": "https://www.bigcoin.tech",
+ "source_url": "https://www.airdropstop.com/airdrops/bigcoin",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the BigCoin homepage Go to the official site at BigCoin , which is where the mining starts.",
+  "2 Step 2 : Connect a wallet to start mining Use the Connect Wallet to Start Mining button on the homepage. The homepage also shows the total BIG mined so far.",
+  "3 Step 3 : Check the hash rate leaderboard The homepage shows an Optimization Leaderboard for hash rate, with badges and rewards, dated 31 July to 4 August."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.bigcoin.tech",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

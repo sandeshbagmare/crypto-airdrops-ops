@@ -1,0 +1,25 @@
+{
+ "project": "Sixpence",
+ "official_url": "https://www.sixpence.xyz/campaign",
+ "source_url": "https://www.airdropstop.com/airdrops/sixpence",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Season 1 campaign page Go to the Sixpence campaign page to see the points rates, the leaderboard and the prize pool. Read the campaign terms first, since jurisdiction restrictions apply.",
+  "2 Step 2 : Connect a wallet on Robinhood Chain Connect a wallet on Robinhood Chain so your points and rewards can be shown. Points appear once a snapshot is available.",
+  "3 Step 3 : Supply assets or borrow on the Lend page On the Lend page , supply assets to earn Lend points, or borrow against them so your outstanding debt earns Borrow points.",
+  "4 Step 4 : Deposit into a vault on the Earn page Use the Earn page to make a vault deposit. Net vault deposits earn the Yield rate, the highest of the three.",
+  "5 Step 5 : Keep the position open and watch your share Points are counted at every hourly snapshot, so they build as long as the position stays open. Check the leaderboard on the campaign page, and review the Risk Dashboard for live risk parameters."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.sixpence.xyz/campaign",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

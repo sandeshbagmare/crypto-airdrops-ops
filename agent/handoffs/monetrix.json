@@ -1,0 +1,28 @@
+{
+ "project": "Monetrix",
+ "official_url": "https://www.monetrix.xyz/app/earn",
+ "source_url": "https://99airdrops.com/airdrops/monetrix/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Bridge USDC to HyperEVM and keep a little HYPE for gas.",
+  "On the Earn page , approve USDC and mint USDM.",
+  "Stake USDM there for sUSDM.",
+  "Add liquidity to a Hybra pool on the DeFi page for the higher multipliers.",
+  "Connect your wallet on the tasks page and claim completed tasks."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.monetrix.xyz/app/earn",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Minting and redeeming are 1:1, gas is paid in HYPE, and the docs don't publish a fee rate. Warning Unstaking sUSDM and redeeming USDM for USDC each have a cooldown, three days when we checked. Requests earn nothing while they wait and can't be cancelled. Selling on a DEX is faster but may fetch less than 1:1. For mxHYPE the docs give one day to unstake and two days to redeem, or an instant exit fo",
+ "risks": "USDM's market price can drift from $1 under stress, and the FAQ says the sUSDM rate could fall in severe conditions such as negative funding. Monetrix depends on Hyperliquid for execution, margin, oracles and liquidations. mxHYPE and mxBTC aren't stable: their value follows HYPE and Bitcoin. The audits page lists contracts for both but no separate audit of them. A Code4rena audit contest in April ",
+ "created": "2026-11-23",
+ "status": "open"
+}

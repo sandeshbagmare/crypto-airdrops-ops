@@ -1,0 +1,27 @@
+{
+ "project": "Bullshot",
+ "official_url": "https://bullshot.io",
+ "source_url": "https://99airdrops.com/airdrops/bullshot/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open bullshot.io , the site linked from Bullshot's X account, @Bullshot911.",
+  "Connect a wallet and pick BNB Chain in the network selector.",
+  "Share your referral link, which appears once a wallet is connected.",
+  "If you want, play Bull Gems at gem.bullshot.io with a wallet on Base, and do its daily tasks."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://bullshot.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Creating a coin costs about 0.00015 BNB plus gas. Buying and selling on the curve each cost 1%, which we read on Bullshot's contracts on 16 October 2026. When a coin moves to PancakeSwap, the contract takes a launch fee from its BNB pool. The docs describe it as a \"Fee taken from ETH pool at DEX launch\", and on-chain it was set to 10%. The create page doesn't show that fee. Other features cost ext",
+ "risks": "We found no terms of use, privacy policy, country list, age limit or identity check on any Bullshot site. That means the rules are unknown, not that there are none. People who bought $BULL are still waiting. The Poolz sale was a \"Non-Refund Sale Model\", and Poolz gave its terms as \"0% TGE, 6m cliff, 12m vesting\". The app says \"Ownership renounced and contracts are immutable.\" When we checked on 16",
+ "created": "2026-11-23",
+ "status": "open"
+}

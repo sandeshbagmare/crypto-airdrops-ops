@@ -1,0 +1,29 @@
+{
+ "project": "ZeruAI",
+ "official_url": "https://app.zaps.markets",
+ "source_url": "https://99airdrops.com/airdrops/zeruai/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open app.zaps.markets and paste a wallet address to preview it. You don't need to sign in for this. Warning ZeruAI uses many domains, including zeruai.org, zaps.markets and zaps.market, which makes fake sites easier to pass off. The docs say: \"Verify the destination before connecting a wallet.\"",
+  "Sign in with X or a wallet: \"You can start with a wallet and add X later.\" With wallet-only sign-in, that wallet becomes your public identity, so X is the more private choice.",
+  "Link your other wallets: \"Link up to 10 wallets by signing a message that costs nothing.\" Never enter a seed phrase.",
+  "To enter a campaign, open it in Zaps, press Join or Register, and trade only through the link Zaps gives you. For Aspen you also need an Aspen account and a deposit: \"Deposit funds into your Aspen account and run your strategy live.\"",
+  "For zETH, register at zaps.markets/markets and mint a zScore: \"You need a minted zScore to win a seat.\" Then \"do the market's activity for real: pay fees, pay interest, supply capital.\"",
+  "After a campaign settles, claim from your Zaps profile: \"Your reward is claimed, not sent, and you pay the gas for your own claim.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.zaps.markets",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "\"Joining Zaps costs nothing.\" The free route earns only standing, though. Winning money takes capital: Aspen needs a deposit and $10,000 of volume, and trading losses and fees are yours. A clan member also gives up part of any prize: \"If you're in a clan, 5% of your prize goes to your clan leader.\" The zScore mint is optional for normal use. In February 2026 ZeruAI said \"Minting costs just $6.70 o",
+ "risks": "We couldn't read the terms. The Zeru page showed only \"Loading Terms of Service...\", and the terms and privacy links in the docs led to a 404 page. So we can't tell you the excluded countries, age limit or VPN rules. Prize pools can shrink: \"The pool size is never a guaranteed payout.\" Your share also falls as others join: \"Your share is a fraction, and it shrinks as more people join.\" The first c",
+ "created": "2026-11-23",
+ "status": "open"
+}

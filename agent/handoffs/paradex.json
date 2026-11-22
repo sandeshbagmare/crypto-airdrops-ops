@@ -1,0 +1,24 @@
+{
+ "project": "Paradex",
+ "official_url": "https://app.paradex.trade",
+ "source_url": "https://www.airdropstop.com/airdrops/paradex",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Paradex app and log in Go to the Paradex app and log in to reach your account. XP is tied to activity on this exchange.",
+  "2 Step 2 : Use the exchange Trade perps, options or spot from the unified account, for example on the BTC-USD perpetual market . Paradex describes XP as its measure of user engagement.",
+  "3 Step 3 : Share your referral code The Paradex homepage says a referral code earns up to 10% XP from the people you refer.",
+  "4 Step 4 : Follow campaign updates Check the Paradex announcements and the campaigns Telegram channel for changes to the program. The ended DIME Genesis post records how the earlier claim worked."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.paradex.trade",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

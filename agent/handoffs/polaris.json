@@ -1,0 +1,24 @@
+{
+ "project": "Polaris",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/polaris",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Reward Inferred Possible airdrop. Not announced. Sources: polaris-testnet-v2, polaris-docs Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
+  "Deadline Inferred No campaign deadline has been verified. Sources: polaris-testnet-v2, polaris-docs Recheck when: An official campaign source publishes or changes a deadline.",
+  "Verdict Inferred Try the official testnet only if you want to evaluate the product with fake assets. Sources: polaris-docs, polaris-testnet-v2, polaris-testnet-yield Recheck when: New evidence changes the reward state, cost, eligibility, or risk.",
+  "Project Inferred Polaris is an onchain yield protocol built around pETH, a reserve asset used to collateralize decentralized stablecoins and synthetic assets. Sources: polaris-docs, polaris-testnet-v2, polaris-testnet-yield Recheck when: The project changes its product, control model, or live status."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/polaris",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "4 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "The documented testnet uses fake ETH. Confirm the official domain and each wallet request, and stop if any page asks for a seed phrase or real-asset transfer.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "Dropee",
+ "official_url": "https://waitlist.dropee.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/dropee",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Dropee Create waitlist site Go to the waitlist site to see the leaderboard, the number of airdrop spots and the claim section.",
+  "2 Step 2 : Post about Dropee Create on X Write a post about Dropee Create on X. The waitlist site scores posts with AI and turns them into leaderboard points.",
+  "3 Step 3 : Sign in with X to find your rank Use the login with X button on the waitlist site to see where you stand. The site states the access is read-only and that it does not post on your behalf.",
+  "4 Step 4 : Aim for the top 100 The airdrop tier covers the 100 highest places on the leaderboard, so your points relative to other players decide whether you qualify.",
+  "5 Step 5 : Link a TON wallet if you place in the top 100 If you finish in the top 100, you link a TON wallet where your DROPEE tokens are sent."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://waitlist.dropee.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

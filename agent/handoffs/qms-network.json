@@ -1,0 +1,25 @@
+{
+ "project": "QMS Network",
+ "official_url": "https://docs.qms.finance",
+ "source_url": "https://www.airdropstop.com/airdrops/qms-network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Read the docs overview Open the QMS docs for the overview of the proof-of-useful-work design and the note on the v0.1 preview release.",
+  "2 Step 2 : Add QMS Testnet to your wallet The onboarding guide shows how to set up a wallet for the testnet.",
+  "3 Step 3 : Send a first transaction Continue through the same onboarding guide to make a first transaction on the testnet.",
+  "4 Step 4 : Point your Ethereum tools at QMS Developers can follow the For Developers page to point familiar Ethereum tooling at QMS and deploy a contract.",
+  "5 Step 5 : Sign up for updates On the QMS homepage , the Get involved form asks for a name or nickname, email, Telegram, an X connection and a role chosen from a list. It is how the project shares news and developer material."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.qms.finance",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

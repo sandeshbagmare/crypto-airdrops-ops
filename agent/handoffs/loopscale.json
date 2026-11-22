@@ -1,0 +1,24 @@
+{
+ "project": "Loopscale",
+ "official_url": "https://app.loopscale.com",
+ "source_url": "https://www.airdropstop.com/airdrops/loopscale",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Loopscale app Go to the Loopscale app and connect a Solana wallet. The app is where you lend, borrow and loop.",
+  "2 Step 2 : Pick a way to earn points Lend through Loopscale Vaults or Advanced Lend , or borrow . Lending, borrowing and looping all earn points, as does referring others.",
+  "3 Step 3 : Open a Loop if you want leverage Choose a Loop on the Loops page, set your leverage, add optional slippage and fixed-rate duration settings, then confirm the transaction. The Loops guide lists the types and their risks.",
+  "4 Step 4 : Read the FAQ for the points rules The Loopscale FAQ explains how points are earned and links to a dedicated points page."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.loopscale.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

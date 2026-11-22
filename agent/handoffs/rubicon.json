@@ -1,0 +1,25 @@
+{
+ "project": "Rubicon",
+ "official_url": "https://app.rubicon.finance/earn",
+ "source_url": "https://www.airdropstop.com/airdrops/rubicon",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Rubicon app and connect a wallet Go to the Rubicon Earn dashboard and use the Connect button to link the wallet you plan to use. Your earned and claimable figures appear there once connected.",
+  "2 Step 2 : Swap through the aggregator Open the Swap page to trade through best-route aggregation, which the homepage lists as earning RUBI.",
+  "3 Step 3 : Add liquidity to a supported pool Supply a pair on the V2 liquidity page , or place a concentrated position through the CLMM pools . According to the homepage, V2 pairs that are supported carry RUBI incentives, while CLMM positions held in tight ranges earn RUBI in addition to fees.",
+  "4 Step 4 : Climb the volume leaderboards The homepage says live volume leaderboards earn RUBI and links its Compete button to the Earn dashboard .",
+  "5 Step 5 : Check your earnings on the Earn dashboard Return to the Earn dashboard to see the total earned and the amount claimable now."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.rubicon.finance/earn",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

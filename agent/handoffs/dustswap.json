@@ -1,0 +1,25 @@
+{
+ "project": "Dustswap",
+ "official_url": "https://app.dustswap.wtf/quests",
+ "source_url": "https://www.airdropstop.com/airdrops/dustswap",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the quests page and connect a wallet Go to the DustSwap quests page and connect a wallet. Sign-in runs through Privy.",
+  "2 Step 2 : Complete the social quests Join the Dustswap Discord, follow the project and its team on X, and connect those accounts so the quests can be verified. Each social quest pays 1,000 PP once.",
+  "3 Step 3 : Swap on Base Use the swap page to meet the daily, weekly or one-time volume and swap-count goals. Allow up to 10 minutes for your swap volume to show up.",
+  "4 Step 4 : Sweep your dust tokens Open Dust Sweep to clear small token balances. Sweep quests reward the total value recovered, or sweeping five tokens in one transaction.",
+  "5 Step 5 : Check your PP on the profile page Open your profile to see your total PP, rank and all-time volume. Repeat the daily and weekly quests after their timers reset."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.dustswap.wtf/quests",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

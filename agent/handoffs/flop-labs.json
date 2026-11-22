@@ -1,0 +1,25 @@
+{
+ "project": "Flop Labs",
+ "official_url": "https://github.com/flop-labs",
+ "source_url": "https://airdrops.io/flop-labs/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "KOL or creator: the lowest barrier of the three. A few solid posts plus the creator form on the Flop website is the entry price, and Substack counts, which helps if your X account is weak.",
+  "Faucet: claim test FLOP at the devnet faucet .",
+  "Explorer: browse blocks and transactions on the devnet explorer .",
+  "Builders: the docs cover the SDK (npm i @flop-labs/sdk), the inference API and the MCP server for calling verified inference from an agent. Questions go to Ask Flop ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://github.com/flop-labs",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "costs disclosed"
+ ],
+ "costs": "Free",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

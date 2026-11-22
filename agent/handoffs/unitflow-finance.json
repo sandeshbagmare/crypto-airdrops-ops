@@ -1,0 +1,24 @@
+{
+ "project": "UnitFlow Finance",
+ "official_url": "",
+ "source_url": "https://airdroplet.com/airdrop/unitflow-finance",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Reward Inferred Possible airdrop. Genesis Pass and activity NFT rewards; no published UNIT allocation Sources: unitflow-site, unitflow-how, unitflow-docs Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
+  "Deadline Inferred No campaign deadline has been verified. Sources: unitflow-site, unitflow-how, unitflow-docs Recheck when: An official campaign source publishes or changes a deadline.",
+  "Verdict Inferred A low-cost Arc ecosystem watch, not a confirmed token farm. Use testnet assets and value the NFT/rank only on its own terms. Sources: unitflow-site, unitflow-how, unitflow-docs Recheck when: New evidence changes the reward state, cost, eligibility, or risk.",
+  "Project Inferred UnitFlow is an Arc DEX and DeFi hub with swaps, liquidity, lending, prediction markets, bridging, token creation, NFT-gated access, and a ranking system. Sources: unitflow-site, unitflow-how, unitflow-docs Recheck when: The project changes its product, control model, or live status."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/unitflow-finance",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "4 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "The documented onboarding uses Arc testnet. X OAuth, Discord verification, wallet signatures, token approvals, lending, liquidity, and prediction-market contracts create distinct risks. Use faucet assets only and revoke permissions you no longer need.",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

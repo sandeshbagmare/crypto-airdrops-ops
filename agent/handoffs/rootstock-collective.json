@@ -1,0 +1,24 @@
+{
+ "project": "Rootstock Collective",
+ "official_url": "https://rootstockcollective.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/rootstock-collective",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the campaign from the homepage Go to the Rootstock Collective homepage , where the Bitcoin Builder Heat banner links to the quest hub.",
+  "2 Step 2 : Get RIF tokens The campaign includes staking RIF, so you need some first. The project&#x27;s RIF guide covers where to get it.",
+  "3 Step 3 : Stake RIF in the dApp Connect a supported wallet to the RootstockCollective dApp and stake RIF. Staking mints an equivalent amount of stRIF.",
+  "4 Step 4 : Complete the campaign quests Use the campaign link on the homepage to reach the quest hub and finish the quests listed there to qualify for a share of the 1,000 stRIF pool."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://rootstockcollective.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

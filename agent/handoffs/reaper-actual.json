@@ -1,0 +1,25 @@
+{
+ "project": "Reaper Actual",
+ "official_url": "https://reaperactual.com",
+ "source_url": "https://www.airdropstop.com/airdrops/reaper-actual",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Reaper Actual site Go to reaperactual.com and read the game overview. The Play Now button on the site leads to the Steam page.",
+  "2 Step 2 : Pick a version The FAQ says Steam and the Epic Games Store carry no crypto elements, while the ReaperActual.com version supports buying and selling in-game items. Choose the one you want to play.",
+  "3 Step 3 : Check the system requirements The FAQ lists minimum and recommended specifications for Windows 10 and 11. Compare them with your PC before installing.",
+  "4 Step 4 : Sign in with an Epic Games account For the ReaperActual.com version, the FAQ says you create or log in to an Epic Games account to play. Wallet connection is part of that version&#x27;s item purchasing.",
+  "5 Step 5 : Follow updates Read patch notes on the news page and join the Discord to talk with the developers."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://reaperactual.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

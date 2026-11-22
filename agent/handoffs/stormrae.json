@@ -1,0 +1,24 @@
+{
+ "project": "Stormrae",
+ "official_url": "https://stormrae.ai",
+ "source_url": "https://www.airdropstop.com/airdrops/stormrae",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Stormrae website Go to stormrae.ai to see how the project describes its architecture, consumer apps and roadmap.",
+  "2 Step 2 : Enter the portal Use the Enter Portal button on the homepage, which leads to the Stormrae portal , and follow what the portal shows.",
+  "3 Step 3 : Read the documentation Open the Stormrae docs and use the menu in the navigation bar to find what you are looking for. The overview mentions a waitlist, challenges and shards.",
+  "4 Step 4 : Follow the official channels Check the project&#x27;s X account and Telegram for updates, since the docs list both as official links."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://stormrae.ai",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

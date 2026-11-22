@@ -1,0 +1,31 @@
+{
+ "project": "Aura Protocol",
+ "official_url": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+ "source_url": "https://99airdrops.com/airdrops/aura-protocol/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Add the LitVM LiteForge testnet to an EVM wallet: chain ID 4441, gas token zkLTC. Take the network address from LitVM's docs . Aura's wallet guide still lists the old Caldera address, \"https://liteforge.rpc.caldera.xyz/http\", which LitVM has replaced.",
+  "Get free test zkLTC from the faucet on the Incentives page. \"Distribution happens every six hours per wallet.\"",
+  "Open beta.auralaunch.org/incentives , connect the wallet and link your X account. Warning Many unrelated crypto projects are called Aura. Use only auralaunch.org, beta.auralaunch.org and x.com/auralaunchorg, and never type a seed phrase anywhere.",
+  "Do the humanity check. The app says: \"Complete the challenge and click on the button below to verify your humanity and ensure eligibility for airdrop rewards.\" Then claim the daily login bonus.",
+  "Make testnet transactions: stake, vote, buy in test sales or deploy a token. Each one is worth 15 points. Do the free social tasks too.",
+  "Keep going until you pass 10,000 points with at least one dApp transaction. Aura's own checklist: \"Complete your humanity verification and make sure to complete at least one txn. Aim for at least 10k AURA points.\"",
+  "Optional: enter the Token Quest before 30 November 2026 at 14:00 UTC."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.litvm.com/get-started-on-testnet/network-configuration",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The testnet route is free. Gas is paid in faucet zkLTC, and deploying a token costs test coins only: \"we've adjusted the token creation fee to 0.01 zkLTC\". The task list also has paid items. Boosters raise your points per transaction and cost real money: \"Note: Payments are to be made using ONLY ETH on Arbitrum One Mainnet. Boosters activate immediately after purchase.\" Reading the booster contrac",
+ "risks": "No country list. The terms only say \"you represent and warrant that you are of legal age and possess the necessary authority to engage with decentralized finance (DeFi) protocols in your jurisdiction\". No age number, KYC or VPN rule is published for users. No dates. The Bonus Epoch end, the snapshot, the token launch and the claim all have no date. The terms put the losses on you: \"including but n",
+ "created": "2026-11-23",
+ "status": "open"
+}

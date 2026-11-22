@@ -1,0 +1,28 @@
+{
+ "project": "Acepyr",
+ "official_url": "https://www.acepyr.com",
+ "source_url": "https://99airdrops.com/airdrops/acepyr/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Sign up at acepyr.com with an email address and a password, and confirm the code sent to you. You don't need a wallet.",
+  "Confirm that you are 18 or older and accept the terms and the testnet points notice.",
+  "Trade the five-minute markets with your testnet $ACEPYR. One trade in a week enters you in that week's tournament.",
+  "Optional: link a wallet in Settings by signing a message.",
+  "Optional: share your referral code. A referral counts only after your friend verifies an email address, links a wallet and joins the waitlist."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.acepyr.com",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Signing up and trading on the testnet are free, and nothing can be bought. Trading fees are charged in testnet tokens. The $10 that the waitlist asks you to hold stays in your own wallet.",
+ "risks": "You must be 18 or older. The terms block Cuba, Iran, North Korea, Syria and other places under comprehensive US sanctions, and they ban getting around the block. There is no identity check at sign-up. The docs say a future mainnet token would require one. One account per person. Extra accounts, bots and scripts get you disqualified. Acepyr says it \"will never DM you first, ask for your seed phrase",
+ "created": "2026-11-23",
+ "status": "open"
+}

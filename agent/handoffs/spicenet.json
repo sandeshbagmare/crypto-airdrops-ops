@@ -1,0 +1,27 @@
+{
+ "project": "Spicenet",
+ "official_url": "https://portal.spicenet.io",
+ "source_url": "https://99airdrops.com/airdrops/spicenet/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Log in at portal.spicenet.io with email or a wallet and open Public Beta, the campaign list.",
+  "Read the campaign page: the partner app, the chain, the dates (given in Toronto time) and the minimum per transaction. Check the partner app's own terms for blocked countries.",
+  "Link your account to the partner app the way the page says. For Satsuma that was: \"Open Satsuma, choose Spice Points next to your account, and sign to link your account to your external wallet.\" For Fun Markets it meant connecting through Privy and funding the account through Spice Flow.",
+  "Go back to the campaign page on the portal and claim your 5,000 points in time. The Satsuma page said: \"Complete your actions and claim before it closes. One reward per participant.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://portal.spicenet.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The portal account has no stated fee. The campaigns cost real money: every Satsuma and Pare transaction had to be worth at least $5, not counting fees. Partner apps add their own charges. In the Fun Markets campaign, \"A 10% protocol fee applies to staking only\", and on the portal: \"Exiting a hedge incurs a 5% exit fee.\" Losses there stayed lost: \"Neither Fun Markets nor Spicenet will refund losses",
+ "risks": "Partner apps set their own regions. Fun Markets, the partner in the 30 October campaign, blocks 47 countries and six US states by IP. They include the United Kingdom, Australia, Japan, Singapore, Switzerland, the United Arab Emirates, China, Russia, Turkey, Thailand and Vietnam, plus Arizona, Nevada and Hawaii. Using a VPN to get past that breaks its terms, and you must be 18. The portal terms hav",
+ "created": "2026-11-23",
+ "status": "open"
+}

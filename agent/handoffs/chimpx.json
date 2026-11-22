@@ -1,0 +1,27 @@
+{
+ "project": "ChimpX",
+ "official_url": "https://token.chimpx.ai",
+ "source_url": "https://99airdrops.com/airdrops/chimpx/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Open token.chimpx.ai and scroll to the airdrop checker.",
+  "Paste your Solana or BNB Chain address and press Check. \"You'll never be asked to sign or send anything here.\" A wallet outside the list shows: \"This wallet isn't in the snapshot.\"",
+  "If your allocation is on a BNB Chain wallet, you'll need a Solana wallet too: \"How to link it is announced before claims open.\"",
+  "Wait for the claim, about a month after launch, and follow @ChimpxAI for the date. Warning ChimpX says: \"We will never DM you first. Never share your seed phrase or private keys.\" Anyone offering an early claim or a sale spot by message is a scammer."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://token.chimpx.ai",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Checking costs nothing and needs no wallet connection. ChimpX hasn't said what claiming will cost; on Solana it should be a small network fee. Earning more HOOTs was never free in practice: the app's free plan charges a \"1.0% flat swap fee\", monthly plans cost $9 or $19, and a SuperChimp NFT that doubled HOOTs sold for 0.20 SOL.",
+ "risks": "ChimpX publishes no terms of service, no company name and no list of excluded countries. Bots and multi-wallets are cut: \"No appeals.No exceptions.\" $CHIMP was sold several times before this launch. In February 2026 ChimpX said it \"Raised $100K on @Spores_Network\" and promised a \"Listing Price: $0.40\" on PancakeSwap that never happened. A further public sale was set for 12 October on Metaplex. Chi",
+ "created": "2026-11-23",
+ "status": "open"
+}

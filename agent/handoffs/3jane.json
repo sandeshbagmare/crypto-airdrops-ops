@@ -1,0 +1,27 @@
+{
+ "project": "3Jane",
+ "official_url": "https://app.3jane.xyz/supply",
+ "source_url": "https://99airdrops.com/airdrops/3jane/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Get USDC on Ethereum, plus ETH for gas.",
+  "At app.3jane.xyz/supply , connect your wallet and deposit at least 1,000 USDC to receive USD3.",
+  "Optionally stake USD3 for sUSD3, which is locked for a month. Warning If a borrower defaults, sUSD3 absorbs the loss before USD3 does. Leaving sUSD3 takes a month's lock, a cooldown and a withdrawal window.",
+  "Check and claim your JANE each week on the farm page ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.3jane.xyz/supply",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The minimum deposit is 1,000 USDC, plus Ethereum gas. The FAQ says USD3 redemptions carry no fee. The farm page's rewards APY rests on a JANE valuation you can set, $250 million when we checked, so it is an estimate.",
+ "risks": "USD3 redeems only up to the tranche ratio. JANE stays locked until the final mint, and its value depends on a supply and valuation nobody knows yet. 3Jane lists audits by Veridise, Sherlock, Electisec and Guardian, but smart contract risk remains. Credit lines are only for U.S.-based borrowers, and the website terms warn that jurisdictional blocks may stop you from using the site.",
+ "created": "2026-11-23",
+ "status": "open"
+}

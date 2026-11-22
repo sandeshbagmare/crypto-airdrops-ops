@@ -1,0 +1,25 @@
+{
+ "project": "Elysium",
+ "official_url": "https://elysium.kinetiq.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/elysium",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Elysium site Start at the Elysium homepage , which shows that the testnet is live and walks through the route from faucet to first contract.",
+  "2 Step 2 : Get testnet tokens Open the faucet , which the site says gives you tokens for building and testing.",
+  "3 Step 3 : Bridge in from HyperEVM testnet Go to the bridge , add Elysium Testnet to your wallet, connect it and bring HYPE across from HyperEVM testnet.",
+  "4 Step 4 : Deploy or build Follow the building guide to deploy with Solidity or Vyper and the Ethereum tooling you already know. Gas is paid in HYPE.",
+  "5 Step 5 : Explore the network and its apps Follow blocks and transactions in the explorer and browse apps built for Elysium on the ecosystem page ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://elysium.kinetiq.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

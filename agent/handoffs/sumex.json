@@ -1,0 +1,28 @@
+{
+ "project": "Sumex",
+ "official_url": "https://app.sumex.io",
+ "source_url": "https://99airdrops.com/airdrops/sumex/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open app.sumex.io and log in. \"Currently, Sumex allows to log-in with Google, X, Telegram, Discord and a large variety of Web3 wallets.\"",
+  "If you log in with a wallet, you only sign a message. Sumex warns that if anything asks for more, \"especially permissions involving fund access or token approvals\", you should not approve it.",
+  "Optional: link an exchange account with an API key to trade through Sumex. \"Withdrawal access is not required and should not be enabled.\" Warning A trading API key lets an app place trades on your exchange account. Use a read-only key unless you need to trade through Sumex, and never enable withdrawals.",
+  "Open the Rewards Hub and pick tasks. Each card shows the XP and SP it pays. Social tasks and quizzes are free; trading tasks are not.",
+  "Track your points under My Rewards and on the leaderboard."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.sumex.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Logging in and the social tasks cost nothing. Most points come from trading, which means exchange fees, network gas and price risk, and the futures tasks use leverage. Sumex's disclaimer says: \"Leveraged trading carries a high level of risk and may result in losses exceeding your initial capital.\" Swaps through Sumex add nothing of their own, by its account: \"Not only swapping crypto via Sumex doe",
+ "risks": "\"You must be at least 18 years old and legally capable in your jurisdiction to use Sumex.\" No list of excluded countries is published. No KYC: \"Sumex does not require registration, passwords, or KYC.\" The referral program pays commissions on your invitees \"but those invited by them too - up to 3 levels deep\". Unclaimed referral payouts expire after 30 days. Many exchange tasks ask you to open an a",
+ "created": "2026-11-23",
+ "status": "open"
+}

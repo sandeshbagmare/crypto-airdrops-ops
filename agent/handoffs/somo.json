@@ -1,0 +1,25 @@
+{
+ "project": "SOMO",
+ "official_url": "https://somo.xyz/games",
+ "source_url": "https://www.airdropstop.com/airdrops/somo",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the games page Go to the SOMO games page to see the three games the site presents: Battle Ground, Duel and Tap Tap Tripps.",
+  "2 Step 2 : Look at Battle Ground Open Battle Ground to see the grid-based 1v1 tactics game made for mobile.",
+  "3 Step 3 : Look at Duel Open Duel , the turn-based game where you collect cards, build decks and duel other players.",
+  "4 Step 4 : Open Tap Tap Tripps Open Tap Tap Tripps , the Telegram game where you tap your team of Tripps, collect Gold and buy upgrades.",
+  "5 Step 5 : Read the tokenomics page Read the SOMO tokenomics page to see how the SOMO token and its allocations are described."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://somo.xyz/games",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

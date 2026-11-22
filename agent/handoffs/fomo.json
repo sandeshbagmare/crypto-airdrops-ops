@@ -1,0 +1,25 @@
+{
+ "project": "fomo",
+ "official_url": "https://fomo.family/r/cryptofree",
+ "source_url": "https://99airdrops.com/airdrops/fomo/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "Join fomo's Discord, discord.gg/fomofamily , linked from the fomo.family footer. Take part and pick up the roles it offers. fomo hasn't said roles count toward anything.",
+  "Add a small amount: \"fomo has four ways to add funds on the Deposit screen: Crypto, Apple Pay, Debit Card, and Exchanges and apps.\""
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://fomo.family/r/cryptofree",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "2 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Joining is free, but trading isn't. \"On every other network (Base, BNB Chain, Monad, Robinhood Chain, Ethereum, and Arc), the fee is 0.50% per trade plus network fees.\" Small trades on Solana cost proportionally more: \"On the lowest-fee route the fee is 0.10 USDC on trades under 5 USDC, 2% from 5 to 47.50 USDC, 0.95 USDC from 47.50 to 190 USDC, and 0.50% from 190 USDC up.\" In return, \"On Solana, f",
+ "risks": "\"You must be 18 or older to use fomo\". The terms bar sanctioned places, \"INCLUDING BUT NOT LIMITED TO THE CRIMEA REGION, CUBA, DONETSK, THE DEMOCRATIC REPUBLIC OF CONGO, IRAN, LIBYA, LUHANSK, MYANMAR (BURMA), NORTH KOREA, SUDAN, VENEZUELA, OR YEMEN\", and VPNs are banned. fomo isn't regulated: \"FOMO is not registered with or licensed by any regulatory authority.\" Trader Rewards has no published for",
+ "created": "2026-11-23",
+ "status": "open"
+}

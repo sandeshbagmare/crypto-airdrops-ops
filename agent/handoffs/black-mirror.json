@@ -1,0 +1,24 @@
+{
+ "project": "Black Mirror",
+ "official_url": "https://www.blackmirrorclub.com",
+ "source_url": "https://www.airdropstop.com/airdrops/black-mirror",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Black Mirror dashboard Go to the Black Mirror Reputation Dashboard , the page that starts the campaign.",
+  "2 Step 2 : Connect a wallet Use the Connect Wallet button on the dashboard so your activity is tied to your wallet.",
+  "3 Step 3 : Complete the tasks Work through the tasks the dashboard offers to build your reputation score.",
+  "4 Step 4 : Check your history Sign in to see the points and rewards history your wallet has earned."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.blackmirrorclub.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

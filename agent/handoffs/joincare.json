@@ -1,0 +1,28 @@
+{
+ "project": "JoinCare",
+ "official_url": "https://joincarelabs.com/tasks",
+ "source_url": "https://99airdrops.com/airdrops/joincare/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open the JoinCare Quest Center and connect a wallet.",
+  "For the X tasks, authorise your X account on the site, do each action yourself on X, then press verify. The site says it \"only reads enough activity data to verify it\" and can't post for you.",
+  "Open the Telegram task bot to complete the join task, then chat in the community group.",
+  "Copy your referral link from the Refer Friends block if you want to share it.",
+  "Come back each day for the sign-in, and watch @TheJoinCare for the season end and pool size."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://joincarelabs.com/tasks",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "There is no entry fee. The recurring cost is the network fee on the daily sign-in, paid in BNB. The X and Telegram tasks are free.",
+ "risks": "The site has no terms of use and no privacy policy, although it asks for your wallet, an X authorisation and your Telegram account. No age limit, country list or identity rule is published. The links to research institutions are loosely worded. The docs say JoinCare \"may draw on\" resources tied to several universities and institutes, \"subject to authorization\", and we found no statement from any o",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "Savior of Health",
+ "official_url": "https://saviorofhealth.app/earn",
+ "source_url": "https://www.airdropstop.com/airdrops/savior-of-health",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the earn page Go to the earn page , where commissioned survey cards and the predict-the-crowd deck are listed.",
+  "2 Step 2 : Connect a wallet to sign in Use the wallet sign-in to log in with one signature; no email or password is needed. Under the Season 2 candidate policy, joining requires confirming you are 16 or older.",
+  "3 Step 3 : Answer a card and guess the crowd Pick a card, answer it, then guess how other members answered. A close guess earns a bonus on top of the answer.",
+  "4 Step 4 : Log your day on the dashboard The dashboard daily mission lists water, meal, exercise, mood and mind logs, and it shows only a preview until a wallet is connected. The wellness journal covers water and exercise, and the other logs open from the mission buttons.",
+  "5 Step 5 : Check your Heal Points balance Return to the dashboard to see your points and streak."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://saviorofhealth.app/earn",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

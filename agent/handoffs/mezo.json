@@ -1,0 +1,24 @@
+{
+ "project": "Mezo",
+ "official_url": "https://mezo.org/rewards",
+ "source_url": "https://www.airdropstop.com/airdrops/mezo",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Mezo rewards site Go to the Mezo rewards page , where the MEZO allocation from both airdrop phases is shown. The page says activity on Mezo in the first and second phases earns the allocation, but it does not say which actions count.",
+  "2 Step 2 : Connect a wallet to look up your allocation Link a wallet on the rewards site to look up the amount assigned to it.",
+  "3 Step 3 : Watch for the TGE announcement Mezo says allocations become claimable at TGE and gives no TGE date. It points users to its social accounts for news.",
+  "4 Step 4 : Put claimed MEZO to use Once MEZO is in your wallet, Mezo suggests locking it for veMEZO and pairing it with veBTC to earn boosted Bitcoin yield."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://mezo.org/rewards",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

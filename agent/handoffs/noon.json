@@ -1,0 +1,25 @@
+{
+ "project": "Noon",
+ "official_url": "https://app.noon.capital/points",
+ "source_url": "https://www.airdropstop.com/airdrops/noon",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the points page Go to the Noon points page . It shows the points breakdown and the leaderboard.",
+  "2 Step 2 : Connect a wallet Use the connect button on the points page so the app can show your rank and count your Noon points.",
+  "3 Step 3 : Get USN or sUSN Acquire USN or sUSN through the app. Holding either one earns points under the holdings section.",
+  "4 Step 4 : Use a listed integration Pick an activity row on the points page, such as a deposit or liquidity position with sUSN or USN, to earn points on top of holdings. Each row shows its multiplier.",
+  "5 Step 5 : Check your points and rank Return to the points page to see your points total and your place on the leaderboard. The docs cover the product in more detail."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.noon.capital/points",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

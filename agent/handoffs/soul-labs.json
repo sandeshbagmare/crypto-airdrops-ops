@@ -1,0 +1,26 @@
+{
+ "project": "Soul Labs",
+ "official_url": "https://app.soul.io",
+ "source_url": "https://www.airdropstop.com/airdrops/soul-labs",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Soul app Go to the Soul app . The Soul website shows an early access field asking for an invite code, and Soul does not say whether quests need one.",
+  "2 Step 2 : Connect a wallet Connect the wallet you want to earn with. The leaderboard lists Seeds by wallet address.",
+  "3 Step 3 : Complete quests for Seeds Pick a quest in the app and finish it. Completed quests earn Seeds.",
+  "4 Step 4 : Refer friends The app also lets you refer friends, which earns Seeds. The leaderboard lists the wallet that invited each participant.",
+  "5 Step 5 : Check your standing on the leaderboard Open the leaderboard to see each wallet&#x27;s Seeds and completed quests. Higher Seed totals place a wallet higher on the list.",
+  "6 Step 6 : Wait for Seeds to convert to SO Soul has not announced a TGE date. Its claim page describes Seeds as convertible to SO."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.soul.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

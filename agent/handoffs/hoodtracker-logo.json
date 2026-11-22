@@ -1,0 +1,24 @@
+{
+ "project": "hoodtracker-logo",
+ "official_url": "https://airdrops.io/goto/bybit",
+ "source_url": "https://airdrops.io/hoodtracker/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
+  "Add Robinhood Chain to your wallet (chain ID 4663, ETH for gas)",
+  "Buy ETH on ByBit if you need it, withdraw to your wallet and then move it over with the canonical Arbitrum bridge or a route aggregator, as the chain is too new for most dedicated bridges or you can use the below widget to swap or bridge assets for ETH on Robinhodd chain",
+  "Swap native ETH for $HDTX on the HoodTracker trade page, which routes through a Uniswap V3 pool. Check the contract address against the official site first"
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/bybit",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "costs disclosed"
+ ],
+ "costs": "Low",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

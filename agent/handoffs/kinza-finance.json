@@ -1,0 +1,25 @@
+{
+ "project": "Kinza Finance",
+ "official_url": "https://app.kinza.finance",
+ "source_url": "https://www.airdropstop.com/airdrops/kinza-finance",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Set up a DeFi wallet Install a wallet such as MetaMask or Trust Wallet, which Kinza&#x27;s FAQ names for connecting to its app. Fund it with an asset the app supports on BNB Chain, opBNB, Ethereum or Mantle.",
+  "2 Step 2 : Connect the wallet to the Kinza app Open the Kinza app and click Connect Wallet. The dashboard then lists the assets you can supply.",
+  "3 Step 3 : Supply a supported asset Deposit an asset into one of the lending markets. Each transaction carries a network gas fee that the app shows before you approve it.",
+  "4 Step 4 : Leave the deposit in place Points grow with the value and the time of the deposit, so a larger or longer deposit earns more. If you already had a deposit when Season 2 began, points started accruing without any extra action.",
+  "5 Step 5 : Check your points on the dashboard In the Kinza app , click the Airdrop button beside your wallet address to see your points and your referral tools."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.kinza.finance",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

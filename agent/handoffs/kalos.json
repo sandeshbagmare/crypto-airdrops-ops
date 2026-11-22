@@ -1,0 +1,27 @@
+{
+ "project": "Kalos",
+ "official_url": "https://elysium.kinetiq.xyz/testnet-faucet",
+ "source_url": "https://99airdrops.com/airdrops/kalos/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open kalos.fun from a bookmark you saved yourself. Press Connect wallet. \"Kalos asks it to switch to Elysium testnet, and to add the network as Kinetiq Elysium Testnet if your wallet does not know it yet.\" A fresh wallet with nothing of value in it is the safest choice for any testnet.",
+  "Sign in and set up a profile. Signing in is a message, not a transaction: \"It is free: no transaction, no gas.\" From the profile editor you can also register a username for the Genesis mainnet whitelist. \"Your spot shows as pending until the Kalos team confirms it.\"",
+  "Do the things that count: buy and sell NFTs, accept offers, mint paid collections on Drops, and post and like on the Social feed. Swaps, liquidity and staking add nothing to your points.",
+  "Share your invite link from Refer and Earn, and send bug reports or ideas through Feedback."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://elysium.kinetiq.xyz/testnet-faucet",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Kalos costs no real money. Every transaction pays testnet gas: \"Each one pays a network fee in HYPE, so always keep some HYPE aside.\" Paid mints carry a Kalos fee, also in test HYPE: \"Kalos receives 10% of every paid mint and the creator 90%, paid instantly at mint. Free mints pay no fee.\" The only real cost is your time. Anyone offering to sell you test HYPE or points is not Kalos.",
+ "risks": "No reward is promised. Points are a testnet score, the KALOS token exists only on the testnet, and the mainnet whitelist has no stated benefit or date. Kalos has no terms of service and no privacy page that we could find, so there is no published list of excluded countries, no age rule and no KYC policy. The team is anonymous. No company, founder or investor is named anywhere on the site. Kalos's ",
+ "created": "2026-11-23",
+ "status": "open"
+}

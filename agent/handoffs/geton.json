@@ -1,0 +1,30 @@
+{
+ "project": "GetOn",
+ "official_url": "https://waitlist.geton.xyz",
+ "source_url": "https://99airdrops.com/airdrops/geton/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Open waitlist.geton.xyz and tick the box that accepts GetOn's Terms and Privacy Policy. Read the terms first, above all if you live in the UK or the EU. Warning Use only waitlist.geton.xyz and geton.xyz. Joining needs no wallet, no payment and no seed phrase. Anyone asking for one of those in GetOn's name is not GetOn.",
+  "Enter your email and type in the code GetOn sends you.",
+  "Pick your country and verify a mobile number by SMS. It is one passport per number: \"That number already has a passport.\"",
+  "Enter your full name and set a password. The form asks for \"At least 9 characters\", with a number and a symbol.",
+  "Claim your Passport. You are now on the waitlist with the sign-up stamps.",
+  "Collect the stamps you are comfortable with: the follows and joins, the launch film, the profile question, the X post and the daily check-in.",
+  "Share your invite link if you want to. A friend counts only after they verify a phone number, and the count stops at 10."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://waitlist.geton.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist is free. There is no deposit, no wallet and no gas. What you give is personal data: an email, a verified phone number, your full name, your country and, for some stamps, a connected X account. The app will cost money to use. GetOn's fee page lists a free Standard plan, Plus at $19.99 a month and Premium at $49.99 a month. On the free plan a virtual card is $9.99, a physical card ships",
+ "risks": "This is a product waitlist. A high rank earns earlier access to an app with fees and nothing else that GetOn has put in writing. The app will ask for more than the waitlist does: \"Verify your identity with a document and a selfie.\" You must be 18 or older. The sign-up form refuses some countries: \"We can't take sign-ups from that country yet.\" The site's code closes 28 of them, among them Russia, ",
+ "created": "2026-11-23",
+ "status": "open"
+}

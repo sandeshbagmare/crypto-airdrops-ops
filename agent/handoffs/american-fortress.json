@@ -1,0 +1,24 @@
+{
+ "project": "American Fortress",
+ "official_url": "https://quests.americanfortress.io",
+ "source_url": "https://www.airdropstop.com/airdrops/american-fortress",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the rewards site Go to the American Fortress Loyalty Program at quests.americanfortress.io , the project&#x27;s own rewards site.",
+  "2 Step 2 : Connect a wallet Use the Connect Wallet button on the rewards site and sign in. History of your points and rewards is only shown after you connect.",
+  "3 Step 3 : Earn points through community activity The program invites you to earn points by contributing to the growth of the American Fortress community. Points from social activity update daily.",
+  "4 Step 4 : Check your points history Return to the rewards site to see your earned points and rewards history. For background on the product behind the program, see the American Fortress homepage ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://quests.americanfortress.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

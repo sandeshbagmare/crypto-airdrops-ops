@@ -1,0 +1,25 @@
+{
+ "project": "Rabbithole",
+ "official_url": "https://app.rabbithole.gg",
+ "source_url": "https://www.airdropstop.com/airdrops/rabbithole",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Rabbithole app Start from the Rabbithole app sign-in page , which the homepage links with its Open App button.",
+  "2 Step 2 : Connect to see what you are eligible for Connecting shows the campaigns your wallet already qualifies for, according to the homepage.",
+  "3 Step 3 : Choose campaigns that fit your holdings Pick the campaigns that fit what you already hold, as the homepage describes.",
+  "4 Step 4 : Hold and stay active Keep holding the assets that fit the campaign and stay active on-chain, since the homepage ties larger rewards to a longer stay.",
+  "5 Step 5 : Build up your tier Holding and staying active moves a wallet up the tiers, and the Rabbithole homepage says a higher tier lifts the multiplier on each campaign. Daily check-ins and streaks are a separate bonus."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.rabbithole.gg",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

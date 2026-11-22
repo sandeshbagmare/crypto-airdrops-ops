@@ -1,0 +1,24 @@
+{
+ "project": "Pond",
+ "official_url": "",
+ "source_url": "https://airdrops.io/pond/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "$100 plan: $10 per user per month, up to $30 per user",
+  "$200 plan: $20 per user per month, up to $60 per user",
+  "5% of the client’s usage for the first 3 months",
+  "20% of any custom AI agent build"
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/pond/",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "4 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "Free",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

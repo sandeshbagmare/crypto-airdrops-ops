@@ -1,0 +1,25 @@
+{
+ "project": "Photon",
+ "official_url": "https://photon-sol.tinyastro.io",
+ "source_url": "https://www.airdropstop.com/airdrops/photon",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open Photon and connect Phantom Go to the Photon trading site , install Phantom if you do not have it, and connect your wallet to log in.",
+  "2 Step 2 : Generate your trading wallet On your first login, Photon offers a Generate button that creates a new trading wallet. Photon shows the trading wallet&#x27;s private key once during setup, then you press Continue, as the setup documentation explains.",
+  "3 Step 3 : Deposit SOL into the trading wallet Choose an amount of SOL, press Deposit, and confirm the transfer from your funding wallet. Use Check Balance to see the updated balance.",
+  "4 Step 4 : Trade tokens to accumulate points Buy and sell tokens on Photon. The homepage says trading on Photon accumulates Photon points; it does not state how many points each trade earns.",
+  "5 Step 5 : Withdraw SOL when you want it back Enter an amount of SOL and a destination wallet address on the Funds Transfer page, then press Withdraw."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://photon-sol.tinyastro.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

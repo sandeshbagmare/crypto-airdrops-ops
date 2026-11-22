@@ -1,0 +1,23 @@
+{
+ "project": "ZENi",
+ "official_url": "https://agent.1zeni.com",
+ "source_url": "https://www.airdropstop.com/airdrops/zeni",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Open the ZENi agent app Go to the ZENi agent app , which presents the New User Welcome Pack of 50 Airtime and 50 ZEN1.",
+  "2 Step 2 : Choose a login method Pick Login with Google, Login with X or Login with Email. The app offers three login options and shows no further task.",
+  "3 Step 3 : Read about the project The ZENi website describes the signal platform and the ZENI token if you want more context on the project."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://agent.1zeni.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

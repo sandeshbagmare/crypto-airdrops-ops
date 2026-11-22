@@ -1,0 +1,25 @@
+{
+ "project": "Zyfai",
+ "official_url": "https://www.zyf.ai/dashboard",
+ "source_url": "https://www.airdropstop.com/airdrops/zyfi",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Zyfai dashboard Go to the Zyfai dashboard and use Get Started to connect your wallet.",
+  "2 Step 2 : Pick a supported asset Choose an asset from the SDK docs list, such as USDC, WETH, EURC, USDT, PYUSD or NVDAc. NVDAc requires the yieldmaxxing strategy, which adds async vaults, according to the SDK docs. Chains, decimals and minimums per asset are listed in the supported assets docs .",
+  "3 Step 3 : Deposit into your Smart Account Use Deposit on the dashboard. Your first deposit assigns you a personal Safe Smart Account that your Agent manages within session key limits.",
+  "4 Step 4 : Let the Agent rebalance The rule-based Agent moves your funds between whitelisted pools. The homepage says you pick which whitelisted pools your capital can touch, and it links NVDAc pool details on the customization page .",
+  "5 Step 5 : Track rZFI under Lifetime Earnings Check the Lifetime Earnings figure on the dashboard, which shows an rZFI amount beside the dollar total. Use Withdraw there when you want your funds back; the SDK docs say withdrawals complete asynchronously, not instantly."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.zyf.ai/dashboard",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

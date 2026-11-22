@@ -1,0 +1,28 @@
+{
+ "project": "TBook",
+ "official_url": "https://engage.tbook.com",
+ "source_url": "https://99airdrops.com/airdrops/tbook/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Open engage.tbook.com and connect a Sui wallet. Check the address first: TBook's real sites all sit under tbook.com.",
+  "Link your wallets and your X, Telegram and Discord accounts to build your Incentive Passport and WISE Credit Score.",
+  "Do campaign tasks, press verify, then claim the SBT badge for each campaign. Warning Every SBT claim costs money. TBook's governance page says \"A one-time claim fee is required to mint a TBook SBT\", and the standard fee is 1.5 SUI plus gas. The disclaimer for its Telegram mini app says fees \"are non-refundable\".",
+  "Check the eligibility page at engage.tbook.com/book. Verify on Sui or on TON, never both. The TON version of the page warns that verifying on several networks \"may trigger TBook's anti-Sybil mechanisms\".",
+  "Decide whether the paid extras are worth it to you: Bookies NFTs, the RWA vaults, and Karma, a savings product with weekly prize draws."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://engage.tbook.com",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Linking accounts and doing tasks is free. Claiming each SBT costs 1.5 SUI plus gas at the standard rate. TBook's governance page says \"30% of SBT claim fees will be distributed to Bookies NFT holders\". Karma takes USDC deposits and locks them for 30 days. The docs say: \"You can redeem early with a 5% penalty on the still-locked portion.\" Vault deposits and withdrawals are processed in settlement c",
+ "risks": "The app has an eligibility checker at engage.tbook.com/book. The page says: \"We're looking for a small group of core users of TBook to unlock $BOOK vesting plan.\" Users it accepts are told: \"Your $BOOK allocation will be revealed soon.\" The TBook eligibility checker page on 18 October 2026, before a wallet is connected. Source: engage.tbook.com The page's rules score you out of 1,000: Bookies NFTs",
+ "created": "2026-11-23",
+ "status": "open"
+}

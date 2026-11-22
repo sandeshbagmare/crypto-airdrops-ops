@@ -1,0 +1,28 @@
+{
+ "project": "BaiBai",
+ "official_url": "https://app.baibai.cx",
+ "source_url": "https://99airdrops.com/airdrops/baibai/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open app.baibai.cx , connect your wallet and switch it to Base.",
+  "Have the token you want to sell ready on Base. To sell ETH you first wrap it into WETH.",
+  "Choose the two tokens, enter an amount, review the quote and click Trade. The first time you sell a token, the app asks for an approval, which is an on-chain transaction.",
+  "Trade at least $100 in a day if you want that day to count toward your streak. Warning Trading only to collect points costs money on every swap. With no stated value for points, you would be paying real fees for an unknown return. BaiBai's terms also ban wash trading.",
+  "Optional: open the Points tab to do the two quests and create a referral link. Both quests connect your X account to the app."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.baibai.cx",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The docs say: \"There is currently a 10 bps trading fee on BaiBai\", which is 0.10% of each trade. Swaps are advertised as gasless, but the terms add: \"We do not guarantee that network fees will always be sponsored.\" The docs don't say who pays the gas for the first token approval. Warning The terms let the operator keep part of your price. If a trade executes better than the quote, they say: \"Any s",
+ "risks": "The terms of service never mention points, so nothing binding covers the program. The homepage promises better prices, while the terms don't guarantee better pricing than other venues. The docs link audit reports from OpenZeppelin and Sherlock, but both links were broken when we checked on 8 October 2026. You must be 18 or older. No country list is published. The terms say the app can be blocked b",
+ "created": "2026-11-23",
+ "status": "open"
+}

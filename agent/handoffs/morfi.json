@@ -1,0 +1,25 @@
+{
+ "project": "Morfi",
+ "official_url": "https://morfi.markets/demo-mode/markets",
+ "source_url": "https://www.airdropstop.com/airdrops/morfi",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Morfi demo Press Try Morfi on the homepage to open the markets list in demo mode.",
+  "2 Step 2 : Browse the markets Look through the debates on offer, from sports and politics to crypto and culture, and compare the outcome percentages, prize pools and trader counts shown on each.",
+  "3 Step 3 : Read how a market settles Scroll the Morfi homepage to the three stages, debate starts, consensus builds and debate settled, to see how a market goes live and closes.",
+  "4 Step 4 : Install the mobile app Morfi lists an iPhone app on the App Store and an Android app on Google Play .",
+  "5 Step 5 : Follow the project Morfi posts build updates on X and runs a community chat on Telegram ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://morfi.markets/demo-mode/markets",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

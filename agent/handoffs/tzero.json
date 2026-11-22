@@ -1,0 +1,30 @@
+{
+ "project": "Tzero",
+ "official_url": "https://testnet.tzer0.fun",
+ "source_url": "https://99airdrops.com/airdrops/tzero/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open testnet.tzer0.fun , the address the official X profile links to. Connect an EVM wallet such as MetaMask or Rabby and switch to Base Sepolia when the app asks. Warning Use a fresh wallet with no real funds in it. Nothing on the testnet needs real money, and no official page asks for a seed phrase.",
+  "Get test ETH with the Get test ETH button in the header. \"Testnet ETH is free.\" Tzero names three faucets: Coinbase (needs a Coinbase sign-in), Superchain (GitHub or an on-chain identity) and Alchemy (needs 0.001 ETH on Ethereum mainnet).",
+  "Buy into missions from the home page. Each buy must be at least 0.0005 ETH, and you need to hold it for 60 minutes. Half a test ETH of held buys is enough for the 500 points.",
+  "Back a few missions with 0.01 ETH or more and keep holding until they lift off, for 150 points each. A testnet mission lifts off after roughly 0.28 ETH of net buys.",
+  "Optional: buy test T0 and stake it on the T0 page. There is no lock.",
+  "Optional: when the Points page shows the announcement post, do the Signal task. It asks you to sign a message with your wallet, so read what the wallet shows before you sign.",
+  "Check your points and rank on the Points page , and watch the official X account for the snapshot notice."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://testnet.tzer0.fun",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Season 0 is free. Tzero's FAQ puts it this way: \"Is this real money? Not on testnet: Base Sepolia ETH has no value.\" The 1% fee on every buy and sell, the 0.0001 ETH fee to launch a mission and the 3% fee at liftoff are all paid in test ETH. The only real-money catch is the Alchemy faucet, which needs 0.001 real ETH sitting on Ethereum mainnet. The other two faucets need an account instead. On mai",
+ "risks": "No terms of service or privacy policy exist on either site, so no excluded countries, age limit or KYC rule is published. The two official sites disagree. The main site's docs still say the \"reward source will be announced before the season opens.\" The airdrop depends on the team buying first: \"These tokens come from the team's opening buy on Mission 000 at T-0, moved the same day to a public aird",
+ "created": "2026-11-23",
+ "status": "open"
+}

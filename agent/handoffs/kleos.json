@@ -1,0 +1,29 @@
+{
+ "project": "Kleos",
+ "official_url": "https://www.thekleos.pro",
+ "source_url": "https://99airdrops.com/airdrops/kleos/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Bridge HYPE to Elysium with the in-app Bridge. The Fast bridge, \"through Relay, moves HYPE and tokens between Elysium and HyperEVM or other chains in seconds, for Relay's fee plus 0.5%.\" Keep some HYPE for gas.",
+  "Trade coins on Kleos. Your daily points follow the HYPE you buy and sell, and coins launched on Kleos count double.",
+  "Join a clan, or create one, on the Clans page. \"Creating, joining and leaving are a signed message from your wallet, not a transaction.\" A clan holds 25 wallets, and once you join, \"You can leave whenever you like, but you can only join another clan after that.\" 7 days later. Most top clans are already full.",
+  "After your first trade, check in each day on the Rewards page. \"Free: you sign a message, no transaction.\"",
+  "Optional: from 15 November, prove your Hyperliquid HYPE stake with the passport on the Portfolio page for the boost. It takes one HyperEVM transaction."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.thekleos.pro",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Kleos is not free to farm. Points come from trading volume, LP fees or launching coins people trade, and every trade costs money: Classic coins \"pay their pool's 1% fee on every trade.\" Taxed coins \"charge their creator's buy and sell tax\", which the app caps at 10% each way. Limit orders cost 0.5% \"of the order's HYPE when it fills, and nothing if it doesn't.\" Gas is paid in HYPE, and the Fast br",
+ "risks": "The team is anonymous. We found no named people, company, terms of service, privacy policy or audit on the site. No excluded countries, age limit or KYC are published. Joining is by wallet signature only. Clan Wars has no published end date or payout date. Only 15 of the 43 clans on the board will get anything. Rules changed during the season: new weights were added on 7, 13 and 15 November. Anyon",
+ "created": "2026-11-23",
+ "status": "open"
+}

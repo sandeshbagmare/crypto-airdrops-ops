@@ -1,0 +1,25 @@
+{
+ "project": "BitRobot",
+ "official_url": "https://app.bitrobot.ai",
+ "source_url": "https://www.airdropstop.com/airdrops/bitrobot",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Create an Access ID in the BitRobot Lab app Open the BitRobot Lab app and create your Access ID card, which is where your Bolts are recorded. When you create an Access ID for the first time, you can import subnet accounts through an email address, a wallet or Discord.",
+  "2 Step 2 : Link your wallet or subnet accounts In the Profile tab, add a wallet or import accounts from subnets you already use. The Bolts and app FAQ walks through both routes.",
+  "3 Step 3 : Pick a subnet and complete its tasks Choose a subnet from the network page . TeleArms asks for simulated robotic missions and needs no hardware, while ET Fugi asks you to buy a sidewalk robot.",
+  "4 Step 4 : Track Subnet Points and Bolts The conversion schedule varies by subnet, for example daily for TeleArms and every 10 days for ET Fugi, and each subnet&#x27;s page shows its next conversion. Bolts then appear on your Access ID once that period closes.",
+  "5 Step 5 : Refer other contributors if you choose A referral adds a 10% Bolts bonus when the person you referred has points convert. Per the Bolts overview , only referrals who do real subnet work count."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.bitrobot.ai",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,30 @@
+{
+ "project": "SOEI",
+ "official_url": "https://proof.soei.io",
+ "source_url": "https://99airdrops.com/airdrops/soei/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Open proof.soei.io by typing the address yourself, and press Connect with X. \"Your X account needs to be at least 30 days old to earn.\" Accounts under 90 days old or with fewer than 50 followers earn half.",
+  "Read the guidelines, then make a post, thread, meme, drawing or short video about SOEI. \"Put it on X from your own account and mention SOEI, @heysoei or $SOEI.\"",
+  "Mark it as paid content. The rule is: \"Say you're earning points: add #ad or\" a line in your own words that you get points for the post.",
+  "Paste the post link into SOEI Proof. \"Paste the link in SOEI Proof. You get your score in seconds.\" The post must be \"Posted in the last 4 days, and after the campaign started.\"",
+  "Leave the post up. \"Deleted or hidden posts lose their points, and so does any scratch those points paid for.\"",
+  "Optional: follow @heysoei, look for point codes in the SOEI Discord, and scratch a card for every 100 points.",
+  "Check your rank on the leaderboard. There is no claim or wallet step yet."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://proof.soei.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The campaign is free: no deposit, mint or gas. The cost is time and a public trail of sponsored posts on your X account. The guidelines warn that \"Copy-paste. Text someone already submitted, including the examples on this page and your own invite post, is rejected\", and price talk or airdrop promises score low. The optional side quest asks you to install the app and then \"send us your SOEI usernam",
+ "risks": "No token exists, and SOEI's own risk page says its rewards \"Do not guarantee income or any right to receive money for users or creators.\" The terms say \"Participation in a campaign, task, quiz, or reward program does not guarantee that a user will receive Credits, digital gifts, benefits, or money.\" SOEI can also end a program early. Early users already hold an older point called SOEIR. On 9 Septe",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,25 @@
+{
+ "project": "IOPn",
+ "official_url": "https://iopn.io",
+ "source_url": "https://www.airdropstop.com/airdrops/iopn",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
+  "1 Step 1 : Open the IOPn site Start at the IOPn home page to see the products it lists: OPN Chain, ATLAS, Mosaic, NeoID and NeoCard. The about page covers the team and the roadmap.",
+  "2 Step 2 : Read the docs The IOPn docs describe the ecosystem, including a mention of loyalty points and ecosystem quests, and the OPN Chain developer docs cover the network. The ecosystem overview is the next page after the welcome.",
+  "3 Step 3 : Visit OPN Chain Open the OPN Chain site , which the home page links as IOPn&#x27;s sovereign blockchain.",
+  "4 Step 4 : Add the OPN testnet to your wallet The developer docs list the OPN Testnet network details and a faucet for test funds. Enter them in an EVM wallet to try the network.",
+  "5 Step 5 : Follow IOPn&#x27;s channels IOPn lists X and Telegram among its social links."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://iopn.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

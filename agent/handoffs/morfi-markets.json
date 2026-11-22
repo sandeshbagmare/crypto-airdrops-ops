@@ -1,0 +1,28 @@
+{
+ "project": "Morfi Markets",
+ "official_url": "https://morfi.markets",
+ "source_url": "https://99airdrops.com/airdrops/morfi-markets/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "Claim free test cash from the faucet in the app.",
+  "Pick a market and an outcome, and buy in at the live price. You can add to or sell your position while the market is open.",
+  "Open Rewards, connect your X account and work through the tasks.",
+  "Trade once a day to keep your streak, then claim the daily points.",
+  "Add and verify an email address so your points can count at launch."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://morfi.markets",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "It is free today. Everything runs on devnet with test money that has no value. Trading fees exist in the design, but no percentages are published. Real money enters only if mainnet launches, when trading would use real USDC.",
+ "risks": "The contracts \"have not been audited by an independent third-party security firm\", according to Morfi's risk page. With no referee, a market can be pushed by whoever puts in the most money. You must be 18 or older, and the competitions allow one wallet per player. No country list is published. The terms let Morfi \"introduce geographic restrictions or other access controls at any time, including fo",
+ "created": "2026-11-23",
+ "status": "open"
+}

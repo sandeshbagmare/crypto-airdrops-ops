@@ -1,0 +1,25 @@
+{
+ "project": "Retium",
+ "official_url": "https://wallet.retium.org",
+ "source_url": "https://www.airdropstop.com/airdrops/retium",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Retium web wallet Go to the Retium web wallet . The testnet page lists this browser wallet as the first public way into the network; it supports two-factor signing and connecting to dapps.",
+  "2 Step 2 : Claim test coins The testnet page says the faucet sits on Retium Money. Claim test RTM there; the testnet page explains these coins carry no value and may be wiped between stages.",
+  "3 Step 3 : Install the Chrome extension Add the Retium Wallet extension to carry the same wallet inside Chrome and let websites connect to it directly, then sign in and send or approve contract calls from the toolbar.",
+  "4 Step 4 : Try the NFT launchpad Open the NFT launchpad and mint a test NFT with your testnet wallet, then check the NFT section of the wallet to see it.",
+  "5 Step 5 : Read the developer docs If you build, the developer docs cover writing and deploying contracts and connecting the wallet to a site."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://wallet.retium.org",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

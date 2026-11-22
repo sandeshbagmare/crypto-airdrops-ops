@@ -1,0 +1,25 @@
+{
+ "project": "InterLink Labs",
+ "official_url": "https://interlinklabs.ai/download",
+ "source_url": "https://www.airdropstop.com/airdrops/interlink-labs",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "1 Step 1 : Get an invite code from a member Joining requires a code from someone who is already a member, so ask an existing miner for theirs.",
+  "2 Step 2 : Download the InterLink app Install the app from the download page or the App Store .",
+  "3 Step 3 : Tap to mine every day Open the app and tap to mine. Each tap accumulates a free asset, and the project&#x27;s chain page says to transfer your ITL to the ITLX Wallet to make it an on-chain asset. Mining is free, and a mining group raises the rate for everyone in it.",
+  "4 Step 4 : Follow the ITLG Mainnet KYC The app page carries the project&#x27;s posts about the upcoming ITLG KYC portal. Those posts name account metrics, badges and ITL balance as factors in receiving ITLG, and say that passing Level 1 KYC makes you eligible to sponsor others.",
+  "5 Step 5 : Move ITL to the ITLX Wallet if you want it on-chain The ITLX Wallet is the project&#x27;s non-custodial wallet. According to the chain page, ITL transferred to it becomes an on-chain asset on Interlink Mainnet."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://interlinklabs.ai/download",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

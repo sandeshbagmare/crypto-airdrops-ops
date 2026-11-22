@@ -1,0 +1,25 @@
+{
+ "project": "Janus Protocol",
+ "official_url": "https://www.janusdefi.com",
+ "source_url": "https://www.airdropstop.com/airdrops/janus-protocol",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
+  "1 Step 1 : Add Base Sepolia to your wallet Add the Base Sepolia test network (Chain ID 84532) to your wallet, then get test ETH from the faucet the project lists on its homepage.",
+  "2 Step 2 : Open the Janus homepage Start from the Janus homepage and follow its link to the live MVP, which runs on Base Sepolia.",
+  "3 Step 3 : Try the MVP Connect your wallet in the MVP and follow its prompts to explore epochs, the α and Ω split and the Stability Dividend flow.",
+  "4 Step 4 : Complete the Zealy quests Open the Janus Zealy board and complete quests that test flows, to build contributor reputation and earn badges.",
+  "5 Step 5 : Follow announcements Watch the project&#x27;s X account and its Telegram chat for announcements and community chat."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.janusdefi.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

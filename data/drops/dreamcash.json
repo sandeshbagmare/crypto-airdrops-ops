@@ -1,0 +1,58 @@
+{
+ "name": "Dreamcash",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://dreamcash.xyz",
+ "needs": "",
+ "steps": [
+  "Download the mobile app from dreamcash.xyz , or open the web app at trade.dreamcash.xyz . Mobile volume carries twice the XP weight of web volume.",
+  "Fund the account. You can buy USDC by card or bank transfer through MoonPay, or deposit crypto such as USDC on Arbitrum.",
+  "Trade perps or spot. All supported markets count equally toward XP. Warning You trade with real money here, and leveraged positions can be liquidated.",
+  "Wait for Thursday, when the XP goes out."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Dreamcash pays Season 1 XP for trades in its Hyperliquid apps, but no token is confirmed. How the weekly pool works, fees, blocked countries and risks.",
+ "behind": "Supreme Liquid Labs develops Dreamcash. The Block reported on 13 February 2026 that Tether had invested in the company for an undisclosed amount. The same report said the investment would support a $200,000 weekly incentive program for traders on the new markets. The Season 1 overview still mentions two reward tracks but details only XP. Get the next airdrop first We post new guides, claim opening",
+ "costs": "Dreamcash's fee page lists 0.045% per trade in the mobile app and 0.025% in the web app, so the app with the higher XP weight also charges more. Withdrawing USDC to an external wallet on Arbitrum costs $1. The Fees page of the Dreamcash docs on 18 October 2026, with the mobile and web app fees at the top and a tier table below. Source: Dreamcash docs",
+ "risks": "The FAQ lists the United Kingdom, Iran, Cuba and North Korea as blocked from the whole app. HIP-3 markets are blocked for users in the United States. The legal notice says Season 1 creates no contractual entitlement to rewards, and Dreamcash can modify or suspend the program. XP depends on your share of total volume, so the amount earned per dollar changes weekly.",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/dreamcash/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "trading",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-27 (544 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 544,
+  "checked": "2026-11-23T02:07:29"
+ },
+ "domain_age_days": 544,
+ "slug": "dreamcash",
+ "dossier": "drops/dreamcash.md",
+ "published": "2026-11-23"
+}

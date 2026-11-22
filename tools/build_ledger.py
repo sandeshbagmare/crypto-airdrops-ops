@@ -3,6 +3,7 @@
 Every row keeps its source URL. Nothing is invented: empty fields stay empty.
 """
 import json
+import re
 import sys
 from datetime import date, datetime
 from pathlib import Path
@@ -15,7 +16,36 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "airdrops.json"
 
 HEADERS = ["Project", "Source", "Status", "KYC / requirements", "Cost", "Time to start",
-           "Risk", "Ends", "Days left", "Pool (source-stated)", "Apply status", "Link", "Fetched"]
+           "Risk", "Key date in source", "Days left", "Pool (source-stated)", "Notes", "Tags",
+           "Apply status", "Link", "Fetched"]
+
+MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7,
+          "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
+DATE_RE = re.compile(
+    r"(?:by|on|until|before|ends?|snapshot)\s+(\d{1,2})\s+([A-Z][a-z]{2})",
+    re.IGNORECASE)
+
+
+def date_from_notes(notes):
+    """Pull the first 'on 2 Dec'-style date out of a description. Year inferred."""
+    if not notes:
+        return ""
+    m = DATE_RE.search(notes)
+    if not m:
+        return ""
+    day, mon = int(m.group(1)), MONTHS.get(m.group(2).lower()[:3])
+    if not mon or not 1 <= day <= 31:
+        return ""
+    try:
+        d = date(date.today().year, mon, day)
+    except ValueError:
+        return ""
+    if d < date.today():
+        try:
+            d = date(date.today().year + 1, mon, day)
+        except ValueError:
+            return ""
+    return d.isoformat()
 
 
 def days_left(end_raw):
@@ -47,11 +77,13 @@ def rows():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     out = []
     for r in data:
-        dl = days_left(r.get("end_date", ""))
+        end = r.get("end_date", "") or date_from_notes(r.get("notes", ""))
+        dl = days_left(end)
         out.append([
             r.get("name", ""), r.get("source", ""), r.get("status", "") or r.get("next_move", ""),
             requirement(r), r.get("cost", ""), r.get("time_to_start", ""), r.get("risk", ""),
-            r.get("end_date", ""), dl, r.get("prize", ""), "identified",
+            end, dl, r.get("prize", ""), (r.get("notes", "") or r.get("description", ""))[:110],
+            r.get("tags", ""), "identified",
             r.get("source_url", ""), r.get("fetched", ""),
         ])
     out.sort(key=lambda x: (x[8] == "", x[8] if isinstance(x[8], int) else 9999, x[0]))
@@ -67,7 +99,7 @@ def build_md(all_rows):
         f"**{len(all_rows)} projects** scraped from public trackers on "
         f"{date.today().isoformat()}. Sources are per row; nothing here is invented.",
         "",
-        f"- {len(dated)} have a published end date, **{len(soon)} close within 30 days**",
+        f"- {len(dated)} carry a dated deadline or snapshot, **{len(soon)} fall within 30 days**",
         f"- {sum(1 for r in all_rows if r[6])} carry a risk rating from the tracker",
         f"- {sum(1 for r in all_rows if 'KYC' in (r[3] or ''))} list KYC as a requirement",
         "",
@@ -90,7 +122,7 @@ def build_md(all_rows):
     ]
     for r in all_rows:
         cells = [str(c) for c in r]
-        cells[11] = f"[source]({r[11]})" if r[11] else ""
+        cells[13] = f"[source]({r[13]})" if r[13] else ""
         lines.append("| " + " | ".join(cells) + " |")
     lines += [
         "",
@@ -121,16 +153,16 @@ def build_xlsx(all_rows):
         c.alignment = Alignment(vertical="center", wrap_text=True)
     for r in all_rows:
         ws.append(r)
-    widths = [20, 15, 22, 44, 14, 16, 12, 14, 10, 18, 14, 46, 12]
+    widths = [20, 16, 20, 40, 14, 15, 11, 16, 9, 15, 50, 26, 13, 44, 12]
     for i, w in enumerate(widths, start=1):
         ws.column_dimensions[ws.cell(row=1, column=i).column_letter].width = w
     ws.freeze_panes = "A2"
-    ws.auto_filter.ref = f"A1:M{ws.max_row}"
+    ws.auto_filter.ref = f"A1:O{ws.max_row}"
     dv = DataValidation(type="list",
                         formula1='"identified,vetted,in-progress,submitted,paid,dropped"',
                         allow_blank=True)
     ws.add_data_validation(dv)
-    dv.add(f"K2:K{ws.max_row}")
+    dv.add(f"M2:M{ws.max_row}")
 
     s = wb.create_sheet("summary")
     s.append(["Metric", "Value"])
@@ -139,12 +171,13 @@ def build_xlsx(all_rows):
     dated = [r for r in all_rows if isinstance(r[8], int)]
     for k, v in (
         ("Tracked projects", len(all_rows)),
-        ("With published end date", len(dated)),
+        ("With a dated deadline or snapshot", len(dated)),
         ("Closing within 30 days", sum(1 for r in dated if 0 <= r[8] <= 30)),
         ("With risk rating", sum(1 for r in all_rows if r[6])),
         ("KYC required", sum(1 for r in all_rows if "KYC" in (r[3] or ""))),
-        ("Source: airdroplet", sum(1 for r in all_rows if r[1] == "airdroplet")),
-        ("Source: airdropvillage", sum(1 for r in all_rows if r[1] == "airdropvillage")),
+        ("From airdroplet", sum(1 for r in all_rows if "airdroplet" in r[1])),
+        ("From airdropvillage", sum(1 for r in all_rows if "airdropvillage" in r[1])),
+        ("From 99airdrops", sum(1 for r in all_rows if "99airdrops" in r[1])),
         ("Operator target", 100),
         ("Last updated", date.today().isoformat()),
     ):

@@ -1,0 +1,6 @@
+.venv/
+tools/airdrop-agent/
+__pycache__/
+*.pyc
+*.log
+.env

@@ -135,6 +135,40 @@ def friction_label(drivers):
     return " + ".join(names)
 
 
+def normalize_end(raw):
+    """Turn a loose date phrase into a future ISO date, or drop it.
+
+    A hint without a year ('15 Nov') is resolved to this year, or next if already past. If it still
+    lands in the past, it is not a deadline and is dropped rather than shown as stale.
+    """
+    if not raw:
+        return ""
+    txt = raw.strip()
+    m = re.match(r"^(20\d{2})-(\d{2})-(\d{2})$", txt)
+    if m:
+        try:
+            d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            return d.isoformat() if d >= date.today() else ""
+        except ValueError:
+            return ""
+    m = re.match(r"^(\d{1,2})\s+([A-Za-z]{3,9})\.?(?:,?\s*(20\d{2}))?$", txt)
+    if not m:
+        return ""
+    day = int(m.group(1))
+    mon = MONTHS.get(m.group(2).lower()[:3])
+    if not mon or not 1 <= day <= 31:
+        return ""
+    year = int(m.group(3)) if m.group(3) else date.today().year
+    for candidate_year in ([year] if m.group(3) else [year, year + 1]):
+        try:
+            d = date(candidate_year, mon, day)
+        except ValueError:
+            continue
+        if d >= date.today():
+            return d.isoformat()
+    return ""
+
+
 def load():
     records = json.loads(DATA.read_text(encoding="utf-8"))
     verified = {}
@@ -162,7 +196,8 @@ def build(records, verified, fx, dupes):
     seen = set()
     for r in records:
         v = verified.get(key(r["name"]), {})
-        end = r.get("end_date") or date_from_notes(r.get("notes", "")) or v.get("deadline_hint", "")
+        end = normalize_end(r.get("end_date")) or normalize_end(date_from_notes(r.get("notes", ""))) \
+            or normalize_end(v.get("deadline_hint", ""))
         dl = days_left(end)
         needs = r.get("kyc") or ""
         if r.get("cost") and r["cost"] not in needs:

@@ -285,7 +285,11 @@ def main():
         try:
             got = fn(get(url))
             print(f"{name}: {len(got)} records")
-            report.append(f"| {name} | {len(got)} | ok | - |")
+            if got:
+                report.append(f"| {name} | {len(got)} | ok | - |")
+            else:
+                report.append(f"| {name} | 0 | EMPTY - suspect | returned no rows |")
+                failures.append(name)
             records += got
         except Exception as e:
             print(f"{name} FAILED: {type(e).__name__}: {e}")
@@ -297,7 +301,11 @@ def main():
         try:
             got = fn()
             print(f"{name}: {len(got)} records")
-            report.append(f"| {name} | {len(got)} | ok | - |")
+            if got:
+                report.append(f"| {name} | {len(got)} | ok | - |")
+            else:
+                report.append(f"| {name} | 0 | EMPTY - suspect | returned no rows |")
+                failures.append(name)
             records += got
         except ImportError:
             print(f"{name} SKIPPED: playwright not installed")

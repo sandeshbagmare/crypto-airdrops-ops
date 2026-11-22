@@ -29,6 +29,33 @@ DROPS = ROOT / "drops"
 DATA_DROPS = ROOT / "data" / "drops"
 REPO = "sandeshbagmare/crypto-airdrops-ops"
 
+sys.path.insert(0, str(ROOT / "tools"))
+try:
+    from triage import triage as run_triage
+except Exception:  # triage is optional at import time
+    run_triage = None
+
+
+def forensics(url):
+    """Domain forensics for the official site, or a note that it could not be checked."""
+    if not url or not run_triage:
+        return {"verdict": "not checked", "score": None, "findings": [], "age_days": None}
+    try:
+        rep = run_triage(url)
+    except Exception as e:
+        return {"verdict": "check failed", "score": None, "findings": [["WARN", str(e)[:80]]],
+                "age_days": None}
+    age = None
+    for level, msg in rep.get("findings", []):
+        if "domain" in msg:
+            m = re.search(r"(\d+) days", msg)
+            if m:
+                age = int(m.group(1))
+                break
+    return {"verdict": rep.get("verdict"), "score": rep.get("score"),
+            "findings": [[l, m] for l, m in rep.get("findings", [])], "age_days": age,
+            "checked": rep.get("checked", "")}
+
 
 def slugify(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:60]
@@ -69,6 +96,16 @@ def dossier(d):
     lines += ["## Costs", "", d.get("costs") or "_Not disclosed in the source._", ""]
     lines += ["## Risks", "", d.get("risks") or "_Not disclosed in the source._", ""]
     lines += ["## Pool (as stated by the source)", "", d.get("pool") or "_Source states no pool size._", ""]
+    f = d.get("forensics") or {}
+    lines += ["## Domain forensics", "",
+              f"Verdict: **{f.get('verdict') or 'not checked'}**"
+              + (f" (risk score {f['score']})" if f.get("score") is not None else "")
+              + (f" | domain age {f['age_days']} days" if f.get("age_days") else ""), ""]
+    for level, msg in (f.get("findings") or []):
+        lines.append(f"- **{level}** {msg}")
+    if not f.get("findings"):
+        lines.append("_No forensics run for this drop._")
+    lines += [""]
     lines += ["## Evidence", ""] + [f"- {e}" for e in ev] or ["- none"]
     lines += ["", f"Source: {d.get('source_url') or 'n/a'} (checked {d.get('checked') or 'n/a'})", ""]
     lines += [
@@ -128,6 +165,13 @@ def publish(d, tok, dry_run=False):
     record["slug"] = slug
     record["dossier"] = f"drops/{slug}.md"
     record["published"] = date.today().isoformat()
+    fx = forensics(d.get("official") or "")
+    record["forensics"] = fx
+    d = dict(d, forensics=fx)
+
+    if fx.get("verdict") == "SCAM-LIKELY":
+        return {"slug": slug, "branch": branch, "pr": None,
+                "blocked": f"domain forensics: SCAM-LIKELY (score {fx.get('score')})"}
 
     md_path.write_text(dossier(d), encoding="utf-8")
     json_path.write_text(json.dumps(record, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -150,6 +194,8 @@ def publish(d, tok, dry_run=False):
         + (f" ({d['days']} days left)" if isinstance(d.get('days'), int) else ""),
         f"- **Official** {d.get('official') or 'not extracted'}",
         f"- **Steps extracted** {len(d.get('steps') or [])}",
+        f"- **Domain forensics** {(d.get('forensics') or {}).get('verdict')} "
+        f"(score {(d.get('forensics') or {}).get('score')})",
         f"- **Source** {d.get('source_url') or 'n/a'} - checked {d.get('checked') or 'n/a'}",
         "",
         "**What it is**",
@@ -230,9 +276,14 @@ def main():
     created = []
     for d in target:
         try:
-            created.append(publish(d, tok, args.dry_run))
-            print(f"  {created[-1]['slug']:36} -> PR #{created[-1]['pr']}"
-                  if created[-1].get("pr") else f"  {created[-1]['slug']:36} -> dry run")
+            r = publish(d, tok, args.dry_run)
+            created.append(r)
+            if r.get("blocked"):
+                print(f"  {r['slug']:36} -> BLOCKED: {r['blocked']}")
+            elif r.get("pr"):
+                print(f"  {r['slug']:36} -> PR #{r['pr']}")
+            else:
+                print(f"  {r['slug']:36} -> dry run")
         except Exception as e:
             print(f"  FAILED {d['name'][:40]}: {e}")
             break

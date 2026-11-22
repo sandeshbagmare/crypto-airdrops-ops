@@ -1,0 +1,59 @@
+{
+ "name": "DuelBet",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://duelbet.com/service-availability",
+ "needs": "",
+ "steps": [
+  "Check that your country is on DuelBet's service availability list and not on the licence's excluded list (see risks below). Don't use a VPN: the terms ban it.",
+  "Type duelbet.com yourself and create an account. You must be \"at least 18 years old and have reached the higher legal gambling age\" where you live.",
+  "Deposit crypto through the cashier. Send it on the network the cashier shows: \"Funds sent to an unsupported network or incorrect address may be permanently lost.\" Warning Set a loss limit before you start. Points scale with the amount you bet, so chasing a race rank means chasing losses.",
+  "Play eligible games. Points are credited automatically and you are entered in the daily and monthly races.",
+  "If you place in a race, choose cash (which burns the points) or keep the points for the planned airdrop.",
+  "Watch @duelbetcasino on X and t.me/duel_bet for any snapshot or TGE news. There is no $DUEL contract yet, so any \"$DUEL\" token you see trading is not DuelBet's."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "DuelBet, a crypto casino, pays DuelPoints on real bets and says they turn into a $DUEL airdrop. No date, and the terms guarantee nothing. Risks inside.",
+ "behind": "\"DuelBet is owned and operated by 1Adventure Ltd, a company registered in the Autonomous Island of Anjouan, Union of Comoros.\" Its licence number is ALSI-122405025-FI2, and the terms give the \"Licence term: Issued 17 May 2024; expiry 16 May 2027\". The regulator's validation page shows the licence as valid, but it also says \"This seal validation page has expired since it was generated on: Aug 10, 2",
+ "costs": "Nothing here is free. DuelBet publishes no overall house edge. The 46 games listed on its homepage show return-to-player rates from 92.85% to 97.3%, so about 2.7% to 7.15% of every bet goes to the house over time. The welcome bonus offers \"up to 500% + up to 500 Free Spins\" on a deposit of at least $10, but \"The bonus becomes available once your main balance drops below\" $0.20, that is, after the ",
+ "risks": "Excluded countries: DuelBet publishes an allow-list of supported places. The US, UK, Canada, Australia, France, Germany and the Netherlands are not on it. The Anjouan licence page separately excludes \"Australia, Comoros, France, Netherlands, Spain, United Kingdom, USA.\" and \"All FATF-blacklisted countries and Sanctioned jurisdictions.\" Spain and Comoros are on DuelBet's list anyway; players there ",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/duelbet/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2015-04-03 (4251 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 4251,
+  "checked": "2026-11-23T02:07:40"
+ },
+ "domain_age_days": 4251,
+ "slug": "duelbet",
+ "dossier": "drops/duelbet.md",
+ "published": "2026-11-23"
+}

@@ -1,0 +1,50 @@
+{
+ "name": "Amadeus Protocol",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://amahub.ama.one/quests",
+ "needs": "",
+ "steps": [
+  "Open the AMA Hub Tasks page and connect an EVM wallet.",
+  "Create an Amadeus wallet and link it. It comes as a browser extension and as apps for iOS and Android. The Tasks page says: \"Every quest needs both wallets linked\".",
+  "Check in daily and clear the repeatable quests.",
+  "Build an agent, give it a skill and run it, then work toward First Chair.",
+  "Claim your points each week, starting on Monday."
+ ],
+ "end": "2027-10-31",
+ "days": 342,
+ "pool": "",
+ "what": "Amadeus's app banner promises an airdrop, but its rules say Prime Points never become tokens. What Season 01 pays, the 31 October end and the risks.",
+ "behind": "Amadeus hasn't disclosed any investors, and its litepaper says there is \"no VC allocation, no premine, no team lockups.\" The homepage quotes Ivan Svirid as co-founder, and the litepaper names Leslie Kivit as a second co-founder. The litepaper also says Amadeus acquired Bitte.ai, an AI agent product, in December 2025. Get the next airdrop first We post new guides, claim openings and deadlines on Te",
+ "costs": "Joining is free. A quest card says of campaign access: \"you do not need to buy or deposit AMA for that access.\" The free plan runs one private virtual machine at a time and stops it 24 hours after launch. The app's text adds: \"Starter is $9 a month.\" Warning The quests that pay the most points ask for real trading volume, such as $500 of trades for Heavy Hitter. Swaps and agent trades move your ow",
+ "risks": "The app's banner and its rules page disagree on whether points lead to tokens at all. The end date isn't settled in one clear statement, and no snapshot time is published. We found no terms of use, country list, age rule or anti-Sybil policy. The app's code says weekly points can be \"held for eligibility review\". The app describes a Prime Shop for perks such as fee discounts, so points have uses o",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops+airdropstop",
+ "source_url": "https://99airdrops.com/airdrops/amadeus-protocol/",
+ "checked": "2026-11-23",
+ "slug": "amadeus-protocol",
+ "dossier": "drops/amadeus-protocol.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-08-12 (1928 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 1928,
+  "checked": "2026-11-23T01:30:19"
+ }
+}

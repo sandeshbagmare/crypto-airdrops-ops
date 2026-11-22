@@ -1,0 +1,48 @@
+{
+ "name": "Wick",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://www.wick.xyz/waitlist",
+ "needs": "",
+ "steps": [
+  "Open wick.xyz/waitlist and check the address in your browser. Warning Other sites use the Wick name, including one selling a \"$WICK\" token that has nothing to do with this project. Wick hasn't published a token contract, so any WICK token on sale today is unofficial.",
+  "Connect the wallet you signed up with. The page says: \"Connect your wallet to view your registration.\" Warning Viewing your registration shouldn't need a token approval or a transaction. Read every request in your wallet and refuse anything like that.",
+  "Follow @wick_xyz on X for the reveal Wick has promised before the Lighter EVM launch, and for what \"recognized\" turns out to mean."
+ ],
+ "end": "2027-10-13",
+ "days": 324,
+ "pool": "",
+ "what": "Wick has promised no airdrop, only that early users will be recognized. Its free wallet waitlist closed on 13 October 2026 with nearly 140,000 sign-ups.",
+ "behind": "Nobody is named. Wick's site, docs and X account give no founder, company, country or investor. The docs credit Spherical Cow Labs for research on the fee model. Wick's X account dates from February 2026. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "Joining the waitlist cost nothing: it was a wallet connection and a signature, with no transaction. The products will carry fees and risk once they launch. The docs say returns on the wrapped liquidity pool vary and that \"individual months can be negative\".",
+ "risks": "No reward is promised. Nothing Wick has published says what early users get, who qualifies or whether it will have any value. There are no terms of service and no privacy policy, so no country list, age limit or identity rule is published. No audit and no contract address has been published. The docs show high example returns. They are illustrations, not measured results.",
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/wick/",
+ "checked": "2026-11-23",
+ "slug": "wick",
+ "dossier": "drops/wick.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2019-09-22 (2618 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 2618,
+  "checked": "2026-11-23T01:29:56"
+ }
+}

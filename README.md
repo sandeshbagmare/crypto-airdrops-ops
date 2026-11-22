@@ -25,11 +25,17 @@ python tools/pr_drop.py --slug yakkamon # a single drop
 Each PR adds `drops/<slug>.md` (the dossier: what it is, official site, steps, who is behind it,
 costs, risks, evidence, reviewer checklist) and `data/drops/<slug>.json` (the machine record).
 
+Every dossier embeds **domain forensics** (RDAP registration age, TLS issuer, DNS resolution, verdict)
+from `tools/triage.py`. A `SCAM-LIKELY` domain is never published - the tool refuses to open the PR.
+
 CI gates it: `.github/workflows/pr-check.yml` runs `tools/validate_drops.py` on every dossier PR and
 fails on missing sections, placeholder text, a confidence score its evidence does not support, an
 `http://` or shortener official URL, or an official URL that points back at a tracker. The daily
 refresh now opens a PR (`bot/daily-refresh`) instead of pushing to `main`, so CI diff review applies
 to automated changes too.
+
+25 dossier PRs are open. Add the `auto-merge` label to any of them and `.github/workflows/auto-merge.yml`
+squashes it into `main` once `validate-drops` is green; without the label they wait for review.
 
 ## For autonomous agents
 

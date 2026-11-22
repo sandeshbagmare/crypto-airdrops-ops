@@ -63,6 +63,19 @@ because they either destroy the operator's money, break platform terms, or are f
 | `evidence[]` | the reasons behind that score |
 | `checked` | date of verification |
 
+## 3b. Publishing as a pull request
+
+`python tools/pr_drop.py --top 10` writes `drops/<slug>.md` (human dossier) and
+`data/drops/<slug>.json` (machine record), commits them on `verify/<slug>`, pushes, and opens a PR.
+Each dossier now carries **domain forensics** from `tools/triage.py`: RDAP age, TLS issuer, DNS, plus
+a verdict. A `SCAM-LIKELY` verdict stops publication entirely - the drop is never given a branch.
+
+Gates, in order:
+1. `validate-drops` (CI) - schema, evidence-consistency, secret *requests* (warnings allowed), https
+   official URL, no tracker or shortener as "official", required sections.
+2. Human review of the dossier.
+3. Optional: add the `auto-merge` label and `auto-merge.yml` merges it once CI is green.
+
 ## 4. Confidence score
 
 Computed only from evidence found in the guide: steps +25, official site +20, deadline +15, named

@@ -226,6 +226,14 @@ def publish(d, tok, dry_run=False):
         if e.code == 422 and "already exists" in detail:
             for p in api(f"/repos/{REPO}/pulls?state=open&head=sandeshbagmare:{branch}", tok=tok):
                 num = p.get("number")
+            try:
+                api(f"/repos/{REPO}/pulls/{num}", "PATCH", {
+                    "title": f"verify({slug}): confidence {d.get('confidence')}, "
+                             f"{len(d.get('steps') or [])} steps",
+                    "body": body,
+                }, tok)
+            except Exception:
+                pass
             return {"slug": slug, "branch": branch, "pr": num, "existing": True}
         return {"slug": slug, "branch": branch, "pr": None, "error": detail}
 

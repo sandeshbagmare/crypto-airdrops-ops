@@ -1,0 +1,5178 @@
+{
+ "abs.xyz": {
+  "domain": "abs.xyz",
+  "url": "https://migrate.abs.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-06-02 (4556 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ammora.org": {
+  "domain": "ammora.org",
+  "url": "https://ammora.org/waitlist/join",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 88 days old (registered 2026-08-26)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "litvm.com": {
+  "domain": "litvm.com",
+  "url": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-04-22 (579 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "axisrobotics.ai": {
+  "domain": "axisrobotics.ai",
+  "url": "https://hub.axisrobotics.ai",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 348 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bybit.com": {
+  "domain": "bybit.com",
+  "url": "https://www.bybit.com/wsot2026",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1999-08-05 (9971 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by TrustAsia Technologies, Inc."
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "coinzilla.com": {
+  "domain": "coinzilla.com",
+  "url": "https://play.coinzilla.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-03-26 (7911 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "apple.com": {
+  "domain": "apple.com",
+  "url": "https://apps.apple.com/us/app/cycles-pay/id6761496918",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1987-02-19 (14521 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Apple Inc."
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "daejin.xyz": {
+  "domain": "daejin.xyz",
+  "url": "https://www.daejin.xyz/loyalty",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 128 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "di.xyz": {
+  "domain": "di.xyz",
+  "url": "https://di.xyz/check-in",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ekiden.fi": {
+  "domain": "ekiden.fi",
+  "url": "https://app.ekiden.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fables.fi": {
+  "domain": "fables.fi",
+  "url": "https://claim.fables.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fhenix.io": {
+  "domain": "fhenix.io",
+  "url": "https://www.fhenix.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "fhenix.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "flint.trade": {
+  "domain": "flint.trade",
+  "url": "https://devnet.app.flint.trade",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 173 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "globemarkets.xyz": {
+  "domain": "globemarkets.xyz",
+  "url": "https://globemarkets.xyz",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 74 days old (registered 2026-09-09)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "grass.io": {
+  "domain": "grass.io",
+  "url": "https://app.grass.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "grass.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ipx.exchange": {
+  "domain": "ipx.exchange",
+  "url": "https://www.ipx.exchange/fanszn",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-07 (411 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "inverted-lambda.com": {
+  "domain": "inverted-lambda.com",
+  "url": "https://inverted-lambda.com/platform/beta",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 265 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "thekleos.pro": {
+  "domain": "thekleos.pro",
+  "url": "https://www.thekleos.pro",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "loafmarkets.com": {
+  "domain": "loafmarkets.com",
+  "url": "https://beta.loafmarkets.com/league",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "mmix.io": {
+  "domain": "mmix.io",
+  "url": "https://hub.mmix.io",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "melee.markets": {
+  "domain": "melee.markets",
+  "url": "https://www.melee.markets",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-02-11 (649 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "metamask.com": {
+  "domain": "metamask.com",
+  "url": "https://metamask.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-01-28 (7968 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "minds.games": {
+  "domain": "minds.games",
+  "url": "https://minds.games",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 94 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "swanusd.com": {
+  "domain": "swanusd.com",
+  "url": "https://www.swanusd.com/airdrop",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 32 days old (registered 2026-10-21)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "neosoul.ai": {
+  "domain": "neosoul.ai",
+  "url": "https://airdrop.neosoul.ai",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 268 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "perptools.ai": {
+  "domain": "perptools.ai",
+  "url": "https://app.perptools.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-11-07 (380 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "perle.xyz": {
+  "domain": "perle.xyz",
+  "url": "https://app.perle.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-01-08 (683 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "pursuit.games": {
+  "domain": "pursuit.games",
+  "url": "https://beta.pursuit.games",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 129 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "riverai.inc": {
+  "domain": "riverai.inc",
+  "url": "https://app.riverai.inc/airdrop",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 152 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "simplechain.com": {
+  "domain": "simplechain.com",
+  "url": "https://task.simplechain.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "stablestock.finance": {
+  "domain": "stablestock.finance",
+  "url": "https://app.stablestock.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "tastyco.io": {
+  "domain": "tastyco.io",
+  "url": "https://app.tastyco.io/en/quests",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "trueo.com": {
+  "domain": "trueo.com",
+  "url": "https://trueo.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2012-05-10 (5309 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "vaultstreet.fun": {
+  "domain": "vaultstreet.fun",
+  "url": "https://vaultstreet.fun/whitelist",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 41 days old (registered 2026-10-12)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "worldie.world": {
+  "domain": "worldie.world",
+  "url": "https://worldie.world",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 101 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "yakkamon.com": {
+  "domain": "yakkamon.com",
+  "url": "https://yakkamon.com",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 160 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "xstocks.fi": {
+  "domain": "xstocks.fi",
+  "url": "https://defi.xstocks.fi/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-31 (601 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "3jane.xyz": {
+  "domain": "3jane.xyz",
+  "url": "https://app.3jane.xyz/supply",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-27 (999 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "42.space": {
+  "domain": "42.space",
+  "url": "https://www.42.space",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-23 (487 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "4dlabs.space": {
+  "domain": "4dlabs.space",
+  "url": "https://dapp.4dlabs.space/tasks",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 177 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "alphea.ai": {
+  "domain": "alphea.ai",
+  "url": "https://alphea.ai/alphea-connect-app",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 249 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "acepyr.com": {
+  "domain": "acepyr.com",
+  "url": "https://www.acepyr.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-09-28 (420 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "allscale.io": {
+  "domain": "allscale.io",
+  "url": "https://app.allscale.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "allscale.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "allox.ai": {
+  "domain": "allox.ai",
+  "url": "https://app.allox.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ama.one": {
+  "domain": "ama.one",
+  "url": "https://amahub.ama.one/quests",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "antseed.com": {
+  "domain": "antseed.com",
+  "url": "https://antseed.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "apyx.fi": {
+  "domain": "apyx.fi",
+  "url": "https://app.apyx.fi",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 360 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "arc.io": {
+  "domain": "arc.io",
+  "url": "https://community.arc.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "arc.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "arcus.xyz": {
+  "domain": "arcus.xyz",
+  "url": "https://app.arcus.xyz/trade/spot",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2019-04-22 (2771 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ascendlaunch.xyz": {
+  "domain": "ascendlaunch.xyz",
+  "url": "https://app.ascendlaunch.xyz",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 83 days old (registered 2026-08-31)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bulk.trade": {
+  "domain": "bulk.trade",
+  "url": "https://app.bulk.trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-10-28 (1121 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "backtrade.xyz": {
+  "domain": "backtrade.xyz",
+  "url": "https://backtrade.xyz",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 348 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "baibai.cx": {
+  "domain": "baibai.cx",
+  "url": "https://app.baibai.cx",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "justbeep.it": {
+  "domain": "justbeep.it",
+  "url": "https://app.justbeep.it",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "blackboard.fi": {
+  "domain": "blackboard.fi",
+  "url": "https://blackboard.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "breathofestova.com": {
+  "domain": "breathofestova.com",
+  "url": "https://breathofestova.com/pre-register",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-01-17 (1040 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bullpen.fi": {
+  "domain": "bullpen.fi",
+  "url": "https://app.bullpen.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-11-02 (1116 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bullshot.io": {
+  "domain": "bullshot.io",
+  "url": "https://bullshot.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "bullshot.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cambria.gg": {
+  "domain": "cambria.gg",
+  "url": "https://lobby.cambria.gg",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "cambria.gg is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cancore.io": {
+  "domain": "cancore.io",
+  "url": "https://cancore.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "cancore.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "catalyst.app": {
+  "domain": "catalyst.app",
+  "url": "https://catalyst.app",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-01-03 (2149 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "chimpx.ai": {
+  "domain": "chimpx.ai",
+  "url": "https://token.chimpx.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-01-09 (682 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "de1.ai": {
+  "domain": "de1.ai",
+  "url": "https://de1.ai",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 153 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "decibel.trade": {
+  "domain": "decibel.trade",
+  "url": "https://app.decibel.trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-14 (618 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "derivio.xyz": {
+  "domain": "derivio.xyz",
+  "url": "https://derivio.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-10-01 (1513 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dexari.com": {
+  "domain": "dexari.com",
+  "url": "https://dexari.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dogeos.com": {
+  "domain": "dogeos.com",
+  "url": "https://quest.dogeos.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "doma.xyz": {
+  "domain": "doma.xyz",
+  "url": "https://app.doma.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dowprotocol.com": {
+  "domain": "dowprotocol.com",
+  "url": "https://app.dowprotocol.com/points",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 325 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dreamcash.xyz": {
+  "domain": "dreamcash.xyz",
+  "url": "https://dreamcash.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-27 (544 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "duelbet.com": {
+  "domain": "duelbet.com",
+  "url": "https://duelbet.com/service-availability",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2015-04-03 (4251 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "embervalegame.com": {
+  "domain": "embervalegame.com",
+  "url": "https://embervalegame.com",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 48 days old (registered 2026-10-05)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ethena.fi": {
+  "domain": "ethena.fi",
+  "url": "https://claim.ethena.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-05-23 (1279 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "extended.exchange": {
+  "domain": "extended.exchange",
+  "url": "https://app.extended.exchange",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-11-28 (724 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "flop.finance": {
+  "domain": "flop.finance",
+  "url": "https://flop.finance/teaser",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 248 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fx100.club": {
+  "domain": "fx100.club",
+  "url": "https://testnet.fx100.club",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-06 (412 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "superboard.xyz": {
+  "domain": "superboard.xyz",
+  "url": "https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-10-28 (1851 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fairground.fi": {
+  "domain": "fairground.fi",
+  "url": "https://app.fairground.fi",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 234 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "frontiertraders.com": {
+  "domain": "frontiertraders.com",
+  "url": "https://www.frontiertraders.com/join",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2016-05-26 (3832 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "geton.xyz": {
+  "domain": "geton.xyz",
+  "url": "https://waitlist.geton.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "hashcats.fun": {
+  "domain": "hashcats.fun",
+  "url": "https://hashcats.fun/docs",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "hertzflow.xyz": {
+  "domain": "hertzflow.xyz",
+  "url": "https://www.hertzflow.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "imperial.space": {
+  "domain": "imperial.space",
+  "url": "https://www.imperial.space",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-23 (548 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "joincarelabs.com": {
+  "domain": "joincarelabs.com",
+  "url": "https://joincarelabs.com/tasks",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 179 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "jup.ag": {
+  "domain": "jup.ag",
+  "url": "https://docs.jup.ag/user-docs/more/jup-token",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "jup.ag is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kinetiq.xyz": {
+  "domain": "kinetiq.xyz",
+  "url": "https://elysium.kinetiq.xyz/testnet-faucet",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-10-08 (1141 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kryvora.network": {
+  "domain": "kryvora.network",
+  "url": "https://faucet-testnet.kryvora.network",
+  "verdict": "DEAD-LINK",
+  "score": 50,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 105 days old"
+   ],
+   [
+    "HIGH",
+    "host does not resolve"
+   ],
+   [
+    "MEDIUM",
+    "TLS: no dns"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "lighter.xyz": {
+  "domain": "lighter.xyz",
+  "url": "https://docs.lighter.xyz/points-program/lighter-on-robinhood-chain-points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "liquid.trade": {
+  "domain": "liquid.trade",
+  "url": "https://app.liquid.trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "mint.io": {
+  "domain": "mint.io",
+  "url": "https://mint.io/mntd",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "memebitcoin.org": {
+  "domain": "memebitcoin.org",
+  "url": "https://www.memebitcoin.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-10 (408 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "orvi.fun": {
+  "domain": "orvi.fun",
+  "url": "https://orvi.fun/claim",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 52 days old (registered 2026-10-01)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "metric.xyz": {
+  "domain": "metric.xyz",
+  "url": "https://app.metric.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-06-02 (4556 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "minehood.io": {
+  "domain": "minehood.io",
+  "url": "https://www.minehood.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "minehood.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "monetrix.xyz": {
+  "domain": "monetrix.xyz",
+  "url": "https://www.monetrix.xyz/app/earn",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 258 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "montramarkets.xyz": {
+  "domain": "montramarkets.xyz",
+  "url": "https://montramarkets.xyz/airdrop",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 38 days old (registered 2026-10-15)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "morfi.markets": {
+  "domain": "morfi.markets",
+  "url": "https://morfi.markets",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 219 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "n1.xyz": {
+  "domain": "n1.xyz",
+  "url": "https://app.n1.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-25 (1001 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "nowa.finance": {
+  "domain": "nowa.finance",
+  "url": "https://app.nowa.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-08-08 (471 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "nuva.finance": {
+  "domain": "nuva.finance",
+  "url": "https://app.nuva.finance/en/vaults",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-09 (562 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "trynoah.ai": {
+  "domain": "trynoah.ai",
+  "url": "https://trynoah.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "note.systems": {
+  "domain": "note.systems",
+  "url": "https://note.systems/app",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "nousresearch.com": {
+  "domain": "nousresearch.com",
+  "url": "https://portal.nousresearch.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "nullmask.io": {
+  "domain": "nullmask.io",
+  "url": "https://app.nullmask.io/points",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "nullmask.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "onre.finance": {
+  "domain": "onre.finance",
+  "url": "https://docs.onre.finance/legal/onyc-excluded-jurisdictions",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-02-10 (650 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ondoperps.xyz": {
+  "domain": "ondoperps.xyz",
+  "url": "https://app.ondoperps.xyz",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 361 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "oneswap.cc": {
+  "domain": "oneswap.cc",
+  "url": "https://www.oneswap.cc/waitlist",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 312 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "optimai.network": {
+  "domain": "optimai.network",
+  "url": "https://node.optimai.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-06-13 (892 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "getoptimum.xyz": {
+  "domain": "getoptimum.xyz",
+  "url": "https://turbocards.getoptimum.xyz/optimum",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-06-12 (893 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "orbinum.network": {
+  "domain": "orbinum.network",
+  "url": "https://app.orbinum.network/community",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 355 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "pantherdao.app": {
+  "domain": "pantherdao.app",
+  "url": "https://pantherdao.app",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 268 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "papertrade.xyz": {
+  "domain": "papertrade.xyz",
+  "url": "https://papertrade.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-19 (552 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "polyester.com": {
+  "domain": "polyester.com",
+  "url": "https://testnet.polyester.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1996-07-23 (11079 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "polymarket.com": {
+  "domain": "polymarket.com",
+  "url": "https://help.polymarket.com/en/articles/13364163-geographic-restrictions",
+  "verdict": "no red flags found",
+  "score": 10,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2003-02-04 (8692 days)"
+   ],
+   [
+    "MEDIUM",
+    "TLS: TimeoutError"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "powerx.one": {
+  "domain": "powerx.one",
+  "url": "https://powerx.one/en",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "useproto.xyz": {
+  "domain": "useproto.xyz",
+  "url": "https://www.useproto.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "psy.xyz": {
+  "domain": "psy.xyz",
+  "url": "https://psy.xyz/psychonaut",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-08-31 (1544 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rafa.ai": {
+  "domain": "rafa.ai",
+  "url": "https://rafa.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2018-10-18 (2957 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rise.trade": {
+  "domain": "rise.trade",
+  "url": "https://www.rise.trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-09-25 (423 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rwaperp.xyz": {
+  "domain": "rwaperp.xyz",
+  "url": "https://waitlist.rwaperp.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-13 (405 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "raflux.io": {
+  "domain": "raflux.io",
+  "url": "https://raflux.io/quests",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "raflux.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rarelist.io": {
+  "domain": "rarelist.io",
+  "url": "https://rarelist.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "rarelist.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "raycash.xyz": {
+  "domain": "raycash.xyz",
+  "url": "https://www.raycash.xyz/user",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-09-05 (443 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "reflect.money": {
+  "domain": "reflect.money",
+  "url": "https://tranches.reflect.money",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-04-06 (960 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "renaiss.xyz": {
+  "domain": "renaiss.xyz",
+  "url": "https://www.renaiss.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-09-25 (423 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rialo.io": {
+  "domain": "rialo.io",
+  "url": "https://playground.rialo.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "rialo.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ritualfoundation.org": {
+  "domain": "ritualfoundation.org",
+  "url": "https://airdrop.ritualfoundation.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-11-07 (1111 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "romeprotocol.xyz": {
+  "domain": "romeprotocol.xyz",
+  "url": "https://civitas.mainnet.romeprotocol.xyz/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-28 (998 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ryfinite.com": {
+  "domain": "ryfinite.com",
+  "url": "https://ryfinite.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "soei.io": {
+  "domain": "soei.io",
+  "url": "https://proof.soei.io",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "sandwatch.com": {
+  "domain": "sandwatch.com",
+  "url": "https://sandwatch.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-07-05 (7810 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "saturn.credit": {
+  "domain": "saturn.credit",
+  "url": "https://app.saturn.credit",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 259 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "siriusprotocol.xyz": {
+  "domain": "siriusprotocol.xyz",
+  "url": "https://app.siriusprotocol.xyz/invite",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 226 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "smartx.io": {
+  "domain": "smartx.io",
+  "url": "https://smartx.io/waitlist",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "smartx.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "spicenet.io": {
+  "domain": "spicenet.io",
+  "url": "https://portal.spicenet.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "spicenet.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "squeekchain.com": {
+  "domain": "squeekchain.com",
+  "url": "https://squeekchain.com/genesis",
+  "verdict": "DEAD-LINK",
+  "score": 50,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 100 days old"
+   ],
+   [
+    "HIGH",
+    "host does not resolve"
+   ],
+   [
+    "MEDIUM",
+    "TLS: no dns"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "subfrost.io": {
+  "domain": "subfrost.io",
+  "url": "https://app.subfrost.io/rewards",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "subfrost.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "sumex.io": {
+  "domain": "sumex.io",
+  "url": "https://app.sumex.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "sumex.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "asksurf.ai": {
+  "domain": "asksurf.ai",
+  "url": "https://asksurf.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-08-04 (475 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "synthra.org": {
+  "domain": "synthra.org",
+  "url": "https://app.synthra.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-17 (615 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "tbook.com": {
+  "domain": "tbook.com",
+  "url": "https://engage.tbook.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1999-01-14 (10174 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "agent.family": {
+  "domain": "agent.family",
+  "url": "https://www.agent.family/points",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 139 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "thepitapp.xyz": {
+  "domain": "thepitapp.xyz",
+  "url": "https://www.thepitapp.xyz",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 193 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "titanx.cc": {
+  "domain": "titanx.cc",
+  "url": "https://waitlist.titanx.cc",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "txflow.com": {
+  "domain": "txflow.com",
+  "url": "https://app.txflow.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "tydro.com": {
+  "domain": "tydro.com",
+  "url": "https://app.tydro.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "tzer0.fun": {
+  "domain": "tzer0.fun",
+  "url": "https://testnet.tzer0.fun",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 19 days old (registered 2026-11-03)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "up33.xyz": {
+  "domain": "up33.xyz",
+  "url": "https://up33.xyz",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 138 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "voice.cc": {
+  "domain": "voice.cc",
+  "url": "https://voice.cc/socialcamp",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2004-08-01 (8148 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "valdora.finance": {
+  "domain": "valdora.finance",
+  "url": "https://valdora.finance/leaderboard",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-04-15 (586 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "vana.org": {
+  "domain": "vana.org",
+  "url": "https://community.vana.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2004-06-06 (8204 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "vangrid.io": {
+  "domain": "vangrid.io",
+  "url": "https://app.vangrid.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "vangrid.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "variational.io": {
+  "domain": "variational.io",
+  "url": "https://omni.variational.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "variational.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "voltrade.xyz": {
+  "domain": "voltrade.xyz",
+  "url": "https://voltrade.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-11 (621 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "wick.xyz": {
+  "domain": "wick.xyz",
+  "url": "https://www.wick.xyz/waitlist",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2019-09-22 (2618 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "xo.market": {
+  "domain": "xo.market",
+  "url": "https://beta.xo.market",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-11-27 (725 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "xstable.ai": {
+  "domain": "xstable.ai",
+  "url": "https://www.xstable.ai/trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-06-25 (515 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "xyper.market": {
+  "domain": "xyper.market",
+  "url": "https://xyper.market/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "zaps.markets": {
+  "domain": "zaps.markets",
+  "url": "https://app.zaps.markets",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "c8ntinuum.com": {
+  "domain": "c8ntinuum.com",
+  "url": "https://app.c8ntinuum.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fomo.family": {
+  "domain": "fomo.family",
+  "url": "https://fomo.family/r/cryptofree",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-12-13 (709 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "passport.xyz": {
+  "domain": "passport.xyz",
+  "url": "https://app.passport.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-05-20 (4569 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "robinhood.com": {
+  "domain": "robinhood.com",
+  "url": "https://docs.robinhood.com/chain/add-network-to-wallet",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1995-11-30 (11315 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "airdrops.io": {
+  "domain": "airdrops.io",
+  "url": "https://airdrops.io/goto/binance-discount",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "airdrops.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bigcoin.tech": {
+  "domain": "bigcoin.tech",
+  "url": "https://www.bigcoin.tech",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-26 (606 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "caster.trade": {
+  "domain": "caster.trade",
+  "url": "https://caster.trade",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 233 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "doppler.finance": {
+  "domain": "doppler.finance",
+  "url": "https://app.doppler.finance/airdrop",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-01-05 (686 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ethos.network": {
+  "domain": "ethos.network",
+  "url": "https://app.ethos.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-07-27 (1579 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "katana.network": {
+  "domain": "katana.network",
+  "url": "https://app.katana.network/quests",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-11 (925 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "moviton.com": {
+  "domain": "moviton.com",
+  "url": "https://hub.moviton.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2018-11-17 (2927 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "origami.tech": {
+  "domain": "origami.tech",
+  "url": "https://app.origami.tech/register",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-11-04 (748 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rabby.io": {
+  "domain": "rabby.io",
+  "url": "https://rabby.io/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "sosovalue.com": {
+  "domain": "sosovalue.com",
+  "url": "https://ssi.sosovalue.com/reward",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by DigiCert Inc"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "sogni.ai": {
+  "domain": "sogni.ai",
+  "url": "https://www.sogni.ai/leaderboard",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "sphx.io": {
+  "domain": "sphx.io",
+  "url": "https://www.sphx.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "sphx.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "startale.com": {
+  "domain": "startale.com",
+  "url": "https://app.startale.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-05-06 (7870 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "teneo-protocol.ai": {
+  "domain": "teneo-protocol.ai",
+  "url": "https://teneo-protocol.ai/community-node",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-08-11 (468 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "virtuals.io": {
+  "domain": "virtuals.io",
+  "url": "https://app.virtuals.io/dashboard",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "virtuals.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ecash.com": {
+  "domain": "ecash.com",
+  "url": "https://ecash.com/how-to-claim",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1995-07-29 (11439 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "infinifi.xyz": {
+  "domain": "infinifi.xyz",
+  "url": "https://app.infinifi.xyz/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-06 (930 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "github.com": {
+  "domain": "github.com",
+  "url": "https://github.com/flop-labs",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2007-10-09 (6984 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Sectigo Limited"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "0xastra.xyz": {
+  "domain": "0xastra.xyz",
+  "url": "https://0xastra.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-04-17 (949 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "375.ai": {
+  "domain": "375.ai",
+  "url": "https://www.375.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-23 (1003 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "3dos.io": {
+  "domain": "3dos.io",
+  "url": "https://3dos.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "3dos.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "afx.xyz": {
+  "domain": "afx.xyz",
+  "url": "https://afx.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "agdex.io": {
+  "domain": "agdex.io",
+  "url": "https://agdex.io/trading-campaign",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "aitv.gg": {
+  "domain": "aitv.gg",
+  "url": "https://aitv.gg/airdrop",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "aiw3.ai": {
+  "domain": "aiw3.ai",
+  "url": "https://aiw3.ai/airdrop",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-04-01 (600 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by DigiCert Inc"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "alienxchain.io": {
+  "domain": "alienxchain.io",
+  "url": "https://bridge.alienxchain.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "alienxchain.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "arcterminal.ai": {
+  "domain": "arcterminal.ai",
+  "url": "https://www.arcterminal.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-30 (388 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "aro.network": {
+  "domain": "aro.network",
+  "url": "https://aro.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-11 (560 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ackinacki.com": {
+  "domain": "ackinacki.com",
+  "url": "https://ackinacki.com/wallet",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-11-09 (1109 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "actionmodel.com": {
+  "domain": "actionmodel.com",
+  "url": "https://train.actionmodel.com/sign-up",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2006-09-29 (7359 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "affinedefi.com": {
+  "domain": "affinedefi.com",
+  "url": "https://restaking.affinedefi.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-08-30 (1545 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ambios.network": {
+  "domain": "ambios.network",
+  "url": "https://ambigo.ambios.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-04 (628 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "americanfortress.io": {
+  "domain": "americanfortress.io",
+  "url": "https://quests.americanfortress.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "americanfortress.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "anichess.com": {
+  "domain": "anichess.com",
+  "url": "https://anichess.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-07-07 (1599 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ankr.com": {
+  "domain": "ankr.com",
+  "url": "https://www.ankr.com/docs/ankr-forge/overview",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2007-04-23 (7153 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "aof.global": {
+  "domain": "aof.global",
+  "url": "https://aof.global",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "astranova.world": {
+  "domain": "astranova.world",
+  "url": "https://blackpass.astranova.world",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "asymmetry.finance": {
+  "domain": "asymmetry.finance",
+  "url": "https://www.asymmetry.finance/usdaf",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "atoma.fi": {
+  "domain": "atoma.fi",
+  "url": "https://app.atoma.fi",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 305 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "axiom.trade": {
+  "domain": "axiom.trade",
+  "url": "https://axiom.trade/discover",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-12-24 (698 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "aztec.network": {
+  "domain": "aztec.network",
+  "url": "https://docs.aztec.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2018-11-09 (2935 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "base.org": {
+  "domain": "base.org",
+  "url": "https://docs.base.org/get-started/base",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1996-11-11 (10968 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "beldex.io": {
+  "domain": "beldex.io",
+  "url": "https://promotions.beldex.io",
+  "verdict": "DEAD-LINK",
+  "score": 45,
+  "findings": [
+   [
+    "HIGH",
+    "beldex.io is not registered in RDAP"
+   ],
+   [
+    "MEDIUM",
+    "TLS: TimeoutError"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bitrobot.ai": {
+  "domain": "bitrobot.ai",
+  "url": "https://app.bitrobot.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-11-22 (730 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "blackmirrorclub.com": {
+  "domain": "blackmirrorclub.com",
+  "url": "https://www.blackmirrorclub.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-04-09 (592 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bless.network": {
+  "domain": "bless.network",
+  "url": "https://bless.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2017-09-20 (3350 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "blockstreet.money": {
+  "domain": "blockstreet.money",
+  "url": "https://blockstreet.money/dashboard",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-15 (495 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "bombie.xyz": {
+  "domain": "bombie.xyz",
+  "url": "https://bombie.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-07-22 (853 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "boop.fun": {
+  "domain": "boop.fun",
+  "url": "https://docs.boop.fun/temple-of-moon",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-30 (906 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "brevis.network": {
+  "domain": "brevis.network",
+  "url": "https://brevis.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-02-08 (1383 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "brownian.xyz": {
+  "domain": "brownian.xyz",
+  "url": "https://brownian.xyz/trade/PERP_ETH_USDC",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-09 (501 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "browser.cash": {
+  "domain": "browser.cash",
+  "url": "https://browser.cash",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-03-03 (994 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cables.finance": {
+  "domain": "cables.finance",
+  "url": "https://www.cables.finance/sign-up",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-02-24 (2097 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "calamity.online": {
+  "domain": "calamity.online",
+  "url": "https://app.calamity.online",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-10-19 (1130 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cambrian.org": {
+  "domain": "cambrian.org",
+  "url": "https://www.cambrian.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-03-04 (4646 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "campnetwork.xyz": {
+  "domain": "campnetwork.xyz",
+  "url": "https://www.campnetwork.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-06 (1020 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "canborsa.com": {
+  "domain": "canborsa.com",
+  "url": "https://canborsa.com/app",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "canton.network": {
+  "domain": "canton.network",
+  "url": "https://www.canton.network/blog/canton-coin-rewarding-utility",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "tsubasa-rivals.com": {
+  "domain": "tsubasa-rivals.com",
+  "url": "https://ton.tsubasa-rivals.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-10-05 (1509 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "carbon.inc": {
+  "domain": "carbon.inc",
+  "url": "https://app.carbon.inc",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-12-11 (711 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "chainopera.ai": {
+  "domain": "chainopera.ai",
+  "url": "https://chat.chainopera.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-09 (927 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "chaoslabs.xyz": {
+  "domain": "chaoslabs.xyz",
+  "url": "https://chaoslabs.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-07-21 (1950 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "checkpoint.exchange": {
+  "domain": "checkpoint.exchange",
+  "url": "https://checkpoint.exchange",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-26 (484 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "citrea.xyz": {
+  "domain": "citrea.xyz",
+  "url": "https://app.citrea.xyz/bridge",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-03-29 (1334 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "coinquant.io": {
+  "domain": "coinquant.io",
+  "url": "https://cqx.coinquant.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "coinquant.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "concrete.xyz": {
+  "domain": "concrete.xyz",
+  "url": "https://docs.concrete.xyz/Using-Concrete-Vaults/concrete-points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-06-02 (4556 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "confidentiallayer.com": {
+  "domain": "confidentiallayer.com",
+  "url": "https://confidentiallayer.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-12-07 (1446 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "credible.finance": {
+  "domain": "credible.finance",
+  "url": "https://credible.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-11-27 (1091 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "curvance.com": {
+  "domain": "curvance.com",
+  "url": "https://app.curvance.com/bytes",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cyberkongz.com": {
+  "domain": "cyberkongz.com",
+  "url": "https://www.cyberkongz.com/kong",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "cysic.xyz": {
+  "domain": "cysic.xyz",
+  "url": "https://cysic.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "datsproject.io": {
+  "domain": "datsproject.io",
+  "url": "https://datsproject.io/download",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "datsproject.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dgrid.ai": {
+  "domain": "dgrid.ai",
+  "url": "https://blog.dgrid.ai/posts/2026-08-17",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-02 (508 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "din.lol": {
+  "domain": "din.lol",
+  "url": "https://airdrop.din.lol",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-07 (929 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "datahive.ai": {
+  "domain": "datahive.ai",
+  "url": "https://datahive.ai/earn",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2019-05-24 (2739 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "debank.com": {
+  "domain": "debank.com",
+  "url": "https://debank.com/xp",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-02-21 (7944 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "magiceden.io": {
+  "domain": "magiceden.io",
+  "url": "https://magiceden.io/marketplace/decimated",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "magiceden.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "defi.app": {
+  "domain": "defi.app",
+  "url": "https://app.defi.app",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-07-24 (1582 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "delpho.xyz": {
+  "domain": "delpho.xyz",
+  "url": "https://prism.delpho.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-05-26 (545 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dielast.io": {
+  "domain": "dielast.io",
+  "url": "https://dielast.io/token",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "dielast.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "drake.exchange": {
+  "domain": "drake.exchange",
+  "url": "https://drake.exchange/earn",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-22 (914 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dropee.xyz": {
+  "domain": "dropee.xyz",
+  "url": "https://waitlist.dropee.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "dustswap.wtf": {
+  "domain": "dustswap.wtf",
+  "url": "https://app.dustswap.wtf/quests",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "evaa.finance": {
+  "domain": "evaa.finance",
+  "url": "https://app.evaa.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ethermax.tech": {
+  "domain": "ethermax.tech",
+  "url": "https://www.ethermax.tech",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-04-29 (572 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "etherscan.io": {
+  "domain": "etherscan.io",
+  "url": "https://etherscan.io/points",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "etherscan.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fatty.io": {
+  "domain": "fatty.io",
+  "url": "https://fatbot.fatty.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "fatty.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fifa.com": {
+  "domain": "fifa.com",
+  "url": "https://collect.fifa.com/signup",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1995-08-09 (11428 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by DigiCert Inc"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fairshares.io": {
+  "domain": "fairshares.io",
+  "url": "https://app.fairshares.io/dashboard",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "fairshares.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fareup.xyz": {
+  "domain": "fareup.xyz",
+  "url": "https://fareup.xyz/app",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 261 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fastprotocol.io": {
+  "domain": "fastprotocol.io",
+  "url": "https://fastprotocol.io",
+  "verdict": "DEAD-LINK",
+  "score": 70,
+  "findings": [
+   [
+    "HIGH",
+    "fastprotocol.io is not registered in RDAP"
+   ],
+   [
+    "HIGH",
+    "host does not resolve"
+   ],
+   [
+    "MEDIUM",
+    "TLS: no dns"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fight.id": {
+  "domain": "fight.id",
+  "url": "https://app.fight.id",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-12-30 (1058 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "usefirewall.com": {
+  "domain": "usefirewall.com",
+  "url": "https://usefirewall.com/product",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-06-09 (1262 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "flpp.io": {
+  "domain": "flpp.io",
+  "url": "https://app.flpp.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "flpp.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fluence.ai": {
+  "domain": "fluence.ai",
+  "url": "https://flt.fluence.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2017-12-16 (3263 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fractionai.xyz": {
+  "domain": "fractionai.xyz",
+  "url": "https://fractionai.xyz/dapp/index",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-09-27 (1152 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "fungolabs.org": {
+  "domain": "fungolabs.org",
+  "url": "https://fungolabs.org/apply",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 54 days old (registered 2026-09-29)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gaib.ai": {
+  "domain": "gaib.ai",
+  "url": "https://aid.gaib.ai",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "giwa.io": {
+  "domain": "giwa.io",
+  "url": "https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gte.xyz": {
+  "domain": "gte.xyz",
+  "url": "https://waitlist.gte.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gtr.trade": {
+  "domain": "gtr.trade",
+  "url": "https://gtr.trade",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-06-14 (526 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gaianet.ai": {
+  "domain": "gaianet.ai",
+  "url": "https://www.gaianet.ai/reward",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-23 (1003 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gammaswap.com": {
+  "domain": "gammaswap.com",
+  "url": "https://app.gammaswap.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2021-05-02 (2030 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "garthonqubic.com": {
+  "domain": "garthonqubic.com",
+  "url": "https://garthonqubic.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-16 (494 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "glacier.io": {
+  "domain": "glacier.io",
+  "url": "https://www.glacier.io/points",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "glacier.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "golfn.com": {
+  "domain": "golfn.com",
+  "url": "https://www.golfn.com/golf-rewards-program",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2017-10-06 (3334 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gooddollar.org": {
+  "domain": "gooddollar.org",
+  "url": "https://wallet.gooddollar.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2008-03-08 (6833 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gyro.finance": {
+  "domain": "gyro.finance",
+  "url": "https://app.gyro.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2020-12-16 (2167 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "harmonix.fi": {
+  "domain": "harmonix.fi",
+  "url": "https://app.harmonix.fi/points",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-16 (920 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "haust.network": {
+  "domain": "haust.network",
+  "url": "https://haust.network",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-05-24 (1278 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "heatrush.xyz": {
+  "domain": "heatrush.xyz",
+  "url": "https://heatrush.xyz/dashboard",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-15 (617 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "hoppr.studio": {
+  "domain": "hoppr.studio",
+  "url": "https://hoppr.studio/download",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "human.tech": {
+  "domain": "human.tech",
+  "url": "https://quest.human.tech",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "hyperflash.xyz": {
+  "domain": "hyperflash.xyz",
+  "url": "https://app.hyperflash.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "hyperlynx.fi": {
+  "domain": "hyperlynx.fi",
+  "url": "https://www.hyperlynx.fi/hunt",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 172 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "iopn.io": {
+  "domain": "iopn.io",
+  "url": "https://iopn.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "iopn.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "illuvium.io": {
+  "domain": "illuvium.io",
+  "url": "https://illuvium.io/terms-and-conditions",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "illuvium.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "incentiv.io": {
+  "domain": "incentiv.io",
+  "url": "https://portal.incentiv.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "incentiv.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "infinityg.ai": {
+  "domain": "infinityg.ai",
+  "url": "https://www.infinityg.ai/voyage",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-03-29 (968 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "infinitywarlords.com": {
+  "domain": "infinitywarlords.com",
+  "url": "https://infinitywarlords.com/auth",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-12 (620 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by SSL Corporation"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "interlinklabs.ai": {
+  "domain": "interlinklabs.ai",
+  "url": "https://interlinklabs.ai/download",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-10-04 (779 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "interstate.trade": {
+  "domain": "interstate.trade",
+  "url": "https://interstate.trade",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 159 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "ithacaprotocol.io": {
+  "domain": "ithacaprotocol.io",
+  "url": "https://www.ithacaprotocol.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "ithacaprotocol.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "janusdefi.com": {
+  "domain": "janusdefi.com",
+  "url": "https://www.janusdefi.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-11-07 (1476 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "joule.finance": {
+  "domain": "joule.finance",
+  "url": "https://app.joule.finance/rewards",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "juice.finance": {
+  "domain": "juice.finance",
+  "url": "https://app.juice.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "jumper.xyz": {
+  "domain": "jumper.xyz",
+  "url": "https://jumper.xyz/campaign/infinifi-chapter",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "askjune.ai": {
+  "domain": "askjune.ai",
+  "url": "https://askjune.ai/app/chat",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-06-10 (530 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "korprotocol.foundation": {
+  "domain": "korprotocol.foundation",
+  "url": "https://airdrop.korprotocol.foundation",
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 47 days old (registered 2026-10-06)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "krain.ai": {
+  "domain": "krain.ai",
+  "url": "https://app.krain.ai/airdrop",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-12-01 (721 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kaisar.io": {
+  "domain": "kaisar.io",
+  "url": "https://kaisar.io",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "kaisar.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "karrier.one": {
+  "domain": "karrier.one",
+  "url": "https://www.karrier.one/mobile",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-08-15 (1560 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kiedex.app": {
+  "domain": "kiedex.app",
+  "url": "https://www.kiedex.app/signup",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 308 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kinetic.xyz": {
+  "domain": "kinetic.xyz",
+  "url": "https://kinetic.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2016-12-02 (3642 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "kinza.finance": {
+  "domain": "kinza.finance",
+  "url": "https://app.kinza.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-03-17 (1346 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "knidos.xyz": {
+  "domain": "knidos.xyz",
+  "url": "https://testnet.knidos.xyz/invite",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-04 (1022 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "konnex.world": {
+  "domain": "konnex.world",
+  "url": "https://hub.konnex.world",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-06-11 (529 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "gitbook.io": {
+  "domain": "gitbook.io",
+  "url": "https://lazyotter.gitbook.io/lazyotter",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "gitbook.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "leap.xyz": {
+  "domain": "leap.xyz",
+  "url": "https://www.leap.xyz",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "linera.io": {
+  "domain": "linera.io",
+  "url": "https://linera.io",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "liquidium.fi": {
+  "domain": "liquidium.fi",
+  "url": "https://app.liquidium.fi",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "liquity.org": {
+  "domain": "liquity.org",
+  "url": "https://www.liquity.org/forks",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2020-01-29 (2489 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "litvmswap.com": {
+  "domain": "litvmswap.com",
+  "url": "https://www.litvmswap.com/mint",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 217 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "lithos.to": {
+  "domain": "lithos.to",
+  "url": "https://lithos.to/genesis",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-08-08 (471 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "loopingcollective.org": {
+  "domain": "loopingcollective.org",
+  "url": "https://app.loopingcollective.org",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-24 (608 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "loopscale.com": {
+  "domain": "loopscale.com",
+  "url": "https://app.loopscale.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2007-08-23 (7031 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "lora.finance": {
+  "domain": "lora.finance",
+  "url": "https://lora.finance",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-10-29 (389 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "rtrigger.com": {
+  "domain": "rtrigger.com",
+  "url": "https://www.rtrigger.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-09-18 (4448 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "luxxcoin.io": {
+  "domain": "luxxcoin.io",
+  "url": "https://www.luxxcoin.io/reward-terms",
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "luxxcoin.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "magmastaking.xyz": {
+  "domain": "magmastaking.xyz",
+  "url": "https://blog.magmastaking.xyz/p/magma-points-program-is-live",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-07-24 (851 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "marginly.com": {
+  "domain": "marginly.com",
+  "url": "https://app.marginly.com/mainnet/earn",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2015-03-18 (4267 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "marsrallychampionship.com": {
+  "domain": "marsrallychampionship.com",
+  "url": "https://marsrallychampionship.com",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2022-10-07 (1507 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "megaeth.com": {
+  "domain": "megaeth.com",
+  "url": "https://www.megaeth.com/token",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2019-03-24 (2800 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "memebook.app": {
+  "domain": "memebook.app",
+  "url": "https://memebook.app",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by GoDaddy.com"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "metis.io": {
+  "domain": "metis.io",
+  "url": "https://www.metis.io",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "mezo.org": {
+  "domain": "mezo.org",
+  "url": "https://mezo.org/rewards",
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ },
+ "midasmarkets.xyz": {
+  "domain": "midasmarkets.xyz",
+  "url": "https://app.midasmarkets.xyz",
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 204 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "checked_on": "2026-11-23"
+ }
+}

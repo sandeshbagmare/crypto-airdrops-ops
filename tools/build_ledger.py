@@ -14,9 +14,9 @@ DATA = ROOT / "data" / "airdrops.json"
 VERIFIED = ROOT / "data" / "verified.json"
 DOCS = ROOT / "docs"
 
-HEADERS = ["Project", "Confidence", "Status", "Official site", "What it needs",
-           "Steps", "Key date", "Days left", "Pool (source-stated)", "What it is",
-           "Apply status", "Source", "Verified"]
+HEADERS = ["Project", "Confidence", "Status", "Official site", "Site forensics",
+           "What it needs", "Steps", "Key date", "Days left", "Pool (source-stated)",
+           "What it is", "Apply status", "Source", "Verified"]
 
 MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7,
           "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
@@ -61,6 +61,22 @@ def key(name):
     return re.sub(r"[^a-z0-9]", "", (name or "").lower())
 
 
+def domain_of(url):
+    host = (url or "").split("//")[-1].split("/")[0].split(":")[0].lower()
+    parts = host.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
+def age_from(f):
+    """Domain age in days, taken from the triage findings text."""
+    for _, msg in f.get("findings", []):
+        if "domain" in msg:
+            m = re.search(r"(\d+) days", msg)
+            if m:
+                return int(m.group(1))
+    return None
+
+
 def load():
     records = json.loads(DATA.read_text(encoding="utf-8"))
     verified = {}
@@ -68,10 +84,14 @@ def load():
         raw = json.loads(VERIFIED.read_text(encoding="utf-8"))
         for v in raw.values():
             verified[key(v.get("name", ""))] = v
-    return records, verified
+    fx = {}
+    fx_path = ROOT / "data" / "forensics.json"
+    if fx_path.exists():
+        fx = json.loads(fx_path.read_text(encoding="utf-8"))
+    return records, verified, fx
 
 
-def build(records, verified):
+def build(records, verified, fx):
     rows, site = [], []
     for r in records:
         v = verified.get(key(r["name"]), {})
@@ -83,19 +103,25 @@ def build(records, verified):
         steps = v.get("steps") or []
         what = (v.get("what_it_is") or r.get("notes") or r.get("description") or "")[:300]
         conf = v.get("confidence", "")
+        official = v.get("official_url", "")
+        f = fx.get(domain_of(official), {}) if official else {}
+        fx_label = (f"{f.get('verdict')}" + (f" ({f['score']})" if f.get("score") is not None else "")
+                    if f.get("verdict") else "")
         row = [r["name"], conf, r.get("status", "") or v.get("page_title", "")[:40],
-               v.get("official_url", ""), needs[:120], len(steps) or "",
+               official, fx_label, needs[:120], len(steps) or "",
                end, dl, r.get("prize", ""), what, "identified",
                (r.get("source") or "").split("+")[0], v.get("checked", "")]
         rows.append(row)
         site.append({
             "name": r["name"], "confidence": conf, "status": r.get("status", ""),
-            "official": v.get("official_url", ""), "needs": needs,
+            "official": official, "needs": needs,
             "steps": steps, "end": end, "days": dl, "pool": r.get("prize", ""),
             "what": what, "behind": v.get("who_is_behind", ""),
             "costs": v.get("costs", ""), "risks": v.get("risks", ""),
             "evidence": v.get("evidence", []), "source": r.get("source", ""),
             "source_url": r.get("source_url", ""), "checked": v.get("checked", ""),
+            "forensics": {"verdict": f.get("verdict"), "score": f.get("score")} if f else None,
+            "domain_age_days": age_from(f),
         })
     rows.sort(key=lambda x: (-(x[1] if isinstance(x[1], int) else -1), x[0]))
     site.sort(key=lambda x: (-(x["confidence"] if isinstance(x["confidence"], int) else -1), x["name"]))
@@ -103,8 +129,8 @@ def build(records, verified):
 
 
 def md(all_rows, site):
-    dated = [r for r in all_rows if isinstance(r[7], int)]
-    soon = [r for r in dated if 0 <= r[7] <= 30]
+    dated = [r for r in all_rows if isinstance(r[8], int)]
+    soon = [r for r in dated if 0 <= r[8] <= 30]
     confed = [r for r in all_rows if isinstance(r[1], int)]
     lines = [
         "# Active airdrops",
@@ -114,7 +140,10 @@ def md(all_rows, site):
         "",
         f"- {len(dated)} carry a dated deadline or snapshot, **{len(soon)} within 30 days**",
         f"- {sum(1 for r in all_rows if r[3])} have an official site extracted from the guide",
-        f"- {sum(1 for r in all_rows if isinstance(r[5], int) and r[5])} have concrete steps listed",
+        f"- {sum(1 for r in all_rows if isinstance(r[6], int) and r[6])} have concrete steps listed",
+        f"- {sum(1 for r in all_rows if 'DEAD-LINK' in (r[4] or ''))} official domains are dead "
+        f"links (see [watchlist](notes/watchlist.md)); "
+        f"{sum(1 for r in all_rows if 'SUSPICIOUS' in (r[4] or ''))} look suspicious",
         "",
         "**Confidence** is built only from evidence found in the guide: steps (25), official site (20),",
         "deadline (15), named operator (15), disclosed costs (10), second source (10), risks (5),",
@@ -126,7 +155,7 @@ def md(all_rows, site):
         "|---|---|---|---|---|",
     ]
     for r in soon:
-        lines.append(f"| {r[0]} | {r[6]} | {r[7]} | {r[1]} | {(r[4] or '-')[:60]} |")
+        lines.append(f"| {r[0]} | {r[7]} | {r[8]} | {r[1]} | {(r[5] or '-')[:60]} |")
     lines += ["", "## Highest confidence", "",
               "| Project | Confidence | What it is | Official |",
               "|---|---|---|---|"]
@@ -138,9 +167,8 @@ def md(all_rows, site):
     for r in all_rows:
         cells = [str(c) if c != "" else "" for c in r]
         cells[3] = f"[site]({r[3]})" if r[3] else ""
-        cells[11] = r[11]
-        cells[9] = cells[9].replace("|", "/")[:160]
-        cells[4] = cells[4].replace("|", "/")
+        cells[10] = cells[10].replace("|", "/")[:160]
+        cells[5] = cells[5].replace("|", "/")
         lines.append("| " + " | ".join(cells) + " |")
     lines += ["", "Full per-project detail: the [site](https://sandeshbagmare.github.io/crypto-airdrops-ops/) "
               "or `docs/data.json`.", ""]
@@ -158,28 +186,30 @@ def xlsx(all_rows):
         c.alignment = Alignment(vertical="center", wrap_text=True)
     for r in all_rows:
         ws.append(r)
-    widths = [20, 10, 18, 34, 34, 8, 14, 9, 15, 60, 13, 16, 12]
+    widths = [20, 10, 18, 34, 20, 34, 8, 14, 9, 15, 60, 13, 16, 12]
     for i, w in enumerate(widths, start=1):
         ws.column_dimensions[ws.cell(row=1, column=i).column_letter].width = w
     ws.freeze_panes = "A2"
-    ws.auto_filter.ref = f"A1:M{ws.max_row}"
+    ws.auto_filter.ref = f"A1:N{ws.max_row}"
     dv = DataValidation(type="list",
                         formula1='"identified,vetted,in-progress,submitted,paid,dropped"',
                         allow_blank=True)
     ws.add_data_validation(dv)
-    dv.add(f"K2:K{ws.max_row}")
+    dv.add(f"L2:L{ws.max_row}")
     s = wb.create_sheet("summary")
     s.append(["Metric", "Value"])
     for c in s[1]:
         c.font = Font(bold=True)
-    dated = [r for r in all_rows if isinstance(r[7], int)]
+    dated = [r for r in all_rows if isinstance(r[8], int)]
     for k, v in (
         ("Tracked projects", len(all_rows)),
         ("Deep-verified", sum(1 for r in all_rows if isinstance(r[1], int))),
-        ("With steps", sum(1 for r in all_rows if isinstance(r[5], int) and r[5])),
+        ("With steps", sum(1 for r in all_rows if isinstance(r[6], int) and r[6])),
         ("With official site", sum(1 for r in all_rows if r[3])),
         ("Dated deadline", len(dated)),
-        ("Closing within 30 days", sum(1 for r in dated if 0 <= r[7] <= 30)),
+        ("Closing within 30 days", sum(1 for r in dated if 0 <= r[8] <= 30)),
+        ("Dead official links", sum(1 for r in all_rows if "DEAD-LINK" in (r[4] or ""))),
+        ("Suspicious domains", sum(1 for r in all_rows if "SUSPICIOUS" in (r[4] or ""))),
         ("Avg confidence", round(sum(r[1] for r in all_rows if isinstance(r[1], int)) /
                                  max(1, sum(1 for r in all_rows if isinstance(r[1], int))))),
         ("Operator target", 100),
@@ -192,8 +222,8 @@ def xlsx(all_rows):
 
 
 def main():
-    records, verified = load()
-    rows, site = build(records, verified)
+    records, verified, fx = load()
+    rows, site = build(records, verified, fx)
     md(rows, site)
     xlsx(rows)
     DOCS.mkdir(exist_ok=True)

@@ -8,6 +8,7 @@ import re
 import socket
 import ssl
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,20 +27,31 @@ def norm(target):
 
 
 def rdap(domain):
-    try:
-        req = urllib.request.Request(
-            f"https://rdap.org/domain/{domain}",
-            headers={"Accept": "application/rdap+json", "User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            d = json.loads(r.read().decode())
-        ev = {e.get("eventAction"): (e.get("eventDate") or "")[:10]
-              for e in d.get("events", [])}
-        return {"registered": ev.get("registration"), "expires": ev.get("expiration"),
-                "nameservers": len(d.get("nameservers", [])), "exists": True}
-    except urllib.error.HTTPError as e:
-        return {"exists": False, "error": f"HTTP {e.code}"}
-    except Exception as e:
-        return {"exists": None, "error": type(e).__name__}
+    """Registration data. Distinguishes 'not registered' (404) from 'could not ask' (429/5xx)."""
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                f"https://rdap.org/domain/{domain}",
+                headers={"Accept": "application/rdap+json", "User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                d = json.loads(r.read().decode())
+            ev = {e.get("eventAction"): (e.get("eventDate") or "")[:10]
+                  for e in d.get("events", [])}
+            return {"registered": ev.get("registration"), "expires": ev.get("expiration"),
+                    "nameservers": len(d.get("nameservers", [])), "exists": True}
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return {"exists": False, "error": "HTTP 404 (not registered)"}
+            if e.code in (429, 500, 502, 503, 504) and attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            return {"exists": None, "error": f"HTTP {e.code} (unknown)"}
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(1.0)
+                continue
+            return {"exists": None, "error": type(e).__name__}
+    return {"exists": None, "error": "gave up"}
 
 
 def dns(host):
@@ -92,6 +104,26 @@ def age_days(iso):
         return None
 
 
+def classify(rep):
+    """Refine the raw verdict. A dead link is not a scam, and saying so matters.
+
+    - DEAD-LINK: domain is unregistered or does not resolve. The tracker has a stale row.
+    - SCAM-LIKELY: homoglyph, punycode, http-only, recent registration *and* a live host.
+    """
+    rdap_info = rep.get("rdap") or {}
+    dns_info = rep.get("dns") or {}
+    if rdap_info.get("exists") is False or dns_info.get("resolves") is False:
+        return "DEAD-LINK"
+    if rdap_info.get("exists") is None and not dns_info.get("resolves"):
+        return "UNCHECKED"
+    score = rep.get("score") or 0
+    if score >= 60:
+        return "SCAM-LIKELY"
+    if score >= 25:
+        return "SUSPICIOUS"
+    return "no red flags found"
+
+
 def triage(target):
     u = norm(target)
     host = (u.hostname or "").lower()
@@ -138,6 +170,7 @@ def triage(target):
     report = {"target": target, "host": host, "score": score, "verdict": verdict,
               "findings": findings, "rdap": d, "dns": n, "cert": c,
               "checked": datetime.now().isoformat(timespec="seconds")}
+    report["verdict"] = classify(report)
     return report
 
 

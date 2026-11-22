@@ -55,7 +55,9 @@
     Updated 2026-11-23. Confidence reflects how well documented a drop is, not how likely it is to pay.</div>
   <div class="warn"><b>Not financial advice.</b> Every entry is aggregated from public trackers and
     project guides, with its source linked. A listing is not an endorsement. Always confirm the
-    official domain before connecting a wallet, and never share a seed phrase.</div>
+    official domain before connecting a wallet, and never share a seed phrase.
+    Domains are checked with RDAP, DNS and TLS; flagged ones are listed in
+    <a href="https://github.com/sandeshbagmare/crypto-airdrops-ops/blob/main/notes/watchlist.md">the watchlist</a>.</div>
 </div></header>
 <div class="bar"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;width:100%">
   <input id="q" placeholder="Search project, chain, what it needs...">
@@ -94,6 +96,8 @@ function card(d){
       ${typeof d.days==='number'?`<span>${d.days} days left</span>`:''}
       ${d.pool?`<span>pool: ${esc(d.pool)}</span>`:''}
       ${steps?`<span>${steps} steps</span>`:''}
+      ${d.forensics&&d.forensics.verdict&&d.forensics.verdict!=='no red flags found'?`<span class="badge ${d.forensics.verdict==='DEAD-LINK'?'c0':'c20'}" title="checked by tools/triage.py">${esc(d.forensics.verdict.toLowerCase())}</span>`:''}
+      ${d.domain_age_days?`<span>domain ${d.domain_age_days}d old</span>`:''}
     </div>
     ${d.needs?`<div class="kv"><b>Needs:</b> ${esc(d.needs)}</div>`:''}
     ${steps?`<details><summary>How to do it</summary><ol>${d.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></details>`:''}

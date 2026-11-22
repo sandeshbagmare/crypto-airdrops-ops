@@ -1,0 +1,60 @@
+{
+ "name": "Memebook (ORVI)",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://orvi.fun/claim",
+ "needs": "",
+ "steps": [
+  "Install a Solana wallet such as Phantom or Solflare on your Android phone.",
+  "Download the ORVI app from Google Play. Warning The \"Mint Your NFT\" link on the old memebook.app site leads to an address that no longer exists. Don't mint from lookalike sites that claim to replace it.",
+  "Sign in with your wallet. This is a message signature that costs no gas, and ORVI's terms say: \"We never ask for, receive or store your private key or seed phrase.\"",
+  "Finish the short entry quest to get the free tier.",
+  "Post, comment and check in daily to build XP and a streak.",
+  "Open the claim page on orvi.fun with the same wallet to see whether an early user reward is recorded for you."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Memebook is now ORVI. Its old promise that XP converts into $MBK has not happened, and the new terms say XP has no cash value. Steps and risks.",
+ "behind": "No person is named anywhere. The old site credits \"Memebook Labs\" without a country or registration, and the ORVI legal pages name no company. We found no confirmed funding: a $1 million seed round appears only in a fundraising database, not in the project's own channels or in news coverage. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Tel",
+ "costs": "Joining is free. ORVI's FAQ says: \"Reading, posting and commenting cost nothing\". A tip sends 95% to the creator and 5% to the platform, and tips and mints cost a Solana network fee. Tier passes are optional, and their price isn't published. The app shows ads.",
+ "risks": "Two brands run side by side. The memebook.app site and its X account still talk about $MBK, while the ORVI site and account never mention it. The MEXC \"Airdrop+\" promotion for $MBK is an exchange trading campaign that needs a deposit and trades. It isn't a reward for app users. You must be 18 or older. There is no identity check and no list of excluded countries. The terms say only that you \"have ",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/memebook/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "quests",
+  "nft"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 52 days old (registered 2026-10-01)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 52,
+  "checked": "2026-11-23T02:08:35"
+ },
+ "domain_age_days": 52,
+ "slug": "memebook-orvi",
+ "dossier": "drops/memebook-orvi.md",
+ "published": "2026-11-23"
+}

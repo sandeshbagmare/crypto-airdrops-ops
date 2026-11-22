@@ -1,47 +1,66 @@
-# Airdrop ledger
+# Active airdrops
 
-Last updated **2026-11-22**. Sources are listed per row. Nothing here is a promise of a reward.
+**32 projects** scraped from public trackers on 2026-11-23. Sources are per row; nothing here is invented.
 
-**Status meanings**
+- 13 have a published end date, **2 close within 30 days**
+- 16 carry a risk rating from the tracker
+- 16 list KYC as a requirement
 
-| Status | Meaning |
-|---|---|
-| identified | Found on a public tracker; not independently verified |
-| vetted | Official domain confirmed on the project's own docs |
-| in-progress | Tasks started on a burner wallet |
-| submitted | All tasks done, confirmation captured in `airships/` |
-| paid | Tokens received in the burner wallet |
-| dropped | Scam, expired, paid-only, or otherwise disqualified |
+Read the source link before acting. A tracker listing is not verification: confirm the
+official domain, then run `python tools/triage.py <url>`.
 
-**Candidate count: 17. Completed: 0. Verified official: 0.**
+## Closing within 30 days
 
-| Project | Category | Chain | Cost | Ends | Risk | Source | Status | Notes | Wallet used | Completed on | Proof path | Verified |
+| Project | Ends | Days left | Risk | Requirements |
+|---|---|---|---|---|
+| Remix | 1 Dec 2026 | 8 | - | - |
+| Mantle | 8 Dec 2026 | 15 | - | - |
+
+## All tracked projects
+
+| Project | Source | Status | KYC / requirements | Cost | Time to start | Risk | Ends | Days left | Pool (source-stated) | Apply status | Link | Fetched |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Remix | campaign | multi | free entry | 2026-12-01 | medium | [src](https://www.airdropvillage.io/airdrops) | identified | Prize pool ~$169,500; medium difficulty |  |  |  | 2026-11-22 |
-| Mantle | campaign | Mantle | free entry | 2026-12-08 | low | [src](https://www.airdropvillage.io/airdrops) | identified | ~$4,000 pool, rated 4.50 |  |  |  | 2026-11-22 |
-| Tribe | points | unknown | free entry | 2026-12-31 | low | [src](https://www.airdropvillage.io/airdrops) | identified | Easy difficulty, rated 3.65 |  |  |  | 2026-11-22 |
-| HANDLE | points | unknown | free entry | 2026-12-31 | unknown | [src](https://www.airdropvillage.io/airdrops) | identified | Ends 31 Dec 2026 |  |  |  | 2026-11-22 |
-| ZXOXO | points | unknown | free entry | 2026-12-31 | unknown | [src](https://www.airdropvillage.io/airdrops) | identified | Ends 31 Dec 2026 |  |  |  | 2026-11-22 |
-| Octos | points | unknown | free entry | 2026-12-31 | unknown | [src](https://www.airdropvillage.io/airdrops) | identified | Ends 31 Dec 2026 |  |  |  | 2026-11-22 |
-| Clocked | competition | unknown | free entry | no fixed deadline | unknown | [src](https://www.airdropvillage.io/airdrops) | identified | ~$200,000, tagged NEW |  |  |  | 2026-11-22 |
-| Formation | points | unknown | free entry | not published | low | [src](https://www.airdropvillage.io/airdrops) | identified | Easy, rated 4.00 |  |  |  | 2026-11-22 |
-| GenLayer | testnet | GenLayer | no deposit, $0 fees | open | medium | [src](https://airdroplet.com/testnet-airdrops) | identified | Bradbury testnet + points; KYC required; 15 min start |  |  |  | 2026-11-22 |
-| DOHM Finance | testnet | unknown | no deposit, $0 fees | open | high | [src](https://airdroplet.com/testnet-airdrops) | identified | Incentivized testnet; high risk flag |  |  |  | 2026-11-22 |
-| Gyndore | testnet | unknown | no deposit, $0 fees | open | medium | [src](https://airdroplet.com/testnet-airdrops) | identified | DropWave Season 1 + public testnet |  |  |  | 2026-11-22 |
-| Push Chain | points | Push Chain | no deposit, $0 fees | open | medium | [src](https://airdroplet.com/testnet-airdrops) | identified | Season 3; reward route unconfirmed |  |  |  | 2026-11-22 |
-| Hotstuff | testnet | unknown | no deposit, $0 fees | open | high | [src](https://airdroplet.com/testnet-airdrops) | identified | Public testnet + Expeditions; high risk |  |  |  | 2026-11-22 |
-| Namada | staking | Namada | no deposit | open | high | [src](https://airdroplet.com/testnet-airdrops) | identified | NAM shielded set rewards; high risk |  |  |  | 2026-11-22 |
-| Canopy Network | testnet | Canopy | no deposit, $0 fees | open | medium | [src](https://airdroplet.com/testnet-airdrops) | identified | Public testnet rewards |  |  |  | 2026-11-22 |
-| Polaris | testnet | unknown | no deposit, $0 fees | open | medium | [src](https://airdroplet.com/testnet-airdrops) | identified | Testnet V2; reward route unconfirmed |  |  |  | 2026-11-22 |
-| XyloNet | points | XyloNet | free | open | unknown | [src](https://airdroplet.com/testnet-airdrops) | identified | Testnet points; transactions required |  |  |  | 2026-11-22 |
+| AV 50$ Giveaway | airdropvillage |  |  |  |  |  | 22 Nov 2026 | -1 | 50 | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Remix | airdropvillage |  |  |  |  |  | 1 Dec 2026 | 8 | 169,500 | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Mantle | airdropvillage |  |  |  |  |  | 8 Dec 2026 | 15 | 4,000 | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Arch Prime | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| FOOME | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Feather Games | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Grokie Fun | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| HANDLE | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Lia Labs | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Octos | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Trader Chamber | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 | 40,000 | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Tribe | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| ZXOXO | airdropvillage |  |  |  |  |  | 31 Dec 2026 | 38 |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| 0xMiden | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 20 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/0xmiden) | 2026-11-23 |
+| Asentum | airdropvillage |  |  |  |  |  |  |  |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| Canopy Network | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/canopy-network) | 2026-11-23 |
+| Clocked | airdropvillage | No fixed deadline | see source |  |  |  |  |  | 200,000 | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| DOHM Finance | airdroplet | Wait | high risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 3 min to start | high risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/dohm-finance) | 2026-11-23 |
+| Formation | airdropvillage | No fixed deadline | see source |  |  |  |  |  |  | identified | [source](https://www.airdropvillage.io/airdrops) | 2026-11-23 |
+| GenLayer | airdroplet | Wait | medium risk · KYC required; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 15 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/genlayer) | 2026-11-23 |
+| Gyndore | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/gyndore) | 2026-11-23 |
+| Hotstuff | airdroplet | Wait | high risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | high risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/hotstuff) | 2026-11-23 |
+| Namada | airdroplet | Wait | high risk · KYC not confirmed; Cost unknown; Fees: Not estimated · Capital: Not stated | Cost unknown | Wallet setup and shielding time vary; no fixed duration verified. | high risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/namada) | 2026-11-23 |
+| Orbinum Network | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 15 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/orbinum-network) | 2026-11-23 |
+| Polaris | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/polaris) | 2026-11-23 |
+| Push Chain | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 15 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/push-chain) | 2026-11-23 |
+| SEKAI | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 20 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/sekai) | 2026-11-23 |
+| Shelby | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/shelby) | 2026-11-23 |
+| Swapfone | airdroplet | Wait | high risk · KYC not confirmed; Transaction required; Fees: $0 stated · Capital: $0 stated | Transaction required | 2 min to start | high risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/swapfone) | 2026-11-23 |
+| UnitFlow Finance | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/unitflow-finance) | 2026-11-23 |
+| Wager Predict | airdroplet | Wait | medium risk · KYC not confirmed; No deposit; Fees: $0 stated · Capital: $0 stated | No deposit | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/wager-predict) | 2026-11-23 |
+| XyloNet | airdroplet | Wait | medium risk · KYC not confirmed; Transaction required; Fees: $0 stated · Capital: $0 stated | Transaction required | 10 min to start | medium risk |  |  |  | identified | [source](https://airdroplet.com/airdrop/xylonet) | 2026-11-23 |
 
-## What is missing from this table
+## Apply status values
 
-Every row still needs an official-domain check before any wallet connects. A tracker listing is
-not verification: tracker entries have been used to funnel users to phishing clones.
+`identified` -> `vetted` -> `in-progress` -> `submitted` -> `paid`, or `dropped`.
+Only move a row forward with evidence in `airships/`.
 
-## Why it is not full of completed drops
+## Regenerate
 
-Completing a drop needs decisions and credentials that belong to the operator: which burner
-wallet to use, whether KYC is acceptable, and the actual clicks on each site. A list of
-candidates is what can be produced without those.
+```bash
+python tools/scrape_trackers.py   # refresh data/airdrops.json
+python tools/build_ledger.py      # rebuild ledger.md + ledger.xlsx
+```

@@ -1,131 +1,170 @@
-"""Build ledger.md and ledger.xlsx from the researched candidate list."""
-import datetime as dt
+"""Build ledger.md and ledger.xlsx from data/airdrops.json.
+
+Every row keeps its source URL. Nothing is invented: empty fields stay empty.
+"""
+import json
+import sys
+from datetime import date, datetime
 from pathlib import Path
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.worksheet.datavalidation import DataValidation
 
-ROOT = Path(__file__).resolve().parent.parent  # repo root, not tools/
-TODAY = "2026-11-22"
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data" / "airdrops.json"
 
-# Source: airdropvillage.io/airdrops (updated daily, Nov 2026 list)
-# and airdroplet.com/testnet-airdrops (16 dossiers, checked Aug-Nov 2026)
-AV = "https://www.airdropvillage.io/airdrops"
-AD = "https://airdroplet.com/testnet-airdrops"
-N99 = "https://99airdrops.com/airdrops/november-2026/"
+HEADERS = ["Project", "Source", "Status", "KYC / requirements", "Cost", "Time to start",
+           "Risk", "Ends", "Days left", "Pool (source-stated)", "Apply status", "Link", "Fetched"]
 
-ROWS = [
-    # name, category, chain, cost, ends, risk, source, status, notes
-    ("Remix", "campaign", "multi", "free entry", "2026-12-01", "medium", AV, "identified", "Prize pool ~$169,500; medium difficulty"),
-    ("Mantle", "campaign", "Mantle", "free entry", "2026-12-08", "low", AV, "identified", "~$4,000 pool, rated 4.50"),
-    ("Tribe", "points", "unknown", "free entry", "2026-12-31", "low", AV, "identified", "Easy difficulty, rated 3.65"),
-    ("HANDLE", "points", "unknown", "free entry", "2026-12-31", "unknown", AV, "identified", "Ends 31 Dec 2026"),
-    ("ZXOXO", "points", "unknown", "free entry", "2026-12-31", "unknown", AV, "identified", "Ends 31 Dec 2026"),
-    ("Octos", "points", "unknown", "free entry", "2026-12-31", "unknown", AV, "identified", "Ends 31 Dec 2026"),
-    ("Clocked", "competition", "unknown", "free entry", "no fixed deadline", "unknown", AV, "identified", "~$200,000, tagged NEW"),
-    ("Formation", "points", "unknown", "free entry", "not published", "low", AV, "identified", "Easy, rated 4.00"),
-    ("GenLayer", "testnet", "GenLayer", "no deposit, $0 fees", "open", "medium", AD, "identified", "Bradbury testnet + points; KYC required; 15 min start"),
-    ("DOHM Finance", "testnet", "unknown", "no deposit, $0 fees", "open", "high", AD, "identified", "Incentivized testnet; high risk flag"),
-    ("Gyndore", "testnet", "unknown", "no deposit, $0 fees", "open", "medium", AD, "identified", "DropWave Season 1 + public testnet"),
-    ("Push Chain", "points", "Push Chain", "no deposit, $0 fees", "open", "medium", AD, "identified", "Season 3; reward route unconfirmed"),
-    ("Hotstuff", "testnet", "unknown", "no deposit, $0 fees", "open", "high", AD, "identified", "Public testnet + Expeditions; high risk"),
-    ("Namada", "staking", "Namada", "no deposit", "open", "high", AD, "identified", "NAM shielded set rewards; high risk"),
-    ("Canopy Network", "testnet", "Canopy", "no deposit, $0 fees", "open", "medium", AD, "identified", "Public testnet rewards"),
-    ("Polaris", "testnet", "unknown", "no deposit, $0 fees", "open", "medium", AD, "identified", "Testnet V2; reward route unconfirmed"),
-    ("XyloNet", "points", "XyloNet", "free", "open", "unknown", AD, "identified", "Testnet points; transactions required"),
-]
 
-HEADERS = ["Project", "Category", "Chain", "Cost", "Ends", "Risk", "Source", "Status",
-           "Notes", "Wallet used", "Completed on", "Proof path", "Verified"]
+def days_left(end_raw):
+    if not end_raw:
+        return ""
+    for fmt in ("%d %b %Y", "%Y-%m-%d", "%d %B %Y"):
+        try:
+            d = datetime.strptime(end_raw.strip(), fmt).date()
+            return (d - date.today()).days
+        except ValueError:
+            continue
+    return ""
 
-def md_row(r):
-    return "| " + " | ".join([
-        r[0], r[1], r[2], r[3], r[4], r[5],
-        f"[src]({r[6]})", r[7], r[8], "", "", "", TODAY,
-    ]) + " |"
 
-def build_md():
+def requirement(r):
+    bits = []
+    if r.get("kyc"):
+        bits.append(r["kyc"])
+    if r.get("cost"):
+        bits.append(r["cost"])
+    if r.get("fees"):
+        bits.append(r["fees"])
+    if not bits and r.get("status") == "No fixed deadline":
+        bits.append("see source")
+    return "; ".join(bits)
+
+
+def rows():
+    data = json.loads(DATA.read_text(encoding="utf-8"))
+    out = []
+    for r in data:
+        dl = days_left(r.get("end_date", ""))
+        out.append([
+            r.get("name", ""), r.get("source", ""), r.get("status", "") or r.get("next_move", ""),
+            requirement(r), r.get("cost", ""), r.get("time_to_start", ""), r.get("risk", ""),
+            r.get("end_date", ""), dl, r.get("prize", ""), "identified",
+            r.get("source_url", ""), r.get("fetched", ""),
+        ])
+    out.sort(key=lambda x: (x[8] == "", x[8] if isinstance(x[8], int) else 9999, x[0]))
+    return out
+
+
+def build_md(all_rows):
+    dated = [r for r in all_rows if isinstance(r[8], int)]
+    soon = [r for r in dated if 0 <= r[8] <= 30]
     lines = [
-        "# Airdrop ledger",
+        "# Active airdrops",
         "",
-        f"Last updated **{TODAY}**. Sources are listed per row. Nothing here is a promise of a reward.",
+        f"**{len(all_rows)} projects** scraped from public trackers on "
+        f"{date.today().isoformat()}. Sources are per row; nothing here is invented.",
         "",
-        "**Status meanings**",
+        f"- {len(dated)} have a published end date, **{len(soon)} close within 30 days**",
+        f"- {sum(1 for r in all_rows if r[6])} carry a risk rating from the tracker",
+        f"- {sum(1 for r in all_rows if 'KYC' in (r[3] or ''))} list KYC as a requirement",
         "",
-        "| Status | Meaning |",
-        "|---|---|",
-        "| identified | Found on a public tracker; not independently verified |",
-        "| vetted | Official domain confirmed on the project's own docs |",
-        "| in-progress | Tasks started on a burner wallet |",
-        "| submitted | All tasks done, confirmation captured in `airships/` |",
-        "| paid | Tokens received in the burner wallet |",
-        "| dropped | Scam, expired, paid-only, or otherwise disqualified |",
+        "Read the source link before acting. A tracker listing is not verification: confirm the",
+        "official domain, then run `python tools/triage.py <url>`.",
         "",
-        f"**Candidate count: {len(ROWS)}. Completed: 0. Verified official: 0.**",
+        "## Closing within 30 days",
+        "",
+        "| Project | Ends | Days left | Risk | Requirements |",
+        "|---|---|---|---|---|",
+    ]
+    for r in soon:
+        lines.append(f"| {r[0]} | {r[7]} | {r[8]} | {r[6] or '-'} | {(r[3] or '-')[:70]} |")
+    lines += [
+        "",
+        "## All tracked projects",
         "",
         "| " + " | ".join(HEADERS) + " |",
         "|" + "---|" * len(HEADERS),
     ]
-    lines += [md_row(r) for r in ROWS]
+    for r in all_rows:
+        cells = [str(c) for c in r]
+        cells[11] = f"[source]({r[11]})" if r[11] else ""
+        lines.append("| " + " | ".join(cells) + " |")
     lines += [
         "",
-        "## What is missing from this table",
+        "## Apply status values",
         "",
-        "Every row still needs an official-domain check before any wallet connects. A tracker listing is",
-        "not verification: tracker entries have been used to funnel users to phishing clones.",
+        "`identified` -> `vetted` -> `in-progress` -> `submitted` -> `paid`, or `dropped`.",
+        "Only move a row forward with evidence in `airships/`.",
         "",
-        "## Why it is not full of completed drops",
+        "## Regenerate",
         "",
-        "Completing a drop needs decisions and credentials that belong to the operator: which burner",
-        "wallet to use, whether KYC is acceptable, and the actual clicks on each site. A list of",
-        "candidates is what can be produced without those.",
+        "```bash",
+        "python tools/scrape_trackers.py   # refresh data/airdrops.json",
+        "python tools/build_ledger.py      # rebuild ledger.md + ledger.xlsx",
+        "```",
         "",
     ]
     (ROOT / "ledger.md").write_text("\n".join(lines), encoding="utf-8")
 
-def build_xlsx():
+
+def build_xlsx(all_rows):
     wb = Workbook()
     ws = wb.active
-    ws.title = "candidates"
+    ws.title = "airdrops"
     ws.append(HEADERS)
-    head_fill = PatternFill("solid", fgColor="1F3864")
     for c in ws[1]:
         c.font = Font(bold=True, color="FFFFFF")
-        c.fill = head_fill
-        c.alignment = Alignment(vertical="center")
-    for r in ROWS:
-        ws.append([r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], "", "", "", TODAY])
-    widths = [18, 14, 12, 20, 18, 10, 42, 14, 52, 16, 14, 22, 12]
+        c.fill = PatternFill("solid", fgColor="1F3864")
+        c.alignment = Alignment(vertical="center", wrap_text=True)
+    for r in all_rows:
+        ws.append(r)
+    widths = [20, 15, 22, 44, 14, 16, 12, 14, 10, 18, 14, 46, 12]
     for i, w in enumerate(widths, start=1):
         ws.column_dimensions[ws.cell(row=1, column=i).column_letter].width = w
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = f"A1:M{ws.max_row}"
-    dv = DataValidation(
-        type="list",
-        formula1='"identified,vetted,in-progress,submitted,paid,dropped"',
-        allow_blank=True,
-    )
+    dv = DataValidation(type="list",
+                        formula1='"identified,vetted,in-progress,submitted,paid,dropped"',
+                        allow_blank=True)
     ws.add_data_validation(dv)
-    dv.add(f"H2:H{ws.max_row}")
+    dv.add(f"K2:K{ws.max_row}")
 
-    summary = wb.create_sheet("summary")
-    summary.append(["Metric", "Value"])
-    for c in summary[1]:
+    s = wb.create_sheet("summary")
+    s.append(["Metric", "Value"])
+    for c in s[1]:
         c.font = Font(bold=True)
-    summary.append(["Candidates identified", len(ROWS)])
-    summary.append(["Vetted (official domain confirmed)", 0])
-    summary.append(["In progress", 0])
-    summary.append(["Submitted with proof", 0])
-    summary.append(["Paid", 0])
-    summary.append(["Target set by operator", 25])
-    summary.append(["Last updated", TODAY])
-    summary.column_dimensions["A"].width = 34
-    summary.column_dimensions["B"].width = 16
-
+    dated = [r for r in all_rows if isinstance(r[8], int)]
+    for k, v in (
+        ("Tracked projects", len(all_rows)),
+        ("With published end date", len(dated)),
+        ("Closing within 30 days", sum(1 for r in dated if 0 <= r[8] <= 30)),
+        ("With risk rating", sum(1 for r in all_rows if r[6])),
+        ("KYC required", sum(1 for r in all_rows if "KYC" in (r[3] or ""))),
+        ("Source: airdroplet", sum(1 for r in all_rows if r[1] == "airdroplet")),
+        ("Source: airdropvillage", sum(1 for r in all_rows if r[1] == "airdropvillage")),
+        ("Operator target", 100),
+        ("Last updated", date.today().isoformat()),
+    ):
+        s.append([k, v])
+    s.column_dimensions["A"].width = 30
+    s.column_dimensions["B"].width = 14
     wb.save(ROOT / "ledger.xlsx")
 
+
+def main():
+    all_rows = rows()
+    build_md(all_rows)
+    build_xlsx(all_rows)
+    print(f"ledger.md + ledger.xlsx rebuilt from {len(all_rows)} records")
+    return 0
+
+
 if __name__ == "__main__":
-    build_md()
-    build_xlsx()
-    print(f"ledger.md + ledger.xlsx written, {len(ROWS)} rows")
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
+    sys.exit(main())

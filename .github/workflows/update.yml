@@ -1,0 +1,40 @@
+name: Refresh airdrop ledger
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # 03:30 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --quiet openpyxl
+
+      - name: Scrape trackers
+        run: python tools/scrape_trackers.py
+
+      - name: Rebuild ledger
+        run: python tools/build_ledger.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "airdrop-bot"
+          git config user.email "airdrop-bot@users.noreply.github.com"
+          git add data/airdrops.json ledger.md ledger.xlsx
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: daily airdrop ledger refresh"
+            git push
+          fi

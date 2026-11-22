@@ -1,0 +1,60 @@
+{
+ "name": "Ascend",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://app.ascendlaunch.xyz",
+ "needs": "",
+ "steps": [
+  "Follow @AscendLaunch on X. Mint dates and allowlists will be posted there.",
+  "Enter the whitelist giveaways Ascend runs on X. One post offered five whitelist spots to the community. Builders can also be nominated, and Ascend says it will pick some nominations for NFT whitelist spots.",
+  "If you already hold HYPE, KNTQ or a Hypurr NFT, you may fall in an allocation group. Ascend hasn't said how holdings will be checked.",
+  "When the mint opens, mint on Ascend's official app only, then stake the NFT and wait the three-day activation.",
+  "Once a points season starts, read its terms before trading or staking for points. Warning Coins on Ascend are new memecoins with fees of up to 10% per trade. Ascend said copies of other teams' coins appeared during testing. Don't trade just to farm points you can't value."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Ascend, a token launchpad on Elysium, plans a free 500-NFT mint that unlocks KNTQ-paid points. Neither is live yet and no dates are set.",
+ "behind": "Ascend names no people in its docs. They say team members have worked at Archetype, Alliance, YZi Labs and Sigma Prime, and include graduates of UC Berkeley and Cornell. The one public figure is the co-founder who posts as tommy (@CryptoTomYT). Ascend works with Kinetiq, which runs Elysium and issues KNTQ and kHYPE. The launch contracts are owned by a multisig that \"is a Safe 1.3.0 with a 3-of-5 t",
+ "costs": "The NFT mint is free, though gas on Elysium will apply. Everything else uses your own money. Every coin pays a trading fee: \"1% is the base fee. The creator can select a higher trading fee.\" HYPE rewards need a kHYPE deposit, and \"Holding kHYPE in a wallet without depositing it into the Ascend vault does not establish an Ascend vault staking position.\" The docs also say: \"The funding allocation do",
+ "risks": "We found no terms of service, privacy policy or list of excluded countries. The main site sits behind a bot check, so we couldn't read it. The team is anonymous apart from a co-founder known as tommy on X, whose profile reads \"Co-founder @AscendLaunch\". The docs list past employers only and add that these \"do not constitute institutional backing or endorsement of Ascend\". No funding round has been",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/ascend/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "nft",
+  "trading",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 83 days old (registered 2026-08-31)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 83,
+  "checked": "2026-11-23T02:06:40"
+ },
+ "domain_age_days": 83,
+ "slug": "ascend",
+ "dossier": "drops/ascend.md",
+ "published": "2026-11-23"
+}

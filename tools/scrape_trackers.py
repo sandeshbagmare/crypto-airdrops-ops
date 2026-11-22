@@ -18,6 +18,9 @@ AD_URL = "https://airdroplet.com/testnet-airdrops"
 AV_URL = "https://www.airdropvillage.io/airdrops"
 N99_URL = "https://99airdrops.com/"
 AS_URL = "https://www.airdropstop.com/airdrops"
+IO_URL = "https://airdrops.io/latest/"
+CHROME_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+             "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
 
 def txt(s):
@@ -181,6 +184,65 @@ def render(url):
     return html
 
 
+def parse_airdropsio_page(html):
+    """airdrops.io cards carry requirement flags as data-* attributes."""
+    out = []
+    for c in re.split(r'(?=<article id="post-)', html)[1:]:
+        head = c[:1400]
+        slug_m = re.search(r'href="https://airdrops\.io/([a-z0-9-]+)/"', c)
+        alt = re.search(r'<img[^>]*alt="([^"]{2,60})"', c)
+        if not slug_m:
+            continue
+        slug = slug_m.group(1)
+        name = alt.group(1).replace(" logo", "").strip() if alt else slug.replace("-", " ").title()
+
+        def flag(key):
+            m = re.search(r'data-' + key + r'="([^"]*)"', head)
+            return m.group(1) == "1" if m else False
+
+        reqs = []
+        for key, label in (("kyc-required", "KYC"), ("telegram-required", "Telegram"),
+                           ("twitter-required", "X post"), ("email-address-required", "Email"),
+                           ("discord-required", "Discord"), ("phone-required", "Phone"),
+                           ("youtube-required", "YouTube")):
+            if flag(key):
+                reqs.append(label)
+        temp = re.search(r'data-temperature="(\d+)"', head)
+        rec = blank(name, slug, "airdropsio", f"https://airdrops.io/{slug}/")
+        rec["status"] = "Ongoing" if "ongoing" in head else ""
+        rec["score"] = (temp.group(1) + " degrees") if temp else ""
+        rec["kyc"] = ("Requires: " + ", ".join(reqs)) if reqs else "no account flags"
+        out.append(rec)
+    return out
+
+
+def scrape_airdropsio(max_pages=8):
+    """Paginated; renders each page because plain HTTP gets 403."""
+    from playwright.sync_api import sync_playwright
+    out, seen = [], set()
+    with sync_playwright() as p:
+        b = p.chromium.launch(headless=True)
+        pg = b.new_page(user_agent=CHROME_UA)
+        for n in range(1, max_pages + 1):
+            url = IO_URL if n == 1 else f"https://airdrops.io/latest/page/{n}/"
+            try:
+                r = pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+                if not r or r.status >= 400:
+                    break
+                pg.wait_for_timeout(1800)
+                got = parse_airdropsio_page(pg.content())
+            except Exception:
+                break
+            fresh = [g for g in got if g["slug"] not in seen]
+            if not fresh:
+                break
+            for g in fresh:
+                seen.add(g["slug"])
+            out += fresh
+        b.close()
+    return out
+
+
 def dedupe(records):
     seen, out = {}, []
     for r in records:
@@ -222,6 +284,14 @@ def main():
         print("airdropstop SKIPPED: playwright not installed")
     except Exception as e:
         print(f"airdropstop FAILED: {type(e).__name__}: {e}")
+    try:
+        got = scrape_airdropsio()
+        print(f"airdrops.io: {len(got)} records")
+        records += got
+    except ImportError:
+        print("airdrops.io SKIPPED: playwright not installed")
+    except Exception as e:
+        print(f"airdrops.io FAILED: {type(e).__name__}: {e}")
     before = len(records)
     records = dedupe(records)
     for r in records:

@@ -3,9 +3,13 @@
 Public research ledger of active crypto airdrops: requirements, deadlines, time to start, risk and
 source-stated pool size.
 
-**501 projects tracked as of 2026-11-23**, from four sources: airdroplet (dossiers), airdropvillage
-(badges), 99airdrops (cards) and airdropstop (client-rendered list, parsed with Playwright).
-Every row carries its source URL; nothing is invented.
+**548 projects tracked as of 2026-11-23**, from five sources: airdroplet (dossiers), airdropvillage
+(badges), 99airdrops (cards), airdropstop and airdrops.io (both client-rendered, parsed with
+Playwright). Every row carries its source URL; nothing is invented.
+
+airdrops.io also publishes per-project requirement flags, so the ledger can tell you which drops
+need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
+X post, 54 need email, 19 require KYC.
 
 ## What's here
 
@@ -14,7 +18,7 @@ Every row carries its source URL; nothing is invented.
 | `ledger.md` | The table, with a "closing within 30 days" section up top |
 | `ledger.xlsx` | Same data: filters, `Apply status` dropdown, summary sheet |
 | `data/airdrops.json` | Machine-readable source of truth, with per-record provenance |
-| `tools/scrape_trackers.py` | Fetches all four trackers; renders airdropstop with Playwright |
+| `tools/scrape_trackers.py` | Fetches all five trackers; renders two of them with Playwright |
 | `tools/build_ledger.py` | Rebuilds `ledger.md` + `ledger.xlsx` from the JSON |
 | `tools/triage.py` | Domain forensics: RDAP age, punycode/homoglyph, TLS, DNS, scam verdict |
 | `tools/monitor.py` | Nightly diff of trackers, append-only change log |

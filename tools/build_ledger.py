@@ -105,7 +105,8 @@ def build_md(all_rows):
         f"- sources: {sum(1 for r in all_rows if 'airdroplet' in r[1])} airdroplet, "
         f"{sum(1 for r in all_rows if 'airdropvillage' in r[1])} airdropvillage, "
         f"{sum(1 for r in all_rows if '99airdrops' in r[1])} 99airdrops, "
-        f"{sum(1 for r in all_rows if 'airdropstop' in r[1])} airdropstop",
+        f"{sum(1 for r in all_rows if 'airdropstop' in r[1])} airdropstop, "
+        f"{sum(1 for r in all_rows if 'airdropsio' in r[1])} airdrops.io",
         "",
         "Read the source link before acting. A tracker listing is not verification: confirm the",
         "official domain, then run `python tools/triage.py <url>`.",
@@ -183,6 +184,11 @@ def build_xlsx(all_rows):
         ("From airdropvillage", sum(1 for r in all_rows if "airdropvillage" in r[1])),
         ("From 99airdrops", sum(1 for r in all_rows if "99airdrops" in r[1])),
         ("From airdropstop", sum(1 for r in all_rows if "airdropstop" in r[1])),
+        ("From airdrops.io", sum(1 for r in all_rows if "airdropsio" in r[1])),
+        ("Flagged as needing KYC", sum(1 for r in all_rows if "KYC" in (r[3] or ""))),
+        ("Flagged needing Telegram", sum(1 for r in all_rows if "Telegram" in (r[3] or ""))),
+        ("Flagged needing X post", sum(1 for r in all_rows if "X post" in (r[3] or ""))),
+        ("Flagged needing email", sum(1 for r in all_rows if "Email" in (r[3] or ""))),
         ("Marked live by source", sum(1 for r in all_rows if (r[2] or "").lower().startswith("live"))),
         ("Marked potential/wait", sum(1 for r in all_rows if (r[2] or "").lower().startswith(("potential", "wait")))),
         ("Operator target", 100),

@@ -1,0 +1,50 @@
+{
+ "name": "Grass",
+ "confidence": 90,
+ "status": "Medium potential",
+ "official": "https://app.grass.io",
+ "needs": "",
+ "steps": [
+  "Create an account at app.grass.io with an email address or Google account.",
+  "Install the app from grass.io/download . There are builds for Windows, macOS, Linux and Android.",
+  "Leave it running on a stable residential connection and keep the app updated. Grass says such nodes are more likely to get traffic. Warning Using a VPN to get around Grass's country restrictions can lead to permanent disqualification.",
+  "If you ran Grass during Stage 2, open the dashboard and claim your USDC before 22 January 2027. Warning Grass keeps whatever is unclaimed after 22 January 2027."
+ ],
+ "end": "22 Jan",
+ "days": "",
+ "pool": "",
+ "what": "Grass paid its Stage 2 rewards in USDC, not GRASS, and the claim runs to 22 January 2027. How points work now and what a new user can earn.",
+ "behind": "Wynd Labs builds Grass as a service provider to the network. In December 2023 DL News reported that Wynd Network, the company behind Grass, raised $3.5 million in a seed round led by Polychain Capital and Tribe Capital. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "Grass is free to run. Claiming through the wallet built into the app costs a flat $0.15 per transaction, charged by wallet provider Turnkey, plus the Solana network fee. Cashing out goes through MoonPay or Jupiter under their own terms and identity checks.",
+ "risks": "The rewards terms exclude minors and anyone in a prohibited jurisdiction. The list includes Russia, Belarus, Iran, Cuba, North Korea, Venezuela and parts of Ukraine, and Grass can change it. Rewards follow how much of your bandwidth the network uses. Grass said about 150,000 users received roughly 90% of the traffic in Stage 2. Stage 2 was paid in USDC. Grass hasn't said whether the next round wil",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops+airdropstop",
+ "source_url": "https://99airdrops.com/airdrops/grass/",
+ "checked": "2026-11-23",
+ "slug": "grass",
+ "dossier": "drops/grass.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "grass.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T01:31:57"
+ }
+}

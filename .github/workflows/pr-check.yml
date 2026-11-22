@@ -1,0 +1,24 @@
+name: validate-drops
+
+on:
+  pull_request:
+    paths:
+      - "drops/**"
+      - "data/drops/**"
+      - "tools/validate_drops.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate changed dossiers
+        run: python tools/validate_drops.py --changed
+      - name: Validate whole corpus
+        if: always()
+        run: python tools/validate_drops.py

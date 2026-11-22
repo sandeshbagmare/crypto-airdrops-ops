@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   refresh:
@@ -37,14 +38,20 @@ jobs:
       - name: Rebuild site
         run: python tools/build_site.py
 
-      - name: Commit if changed
-        run: |
-          git config user.name "airdrop-bot"
-          git config user.email "airdrop-bot@users.noreply.github.com"
-          git add data/airdrops.json data/verified.json data/fetch-report.md ledger.md ledger.xlsx docs
-          if git diff --cached --quiet; then
-            echo "no changes"
-          else
-            git commit -m "chore: daily airdrop ledger refresh"
-            git push
-          fi
+      - name: Open a pull request with the refresh
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/daily-refresh
+          title: "daily: tracker refresh + verification"
+          commit-message: "daily refresh: scrape, verify, rebuild ledger and site"
+          body: |
+            Automated refresh from CI.
+            - scrape five trackers (airdrops.io stays stale when Cloudflare blocks runners)
+            - deep-verify up to 150 guides (7-day cache)
+            - rebuild ledger.md, ledger.xlsx, docs site
+            Review the fetch report in `data/fetch-report.md` before merging.
+          add-paths: |
+            data/
+            ledger.md
+            ledger.xlsx
+            docs/

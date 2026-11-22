@@ -11,6 +11,26 @@ airdrops.io also publishes per-project requirement flags, so the ledger can tell
 need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
 X post, 54 need email, 19 require KYC.
 
+## Verification as pull requests
+
+Every drop is published as its own PR, so a human approves each verification individually instead of
+trusting a bulk commit:
+
+```bash
+python tools/pr_drop.py --list          # what is unpublished, most urgent first
+python tools/pr_drop.py --top 10        # one branch + PR per drop
+python tools/pr_drop.py --slug yakkamon # a single drop
+```
+
+Each PR adds `drops/<slug>.md` (the dossier: what it is, official site, steps, who is behind it,
+costs, risks, evidence, reviewer checklist) and `data/drops/<slug>.json` (the machine record).
+
+CI gates it: `.github/workflows/pr-check.yml` runs `tools/validate_drops.py` on every dossier PR and
+fails on missing sections, placeholder text, a confidence score its evidence does not support, an
+`http://` or shortener official URL, or an official URL that points back at a tracker. The daily
+refresh now opens a PR (`bot/daily-refresh`) instead of pushing to `main`, so CI diff review applies
+to automated changes too.
+
 ## For autonomous agents
 
 Start at **[AGENTS.md](AGENTS.md)** - it is the whole operating context: schema, script order,

@@ -1,0 +1,56 @@
+{
+ "name": "BULK",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://app.bulk.trade",
+ "needs": "",
+ "steps": [
+  "Sign up at app.bulk.trade through that link. A referred trader gets a \"+5% Trading AURA boost\".",
+  "Deposit USDC, the margin and settlement currency.",
+  "Trade, then check your AURA and your league on the AURA page .",
+  "Once you trade, you get your own referral link. BULK pays referrers \"1 AURA for every 4 Trading AURA they earn\" plus 10% of the net fees of the traders they bring in directly, paid weekly in USDC."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "BULK's Solana perps exchange is still invite-only, now through referral links. How AURA and the Challenger Series work, fees and the reported 30% airdrop.",
+ "behind": "BULK raised an $8 million seed round in September 2025, led by 6th Man Ventures and Robot Ventures, with Wintermute investing and Solana co-founder Anatoly Yakovenko as an angel, SolanaFloor reported. SolanaFloor also reported that the pre-deposit campaign drew $25.9 million in its first 10 days after opening on 1 June 2026. Get the next airdrop first We post new guides, claim openings and deadlin",
+ "costs": "The launch fees still applied on 21 October: makers pay no base fee and takers pay 0.035% at the lowest volume tier, and BULK's fee settings showed no change scheduled. The docs say a new fee policy \"activates atomically at its configured protocol slot\", so check the Fees page before you trade. There's no separate liquidation fee, but liquidation prices include market-impact adjustments. The Fees ",
+ "risks": "The terms exclude many places, including the US, the UK, Australia, Ontario, France, Germany, the Netherlands, Japan, South Korea, Singapore and the UAE. The 30% airdrop figure comes from press reports, not from BULK. BULK can change, withhold or cancel points at any time without notice, and the terms allow KYC checks. Rewards are screened for abuse: \"All rewards are subject to wash-trading and Sy",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/bulk/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "trading"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-10-28 (1121 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 1121,
+  "checked": "2026-11-23T02:07:04"
+ },
+ "domain_age_days": 1121,
+ "slug": "bulk",
+ "dossier": "drops/bulk.md",
+ "published": "2026-11-23"
+}

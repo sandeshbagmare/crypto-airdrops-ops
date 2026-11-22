@@ -28,14 +28,20 @@ jobs:
       - name: Scrape trackers
         run: python tools/scrape_trackers.py
 
+      - name: Deep-verify guides (incremental, cached 7 days)
+        run: python tools/verify.py --limit 150
+
       - name: Rebuild ledger
         run: python tools/build_ledger.py
+
+      - name: Rebuild site
+        run: python tools/build_site.py
 
       - name: Commit if changed
         run: |
           git config user.name "airdrop-bot"
           git config user.email "airdrop-bot@users.noreply.github.com"
-          git add data/airdrops.json data/fetch-report.md ledger.md ledger.xlsx
+          git add data/airdrops.json data/verified.json data/fetch-report.md ledger.md ledger.xlsx docs
           if git diff --cached --quiet; then
             echo "no changes"
           else

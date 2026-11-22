@@ -19,7 +19,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC required",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DOHM Finance",
@@ -41,12 +41,12 @@
   "prize": "",
   "risk": "high risk",
   "kyc": "high risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Gyndore",
   "slug": "gyndore",
-  "source": "airdroplet+airdropsio",
+  "source": "airdroplet",
   "source_url": "https://airdroplet.com/airdrop/gyndore",
   "description": "DropWave Season 1 and public testnet",
   "notes": "",
@@ -63,12 +63,12 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Push Chain",
   "slug": "push-chain",
-  "source": "airdroplet+99airdrops+airdropsio",
+  "source": "airdroplet+99airdrops",
   "source_url": "https://airdroplet.com/airdrop/push-chain",
   "description": "Push Chain Season 3",
   "notes": "Cross-chain Layer 1 in testnet. Quests earn points toward a 10% $PC airdrop pool.",
@@ -85,7 +85,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Hotstuff",
@@ -107,7 +107,7 @@
   "prize": "",
   "risk": "high risk",
   "kyc": "high risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Namada",
@@ -129,7 +129,7 @@
   "prize": "",
   "risk": "high risk",
   "kyc": "high risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Canopy Network",
@@ -151,7 +151,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Polaris",
@@ -173,7 +173,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "XyloNet",
@@ -195,12 +195,12 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Wager Predict",
   "slug": "wager-predict",
-  "source": "airdroplet+airdropsio",
+  "source": "airdroplet",
   "source_url": "https://airdroplet.com/airdrop/wager-predict",
   "description": "Wager Predict testnet",
   "notes": "",
@@ -217,7 +217,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Shelby",
@@ -239,7 +239,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Swapfone",
@@ -261,7 +261,7 @@
   "prize": "",
   "risk": "high risk",
   "kyc": "high risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "UnitFlow Finance",
@@ -283,7 +283,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "0xMiden",
@@ -305,7 +305,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Orbinum Network",
@@ -327,7 +327,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SEKAI",
@@ -349,7 +349,7 @@
   "prize": "",
   "risk": "medium risk",
   "kyc": "medium risk · KYC not confirmed",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "AV 50$ Giveaway",
@@ -371,7 +371,7 @@
   "prize": "50",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Clocked",
@@ -393,7 +393,7 @@
   "prize": "200,000",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Formation",
@@ -415,7 +415,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Remix",
@@ -437,18 +437,18 @@
   "prize": "169,500",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Mantle",
   "slug": "mantle",
-  "source": "airdropvillage+airdropsio",
+  "source": "airdropvillage",
   "source_url": "https://www.airdropvillage.io/airdrops",
   "description": "",
   "notes": "",
   "tags": "",
-  "score": "187 degrees",
-  "status": "Ongoing",
+  "score": "",
+  "status": "",
   "next_move": "",
   "recorded": "",
   "checked": "",
@@ -458,8 +458,8 @@
   "end_date": "8 Dec 2026",
   "prize": "4,000",
   "risk": "",
-  "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tribe",
@@ -481,7 +481,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "HANDLE",
@@ -503,7 +503,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ZXOXO",
@@ -525,7 +525,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Octos",
@@ -547,7 +547,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Feather Games",
@@ -569,7 +569,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FOOME",
@@ -591,7 +591,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Arch Prime",
@@ -613,7 +613,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Trader Chamber",
@@ -635,7 +635,7 @@
   "prize": "40,000",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Grokie Fun",
@@ -657,7 +657,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lia Labs",
@@ -679,17 +679,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Asentum",
   "slug": "asentum",
-  "source": "airdropvillage+99airdrops+airdropstop+airdropsio",
+  "source": "airdropvillage+99airdrops+airdropstop",
   "source_url": "https://www.airdropvillage.io/airdrops",
   "description": "Post-quantum Layer 1",
   "notes": "Layer 1 testnet where XP pays the airdrop. ASE already trades; no rate or date.",
   "tags": "Testnet, Free, Token live",
-  "score": "140 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -700,18 +700,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Yakkamon",
   "slug": "yakkamon",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/yakkamon/",
   "description": "Creature collector",
   "notes": "Ronin monster game: the top 5,000 get Monster NFTs on 2 Dec. Snapshot 27 Nov.",
   "tags": "Updated, Gaming, Ronin, NFT airdrop",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential | recently updated",
   "next_move": "",
   "recorded": "",
@@ -722,18 +722,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "MMIX",
   "slug": "mmix",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/mmix/",
   "description": "RWA Layer 1 points",
   "notes": "Free points hub and a whitelist for 3,000 free-mint NFTs to 26 Nov. No token yet.",
   "tags": "Points live, Free mint, Token planned",
-  "score": "4 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -744,18 +744,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Florin",
   "slug": "florin",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/florin/",
   "description": "Testnet quest",
   "notes": "Free testnet quest with a $500 USDC raffle, $5 to 100 winners. No token or airdrop.",
   "tags": "Testnet, Free quests, No token",
-  "score": "12 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -766,8 +766,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "GetOn",
@@ -789,7 +789,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Globe",
@@ -811,7 +811,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DI",
@@ -833,7 +833,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Daejin",
@@ -855,17 +855,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tzero",
   "slug": "tzero",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/tzero/",
   "description": "Launchpad testnet",
   "notes": "Testnet points on Base Sepolia for a promised 5% of T0. Anonymous team, no dates.",
   "tags": "Testnet, Free, Token planned",
-  "score": "215 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -876,8 +876,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Decentralized Intelligence",
@@ -899,7 +899,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Aura Protocol",
@@ -921,17 +921,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "De1",
   "slug": "de1",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/de1/",
   "description": "AI trading data",
   "notes": "AI swap aggregator: real trades build a Signal Passport. No token or reward defined.",
   "tags": "High risk, No token, Waitlist",
-  "score": "246 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -942,18 +942,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "c8ntinuum",
   "slug": "c8ntinuum",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/c8ntinuum/",
   "description": "Chain points (p8ints)",
   "notes": "Network Score p8ints for social tasks and holding CTM daily. Rewards not announced.",
   "tags": "Points live, Token live, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -964,8 +964,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "FX100",
@@ -987,7 +987,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Flint",
@@ -1009,17 +1009,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Antseed",
   "slug": "antseed",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/antseed/",
   "description": "AI app points",
   "notes": "Pay for AI on Antseed, earn points, claim ANTS each Thursday. ANTS can&#x27;t move yet.",
   "tags": "Points live, High risk, Base",
-  "score": "134 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1030,18 +1030,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Panther Protocol",
   "slug": "panther-protocol",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/panther-protocol/",
   "description": "DeFi privacy points",
   "notes": "KYC privacy pool on Polygon and Base; deposits earn PRP points redeemable for ZKP.",
   "tags": "Points live, High risk, Polygon",
-  "score": "120 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1052,8 +1052,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: KYC",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kleos",
@@ -1075,7 +1075,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "IPX",
@@ -1097,7 +1097,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ascend",
@@ -1119,7 +1119,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DogeOS",
@@ -1141,7 +1141,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Spicenet",
@@ -1163,17 +1163,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Montra",
   "slug": "montra",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/montra/",
   "description": "Token launchpad",
   "notes": "Elysium token launchpad. 25% of MONTRA airdropped in five parts; Top 10 round open.",
   "tags": "Airdrop confirmed, Token live, High risk",
-  "score": "279 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1184,8 +1184,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Saturn",
@@ -1207,7 +1207,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "42",
@@ -1229,17 +1229,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "HertzFlow",
   "slug": "hertzflow",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/hertzflow/",
   "description": "Perp DEX points",
   "notes": "BNB Chain perps with up to 200x leverage. Merits Season 3 runs to 14 Dec; no token.",
   "tags": "Perps, Points live, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1250,8 +1250,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "OnePump",
@@ -1273,7 +1273,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Pursuit",
@@ -1295,7 +1295,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "OnRe",
@@ -1317,17 +1317,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "TermiX",
   "slug": "termix",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/termix/",
   "description": "AI agent marketplace",
   "notes": "Marketplace where AI agents hire agents. Points for tasks and jobs; token planned.",
   "tags": "Updated, Points live, BNB Chain, High risk",
-  "score": "2 degrees",
+  "score": "",
   "status": "Medium potential | recently updated",
   "next_move": "",
   "recorded": "",
@@ -1338,8 +1338,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Zoi Network",
@@ -1361,7 +1361,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rome Protocol",
@@ -1383,7 +1383,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Inverted Lambda",
@@ -1405,17 +1405,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Beep",
   "slug": "beep",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/beep/",
   "description": "AI trading agent points",
   "notes": "AI agents trade perps and Polymarket for Beeper Points on Sui. No token or TGE date.",
   "tags": "Points live, Sui, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1426,8 +1426,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Backtrade",
@@ -1449,7 +1449,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Coinzilla",
@@ -1471,17 +1471,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "StableStock",
   "slug": "stablestock",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/stablestock/",
   "description": "Stock trading points",
   "notes": "Points for trading or holding stocks bought with USDT or USDC. No token announced.",
   "tags": "Points live, No token, High risk",
-  "score": "107 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1492,13 +1492,13 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Vana",
   "slug": "vana",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/vana/",
   "description": "Data network XP",
   "notes": "XP for Discord tasks, events and apps, spent on rewards. No new airdrop announced.",
@@ -1514,18 +1514,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Squeekchain",
   "slug": "squeekchain",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/squeekchain/",
   "description": "NFT whitelist race",
   "notes": "Farm Aura badges for a whitelist place on a paid Squeek NFT mint. No token is live.",
   "tags": "NFT, Waitlist, High risk",
-  "score": "1 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1536,8 +1536,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cancore",
@@ -1559,17 +1559,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "4D Labs",
   "slug": "4d-labs",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/4d-labs/",
   "description": "Physical AI data points",
   "notes": "Season 1 pays Score for check-ins and social tasks. $4D isn&#x27;t live. No airdrop set.",
   "tags": "Points live, Token planned, BNB Chain",
-  "score": "105 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1580,18 +1580,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rarelist",
   "slug": "rarelist",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/rarelist/",
   "description": "Creator points",
   "notes": "X creators earn RARS points that Rarelist says will convert into its $RARE token.",
   "tags": "Token planned, Free quests, Points live",
-  "score": "87 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1602,18 +1602,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "ZeruAI",
   "slug": "zeruai",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/zeruai/",
   "description": "Wallet score points",
   "notes": "Zaps app gives points and runs sponsor trading contests. No airdrop confirmed.",
   "tags": "Token planned, Points live, High risk",
-  "score": "53 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1624,18 +1624,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Voltrade",
   "slug": "voltrade",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/voltrade/",
   "description": "Trading competitions",
   "notes": "Trading competitions paying sponsor prizes plus VXP points. No token or airdrop.",
   "tags": "Perps, No token, High risk",
-  "score": "1 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1646,8 +1646,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Decibel",
@@ -1669,7 +1669,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Melee",
@@ -1691,7 +1691,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "human.tech",
@@ -1713,17 +1713,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Vangrid",
   "slug": "vangrid",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/vangrid/",
   "description": "Spatial data bounties",
   "notes": "Phone captures earn USDC bounties. Points don&#x27;t convert to $VAN. No airdrop set.",
   "tags": "Invite only, Token planned, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1734,8 +1734,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord, Phone",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "MemeBitcoin",
@@ -1757,7 +1757,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Loaf Markets",
@@ -1779,7 +1779,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bybit WSOT 2026",
@@ -1801,7 +1801,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tydro",
@@ -1823,17 +1823,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ryfinite",
   "slug": "ryfinite",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/ryfinite/",
   "description": "Quest points",
   "notes": "Quests earn Gems, Gems go into a pool for future RFN. Anonymous team, no audit yet.",
   "tags": "Free quests, Token planned, High risk",
-  "score": "128 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1844,8 +1844,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "MetaMask",
@@ -1867,17 +1867,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Polymarket",
   "slug": "polymarket",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/polymarket/",
   "description": "Prediction market",
   "notes": "Prediction market on Polygon. Its CMO promised a POLY airdrop, with no date yet.",
   "tags": "Prediction, Polygon, No date yet",
-  "score": "205 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -1888,8 +1888,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Grass",
@@ -1911,7 +1911,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Jupiter",
@@ -1933,17 +1933,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SOEI",
   "slug": "soei",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/soei/",
   "description": "Creator campaign points",
   "notes": "Points for original X posts about SOEI, toward a planned $SOEI airdrop. No date.",
   "tags": "Points live, Free quests, Token planned",
-  "score": "189 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1954,18 +1954,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Phone",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "DuelBet",
   "slug": "duelbet",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/duelbet/",
   "description": "Crypto casino points",
   "notes": "Crypto casino that pays DuelPoints on real-money bets for a planned $DUEL airdrop.",
   "tags": "High risk, Points live, Token planned",
-  "score": "1 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -1976,8 +1976,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Forte",
@@ -1999,17 +1999,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Raflux",
   "slug": "raflux",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/raflux/",
   "description": "Card gacha points",
   "notes": "Paid card-pack gacha on Solana. Points from quests and pulls; weekly voucher prizes.",
   "tags": "Points live, Free quests, High risk",
-  "score": "6 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2020,8 +2020,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sandwatch",
@@ -2043,7 +2043,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ChimpX",
@@ -2065,7 +2065,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "RAFA Finance",
@@ -2087,7 +2087,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "xStocks",
@@ -2109,7 +2109,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ritual",
@@ -2131,17 +2131,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Xyper",
   "slug": "xyper",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/xyper/",
   "description": "Creator rewards points",
   "notes": "Points for X quests and paid posts on Unit Zero. XYPER promised, no date or rate.",
   "tags": "Points live, Free quests, Token planned",
-  "score": "1 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2152,18 +2152,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "MINT",
   "slug": "mint-io",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/mint-io/",
   "description": "Crypto casino",
   "notes": "Crypto casino. $MNTD is live and the Season 1 airdrop claim is open.",
   "tags": "Casino, Token live, Claim open",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2174,18 +2174,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Metric",
   "slug": "metric",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/metric/",
   "description": "Active-pool DEX",
   "notes": "DEX for tokenized stocks. Referrals live; no points rules or token yet.",
   "tags": "DeFi, No token, High risk",
-  "score": "306 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2196,18 +2196,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Optimum",
   "slug": "optimum",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/optimum/",
   "description": "Ethereum data network",
   "notes": "Speeds up Ethereum blocks. Free TurboCards NFT mint with codes; no token yet.",
   "tags": "NFT, No token, Free",
-  "score": "3 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2218,18 +2218,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "SmartX",
   "slug": "smartx",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/smartx/",
   "description": "Social trading waitlist",
   "notes": "Coming social trading app. Free waitlist race for invites; round 2 prizes unknown.",
   "tags": "Waitlist, Free, No token",
-  "score": "182 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2240,8 +2240,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Reflect",
@@ -2263,17 +2263,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Monolith",
   "slug": "monolith",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/monolith/",
   "description": "Stablecoin factory airdrop",
   "notes": "100,000 SWAN for listed addresses that hold 1,000 sSwanUSD for 7 days.",
   "tags": "Airdrop confirmed, DeFi, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2284,18 +2284,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Axis Robotics",
   "slug": "axis-robotics",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/axis-robotics/",
   "description": "Robotics data network",
   "notes": "Train robot arms in your browser for Season 2 points. $AXIS is live; S1 claim open.",
   "tags": "Physical AI, Token live, Claim open",
-  "score": "225 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2306,18 +2306,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kalos",
   "slug": "kalos",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/kalos/",
   "description": "NFT marketplace testnet",
   "notes": "NFT marketplace on the Elysium testnet sharing 500,000 points a day. No token.",
   "tags": "Testnet, Points live, Free",
-  "score": "257 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2328,18 +2328,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nullmask",
   "slug": "nullmask",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/nullmask/",
   "description": "Privacy pool points",
   "notes": "ZK privacy pool paying Season One points for withdrawals, to be paid in MASK.",
   "tags": "High risk, Points live, Token live",
-  "score": "300 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2350,8 +2350,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Frontier Traders",
@@ -2373,7 +2373,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Derivio",
@@ -2395,7 +2395,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Apyx",
@@ -2417,7 +2417,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sumex",
@@ -2439,7 +2439,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "fomo",
@@ -2461,17 +2461,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "VOICE",
   "slug": "voice",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/voice/",
   "description": "Opinion polling app",
   "notes": "Solana polling app with a $VOICE TGE set for Q4 2026. Snapshot date coming soon.",
   "tags": "Social, Solana, Token confirmed",
-  "score": "3 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2482,18 +2482,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "NOWA",
   "slug": "nowa-finance",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/nowa-finance/",
   "description": "BNPL trading devnet",
   "notes": "Devnet farming with demo funds. NOWA promises tokens 1:1; its terms promise nothing.",
   "tags": "Testnet, Token planned, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2504,18 +2504,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "AllScale",
   "slug": "allscale",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/allscale/",
   "description": "Stablecoin payments points",
   "notes": "Stablecoin payments app paying AS Points for tasks and payments. No token yet.",
   "tags": "Points live, No token, Mobile app",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2526,8 +2526,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email, Phone",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "BULK",
@@ -2549,7 +2549,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ALPHEA",
@@ -2571,7 +2571,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ekiden",
@@ -2593,7 +2593,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Vault Street",
@@ -2615,7 +2615,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "XO Market",
@@ -2637,17 +2637,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fables",
   "slug": "fables",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/fables/",
   "description": "Stock token DEX",
   "notes": "Stock token DEX on Robinhood Chain. FABLES is live; claims close 20 November.",
   "tags": "DeFi, Token live, Claim open",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2658,18 +2658,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Valdora",
   "slug": "valdora",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/valdora/",
   "description": "Vaults and liquid staking",
   "notes": "USDC credit vaults and ZIG staking on ZIGChain. Points for deposits; no token.",
   "tags": "DeFi, Points live, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2680,18 +2680,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Worldie",
   "slug": "worldie",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/worldie/",
   "description": "Social launchpad",
   "notes": "3D social launchpad on Robinhood Chain. Token is live; website offline on 18 Oct.",
   "tags": "Token live, Social, Points",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2702,8 +2702,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Familiars",
@@ -2725,17 +2725,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "River",
   "slug": "river",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/river/",
   "description": "Cross-chain stablecoin",
   "notes": "Stablecoin app on 11 chains. Season 7 points open; S6 claim closes 31 Dec.",
   "tags": "DeFi, Token live, Claim open",
-  "score": "157 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2746,18 +2746,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ammora",
   "slug": "ammora",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/ammora/",
   "description": "Liquidity protocol testnet",
   "notes": "Testnet waitlist on GIWA with daily point missions. No token; reward undefined.",
   "tags": "Testnet, Free quests, Waitlist",
-  "score": "266 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -2768,18 +2768,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Blackboard",
   "slug": "blackboard",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/blackboard/",
   "description": "Trading terminal",
   "notes": "Trading terminal for Aster, Hyperliquid and Polymarket. Points live; no token.",
   "tags": "Perps, Points live, Hyperliquid",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2790,8 +2790,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Surf AI",
@@ -2813,17 +2813,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "NeoSoul",
   "slug": "neosoul",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/neosoul/",
   "description": "AI agent apps",
   "notes": "AI agent apps on BNB Chain. DNA launched 16 Oct; airdrop check closes 22 Oct.",
   "tags": "AI agents, Token live, Claim open",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2834,13 +2834,13 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bullshot",
   "slug": "bullshot",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/bullshot/",
   "description": "Memecoin launchpad",
   "notes": "Memecoin launchpad on BNB Chain with points. No airdrop promised; $BULL not live.",
@@ -2856,8 +2856,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fhenix",
@@ -2879,7 +2879,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Embervale",
@@ -2901,7 +2901,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Minehood",
@@ -2923,7 +2923,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Renaiss Protocol",
@@ -2945,7 +2945,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Minds Games",
@@ -2967,17 +2967,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Wick",
   "slug": "wick",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/wick/",
   "description": "Stock token DEX",
   "notes": "Pre-launch trading project on Lighter EVM. Its wallet waitlist closed on 13 Oct.",
   "tags": "Waitlist, Free, Token planned",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -2988,8 +2988,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Psy Protocol (QED)",
@@ -3011,17 +3011,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "TxFlow",
   "slug": "txflow",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/txflow/",
   "description": "Perp DEX",
   "notes": "Perp DEX on its own chain. Season 1 points paid weekly; access code needed.",
   "tags": "Perps, Points live, Invite only",
-  "score": "202 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3032,8 +3032,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "OptimAI Network",
@@ -3055,7 +3055,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Noah AI",
@@ -3077,7 +3077,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Proto",
@@ -3099,17 +3099,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Catalyst",
   "slug": "catalyst",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/catalyst/",
   "description": "AI trading agents",
   "notes": "AI trading agents backed by Sequoia. Waitlist only; no token or points announced.",
   "tags": "AI agents, Waitlist, No token",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3120,18 +3120,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Papertrade",
   "slug": "papertrade",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/papertrade/",
   "description": "Perp DEX",
   "notes": "1000x perps on HyperEVM. PAPER is minted only when you lose; no airdrop.",
   "tags": "Perps, Hyperliquid, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3142,18 +3142,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "TBook",
   "slug": "tbook",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/tbook/",
   "description": "RWA liquidity layer",
   "notes": "Reputation badges and RWA vaults on Sui. 7.5% BOOK airdrop confirmed, no date.",
   "tags": "RWA, Airdrop confirmed, Sui",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3164,18 +3164,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Amadeus Protocol",
   "slug": "amadeus-protocol",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/amadeus-protocol/",
   "description": "AI agent Layer 1",
   "notes": "Layer 1 for AI agents. AMA Hub quests pay Prime Points until 31 October.",
   "tags": "AI agents, Layer 1, Quests",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3186,8 +3186,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Memebook (ORVI)",
@@ -3209,17 +3209,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Synthra",
   "slug": "synthra",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/synthra/",
   "description": "Multichain DEX",
   "notes": "DEX on Arc and Robinhood Chain with daily points. Its $SYN airdrop was cancelled.",
   "tags": "DeFi, Points live, High risk",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3230,18 +3230,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "BaiBai",
   "slug": "baibai",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/baibai/",
   "description": "DEX aggregator",
   "notes": "Exchange and aggregator on Base with points for trading. No token is announced.",
   "tags": "DeFi, Points live, Base",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3252,8 +3252,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Morfi Markets",
@@ -3275,7 +3275,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "JoinCare",
@@ -3297,17 +3297,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nous Research",
   "slug": "nous-research",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/nous-research/",
   "description": "Open-source AI lab",
   "notes": "AI lab behind Hermes Agent, with a Solana training network. No token announced.",
   "tags": "AI agents, Solana, No token",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3318,8 +3318,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "NUVA",
@@ -3341,7 +3341,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Abstract",
@@ -3363,7 +3363,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cambria",
@@ -3385,7 +3385,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sirius Protocol",
@@ -3407,7 +3407,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "QFEX",
@@ -3429,7 +3429,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Imperial",
@@ -3451,7 +3451,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "PowerX One",
@@ -3473,7 +3473,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Note Systems",
@@ -3495,17 +3495,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "TastyCo",
   "slug": "tastyco",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/tastyco/",
   "description": "Food brand tokens",
   "notes": "Planned exchange for tokenized food brands. Free quests earn points toward $TASTY.",
   "tags": "Airdrop confirmed, Free quests, RWA",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3516,18 +3516,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Acepyr",
   "slug": "acepyr",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/acepyr/",
   "description": "Prediction market testnet",
   "notes": "Prediction market in testnet. Points have no value; a mainnet token is undecided.",
   "tags": "Testnet, Free, Waitlist",
-  "score": "146 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3538,18 +3538,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "vibe/vibe",
   "slug": "vibe-vibe",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/vibe-vibe/",
   "description": "Token launchpad",
   "notes": "Seedify team&#x27;s launchpad on Robinhood Chain testnet. X posts promise 5% of supply.",
   "tags": "Testnet, Free, Token planned",
-  "score": "276 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3560,18 +3560,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "AlloX",
   "slug": "allox",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/allox/",
   "description": "AI portfolio builder",
   "notes": "AI token baskets from the former Dypius team. Points convert to ALLOX at launch.",
   "tags": "DeFi, Token confirmed, Points live",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3582,8 +3582,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Subfrost",
@@ -3605,17 +3605,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "PERPTools",
   "slug": "perptools",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/perptools/",
   "description": "Perp DEX",
   "notes": "Perp DEX on Orderly, tied to DEXTools. Weekly points convert to PERP at launch.",
   "tags": "Perps, Points live, Token confirmed",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3626,18 +3626,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Arcus",
   "slug": "arcus",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/arcus/",
   "description": "Stock and perp DEX",
   "notes": "Stock tokens and perps from dYdX Labs and Robinhood. Season 1 points are live.",
   "tags": "DeFi, Perps, Points live",
-  "score": "308 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3648,18 +3648,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Titan Exchange",
   "slug": "titan-exchange",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/titan-exchange/",
   "description": "Perp DEX",
   "notes": "Privacy perp DEX on Canton. Testnet points are live and no token is announced.",
   "tags": "Perps, Testnet, Free",
-  "score": "283 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -3670,8 +3670,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Breath of Estova",
@@ -3693,7 +3693,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ethena",
@@ -3715,7 +3715,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Extended",
@@ -3737,7 +3737,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "UP",
@@ -3759,7 +3759,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "3Jane",
@@ -3781,7 +3781,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Doma Protocol",
@@ -3803,7 +3803,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "The Pit",
@@ -3825,7 +3825,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Hashcats",
@@ -3847,7 +3847,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Polyester",
@@ -3869,7 +3869,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Variational",
@@ -3891,7 +3891,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Monetrix",
@@ -3913,7 +3913,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cycles",
@@ -3935,17 +3935,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "XStable",
   "slug": "xstable",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/xstable/",
   "description": "Gold and FX trading",
   "notes": "Leveraged gold and FX trading on Solana. Points will feed a planned token airdrop.",
   "tags": "Perps, RWA, High risk",
-  "score": "99 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -3956,8 +3956,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Perle",
@@ -3979,7 +3979,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Trueo",
@@ -4001,17 +4001,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Raycash",
   "slug": "raycash",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/raycash/",
   "description": "Private stablecoin app",
   "notes": "Private stablecoin account built on Zama. Waitlist tasks earn free points.",
   "tags": "Free, Waitlist, Stablecoin",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -4022,8 +4022,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Arc",
@@ -4045,7 +4045,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kryvora Network",
@@ -4067,17 +4067,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "RWAPerp",
   "slug": "rwaperp",
-  "source": "99airdrops+airdropstop+airdropsio",
+  "source": "99airdrops+airdropstop",
   "source_url": "https://99airdrops.com/airdrops/rwaperp/",
   "description": "RWA perp DEX",
   "notes": "Stock and commodity perps on X Layer, in closed beta. Join the waitlist to get in.",
   "tags": "Perps, RWA, Waitlist",
-  "score": "0 degrees",
+  "score": "",
   "status": "Early / speculative",
   "next_move": "",
   "recorded": "",
@@ -4088,8 +4088,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rialo",
@@ -4111,7 +4111,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Orbinum",
@@ -4133,7 +4133,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FLOP",
@@ -4155,7 +4155,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lighter",
@@ -4177,7 +4177,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "OmenX",
@@ -4199,17 +4199,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Dow Protocol",
   "slug": "dow-protocol",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/dow-protocol/",
   "description": "E-commerce RWA vaults",
   "notes": "Lends to online sellers via 90-day vaults. Dow XP quests are live, no token yet.",
   "tags": "RWA, Dow XP, Free quests",
-  "score": "0 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -4220,8 +4220,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "N1",
@@ -4243,7 +4243,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ondo Perps",
@@ -4265,17 +4265,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "RISEx",
   "slug": "risex",
-  "source": "99airdrops+airdropsio",
+  "source": "99airdrops",
   "source_url": "https://99airdrops.com/airdrops/risex/",
   "description": "Perp DEX",
   "notes": "Onchain perps on the RISE L2. Season 1 pays 200,000 points a week to Q2 2027.",
   "tags": "Perps, Invite only, Token planned",
-  "score": "300 degrees",
+  "score": "",
   "status": "Medium potential",
   "next_move": "",
   "recorded": "",
@@ -4286,8 +4286,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Liquid",
@@ -4309,7 +4309,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SimpleChain",
@@ -4331,7 +4331,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Dexari",
@@ -4353,7 +4353,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Dreamcash",
@@ -4375,7 +4375,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bullpen",
@@ -4397,17 +4397,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sectora",
   "slug": "sectora",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/sectora",
   "description": "ethereum",
   "notes": "",
   "tags": "staking, testnet",
-  "score": "78 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -4418,8 +4418,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Teller Protocol",
@@ -4441,7 +4441,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ALIENX",
@@ -4463,7 +4463,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "CoinQuant",
@@ -4485,7 +4485,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Confidential Layer",
@@ -4507,7 +4507,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Human Passport",
@@ -4529,7 +4529,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "infiniFi",
@@ -4551,7 +4551,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Joule Finance",
@@ -4573,7 +4573,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Juice",
@@ -4595,7 +4595,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "KOR Protocol",
@@ -4617,7 +4617,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Liquidium",
@@ -4639,7 +4639,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Metis",
@@ -4661,7 +4661,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Myriad Markets",
@@ -4683,7 +4683,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nexira",
@@ -4705,17 +4705,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Perpl",
   "slug": "perpl",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/perpl",
   "description": "monad",
   "notes": "",
   "tags": "trading, defi, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -4726,8 +4726,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Probable",
@@ -4749,7 +4749,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rabbithole",
@@ -4771,7 +4771,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Superfluid",
@@ -4793,7 +4793,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ZENi",
@@ -4815,7 +4815,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ZKcandy",
@@ -4837,7 +4837,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "AFX",
@@ -4859,7 +4859,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Asymmetry Finance",
@@ -4881,17 +4881,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "BitRobot",
   "slug": "bitrobot",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/bitrobot",
   "description": "",
   "notes": "",
   "tags": "ai, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -4902,18 +4902,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Brownian",
   "slug": "brownian",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/brownian",
   "description": "",
   "notes": "",
   "tags": "trading, defi",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -4924,8 +4924,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Browser Cash",
@@ -4947,7 +4947,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cables Finance",
@@ -4969,7 +4969,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Canton Network",
@@ -4991,7 +4991,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Citrea",
@@ -5013,7 +5013,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Die Last",
@@ -5035,7 +5035,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Doppler Finance",
@@ -5057,17 +5057,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Drake",
   "slug": "drake",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/drake",
   "description": "monad",
   "notes": "",
   "tags": "defi, trading, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -5078,8 +5078,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "edgeX",
@@ -5101,7 +5101,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FareUp",
@@ -5123,7 +5123,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FATTY",
@@ -5145,17 +5145,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Flipper",
   "slug": "flipper",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/flipper",
   "description": "",
   "notes": "",
   "tags": "trading, defi",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -5166,8 +5166,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fluence",
@@ -5189,7 +5189,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Garth",
@@ -5211,7 +5211,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Gyroscope",
@@ -5233,7 +5233,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "HaHa Wallet",
@@ -5255,7 +5255,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kinetic",
@@ -5277,7 +5277,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Liquity",
@@ -5299,7 +5299,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lithos",
@@ -5321,7 +5321,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "LoopedHYPE",
@@ -5343,7 +5343,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Loopscale",
@@ -5365,7 +5365,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Miracle",
@@ -5387,7 +5387,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Neutral Trade",
@@ -5409,7 +5409,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Noon",
@@ -5431,7 +5431,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "OctoSwap",
@@ -5453,7 +5453,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Onchain.cc",
@@ -5475,7 +5475,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "OneFootball Club",
@@ -5497,7 +5497,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "OpenZK",
@@ -5519,7 +5519,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Origami Tech",
@@ -5541,7 +5541,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Perle Labs",
@@ -5563,7 +5563,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ponder",
@@ -5585,7 +5585,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "predict.fun",
@@ -5607,7 +5607,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "PriveX",
@@ -5629,7 +5629,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rally",
@@ -5651,7 +5651,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rootstock Collective",
@@ -5673,7 +5673,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Snowball Money",
@@ -5695,7 +5695,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "TINA",
@@ -5717,7 +5717,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Velvet.Capital",
@@ -5739,7 +5739,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Vibe Trading",
@@ -5761,7 +5761,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Wallet V",
@@ -5783,7 +5783,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Xian",
@@ -5805,7 +5805,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "YeNo",
@@ -5827,7 +5827,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Youmio",
@@ -5849,7 +5849,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Acki Nacki",
@@ -5871,7 +5871,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Affine",
@@ -5893,7 +5893,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "AGDEX",
@@ -5915,7 +5915,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Astra Nova",
@@ -5937,7 +5937,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bitcoin Quantum",
@@ -5959,7 +5959,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Black Mirror",
@@ -5981,7 +5981,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bless Network",
@@ -6003,7 +6003,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ChainOpera AI",
@@ -6025,7 +6025,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Curvance",
@@ -6047,7 +6047,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "CyberKongz",
@@ -6069,7 +6069,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "daGama",
@@ -6091,7 +6091,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DeBank",
@@ -6113,7 +6113,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Delpho",
@@ -6135,7 +6135,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DIN",
@@ -6157,7 +6157,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ethos Network",
@@ -6179,7 +6179,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fight.ID",
@@ -6201,7 +6201,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GAIB AI",
@@ -6223,7 +6223,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Glacier Network",
@@ -6245,7 +6245,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GoodDollar",
@@ -6267,7 +6267,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Hoppr",
@@ -6289,7 +6289,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Infinity Warlords",
@@ -6311,7 +6311,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Janus Protocol",
@@ -6333,7 +6333,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Jumper Exchange",
@@ -6355,7 +6355,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Katana",
@@ -6377,7 +6377,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kinza Finance",
@@ -6399,7 +6399,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "LitVMSwap",
@@ -6421,7 +6421,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Luxxcoin",
@@ -6443,7 +6443,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Magma",
@@ -6465,7 +6465,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Marginly",
@@ -6487,7 +6487,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "MegaETH",
@@ -6509,17 +6509,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Midas Markets",
   "slug": "midas-markets",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/midas-markets",
   "description": "",
   "notes": "",
   "tags": "trading, ai, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -6530,8 +6530,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nebulai",
@@ -6553,7 +6553,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "NuLink",
@@ -6575,7 +6575,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ostium",
@@ -6597,7 +6597,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ouinex Exchange",
@@ -6619,7 +6619,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Paradex",
@@ -6641,7 +6641,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Play AI",
@@ -6663,7 +6663,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "PrismaX",
@@ -6685,7 +6685,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Puffpaw",
@@ -6707,7 +6707,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rabby Wallet",
@@ -6729,7 +6729,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rainbow",
@@ -6751,7 +6751,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Revert",
@@ -6773,7 +6773,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Roach Racing Club",
@@ -6795,7 +6795,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rubicon",
@@ -6817,7 +6817,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Runwago",
@@ -6839,17 +6839,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Savior of Health",
   "slug": "savior-of-health",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/savior-of-health",
   "description": "",
   "notes": "",
   "tags": "ai, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -6860,8 +6860,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sogni AI",
@@ -6883,7 +6883,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SuperBoring",
@@ -6905,7 +6905,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Swapper Finance",
@@ -6927,17 +6927,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SwarmBase",
   "slug": "swarmbase",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/swarmbase",
   "description": "",
   "notes": "",
   "tags": "ai, nft",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -6948,18 +6948,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sweep Finance",
   "slug": "sweep-finance",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/sweep-finance",
   "description": "",
   "notes": "",
   "tags": "gaming, trading",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -6970,8 +6970,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: KYC, X post, Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tari",
@@ -6993,7 +6993,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tria",
@@ -7015,7 +7015,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Trojan",
@@ -7037,7 +7037,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "W.AI",
@@ -7059,7 +7059,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Watt2Trade",
@@ -7081,7 +7081,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "WELL3",
@@ -7103,7 +7103,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "World Liberty",
@@ -7125,7 +7125,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Yield Basis",
@@ -7147,7 +7147,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "YO",
@@ -7169,7 +7169,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Zyfai",
@@ -7191,7 +7191,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Action Model",
@@ -7213,17 +7213,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "AIW3",
   "slug": "aiw3",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/aiw3",
   "description": "",
   "notes": "",
   "tags": "ai, trading, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -7234,8 +7234,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "American Fortress",
@@ -7257,7 +7257,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ankr",
@@ -7279,7 +7279,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ARC Terminal",
@@ -7301,7 +7301,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ARO Network",
@@ -7323,7 +7323,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Atoma",
@@ -7345,12 +7345,12 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Beldex",
   "slug": "beldex",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/beldex",
   "description": "",
   "notes": "",
@@ -7366,8 +7366,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord, YouTube",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Canborsa",
@@ -7389,7 +7389,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Carbon",
@@ -7411,7 +7411,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "CZR Exchange",
@@ -7433,7 +7433,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DataHive",
@@ -7455,7 +7455,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "dFusion AI",
@@ -7477,7 +7477,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DGrid AI",
@@ -7499,7 +7499,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "dTelecom",
@@ -7521,7 +7521,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Dustswap",
@@ -7543,7 +7543,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "eCash",
@@ -7565,7 +7565,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fair Shares",
@@ -7587,7 +7587,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fast Protocol",
@@ -7609,7 +7609,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FungoLabs",
@@ -7631,7 +7631,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GTE",
@@ -7653,7 +7653,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "heyAura",
@@ -7675,17 +7675,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Hyperlynx",
   "slug": "hyperlynx",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/hyperlynx",
   "description": "",
   "notes": "",
   "tags": "defi, trading",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -7696,8 +7696,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "KieDex",
@@ -7719,7 +7719,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Knidos",
@@ -7741,7 +7741,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Konnex",
@@ -7763,7 +7763,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "LETSTOP",
@@ -7785,7 +7785,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lighter Robinhood",
@@ -7807,7 +7807,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Memebook",
@@ -7829,7 +7829,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Mezo",
@@ -7851,7 +7851,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "MinionLab",
@@ -7873,7 +7873,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Moonbirds",
@@ -7895,7 +7895,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Motoswap",
@@ -7917,7 +7917,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "MovitOn",
@@ -7939,7 +7939,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "NUVA Finance",
@@ -7961,17 +7961,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Offline Protocol",
   "slug": "offline-protocol",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/offline-protocol",
   "description": "",
   "notes": "",
   "tags": "depin, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -7982,18 +7982,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Phone",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Omega",
   "slug": "omega",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/omega",
   "description": "",
   "notes": "",
   "tags": "defi, trading, nft",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -8004,8 +8004,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Quip Network",
@@ -8027,7 +8027,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rhuna",
@@ -8049,7 +8049,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Senpi AI",
@@ -8071,7 +8071,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SoSoValue",
@@ -8093,7 +8093,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "STRATO",
@@ -8115,17 +8115,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Tori Finance",
   "slug": "tori-finance",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/tori-finance",
   "description": "",
   "notes": "",
   "tags": "defi, staking, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -8136,8 +8136,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "TradeFox",
@@ -8159,7 +8159,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "USD.ai",
@@ -8181,7 +8181,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Valantis Labs",
@@ -8203,7 +8203,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Warden Protocol",
@@ -8225,17 +8225,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "WheelX",
   "slug": "wheelx",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/wheelx",
   "description": "",
   "notes": "",
   "tags": "defi, trading, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -8246,8 +8246,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "X1 EcoChain",
@@ -8269,7 +8269,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "xDFi",
@@ -8291,7 +8291,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "3DOS",
@@ -8313,7 +8313,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "AITV",
@@ -8335,7 +8335,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ambios Network",
@@ -8357,7 +8357,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Arena of Faith",
@@ -8379,7 +8379,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Axiom Exchange",
@@ -8401,7 +8401,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bigcoin",
@@ -8423,7 +8423,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Bombie",
@@ -8445,7 +8445,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Boop",
@@ -8467,7 +8467,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Captain Tsubasa",
@@ -8489,7 +8489,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Concrete",
@@ -8511,7 +8511,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cysic",
@@ -8533,7 +8533,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "DATS Project",
@@ -8555,7 +8555,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Defi App",
@@ -8577,7 +8577,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Dropee",
@@ -8599,7 +8599,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ethermax",
@@ -8621,7 +8621,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Etherscan",
@@ -8643,7 +8643,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "EVEDEX",
@@ -8665,7 +8665,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "FIFA Collect",
@@ -8687,7 +8687,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Gaia",
@@ -8709,7 +8709,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GolfN",
@@ -8731,7 +8731,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Harmonix Finance",
@@ -8753,7 +8753,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "HeatRush",
@@ -8775,7 +8775,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Illuvium",
@@ -8797,7 +8797,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Incentiv",
@@ -8819,7 +8819,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Infinity Ground",
@@ -8841,7 +8841,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "InterLink Labs",
@@ -8863,7 +8863,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "June AI",
@@ -8885,7 +8885,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Kaisar Network",
@@ -8907,7 +8907,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "KRAIN",
@@ -8929,7 +8929,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Mirra AI",
@@ -8951,7 +8951,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Moca Network",
@@ -8973,7 +8973,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nansen AI",
@@ -8995,7 +8995,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nesa AI",
@@ -9017,7 +9017,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nosana",
@@ -9039,7 +9039,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nudge",
@@ -9061,7 +9061,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "ONE Fight Arena",
@@ -9083,7 +9083,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Photon",
@@ -9105,7 +9105,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Pi Network",
@@ -9127,7 +9127,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ping Network",
@@ -9149,7 +9149,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Plushie AI",
@@ -9171,7 +9171,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Re",
@@ -9193,7 +9193,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sallar",
@@ -9215,7 +9215,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Singularity",
@@ -9237,7 +9237,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sixpence",
@@ -9259,7 +9259,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SkyTrade",
@@ -9281,7 +9281,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Soul Labs",
@@ -9303,7 +9303,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Space Nation",
@@ -9325,7 +9325,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Spark Finance",
@@ -9347,7 +9347,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Spekter Agency",
@@ -9369,17 +9369,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Startale",
   "slug": "startale",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/startale",
   "description": "",
   "notes": "",
   "tags": "defi, potential",
-  "score": "170 degrees",
+  "score": "",
   "status": "Live",
   "next_move": "",
   "recorded": "",
@@ -9390,8 +9390,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Technotainment",
@@ -9413,7 +9413,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Teneo Protocol",
@@ -9435,7 +9435,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "UpRock",
@@ -9457,7 +9457,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Virtuals Protocol",
@@ -9479,7 +9479,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "x365 AI",
@@ -9501,7 +9501,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Decimated Game",
@@ -9523,17 +9523,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Leap",
   "slug": "leap",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/leap",
   "description": "solana",
   "notes": "",
   "tags": "trading, potential",
-  "score": "9 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -9544,8 +9544,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Phone",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Mars Rally Championship",
@@ -9567,7 +9567,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "0xAstra",
@@ -9589,7 +9589,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Anichess",
@@ -9611,7 +9611,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Aztec",
@@ -9633,7 +9633,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Brevis",
@@ -9655,7 +9655,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Calamity",
@@ -9677,7 +9677,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Cambrian Network",
@@ -9699,7 +9699,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Camp Network",
@@ -9721,7 +9721,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Caster",
@@ -9743,7 +9743,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Chaos Labs",
@@ -9765,7 +9765,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Credible",
@@ -9787,7 +9787,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "EVAA Protocol",
@@ -9809,7 +9809,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Firewall",
@@ -9831,7 +9831,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Fraction AI",
@@ -9853,7 +9853,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GammaSwap",
@@ -9875,7 +9875,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GIWA",
@@ -9897,7 +9897,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "GTR",
@@ -9919,7 +9919,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Haust Network",
@@ -9941,7 +9941,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "HyperFlash",
@@ -9963,7 +9963,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Interstate",
@@ -9985,7 +9985,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "IOPn",
@@ -10007,7 +10007,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Ithaca Protocol",
@@ -10029,7 +10029,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "LazyOtter",
@@ -10051,7 +10051,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Linera",
@@ -10073,7 +10073,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lora Finance",
@@ -10095,7 +10095,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Lowlife Forms",
@@ -10117,7 +10117,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Miden",
@@ -10139,7 +10139,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Morfi",
@@ -10161,7 +10161,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nexchain",
@@ -10183,7 +10183,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Otomato",
@@ -10205,7 +10205,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Phyt.fun",
@@ -10227,7 +10227,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Picasso Markets",
@@ -10249,7 +10249,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Planemo Trading",
@@ -10271,7 +10271,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Portrait",
@@ -10293,7 +10293,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Pulsar Money",
@@ -10315,17 +10315,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "QMS Network",
   "slug": "qms-network",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/qms-network",
   "description": "qms",
   "notes": "",
   "tags": "testnet, depin, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10336,8 +10336,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post, Email, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Raiku",
@@ -10359,7 +10359,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "RAX Finance",
@@ -10381,7 +10381,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Reaper Actual",
@@ -10403,7 +10403,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Reddio",
@@ -10425,17 +10425,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Robinhood",
   "slug": "robinhood",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/robinhood",
   "description": "",
   "notes": "",
   "tags": "trading, testnet, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10446,18 +10446,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Rome",
   "slug": "rome",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/rome",
   "description": "solana",
   "notes": "",
   "tags": "testnet, defi, potential",
-  "score": "1 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10468,8 +10468,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Seismic",
@@ -10491,7 +10491,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SHIFT",
@@ -10513,7 +10513,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Soneium",
@@ -10535,7 +10535,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sovra",
@@ -10557,7 +10557,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Sphinx Protocol",
@@ -10579,7 +10579,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Stormrae",
@@ -10601,7 +10601,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Talus Network",
@@ -10623,7 +10623,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "The RWAX",
@@ -10645,7 +10645,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Titan Network",
@@ -10667,7 +10667,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Umi Network",
@@ -10689,7 +10689,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Unichain",
@@ -10711,7 +10711,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Verasity",
@@ -10733,7 +10733,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "375ai",
@@ -10755,7 +10755,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Base",
@@ -10777,7 +10777,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Block Street",
@@ -10799,17 +10799,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Checkpoint",
   "slug": "checkpoint",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/checkpoint",
   "description": "arbitrum",
   "notes": "",
   "tags": "testnet, trading, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10820,18 +10820,18 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Elysium",
   "slug": "elysium",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/elysium",
   "description": "",
   "notes": "",
   "tags": "testnet, defi, potential",
-  "score": "272 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10842,8 +10842,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Flop Network",
@@ -10865,7 +10865,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Karrier One",
@@ -10887,17 +10887,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nava AI",
   "slug": "nava-ai",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/nava-ai",
   "description": "",
   "notes": "",
   "tags": "ai, defi, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10908,8 +10908,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "Project 0",
@@ -10931,17 +10931,17 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Retium",
   "slug": "retium",
-  "source": "airdropstop+airdropsio",
+  "source": "airdropstop",
   "source_url": "https://www.airdropstop.com/airdrops/retium",
   "description": "",
   "notes": "",
   "tags": "testnet, defi, potential",
-  "score": "0 degrees",
+  "score": "",
   "status": "Potential",
   "next_move": "",
   "recorded": "",
@@ -10952,8 +10952,8 @@
   "end_date": "",
   "prize": "",
   "risk": "",
-  "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "kyc": "",
+  "fetched": "2026-11-22"
  },
  {
   "name": "SOMO",
@@ -10975,7 +10975,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "SnakeLite x SonicX",
@@ -10997,7 +10997,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Nakamoto Games",
@@ -11019,7 +11019,7 @@
   "prize": "",
   "risk": "",
   "kyc": "",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-22"
  },
  {
   "name": "Null",
@@ -11041,7 +11041,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Alloco",
@@ -11063,7 +11064,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "OWNIT",
@@ -11085,7 +11087,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "ZetaChain",
@@ -11107,7 +11110,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "IPX Exchange",
@@ -11129,7 +11133,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, Email, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "June",
@@ -11151,7 +11156,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Pond",
@@ -11173,7 +11179,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, Email, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "SolMoon",
@@ -11195,7 +11202,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Refrax",
@@ -11217,7 +11225,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "p2p.gifts",
@@ -11239,7 +11248,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "MindGames",
@@ -11261,7 +11271,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "CZR",
@@ -11283,7 +11294,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: KYC",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "PowerX OneWallet",
@@ -11305,7 +11317,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post, Phone",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "REP",
@@ -11327,7 +11340,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Reels",
@@ -11349,7 +11363,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Entropy",
@@ -11371,7 +11386,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "CONSO",
@@ -11393,7 +11409,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "DualMint",
@@ -11415,7 +11432,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Flop Labs",
@@ -11437,7 +11455,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Fortune Foes",
@@ -11459,7 +11478,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Sight",
@@ -11481,7 +11501,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Elyon Chain",
@@ -11503,7 +11524,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Pascal",
@@ -11525,7 +11547,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Atoma-logo",
@@ -11547,7 +11570,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Backyard Finance",
@@ -11569,7 +11593,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "MoonPay",
@@ -11591,7 +11616,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Enigma",
@@ -11613,7 +11639,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Hey",
@@ -11635,7 +11662,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Stakr Finance",
@@ -11657,7 +11685,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "SolPump",
@@ -11679,7 +11708,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "cambria-logo",
@@ -11701,7 +11731,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "DBK Chain",
@@ -11723,7 +11754,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "orbinum-logo",
@@ -11745,7 +11777,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post, Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "GMGN",
@@ -11767,7 +11800,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Privacy Pools",
@@ -11789,7 +11823,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Legend",
@@ -11811,7 +11846,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Ducat",
@@ -11833,7 +11869,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Tradoor0-logo",
@@ -11855,7 +11892,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "3jane-logo",
@@ -11877,7 +11915,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "hoodtracker-logo",
@@ -11899,7 +11938,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Hudi",
@@ -11921,7 +11961,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "ADI Predictstreet",
@@ -11943,7 +11984,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post, Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Osero",
@@ -11965,7 +12007,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Telegram, X post",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Rialto",
@@ -11987,7 +12030,8 @@
   "prize": "",
   "risk": "",
   "kyc": "no account flags",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "TurboFlow",
@@ -12009,7 +12053,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "AFX-logo",
@@ -12031,7 +12076,8 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Discord",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  },
  {
   "name": "Scout",
@@ -12053,6 +12099,7 @@
   "prize": "",
   "risk": "",
   "kyc": "Requires: Email",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "stale_since": "2026-11-23"
  }
 ]

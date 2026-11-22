@@ -262,9 +262,21 @@ def dedupe(records):
     return out
 
 
+def name_key(name):
+    return re.sub(r"[^a-z0-9]", "", (name or "").lower())
+
+
 def main():
     today = datetime.now().strftime("%Y-%m-%d")
-    records = []
+    previous = {}
+    if DATA.exists():
+        try:
+            for r in json.loads(DATA.read_text(encoding="utf-8")):
+                previous[name_key(r.get("name", ""))] = r
+        except Exception:
+            previous = {}
+
+    records, report, failures = [], [], []
     for name, url, fn in (
         ("airdroplet", AD_URL, parse_airdroplet),
         ("airdropvillage", AV_URL, parse_airdropvillage),
@@ -273,32 +285,69 @@ def main():
         try:
             got = fn(get(url))
             print(f"{name}: {len(got)} records")
+            report.append(f"| {name} | {len(got)} | ok | - |")
             records += got
         except Exception as e:
             print(f"{name} FAILED: {type(e).__name__}: {e}")
-    try:
-        got = parse_airdropstop(render(AS_URL))
-        print(f"airdropstop: {len(got)} records")
-        records += got
-    except ImportError:
-        print("airdropstop SKIPPED: playwright not installed")
-    except Exception as e:
-        print(f"airdropstop FAILED: {type(e).__name__}: {e}")
-    try:
-        got = scrape_airdropsio()
-        print(f"airdrops.io: {len(got)} records")
-        records += got
-    except ImportError:
-        print("airdrops.io SKIPPED: playwright not installed")
-    except Exception as e:
-        print(f"airdrops.io FAILED: {type(e).__name__}: {e}")
-    before = len(records)
-    records = dedupe(records)
-    for r in records:
-        r["fetched"] = today
+            report.append(f"| {name} | 0 | FAILED | {type(e).__name__} |")
+            failures.append(name)
+
+    for name, fn in (("airdropstop", lambda: parse_airdropstop(render(AS_URL))),
+                     ("airdrops.io", scrape_airdropsio)):
+        try:
+            got = fn()
+            print(f"{name}: {len(got)} records")
+            report.append(f"| {name} | {len(got)} | ok | - |")
+            records += got
+        except ImportError:
+            print(f"{name} SKIPPED: playwright not installed")
+            report.append(f"| {name} | 0 | skipped | no playwright |")
+            failures.append(name)
+        except Exception as e:
+            print(f"{name} FAILED: {type(e).__name__}: {e}")
+            report.append(f"| {name} | 0 | FAILED | {type(e).__name__} |")
+            failures.append(name)
+
+    raw = len(records)
+    fresh = dedupe(records)
+    fresh_keys = {name_key(r["name"]) for r in fresh}
+
+    # A failed source must never delete coverage the repo already has.
+    stale = 0
+    for k, r in previous.items():
+        if k and k not in fresh_keys:
+            r["stale_since"] = r.get("fetched", "")
+            fresh.append(r)
+            stale += 1
+
+    for r in fresh:
+        if "stale_since" not in r:
+            r["fetched"] = today
+
     DATA.parent.mkdir(parents=True, exist_ok=True)
-    DATA.write_text(json.dumps(records, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"{before} raw -> {len(records)} unique -> {DATA}")
+    DATA.write_text(json.dumps(fresh, indent=1, ensure_ascii=False), encoding="utf-8")
+
+    live = sum(1 for r in fresh if "stale_since" not in r)
+    lines = [
+        f"# Fetch report {today}",
+        "",
+        "| Source | Records | Status | Error |",
+        "|---|---|---|---|",
+        *report,
+        "",
+        f"- refreshed this run: **{live}**",
+        f"- retained from previous runs (source unavailable): **{stale}**",
+        f"- failing sources: {', '.join(failures) if failures else 'none'}",
+        "",
+        "Retained rows keep their original `fetched` date and carry `stale_since`, so a blocked",
+        "source never silently deletes records.",
+        "",
+    ]
+    report_text = chr(10).join(lines) + chr(10)
+    (DATA.parent / "fetch-report.md").write_text(report_text, encoding="utf-8")
+    print(f"{raw} raw -> {len(fresh)} unique ({live} refreshed, {stale} retained)")
+    if failures:
+        print("FAILING:", ", ".join(failures))
     return 0
 
 

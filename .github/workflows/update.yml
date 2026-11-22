@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "airdrop-bot"
           git config user.email "airdrop-bot@users.noreply.github.com"
-          git add data/airdrops.json ledger.md ledger.xlsx
+          git add data/airdrops.json data/fetch-report.md ledger.md ledger.xlsx
           if git diff --cached --quiet; then
             echo "no changes"
           else

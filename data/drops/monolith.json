@@ -1,0 +1,52 @@
+{
+ "name": "Monolith",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://www.swanusd.com/airdrop",
+ "needs": "",
+ "steps": [
+  "Open swanusd.com/airdrop from a link you typed yourself and enter your Ethereum address in the checker. If it is not listed, it cannot qualify for the launch pool.",
+  "Stake a little over 1,000 swanUSD to get at least 1,000 sSwanUSD.",
+  "Optionally deposit the sSwanUSD in SWAN-rewards staking. It still counts for the airdrop and also earns SWAN emissions.",
+  "Keep at least 1,000 sSwanUSD for 7 full days. Start no later than 12 November 2026 at 16:00 UTC.",
+  "Watch @MonolithMarket for the claim date, then claim before the expiry. Monolith says it never sends DMs first, so ignore anyone who messages you with a claim link."
+ ],
+ "end": "12 Nov",
+ "days": "",
+ "pool": "",
+ "what": "Monolith's swanUSD shares 100,000 SWAN among snapshot-listed addresses that hold 1,000 sSwanUSD for 7 days by 19 November. Newcomers cannot qualify.",
+ "behind": "Monolith is built and owned by Inverse Finance DAO, the group behind the DOLA stablecoin and FiRM. The code's author is Nour Haridy, who introduced it on X on 6 March 2025: \"Excited to finally unveil Monolith, a permissionless stablecoin deployment platform\". The launch was paid for by Inverse itself; a forum proposal that month asked to \"Approve 332,052 DOLA to Product Working Group multisig\". We",
+ "costs": "There is no entry fee, but you need about $1,000 or more in sSwanUSD locked up for at least 7 days, and every step pays Ethereum mainnet gas: minting or swapping, staking, depositing and claiming. If you mint, paid debt carries a variable interest rate and free debt is 0% but can be redeemed against your collateral. Liquidations carry a penalty of up to 10%. Monolith has not published swanUSD's mi",
+ "risks": "The airdrop is closed to newcomers. Only the 12,078 addresses on the 19 October 2026 snapshot can qualify, and there is no appeal. No terms of service, legal entity, excluded countries, age rule or KYC policy are published for Monolith or swanUSD. The airdrop has campaign terms only. Monolith's risk page says: \"Only deploy capital you are prepared to lose.\" The app adds: \"This is an experimental p",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/monolith/",
+ "checked": "2026-11-23",
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 32 days old (registered 2026-10-21)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 32,
+  "checked": "2026-11-23T01:48:39"
+ },
+ "domain_age_days": 32,
+ "slug": "monolith",
+ "dossier": "drops/monolith.md",
+ "published": "2026-11-23"
+}

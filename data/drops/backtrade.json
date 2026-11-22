@@ -1,0 +1,59 @@
+{
+ "name": "Backtrade",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://backtrade.xyz",
+ "needs": "",
+ "steps": [
+  "Use only backtrade.xyz , its app, docs and partners subdomains, and @backtrade_xyz on X.",
+  "Press Join waitlist and enter a wallet address and an email. The form can answer \"Not available in your region.\" and no country list is published. Warning The form takes your email, but the docs say: \"The terms, privacy policy and risk disclosure are being prepared with counsel and are not published yet.\"",
+  "Deposit at least 10 USDC, counted after fees, from Hyperliquid or HyperEVM. A first deposit to an unused address also pays a one-time 1 USDC activation.",
+  "Pick BTC or ETH, long or short, from $10 of margin. Warning At 1000x on BTC, \"a move of about 0.052% against you liquidates the position, and the whole margin is lost\".",
+  "Losses mint BACK by themselves. Claim its USDC in the app, and withdraw your free balance at any time (at least 10 USDC through the app)."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Backtrade's docs rule out an airdrop. BACK is minted only when you lose on its 1000x HyperEVM perps and burns in 7 days. Waitlist only; not live yet.",
+ "behind": "Backtrade names nobody. We found no person, company or investor on its site, partner page or docs, which mention only \"the team\" and multisig wallets. No raise is published, and the pool was not seeded. The domain was registered on 9 December 2025. Nothing official links Backtrade to Papertrade's developers, and neither project mentions the other. Get the next airdrop first We post new guides, cla",
+ "costs": "The waitlist is free. Opening a trade costs nothing, and \"Everything the protocol takes comes out of a winning close\": a deadband, a haircut that keeps at most 90% of the gain, a 2% win fee and a 1.2% referral fee. In the docs' example, a 0.5% BTC rise on a 100x long with $100 of margin pays $41.80 of a raw gain of about $50. \"A loss costs only the loss.\" The minimums are 10 USDC to deposit, $10 o",
+ "risks": "The LP starts empty, so early winners are paid through the queue, and \"Nothing caps the queue or bounds the wait.\" Asked whether the code has been audited, the FAQ answers \"Not yet.\" \"The contracts are upgradeable, so in principle the owner can make them do anything\", after a 1-day delay. At launch \"there is no outflow limiter and no circuit breaker\", and the docs call price manipulation through H",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/backtrade/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "nft",
+  "waitlist",
+  "trading"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 348 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 348,
+  "checked": "2026-11-23T02:09:47"
+ },
+ "domain_age_days": 348,
+ "slug": "backtrade",
+ "dossier": "drops/backtrade.md",
+ "published": "2026-11-23"
+}

@@ -11,6 +11,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -18,8 +19,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install deps
-        run: pip install --quiet openpyxl
+      - name: Install Python deps
+        run: pip install --quiet openpyxl playwright
+
+      - name: Install browser for client-rendered sources
+        run: python -m playwright install --with-deps chromium
 
       - name: Scrape trackers
         run: python tools/scrape_trackers.py

@@ -102,6 +102,10 @@ def build_md(all_rows):
         f"- {len(dated)} carry a dated deadline or snapshot, **{len(soon)} fall within 30 days**",
         f"- {sum(1 for r in all_rows if r[6])} carry a risk rating from the tracker",
         f"- {sum(1 for r in all_rows if 'KYC' in (r[3] or ''))} list KYC as a requirement",
+        f"- sources: {sum(1 for r in all_rows if 'airdroplet' in r[1])} airdroplet, "
+        f"{sum(1 for r in all_rows if 'airdropvillage' in r[1])} airdropvillage, "
+        f"{sum(1 for r in all_rows if '99airdrops' in r[1])} 99airdrops, "
+        f"{sum(1 for r in all_rows if 'airdropstop' in r[1])} airdropstop",
         "",
         "Read the source link before acting. A tracker listing is not verification: confirm the",
         "official domain, then run `python tools/triage.py <url>`.",
@@ -178,6 +182,9 @@ def build_xlsx(all_rows):
         ("From airdroplet", sum(1 for r in all_rows if "airdroplet" in r[1])),
         ("From airdropvillage", sum(1 for r in all_rows if "airdropvillage" in r[1])),
         ("From 99airdrops", sum(1 for r in all_rows if "99airdrops" in r[1])),
+        ("From airdropstop", sum(1 for r in all_rows if "airdropstop" in r[1])),
+        ("Marked live by source", sum(1 for r in all_rows if (r[2] or "").lower().startswith("live"))),
+        ("Marked potential/wait", sum(1 for r in all_rows if (r[2] or "").lower().startswith(("potential", "wait")))),
         ("Operator target", 100),
         ("Last updated", date.today().isoformat()),
     ):

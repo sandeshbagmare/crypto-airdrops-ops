@@ -17,6 +17,7 @@ UA = "airdrops-ops-research/1.0 (+personal research)"
 AD_URL = "https://airdroplet.com/testnet-airdrops"
 AV_URL = "https://www.airdropvillage.io/airdrops"
 N99_URL = "https://99airdrops.com/"
+AS_URL = "https://www.airdropstop.com/airdrops"
 
 
 def txt(s):
@@ -134,6 +135,52 @@ def parse_99airdrops(html):
     return out
 
 
+def parse_airdropstop(html):
+    """airdropstop renders client-side; parse its hydrated list rows.
+
+    Rows expose data-search / data-status / data-chain / data-categories.
+    Ended campaigns are dropped so the ledger only lists active ones.
+    """
+    out = []
+    for b in re.split(r'(?=<li [^>]*data-search=)', html)[1:]:
+        if "data-search=" not in b[:400]:
+            continue
+        link = re.search(r'<h3[^>]*>\s*<a[^>]*href="(/airdrops/[^"]+)"[^>]*>(.*?)</a>', b, re.S)
+        if not link:
+            continue
+        head = b[:700]
+
+        def attr(key):
+            m = re.search(key + r'="([^"]*)"', head)
+            return m.group(1) if m else ""
+
+        status = attr("data-status")
+        if status == "ended":
+            continue
+        name = txt(link.group(2)).strip()
+        slug = link.group(1).strip("/").split("/")[-1]
+        rec = blank(name, slug, "airdropstop",
+                    "https://www.airdropstop.com" + link.group(1))
+        rec["status"] = status.capitalize() if status else ""
+        rec["description"] = attr("data-chain")
+        rec["tags"] = attr("data-categories").replace(" ", ", ")
+        out.append(rec)
+    return out
+
+
+def render(url):
+    """Render a client-side page. Raises ImportError when playwright is absent."""
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        b = p.chromium.launch(headless=True)
+        pg = b.new_page(user_agent=UA)
+        pg.goto(url, wait_until="networkidle", timeout=90000)
+        pg.wait_for_timeout(2500)
+        html = pg.content()
+        b.close()
+    return html
+
+
 def dedupe(records):
     seen, out = {}, []
     for r in records:
@@ -167,6 +214,14 @@ def main():
             records += got
         except Exception as e:
             print(f"{name} FAILED: {type(e).__name__}: {e}")
+    try:
+        got = parse_airdropstop(render(AS_URL))
+        print(f"airdropstop: {len(got)} records")
+        records += got
+    except ImportError:
+        print("airdropstop SKIPPED: playwright not installed")
+    except Exception as e:
+        print(f"airdropstop FAILED: {type(e).__name__}: {e}")
     before = len(records)
     records = dedupe(records)
     for r in records:

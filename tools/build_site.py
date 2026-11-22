@@ -76,6 +76,9 @@ HTML = """<!doctype html>
     <option value="60">60+</option>
     <option value="80">80+</option>
   </select>
+  <select id="tag">
+    <option value="">Any type</option>
+  </select>
   <select id="sort">
     <option value="conf">Best evidenced</option>
     <option value="cheap">Cheapest first</option>
@@ -100,6 +103,7 @@ function card(d){
     <h2>${esc(d.name)} <span class="badge ${cls(c)}">confidence ${d.confidence??'?'}</span>
       ${d.status?`<span class="badge">${esc(d.status)}</span>`:''}</h2>
     <div class="what">${esc((d.what||'').slice(0,300))||'<i>no description found</i>'}</div>
+    <div class="ev">${(d.tags||[]).map(t=>`<span class="badge">${esc(t)}</span>`).join(' ')}</div>
     <div class="meta">
       ${d.official?`<a href="${esc(d.official)}" target="_blank" rel="noopener nofollow">official site</a>`:''}
       ${d.end?`<span>key date: ${esc(d.end)}</span>`:''}
@@ -123,10 +127,12 @@ function render(){
   const q=document.getElementById('q').value.toLowerCase();
   const min=+document.getElementById('conf').value;
   const sort=document.getElementById('sort').value;
+  const tag=document.getElementById('tag').value;
   let rows=DATA.filter(d=>{
     if((typeof d.confidence!=='number'?0:d.confidence)<min) return false;
+    if(tag && !(d.tags||[]).includes(tag)) return false;
     if(!q) return true;
-    return [d.name,d.what,d.needs,d.behind,d.status].join(' ').toLowerCase().includes(q);
+    return [d.name,d.what,d.needs,d.behind,d.status,(d.tags||[]).join(' ')].join(' ').toLowerCase().includes(q);
   });
   if(sort==='conf') rows.sort((a,b)=>(b.confidence??-1)-(a.confidence??-1));
   if(sort==='cheap') rows.sort((a,b)=>(a.friction??99)-(b.friction??99)||(b.confidence??-1)-(a.confidence??-1));
@@ -135,10 +141,15 @@ function render(){
   document.getElementById('grid').innerHTML=rows.slice(0,400).map(card).join('');
   document.getElementById('count').textContent=rows.length+' shown';
 }
-fetch('data.json').then(r=>r.json()).then(d=>{DATA=d;render();})
+fetch('data.json').then(r=>r.json()).then(d=>{DATA=d;fillTags();render();})
   .catch(e=>{document.getElementById('grid').innerHTML='<p>Could not load data.json</p>';});
-['q','conf','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));
-document.getElementById('sort').addEventListener('change',render);
+function fillTags(){
+  const tags=[...new Set(DATA.flatMap(d=>d.tags||[]))].sort();
+  const sel=document.getElementById('tag');
+  tags.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t+' ('+DATA.filter(d=>(d.tags||[]).includes(t)).length+')';sel.appendChild(o);});
+}
+['q','conf','tag'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+['sort','tag'].forEach(id=>document.getElementById(id).addEventListener('change',render));
 </script>
 </body></html>
 """

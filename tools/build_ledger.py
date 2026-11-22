@@ -77,6 +77,25 @@ def age_from(f):
     return None
 
 
+CATEGORY = (({"testnet"}, ("testnet", "sepolia", "faucet", "devnet")),
+            ({"points"}, ("points", " xp", "season", "leaderboard")),
+            ({"quests"}, ("quest", "task", "mission")),
+            ({"nft"}, ("nft", "mint", "collectible")),
+            ({"waitlist"}, ("waitlist", "pre-register", "preregister", "early access")),
+            ({"trading"}, ("trade", "volume", "swap", "perpetual")),
+            ({"staking"}, ("stake", "staking", "lock", "liquidity")),
+            ({"snapshot"}, ("snapshot", "retroactive", "retro")))
+
+
+def tags_of(what, steps, needs):
+    blob = " ".join([what or "", needs or "", " ".join(steps or [])]).lower()
+    found = []
+    for names, words in CATEGORY:
+        if any(w in blob for w in words):
+            found.append(sorted(names)[0])
+    return found
+
+
 FRICTION_WORDS = ((30, "KYC", ("kyc", "passport", "proof of address", "identity verification")),
                   (25, "deposit", ("deposit", "fund your", "minimum", "purchase", "buy ", "stake ")),
                   (10, "wallet connect", ("connect", "sign the message", "sign a message", "approve")),
@@ -177,6 +196,7 @@ def build(records, verified, fx, dupes):
             "evidence": v.get("evidence", []), "source": src,
             "source_url": r.get("source_url", ""), "checked": v.get("checked", ""),
             "friction": fr, "friction_label": friction_label(drivers),
+            "tags": tags_of(what, steps, needs),
             "also_listed_by": group.get("sources", []) if group else [],
             "forensics": {"verdict": f.get("verdict"), "score": f.get("score")} if f else None,
             "domain_age_days": age_from(f),

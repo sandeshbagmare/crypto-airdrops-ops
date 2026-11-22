@@ -1,0 +1,57 @@
+{
+ "name": "ChimpX",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://token.chimpx.ai",
+ "needs": "",
+ "steps": [
+  "Open token.chimpx.ai and scroll to the airdrop checker.",
+  "Paste your Solana or BNB Chain address and press Check. \"You'll never be asked to sign or send anything here.\" A wallet outside the list shows: \"This wallet isn't in the snapshot.\"",
+  "If your allocation is on a BNB Chain wallet, you'll need a Solana wallet too: \"How to link it is announced before claims open.\"",
+  "Wait for the claim, about a month after launch, and follow @ChimpxAI for the date. Warning ChimpX says: \"We will never DM you first. Never share your seed phrase or private keys.\" Anyone offering an early claim or a sale spot by message is a scammer."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "ChimpX, formerly Chimp Exchange, opened its $CHIMP airdrop checker on 28 October 2026. Claims unlock a month after launch. Who qualifies and the risks.",
+ "behind": "ChimpX's blog names \"Akshay Nassa, CEO &amp; Co-Founder\", and Dhruval Gupta wrote on X that he has \"been building this quietly as CTO at @ChimpxAI.\" In May 2026 ChimpX announced a $2.8 million seed round: \"The round was co-led by Waterdrip Capital and MetaLabs Ventures, with participation from Mindfulness Capital, NEURALHASH Capital, Marshland Capital, Maven Capital, Attention Venture, and BRINC.\"",
+ "costs": "Checking costs nothing and needs no wallet connection. ChimpX hasn't said what claiming will cost; on Solana it should be a small network fee. Earning more HOOTs was never free in practice: the app's free plan charges a \"1.0% flat swap fee\", monthly plans cost $9 or $19, and a SuperChimp NFT that doubled HOOTs sold for 0.20 SOL.",
+ "risks": "ChimpX publishes no terms of service, no company name and no list of excluded countries. Bots and multi-wallets are cut: \"No appeals.No exceptions.\" $CHIMP was sold several times before this launch. In February 2026 ChimpX said it \"Raised $100K on @Spores_Network\" and promised a \"Listing Price: $0.40\" on PancakeSwap that never happened. A further public sale was set for 12 October on Metaplex. Chi",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/chimpx/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "staking",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-01-09 (682 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "age_days": 682,
+  "checked": "2026-11-23T02:07:17"
+ },
+ "domain_age_days": 682,
+ "slug": "chimpx",
+ "dossier": "drops/chimpx.md",
+ "published": "2026-11-23"
+}

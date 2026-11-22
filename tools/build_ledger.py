@@ -77,6 +77,45 @@ def age_from(f):
     return None
 
 
+FRICTION_WORDS = ((30, "KYC", ("kyc", "passport", "proof of address", "identity verification")),
+                  (25, "deposit", ("deposit", "fund your", "minimum", "purchase", "buy ", "stake ")),
+                  (10, "wallet connect", ("connect", "sign the message", "sign a message", "approve")),
+                  (5, "social tasks", ("telegram", "discord", "x post", "tweet", "follow @")),
+                  (3, "email", ("email", "e-mail", "waitlist")))
+NEGATION = re.compile(r"\b(no|not|none|never|without|zero|optional|if any)\b", re.I)
+# A cost only counts as friction when the text says it is actually required.
+REQUIRED = re.compile(r"\b(require|required|requires|must|mandatory|minimum|need|needs|in order to)\b",
+                      re.I)
+CONDITIONAL = {"KYC", "deposit"}
+
+
+def friction_of(needs, steps, what, costs):
+    """How cheap is this drop to attempt? Negated mentions ('no KYC') do not count."""
+    blob = " ".join([needs or "", what or "", costs or "", " ".join(steps or [])]).lower()
+    sentences = [s for s in re.split(r"(?<=[.!?;])\s+|\n+", blob) if s.strip()]
+    score, drivers = 0, []
+    for weight, label, words in FRICTION_WORDS:
+        for s in sentences:
+            if any(w in s for w in words):
+                if NEGATION.search(s):
+                    continue
+                if label in CONDITIONAL and not REQUIRED.search(s):
+                    continue
+                score += weight
+                drivers.append((weight, label))
+                break
+    return min(100, score), drivers
+
+
+def friction_label(drivers):
+    """Name the cost drivers instead of guessing from the total."""
+    if not drivers:
+        return "free / no identity"
+    drivers.sort(reverse=True)
+    names = [name for _, name in drivers[:2]]
+    return " + ".join(names)
+
+
 def load():
     records = json.loads(DATA.read_text(encoding="utf-8"))
     verified = {}
@@ -88,11 +127,20 @@ def load():
     fx_path = ROOT / "data" / "forensics.json"
     if fx_path.exists():
         fx = json.loads(fx_path.read_text(encoding="utf-8"))
-    return records, verified, fx
+    dupes = {}
+    dup_path = ROOT / "data" / "duplicates.json"
+    if dup_path.exists():
+        dupes = json.loads(dup_path.read_text(encoding="utf-8"))
+    return records, verified, fx, dupes
 
 
-def build(records, verified, fx):
+def build(records, verified, fx, dupes):
     rows, site = [], []
+    canonical_of = {}
+    for group in dupes.values():
+        for nm in group.get("names", []):
+            canonical_of[nm.lower()] = group
+    seen = set()
     for r in records:
         v = verified.get(key(r["name"]), {})
         end = r.get("end_date") or date_from_notes(r.get("notes", "")) or v.get("deadline_hint", "")
@@ -107,10 +155,18 @@ def build(records, verified, fx):
         f = fx.get(domain_of(official), {}) if official else {}
         fx_label = (f"{f.get('verdict')}" + (f" ({f['score']})" if f.get("score") is not None else "")
                     if f.get("verdict") else "")
+        group = canonical_of.get(r["name"].lower())
+        if group:
+            if group["canonical"].lower() in seen and r["name"] != group["canonical"]:
+                continue
+            seen.add(r["name"].lower())
+        fr, drivers = friction_of(needs, steps, what, v.get("costs", ""))
+        src = (r.get("source") or "").split("+")[0]
+        if group and len(group.get("sources", [])) > 1:
+            src = " + ".join(group["sources"])
         row = [r["name"], conf, r.get("status", "") or v.get("page_title", "")[:40],
                official, fx_label, needs[:120], len(steps) or "",
-               end, dl, r.get("prize", ""), what, "identified",
-               (r.get("source") or "").split("+")[0], v.get("checked", "")]
+               end, dl, r.get("prize", ""), what, "identified", src, v.get("checked", "")]
         rows.append(row)
         site.append({
             "name": r["name"], "confidence": conf, "status": r.get("status", ""),
@@ -118,13 +174,16 @@ def build(records, verified, fx):
             "steps": steps, "end": end, "days": dl, "pool": r.get("prize", ""),
             "what": what, "behind": v.get("who_is_behind", ""),
             "costs": v.get("costs", ""), "risks": v.get("risks", ""),
-            "evidence": v.get("evidence", []), "source": r.get("source", ""),
+            "evidence": v.get("evidence", []), "source": src,
             "source_url": r.get("source_url", ""), "checked": v.get("checked", ""),
+            "friction": fr, "friction_label": friction_label(drivers),
+            "also_listed_by": group.get("sources", []) if group else [],
             "forensics": {"verdict": f.get("verdict"), "score": f.get("score")} if f else None,
             "domain_age_days": age_from(f),
         })
     rows.sort(key=lambda x: (-(x[1] if isinstance(x[1], int) else -1), x[0]))
-    site.sort(key=lambda x: (-(x["confidence"] if isinstance(x["confidence"], int) else -1), x["name"]))
+    site.sort(key=lambda x: (-(x["confidence"] if isinstance(x["confidence"], int) else -1),
+                             x.get("friction") or 0, x["name"]))
     return rows, site
 
 
@@ -222,8 +281,8 @@ def xlsx(all_rows):
 
 
 def main():
-    records, verified, fx = load()
-    rows, site = build(records, verified, fx)
+    records, verified, fx, dupes = load()
+    rows, site = build(records, verified, fx, dupes)
     md(rows, site)
     xlsx(rows)
     DOCS.mkdir(exist_ok=True)

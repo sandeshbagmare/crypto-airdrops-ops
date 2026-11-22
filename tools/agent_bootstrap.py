@@ -49,9 +49,10 @@ def classify(d):
 def bucket(d):
     days = d.get("days")
     conf = d.get("confidence") if isinstance(d.get("confidence"), int) else 0
+    fr = d.get("friction") if isinstance(d.get("friction"), int) else 50
     if isinstance(days, int) and days >= 0:
-        return (0, days, -conf)
-    return (1, 9999, -conf)
+        return (0, days, fr, -conf)
+    return (1, 9999, fr, -conf)
 
 
 def handoff(d, blocked, why):
@@ -99,6 +100,8 @@ def main():
         entry = {"project": d["name"], "confidence": d.get("confidence"),
                  "days_left": d.get("days"), "end": d.get("end") or "",
                  "official": d.get("official") or "", "blocked_on": blocked,
+                 "friction": d.get("friction"),
+                 "friction_label": d.get("friction_label") or "",
                  "next_action": "none" if blocked == "none" else f"hand off: {blocked}",
                  "status": "identified", "handoff": "", "updated": date.today().isoformat()}
         if blocked != "none":
@@ -117,7 +120,8 @@ def main():
     for e in queue.values():
         by_block[e["blocked_on"]] = by_block.get(e["blocked_on"], 0) + 1
     soon = sum(1 for e in queue.values() if isinstance(e["days_left"], int) and e["days_left"] <= 30)
-    print(f"queue: {len(queue)} drops, {soon} closing within 30 days")
+    free = sum(1 for e in queue.values() if e.get("friction") == 0)
+    print(f"queue: {len(queue)} drops, {soon} closing within 30 days, {free} with no identity step")
     print("blocked-on:", dict(sorted(by_block.items(), key=lambda x: -x[1])))
     print(f"state: {STATE.relative_to(ROOT)}  handoffs: {len(list(HANDOFFS.glob('*.json')))}")
     return 0

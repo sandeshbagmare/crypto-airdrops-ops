@@ -1,0 +1,70 @@
+{
+ "orbinum": {
+  "canonical": "Orbinum",
+  "names": [
+   "Orbinum",
+   "Orbinum Network"
+  ],
+  "sources": [
+   "99airdrops",
+   "airdroplet"
+  ],
+  "source_urls": [
+   "https://99airdrops.com/airdrops/orbinum/",
+   "https://airdroplet.com/airdrop/orbinum-network"
+  ],
+  "end_date": "",
+  "rows": 2
+ },
+ "rome": {
+  "canonical": "Rome Protocol",
+  "names": [
+   "Rome",
+   "Rome Protocol"
+  ],
+  "sources": [
+   "99airdrops",
+   "airdropstop"
+  ],
+  "source_urls": [
+   "https://99airdrops.com/airdrops/rome-protocol/",
+   "https://www.airdropstop.com/airdrops/rome"
+  ],
+  "end_date": "",
+  "rows": 2
+ },
+ "nuva": {
+  "canonical": "NUVA",
+  "names": [
+   "NUVA",
+   "NUVA Finance"
+  ],
+  "sources": [
+   "99airdrops",
+   "airdropstop"
+  ],
+  "source_urls": [
+   "https://99airdrops.com/airdrops/nuva-finance/",
+   "https://www.airdropstop.com/airdrops/nuva-finance"
+  ],
+  "end_date": "",
+  "rows": 2
+ },
+ "flop": {
+  "canonical": "FLOP",
+  "names": [
+   "FLOP",
+   "Flop Network"
+  ],
+  "sources": [
+   "99airdrops",
+   "airdropstop"
+  ],
+  "source_urls": [
+   "https://99airdrops.com/airdrops/flop/",
+   "https://www.airdropstop.com/airdrops/flop-network"
+  ],
+  "end_date": "",
+  "rows": 2
+ }
+}

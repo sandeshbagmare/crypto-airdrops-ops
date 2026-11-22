@@ -7,16 +7,16 @@ Living file. An agent that finishes one item takes the next and updates this lis
 
 | # | Task | Why it matters | Status |
 |---|---|---|---|
-| 1 | **Date coverage.** Local crawl of `airdrops.io/project/<slug>/` pages for `claim deadline` text, then merge into `end_date`. | 524 of 548 rows have no date, so "days left" is empty where it matters most. Runs locally only (Cloudflare blocks runners). | ready |
-| 2 | **Dedup across sources.** Same project appears under 2-3 trackers (e.g. Metamask, Grass). Merge into one row with a `sources[]` array. | Duplicates inflate the count and confuse the queue. Honest merge also *raises* confidence (second source = +10). | ready |
+| 1 | **Date coverage.** `tools/extract_dates.py` lifts dates from verified text (24 found, 18 within 30 days). airdrops.io **cards carry no date** and project pages only show a global "ending soon" sidebar - verified with `tools/probe_io.py`, so that route is closed. Next: try alphadrops/cryptorank alternatives locally. | Dates are the weakest axis; the honest ceiling from current sources is ~24. | blocked on a dated source |
+| 2 | **Dedup across sources.** Done: `tools/dedupe.py` found 4 groups (Orbinum, Rome, NUVA, FLOP) covering 8 rows; 548 -> 544 unique, merged with a `+` source list. | Corpus was already near-unique. | done |
 | 3 | **Merge the 45 dossier PRs** in waves of 5 after reviewing each `drops/*.md`. | Merged dossiers become the permanent record the skills read. | blocked on human review |
-| 4 | **Session freshness check.** Add `--stale-after 14` to `agent_browser.py --check`, warn when a saved profile was last used long ago. | Sessions silently expire; a stale profile looks identical to a fresh one. | ready |
+| 4 | **Session freshness check.** Done: `agent_browser.py --check --stale-after 14` warns when a profile has not been used recently. | Sessions expire silently. | done |
 
 ## P1 - makes the queue smarter
 
 | # | Task | Why | Status |
 |---|---|---|---|
-| 5 | **Eligibility score.** Separate from confidence: weight "no KYC (0)", "no deposit (0)", "email only (5)", "wallet sign (10)", "KYC (30)" into a `friction` number that sorts the queue by how cheap a drop is to attempt. | Confidence says "well documented"; friction says "cheap to try". They answer different questions. | ready |
+| 5 | **Eligibility score.** Done: `friction` 0-100 with driver labels (KYC 30, deposit 25, wallet 10, social 5, email 3), negations ignored ("no KYC" no longer counts) and conditional costs need a "required" word. 164 drops are free/no-identity, 43 need KYC. Site sorts by "Cheapest first". | Confidence says "well documented"; friction says "cheap to try". | done |
 | 6 | **Claim-window monitor.** For each submitted drop, poll the official domain weekly for "claim" + a date, and open an issue when a window opens or closes in under 7 days. | The reward is lost at the claim step, not at the registration step. | ready |
 | 7 | **Per-drop evidence folders.** `airships/<project>/` with screenshot + tx hash + the exact URL used. | A "submitted" row with no evidence is a claim, not a record. | ready |
 | 8 | **Watchlist trend.** Store each domain's verdict history so a changed owner or a sudden registrar transfer is visible. | Domain handovers are the main way a clean link becomes dangerous. | ready |

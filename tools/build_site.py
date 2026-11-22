@@ -78,6 +78,7 @@ HTML = """<!doctype html>
   </select>
   <select id="sort">
     <option value="conf">Best evidenced</option>
+    <option value="cheap">Cheapest first</option>
     <option value="soon">Closing soonest</option>
     <option value="az">A-Z</option>
   </select>
@@ -104,8 +105,8 @@ function card(d){
       ${d.end?`<span>key date: ${esc(d.end)}</span>`:''}
       ${typeof d.days==='number'?`<span>${d.days} days left</span>`:''}
       ${d.pool?`<span>pool: ${esc(d.pool)}</span>`:''}
-      ${steps?`<span>${steps} steps</span>`:''}
-      ${d.forensics&&d.forensics.verdict&&d.forensics.verdict!=='no red flags found'?`<span class="badge ${d.forensics.verdict==='DEAD-LINK'?'c0':'c20'}" title="checked by tools/triage.py">${esc(d.forensics.verdict.toLowerCase())}</span>`:''}
+      ${steps?`<span>${steps} steps</span>`:''}      ${d.forensics&&d.forensics.verdict&&d.forensics.verdict!=='no red flags found'?`<span class="badge ${d.forensics.verdict==='DEAD-LINK'?'c0':'c20'}" title="checked by tools/triage.py">${esc(d.forensics.verdict.toLowerCase())}</span>`:''}
+      ${d.friction_label?`<span class="badge ${d.friction<=5?'c80':d.friction<=15?'c40':'c20'}" title="effort: ${d.friction}/100">${esc(d.friction_label)}</span>`:''}
       ${d.domain_age_days?`<span>domain ${d.domain_age_days}d old</span>`:''}
     </div>
     ${d.needs?`<div class="kv"><b>Needs:</b> ${esc(d.needs)}</div>`:''}
@@ -128,6 +129,7 @@ function render(){
     return [d.name,d.what,d.needs,d.behind,d.status].join(' ').toLowerCase().includes(q);
   });
   if(sort==='conf') rows.sort((a,b)=>(b.confidence??-1)-(a.confidence??-1));
+  if(sort==='cheap') rows.sort((a,b)=>(a.friction??99)-(b.friction??99)||(b.confidence??-1)-(a.confidence??-1));
   if(sort==='soon') rows.sort((a,b)=>(a.days??9999)-(b.days??9999));
   if(sort==='az') rows.sort((a,b)=>a.name.localeCompare(b.name));
   document.getElementById('grid').innerHTML=rows.slice(0,400).map(card).join('');

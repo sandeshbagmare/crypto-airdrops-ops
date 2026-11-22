@@ -53,6 +53,8 @@ def main():
     ap.add_argument("--headless", action="store_true")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--set-cookie", default="", help="self-test: write a cookie, then re-run --check")
+    ap.add_argument("--stale-after", type=int, default=14,
+                    help="warn when the saved session is older than this many days")
     args = ap.parse_args()
 
     prof = profile(args.identity)
@@ -69,6 +71,20 @@ def main():
             print(f"recorded sites: {len(entry.get('sites', {}))}")
             for host, meta in list(entry.get("sites", {}).items())[:10]:
                 print(f"  {host}  cookies={meta.get('cookies')}  last={meta.get('at')}")
+            stamp = entry.get("updated", "")
+            if stamp:
+                try:
+                    age = (datetime.now() - datetime.fromisoformat(stamp)).days
+                    if age > args.stale_after:
+                        print(f"WARNING: session last used {age} days ago - sites may have logged you "
+                              f"out. Re-run without --check and log in again if a site asks.")
+                    else:
+                        print(f"session freshness: used {age} day(s) ago (limit {args.stale_after})")
+                except ValueError:
+                    pass
+        else:
+            print("no session recorded yet")
+            print("start one with: python tools/agent_browser.py --identity main --url <official>")
         return 0
 
     if not args.url:

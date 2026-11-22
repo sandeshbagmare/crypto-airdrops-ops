@@ -11,6 +11,48 @@ airdrops.io also publishes per-project requirement flags, so the ledger can tell
 need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
 X post, 54 need email, 19 require KYC.
 
+## Browser site
+
+**https://sandeshbagmare.github.io/crypto-airdrops-ops/** - searchable, filterable by confidence,
+shows each project's steps, official site, who is behind it, costs and risks. Served from `docs/`
+via GitHub Pages; regenerate with `python tools/build_site.py`.
+
+## How confidence is scored
+
+Confidence is computed only from evidence found in a project's own guide page:
+
+| Evidence | Points |
+|---|---|
+| Concrete steps listed | +25 |
+| Official site linked in the guide | +20 |
+| Deadline or snapshot stated | +15 |
+| Operator or team named | +15 |
+| Costs and fees disclosed | +10 |
+| A second independent source lists it | +10 |
+| Risks or eligibility caveats disclosed | +5 |
+| No steps found | -15 |
+
+It measures **how well documented** a drop is. It is not a prediction that it pays, and a high score
+is not an endorsement.
+
+## Legal and ethical scope
+
+This repo aggregates **publicly available** information and links back to the original source for
+every row. That is the ordinary activity of a news aggregator or a search index. Specific care:
+
+- **No accusations.** The repo does not label any named project a scam. Where a source reports risk,
+  that risk is quoted with attribution. Unverifiable claims about real companies would be defamatory.
+- **No credentials.** Nothing here asks for, stores or transmits a seed phrase, private key, session
+  file or identity document. Those are refused by design in every script and skill.
+- **No bypassing access controls.** Only public pages are fetched, at a modest rate. When a site
+  blocks automated access with HTTP 403 or a bot challenge, the source is recorded as blocked and its
+  rows keep their last-checked date rather than being scraped around.
+- **No financial advice and no solicitation.** Pool sizes are quoted as the source states them, never
+  as an expected return. Nothing here is an offer, a recommendation, or a promise of profit.
+- **Trademarks** belong to their owners; project names are used descriptively to identify the drop.
+- Airdrop terms are set by each project. Following them is the operator's responsibility, and the
+  rules below exist to keep participation honest rather than sybil-farmed.
+
 ## What's here
 
 | Path | Purpose |

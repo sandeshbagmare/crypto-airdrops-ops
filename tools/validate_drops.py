@@ -26,7 +26,7 @@ TRACKER_DOMAINS = ("99airdrops.com", "airdropstop.com", "airdrops.io", "airdropl
 BANNED = (r"\bTODO\b", r"\bTBD\b", r"lorem ipsum")
 # Secret *requests* are forbidden; secret *warnings* are required practice.
 SECRET_RE = re.compile(r"\b(seed\s?phrase|private\s?key|mnemonic|recovery\s?phrase)\b", re.I)
-NEGATION = re.compile(r"\b(never|not|don't|do not|nobody|no one|avoid|refuse)\b", re.I)
+NEGATION = re.compile(r"\b(never|not|no|nothing|none|without|don't|do not|nobody|no one|avoid|refuse)\b", re.I)
 SCHEMA = {"name": str, "slug": str, "confidence": int, "source_url": str, "checked": str,
           "dossier": str}
 

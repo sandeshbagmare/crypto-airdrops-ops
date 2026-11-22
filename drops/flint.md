@@ -1,0 +1,65 @@
+# Flint
+
+**Confidence 90/100** - documentation quality, not a payout forecast.
+**Status** Medium potential | **Key date** 2027-11-20 | **Days left** 362
+
+## What it is
+
+Flint runs a free perps trading contest on Solana devnet until 20 Nov: 10,000 USDC for 21 traders, plus Flint Points. No token or airdrop is promised.
+
+## Official site
+
+https://devnet.app.flint.trade
+
+## What it needs
+
+Nothing stated in the source.
+
+## Steps
+
+1. Trade perps on Flint devnet. Open long or short positions, manage them and close them. Your rank is your P&amp;L on the 10,000 test USDC.
+2. Send /register to the bot to get your registration link. The form asks for your X handle and a "Confirmation that you follow @Flint_Trade_ on X", and you accept the rules, terms and privacy notice.
+3. Send product feedback or a bug report from the trading screen. Without it you get nothing: the rules require a "Completed registration form and product feedback or bug report(s) submitted before the End".
+4. Finish both before 20 November 2026 at 11:00 UTC. Flint contacts winners on Telegram for a Solana wallet address. "If you do not give one within 14 days, you forfeit the prize."
+
+## Who is behind it
+
+The homepage names the founders: Joshua Watts, co-founder and chief executive, formerly at the dYdX Foundation, and David Gorski, co-founder and chief technology officer, formerly at Jito Labs and Jump Trading. Six more team members are listed with LinkedIn profiles. "Flint Operations Inc., a Panama company", runs the contest, under licence from Flint Foundation, "an exempted limited guarantee fou
+
+## Costs
+
+The contest is free. The rules say: "NO PURCHASE OR DEPOSIT NEEDED. DEVNET TEST TOKENS HAVE NO VALUE. NOT OPEN TO RESTRICTED PERSONS." The test USDC "has no value and cannot be withdrawn, sold or carried over to Mainnet." Money only comes in later. Points count toward the invite-only Mainnet Closed Alpha, and that is different: "The Closed Alpha uses real assets that you can lose." Flint also warn
+
+## Risks
+
+You must "be 18 or older, or the age of majority where you live if higher;" Restricted countries in the terms: "the United States (including its territories and possessions), Canada, the United Kingdom, Panama, Iran, Cuba, North Korea, Syria, Sudan, South Sudan, the Democratic Republic of the Congo, Yemen, Somalia, Libya, and the Crimea", the Donetsk and Luhansk regions, the occupied parts of Zapo
+
+## Pool (as stated by the source)
+
+_Source states no pool size._
+
+## Domain forensics
+
+Verdict: **no red flags found** (risk score 15) | domain age 173 days
+
+- **MEDIUM** domain 173 days old
+- **OK** TLS issued by Google Trust Services
+
+## Evidence
+
+- 4 concrete steps
+- official site linked
+- deadline stated
+- operator/team named
+- costs disclosed
+- risks disclosed
+
+Source: https://99airdrops.com/airdrops/flint-trade/ (checked 2026-11-23)
+
+## Reviewer checklist
+
+- [ ] official domain matches the project's own docs or verified X profile
+- [ ] no deposit, fee or paid whitelist required
+- [ ] deadline confirmed on the official site
+- [ ] steps reproduce on the official site, not only on the tracker
+- [ ] `python tools/triage.py <official>` returns clean

@@ -1,0 +1,51 @@
+{
+ "name": "Ethena",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://claim.ethena.fi",
+ "needs": "",
+ "steps": [
+  "Check that you're eligible. Ethena's terms exclude \"Prohibited Persons\" from its campaigns and distributions, which covers citizens and residents of the United States and about 30 other jurisdictions.",
+  "Open claim.ethena.fi and connect the wallet you used. Warning Use only claim.ethena.fi and the two services it sends you to, Coinbase Token Manager and Sablier. No Season 6 claim exists yet, so a site that offers one isn't Ethena's.",
+  "For Season 5, follow the link to Coinbase Token Manager and claim your sENA.",
+  "For Exchange Rewards, follow the Sablier link for Ethereal or HyENA and claim your ENA.",
+  "For Season 6, there is nothing to claim yet. Connect your wallet on the app overview to see your final points, then wait for Ethena's announcement.",
+  "If you decide to leave, plan for the wait. Unstaking sENA takes 7 days, and unstaking sUSDe takes between 1 and 7 days."
+ ],
+ "end": "2027-09-30",
+ "days": 311,
+ "pool": "",
+ "what": "Ethena's final points season ended on 30 September 2026. The Season 6 payout isn't announced, and Season 5 and Exchange Rewards claims are still open.",
+ "behind": "Ethena (BVI) Limited operates the app, and the Ethena Foundation handles ENA distributions through a subsidiary. Guy Young is the founder and chief executive, according to The Block. The Block reported a $14 million round in February 2024 at a $300 million valuation, co-led by Dragonfly and Arthur Hayes's family office Maelstrom, and a $100 million private sale of ENA by the Ethena Foundation that",
+ "costs": "The app charges no fee of its own. Claims cost Ethereum gas, and Ethena's own FAQ says small wallets face \"significant friction via gas fees\" compared with what they stand to receive. Buying USDe means a swap through the app or an exchange, since minting directly is limited to approved, whitelisted firms.",
+ "risks": "The Season 6 payout is undefined. No amount, date or vesting terms have been published. The United States is on the list of prohibited jurisdictions, for citizens and for residents. sUSDe isn't offered to residents of the European Union or the European Economic Area, and the staking guide adds the United Kingdom. The hedge behind USDe can lose money when funding rates turn negative, and the backin",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/ethena/",
+ "checked": "2026-11-23",
+ "slug": "ethena",
+ "dossier": "drops/ethena.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2023-05-23 (1279 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 1279,
+  "checked": "2026-11-23T01:29:40"
+ }
+}

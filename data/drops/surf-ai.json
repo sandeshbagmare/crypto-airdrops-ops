@@ -1,0 +1,57 @@
+{
+ "name": "Surf AI",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://asksurf.ai",
+ "needs": "",
+ "steps": [
+  "Open asksurf.ai and sign up. Surf's chief executive has warned about impersonators: \"The only official link is https://asksurf.ai. The account is @SurfAIHQ.\"",
+  "Use the free plan first to see whether the tool is worth paying for. It includes limited research and three deep research sessions a week.",
+  "If you buy a plan, Waves come with it, and higher plans earn more.",
+  "Track your Waves on the leaderboard page, and share your referral link if you want the referral reward."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Surf, the crypto AI assistant, promises no airdrop. Its Waves points have paid out as discounts, and its SurfBoard NFT went to annual subscribers.",
+ "behind": "Surf is run by Cybertino Inc., a Delaware company. Its team page names Ryan Li as co-founder and chief executive, and Fortune names four co-founders. On 10 December 2025 Fortune reported that Surf \"raised $15 million from Pantera Capital, with participation from Coinbase Ventures and Digital Currency Group\", and Surf's own announcement confirms the round. Get the next airdrop first We post new gui",
+ "costs": "Pro costs $49 a month, or $39 a month billed annually, according to the pricing page, although Surf's FAQ still lists $348 a year. Max runs from $100 to $1,000 a month, and a year of Max costs ten months' price. The terms say: \"Except as required by law, all paid fees are non-refundable.\" A gifted membership renews automatically after its free year. Opening a SurfBoard costs about $0.10 in gas, an",
+ "risks": "Points have paid out as discounts, not tokens, and nothing official says Season 2 Waves will turn into anything else. You must be 18 or older. The terms say: \"You must not use VPNs, proxies, automation scripts, or other methods to circumvent platform access restrictions.\" They also exclude sanctioned countries. Sign-up collects your date of birth and payment details, and the privacy policy allows ",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/surf-ai/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "nft"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-08-04 (475 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 475,
+  "checked": "2026-11-23T02:09:15"
+ },
+ "domain_age_days": 475,
+ "slug": "surf-ai",
+ "dossier": "drops/surf-ai.md",
+ "published": "2026-11-23"
+}

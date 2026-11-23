@@ -1,0 +1,50 @@
+{
+ "name": "Worldie",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://worldie.world",
+ "needs": "",
+ "steps": [
+  "Follow Worldie's X account, @worldiedotworld, for news. Its last post was on 1 October 2026.",
+  "Use only worldie.world if the site returns. Warning Worldie has announced no new address and no airdrop. Don't connect a wallet to any site in Worldie's name unless Worldie's own X account links to it.",
+  "Expect the points, invite and leaderboard pages to stay paused even if the site returns. They were switched off before it went down, and nothing says points turn into tokens.",
+  "Trade $WORLDIE or launch a market only if you want to, and only with money you can lose. Warning Buying at the moment a token launches is very expensive. The docs say: \"Pons taxes buys at 99% at launch, decaying to zero over three seconds\". A buy in that window loses almost all of its value to the tax."
+ ],
+ "end": "2027-10-18",
+ "days": 329,
+ "pool": "",
+ "what": "Worldie's token launched on 18 September 2026, its points were paused, and its website was offline on 18 October. No airdrop is promised. What we know.",
+ "behind": "Worldie is run by Worldie Labs LLC. Its founder, Moustapha Thioune, signs the posts on the official updates site, and the docs describe him as the project's one developer. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "While the site was up, looking around was free. Costs applied once you acted: 1.5% on each trade in a Worldie market, 3% on trades of $WORLDIE, and 0.0005 ETH plus gas to launch a market. Worldie says trades are signed in your own wallet and that it \"never holds the money\".",
+ "risks": "The website, docs and updates blog were all offline on 18 October 2026, and the project hadn't said why. One person controls the wallet that receives the $WORLDIE trading fee. The docs say: \"Worldie has one developer and he controls it\". No terms of service, privacy policy, age limit or country list is published. No audit of the contracts has been published, and no investors or funding are named. ",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/worldie/",
+ "checked": "2026-11-23",
+ "slug": "worldie",
+ "dossier": "drops/worldie.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 101 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 101,
+  "checked": "2026-11-23T01:30:04"
+ }
+}

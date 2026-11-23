@@ -1,0 +1,59 @@
+{
+ "name": "MINT",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://mint.io/mntd",
+ "needs": "",
+ "steps": [
+  "Log in to mint.io and open the rewards panel on the $MNTD page.",
+  "Find the Airdrop $MNTD row and claim it. Claimed tokens start earning staking rewards straight away, according to MINT.",
+  "Your account has to pass MINT's checks first. The terms say: \"Promotions are available only to verified Accounts in permitted jurisdictions\".",
+  "If you earned $MNTD in a partner campaign rather than on MINT, MINT asks: \"Got tokens to claim from external activations?\" Those are claimed at getminted.io/claim instead. Warning Use only mint.io and getminted.io, and check the contract address against MINT's own post. Fake claim sites often copy new token launches.",
+  "If you missed Season 1, there's nothing to claim. Staking $MNTD for a status level is the only way into MINT's future airdrops, and it means buying a volatile token."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "MINT's Season 1 ended on 19 Oct and $MNTD launched on Robinhood Chain. How eligible players claim the airdrop, what replaces XP, and the risks.",
+ "behind": "MINT hasn't disclosed investors or founders. According to crypto.news, its technology comes from Hero Gaming Group, an iGaming business founded in 2013. The whitepaper names Hunter Hawk Ltd, a Marshall Islands company, as the issuer of $MNTD. Its allocation table gives 8% of the 1 billion supply to the team and 5.3% to private rounds, with community rewards, staking rewards and airdrops making up ",
+ "costs": "MINT hasn't published a fee for claiming on mint.io. The partner claim on its token site costs \"Only the network fee, paid in ETH on Robinhood Chain\". Staking for a status level means buying $MNTD, and its price can fall.",
+ "risks": "The terms require you to be over 18, or older if your country sets a higher legal age. They exclude anyone in or from the United States, the United Kingdom, Austria, France, Germany, the Netherlands, Spain, Australia, Comoros (including Anjouan), Iran, North Korea, Syria, Afghanistan and FATF high-risk countries. MINT geo-blocks them. MINT posted that \"$MNTD has undergone a security audit by Hexen",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/mint-io/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "nft",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "mint.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T02:08:25"
+ },
+ "domain_age_days": null,
+ "slug": "mint",
+ "dossier": "drops/mint.md",
+ "published": "2026-11-23"
+}

@@ -1,0 +1,52 @@
+{
+ "name": "PERPTools",
+ "confidence": 90,
+ "status": "Medium potential",
+ "official": "https://app.perptools.ai",
+ "needs": "",
+ "steps": [
+  "Connect a wallet and sign the one-time registration. It creates your trading account and costs only gas.",
+  "Deposit USDC from Arbitrum or Solana. The docs say other networks \"are not supported at this time\". There is no minimum for trading.",
+  "Trade spot as well if you like. PERPTools says spot counts toward Season 2 points, and it advertised 0% spot trading fees on 5 October 2026.",
+  "Share your referral link if you want to. You get points equal to 10% of what the people you refer earn, plus a USDC reward on their trading at a base rate of 10%. Self-referrals and bot accounts are banned.",
+  "Open the Points page after each Friday payout to see what you received."
+ ],
+ "end": "5 Oct",
+ "days": "",
+ "pool": "",
+ "what": "PERPTools says its weekly points convert into the PERP token at launch, targeted for late Q4 2026. How Season 2 works, the fees, steps and risks.",
+ "behind": "The docs say PERPTools raised a $3 million seed round co-led by Orderly Network and DEXForce, which they describe as the venture arm of DEXTools. The homepage shows both in its list of backers, together with Animoca, NEAR, Shima Capital, Sfermion, DEXTools Ventures and BigBrain Holdings. The only person the docs name is Wael Rajab, the chief marketing officer, who is also a co-founder of DEXT Vent",
+ "costs": "Taking part costs money, because points come from trading and from funding agents. On standard markets the fee is 0.01% for maker orders and 0.046% for taker orders. Markets on real-world assets charge 0.05% either way. The fee is charged on the full size of the position, not on your collateral. The Fees page in the PERPTools docs on 18 October 2026, with the maker and taker rates for standard cry",
+ "risks": "You can lose everything you deposit. The risk page says: \"Trade only with capital you can afford to lose entirely.\" The weekly pool is shared out by a private formula, so you can't work out in advance what a trade will earn. On the value of a point, the FAQ says: \"We don't speculate on dollar values.\" PERPTools' own advice is: \"Don't allocate to PERPTools based primarily on token speculation.\" The",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops+airdropstop",
+ "source_url": "https://99airdrops.com/airdrops/perptools/",
+ "checked": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-11-07 (380 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 380,
+  "checked": "2026-11-23T01:49:01"
+ },
+ "domain_age_days": 380,
+ "slug": "perptools",
+ "dossier": "drops/perptools.md",
+ "published": "2026-11-23"
+}

@@ -1,0 +1,60 @@
+{
+ "name": "N1",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://app.n1.xyz",
+ "needs": "",
+ "steps": [
+  "Check that you can use it. You must be 18 or older. The app blocks the United States, Canada, the United Kingdom, China, Russia, Venezuela and sanctioned countries, and the terms prohibit using a VPN to get around the block.",
+  "Get an invite code or a referral link. The sign-up screen sends people without one to N1's Discord .",
+  "Open app.n1.xyz , choose Sign Up, enter the code, and sign in with email, Google or a Solana wallet.",
+  "Deposit USDC. From Solana it goes through N1's Proton bridge. From other chains the app routes it through Unifold. Warning Your funds sit on a network that N1 says runs \"with a curated operator\" today, and its validators can halt withdrawals.",
+  "Place a perpetuals trade. At the entry tier, makers pay 0.01% and takers 0.035%. Warning This is real money with leverage of up to 50x on BTC and ETH. N1's own security page says: \"Perpetual futures are leveraged, and leverage magnifies losses.\"",
+  "Check your points each week on the Rewards page ."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "N1 has no token or airdrop announced. Season 1 of N1 Points pays 75 million points a week on its invite-only perps exchange. Steps, fees and risks.",
+ "behind": "The terms name Null Studios Inc., a Delaware corporation, as the operator. The co-founders named at launch are Dima Romanov, David Cao and Sheheryar Parvaz. N1, then called Layer N, announced a $5 million seed round in September 2023, co-led by Founders Fund and dao5 with Kraken Ventures among the others. N1 also lists IMC, Amber and GSR as backers and has published no later round. Get the next ai",
+ "costs": "Trading costs 0.01% for makers and 0.035% for takers at the entry tier, and the rates fall with volume. Perpetuals also carry funding payments and a liquidation fee. Withdrawing to an outside wallet costs 1 USDC. The docs give no minimum deposit; the bridge's own settings showed 1 USDC when we checked.",
+ "risks": "Points have no stated payoff, and N1 says the eligibility rules, boosts and dates may still change. The terms of service are dated October 2025 and don't mention points at all. No rule on wash trading or multiple accounts is published. The only public audit is Zellic's review of the bridge from March 2025, which found no critical or high severity issues. Nothing is published for the exchange itsel",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/n1/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "trading",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-02-25 (1001 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 1001,
+  "checked": "2026-11-23T02:10:43"
+ },
+ "domain_age_days": 1001,
+ "slug": "n1",
+ "dossier": "drops/n1.md",
+ "published": "2026-11-23"
+}

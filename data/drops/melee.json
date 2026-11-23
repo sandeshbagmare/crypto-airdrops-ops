@@ -1,0 +1,53 @@
+{
+ "name": "Melee",
+ "confidence": 90,
+ "status": "Medium potential",
+ "official": "https://www.melee.markets",
+ "needs": "",
+ "steps": [
+  "Check the barred list further down. Melee's app may load even where its terms bar you.",
+  "Go to melee.markets and press Enter beta.",
+  "Log in. The app offers \"Continue with email or social\", Google or a Solana wallet, and says: \"No crypto wallet needed. We'll set one up for you.\"",
+  "Add a code if you have one, through its link or Claim a code on your profile. The site says \"Access drops in waves\", with \"Codes released regularly on Twitter and Discord.\" We saw none in Melee's X posts from 26 to 31 October, and we couldn't test whether a code is still required.",
+  "Set a username and take the tutorial. The welcome case \"Opens once your profile and the tutorial are done.\"",
+  "Open the daily case and trade each day to keep a streak. If you want to create markets, apply through the form in Melee's Phase 3 post."
+ ],
+ "end": "31 Oct",
+ "days": "",
+ "pool": "",
+ "what": "No Melee airdrop is confirmed. The free Solana beta uses test money, and your rank sets a Score multiplier on mainnet. How to join, who is barred, risks.",
+ "behind": "The terms name \"Melee Markets Inc.\", while the site footer says \"Melee Inc.\" No address is given, and the terms use Cayman Islands law. There is no team page. On X, the user maximilian (@itsmaximilian) describes himself as \"ceo @meleemarkets\". Melee says only that it is \"built by a team of blockchain, trading and big tech veterans\". On 24 September 2025 Melee announced: \"Melee has raised $3.5 Mill",
+ "costs": "The beta is free. Melee calls it \"A free ranked season on live markets\", and tUSD is claimed daily with no deposit. Trades in the app carry a fee in test money, and gas isn't mentioned. Fees at mainnet are unknown. There is no fee schedule, and the terms warn that \"the precise fee applicable to a particular transaction may not be disclosed in advance\". A 2% creator cut appears only in a mock-up on",
+ "risks": "Barred: the terms exclude residents and citizens of the United States, the Crimea region, Cuba, Iran, North Korea, Syria and Russia, plus sanctioned places and anywhere crypto is prohibited or restricted. They add: \"THERE ARE NO EXCEPTIONS.\" Age and VPNs: \"These Services are offered and available to users who are 18 years of age or older.\" The terms also ban using a VPN to get around the restricti",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/melee/",
+ "checked": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-02-11 (649 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 649,
+  "checked": "2026-11-23T01:48:21"
+ },
+ "domain_age_days": 649,
+ "slug": "melee",
+ "dossier": "drops/melee.md",
+ "published": "2026-11-23"
+}

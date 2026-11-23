@@ -1,0 +1,58 @@
+{
+ "name": "Subfrost",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://app.subfrost.io/rewards",
+ "needs": "",
+ "steps": [
+  "Open app.subfrost.io/rewards and read the three Season 1 steps on the page.",
+  "Get the BTC and USD liquidity position. The app can create it from BTC in one transaction.",
+  "Deposit it in the PERMAFROST vault to mint cBTCUSD. The vault is open now.",
+  "Wait for farming. Opening a farm and bonding FIRE aren't available yet, and the start block hasn't been announced."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Subfrost promises FUEL to Season 1 farmers, but the season has no start date and FUEL hasn't launched. How the vault works, the 5% exit cost and risks.",
+ "behind": "The homepage names the company as Subzero Research Inc. and its founders as Gabe Lee, the chief executive, and Flex, the chief technology officer. Bitcoin Magazine also names Lee as a co-founder. The homepage lists Maelstrom, Magnus Capital, Li Hou Capital and Arthur Hayes among its investors, without amounts. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram ",
+ "costs": "This is not free and there is no testnet. Wrapping BTC into frBTC costs 0.1%, and so does unwrapping. Pool swaps carry their own fees, and each step is a Bitcoin transaction with a miner fee. On top of those sits the 5% you leave behind when you exit the vault. Warning If you deposit now and change your mind before the season starts, you still pay the 5% exit charge. Waiting for a start date costs",
+ "risks": "The full system is unaudited. The docs say that \"although many of its components have been audited, the end-to-end SUBFROST protocol has not.\" The bitcoin behind frBTC is held by nine signers who, according to the docs, \"are not yet publicly identified\". On 2 July 2026 a bug in the Alkanes indexer was used to drain a pool. Subfrost published a post-mortem and says the bitcoin behind it was secured",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/subfrost/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "points",
+  "nft",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "subfrost.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T02:09:05"
+ },
+ "domain_age_days": null,
+ "slug": "subfrost",
+ "dossier": "drops/subfrost.md",
+ "published": "2026-11-23"
+}

@@ -1,6 +1,6 @@
 {
  "project": "Aura Protocol",
- "official_url": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+ "official_url": "https://beta.auralaunch.org/incentives",
  "source_url": "https://99airdrops.com/airdrops/aura-protocol/",
  "blocked_on": "wallet_signature",
  "why_agent_cannot": "a wallet connection or signature is required",
@@ -13,12 +13,12 @@
   "Keep going until you pass 10,000 points with at least one dApp transaction. Aura's own checklist: \"Complete your humanity verification and make sure to complete at least one txn. Aim for at least 10k AURA points.\"",
   "Optional: enter the Token Quest before 30 November 2026 at 14:00 UTC."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.litvm.com/get-started-on-testnet/network-configuration",
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://beta.auralaunch.org/incentives",
  "evidence_so_far": [],
  "confidence": 90,
  "evidence": [
   "7 concrete steps",
-  "official site linked",
+  "official site linked (auralaunch.org, guide step 3)",
   "deadline stated",
   "operator/team named",
   "costs disclosed",

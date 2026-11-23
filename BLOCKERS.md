@@ -109,10 +109,18 @@ submit every form that needs nothing secret - that is the only honest route to a
 
 ## D. The fastest wins, in order (your 20 minutes)
 
-1. **Globe** - 7 days, confidence 90, needs a wallet signature. `agent/handoffs/globe.json`.
-2. **Yakkamon** - 9 days, snapshot 27 Nov, pre-registration is email only.
-3. **Bybit WSOT 2026** - 9 days, KYC-gated, so only if you already hold a verified Bybit account.
-4. **Abstract** - 22 days, but it is a *shutdown* migration, not a reward: move funds off, do not chase XP.
+Live pre-flight on 2026-11-23 (evidence in `airships/<slug>/`, machine record in `data/preflight.json`):
+
+| Drop | Ends | Domain | Live page says | Who finishes it |
+|---|---|---|---|---|
+| Doppler Finance | 2026-11-28 (5 days) | ok | XDP claim portal open; "Connect the Base wallet you registered" | you: connect that wallet and approve one claim transaction |
+| MMIX | source says 26 Nov | **DEAD-LINK** (`hub.mmix.io` does not resolve) | nothing to open | nobody until the project publishes a live URL |
+| Globe | 2026-11-30 | **SUSPICIOUS** (domain only 74 days old) | early-access waitlist, email + 6-digit code, no wallet | you: confirm the domain is the one Globe's own X account links before typing an address |
+| Aura Protocol | 2026-11-30 | ok (`beta.auralaunch.org`) | testnet Incentives page: "Connect your wallet to join the Testnet Campaign" | you: connect a testnet-only wallet, agent continues with tasks |
+| infiniFi | 2026-12-01 | ok | Cloudflare "Just a moment..." bot check on every request | you: open `app.infinifi.xyz/points` once in your own browser; the agent must not bypass the check |
+
+Aura's official link was corrected today: the extractor had stored LitVM's docs page instead of
+`beta.auralaunch.org/incentives`, which the guide itself names in step 3.
 
 Resume any of them with:
 

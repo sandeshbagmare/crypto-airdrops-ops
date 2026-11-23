@@ -36,7 +36,7 @@
    "confidence": 90,
    "days_left": 7,
    "end": "2026-11-30",
-   "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+   "official": "https://beta.auralaunch.org/incentives",
    "blocked_on": "wallet_signature",
    "friction": 10,
    "friction_label": "wallet connect",

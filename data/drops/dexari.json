@@ -1,0 +1,58 @@
+{
+ "name": "Dexari",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://dexari.com",
+ "needs": "",
+ "steps": [
+  "Download the app for iOS or Android from dexari.com .",
+  "Create an account with an email code or a Google or Apple login, then set up a passkey. Dexari says this takes no KYC or personal data.",
+  "Fund the wallet. You can receive crypto from another wallet, or buy it through MoonPay, which may ask you to complete its own KYC.",
+  "Add USDC to your trading account and trade spot or perps in the app. Warning With up to 40x leverage, a small move against you can liquidate a position.",
+  "Check your points in the Profile section. Distributions arrive on Wednesdays."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Dexari, a mobile trading app on Hyperliquid, runs Points Season 2 with weekly payouts and no confirmed token. How to earn points, fees and risks.",
+ "behind": "Dexari Inc. publishes the app. Cointelegraph reported in June 2025 that Dexari had closed a $2.3 million seed round co-led by Prelude and Lemniscap, with angel investors from the Hyperliquid ecosystem also taking part. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "The fee page lists 0.10% per trade on perps and spot at the entry tier. At the top tier that falls to 0.01% on perps and 0.02% on spot. Tiers follow your rolling 30-day volume, and the page says Hyperliquid's own fees may also apply. Moving funds from the perps account back to the main wallet costs Hyperliquid's $1 withdrawal fee. The Fees page of the Dexari Help Center on 18 October 2026, with tr",
+ "risks": "Dexari says some jurisdictions are restricted and that perpetuals may be unavailable in certain regions. Its FAQ doesn't list them. The terms say points programs may not be available in all jurisdictions. Dexari can withhold or revoke rewards for fraud or abuse. No token is announced, and the points page says nothing about converting points.",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/dexari/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "trading"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2009-07-24 (6330 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 6330,
+  "checked": "2026-11-23T02:10:32"
+ },
+ "domain_age_days": null,
+ "slug": "dexari",
+ "dossier": "drops/dexari.md",
+ "published": "2026-11-23"
+}

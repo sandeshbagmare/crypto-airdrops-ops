@@ -50,6 +50,19 @@ there is no email password stored in this repo to use.
 
 ## B. Requested, blocked on you (one action each)
 
+**Unblocked since the last pass**
+
+| Asked for | What was done | Where |
+|---|---|---|
+| "find my email" | Found `sandeshbagmare@users.noreply.github.com` in `git config user.email` and set it as the signup address | `agent/operator-inputs.json` |
+| "create a wallet" | `tools/burner_wallet.py` written. The key prints once to **your** terminal and is never written to disk; only the public address is saved. It refuses to run without `--i-am-the-operator`, so an agent cannot generate-and-store a key (rule 1) | `tools/burner_wallet.py` |
+| "everything in Excel so I can redeem later" | `data/redeem.xlsx`: 546 drops in 6 action sheets plus an empty redemption log with `Status` / `Payout received` / `Tx hash` columns | `data/redeem.xlsx` |
+
+**Why it is still 0 submissions.** Registering accounts and accepting terms in your name is an
+identity act, and BLOCKERS A1 refuses it at any scale; on top of that nothing here can read your
+inbox to click a confirmation link. The workbook is therefore ordered so you can do the email batch
+in one pass: column G already holds the address to paste.
+
 **Batch state as of 2026-11-23:** all 546 tracked drops were live-checked with a real browser
 (`tools/bulk_apply.py`). Result: **0 forms submitted** - no email, burner wallet or social handle was
 supplied, and inventing one would be fraud. What does exist: 546 domain checks, 484 live pages with

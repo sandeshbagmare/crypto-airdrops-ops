@@ -108,6 +108,8 @@ python tools/bulk_apply.py --workers 8   # live-check EVERY drop: refuses dead d
                                          # blocker. Never submits, never signs, never types a secret.
 python tools/blocker_workbook.py    # data/blockers.xlsx + notes/batch-report.md +
                                     # notes/credentials-context.md + agent/STATE.json refresh
+python tools/redeem_kit.py          # data/redeem.xlsx - the workbook to work through and redeem from
+python tools/burner_wallet.py --i-am-the-operator   # OPERATOR ONLY: key prints once, address saved
 ```
 
 ## 6. Selection policy

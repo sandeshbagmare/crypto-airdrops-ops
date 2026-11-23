@@ -28,6 +28,18 @@ Out of the box there is **one** identity, `main`. One identity per real-world pe
 mix personas in one profile, and do not create identities you would be uncomfortable
 defending to a project's compliance team.
 
+## Public identifiers the tools will prefill
+
+| Use | Value | Note |
+|---|---|---|
+| signup email | `sandeshbagmare@users.noreply.github.com` | git config user.email on this machine. It is a GitHub noreply alias, so it forwards to your verified inbox but is not your private address. Replace it with a dedicated throwaway inbox if you prefer. |
+| burner wallet | `not set` | run tools/burner_wallet.py yourself |
+| X handle | `not set` | public handle |
+| Telegram | `not set` | public handle |
+
+An email address and a wallet address are public values. A password, seed phrase, private key
+or 2FA code is not, and none of those is stored anywhere in this repo.
+
 ## Logins this batch needs from you, grouped by site
 
 Sorted by how soon the drop closes. Each line: drop, the blocker, days left.

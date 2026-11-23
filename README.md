@@ -81,7 +81,13 @@ python tools/agent_bootstrap.py --top 30     # rebuild the queue and packets
 python tools/agent_browser.py --identity main --url <official>   # login window + saved session
 python tools/bulk_apply.py --workers 8       # live-check the whole ledger (~15 min, 8 tabs)
 python tools/blocker_workbook.py             # rebuild data/blockers.xlsx + reports
+python tools/burner_wallet.py --i-am-the-operator   # you only: key prints once, address is saved
+python tools/redeem_kit.py --open            # data/redeem.xlsx: work it, then redeem from it
 ```
+
+`data/redeem.xlsx` is the one file to keep: sheet 1 is the drops that need nothing from you but the
+site's own steps, 2 needs only an email, 3 only a burner address, and the last sheet is an empty
+redemption log with the columns to fill when a drop actually pays.
 
 ## Browser site
 
@@ -137,6 +143,8 @@ every row. That is the ordinary activity of a news aggregator or a search index.
 | `tools/triage.py` | Domain forensics: RDAP age, punycode/homoglyph, TLS, DNS, scam verdict |
 | `tools/bulk_apply.py` | Live-checks every drop: domain verdict, page text, screenshot, blocker |
 | `tools/blocker_workbook.py` | `data/blockers.xlsx` + batch report + login roster + `STATE.json` |
+| `tools/redeem_kit.py` | `data/redeem.xlsx` - the workbook you actually work through and redeem from |
+| `tools/burner_wallet.py` | You run it, not the agent: prints a fresh key once, saves only the address |
 | `tools/monitor.py` | Nightly diff of trackers, append-only change log |
 | `skills/` | Agent skills: `airdrop-recon`, `airdrop-apply`, `airdrop-agent` |
 | `airships/` | Proof per project: confirmation screenshots, tx hashes |

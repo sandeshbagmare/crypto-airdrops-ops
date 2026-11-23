@@ -1,0 +1,58 @@
+{
+ "name": "Arc",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://community.arc.io",
+ "needs": "",
+ "steps": [
+  "Join Arc House and finish the onboarding profile for your first 50 points.",
+  "Spend your time where the points are: events, useful forum answers and original articles.",
+  "If you build, get free testnet USDC from Circle's faucet and deploy on the Arc testnet.",
+  "Add Arc mainnet to your wallet and try its apps. Gas is paid in USDC, so a small balance is enough. Warning Mainnet apps use real funds. They are built by other teams, and each one carries its own smart contract risk."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Circle minted 10 billion ARC but hasn't promised an airdrop. What Arc House points are, how to earn them, and what is and isn't confirmed.",
+ "behind": "Arc is built by Circle Internet Group, a publicly traded company and the issuer of USDC. In May 2026 The Block reported that Circle raised $222 million in an ARC token presale at a $3 billion fully diluted valuation, with a16z crypto and BlackRock among the buyers. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "Arc House and the testnet are free. Using apps on mainnet costs a small amount of USDC in fees.",
+ "risks": "No airdrop has been announced, and Circle says the ARC mint is not a commitment to a public launch. Arc House points reward community activity. The rules page doesn't link them to any token.",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/arc/",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "testnet",
+  "points",
+  "nft"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "arc.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T02:06:30"
+ },
+ "domain_age_days": null,
+ "slug": "arc",
+ "dossier": "drops/arc.md",
+ "published": "2026-11-23"
+}

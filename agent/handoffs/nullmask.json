@@ -1,18 +1,28 @@
 {
  "project": "Nullmask",
  "official_url": "https://app.nullmask.io/points",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://app.nullmask.io/points   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/nullmask/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open app.nullmask.io and connect a self-custody wallet. \"You need a self-custody wallet such as MetaMask or Rabby, and some ETH for gas. A wallet controlled by a smart contract cannot hold a private balance.\"",
   "Sign the message that creates your Nullmask keys (\"It is free: no transaction and no gas.\"), add the Nullmask custom network when asked, and register your account. \"Registration is a transaction from your wallet, and you pay its gas.\"",
   "Withdraw at least $100 to a fresh address you control. Waves and split withdrawals earn more points than Fast, and the 18:00 UTC Big Wave earns the most. \"The app does not let you withdraw to the wallet you are connected with, because that would link your deposit and your withdrawal.\"",
   "If you want holding points, leave some funds in the pool.",
   "Open the Points page and sign to see your total: \"Sign once to show this wallet's points. It's free, sends nothing and lasts a day.\" Link a Solana wallet for the MASK payout. \"You can link it any time before the payout. Points are kept without it.\""
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.nullmask.io/points",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "There is no free route: every point comes from money you put in. \"Deposit fee: 0.5% of the amount.\" On the way out, \"Both modes have the same fees: a 0.5% withdrawal fee plus a network fee.\" The network fee is set by Nullmask's servers, and the Terms say \"it may be higher than the actual network gas. The difference is not refunded.\" You also pay your own gas to register and deposit. \"Fees can chan",
+ "risks": "Excluded places, as written in the Terms: \"Cuba, Iran, North Korea and Syria; the Crimea, Donetsk and Luhansk regions of Ukraine; the United Arab Emirates\", plus any country under comprehensive UN, US, EU or UK sanctions. The US is not on the list. \"You must be at least 18 years old\", and \"You must not use a VPN, proxy or any other means to hide your location\". There is no identity KYC, but every ",
  "created": "2026-11-23",
  "status": "open"
 }

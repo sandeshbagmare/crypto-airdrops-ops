@@ -2655,6 +2655,15 @@
   "official": "https://pro.edgex.exchange"
  },
  {
+  "name": "nova-markets-logo",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
   "name": "predict.fun",
   "bucket": "human_money",
   "label": "deposit, purchase or stake required",
@@ -3708,6 +3717,15 @@
   "official": "https://saviorofhealth.app/earn"
  },
  {
+  "name": "Sectora",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://sectoraorg.com/guide"
+ },
+ {
   "name": "Seismic",
   "bucket": "human_signature",
   "label": "wallet connect or signature",
@@ -4201,15 +4219,6 @@
   "friction": 40,
   "days": "",
   "official": "https://reaperactual.com"
- },
- {
-  "name": "Sectora",
-  "bucket": "human_money",
-  "label": "deposit, purchase or stake required",
-  "confidence": 45,
-  "friction": 40,
-  "days": "",
-  "official": "https://sectoraorg.com/guide"
  },
  {
   "name": "Sweep Finance",

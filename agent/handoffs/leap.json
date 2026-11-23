@@ -1,19 +1,23 @@
 {
  "project": "Leap",
  "official_url": "https://www.leap.xyz",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.leap.xyz",
- "evidence_so_far": [
-  "airships/leap/page.txt",
-  "airships/leap/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/leap",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Leap site Go to leap.xyz and read the homepage sections on daily news, markets and portfolio profit and loss.",
   "2 Step 2 : Review the asset range Look at the markets the homepage lists: tokenized stocks, ETFs, commodities, currencies and crypto. This shows what the app is built to trade.",
   "3 Step 3 : Join the waitlist Open the Leap waitlist and join the Founders Club waitlist the homepage describes, next to its early access notice."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.leap.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

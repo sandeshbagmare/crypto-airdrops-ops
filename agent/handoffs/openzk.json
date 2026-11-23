@@ -1,21 +1,25 @@
 {
  "project": "OpenZK",
  "official_url": "https://portal.openzk.net/airdrop",
+ "source_url": "https://www.airdropstop.com/airdrops/openzk",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://portal.openzk.net/airdrop",
- "evidence_so_far": [
-  "airships/openzk/page.txt",
-  "airships/openzk/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Connect a wallet on the Airdrop page Go to the OpenZK Airdrop page , then link a wallet to view your Airdrop Points, multipliers and missions.",
   "2 Step 2 : Follow OpenZK on X and join its Telegram Complete the social missions by following OpenZK on X and joining the OpenZK Telegram .",
   "3 Step 3 : Bridge ETH or stablecoins Use the OpenZK bridge to move ETH or supported stablecoins to the network. A first bridge is its own mission, and the balance tiers count ozETH and ozUSD held.",
   "4 Step 4 : Keep your assets bridged and staked The multiplier on the Airdrop page keeps growing each week your ETH or stablecoin stays in place, so check the page again later.",
   "5 Step 5 : Invite friends with your referral code Get a code from the Invites section of the Airdrop page. As a referrer, you earn a 15% share of the points your invitees collect."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://portal.openzk.net/airdrop",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

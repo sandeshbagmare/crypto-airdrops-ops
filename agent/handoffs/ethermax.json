@@ -1,20 +1,24 @@
 {
  "project": "Ethermax",
  "official_url": "https://www.ethermax.tech",
+ "source_url": "https://www.airdropstop.com/airdrops/ethermax",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.ethermax.tech",
- "evidence_so_far": [
-  "airships/ethermax/page.txt",
-  "airships/ethermax/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Connect a wallet on the Ethermax site Open the Ethermax site and connect your wallet. The game runs on Base, so use a wallet that supports it.",
   "2 Step 2 : Get MAXX for staking or a node The homepage shows MAXX in staking and tells holders to get MAXX ready to set up a validator node. It also has a Buy MAXX link.",
   "3 Step 3 : Read the Ethermax docs The project&#x27;s docs are its own guide to the game and its two stages. Read them before you start.",
   "4 Step 4 : Mine, stake or refer to earn rewards Choose any of the three activities the docs list for earning. Holders can also set up a validator node, as the homepage banner suggests."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.ethermax.tech",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

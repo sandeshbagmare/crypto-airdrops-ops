@@ -1,20 +1,27 @@
 {
  "project": "Raycash",
  "official_url": "https://www.raycash.xyz/user",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.raycash.xyz/user",
- "evidence_so_far": [
-  "airships/raycash/page.txt",
-  "airships/raycash/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/raycash/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Go to raycash.xyz/user , enter your email and log in with the code Raycash sends you.",
   "Complete the five tasks, which include following @raycashxyz and joining the Raycash Telegram group .",
   "Share your referral link. Each sign-up through it adds 120 RP.",
   "Watch your inbox for a beta invite."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.raycash.xyz/user",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The points tasks are free. They need an email address and your X and Telegram accounts, but no wallet or deposit.",
+ "risks": "The terms say joining the waitlist doesn't guarantee access to the app or to any feature, timeline or price. Zama's March 2026 post said the app would launch in the first half of 2026. At the end of September it was still in private beta. Zama also describes a screening step: only deposits that pass it can become confidential once the app is live. The current terms cover only the website and waitl",
  "created": "2026-11-23",
  "status": "open"
 }

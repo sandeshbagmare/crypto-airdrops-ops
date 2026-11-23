@@ -1,15 +1,10 @@
 {
  "project": "Block Street",
  "official_url": "https://blockstreet.money/dashboard",
+ "source_url": "https://www.airdropstop.com/airdrops/block-street",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://blockstreet.money/dashboard",
- "evidence_so_far": [
-  "airships/block-street/page.txt",
-  "airships/block-street/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Block Street app Press Launch Dapp on the homepage, which leads to the Block Street dashboard .",
   "2 Step 2 : Practice on the testnet The docs recommend rehearsing on a free testnet before using real funds. The Everst introduction has a Testnet Practice section with the details.",
   "3 Step 3 : Connect a wallet Use the Connect Wallet button at the top right of the app, choose your wallet provider and approve the request. The docs name MetaMask, Trust Wallet, Coinbase Wallet and any WalletConnect-compatible wallet.",
@@ -17,6 +12,15 @@
   "5 Step 5 : Read the Markets page Each asset on the Markets page lists its supply and borrow rates, the totals supplied and borrowed, and how much of the supply is currently in use.",
   "6 Step 6 : Start with a small transaction Supplying needs USDT or a tokenized stock in your wallet, and the docs suggest starting with about 50-100 USDT and testing a withdrawal after a few minutes. Details are in How to Supply Assets and How to Borrow ."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://blockstreet.money/dashboard",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

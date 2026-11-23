@@ -1,18 +1,25 @@
 {
  "project": "Fair Shares",
  "official_url": "https://app.fairshares.io/dashboard",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://app.fairshares.io/dashboard   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/fair-shares",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Fair Shares app dashboard Go to the Fair Shares dashboard , where waitlist position, Access Points (AP) and referrals are managed.",
   "2 Step 2 : Connect a wallet, email and X account Link a wallet, an email address and your X account from the welcome panel so the dashboard can track your AP.",
   "3 Step 3 : Complete the basic tasks Confirm your email address (+20 AP), post about Fair Shares on X (+30 AP), repost the project&#x27;s introduction tweet (+20 AP), follow its official X account (+20 AP) and join the community channel (+10 AP).",
   "4 Step 4 : Mint the Daily Access Badge and check in Mint the Daily Access Badge from the dashboard. Minting it unlocks daily check-ins, and the badge task itself shows +20 AP. Fair Shares does not state a mint price.",
   "5 Step 5 : Share your invite link Copy your personal invite link from the Invite &amp; Earn panel and send it to others. Each successful invite adds +20 AP."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.fairshares.io/dashboard",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

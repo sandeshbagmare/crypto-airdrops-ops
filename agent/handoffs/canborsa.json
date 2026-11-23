@@ -1,21 +1,25 @@
 {
  "project": "Canborsa",
  "official_url": "https://canborsa.com/app",
+ "source_url": "https://www.airdropstop.com/airdrops/canborsa",
  "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://canborsa.com/app",
- "evidence_so_far": [
-  "airships/canborsa/page.txt",
-  "airships/canborsa/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
   "1 Step 1 : Open the Canborsa Points Program Go to the Canborsa app page , which is where the Start Earning button on the homepage leads.",
   "2 Step 2 : Sign in or create an account Use the sign-in page and continue with Google, X, a wallet, a passkey or an email address.",
   "3 Step 3 : Fund your account if you want to trade Trading needs a funded balance, which you add on one of the supported networks. The Points Program section on the homepage is titled around trading and swapping.",
   "4 Step 4 : Complete quests and use multipliers Finish the tasks listed as quests to earn points, and use the multipliers Canborsa offers to boost what you earn.",
   "5 Step 5 : Share your referral link Open the referrals page to find your own link; Canborsa says invited users&#x27; activity earns you rewards."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://canborsa.com/app",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

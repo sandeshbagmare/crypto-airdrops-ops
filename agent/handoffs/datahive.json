@@ -1,20 +1,24 @@
 {
  "project": "DataHive",
  "official_url": "https://datahive.ai/earn",
+ "source_url": "https://www.airdropstop.com/airdrops/datahive",
  "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://datahive.ai/earn",
- "evidence_so_far": [
-  "airships/datahive/page.txt",
-  "airships/datahive/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
   "1 Step 1 : Install the extension or app Add the DataHive Chrome extension , or download the Android app from Google Play .",
   "2 Step 2 : Sign up with your email Start from the Start earning page and register an account with your email address, then open the dashboard .",
   "3 Step 3 : Keep it online Leave the extension or app running so it keeps earning.",
   "4 Step 4 : Complete missions Open the missions page and pick the ones that suit you, such as audio recordings, the survey or the SOL staking mission. Each lists its own points amount."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://datahive.ai/earn",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

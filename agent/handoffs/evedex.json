@@ -1,18 +1,24 @@
 {
  "project": "EVEDEX",
  "official_url": "",
- "blocked_on": "no-official-site",
- "why_agent_cannot": "find the official site from the project's own profile",
- "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
- "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/evedex",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
   "1 Step 1 : Connect a wallet on the exchange Open the EVEDEX exchange and link MetaMask, WalletConnect or another compatible Web3 wallet. An email or social sign-up also works, and no KYC is asked.",
   "2 Step 2 : Deposit funds over Arbitrum Fund the trading account with USDT or another accepted asset, sending it over Arbitrum. A mainnet update also added Base network support for deposits and withdrawals.",
   "3 Step 3 : Trade a market to collect points Choose a trading pair, set your leverage and position size, and open a position. According to the homepage at evedex.com , each trade and each referral adds points.",
   "4 Step 4 : Check your points and eligibility The EVE token page has a step for viewing your points, which may count toward an allocation.",
   "5 Step 5 : Claim EVE when the distribution opens The token has not launched yet. The project says EVE becomes claimable once the distribution opens, and claimed tokens can optionally be staked for stEVE."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.airdropstop.com/airdrops/evedex",
+ "evidence_so_far": [],
+ "confidence": 25,
+ "evidence": [
+  "5 concrete steps"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,12 +1,10 @@
 {
  "project": "Confidential Layer",
  "official_url": "https://confidentiallayer.com",
- "blocked_on": "site-unreachable",
- "why_agent_cannot": "try the URL in your own browser",
- "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
- "where_to_resume": "python tools/triage.py https://confidentiallayer.com   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/confidential-layer",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the campaign on the Confidential Layer homepage Go to the Confidential Layer homepage and find the CLONE Airdrop campaign section, which invites visitors to join and earn CLONE.",
   "2 Step 2 : Complete the daily tasks Finish the tasks the campaign sets each day and upgrade your character, as the homepage describes.",
   "3 Step 3 : Unlock all the portals Keep progressing in the campaign until the portals are unlocked. The homepage lists this as part of earning your reward.",
@@ -14,6 +12,15 @@
   "5 Step 5 : Claim your unlocked CLONE Review your total allocation, vesting schedules and claimable amount, then use the claim button for the unlocked tokens. The claim happens on the Bridgeless L1 blockchain, so add that network to your wallet.",
   "6 Step 6 : Add the CLONE contract to your wallet After a successful claim, add the CLONE contract address given in the claim guide so your allocation shows in the wallet."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://confidentiallayer.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

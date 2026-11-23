@@ -1,21 +1,25 @@
 {
  "project": "daGama",
  "official_url": "https://airdrop.dagama.world",
+ "source_url": "https://www.airdropstop.com/airdrops/dagama",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://airdrop.dagama.world",
- "evidence_so_far": [
-  "airships/dagama/page.txt",
-  "airships/dagama/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Airdrop Portal Go to the daGama Airdrop Portal , the page that carries the campaign&#x27;s three stages: connect, complete tasks, get whitelisted.",
   "2 Step 2 : Connect a wallet Use the Connect Wallet button on the portal&#x27;s front page. The portal labels this as the first stage of claiming the airdrop.",
   "3 Step 3 : Complete tasks The tasks page is linked from the portal menu, and the front page names completing tasks as the second stage on the way to being whitelisted.",
   "4 Step 4 : Try the partner quest The homepage advertises a 1inch quest: swap SVM↔EVM tokens on the 1inch dApp, which is an on-chain transaction, then submit your transaction hash in the portal and claim the reward, listed as DGMA.",
   "5 Step 5 : Find the leaderboards The portal menu links a Leader boards page beside Tasks."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrop.dagama.world",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

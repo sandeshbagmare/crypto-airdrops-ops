@@ -1,21 +1,25 @@
 {
  "project": "Knidos",
  "official_url": "https://testnet.knidos.xyz/invite",
+ "source_url": "https://www.airdropstop.com/airdrops/knidos",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://testnet.knidos.xyz/invite",
- "evidence_so_far": [
-  "airships/knidos/page.txt",
-  "airships/knidos/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the testnet walkthrough Go to the Knidos testnet sign-up and start the short onboarding walkthrough. You can reopen the guide later from the dashboard.",
   "2 Step 2 : Get access with an invite code or the waitlist Access is released in waves. Enter a code on the invite page or join the waitlist .",
   "3 Step 3 : Connect a wallet and complete your profile Link your wallet on the testnet and fill in your profile, which is the first item in the onboarding list.",
   "4 Step 4 : Complete the onboarding missions Finish the missions to earn AP and unlock progression badges. The built-in tutorial explains how the tasks and rewards fit together.",
   "5 Step 5 : Continue in the dashboard Use the dashboard to pick up where you left off and try the remaining testnet features."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://testnet.knidos.xyz/invite",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

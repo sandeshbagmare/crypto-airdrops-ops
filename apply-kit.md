@@ -1,6 +1,6 @@
 # Apply kit - the 25 cheapest verified drops
 
-Built 2026-11-23 from 546 tracked drops. Selection: no KYC, no deposit, live domain, real steps, confidence >= 40.
+Built 2026-11-23 from 547 tracked drops. Selection: no KYC, no deposit, live domain, real steps, confidence >= 40.
 **15 need no identity step at all**, 12 carry a real deadline.
 
 Each row has `apply/<slug>.md` with the steps, the resume command and the evidence command. Record what you do and the status moves with you.

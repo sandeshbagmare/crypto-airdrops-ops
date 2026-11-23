@@ -1,20 +1,27 @@
 {
  "project": "RAFA Finance",
  "official_url": "https://rafa.ai",
+ "source_url": "https://99airdrops.com/airdrops/rafa-finance/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://rafa.ai",
- "evidence_so_far": [
-  "airships/rafa-finance/page.txt",
-  "airships/rafa-finance/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open rafa.ai and check the address. RAFA's official X account is @RAFA_AI.",
   "Browse the leaderboard. No wallet is needed to look.",
   "To trade, connect a wallet on Base Sepolia, then mint test USDC and test RAFA inside the Arena. Transactions on a test network usually need test ETH for gas, which RAFA's pages don't provide.",
   "Stake test RAFA if you want the fee discount, and take a side when a new round opens."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://rafa.ai",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The leaderboard and the Arena cost nothing beyond test tokens. RAFA's X account also promotes a Discord with \"Weekly prize draws\", though the site no longer links it. The token sale will take USDC on Base with a minimum bid of $100, after you \"Connect Sonar and complete the required identity, jurisdiction, and accreditation checks\".",
+ "risks": "RAFA's terms were last updated on 9 October 2026, before the Arena, and don't mention it. The published audits cover the fund contracts, not the Arena. The latest one is a draft marked \"Draft v0.1, not for distribution\", and RAFA's audit page says \"every finding remains pending independent re-review.\" The sale page promises \"No preferential VC allocation\", while the published token split gives 15%",
  "created": "2026-11-23",
  "status": "open"
 }

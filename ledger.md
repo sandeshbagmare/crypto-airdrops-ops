@@ -1,12 +1,12 @@
 # Active airdrops
 
-**546 projects**, 530 deep-verified from their own guide pages.
+**547 projects**, 531 deep-verified from their own guide pages.
 Updated 2026-11-23. Every row carries its source; nothing is invented.
 
 - 71 carry a dated deadline or snapshot, **12 within 30 days**
-- 484 have an official site extracted from the guide
-- 501 have concrete steps listed
-- 85 official domains are dead links (see [watchlist](notes/watchlist.md)); 11 look suspicious
+- 485 have an official site extracted from the guide
+- 502 have concrete steps listed
+- 86 official domains are dead links (see [watchlist](notes/watchlist.md)); 11 look suspicious
 
 **Confidence** is built only from evidence found in the guide: steps (25), official site (20),
 deadline (15), named operator (15), disclosed costs (10), second source (10), risks (5),
@@ -468,7 +468,7 @@ minus 15 for no steps. It measures how well documented a drop is, **not** how li
 | STRATO | 45 | Live | [site](https://strato.nexus/blog/tokenized-gold) | no red flags found (0) |  | 6 |  |  |  | The STRATO Reward Points campaign pays points to depositors in its GOLDST and SILVST yield vaults, and as of 28 October 2026 both vault pages still invite depos | identified | airdropstop | 2026-11-23 |
 | Sallar | 45 | Live | [site](https://app.sallar.io) | DEAD-LINK (35) |  | 6 |  |  |  | The Sallar airdrop is an ongoing mining campaign: you connect a device to the Sallar App, lend its computing power to AI projects and receive Sallar (ALL) token | identified | airdropstop | 2026-11-23 |
 | Savior of Health | 45 | Live | [site](https://saviorofhealth.app/earn) | no red flags found (15) | no account flags | 5 |  |  |  | The Savior Of Health campaign is a survey-to-earn program that pays Heal Points, its in-app points, for answering health questions, completing daily check-ins a | identified | airdropstop | 2026-11-23 |
-| Sectora | 45 | Live | [site](https://sectoraorg.com/guide) | no red flags found (0) | Requires: Telegram, X post | 5 |  |  |  | Sectora Airdrop Genesis is a campaign from Sectora Foundation that shares a 7,000,000 SECT pool among people who stake SECT and turn on a Hash Node. As of 7 Nov | identified | airdropstop | 2026-11-23 |
+| Sectora | 45 | Live | [site](https://sectoraorg.com/guide) | no red flags found (0) |  | 5 |  |  |  | Sectora Airdrop Genesis is a campaign from Sectora Foundation that shares a 7,000,000 SECT pool among people who stake SECT and turn on a Hash Node. As of 7 Nov | identified | airdropstop | 2026-11-23 |
 | Seismic | 45 | Potential | [site](https://orchestration.seismic.systems/docs) | no red flags found (0) |  | 5 |  |  |  | Seismic has no airdrop open in the 2 November 2026 review of its homepage and developer docs, which describe no points, rewards, token or task. What brings it h | identified | airdropstop | 2026-11-23 |
 | Senpi AI | 45 | Live | [site](https://senpi.ai/pricing) | no red flags found (0) |  | 4 |  |  |  | The Senpi AI airdrop is a points campaign, Senpi Points, and it was live as of 28 October 2026. Every $1 of perps volume you trade through Senpi earns points au | identified | airdropstop | 2026-11-23 |
 | Singularity | 45 | Live | [site](https://www.thesingularity.network) | no red flags found (0) |  | 5 |  |  |  | The Singularity Points Campaign is a points program from Singularity, a privacy-focused darkpool project. As of 27 October 2026 it is running: the homepage list | identified | airdropstop | 2026-11-23 |
@@ -524,6 +524,7 @@ minus 15 for no steps. It measures how well documented a drop is, **not** how li
 | daGama | 45 | Live | [site](https://airdrop.dagama.world) | no red flags found (0) |  | 5 |  |  |  | The daGama airdrop is a campaign run through the project's Airdrop Portal, where you connect a wallet, complete tasks and get whitelisted. The daGama homepage l | identified | airdropstop | 2026-11-23 |
 | edgeX | 45 | Live | [site](https://pro.edgex.exchange) | no red flags found (0) |  | 4 |  |  |  | edgeX Trade to Earn is a rewards campaign on the edgeX trading platform that returns part of the trading fees you generate, 40% as USDC and 60% as locked EDGE t | identified | airdropstop | 2026-11-23 |
 | heyAura | 45 | Live | [site](https://hub.heyaura.com) | no red flags found (0) |  | 5 |  |  |  | The heyAura Loyalty Program is a points campaign that was still accepting participants as of 28 October 2026. You sign in with a wallet at the heyAura rewards h | identified | airdropstop | 2026-11-23 |
+| nova-markets-logo | 45 | Ongoing | [site](https://airdrops.io/goto/binance) | DEAD-LINK (35) | no account flags | 3 |  |  |  | Looking for a potential Nova Markets airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop. | identified | airdropsio | 2026-11-23 |
 | predict.fun | 45 | Live | [site](https://predict.fun/points) | no red flags found (0) |  | 6 |  |  |  | The predict.fun airdrop campaign is Predict Points Season 2, a points program that was running on 1 November 2026. Making trades, providing liquidity and holdin | identified | airdropstop | 2026-11-23 |
 | x365 AI | 45 | Live | [site](https://x365.ai/airdrop) | no red flags found (0) |  | 5 |  |  |  | The x365 AI airdrop is a campaign from X365.AI that offers 500 free X365 coins per sign-up with a valid email address, and it remains open on 27 October 2026. E | identified | airdropstop | 2026-11-23 |
 | xDFi | 45 | Live | [site](https://alpha.xdfi.net) | no red flags found (0) |  | 3 |  |  |  | The xDFi airdrop is a $100K reward campaign for people who join the waitlist of xDFi, a project offering automated, market-neutral vaults for hedged yield. It i | identified | airdropstop | 2026-11-23 |

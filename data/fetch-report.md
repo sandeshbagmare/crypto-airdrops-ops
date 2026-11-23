@@ -8,7 +8,7 @@
 | airdropstop | 362 | ok | - |
 | airdrops.io | 144 | ok | - |
 
-- refreshed this run: **548**
+- refreshed this run: **549**
 - retained from previous runs (source unavailable): **1**
 - failing sources: none
 

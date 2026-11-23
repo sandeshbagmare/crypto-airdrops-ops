@@ -1,18 +1,25 @@
 {
  "project": "Memebook",
  "official_url": "https://memebook.app",
- "blocked_on": "site-unreachable",
- "why_agent_cannot": "try the URL in your own browser",
- "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
- "where_to_resume": "python tools/triage.py https://memebook.app   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/memebook",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Find the Memebook app Start from the Memebook homepage , which has a Get App button. Memebook describes a mobile-first Solana social app, and posts are uploaded from your phone.",
   "2 Step 2 : Connect a Solana wallet Link a Solana wallet inside the app. Memebook describes native wallet integration, and tips are paid in SOL.",
   "3 Step 3 : Post and engage to earn XP Share photos, reels or clips, and comment, like and tip. Memebook counts this activity toward your XP, the balance it says converts into MBK utility at the TGE.",
   "4 Step 4 : Check the leaderboard Watch your XP and your position among other users on the in-app leaderboard as you keep posting.",
   "5 Step 5 : Mint a creator NFT for perks Creator passes are minted on the Memebook mint site . The homepage presents the mint as a way to unlock perks and MBK airdrop boosts, and it shows no price for it."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://memebook.app",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,12 +1,10 @@
 {
  "project": "3jane-logo",
  "official_url": "https://airdrops.io/goto/binance-discount",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://airdrops.io/goto/binance-discount   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdrops.io/3jane/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open the 3Jane promise page through our referral link. Joining through a link boosts your promise’s JANE by up to 1.25x, depending on your Cred score. It costs you nothing and earns us a share of a weekly referral pool.",
   "Connect a wallet that has never staked on LCC. Connecting needs no signature.",
   "Click Promise on the USDC facility. 3Jane checks your address’s DeFi assets in real time.",
@@ -14,9 +12,19 @@
   "Set your loop leverage (up to 6.25x), check that the Referrer row shows the code and your boost, then approve and stake.",
   "Join t.me/jane_lcc for capital call alerts.",
   "Supply USDC to the 3Jane vault on Morpho",
-  "Provide USD3/frxUSD liquidity on Curve",
-  "Split USD3 into PT or YT positions on Pendle"
+  "Provide USD3/frxUSD liquidity on Curve"
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/binance-discount",
+ "evidence_so_far": [],
+ "confidence": 60,
+ "evidence": [
+  "9 concrete steps",
+  "official site linked",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Medium",
+ "risks": "LCC promises are undercollateralized commitments. If 3Jane calls and you can’t fund your share within 9 days, your stake is at risk. Promise Looping covers up to 84% of a call with a Morpho loan against the USD3 you receive, which adds the risks of a levered Morpho position, and your total promise is capped at 6.25x your verified DeFi assets. sUSD3 also carries more risk than USD3 because it is le",
  "created": "2026-11-23",
  "status": "open"
 }

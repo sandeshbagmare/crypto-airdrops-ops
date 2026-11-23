@@ -1,19 +1,26 @@
 {
  "project": "Wick",
  "official_url": "https://www.wick.xyz/waitlist",
+ "source_url": "https://99airdrops.com/airdrops/wick/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.wick.xyz/waitlist",
- "evidence_so_far": [
-  "airships/wick/page.txt",
-  "airships/wick/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open wick.xyz/waitlist and check the address in your browser. Warning Other sites use the Wick name, including one selling a \"$WICK\" token that has nothing to do with this project. Wick hasn't published a token contract, so any WICK token on sale today is unofficial.",
   "Connect the wallet you signed up with. The page says: \"Connect your wallet to view your registration.\" Warning Viewing your registration shouldn't need a token approval or a transaction. Read every request in your wallet and refuse anything like that.",
   "Follow @wick_xyz on X for the reveal Wick has promised before the Lighter EVM launch, and for what \"recognized\" turns out to mean."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.wick.xyz/waitlist",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Joining the waitlist cost nothing: it was a wallet connection and a signature, with no transaction. The products will carry fees and risk once they launch. The docs say returns on the wrapped liquidity pool vary and that \"individual months can be negative\".",
+ "risks": "No reward is promised. Nothing Wick has published says what early users get, who qualifies or whether it will have any value. There are no terms of service and no privacy policy, so no country list, age limit or identity rule is published. No audit and no contract address has been published. The docs show high example returns. They are illustrations, not measured results.",
  "created": "2026-11-23",
  "status": "open"
 }

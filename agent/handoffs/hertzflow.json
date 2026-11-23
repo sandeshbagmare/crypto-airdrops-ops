@@ -1,21 +1,28 @@
 {
  "project": "HertzFlow",
  "official_url": "https://www.hertzflow.xyz",
- "blocked_on": "terms",
- "why_agent_cannot": "accept the project's terms in your own name",
- "what_human_must_do": "Read and accept the project terms in your own name.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.hertzflow.xyz",
- "evidence_so_far": [
-  "airships/hertzflow/page.txt",
-  "airships/hertzflow/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/hertzflow/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open www.hertzflow.xyz and connect a wallet on BNB Smart Chain. \"HertzFlow never requests your private keys or seed phrase.\"",
   "Hold USDT on BSC and some BNB: \"Keep at least 0.01 BNB for gas fees at all times\".",
   "A referral code box appears once: \"You can bind a code or skip; the prompt only shows once per address.\" A bound code takes 5% off Normal-mode open and close fees. Only use a code from someone you trust.",
   "If you want, deposit USDT into a pool or vault for liquidity Merits, or make swaps in the app.",
   "Check your total on the Merits page and your rank on the leaderboard."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.hertzflow.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Merits need real trades, liquidity or swaps on mainnet. Normal mode charges 4 to 6 bps of position size to open and the same to close, depending on the market. Hyper Lev charges no open or close fee, but you keep only part of the profit: from 20% on gains under 1% up to 90% on gains over 2,500%. Hyper Lev often needs a position of at least 750 USDT. Both modes pay funding and borrow fees by the ho",
+ "risks": "The terms publish no country list. They bar \"persons located in jurisdictions where derivatives or leveraged trading is restricted or prohibited\" and sanctioned persons, and you must be of legal age where you live. The terms ban \"market manipulation, wash trading, spoofing, or oracle interference\". Trading against yourself for Merits pays real fees and can get you disqualified. Liquidity providers",
  "created": "2026-11-23",
  "status": "open"
 }

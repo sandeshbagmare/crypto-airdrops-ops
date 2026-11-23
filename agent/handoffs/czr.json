@@ -1,12 +1,22 @@
 {
  "project": "CZR",
  "official_url": "https://airdrops.io/stay-safe",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://airdrops.io/stay-safe   # then re-run bulk_apply",
+ "source_url": "https://airdrops.io/czr/",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
+  "Read the official site and follow its stated steps."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/stay-safe",
  "evidence_so_far": [],
- "steps_from_source": [],
+ "confidence": 15,
+ "evidence": [
+  "official site linked",
+  "costs disclosed",
+  "no steps found (-15)"
+ ],
+ "costs": "Free",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

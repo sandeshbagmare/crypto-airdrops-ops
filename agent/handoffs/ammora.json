@@ -1,15 +1,10 @@
 {
  "project": "Ammora",
  "official_url": "https://ammora.org/waitlist/join",
+ "source_url": "https://99airdrops.com/airdrops/ammora/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature, confirm the domain against the project's own profile before touching it (forensics flags it)",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://ammora.org/waitlist/join",
- "evidence_so_far": [
-  "airships/ammora/page.txt",
-  "airships/ammora/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Add GIWA Sepolia to a browser wallet such as MetaMask. GIWA's docs give chain ID 91342 and the RPC address https://sepolia-rpc.giwa.io.",
   "Get GIWA Sepolia test ETH from one of the faucets linked on the waitlist page.",
   "Open the waitlist join page , connect your wallet, sign the message and enter an email address. Signing sends no transaction.",
@@ -18,6 +13,19 @@
   "Check the Boost page for the daily roulette, bridge and swap activities. Season 2 of the Boost event ended on 16 October 2026, and no new season had been announced by 18 October.",
   "Check your rank on the leaderboard and follow the Telegram channel for announcements."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://ammora.org/waitlist/join",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing in real money. The missions use test ETH from faucets, and there is no purchase, mint or fee. The cost is your time and a daily post on your X account.",
+ "risks": "No terms of use are published, and there is no country list, age limit or identity rule. The campaign collects your wallet address, email address and X account, and the leaderboard shows shortened wallet addresses in public. The project is very new. Its X account dates from 24 August 2026 and its domain from two days later. The size it reports is hard to square with its audience: the waitlist page",
  "created": "2026-11-23",
  "status": "open"
 }

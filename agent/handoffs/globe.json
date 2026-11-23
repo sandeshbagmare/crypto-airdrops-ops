@@ -1,15 +1,10 @@
 {
  "project": "Globe",
  "official_url": "https://globemarkets.xyz",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link, confirm the domain against the project's own profile before touching it (forensics flags it)",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://globemarkets.xyz",
- "evidence_so_far": [
-  "airships/globe/page.txt",
-  "airships/globe/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/globe-markets/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open globemarkets.xyz and scroll to the early access form.",
   "Enter your email, then \"Enter the 6-digit code we sent to\" your inbox. No wallet is needed.",
   "Connect X to reserve your handle and get 25 points.",
@@ -17,6 +12,19 @@
   "Share your personal link if you want to climb the list. Each friend who joins is worth 50 points.",
   "Stay on the list until 30 November for the badge, then watch for your access invite."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://globemarkets.xyz",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist is free and needs only an email: \"We'll only email you about your Globe access.\" Trading after launch will need a deposit: \"Deposit any asset from any chain into Globe and start trading.\" Globe hasn't published its fees. The fee in its mockups is an example, not a rate. The risk warning on its site: \"Trading spot and perpetual futures carries a high level of risk, and leveraged positi",
+ "risks": "Globe isn't open everywhere. In some places the form is replaced by \"Globe isn't available in your region yet.\" or \"Globe is not available in your region.\" The page's own code says \"Early access and Founding trader don't apply to this visitor.\" No country list is published. We found no terms of service or privacy policy on the site, so the waitlist's rules aren't written down. No team member is na",
  "created": "2026-11-23",
  "status": "open"
 }

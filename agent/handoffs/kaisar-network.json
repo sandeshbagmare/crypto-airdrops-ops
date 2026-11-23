@@ -1,12 +1,10 @@
 {
  "project": "Kaisar Network",
  "official_url": "https://kaisar.io",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://kaisar.io   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/kaisar-network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Download the Provider App Open the Kaisar homepage and download the Provider App for MacOS, Windows or Linux.",
   "2 Step 2 : Contribute your compute Run the app so your device shares spare computing power with the network, which is how Kaisar says contributors earn rewards when AI models run.",
   "3 Step 3 : Connect a wallet on the Questverse page Open the Questverse page and connect your wallet.",
@@ -14,6 +12,15 @@
   "5 Step 5 : Claim the daily check-in Open the Questverse home page and press Claim every day. Missing a day resets the day count.",
   "6 Step 6 : Refer friends Share your referral link from your profile. Kaisar awards 200 points for each friend you refer."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://kaisar.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

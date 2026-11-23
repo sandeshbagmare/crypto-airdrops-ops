@@ -1,21 +1,25 @@
 {
  "project": "Moonbirds",
  "official_url": "https://claim.moonbirds.com",
+ "source_url": "https://www.airdropstop.com/airdrops/moonbirds",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://claim.moonbirds.com",
- "evidence_so_far": [
-  "airships/moonbirds/page.txt",
-  "airships/moonbirds/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Moonbirds claim site Go to the official claim site , which is where the BIRB eligibility check takes place.",
   "2 Step 2 : Connect your Solana wallet first Use the Connect Solana Wallet button. This wallet becomes the receiving wallet for all tokens you claim, so choose the one you want them sent to.",
   "3 Step 3 : Enable Ledger mode if you use a Ledger If your wallet is a Ledger device, turn on the Ledger mode option on the claim site before you connect it.",
   "4 Step 4 : Check your BIRB eligibility With your wallets connected, the site checks whether you qualify for the token. The claim site does not list the criteria.",
   "5 Step 5 : Optionally claim a soulbound token The Moonbirds minting site lists soulbound token drops with Claim Now buttons. Connect a wallet there to take part in them."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://claim.moonbirds.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

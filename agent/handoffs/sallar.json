@@ -1,12 +1,10 @@
 {
  "project": "Sallar",
  "official_url": "https://app.sallar.io",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://app.sallar.io   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/sallar",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Sallar App and log in Go to the Sallar App in your browser and log in. The app then assigns you a Solana subwallet.",
   "2 Step 2 : Note your subwallet address The subwallet is both your deposit and withdrawal address inside the app. Setup details are in the Sallar App guideline .",
   "3 Step 3 : Start mining Start mining in the app and leave it running. Expect higher computing power use in your browser. Use one browser per device, though one account can mine on several devices.",
@@ -14,6 +12,15 @@
   "5 Step 5 : Optionally hold Sallar for the boost Holding at least 125,000 Sallar in the subwallet earns an additional reward. Sallar describes the mining rules in its mining documentation .",
   "6 Step 6 : Withdraw once you reach 20 Sallar Withdrawals carry no gas fee and can start once the balance reaches at least 20 Sallar."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.sallar.io",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

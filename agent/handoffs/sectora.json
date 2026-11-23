@@ -1,21 +1,25 @@
 {
  "project": "Sectora",
  "official_url": "https://sectoraorg.com/guide",
+ "source_url": "https://www.airdropstop.com/airdrops/sectora",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://sectoraorg.com/guide",
- "evidence_so_far": [
-  "airships/sectora/page.txt",
-  "airships/sectora/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Get SECT and a little ETH in one wallet You need at least 100 SECT and some ETH for network fees, all in the same Ethereum wallet. Sectora&#x27;s buying guide explains how to get SECT.",
   "2 Step 2 : Stake SECT on the official staking page Open the staking page , connect your wallet and deposit your SECT. The deposit takes two wallet confirmations, and staking has no lock-up.",
   "3 Step 3 : Turn on your Hash Node with the same wallet Open the node dashboard , connect the wallet you staked with and press Activate my node. It is free, needs no gas and keeps running without your computer.",
   "4 Step 4 : Keep staking and the node on for at least 30 days Your reward grows each day both stay active, and under 30 days earns nothing. You can follow your level and count on the My Airdrop page .",
   "5 Step 5 : Receive SECT on SectoraEVM Deliveries start at the SectoraEVM mainnet launch, half on the first day and half 30 days later. Read the step-by-step guide for the full walkthrough."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://sectoraorg.com/guide",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

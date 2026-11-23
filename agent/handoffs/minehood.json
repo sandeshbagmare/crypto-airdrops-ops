@@ -1,17 +1,27 @@
 {
  "project": "Minehood",
  "official_url": "https://www.minehood.io",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://www.minehood.io   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/minehood/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open minehood.io , the only site linked from @minehood_rh, and press Connect X. The site warns that \"X's own sign in page lists wider read access because X offers no narrower choice for this kind of sign in. We use none of it.\"",
   "Follow @minehood_rh, then like, reply to and repost the task post, confirming each one on the site.",
   "Press Join the waitlist, then check @minehood_rh for new task posts, which add XP.",
   "Wait for the game. The site says: \"We will reach out on X when the doors open.\""
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.minehood.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist is free: it needs an X account and a public wallet address, with no payment and no gas. For the game, the FAQ says \"Walking the Central Hub, meeting the NPCs and taking the portals cost nothing\", and \"Sword and armor upgrades and crafting cost only resources.\" It also says \"deposits are plain transfers you send yourself\", without giving an amount or a token. Gas on Robinhood Chain is ",
+ "risks": "There are no terms of use, no country list and no age limit. The only legal text is a short privacy section. The site says it keeps \"your X account id, your @handle (also your name on the list), your public wallet address and when you marked a task done. Nothing else.\" To leave, the site says to \"Sign out on the waitlist panel, remove Minehood under connected apps in your X settings, and send us a",
  "created": "2026-11-23",
  "status": "open"
 }

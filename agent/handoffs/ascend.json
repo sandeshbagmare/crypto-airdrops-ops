@@ -1,21 +1,28 @@
 {
  "project": "Ascend",
  "official_url": "https://app.ascendlaunch.xyz",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature, confirm the domain against the project's own profile before touching it (forensics flags it)",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.ascendlaunch.xyz",
- "evidence_so_far": [
-  "airships/ascend/page.txt",
-  "airships/ascend/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/ascend/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
   "Follow @AscendLaunch on X. Mint dates and allowlists will be posted there.",
   "Enter the whitelist giveaways Ascend runs on X. One post offered five whitelist spots to the community. Builders can also be nominated, and Ascend says it will pick some nominations for NFT whitelist spots.",
   "If you already hold HYPE, KNTQ or a Hypurr NFT, you may fall in an allocation group. Ascend hasn't said how holdings will be checked.",
   "When the mint opens, mint on Ascend's official app only, then stake the NFT and wait the three-day activation.",
   "Once a points season starts, read its terms before trading or staking for points. Warning Coins on Ascend are new memecoins with fees of up to 10% per trade. Ascend said copies of other teams' coins appeared during testing. Don't trade just to farm points you can't value."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.ascendlaunch.xyz",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The NFT mint is free, though gas on Elysium will apply. Everything else uses your own money. Every coin pays a trading fee: \"1% is the base fee. The creator can select a higher trading fee.\" HYPE rewards need a kHYPE deposit, and \"Holding kHYPE in a wallet without depositing it into the Ascend vault does not establish an Ascend vault staking position.\" The docs also say: \"The funding allocation do",
+ "risks": "We found no terms of service, privacy policy or list of excluded countries. The main site sits behind a bot check, so we couldn't read it. The team is anonymous apart from a co-founder known as tommy on X, whose profile reads \"Co-founder @AscendLaunch\". The docs list past employers only and add that these \"do not constitute institutional backing or endorsement of Ascend\". No funding round has been",
  "created": "2026-11-23",
  "status": "open"
 }

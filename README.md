@@ -3,26 +3,27 @@
 Public research ledger of active crypto airdrops: requirements, deadlines, time to start, risk and
 source-stated pool size.
 
-**548 projects tracked as of 2026-11-23**, from five sources: airdroplet (dossiers), airdropvillage
+**550 projects tracked as of 2026-11-23** (547 unique drops after dedupe), from five sources: airdroplet (dossiers), airdropvillage
 (badges), 99airdrops (cards), airdropstop and airdrops.io (both client-rendered, parsed with
 Playwright). Every row carries its source URL; nothing is invented.
 
 airdrops.io also publishes per-project requirement flags, so the ledger can tell you which drops
-need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
+need Telegram, an X post, an email address or KYC before you start: 33 need Telegram, 68 need an
 X post, 54 need email, 19 require KYC.
 
 ## How autonomous can an agent be here?
 
-Measured on the extracted steps of all 545 drops (`notes/autonomy.md`):
+Measured on the extracted steps of all 547 drops (`notes/autonomy.md`):
 
 | Bucket | Drops | Who finishes it |
 |---|---|---|
-| No identity step detected | 98 | agent alone: read requirements, fill form fields, capture evidence |
-| Email / waitlist only | 33 | agent prepares, human clicks the confirmation link |
-| Needs Telegram / Discord / X | 69 | human logs in once, agent continues in that session |
-| Needs a wallet signature | 151 | human approves one signature, agent continues |
-| Deposit or stake required | 146 | human decides whether to spend; usually skip |
-| KYC | 43 | human only, by law |
+| No identity step detected | 159 | agent alone: read requirements, fill form fields, capture evidence |
+| Email / waitlist only | 22 | agent prepares, human clicks the confirmation link |
+| Needs Telegram / Discord / X | 44 | human logs in once, agent continues in that session |
+| Needs a wallet signature | 88 | human approves one signature, agent continues |
+| Deposit or stake required | 87 | human decides whether to spend; usually skip |
+| KYC | 34 | human only, by law |
+| Refused / unreachable / unreadable | 113 | nobody until the source or domain is fixed |
 
 `python tools/auto_apply.py --top 10` runs a live pre-flight per drop: domain check, official page in
 the persistent profile, requirement detection (form fields, wallet prompt, CAPTCHA, KYC), page text and

@@ -1,16 +1,24 @@
 {
  "project": "Scout",
  "official_url": "https://airdrops.io/goto/binance",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://airdrops.io/goto/binance   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdrops.io/scout/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Buy SOL on an exchange like Binance if you need it to fund the swap.",
   "Swap SOL for $SCOUT on Kickstart .",
   "Connect the wallet holding $SCOUT to your Scout account before your next submission, since the boost locks in at the time you upload."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/binance",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "costs disclosed"
+ ],
+ "costs": "Free",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,21 +1,25 @@
 {
  "project": "Teller Protocol",
  "official_url": "https://pro.teller.org",
+ "source_url": "https://www.airdropstop.com/airdrops/teller-protocol",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://pro.teller.org",
- "evidence_so_far": [
-  "airships/teller-protocol/page.txt",
-  "airships/teller-protocol/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Teller app Go to the Teller app , sign in and connect a wallet through the prompt on the home screen.",
   "2 Step 2 : Swap tokens in the app Open the Swap panel, pick the token you pay with and the one you receive. The panel shows a points counter for the action.",
   "3 Step 3 : Borrow against tokens in your wallet Open the Borrow panel with a wallet that holds tokens to borrow against. Borrowing here means taking a fixed-term loan against those tokens, and the Borrow panel shows the points for the action.",
   "4 Step 4 : Sign up for a partner card Open the Crypto cards panel and register for a listed card through Teller. Each card comes from its own issuer with its own terms, and each lists +10 points. The app says signing up adds a score boost.",
   "5 Step 5 : Check your Teller Score Return to the Teller app and look at the Teller score on the home screen or open the Your score panel to see your score."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://pro.teller.org",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

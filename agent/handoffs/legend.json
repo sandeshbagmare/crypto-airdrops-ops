@@ -1,16 +1,24 @@
 {
  "project": "Legend",
  "official_url": "https://airdrops.io/goto/binance",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://airdrops.io/goto/binance   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdrops.io/legend/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
   "Copy trade: mirror a trader you follow with one tap, and earn PnL from anyone who copies you",
   "1v1 duels: challenge another trader to a head-to-head match scored by real on-chain PnL",
   "Clans and spectating: trade alongside a group and watch top traders work in real time"
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/binance",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "costs disclosed"
+ ],
+ "costs": "Medium",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,12 +1,10 @@
 {
  "project": "SolPump",
  "official_url": "https://airdrops.io/goto/bybit",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://airdrops.io/goto/bybit   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdrops.io/solpump/",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Visit the SolPump Platform",
   "Connect Your Solana Wallet",
   "Acquire SOL Tokens Ensure you have sufficient SOL in your wallet for betting and transaction fees",
@@ -14,12 +12,18 @@
   "Complete Initial Setup Connect your social media accounts as prompted",
   "This step can provide up to 10 SOL in bonus rewards",
   "Participate in Chat Activities Join the platform’s chat community",
-  "Engage with other players and participate in discussions",
-  "Active chat participation is required for hourly airdrop eligibility",
-  "Place Qualifying Bets Navigate to the crash game section",
-  "Place a minimum bet of 0.001 SOL to qualify for hourly airdrops",
-  "Your bet establishes eligibility for the next hour’s airdrop distribution"
+  "Engage with other players and participate in discussions"
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/bybit",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "12 concrete steps",
+  "official site linked",
+  "costs disclosed"
+ ],
+ "costs": "Low",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,15 +1,10 @@
 {
  "project": "SwarmBase",
  "official_url": "https://core.swarmbase.io/points",
+ "source_url": "https://www.airdropstop.com/airdrops/swarmbase",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://core.swarmbase.io/points",
- "evidence_so_far": [
-  "airships/swarmbase/page.txt",
-  "airships/swarmbase/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Connect a wallet on the points page Open the SwarmBase points page and use a browser wallet such as MetaMask. If the page reports the wrong network, switch the wallet to opBNB.",
   "2 Step 2 : Register the wallet on-chain Use the Register Now action once per wallet. Registration activates the SwarmScore and unlocks the other actions.",
   "3 Step 3 : Check in every 24 hours Press Check In Today each day to extend your streak; daily points rise as the streak continues.",
@@ -17,6 +12,15 @@
   "5 Step 5 : Share your invite link Send your personal invite link to others on the points page . Each wallet that registers through it adds points to your score.",
   "6 Step 6 : Follow the token launch phase Watch the roadmap on the SwarmBase homepage for the community distribution that follows the TGE snapshot."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://core.swarmbase.io/points",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

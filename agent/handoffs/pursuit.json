@@ -1,20 +1,28 @@
 {
  "project": "Pursuit",
  "official_url": "https://beta.pursuit.games",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://beta.pursuit.games",
- "evidence_so_far": [
-  "airships/pursuit/page.txt",
-  "airships/pursuit/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/pursuit/",
+ "blocked_on": "login",
+ "why_agent_cannot": "an X account post or follow is required",
+ "what_human_must_do": [
   "Open beta.pursuit.games , which pursuit.games links to, and join the waitlist with your email. You can add your X handle.",
   "Share your friend link if you want to move up the line. \"Codes go out in waves.\"",
   "Wait for your code by email, or reply to Pursuit's 5 November post on X , which invites people to ask for a code there. Some codes are also posted by @pursuitsportsgg.",
   "Sign in with a passkey, a wallet, X or email, pick a manager name and enter your code. A wallet is created for you."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://beta.pursuit.games",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist and the beta are free, and the beta needs no deposit or gas. At mainnet, packs will be sold. The launch post says: \"Rip packs, build your lineup, and compete in weekly contests for prizes.\" Pack prices aren't published. In the beta, packs are \"priced live by real demand\", so each pack bought raises the price of the next. On the card marketplace, sellers pay a 3% royalty and buyers pay",
+ "risks": "No terms of service, privacy policy or company name is published, and pursuit.games/terms returns an error page. Prize rules, eligible countries and age limits aren't written down anywhere we found. The waitlist collects your email and, if you add it, your X handle, with no privacy policy saying how they are used. Nothing is promised. Beta Coins, cards and prizes have no stated value, and the test",
  "created": "2026-11-23",
  "status": "open"
 }

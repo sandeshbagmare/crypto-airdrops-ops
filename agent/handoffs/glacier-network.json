@@ -1,18 +1,25 @@
 {
  "project": "Glacier Network",
  "official_url": "https://www.glacier.io/points",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://www.glacier.io/points   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/glacier-network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Glacier points page Go to the Glacier Points System and connect your wallet to see your Season III points, your GLS balance and your whitelist status.",
   "2 Step 2 : Finish the social tasks Complete the social task list shown for Season III. Each task pays a different number of points, and harder ones usually pay more.",
   "3 Step 3 : Run a verifier node on the testnet Deploy a node on the Verifier Nodes Testnet by following the instructions linked from the FAQ on the points page , and keep it online. The page ties the whitelist spot and the 1:1 GLS rewards to this task.",
   "4 Step 4 : Share your referral link Copy your referral link from the points page and send it on. An invitee counts as valid once they log in through it for the first time and finish the social tasks or run a testnet node.",
   "5 Step 5 : Track points and redeem Return to the points page to follow your invited users, valid invitees and points. Points are redeemable for GLS tokens."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.glacier.io/points",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

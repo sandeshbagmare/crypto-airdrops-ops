@@ -1,20 +1,24 @@
 {
  "project": "Re",
  "official_url": "https://app.re.xyz",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.re.xyz",
- "evidence_so_far": [
-  "airships/re/page.txt",
-  "airships/re/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/re",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
   "1 Step 1 : Open the Re app at app.re.xyz Visit app.re.xyz , the Re app where reUSD, reUSDe and the earning opportunities are listed.",
   "2 Step 2 : Hold reUSD or reUSDe Pick reUSD or reUSDe and hold it in your wallet. Re limits these tokens to eligible non-U.S. persons, subject to KYC/AML requirements.",
   "3 Step 3 : Choose a listed earning opportunity Browse the lending markets, yield trading and liquidity provision entries in the app. Each row shows its multiplier and daily points, so you can compare them against holding alone.",
   "4 Step 4 : Track your points Connect your wallet in the app to see your balance and points history. The Re Points docs describe the seasons and what each one allocates."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.re.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

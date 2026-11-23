@@ -1,12 +1,10 @@
 {
  "project": "Namada",
  "official_url": "",
- "blocked_on": "no-official-site",
- "why_agent_cannot": "find the official site from the project's own profile",
- "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
- "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdroplet.com/airdrop/namada",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
   "Project Verified Namada supports shielded balances; its homepage presents mainnet as live. Sources: namada-home, namada-shield Recheck when: Official rules, eligibility, reward mechanics or product availability change.",
   "Reward Verified Users receive NAM for each epoch that incentivized assets remain in the shielded set. Sources: namada-rewards Recheck when: Official rules, eligibility, reward mechanics or product availability change.",
   "Eligibility Verified Governance sets reward rates and can add or remove assets from eligibility. Query eligible assets with namadac masp-reward-tokens. Sources: namada-rewards Recheck when: Official rules, eligibility, reward mechanics or product availability change.",
@@ -15,6 +13,15 @@
   "Risk Verified Namada transactions require fees; the minimum gas price is set by governance. Sources: namada-fees Recheck when: Official rules, eligibility, reward mechanics or product availability change.",
   "Reward Unavailable No fixed current APR, minimum dollar deposit or final reward deadline was verified in these sources. Sources: namada-rewards, namada-shield Recheck when: Official rules, eligibility, reward mechanics or product availability change."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/namada",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "7 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "Shielding requires assets: either a funded source-chain account for IBC Shield or an existing transparent Namada balance for Internal Shield. Namada transactions require fees under the fee documentation. A fixed dollar fee and minimum deposit were not verified. Capital remains exposed to asset-price, protocol and transfer risks. Reward estimates are variable and may not cover the cost of moving fu",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

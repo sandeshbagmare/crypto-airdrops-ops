@@ -1,20 +1,24 @@
 {
  "project": "Fight.ID",
  "official_url": "https://app.fight.id",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.fight.id",
- "evidence_so_far": [
-  "airships/fight-id/page.txt",
-  "airships/fight-id/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/fight-id",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Fight.ID app Go to the Fight.ID app and choose the button to enter Fight.ID, which leads to the sign-up page.",
   "2 Step 2 : Sign in to claim your FIGHT ID On the sign-up page , connect with Binance, email, Google or Apple to claim your FIGHT ID.",
   "3 Step 3 : Build reputation through your FIGHT ID The sign-up page links a claimed FIGHT ID to reputation and airdrop entries. It gives no list of tasks or point values.",
   "4 Step 4 : Read the help center for FP and seasons The help center lists headings on FP points, seasons and the airdrop date. Check it again for answers, and use its support email or Discord link if you get stuck."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.fight.id",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

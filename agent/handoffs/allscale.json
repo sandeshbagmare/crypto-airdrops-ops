@@ -1,12 +1,10 @@
 {
  "project": "AllScale",
  "official_url": "https://app.allscale.io",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://app.allscale.io   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/allscale/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Go to app.allscale.io or get the iOS or Android app from allscale.io. Register with your email and the 6-digit code it sends. The docs say: \"Registration takes two quick steps: verify your email, then set up a passkey\". The passkey is optional; you can set it up later and sign in with email only.",
   "Verify your email (100 AS Points) and sign in once on the mobile app (800 AS Points).",
   "Open Rewards in the app. The Overview, Referral and Redeem Code tabs show your points, your invite link and the code field.",
@@ -14,6 +12,18 @@
   "Follow AllScale on X, Telegram and Discord for campaigns with redeem codes, and enter any code you get under Redeem Code. Where redeem codes go in the app. Source: AllScale docs",
   "Check any account that contacts you at app.allscale.io/official-verification. Warning The wallet lets you export your secret phrase. Never paste it anywhere. AllScale says: \"We never ask for your private key or seed phrase.\""
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.allscale.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Registering and the one-off tasks cost nothing, and no deposit is needed to sign up. Most repeatable points, though, come from money you actually receive, so they suit people who already get paid in stablecoins. Invoices carry fees on top: \"The amount displayed on the Invoice includes your base amount plus gas fees and service fees.\" Moving funds between networks has an AllScale service fee plus g",
+ "risks": "There is no token. AllScale can change the program at will: \"AllScale reserves the right to change, modify, discontinue, cancel, or withhold from you the provision or redemption of any Rewards at any time, for any reason, and without notice to you.\" Its calls are final: \"All determinations made by AllScale regarding the issuance, validity, eligibility, vesting, and redemption of Rewards are final,",
  "created": "2026-11-23",
  "status": "open"
 }

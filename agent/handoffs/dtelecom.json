@@ -1,21 +1,25 @@
 {
  "project": "dTelecom",
  "official_url": "https://rewards.dtelecom.org",
+ "source_url": "https://www.airdropstop.com/airdrops/dtelecom",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://rewards.dtelecom.org",
- "evidence_so_far": [
-  "airships/dtelecom/page.txt",
-  "airships/dtelecom/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the rewards site and connect a wallet Go to the dTelecom rewards site and connect a wallet so your points and rewards history are tracked.",
   "2 Step 2 : Read the Points Program rules The Points Program page lists the stages, the apps that award points and the conversion options at the token launch.",
   "3 Step 3 : Use dMeet and the other dTelecom apps Host or join meetings on dMeet, or use Livestreaming, AI Voice Agent and Spatial, to earn points for activity.",
   "4 Step 4 : Complete tasks and invite friends Finish the tasks on offer, report bugs you find and invite other people to the apps, all of which the program rewards with points.",
   "5 Step 5 : Check your points history Return to the rewards site with your wallet connected to see the points and rewards you have earned."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://rewards.dtelecom.org",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

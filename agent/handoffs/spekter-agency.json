@@ -1,20 +1,24 @@
 {
  "project": "Spekter Agency",
  "official_url": "https://www.spekter.games",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.spekter.games",
- "evidence_so_far": [
-  "airships/spekter-agency/page.txt",
-  "airships/spekter-agency/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/spekter-agency",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "1 Step 1 : Open the Spekter Games homepage Go to the official site at Spekter Games and find the Spekter Agency section.",
   "2 Step 2 : Start the game on Telegram or LINE Use the Play on Telegram or Play on LINE button in that section to open Spekter Agency in the messaging app you prefer.",
   "3 Step 3 : Play and level up Complete runs and progress your character. Spark points build up in the background, and the earning rate rises with your level.",
   "4 Step 4 : Follow the news channel Join the Spekter Agency news channel on Telegram for the studio&#x27;s updates."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.spekter.games",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

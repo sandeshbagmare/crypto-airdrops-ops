@@ -1,21 +1,25 @@
 {
  "project": "Neutral Trade",
  "official_url": "https://www.neutral.trade/strategies",
+ "source_url": "https://www.airdropstop.com/airdrops/neutral-trade",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.neutral.trade/strategies",
- "evidence_so_far": [
-  "airships/neutral-trade/page.txt",
-  "airships/neutral-trade/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the strategies page Go to the Neutral Trade strategies list and choose a vault. Each vault page shows its deposit token, network, minimum deposit, fees and redemption schedule.",
   "2 Step 2 : Connect a wallet and accept the terms Connect a supported crypto wallet in the app. Before continuing, the app asks you to accept the Terms of Use and Risk Statement and to confirm you are not accessing it from a restricted country.",
   "3 Step 3 : Deposit USDC into a vault Enter an amount at or above the vault&#x27;s minimum (100 USDC on the three vaults featured on the homepage) and confirm the deposit. Points count from the days your funds are in the vault.",
   "4 Step 4 : Check your NT Points Open the points page to see your balance. The points and referrals docs explain how deposit points and monthly fee points are calculated.",
   "5 Step 5 : Optionally refer others Each vault page has a field for an optional referral code and a prompt to share the vault for bonus NT points. A referrer receives 10% of the points their referees earn."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.neutral.trade/strategies",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

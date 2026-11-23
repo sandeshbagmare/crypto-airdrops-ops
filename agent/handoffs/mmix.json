@@ -1,21 +1,29 @@
 {
  "project": "MMIX",
  "official_url": "https://hub.mmix.io",
- "blocked_on": "kyc",
- "why_agent_cannot": "complete identity verification (KYC), connect a wallet and approve the signature",
- "what_human_must_do": "Pass KYC in your own name (legal step, agent cannot). Then finish the steps in apply/.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://hub.mmix.io",
- "evidence_so_far": [
-  "airships/mmix/page.txt",
-  "airships/mmix/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/mmix/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Do the one-time tasks: follow on X, join Discord, join Telegram.",
   "Before 23 November 2026, 21:00 UTC, like, repost and comment on the 17 November announcement for the 200 points.",
   "Give a wallet address. The form asks for \"The wallet that will mint on Ethereum. Use one you control, not an exchange address.\" You type the address in; a new, empty wallet is the safer choice.",
   "Go back to the hub. The whitelist task checks itself and can take up to a day to show the 1.1x multiplier. Do it before 25 November 2026, 21:00 UTC.",
   "Check in each day and submit one X post a week if you want to keep adding points."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://hub.mmix.io",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Everything open today is free. No page we read asks for a deposit, a purchase or a payment. The Districts mint is described as free, but it is on Ethereum, so expect to pay gas when it happens. MMIX has not said how much or when. The real price is your accounts. The program asks for your X account, follows, a like, a reply, a quote post, weekly posts, Discord and Telegram joins and a wallet addres",
+ "risks": "Age: \"You must be at least 18 years old to use the Service.\" No list of excluded countries is published. The terms shut out people under sanctions and in fully sanctioned countries, and say access can be restricted from any jurisdiction. There is no KYC today, but it may come before any reward: \"Some features and programmes require verification, because MMIX is a trusted network.\" The terms for th",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,6 +1,6 @@
 # What an agent can actually complete
 
-546 drops classified on 546 rows of extracted steps. Buckets are decided by what the steps themselves demand, not by optimism.
+547 drops classified on 547 rows of extracted steps. Buckets are decided by what the steps themselves demand, not by optimism.
 
 | Bucket | Drops | Share | Who finishes it |
 |---|---|---|---|
@@ -13,9 +13,9 @@
 | ('kyc', 'passport', 'proof of address', 'identity verification') | 34 | 6% | human only - legal identity step |
 | refused | 86 | 16% | nobody - domain failed the safety check |
 | unreachable | 9 | 2% | nobody until the source is re-checked |
-| no usable steps extracted | 17 | 3% | needs manual reading |
+| no usable steps extracted | 18 | 3% | needs manual reading |
 
-**Agent-completable without any human**: 181 of 546 (33%).
+**Agent-completable without any human**: 181 of 547 (33%).
 **One human touch unlocks**: 132 more (24%) - a login or a signature, then the agent continues.
 **Human-only by law or by money**: 121.
 

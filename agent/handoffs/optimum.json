@@ -1,21 +1,28 @@
 {
  "project": "Optimum",
  "official_url": "https://turbocards.getoptimum.xyz/optimum",
+ "source_url": "https://99airdrops.com/airdrops/optimum/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://turbocards.getoptimum.xyz/optimum",
- "evidence_so_far": [
-  "airships/optimum/page.txt",
-  "airships/optimum/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Follow Optimum on X and join its Discord, discord.gg/getoptimum, and turn on notifications. Codes go fast.",
   "When a code drops, open the official mint site: \"Official mint site: https://turbocards.getoptimum.xyz/optimum\".",
   "Press Follow Optimum, connect an EVM wallet on Ethereum mainnet, enter the code and mint. You'll pay Ethereum gas. Warning Fake codes and links circulate under Optimum's posts. Optimum says: \"1 code = 1 card. Only trust codes and links from official Optimum channels.\" The mint never needs your seed phrase.",
   "Keep the card in the wallet that minted it. It can't be moved or sold.",
   "If you run Ethereum validators, you can also connect them for free: \"Boost your node for free at: https://console.getoptimum.xyz\"."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://turbocards.getoptimum.xyz/optimum",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The mint has no price set, so the only cost is Ethereum gas for the mint transaction. Optimum hasn't stated this itself; it comes from the mint platform's settings. The cards have no market price because they can't be traded.",
+ "risks": "TurboCards are a keepsake, not a ticket to a token. Optimum hasn't promised holders anything. Most readers won't get a code: there are only 999 cards, and the first public drop was 20 codes, claimed within minutes. After complaints about bots, Optimum said it \"may adjust the format in which codes are published to further reduce botting potential.\" No terms, country list or age rule were published ",
  "created": "2026-11-23",
  "status": "open"
 }

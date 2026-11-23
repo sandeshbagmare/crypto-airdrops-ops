@@ -1,20 +1,24 @@
 {
  "project": "GIWA",
  "official_url": "https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa",
+ "source_url": "https://www.airdropstop.com/airdrops/giwa",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa",
- "evidence_so_far": [
-  "airships/giwa/page.txt",
-  "airships/giwa/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Read the connection guide Open the GIWA connection guide to see the GIWA Sepolia testnet details and which parts of GIWA are still under development.",
   "2 Step 2 : Add GIWA Sepolia to a wallet The guide says a button at the bottom of the testnet explorer connects MetaMask to GIWA with one click. Approve the network in your wallet when it asks.",
   "3 Step 3 : Get free test ETH The testnet uses free test ETH, not real assets. The next page in the docs, Claim Test ETH, covers how to obtain it.",
   "4 Step 4 : Browse the explorer Open the GIWA Sepolia explorer linked from the guide to look up your wallet address and any test transaction you send. The GIWA homepage introduces the chain itself."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

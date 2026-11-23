@@ -1,15 +1,10 @@
 {
  "project": "OnePump",
  "official_url": "https://www.oneswap.cc/waitlist",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.oneswap.cc/waitlist",
- "evidence_so_far": [
-  "airships/onepump/page.txt",
-  "airships/onepump/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/onepump/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Go to oneswap.cc/waitlist , which the OneSwap site links under OnePump. Warning onepump.fun is an unrelated Solana memecoin site, and the Telegram username @OnePumpCC belongs to someone offering to sell it. OnePump's official X account is @onepumpcc, linked from the waitlist page.",
   "Enter an email address. The page asks you to \"Use a personal inbox\".",
   "Add your X handle, which you need for a spot, and a Telegram username if you want.",
@@ -17,6 +12,18 @@
   "Share your referral link and check in each day to keep your Diamond streak. Don't make extra accounts: \"Self-referrals, fake accounts and incentivized sign-ups are not permitted\", and \"Suspicious clusters of sign-ups may be removed from the line.\"",
   "Watch the waitlist page and @onepumpcc on X for the quests and the launch."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.oneswap.cc/waitlist",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The waitlist is free. It needs no wallet, deposit or seed phrase, so be wary of any OnePump page that asks for one. You pay with data: the privacy policy lists your \"email address, X (Twitter) handle, Telegram handle if provided, display name, referral code used\" among what it collects. Using the launchpad later will cost money. You will need a OneSwap account and Canton Coin, and \"Fees for creati",
+ "risks": "\"You must be at least 18 years old, or the age of majority where you live if that is higher\". And: \"You may not use a VPN or other means to disguise your location in order to access the Service.\" The terms exclude anyone in \"any country subject to comprehensive sanctions by the United Nations, the United States, the European Union or the United Kingdom\", and anywhere OnePump would need a licence i",
  "created": "2026-11-23",
  "status": "open"
 }

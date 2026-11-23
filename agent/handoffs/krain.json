@@ -1,21 +1,25 @@
 {
  "project": "KRAIN",
  "official_url": "https://app.krain.ai/airdrop",
+ "source_url": "https://www.airdropstop.com/airdrops/krain",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.krain.ai/airdrop",
- "evidence_so_far": [
-  "airships/krain/page.txt",
-  "airships/krain/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Catalyst airdrop page Go to the Krain airdrop page and check that the Catalyst Airdrop Season is shown as open.",
   "2 Step 2 : Connect a wallet Connect your wallet in the Krain app so your progress and streaks are tracked.",
   "3 Step 3 : Complete the repeatable quests Write reviews, vote on apps, try apps, view apps and submit quality AI apps, staying within each action&#x27;s daily limit.",
   "4 Step 4 : Claim the daily check-in After finishing the day&#x27;s quests, claim the check-in bonus of 500 XP.",
   "5 Step 5 : Keep your streak going Check in on consecutive days to raise the check-in bonus up to 2x, and use Saturdays and Sundays (UTC) when a 1.5x multiplier applies to select actions."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.krain.ai/airdrop",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,17 +1,27 @@
 {
  "project": "Rialo",
  "official_url": "https://playground.rialo.io",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://playground.rialo.io   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/rialo/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Sign in at playground.rialo.io . New accounts get a 20-point welcome bonus.",
   "Request devnet RIALO from the Account tab. It's a test token with no market value.",
   "Use the apps in the Playground. Warning In Agent Grand Prix you bet points, so you can lose some as well as win.",
   "Link your Discord, GitHub and email, and come back over several sessions."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://playground.rialo.io",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing. The Playground runs on devnet with free faucet tokens.",
+ "risks": "Points aren't guaranteed to turn into anything. Devnet state can be reset.",
  "created": "2026-11-23",
  "status": "open"
 }

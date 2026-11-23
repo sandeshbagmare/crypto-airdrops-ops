@@ -14756,5 +14756,30 @@
    "costs disclosed"
   ],
   "sources": 1
+ },
+ "https://airdrops.io/nova-markets/": {
+  "url": "https://airdrops.io/nova-markets/",
+  "name": "nova-markets-logo",
+  "checked": "2026-11-23",
+  "ok": true,
+  "error": "",
+  "page_title": "Potential Nova Markets Airdrop » How to be eligible?",
+  "what_it_is": "Looking for a potential Nova Markets airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+  "steps": [
+   "Name and thesis: A short title and clear rationale for the market",
+   "Oracle chart link: A reliable price feed or data source the market can settle against",
+   "HyperEVM payout address: Where your 10% lifetime fee share is paid if the market lists"
+  ],
+  "who_is_behind": "",
+  "costs": "",
+  "risks": "",
+  "official_url": "https://airdrops.io/goto/binance",
+  "section_count": 8,
+  "confidence": 45,
+  "evidence": [
+   "3 concrete steps",
+   "official site linked"
+  ],
+  "sources": 1
  }
 }

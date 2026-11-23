@@ -1,12 +1,10 @@
 {
  "project": "OmenX",
  "official_url": "",
- "blocked_on": "no-official-site",
- "why_agent_cannot": "find the official site from the project's own profile",
- "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
- "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/omenx/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Check the restricted list first. OmenX blocks 36 countries and regions, among them the United States, the United Kingdom, Canada, Germany, France, Italy, the Netherlands, Singapore, Hong Kong, mainland China, Japan and Australia. Its terms forbid getting around the block.",
   "Open omenx.com and sign in with Google, Telegram or a wallet.",
   "Complete your profile with a username and an email address you confirm by code.",
@@ -14,6 +12,17 @@
   "To trade, deposit USDC using the asset, network and address the app shows. Warning Send only what the deposit screen asks for. The app warns that \"deposits of other assets or from other networks will be lost\".",
   "Choose a Standard or Boost market, read its rules and place a YES or NO order. The minimum order is 2 USDC."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://99airdrops.com/airdrops/omenx/",
+ "evidence_so_far": [],
+ "confidence": 55,
+ "evidence": [
+  "6 concrete steps",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The reward tasks are free, but trading is not. OmenX charges 0.20% on maker orders and 0.40% on taker orders, plus a 5% commission on your net profit when you win. Leveraged positions that get liquidated pay a 0.75% fee. The minimum deposit and the withdrawal fee aren't published outside the app. The Fees and Trading Costs chapter of the OmenX help center on 18 October 2026, with the trading fee r",
+ "risks": "The terms say: \"Trading involves substantial risk. You may lose some or all of the funds committed to a position.\" Withdrawals can be delayed. The terms allow OmenX to \"delay or restrict withdrawals where reasonably necessary for security, compliance, unresolved obligations, account review, or Platform protection\". Custody is described in two ways. The help centre names Cobo as its custody partner",
  "created": "2026-11-23",
  "status": "open"
 }

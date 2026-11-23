@@ -1,21 +1,25 @@
 {
  "project": "Watt2Trade",
  "official_url": "https://rewards.watt2trade.com",
+ "source_url": "https://www.airdropstop.com/airdrops/watt2trade",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://rewards.watt2trade.com",
- "evidence_so_far": [
-  "airships/watt2trade/page.txt",
-  "airships/watt2trade/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Open the Watt2Trade rewards site Go to the rewards site , where the Airdrop Portal and your WXP totals are shown.",
   "2 Step 2 : Connect a wallet Press Connect Wallet at the top of the rewards page. Quest tasks stay hidden until a wallet is linked.",
   "3 Step 3 : Link your social accounts The Social Quests section asks you to bind an X account and a Telegram account, which earns WXP.",
   "4 Step 4 : Complete quests for WXP Work through the Social, Community and Trading Quests and watch your WXP total rise. The leaderboard refreshes daily at 12:00 AM UTC.",
   "5 Step 5 : Convert WXP into Wattoins The Watt2Trade homepage says WXP can be converted into free Wattoins, which you can then use to trade Watts."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://rewards.watt2trade.com",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,17 +1,24 @@
 {
  "project": "Decimated Game",
  "official_url": "https://magiceden.io/marketplace/decimated",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://magiceden.io/marketplace/decimated   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/decimated-game",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "1 Step 1 : Unlock Early Access Buy a Decimated Avatar NFT on Magic Eden to gain Early Access to the game.",
   "2 Step 2 : Get Your Game Key Join the official Decimated Discord server and receive a serial key to download the game on Steam . Stay alert for potential scammers!",
   "3 Step 3 : Play and Earn Jump into the game, complete missions, and rise on the leaderboards to earn $DIO tokens.",
   "4 Step 4 : Boost Earnings Earn additional $DIO tokens by completing tasks on Zealy and staking your DIO tokens ."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://magiceden.io/marketplace/decimated",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

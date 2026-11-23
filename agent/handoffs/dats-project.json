@@ -1,17 +1,24 @@
 {
  "project": "DATS Project",
  "official_url": "https://datsproject.io/download",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://datsproject.io/download   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/dats-project",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
   "1 Step 1 : Download the DATS desktop app Get the installer for your operating system from the DATS download page . The project says installation instructions are given there for each system.",
   "2 Step 2 : Sign in with MetaMask or email Open the app and sign in with your MetaMask wallet or an email address.",
   "3 Step 3 : Share bandwidth and CPU In the app, dedicate your internet bandwidth and CPU to DATS, as the project&#x27;s homepage describes.",
   "4 Step 4 : Keep the app open Leave the app running so it can earn DATS tokens from your resources. The DATS Node App full guide on Medium covers the app in more detail."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://datsproject.io/download",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

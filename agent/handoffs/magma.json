@@ -1,21 +1,25 @@
 {
  "project": "Magma",
  "official_url": "https://blog.magmastaking.xyz/p/magma-points-program-is-live",
- "blocked_on": "email",
- "why_agent_cannot": "enter an email and click the confirmation link",
- "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://blog.magmastaking.xyz/p/magma-points-program-is-live",
- "evidence_so_far": [
-  "airships/magma/page.txt",
-  "airships/magma/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://www.airdropstop.com/airdrops/magma",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "1 Step 1 : Read the Season 1 announcement The Magma blog introduced the program in Magma Points Program is Live! . Start there for the project&#x27;s own description of Season 1.",
   "2 Step 2 : Open the Points page The Points page shows the leaderboard, total unique wallets and total points. It also states that multipliers from indexed DeFi protocols will be applied retroactively, and it lists no tasks that earn points.",
   "3 Step 3 : Stake MON on Magma to use the protocol On the Magma site , connect a wallet and stake MON to receive gMON. This is a deposit of your own MON and is how the protocol itself is used; the Points page does not say that staking earns points.",
   "4 Step 4 : Browse the DeFi and Ecosystem pages The site&#x27;s navigation includes DeFi and Ecosystem pages. The Points page does not say that using gMON elsewhere earns points.",
   "5 Step 5 : Look for your address on the leaderboard Return to the Points page and check whether your wallet address appears with a points total."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://blog.magmastaking.xyz/p/magma-points-program-is-live",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "5 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

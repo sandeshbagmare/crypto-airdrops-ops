@@ -1,15 +1,10 @@
 {
  "project": "Note Systems",
  "official_url": "https://note.systems/app",
+ "source_url": "https://99airdrops.com/airdrops/note-systems/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://note.systems/app",
- "evidence_so_far": [
-  "airships/note-systems/page.txt",
-  "airships/note-systems/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Add Robinhood Chain Testnet to your wallet. The docs give chain ID 46630, ETH as the currency and https://rpc.testnet.chain.robinhood.com as the RPC address.",
   "Get testnet ETH for gas from the Robinhood faucet linked inside the app.",
   "Open note.systems/app and connect a wallet. The docs list MetaMask, Rabby, Coinbase Wallet, Phantom and the Robinhood Wallet browser.",
@@ -18,6 +13,18 @@
   "Open the community page and sign in with the same wallet to see your points, streak and rank. Signing in is a message signature and costs no gas.",
   "Keep notes alive across observation dates to build a streak, and watch @notesystems for the mainnet terms."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://note.systems/app",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "7 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "The testnet is free. Mock USDG, mock stocks and test ETH all come from faucets. Real money enters only if you buy NOTE or deposit on mainnet later, and two point boosts are tied to NOTE: one for providing NOTE liquidity and one that burns NOTE to protect a streak.",
+ "risks": "No ratio, pool size or date has been published for turning points into NOTE. The smart contracts haven't finished an independent audit. The completed Cyfrin report covers the website only, and Note Systems says the contract audit is \"in progress\". Its investor page calls NOTE \"a utility token of an unaudited protocol under development\". The project's footer states: \"Stock Tokens are not available ",
  "created": "2026-11-23",
  "status": "open"
 }

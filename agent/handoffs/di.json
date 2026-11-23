@@ -1,15 +1,10 @@
 {
  "project": "DI",
  "official_url": "https://di.xyz/check-in",
+ "source_url": "https://99airdrops.com/airdrops/di/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://di.xyz/check-in",
- "evidence_so_far": [
-  "airships/di/page.txt",
-  "airships/di/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Open di.xyz/check-in and connect a wallet. \"First login requires a free signature. No gas or asset transfer.\"",
   "Switch the wallet to BNB Chain and keep a little BNB for gas.",
   "Press the on-chain check-in and confirm the transaction. It sends no BNB to DI, only gas.",
@@ -17,6 +12,18 @@
   "Link your X account for 100 points, and do the X and Telegram tasks if you want.",
   "Watch DI's site and X for the badge claim and the Genesis mint."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://di.xyz/check-in",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Signing in is free. Each check-in costs only gas: transactions we read on 21 November paid about 0.000002 to 0.000007 BNB each, so 30 check-ins cost well under 0.001 BNB. If the wallet is empty: \"Add enough BNB to cover network gas, then try again.\" The Genesis mint price isn't published, so the whitelist may lead to a paid mint. Later, DI's products are meant to tie access to the token: \"Holding ",
+ "risks": "No terms of service or privacy policy are published, and no excluded countries or age limit are stated. No team member is named. The company is \"Decentralized Intelligence LTD\", with no country or address given. Tasks are recorded on timers, not checked, so the points rules can change without notice. The site already has a message for \"The current check-in campaign has ended.\" No end date is publi",
  "created": "2026-11-23",
  "status": "open"
 }

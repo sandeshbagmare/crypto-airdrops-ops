@@ -1,12 +1,10 @@
 {
  "project": "Squeekchain",
  "official_url": "https://squeekchain.com/genesis",
- "blocked_on": "domain",
- "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
- "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
- "where_to_resume": "python tools/triage.py https://squeekchain.com/genesis   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/squeekchain/",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
+ "what_human_must_do": [
   "Use only squeekchain.com and docs.squeekchain.com, both linked from @squeekchain .",
   "Link your X account. A whitelist place needs an X account at least one year old.",
   "Link a Discord account that is at least 365 days old for the Discord badge.",
@@ -14,6 +12,18 @@
   "Earn more Aura by inviting friends, playing Exsqueektion while the hamster is on stream, or building a project.",
   "Check your rank on the Genesis leaderboard and watch @squeekchain for mint details."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://squeekchain.com/genesis",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Joining the ranking costs nothing but a signature. The prize is where the money comes in. The mint is paid in ETH, and the whitepaper lists \"| Sale price | TBD |\". The docs say \"Minting opens in phases, with limits per transaction and per address.\" The minting page says the mint hasn't begun and gives no price or date. Source: Squeekchain docs Earning SQK later takes more steps and more fees. \"A S",
+ "risks": "We found no terms of service, privacy policy owner, list of excluded countries, age rule or KYC. The checks that exist are X and Discord account age, and \"Wallets funded together are reviewed as one person.\" \"One person, one account. Duplicates and abuse are removed.\" The rules are a first version, and the team says it will be \"tightening up some badge criteria\", so your Aura can change. The ranki",
  "created": "2026-11-23",
  "status": "open"
 }

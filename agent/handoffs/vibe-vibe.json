@@ -1,15 +1,10 @@
 {
  "project": "vibe/vibe",
  "official_url": "https://docs.robinhood.com/chain/add-network-to-wallet",
+ "source_url": "https://99airdrops.com/airdrops/vibe-vibe/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://docs.robinhood.com/chain/add-network-to-wallet",
- "evidence_so_far": [
-  "airships/vibe-vibe/page.txt",
-  "airships/vibe-vibe/landing.png"
- ],
- "steps_from_source": [
+ "why_agent_cannot": "a wallet connection or signature is required",
+ "what_human_must_do": [
   "Set up a separate wallet for testing.",
   "Add Robinhood Chain Testnet, chain ID 46630, to the wallet. Robinhood's docs list the settings.",
   "Claim from Robinhood's faucet . Each request sends 0.01 test ETH and five of each test stock token, once every 24 hours.",
@@ -17,6 +12,18 @@
   "Launch a token on the create page , or buy and sell tokens other people have launched.",
   "Check where you rank on the season page ."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://docs.robinhood.com/chain/add-network-to-wallet",
+ "evidence_so_far": [],
+ "confidence": 75,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Nothing on the testnet. Launch and trading fees are paid in test ETH, and the app tells you never to buy test ETH or send mainnet funds to a testnet address. Real money only comes in on a side route. vibe/vibe says 25% of the future token supply is set aside for holders of SPARK, a separate token that trades on Base, and that every 200,000 SPARK held gets you one free Vibe Vibers NFT. At the price",
+ "risks": "The risk disclosure says the operator \"has made no commitment to distribute any token to testnet participants.\" The terms say no mainnet token exists and that one may never launch. No audit is published. The founder wrote on X that the launch comes after third-party audits. Seedify's token bridge was exploited for about $1.2 million in September 2025, according to Decrypt. You must be 18 or older.",
  "created": "2026-11-23",
  "status": "open"
 }

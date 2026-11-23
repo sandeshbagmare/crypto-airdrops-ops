@@ -1,15 +1,10 @@
 {
  "project": "Axis Robotics",
  "official_url": "https://hub.axisrobotics.ai",
- "blocked_on": "login",
- "why_agent_cannot": "log in or create the account (human session)",
- "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
- "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://hub.axisrobotics.ai",
- "evidence_so_far": [
-  "airships/axis-robotics/page.txt",
-  "airships/axis-robotics/landing.png"
- ],
- "steps_from_source": [
+ "source_url": "https://99airdrops.com/airdrops/axis-robotics/",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
   "Sign up at Axis Hub with email, Google, X or a wallet. Tasks are back since Season 2 started on 23 October. It runs in a desktop browser without a GPU.",
   "Pick a pre-training task and finish it with the mouse or keyboard. Failed attempts aren't uploaded.",
   "Try post-training tasks, where you take over when a trained policy slips. A run that uses up its 30-second takeover budget scores nothing.",
@@ -17,6 +12,19 @@
   "Check the Alliance tab for partner tasks, such as BitRobot's, that pay a partner reward on top of points.",
   "If you contributed in Season 1, check your allocation at airdrop.axisrobotics.ai with your Axis Hub account or Sonar wallet, then claim it on Base. Warning The claim page says \"airdrop.axisrobotics.ai is the only official site. Axis will never ask for your seed phrase or private key.\""
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://hub.axisrobotics.ai",
+ "evidence_so_far": [],
+ "confidence": 90,
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "costs": "Taking part is free. Signing costs Base gas, which the docs put at \"a tiny fraction of a cent\", and Axis covers it during gasless campaigns. The claim page says \"Checking eligibility requires no signature and no fee\"; the claim itself is a transaction on Base.",
+ "risks": "Points can't be transferred or cashed out, and Axis hasn't published how Season 2 points turn into AXIS. Axis hasn't published a closing date for the Season 1 claim. Automated checks drop random, spammy and duplicate runs. The token sale excluded US persons and residents and citizens of 26 other jurisdictions, including the UK and mainland China.",
  "created": "2026-11-23",
  "status": "open"
 }

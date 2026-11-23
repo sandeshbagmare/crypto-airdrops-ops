@@ -1,15 +1,22 @@
 {
  "project": "Canopy Network",
  "official_url": "",
- "blocked_on": "no-official-site",
- "why_agent_cannot": "find the official site from the project's own profile",
- "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
- "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
- "evidence_so_far": [],
- "steps_from_source": [
+ "source_url": "https://airdroplet.com/airdrop/canopy-network",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
+ "what_human_must_do": [
   "Reward Verified Confirmed reward. CNPY allocation is confirmed, but its value and conversion rate are not announced Sources: canopy-rewards Recheck when: An official reward, allocation, conversion rule, checker, or closure changes.",
   "Deadline Verified No campaign deadline has been verified. Sources: canopy-rewards Recheck when: An official campaign source publishes or changes a deadline."
  ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdroplet.com/airdrop/canopy-network",
+ "evidence_so_far": [],
+ "confidence": 35,
+ "evidence": [
+  "2 concrete steps",
+  "costs disclosed"
+ ],
+ "costs": "The listed testnet tasks use faucet tokens and do not require a deposit. The main costs are time, wallet exposure, and any social accounts you link. Read each wallet prompt and reject unexpected token approvals. Test tokens have no cash value. Do not buy a token or pay a third party for points, passes, referrals, or access.",
+ "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

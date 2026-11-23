@@ -1,0 +1,51 @@
+{
+ "name": "Kleos",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://www.thekleos.pro",
+ "needs": "",
+ "steps": [
+  "Bridge HYPE to Elysium with the in-app Bridge. The Fast bridge, \"through Relay, moves HYPE and tokens between Elysium and HyperEVM or other chains in seconds, for Relay's fee plus 0.5%.\" Keep some HYPE for gas.",
+  "Trade coins on Kleos. Your daily points follow the HYPE you buy and sell, and coins launched on Kleos count double.",
+  "Join a clan, or create one, on the Clans page. \"Creating, joining and leaving are a signed message from your wallet, not a transaction.\" A clan holds 25 wallets, and once you join, \"You can leave whenever you like, but you can only join another clan after that.\" 7 days later. Most top clans are already full.",
+  "After your first trade, check in each day on the Rewards page. \"Free: you sign a message, no transaction.\"",
+  "Optional: from 15 November, prove your Hyperliquid HYPE stake with the passport on the Portfolio page for the boost. It takes one HyperEVM transaction."
+ ],
+ "end": "15 Nov",
+ "days": "",
+ "pool": "",
+ "what": "Kleos splits 30M KLEOS, 3% of supply, among the top 15 trading clans on Elysium. Points come from paid trading, with no end date and an anonymous team.",
+ "behind": "Kleos names no one. The only contact on the site is a developer email, [email&#160;protected] , for builders. We found no legal entity, no funding announcement from Kleos and no raise reported by a named news outlet. Odaily covered Kleos on 9 November 2026 as one of the launchpads on Elysium, noting that it \"does not have a separate Bonding Curve phase.\" The KLEOS staking contract, Kleos says, has",
+ "costs": "Kleos is not free to farm. Points come from trading volume, LP fees or launching coins people trade, and every trade costs money: Classic coins \"pay their pool's 1% fee on every trade.\" Taxed coins \"charge their creator's buy and sell tax\", which the app caps at 10% each way. Limit orders cost 0.5% \"of the order's HYPE when it fills, and nothing if it doesn't.\" Gas is paid in HYPE, and the Fast br",
+ "risks": "The team is anonymous. We found no named people, company, terms of service, privacy policy or audit on the site. No excluded countries, age limit or KYC are published. Joining is by wallet signature only. Clan Wars has no published end date or payout date. Only 15 of the 43 clans on the board will get anything. Rules changed during the season: new weights were added on 7, 13 and 15 November. Anyon",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/kleos/",
+ "checked": "2026-11-23",
+ "slug": "kleos",
+ "dossier": "drops/kleos.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 20 days old (registered 2026-11-02)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 20,
+  "checked": "2026-11-23T01:32:21"
+ }
+}

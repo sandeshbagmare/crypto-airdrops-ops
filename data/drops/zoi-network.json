@@ -1,0 +1,59 @@
+{
+ "name": "Zoi Network",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://apps.apple.com/app/id6815543425",
+ "needs": "",
+ "steps": [
+  "Install the Zoi app from the App Store or Google Play . The seller in both stores is Zoi Labs LLC. Warning Zoi's site also offers a direct Android APK \"for people who cannot use Google Play\". Use the store versions. A fake APK passed around in chats is an easy way to lose a phone's data or a wallet.",
+  "Sign in with Google, with Apple on an iPhone, or with a code sent to your email. If a friend gave you an invite code, enter it for the one-time 20 ZOI. You don't need anyone's code to join.",
+  "Do the face check when the app asks. \"No ID document is needed to sync. Sync only asks for a quick face check that runs on your phone, to confirm a real person is behind the account.\"",
+  "Tap Sync each time the four-hour window opens, up to six times a day, and at least once a day to build the streak.",
+  "Open the Welcome chest in the app and finish its tasks within 7 days for 100 ZOI.",
+  "Later, sending ZOI will need a one-time check \"with an ID document and a face check, by a verification provider\". Zoi targets that for the first half of 2027 and says it will be free."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "No confirmed Zoi Network airdrop. Its free app pays ZOI points for syncing every 4 hours, planned to move 1:1 at an undated TGE. Steps, rules and risks.",
+ "behind": "\"The Services are operated by Zoi Labs LLC.\" The Google Play listing gives its address as \"30 N Gould St Sheridan, WY 82801-6317 United States\", and the whitepaper says it is \"governed by the laws of the State of Wyoming, United States\". No founder or team member is named on any official page. Zoi has disclosed no funding round; its 6% investor share is \"Reserved for funding rounds and strategic p",
+ "costs": "Joining costs nothing: \"It is free to join and sync: no hardware, no deposit.\" The app carries ads from \"Google AdMob, Liftoff Monetize (Vungle), Pangle, Unity Ads\", and Zoi says \"Ads are never required to earn rewards.\" Once transfers open, \"Every transfer pays a fee of 0.5 ZOI\". The real cost is your time, a few taps a day, and the device and ad data the app collects.",
+ "risks": "No value today: ZOI can't be sent, sold or withdrawn, and the terms call it points with no monetary value. \"There is no guarantee that ZOI will be listed on any exchange, reach any price, or that the TGE will occur on any particular timeline.\" Rules can change: \"We may change reward amounts, Sync windows, streak rules, referral bonuses, and other reward mechanics at any time to keep the network su",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/zoi-network/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "quests"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1987-02-19 (14522 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Apple Inc."
+   ]
+  ],
+  "age_days": 14522,
+  "checked": "2026-11-23T07:32:03"
+ },
+ "domain_age_days": 14521,
+ "slug": "zoi-network",
+ "dossier": "drops/zoi-network.md",
+ "published": "2026-11-23"
+}

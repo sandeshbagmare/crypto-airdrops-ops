@@ -1,0 +1,53 @@
+{
+ "name": "Bigcoin",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://www.bigcoin.tech",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the BigCoin homepage Go to the official site at BigCoin , which is where the mining starts.",
+  "2 Step 2 : Connect a wallet to start mining Use the Connect Wallet to Start Mining button on the homepage. The homepage also shows the total BIG mined so far.",
+  "3 Step 3 : Check the hash rate leaderboard The homepage shows an Optimization Leaderboard for hash rate, with badges and rewards, dated 31 July to 4 August."
+ ],
+ "end": "2027-07-31",
+ "days": 250,
+ "pool": "",
+ "what": "The Bigcoin airdrop is a mining campaign: you connect a wallet on the BigCoin site and start mining BIG. As of the 27 October 2026 check, the homepage still invites visitors to connect a wallet and start mining, and it shows 3,558,334 BIG mined. The homepage also shows a hash rate leaderboard dated ",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "3 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/bigcoin",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-03-26 (607 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 607,
+  "checked": "2026-11-23T07:28:31"
+ },
+ "domain_age_days": 606,
+ "slug": "bigcoin",
+ "dossier": "drops/bigcoin.md",
+ "published": "2026-11-23"
+}

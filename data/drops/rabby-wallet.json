@@ -1,0 +1,54 @@
+{
+ "name": "Rabby Wallet",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://rabby.io/points",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the Rabby Points page Go to the Rabby Points page , which opens with the invitation to Rabby Points and two routes in: browser extension or mobile beta.",
+  "2 Step 2 : Install the browser extension Download the Rabby Wallet browser extension from the install link on that page.",
+  "3 Step 3 : Migrate your address and open Rabby Points Migrate your address into Rabby Wallet, then go to Rabby Points.",
+  "4 Step 4 : Or use the Mobile Beta On mobile, download Rabby Wallet Mobile Beta, then connect your wallet and go to Rabby Points. The Google Play, Android APK and App Store listings showed as under review on 29 October 2026."
+ ],
+ "end": "2027-10-29",
+ "days": 340,
+ "pool": "",
+ "what": "Rabby Points is the airdrop-style campaign of the Rabby Wallet crypto wallet, and on 29 October 2026 it was still open to newcomers. The Rabby Points page invites visitors to install the wallet, migrate an address and open Rabby Points, through either the browser extension or the mobile beta. That p",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/rabby-wallet",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "rabby.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T07:30:13"
+ },
+ "domain_age_days": null,
+ "slug": "rabby-wallet",
+ "dossier": "drops/rabby-wallet.md",
+ "published": "2026-11-23"
+}

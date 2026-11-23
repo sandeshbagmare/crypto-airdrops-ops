@@ -1,0 +1,54 @@
+{
+ "name": "Virtuals Protocol",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.virtuals.io/dashboard",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the Virtuals dashboard Go to the Virtuals dashboard , where your veVIRTUAL, locks and airdrops are shown.",
+  "2 Step 2 : Connect a wallet that holds VIRTUAL on Base Staking is currently only supported on Base, so the VIRTUAL you stake needs to be on that network.",
+  "3 Step 3 : Stake VIRTUAL to receive veVIRTUAL Use the Stake button on the dashboard. Locking for longer earns more veVIRTUAL.",
+  "4 Step 4 : Check the airdrops list The dashboard lists each agent airdrop with its date and your allocation, for example Degen and Siren on 27 October 2026."
+ ],
+ "end": "2027-10-27",
+ "days": 338,
+ "pool": "",
+ "what": "The Virtuals Protocol veVIRTUAL staker airdrops are live as of 27 October 2026. When the airdrop module is active for a launch, up to 5% of that agent token's supply goes to VIRTUAL stakers. The Virtuals app dashboard lists several such airdrops dated 25 to 27 October 2026. Taking part means staking",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/virtuals-protocol",
+ "checked": "2026-11-23",
+ "friction": 35,
+ "friction_label": "deposit + wallet connect",
+ "tags": [
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "virtuals.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T07:29:25"
+ },
+ "domain_age_days": null,
+ "slug": "virtuals-protocol",
+ "dossier": "drops/virtuals-protocol.md",
+ "published": "2026-11-23"
+}

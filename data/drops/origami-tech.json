@@ -1,0 +1,56 @@
+{
+ "name": "Origami Tech",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.origami.tech/register",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Create an Origami account Open the registration page and create an account, or log in if you already have one.",
+  "2 Step 2 : Create a project and connect an exchange Create a project in Origami to hold the exchange account, then add the exchange through API keys, as the getting started guide walks through.",
+  "3 Step 3 : Trade through Origami Trade through Origami on the connected exchange. Volume is weighted and realized futures PnL counts toward the total. The points page does not say whether bot trades count.",
+  "4 Step 4 : Follow your epoch on the points page Check the points page for the live epoch, its dates and the leaderboard. Epoch 03 runs from 30 Oct to 5 Nov.",
+  "5 Step 5 : Wait for points to be confirmed According to the points page, your points are finalised once the weekly epoch has ended."
+ ],
+ "end": "2027-10-30",
+ "days": 341,
+ "pool": "",
+ "what": "The Origami Tech airdrop is the Origami Points Program, a weekly points campaign that rewards trading done through the Origami app on connected exchanges. On the 1 November 2026 check the campaign is open: Season 1, Epoch 03 runs from 30 Oct to 5 Nov with a pool of 1,000,000 points. Taking part mean",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/origami-tech",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points",
+  "trading"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-11-04 (749 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 749,
+  "checked": "2026-11-23T07:30:31"
+ },
+ "domain_age_days": 748,
+ "slug": "origami-tech",
+ "dossier": "drops/origami-tech.md",
+ "published": "2026-11-23"
+}

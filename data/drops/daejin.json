@@ -1,0 +1,51 @@
+{
+ "name": "Daejin",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://www.daejin.xyz/loyalty",
+ "needs": "",
+ "steps": [
+  "Open daejin.xyz/loyalty , the Jin Points page. The address daejin.xyz/points from Daejin's post of 17 November returned an error when we tried it on 20 November 2026.",
+  "Unlock your points. The Season 0 post puts it as \"Register and link X or Discord to unlock your Jin Points\". Locked points do not count at a snapshot.",
+  "Do the free tasks each day: the daily check-in, then \"Take a side in Market of the Day, or take your free pick\".",
+  "Optional: once you reach a badge, make a Jin Pass card from your profile and post it on X for the 24-hour boost.",
+  "Check your rank before each Thursday snapshot at 00:00 UTC."
+ ],
+ "end": "17 Nov",
+ "days": "",
+ "pool": "",
+ "what": "Daejin has no token or airdrop. Jin Points Season 0 ranks players for a 50,000 DOGE pool. Free picks, real-money trading, no US or Korea. Steps and risks.",
+ "behind": "Nobody is named. The site footer says \"Operated by BytePlay Ltd.\" and the terms identify it as \"BytePlay Ltd., a company incorporated in Belize (IBC No. 000049527)\". Its contact is a ProtonMail address. We found no founder, team page, investor or funding round, and the price and owners behind the TokenPlay AI deal are not disclosed. The site footer shows an Alibaba Cloud logo under \"CLOUD AND AI I",
+ "costs": "Joining Jin Points is free, and the check-in, the free pick and the social tasks cost nothing. Trading is where money comes in. Markets on the live chains use real USDC, and you pay the network gas. The terms say there is \"no fee on principal, deposits, or losing positions.\" Daejin takes 2% of the profit, \"deducted when you close or redeem a profitable position\". Creating a market costs, in the te",
+ "risks": "Two countries are shut out by name: \"DAEJIN is not available to persons in the United States or South Korea\". Sanctioned jurisdictions are excluded too, without a list. Age: \"You must be at least 18 years old, or the age of majority in your jurisdiction if higher\". No VPN: \"You must not use a VPN, proxy, false information, or any other means to conceal your location or identity\". There is no KYC t",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/daejin/",
+ "checked": "2026-11-23",
+ "slug": "daejin",
+ "dossier": "drops/daejin.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 128 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 128,
+  "checked": "2026-11-23T01:31:16"
+ }
+}

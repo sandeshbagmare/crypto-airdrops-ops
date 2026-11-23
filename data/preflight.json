@@ -3,48 +3,24 @@
   "project": "MMIX",
   "slug": "mmix",
   "official": "https://hub.mmix.io",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 0,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 5,
-  "domain_verdict": "no red flags found",
-  "domain_score": 0,
-  "title": "MMIX Points Program",
-  "final_url": "https://hub.mmix.io/points",
-  "fields": [],
-  "wallet_prompt": true,
-  "kyc_prompt": true,
-  "captcha": false,
-  "login_prompt": true,
-  "email_prompt": false,
-  "terms_prompt": false,
-  "injected_wallet": false,
-  "evidence": [
-   "airships/mmix/page.txt",
-   "airships/mmix/landing.png"
-  ],
-  "human_must": [
-   "complete identity verification (KYC)",
-   "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "kyc",
-  "status": "blocked"
+  "domain_verdict": "DEAD-LINK",
+  "domain_score": 35,
+  "status": "refused",
+  "note": "domain check says DEAD-LINK - not opening it"
  },
  "doppler-finance": {
   "project": "Doppler Finance",
   "slug": "doppler-finance",
   "official": "https://app.doppler.finance/airdrop",
-  "at": "2026-11-23 08:29",
-  "confidence": 60,
-  "days": 5,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/doppler-finance/landing.png",
+  "status": "blocked",
   "title": "Doppler Finance",
-  "final_url": "https://app.doppler.finance/airdrop",
   "fields": [
    {
     "tag": "input",
@@ -72,35 +48,26 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": true,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/doppler-finance/page.txt",
-   "airships/doppler-finance/landing.png"
+  "cookies": 85,
+  "agent_can": [
+   "pre-fill 3 form field(s) for human review"
   ],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "pre-fill 3 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "aura-protocol": {
   "project": "Aura Protocol",
   "slug": "aura-protocol",
   "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
-  "at": "2026-11-23 08:23",
-  "confidence": 90,
-  "days": 7,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 7,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/aura-protocol/landing.png",
+  "status": "ready",
   "title": "Network Configuration | LitVM Docs",
-  "final_url": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
   "fields": [
    {
     "tag": "input",
@@ -121,33 +88,25 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/aura-protocol/page.txt",
-   "airships/aura-protocol/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 85,
   "agent_can": [
-   "pre-fill 2 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 2 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "globe": {
   "project": "Globe",
   "slug": "globe",
   "official": "https://globemarkets.xyz",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 7,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 6,
   "domain_verdict": "SUSPICIOUS",
   "domain_score": 35,
+  "screenshot": "airships/globe/landing.png",
+  "status": "ready",
   "title": "Globe — the first social trading app built on LayerZero ATLAS",
-  "final_url": "https://globemarkets.xyz/",
   "fields": [
    {
     "tag": "input",
@@ -182,69 +141,48 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": true,
-  "email_prompt": true,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/globe/page.txt",
-   "airships/globe/landing.png"
-  ],
-  "human_must": [
-   "enter an email and click the confirmation link",
-   "confirm the domain against the project's own profile before touching it (forensics flags it)"
-  ],
+  "cookies": 85,
   "agent_can": [
-   "pre-fill 4 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 4 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "email",
-  "status": "blocked"
+  "human_must": []
  },
  "infinifi": {
   "project": "infiniFi",
   "slug": "infinifi",
   "official": "https://app.infinifi.xyz/points",
-  "at": "2026-11-23 08:30",
-  "confidence": 60,
-  "days": 8,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 6,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
-  "title": "infiniFi | Points",
-  "final_url": "https://app.infinifi.xyz/points",
+  "screenshot": "airships/infinifi/landing.png",
+  "status": "ready",
+  "title": "Just a moment...",
   "fields": [],
-  "wallet_prompt": true,
+  "wallet_prompt": false,
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/infinifi/page.txt",
-   "airships/infinifi/landing.png"
-  ],
-  "human_must": [
-   "connect a wallet and approve the signature"
-  ],
+  "cookies": 85,
   "agent_can": [
-   "read requirements, capture evidence, record the packet"
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "human_must": []
  },
  "yakkamon": {
   "project": "Yakkamon",
   "slug": "yakkamon",
   "official": "https://yakkamon.com",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 9,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 4,
   "domain_verdict": "no red flags found",
   "domain_score": 15,
+  "screenshot": "airships/yakkamon/landing.png",
+  "status": "ready",
   "title": "Yakkamon - Official Site | Creature Collector Game on Ronin",
-  "final_url": "https://yakkamon.com/",
   "fields": [
    {
     "tag": "input",
@@ -300,22 +238,13 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": true,
-  "email_prompt": true,
-  "terms_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/yakkamon/page.txt",
-   "airships/yakkamon/landing.png"
-  ],
-  "human_must": [
-   "enter an email and click the confirmation link"
-  ],
+  "cookies": 85,
   "agent_can": [
-   "pre-fill 7 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 7 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "email",
-  "status": "blocked"
+  "human_must": []
  },
  "kleos": {
   "project": "Kleos",
@@ -566,14 +495,13 @@
   "project": "Bybit WSOT 2026",
   "slug": "bybit-wsot-2026",
   "official": "https://www.bybit.com/wsot2026",
-  "at": "2026-11-23 08:25",
-  "confidence": 90,
-  "days": 9,
+  "at": "2026-11-23 12:49",
   "steps_from_source": 7,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/bybit-wsot-2026/landing.png",
+  "status": "ready",
   "title": "WSOT 2026: Global Multi-Asset Trading Competition | Bybit",
-  "final_url": "https://www.bybit.com/en/wsot2026",
   "fields": [
    {
     "tag": "input",
@@ -587,35 +515,25 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": true,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/bybit-wsot-2026/page.txt",
-   "airships/bybit-wsot-2026/landing.png"
-  ],
-  "human_must": [
-   "log in or create the account (human session)"
-  ],
+  "cookies": 92,
   "agent_can": [
-   "pre-fill 1 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 1 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "login",
-  "status": "blocked"
+  "human_must": []
  },
  "xstocks": {
   "project": "xStocks",
   "slug": "xstocks",
   "official": "https://defi.xstocks.fi/points",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 11,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 6,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/xstocks/landing.png",
+  "status": "blocked",
   "title": "xPoints Rewards Program - xStocks",
-  "final_url": "https://defi.xstocks.fi/points",
   "fields": [
    {
     "tag": "select",
@@ -628,36 +546,27 @@
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": true,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/xstocks/page.txt",
-   "airships/xstocks/landing.png"
+  "cookies": 93,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review"
   ],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "pre-fill 1 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "loaf-markets": {
   "project": "Loaf Markets",
   "slug": "loaf-markets",
   "official": "https://beta.loafmarkets.com/league",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 12,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 7,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/loaf-markets/landing.png",
+  "status": "ready",
   "title": "League of Loaf | Competition | Loaf Markets",
-  "final_url": "https://beta.loafmarkets.com/league",
   "fields": [
    {
     "tag": "textarea",
@@ -692,73 +601,59 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/loaf-markets/page.txt",
-   "airships/loaf-markets/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 96,
   "agent_can": [
-   "pre-fill 4 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 4 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "abstract": {
   "project": "Abstract",
   "slug": "abstract",
   "official": "https://migrate.abs.xyz",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 22,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/abstract/landing.png",
+  "status": "blocked",
   "title": "Abstract Migration",
-  "final_url": "https://migrate.abs.xyz/",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": true,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/abstract/page.txt",
-   "airships/abstract/landing.png"
-  ],
+  "cookies": 95,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "river": {
   "project": "River",
   "slug": "river",
   "official": "https://app.riverai.inc/airdrop",
-  "at": "2026-11-23 08:25",
-  "confidence": 90,
-  "days": 38,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 15,
-  "status": "unreachable",
-  "blocked_on": "site-unreachable",
+  "screenshot": "airships/river/landing.png",
+  "status": "blocked",
+  "title": "River | Airdrop",
+  "fields": [],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 96,
+  "agent_can": [],
   "human_must": [
-   "try the URL in your own browser"
-  ],
-  "agent_can": [
-   "recorded the failure, kept the row"
-  ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.riverai.inc/airdrop\", waiting until \"domcontentloaded\"\n"
+   "connect a wallet and approve the signature"
+  ]
  },
  "daejin": {
   "project": "Daejin",
@@ -797,45 +692,88 @@
   "project": "PERPTools",
   "slug": "perptools",
   "official": "https://app.perptools.ai",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 316,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
-  "title": "PERPTools",
-  "final_url": "https://app.perptools.ai/perp/PERP_ETH_USDC",
-  "fields": [],
-  "wallet_prompt": false,
+  "screenshot": "airships/perptools/landing.png",
+  "status": "blocked",
+  "title": "1 720,2 | ETHUSDC | PERPTools",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "order_price_input",
+    "placeholder": "0",
+    "label": "Price"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "order_quantity_input",
+    "placeholder": "0",
+    "label": "Qty"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "order_total_input",
+    "placeholder": "0",
+    "label": "USDC"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "USDC",
+    "label": "TP Price"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "%",
+    "label": "Offset"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "USDC",
+    "label": "SL Price"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "%",
+    "label": "Offset"
+   }
+  ],
+  "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/perptools/page.txt",
-   "airships/perptools/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 100,
   "agent_can": [
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 7 form field(s) for human review"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
  },
  "trueo": {
   "project": "Trueo",
   "slug": "trueo",
   "official": "https://trueo.com",
-  "at": "2026-11-23 08:25",
-  "confidence": 90,
-  "days": 69,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/trueo/landing.png",
+  "status": "ready",
   "title": "Trueo",
-  "final_url": "https://trueo.com/",
   "fields": [
    {
     "tag": "input",
@@ -856,20 +794,13 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/trueo/page.txt",
-   "airships/trueo/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 97,
   "agent_can": [
-   "pre-fill 2 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 2 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "metamask": {
   "project": "MetaMask",
@@ -1328,34 +1259,24 @@
   "project": "Wick",
   "slug": "wick",
   "official": "https://www.wick.xyz/waitlist",
-  "at": "2026-11-23 08:29",
-  "confidence": 75,
-  "days": 324,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 3,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/wick/landing.png",
+  "status": "blocked",
   "title": "Wick",
-  "final_url": "https://www.wick.xyz/waitlist",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": true,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/wick/page.txt",
-   "airships/wick/landing.png"
-  ],
+  "cookies": 99,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "3jane": {
   "project": "3Jane",
@@ -3395,34 +3316,24 @@
   "project": "Ethena",
   "slug": "ethena",
   "official": "https://claim.ethena.fi",
-  "at": "2026-11-23 08:26",
-  "confidence": 75,
-  "days": 311,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 6,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/ethena/landing.png",
+  "status": "blocked",
   "title": "Claim | Ethena",
-  "final_url": "https://claim.ethena.fi/",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/ethena/page.txt",
-   "airships/ethena/landing.png"
-  ],
+  "cookies": 100,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "nullmask": {
   "project": "Nullmask",
@@ -5448,14 +5359,13 @@
   "project": "Ammora",
   "slug": "ammora",
   "official": "https://ammora.org/waitlist/join",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 327,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 7,
   "domain_verdict": "SUSPICIOUS",
   "domain_score": 35,
+  "screenshot": "airships/ammora/landing.png",
+  "status": "blocked",
   "title": "Season 2 | Ammora",
-  "final_url": "https://ammora.org/waitlist#mission",
   "fields": [
    {
     "tag": "input",
@@ -5469,23 +5379,14 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": true,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/ammora/page.txt",
-   "airships/ammora/landing.png"
+  "cookies": 99,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review"
   ],
   "human_must": [
-   "connect a wallet and approve the signature",
-   "confirm the domain against the project's own profile before touching it (forensics flags it)"
-  ],
-  "agent_can": [
-   "pre-fill 1 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+   "connect a wallet and approve the signature"
+  ]
  },
  "dreamcash": {
   "project": "Dreamcash",
@@ -6112,34 +6013,24 @@
   "project": "SoSoValue",
   "slug": "sosovalue",
   "official": "https://ssi.sosovalue.com/reward",
-  "at": "2026-11-23 08:30",
-  "confidence": 60,
-  "days": 179,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 6,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/sosovalue/landing.png",
+  "status": "blocked",
   "title": "15M $SOSO Staking Rewards | SSI Ascent Season Now Live",
-  "final_url": "https://ssi.sosovalue.com/en/reward",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/sosovalue/page.txt",
-   "airships/sosovalue/landing.png"
-  ],
+  "cookies": 100,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "rialto": {
   "project": "Rialto",
@@ -7589,32 +7480,24 @@
   "project": "Minds Games",
   "slug": "minds-games",
   "official": "https://minds.games",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 323,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 15,
+  "screenshot": "airships/minds-games/landing.png",
+  "status": "ready",
   "title": "MINDS.GAMES",
-  "final_url": "https://minds.games/",
   "fields": [],
   "wallet_prompt": false,
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/minds-games/page.txt",
-   "airships/minds-games/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 99,
   "agent_can": [
-   "read requirements, capture evidence, record the packet"
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "florin": {
   "project": "Florin",
@@ -9747,32 +9630,24 @@
   "project": "Worldie",
   "slug": "worldie",
   "official": "https://worldie.world",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 329,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 4,
   "domain_verdict": "no red flags found",
   "domain_score": 15,
+  "screenshot": "airships/worldie/landing.png",
+  "status": "ready",
   "title": "404: NOT_FOUND",
-  "final_url": "https://worldie.world/",
   "fields": [],
   "wallet_prompt": false,
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/worldie/page.txt",
-   "airships/worldie/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 99,
   "agent_can": [
-   "read requirements, capture evidence, record the packet"
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "stablestock": {
   "project": "StableStock",
@@ -12030,14 +11905,13 @@
   "project": "Cycles",
   "slug": "cycles",
   "official": "https://apps.apple.com/us/app/cycles-pay/id6761496918",
-  "at": "2026-11-23 08:23",
-  "confidence": 90,
-  "days": 297,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 7,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/cycles/landing.png",
+  "status": "ready",
   "title": "‎Cycles Pay App - App Store",
-  "final_url": "https://apps.apple.com/us/app/cycles-pay/id6761496918",
   "fields": [
    {
     "tag": "input",
@@ -12051,20 +11925,13 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/cycles/page.txt",
-   "airships/cycles/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 100,
   "agent_can": [
-   "pre-fill 1 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 1 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "fables": {
   "project": "Fables",
@@ -12802,34 +12669,24 @@
   "project": "Bigcoin",
   "slug": "bigcoin",
   "official": "https://www.bigcoin.tech",
-  "at": "2026-11-23 08:30",
-  "confidence": 60,
-  "days": 250,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 3,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/bigcoin/landing.png",
+  "status": "blocked",
   "title": "BigCoin",
-  "final_url": "https://www.bigcoin.tech/",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/bigcoin/page.txt",
-   "airships/bigcoin/landing.png"
-  ],
+  "cookies": 98,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "moviton": {
   "project": "MovitOn",
@@ -14410,14 +14267,13 @@
   "project": "Perle",
   "slug": "perle",
   "official": "https://app.perle.xyz",
-  "at": "2026-11-23 08:23",
-  "confidence": 90,
-  "days": 118,
+  "at": "2026-11-23 12:50",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/perle/landing.png",
+  "status": "blocked",
   "title": "Perle Labs",
-  "final_url": "https://app.perle.xyz/login",
   "fields": [
    {
     "tag": "input",
@@ -14431,23 +14287,15 @@
   "kyc_prompt": true,
   "captcha": false,
   "login_prompt": true,
-  "email_prompt": true,
-  "terms_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/perle/page.txt",
-   "airships/perle/landing.png"
+  "cookies": 96,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review"
   ],
   "human_must": [
-   "complete identity verification (KYC)",
-   "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "pre-fill 1 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "kyc",
-  "status": "blocked"
+   "connect a wallet and approve the signature",
+   "complete identity verification (KYC)"
+  ]
  },
  "fhenix": {
   "project": "Fhenix",
@@ -14474,34 +14322,24 @@
   "project": "SimpleChain",
   "slug": "simplechain",
   "official": "https://task.simplechain.com",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 318,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 11,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/simplechain/landing.png",
+  "status": "blocked",
   "title": "SimpleChain Tasks",
-  "final_url": "https://task.simplechain.com/",
   "fields": [],
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/simplechain/page.txt",
-   "airships/simplechain/landing.png"
-  ],
+  "cookies": 100,
+  "agent_can": [],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "ipx": {
   "project": "IPX",
@@ -15179,14 +15017,13 @@
   "project": "Ethos Network",
   "slug": "ethos-network",
   "official": "https://app.ethos.network",
-  "at": "2026-11-23 08:29",
-  "confidence": 60,
-  "days": 333,
+  "at": "2026-11-23 12:52",
   "steps_from_source": 4,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
+  "screenshot": "airships/ethos-network/landing.png",
+  "status": "ready",
   "title": "Ethos",
-  "final_url": "https://app.ethos.network/",
   "fields": [
    {
     "tag": "input",
@@ -15235,20 +15072,13 @@
   "kyc_prompt": false,
   "captcha": false,
   "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
   "injected_wallet": false,
-  "evidence": [
-   "airships/ethos-network/page.txt",
-   "airships/ethos-network/landing.png"
-  ],
-  "human_must": [],
+  "cookies": 99,
   "agent_can": [
-   "pre-fill 6 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
+   "pre-fill 6 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
   ],
-  "blocked_on": "",
-  "status": "ready"
+  "human_must": []
  },
  "3jane-logo": {
   "project": "3jane-logo",
@@ -17066,14 +16896,13 @@
   "project": "Ekiden",
   "slug": "ekiden",
   "official": "https://app.ekiden.fi",
-  "at": "2026-11-23 08:24",
-  "confidence": 90,
-  "days": 317,
+  "at": "2026-11-23 12:51",
   "steps_from_source": 4,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
-  "title": "Ekiden",
-  "final_url": "https://app.ekiden.fi/trades/BTC-USDCx",
+  "screenshot": "airships/ekiden/landing.png",
+  "status": "blocked",
+  "title": "$61351.51 | BTC | Ekiden",
   "fields": [
    {
     "tag": "input",
@@ -17093,23 +16922,15 @@
   "wallet_prompt": true,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": false,
-  "email_prompt": false,
-  "terms_prompt": false,
+  "login_prompt": true,
   "injected_wallet": false,
-  "evidence": [
-   "airships/ekiden/page.txt",
-   "airships/ekiden/landing.png"
+  "cookies": 99,
+  "agent_can": [
+   "pre-fill 2 form field(s) for human review"
   ],
   "human_must": [
    "connect a wallet and approve the signature"
-  ],
-  "agent_can": [
-   "pre-fill 2 form field(s) for review",
-   "read requirements, capture evidence, record the packet"
-  ],
-  "blocked_on": "wallet_signature",
-  "status": "blocked"
+  ]
  },
  "ascend": {
   "project": "Ascend",

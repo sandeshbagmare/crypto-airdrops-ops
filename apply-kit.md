@@ -1,7 +1,7 @@
 # Apply kit - the 25 cheapest verified drops
 
 Built 2026-11-23 from 546 tracked drops. Selection: no KYC, no deposit, live domain, real steps, confidence >= 40.
-**3 need no identity step at all**, 25 carry a real deadline.
+**15 need no identity step at all**, 12 carry a real deadline.
 
 Each row has `apply/<slug>.md` with the steps, the resume command and the evidence command. Record what you do and the status moves with you.
 
@@ -9,28 +9,28 @@ An agent cannot create the accounts or submit the forms - that part is yours. Ev
 
 | # | Project | Confidence | Effort | Needs | Closes in (days) | Key date | Official site | Steps | Live check | Blocked on | Checklist | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | MMIX | 90 | social tasks | Requires: Telegram, X post, Email, Disco | 0 | 2026-11-23 | https://hub.mmix.io | 5 | live: refused (domain) | none | apply/mmix.md | identified |
-| 2 | Doppler Finance | 60 | wallet connect | - | 5 | 2026-11-28 | https://app.doppler.finance/airdrop | 5 | live: blocked (connect a wallet and approve the signature) | none | apply/doppler-finance.md | identified |
-| 3 | Aura Protocol | 90 | wallet connect | - | 7 | 2026-11-30 | https://docs.litvm.com/get-started-on-testnet/network-configuration | 7 | live: ready | none | apply/aura-protocol.md | identified |
-| 4 | infiniFi | 60 | wallet connect | - | 8 | 2026-12-01 | https://app.infinifi.xyz/points | 6 | live: ready | none | apply/infinifi.md | identified |
-| 5 | xStocks | 90 | wallet connect | - | 11 | 2026-12-04 | https://defi.xstocks.fi/points | 6 | live: blocked (connect a wallet and approve the signature) | none | apply/xstocks.md | identified |
-| 6 | Abstract | 90 | wallet connect | - | 22 | 2026-12-15 | https://migrate.abs.xyz | 5 | live: blocked (connect a wallet and approve the signature) | none | apply/abstract.md | identified |
-| 7 | Trueo | 90 | wallet connect + social tasks | - | 69 | 2027-01-31 | https://trueo.com | 5 | live: ready | none | apply/trueo.md | identified |
-| 8 | Perle | 90 | email | - | 118 | 2027-03-21 | https://app.perle.xyz | 5 | live: blocked (connect a wallet and approve the signature, complete identit) | none | apply/perle.md | identified |
-| 9 | SoSoValue | 60 | wallet connect | - | 179 | 2027-05-21 | https://ssi.sosovalue.com/reward | 6 | live: blocked (connect a wallet and approve the signature) | none | apply/sosovalue.md | identified |
-| 10 | Bigcoin | 60 | wallet connect | - | 250 | 2027-07-31 | https://www.bigcoin.tech | 3 | not checked | none | apply/bigcoin.md | identified |
-| 11 | Cycles | 90 | email | - | 297 | 2027-09-16 | https://apps.apple.com/us/app/cycles-pay/id6761496918 | 7 | not checked | none | apply/cycles.md | identified |
-| 12 | Ethena | 75 | wallet connect | - | 311 | 2027-09-30 | https://claim.ethena.fi | 6 | not checked | none | apply/ethena.md | identified |
-| 13 | PERPTools | 90 | wallet connect | no account flags | 316 | 2027-10-05 | https://app.perptools.ai | 5 | not checked | none | apply/perptools.md | identified |
-| 14 | SimpleChain | 90 | wallet connect + social tasks | - | 318 | 2027-10-07 | https://task.simplechain.com | 11 | not checked | none | apply/simplechain.md | identified |
-| 15 | Minds Games | 90 | wallet connect + email | - | 323 | 2027-10-12 | https://minds.games | 5 | not checked | none | apply/minds-games.md | identified |
-| 16 | Ethos Network | 60 | free / no identity | - | 333 | 2027-10-22 | https://app.ethos.network | 4 | not checked | none | apply/ethos-network.md | identified |
-| 17 | Startale | 60 | wallet connect + email | Requires: Email | 333 | 2027-10-22 | https://app.startale.com | 5 | not checked | none | apply/startale.md | identified |
-| 18 | NeoSoul | 90 | wallet connect + social tasks | Requires: Telegram, X post, Discord | 333 | 2027-10-22 | https://airdrop.neosoul.ai | 5 | not checked | none | apply/neosoul.md | identified |
-| 19 | Vault Street | 90 | wallet connect + social tasks | - | 333 | 2027-10-22 | https://vaultstreet.fun/whitelist | 4 | not checked | none | apply/vault-street.md | identified |
-| 20 | Axis Robotics | 90 | email | Requires: Email | 334 | 2027-10-23 | https://hub.axisrobotics.ai | 6 | live: blocked (log in or create the account (human session)) | none | apply/axis-robotics.md | identified |
-| 21 | TastyCo | 90 | wallet connect + social tasks | Requires: Telegram, X post, Discord | 336 | 2027-10-25 | https://app.tastyco.io/en/quests | 7 | not checked | none | apply/tastyco.md | identified |
-| 22 | Teneo Protocol | 60 | free / no identity | - | 338 | 2027-10-27 | https://teneo-protocol.ai/community-node | 4 | not checked | none | apply/teneo-protocol.md | identified |
-| 23 | MovitOn | 60 | wallet connect + social tasks | - | 339 | 2027-10-28 | https://hub.moviton.com | 5 | not checked | none | apply/moviton.md | identified |
-| 24 | eCash | 60 | free / no identity | - | 340 | 2027-10-29 | https://ecash.com/how-to-claim | 4 | not checked | none | apply/ecash.md | identified |
-| 25 | Rabby Wallet | 60 | wallet connect | - | 340 | 2027-10-29 | https://rabby.io/points | 4 | not checked | none | apply/rabby-wallet.md | identified |
+| 1 | Aura Protocol | 90 | wallet connect | - | 7 | 2026-11-30 | https://docs.litvm.com/get-started-on-testnet/network-configuration | 7 | live: ready | none | apply/aura-protocol.md | identified |
+| 2 | infiniFi | 60 | wallet connect | - | 8 | 2026-12-01 | https://app.infinifi.xyz/points | 6 | live: ready | none | apply/infinifi.md | identified |
+| 3 | Trueo | 90 | wallet connect + social tasks | - | 69 | 2027-01-31 | https://trueo.com | 5 | live: ready | none | apply/trueo.md | identified |
+| 4 | Cycles | 90 | email | - | 297 | 2027-09-16 | https://apps.apple.com/us/app/cycles-pay/id6761496918 | 7 | live: ready | none | apply/cycles.md | identified |
+| 5 | Minds Games | 90 | wallet connect + email | - | 323 | 2027-10-12 | https://minds.games | 5 | live: ready | none | apply/minds-games.md | identified |
+| 6 | Ethos Network | 60 | free / no identity | - | 333 | 2027-10-22 | https://app.ethos.network | 4 | live: ready | none | apply/ethos-network.md | identified |
+| 7 | TastyCo | 90 | wallet connect + social tasks | Requires: Telegram, X post, Discord | 336 | 2027-10-25 | https://app.tastyco.io/en/quests | 7 | live: ready | none | apply/tastyco.md | identified |
+| 8 | MovitOn | 60 | wallet connect + social tasks | - | 339 | 2027-10-28 | https://hub.moviton.com | 5 | live: ready | none | apply/moviton.md | identified |
+| 9 | eCash | 60 | free / no identity | - | 340 | 2027-10-29 | https://ecash.com/how-to-claim | 4 | live: ready | none | apply/ecash.md | identified |
+| 10 | Rabby Wallet | 60 | wallet connect | - | 340 | 2027-10-29 | https://rabby.io/points | 4 | live: ready | none | apply/rabby-wallet.md | identified |
+| 11 | Inverted Lambda | 90 | wallet connect | - | 350 | 2027-11-08 | https://inverted-lambda.com/platform/beta | 5 | live: ready | none | apply/inverted-lambda.md | identified |
+| 12 | Flint | 90 | social tasks | - | 362 | 2027-11-20 | https://devnet.app.flint.trade | 4 | live: ready | none | apply/flint.md | identified |
+| 13 | BULK | 75 | free / no identity | - | - | - | https://app.bulk.trade | 4 | live: ready | none | apply/bulk.md | identified |
+| 14 | Lighter | 75 | free / no identity | - | - | - | https://docs.lighter.xyz/points-program/lighter-on-robinhood-chain-points | 4 | live: ready | none | apply/lighter.md | identified |
+| 15 | MINT | 75 | free / no identity | no account flags | - | - | https://mint.io/mntd | 5 | live: ready | none | apply/mint.md | identified |
+| 16 | 375ai | 45 | free / no identity | - | - | - | https://www.375.ai | 4 | live: ready | none | apply/375ai.md | identified |
+| 17 | ARO Network | 45 | free / no identity | - | - | - | https://aro.network | 5 | live: ready | none | apply/aro-network.md | identified |
+| 18 | Acki Nacki | 45 | free / no identity | - | - | - | https://ackinacki.com/wallet | 5 | live: ready | none | apply/acki-nacki.md | identified |
+| 19 | Boop | 45 | free / no identity | - | - | - | https://docs.boop.fun/temple-of-moon | 4 | live: ready | none | apply/boop.md | identified |
+| 20 | CyberKongz | 45 | free / no identity | - | - | - | https://www.cyberkongz.com/kong | 5 | live: ready | none | apply/cyberkongz.md | identified |
+| 21 | Cysic | 45 | free / no identity | - | - | - | https://cysic.xyz | 4 | live: ready | none | apply/cysic.md | identified |
+| 22 | Fluence | 45 | free / no identity | - | - | - | https://flt.fluence.ai | 4 | live: ready | none | apply/fluence.md | identified |
+| 23 | Fraction AI | 45 | free / no identity | - | - | - | https://fractionai.xyz/dapp/index | 5 | live: ready | none | apply/fraction-ai.md | identified |
+| 24 | Garth | 45 | free / no identity | - | - | - | https://garthonqubic.com | 5 | live: ready | none | apply/garth.md | identified |
+| 25 | InterLink Labs | 45 | free / no identity | - | - | - | https://interlinklabs.ai/download | 5 | live: ready | none | apply/interlink-labs.md | identified |

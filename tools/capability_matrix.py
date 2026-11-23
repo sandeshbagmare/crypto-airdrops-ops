@@ -30,6 +30,13 @@ BUCKETS = [
 def classify(d):
     blob = " ".join([d.get("needs") or "", d.get("what") or "",
                      " ".join(d.get("steps") or [])]).lower()
+    live = d.get("live_check") or ""
+    if live == "ready":
+        return "agent_live", "a real browser opened the live page and saw no identity step"
+    if live == "refused":
+        return "refused", "domain failed the safety check - drop is not real or not live"
+    if live == "unreachable":
+        return "unreachable", "official site did not load - source may be stale"
     for key, label, words in BUCKETS:
         if any(w in blob for w in words):
             return key, label
@@ -50,13 +57,13 @@ def main():
 
     OUT.write_text(json.dumps(rows, indent=1, ensure_ascii=False), encoding="utf-8")
 
-    order = ["agent_read", "agent_email", "human_account", "human_signature",
-             "human_money", "human_kyc", "unknown"]
+    order = ["agent_live", "agent_read", "agent_email", "human_account", "human_signature",
+             "human_money", "human_kyc", "refused", "unreachable", "unknown"]
     labels = {k: v for k, _, v in [(b[0], b[1], b[2]) for b in BUCKETS]}
     labels["agent_read"] = "no identity step detected - reading and form fields only"
     labels["unknown"] = "no usable steps extracted"
     total = len(data)
-    agent_can = counts.get("agent_read", 0) + counts.get("agent_email", 0)
+    agent_can = counts.get("agent_live", 0) + counts.get("agent_read", 0) + counts.get("agent_email", 0)
     human_touch = counts.get("human_account", 0) + counts.get("human_signature", 0)
 
     lines = [
@@ -68,11 +75,14 @@ def main():
         "| Bucket | Drops | Share | Who finishes it |",
         "|---|---|---|---|",
     ]
-    who = {"agent_read": "agent alone (no identity)", "agent_email": "agent prepares, human clicks "
+    who = {"agent_live": "agent alone - confirmed on the live page",
+           "agent_read": "agent alone (no identity)", "agent_email": "agent prepares, human clicks "
            "the confirmation link in their inbox", "human_account": "human logs in once, agent "
            "continues in that session", "human_signature": "human approves one wallet signature, "
            "agent continues", "human_money": "human decides whether to spend; usually skip",
-           "human_kyc": "human only - legal identity step", "unknown": "needs manual reading"}
+           "human_kyc": "human only - legal identity step", "unknown": "needs manual reading",
+           "refused": "nobody - domain failed the safety check",
+           "unreachable": "nobody until the source is re-checked"}
     for key in order:
         if counts.get(key):
             lines.append(f"| {labels.get(key, key)} | {counts[key]} | "

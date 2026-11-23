@@ -1,4 +1,4 @@
-# infiniFi - apply checklist (#4)
+# infiniFi - apply checklist (#2)
 
 - **Confidence** 60/100 - 6 concrete steps, official site linked, deadline stated
 - **Effort** wallet connect (friction 10)
@@ -40,4 +40,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #5.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #3.

@@ -123,6 +123,11 @@ def write_credentials_context(records):
     except Exception:
         sess = {}
 
+    try:
+        opt = json.loads((ROOT / "agent" / "operator-inputs.json").read_text(encoding="utf-8"))
+    except Exception:
+        opt = {}
+
     by_host = defaultdict(list)
     for d, slug, p in records:
         bo = p.get("blocked_on")
@@ -169,6 +174,20 @@ def write_credentials_context(records):
         "Out of the box there is **one** identity, `main`. One identity per real-world persona: do not",
         "mix personas in one profile, and do not create identities you would be uncomfortable",
         "defending to a project's compliance team.",
+        "",
+        "## Public identifiers the tools will prefill",
+        "",
+        "| Use | Value | Note |",
+        "|---|---|---|",
+        f"| signup email | `{opt.get('email') or 'not set'}` | "
+        f"{opt.get('email_source') or 'add it to agent/operator-inputs.json'} |",
+        f"| burner wallet | `{opt.get('wallet') or 'not set'}` | "
+        f"{'public address only, the key stays with you' if opt.get('wallet') else 'run tools/burner_wallet.py yourself'} |",
+        f"| X handle | `{opt.get('x') or 'not set'}` | public handle |",
+        f"| Telegram | `{opt.get('telegram') or 'not set'}` | public handle |",
+        "",
+        "An email address and a wallet address are public values. A password, seed phrase, private key",
+        "or 2FA code is not, and none of those is stored anywhere in this repo.",
         "",
         "## Logins this batch needs from you, grouped by site",
         "",
@@ -223,7 +242,10 @@ def main():
         if p.get("status") != "ready":
             continue
         txt = [e for e in (p.get("evidence") or []) if e.endswith(".txt")]
-        if txt and (ROOT / txt[0]).exists() and (ROOT / txt[0]).stat().st_size < 400:
+        chars = p.get("text_chars")
+        if chars is None and txt and (ROOT / txt[0]).exists():
+            chars = (ROOT / txt[0]).stat().st_size
+        if chars is not None and chars < 400:
             p["status"] = "unknown"
             p["blocked_on"] = "unknown"
             p.setdefault("human_must", []).append(

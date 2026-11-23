@@ -1,4 +1,4 @@
-# Rabby Wallet - apply checklist (#25)
+# Rabby Wallet - apply checklist (#10)
 
 - **Confidence** 60/100 - 4 concrete steps, official site linked, deadline stated
 - **Effort** wallet connect (friction 10)
@@ -38,4 +38,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #26.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #11.

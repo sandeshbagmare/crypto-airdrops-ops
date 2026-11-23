@@ -18,6 +18,21 @@
    ],
    "updated": "2026-11-23"
   },
+  "loaf-markets": {
+   "project": "Loaf Markets",
+   "confidence": 90,
+   "days_left": 12,
+   "end": "2026-12-05",
+   "official": "https://beta.loafmarkets.com/league",
+   "blocked_on": "",
+   "status": "ready",
+   "next_action": "work the checklist",
+   "evidence": [
+    "airships/loaf-markets/page.txt",
+    "airships/loaf-markets/landing.png"
+   ],
+   "updated": "2026-11-23"
+  },
   "trueo": {
    "project": "Trueo",
    "confidence": 90,
@@ -45,6 +60,21 @@
    "evidence": [
     "airships/cycles/page.txt",
     "airships/cycles/landing.png"
+   ],
+   "updated": "2026-11-23"
+  },
+  "perptools": {
+   "project": "PERPTools",
+   "confidence": 90,
+   "days_left": 316,
+   "end": "2027-10-05",
+   "official": "https://app.perptools.ai",
+   "blocked_on": "",
+   "status": "ready",
+   "next_action": "work the checklist",
+   "evidence": [
+    "airships/perptools/page.txt",
+    "airships/perptools/landing.png"
    ],
    "updated": "2026-11-23"
   },
@@ -975,21 +1005,6 @@
    ],
    "updated": "2026-11-23"
   },
-  "loaf-markets": {
-   "project": "Loaf Markets",
-   "confidence": 90,
-   "days_left": 12,
-   "end": "2026-12-05",
-   "official": "https://beta.loafmarkets.com/league",
-   "blocked_on": "unknown",
-   "status": "unknown",
-   "next_action": "skip: unknown",
-   "evidence": [
-    "airships/loaf-markets/page.txt",
-    "airships/loaf-markets/landing.png"
-   ],
-   "updated": "2026-11-23"
-  },
   "mantle": {
    "project": "Mantle",
    "confidence": "",
@@ -1242,21 +1257,6 @@
    "evidence": [
     "airships/ethena/page.txt",
     "airships/ethena/landing.png"
-   ],
-   "updated": "2026-11-23"
-  },
-  "perptools": {
-   "project": "PERPTools",
-   "confidence": 90,
-   "days_left": 316,
-   "end": "2027-10-05",
-   "official": "https://app.perptools.ai",
-   "blocked_on": "unknown",
-   "status": "unknown",
-   "next_action": "skip: unknown",
-   "evidence": [
-    "airships/perptools/page.txt",
-    "airships/perptools/landing.png"
    ],
    "updated": "2026-11-23"
   },

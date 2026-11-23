@@ -115,6 +115,7 @@ def inspect(page, slug, url):
                       or "email" in (f.get("placeholder") or "").lower()
                       for f in fields)
     res = {
+        "text_chars": len(body.strip()),
         "title": page.title()[:120],
         "final_url": page.url,
         "fields": fields,
@@ -153,6 +154,10 @@ def inspect(page, slug, url):
     if fields:
         agent_can.append(f"pre-fill {len(fields)} form field(s) for review")
     agent_can.append("read requirements, capture evidence, record the packet")
+    if not must and len(body.strip()) < 400:
+        # a JS shell that rendered nothing is not ready; the detector had nothing to read
+        must.append("page rendered almost no text (JS-only shell) - read it yourself")
+        blocked_on = "unknown"
     if not must:
         blocked_on = ""
 

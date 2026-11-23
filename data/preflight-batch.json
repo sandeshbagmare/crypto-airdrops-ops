@@ -31,7 +31,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 20310
  },
  "doppler-finance": {
   "project": "Doppler Finance",
@@ -87,7 +88,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1969
  },
  "aura-protocol": {
   "project": "Aura Protocol",
@@ -134,7 +136,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2817
  },
  "globe": {
   "project": "Globe",
@@ -198,7 +201,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 10698
  },
  "infinifi": {
   "project": "infiniFi",
@@ -231,7 +235,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 336
  },
  "yakkamon": {
   "project": "Yakkamon",
@@ -315,7 +320,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4845
  },
  "kleos": {
   "project": "Kleos",
@@ -357,7 +363,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 12553
  },
  "coinzilla": {
   "project": "Coinzilla",
@@ -434,7 +441,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 152
  },
  "melee": {
   "project": "Melee",
@@ -476,7 +484,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 482
  },
  "monolith": {
   "project": "Monolith",
@@ -518,7 +527,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "domain",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1755
  },
  "axis-robotics": {
   "project": "Axis Robotics",
@@ -560,7 +570,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1117
  },
  "bybit-wsot-2026": {
   "project": "Bybit WSOT 2026",
@@ -602,7 +613,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 444
  },
  "xstocks": {
   "project": "xStocks",
@@ -644,7 +656,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3523
  },
  "loaf-markets": {
   "project": "Loaf Markets",
@@ -705,7 +718,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2715
  },
  "abstract": {
   "project": "Abstract",
@@ -738,7 +752,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1073
  },
  "river": {
   "project": "River",
@@ -758,7 +773,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.riverai.inc/airdrop\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.riverai.inc/airdrop\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 937
  },
  "daejin": {
   "project": "Daejin",
@@ -791,7 +807,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 407
  },
  "perptools": {
   "project": "PERPTools",
@@ -822,7 +839,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3035
  },
  "trueo": {
   "project": "Trueo",
@@ -869,7 +887,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4640
  },
  "metamask": {
   "project": "MetaMask",
@@ -902,7 +921,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4550
  },
  "bulk": {
   "project": "BULK",
@@ -933,7 +953,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 94
  },
  "subfrost": {
   "project": "Subfrost",
@@ -1011,7 +1032,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5815
  },
  "cancore": {
   "project": "Cancore",
@@ -1081,7 +1103,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5643
  },
  "renaiss-protocol": {
   "project": "Renaiss Protocol",
@@ -1114,7 +1137,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 8161
  },
  "embervale": {
   "project": "Embervale",
@@ -1147,7 +1171,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "domain",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1035
  },
  "note-systems": {
   "project": "Note Systems",
@@ -1196,7 +1221,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1682
  },
  "frontier-traders": {
   "project": "Frontier Traders",
@@ -1229,7 +1255,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 537
  },
  "fx100": {
   "project": "FX100",
@@ -1260,7 +1287,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 361
  },
  "tbook": {
   "project": "TBook",
@@ -1291,7 +1319,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 88
  },
  "geton": {
   "project": "GetOn",
@@ -1322,7 +1351,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 95
  },
  "wick": {
   "project": "Wick",
@@ -1355,7 +1385,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 180
  },
  "3jane": {
   "project": "3Jane",
@@ -1386,7 +1417,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 87
  },
  "valdora": {
   "project": "Valdora",
@@ -1419,7 +1451,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2729
  },
  "variational": {
   "project": "Variational",
@@ -1503,7 +1536,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5063
  },
  "origami-tech": {
   "project": "Origami Tech",
@@ -1566,7 +1600,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 498
  },
  "atoma-logo": {
   "project": "Atoma-logo",
@@ -1641,7 +1676,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7233
  },
  "carbon": {
   "project": "Carbon",
@@ -1704,7 +1740,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1128
  },
  "etherscan": {
   "project": "Etherscan",
@@ -1767,7 +1804,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 11940
  },
  "interstate": {
   "project": "Interstate",
@@ -1800,7 +1838,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6462
  },
  "megaeth": {
   "project": "MegaETH",
@@ -1833,7 +1872,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 8239
  },
  "nansen-ai": {
   "project": "Nansen AI",
@@ -1864,7 +1904,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 362
  },
  "otomato": {
   "project": "Otomato",
@@ -1895,7 +1936,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4677
  },
  "project-0": {
   "project": "Project 0",
@@ -1958,7 +2000,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 824
  },
  "singularity": {
   "project": "Singularity",
@@ -2028,7 +2071,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2834
  },
  "tria": {
   "project": "Tria",
@@ -2080,7 +2124,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 496
  },
  "cables-finance": {
   "project": "Cables Finance",
@@ -2120,7 +2165,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 320
  },
  "june-ai": {
   "project": "June AI",
@@ -2162,7 +2208,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 507
  },
  "rax-finance": {
   "project": "RAX Finance",
@@ -2195,7 +2242,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3103
  },
  "bombie": {
   "project": "Bombie",
@@ -2226,7 +2274,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1038
  },
  "mars-rally-championship": {
   "project": "Mars Rally Championship",
@@ -2268,7 +2317,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4030
  },
  "verasity": {
   "project": "Verasity",
@@ -2299,7 +2349,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2025
  },
  "arc-terminal": {
   "project": "ARC Terminal",
@@ -2341,7 +2392,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 10952
  },
  "bless-network": {
   "project": "Bless Network",
@@ -2372,7 +2424,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2939
  },
  "confidential-layer": {
   "project": "Confidential Layer",
@@ -2392,7 +2445,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://confidentiallayer.com/\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://confidentiallayer.com/\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 3431
  },
  "giwa": {
   "project": "GIWA",
@@ -2441,7 +2495,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2476
  },
  "jumper-exchange": {
   "project": "Jumper Exchange",
@@ -2472,7 +2527,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 960
  },
  "lithos": {
   "project": "Lithos",
@@ -2505,7 +2561,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2119
  },
  "motoswap": {
   "project": "Motoswap",
@@ -2538,7 +2595,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6248
  },
  "probable": {
   "project": "Probable",
@@ -2580,7 +2638,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1349
  },
  "runwago": {
   "project": "Runwago",
@@ -2613,7 +2672,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 578
  },
  "spark-finance": {
   "project": "Spark Finance",
@@ -2646,7 +2706,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 335
  },
  "xian": {
   "project": "Xian",
@@ -2679,7 +2740,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 292
  },
  "robinhood": {
   "project": "Robinhood",
@@ -2721,7 +2783,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 360
  },
  "haha-wallet": {
   "project": "HaHa Wallet",
@@ -2763,7 +2826,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5341
  },
  "snowball-money": {
   "project": "Snowball Money",
@@ -2794,7 +2858,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 80
  },
  "dfusion-ai": {
   "project": "dFusion AI",
@@ -2827,7 +2892,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7022
  },
  "neutral-trade": {
   "project": "Neutral Trade",
@@ -2876,7 +2942,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6427
  },
  "gyndore": {
   "project": "Gyndore",
@@ -3130,7 +3197,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 427
  },
  "vault-street": {
   "project": "Vault Street",
@@ -3163,7 +3231,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "domain",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 282
  },
  "chimpx": {
   "project": "ChimpX",
@@ -3219,7 +3288,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1850
  },
  "surf-ai": {
   "project": "Surf AI",
@@ -3252,7 +3322,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3224
  },
  "duelbet": {
   "project": "DuelBet",
@@ -3294,7 +3365,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4605
  },
  "montra": {
   "project": "Montra",
@@ -3337,7 +3409,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3583
  },
  "fomo": {
   "project": "fomo",
@@ -3368,7 +3441,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 90
  },
  "rialo": {
   "project": "Rialo",
@@ -3422,7 +3496,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1022
  },
  "nullmask": {
   "project": "Nullmask",
@@ -3495,7 +3570,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 112
  },
  "xstable": {
   "project": "XStable",
@@ -3515,7 +3591,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  "note": "Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+  "text_chars": 73
  },
  "memebitcoin": {
   "project": "MemeBitcoin",
@@ -3546,7 +3623,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 126
  },
  "beep": {
   "project": "Beep",
@@ -3577,7 +3655,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 140
  },
  "extended": {
   "project": "Extended",
@@ -3608,7 +3687,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 83
  },
  "voltrade": {
   "project": "Voltrade",
@@ -3641,7 +3721,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5940
  },
  "decibel": {
   "project": "Decibel",
@@ -3781,7 +3862,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1330
  },
  "ecash": {
   "project": "eCash",
@@ -3821,7 +3903,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2835
  },
  "rabby-wallet": {
   "project": "Rabby Wallet",
@@ -3852,7 +3935,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 244
  },
  "backyard-finance": {
   "project": "Backyard Finance",
@@ -3927,7 +4011,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 989
  },
  "citrea": {
   "project": "Citrea",
@@ -3976,7 +4061,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1171
  },
  "fatty": {
   "project": "FATTY",
@@ -4030,7 +4116,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1534
  },
  "juice": {
   "project": "Juice",
@@ -4062,7 +4149,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1810
  },
  "metis": {
   "project": "Metis",
@@ -4093,7 +4181,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 82
  },
  "nebulai": {
   "project": "Nebulai",
@@ -4124,7 +4213,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 355
  },
  "perle-labs": {
   "project": "Perle Labs",
@@ -4176,7 +4266,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3423
  },
  "soneium": {
   "project": "Soneium",
@@ -4209,7 +4300,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1336
  },
  "trojan": {
   "project": "Trojan",
@@ -4240,7 +4332,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3833
  },
  "world-liberty": {
   "project": "World Liberty",
@@ -4282,7 +4375,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 15172
  },
  "cambrian-network": {
   "project": "Cambrian Network",
@@ -4324,7 +4418,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4609
  },
  "kiedex": {
   "project": "KieDex",
@@ -4387,7 +4482,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 641
  },
  "sovra": {
   "project": "Sovra",
@@ -4418,7 +4514,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 346
  },
  "camp-network": {
   "project": "Camp Network",
@@ -4449,7 +4546,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2202
  },
  "morfi": {
   "project": "Morfi",
@@ -4482,7 +4580,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1637
  },
  "yeno": {
   "project": "YeNo",
@@ -4515,7 +4614,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7103
  },
  "affine": {
   "project": "Affine",
@@ -4548,7 +4648,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3817
  },
  "block-street": {
   "project": "Block Street",
@@ -4581,7 +4682,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 860
  },
  "credible": {
   "project": "Credible",
@@ -4614,7 +4716,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5772
  },
  "gaia": {
   "project": "Gaia",
@@ -4656,7 +4759,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 925
  },
  "kor-protocol": {
   "project": "KOR Protocol",
@@ -4689,7 +4793,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "domain",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 283
  },
  "loopscale": {
   "project": "Loopscale",
@@ -4736,7 +4841,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2790
  },
  "nexchain": {
   "project": "Nexchain",
@@ -4767,7 +4873,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 5885
  },
  "puffpaw": {
   "project": "Puffpaw",
@@ -4809,7 +4916,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4017
  },
  "strato": {
   "project": "STRATO",
@@ -4851,7 +4959,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4170
  },
  "swarmbase": {
   "project": "SwarmBase",
@@ -4900,7 +5009,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3062
  },
  "yield-basis": {
   "project": "Yield Basis",
@@ -4949,7 +5059,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 552
  },
  "velvet-capital": {
   "project": "Velvet.Capital",
@@ -5087,7 +5198,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 383
  },
  "hyperflash": {
   "project": "HyperFlash",
@@ -5120,7 +5232,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1614
  },
  "watt2trade": {
   "project": "Watt2Trade",
@@ -5153,7 +5266,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2409
  },
  "asymmetry-finance": {
   "project": "Asymmetry Finance",
@@ -5186,7 +5300,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2195
  },
  "onchain-cc": {
   "project": "Onchain.cc",
@@ -5235,7 +5350,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 9711
  },
  "hotstuff": {
   "project": "Hotstuff",
@@ -5485,7 +5601,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2353
  },
  "dreamcash": {
   "project": "Dreamcash",
@@ -5505,7 +5622,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://dreamcash.xyz/\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://dreamcash.xyz/\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 5949
  },
  "42": {
   "project": "42",
@@ -5561,7 +5679,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 859
  },
  "n1": {
   "project": "N1",
@@ -5603,7 +5722,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1027
  },
  "orbinum": {
   "project": "Orbinum",
@@ -5636,7 +5756,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 541
  },
  "allscale": {
   "project": "AllScale",
@@ -5699,7 +5820,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 15827
  },
  "hashcats": {
   "project": "Hashcats",
@@ -5783,7 +5905,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 713
  },
  "reflect": {
   "project": "Reflect",
@@ -5816,7 +5939,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 878
  },
  "morfi-markets": {
   "project": "Morfi Markets",
@@ -5847,7 +5971,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 7308
  },
  "jupiter": {
   "project": "Jupiter",
@@ -5901,7 +6026,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 299
  },
  "polyester": {
   "project": "Polyester",
@@ -5957,7 +6083,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7965
  },
  "catalyst": {
   "project": "Catalyst",
@@ -5990,7 +6117,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6652
  },
  "kryvora-network": {
   "project": "Kryvora Network",
@@ -6053,7 +6181,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1275
  },
  "liquid": {
   "project": "Liquid",
@@ -6073,7 +6202,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.liquid.trade/\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.liquid.trade/\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 196
  },
  "caster": {
   "project": "Caster",
@@ -6106,7 +6236,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4747
  },
  "sosovalue": {
   "project": "SoSoValue",
@@ -6139,7 +6270,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2661
  },
  "rialto": {
   "project": "Rialto",
@@ -6191,7 +6323,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3252
  },
  "axiom-exchange": {
   "project": "Axiom Exchange",
@@ -6224,7 +6357,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 404
  },
  "cyberkongz": {
   "project": "CyberKongz",
@@ -6255,7 +6389,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3398
  },
  "fareup": {
   "project": "FareUp",
@@ -6288,7 +6423,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 832
  },
  "haust-network": {
   "project": "Haust Network",
@@ -6321,7 +6457,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2931
  },
  "karrier-one": {
   "project": "Karrier One",
@@ -6354,7 +6491,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2038
  },
  "miden": {
   "project": "Miden",
@@ -6424,7 +6562,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5193
  },
  "nexira": {
   "project": "Nexira",
@@ -6444,7 +6583,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.nexira.ai/airdrops\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.nexira.ai/airdrops\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 3926
  },
  "perpl": {
   "project": "Perpl",
@@ -6475,7 +6615,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1741
  },
  "rainbow": {
   "project": "Rainbow",
@@ -6538,7 +6679,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1373
  },
  "umi-network": {
   "project": "Umi Network",
@@ -6569,7 +6711,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 128
  },
  "yo": {
   "project": "YO",
@@ -6602,7 +6745,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1312
  },
  "chaos-labs": {
   "project": "Chaos Labs",
@@ -6633,7 +6777,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2224
  },
  "leap": {
   "project": "Leap",
@@ -6666,7 +6811,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2543
  },
  "wallet-v": {
   "project": "Wallet V",
@@ -6741,7 +6887,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 341
  },
  "bitrobot": {
   "project": "BitRobot",
@@ -6774,7 +6921,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 735
  },
  "ambios-network": {
   "project": "Ambios Network",
@@ -6807,7 +6955,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 411
  },
  "brownian": {
   "project": "Brownian",
@@ -6838,7 +6987,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 133
  },
  "curvance": {
   "project": "Curvance",
@@ -6869,7 +7019,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 111
  },
  "glacier-network": {
   "project": "Glacier Network",
@@ -6923,7 +7074,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1778
  },
  "magma": {
   "project": "Magma",
@@ -7000,7 +7152,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6747
  },
  "noon": {
   "project": "Noon",
@@ -7033,7 +7186,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2739
  },
  "rabbithole": {
   "project": "Rabbithole",
@@ -7117,7 +7271,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4258
  },
  "dtelecom": {
   "project": "dTelecom",
@@ -7150,7 +7305,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 82
  },
  "aiw3": {
   "project": "AIW3",
@@ -7181,7 +7337,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 72
  },
  "janus-protocol": {
   "project": "Janus Protocol",
@@ -7300,7 +7457,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4454
  },
  "wheelx": {
   "project": "WheelX",
@@ -7333,7 +7491,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 809
  },
  "gaib-ai": {
   "project": "GAIB AI",
@@ -7382,7 +7541,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 986
  },
  "reaper-actual": {
   "project": "Reaper Actual",
@@ -7415,7 +7575,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 184
  },
  "polaris": {
   "project": "Polaris",
@@ -7614,7 +7775,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 213
  },
  "florin": {
   "project": "Florin",
@@ -7647,7 +7809,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2005
  },
  "acepyr": {
   "project": "Acepyr",
@@ -7703,7 +7866,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6185
  },
  "ondo-perps": {
   "project": "Ondo Perps",
@@ -7808,7 +7972,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1178
  },
  "raflux": {
   "project": "Raflux",
@@ -7885,7 +8050,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 979
  },
  "amadeus-protocol": {
   "project": "Amadeus Protocol",
@@ -7927,7 +8093,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2078
  },
  "hertzflow": {
   "project": "HertzFlow",
@@ -7960,7 +8127,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2602
  },
  "tydro": {
   "project": "Tydro",
@@ -7993,7 +8161,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1207
  },
  "rome-protocol": {
   "project": "Rome Protocol",
@@ -8024,7 +8193,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 168
  },
  "nowa": {
   "project": "NOWA",
@@ -8087,7 +8257,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3636
  },
  "vibe-vibe": {
   "project": "vibe/vibe",
@@ -8120,7 +8291,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1577
  },
  "proto": {
   "project": "Proto",
@@ -8169,7 +8341,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 325
  },
  "sirius-protocol": {
   "project": "Sirius Protocol",
@@ -8209,7 +8382,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 363
  },
  "nuva": {
   "project": "NUVA",
@@ -8258,7 +8432,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2965
  },
  "dogeos": {
   "project": "DogeOS",
@@ -8291,7 +8466,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 428
  },
  "saturn": {
   "project": "Saturn",
@@ -8322,7 +8498,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 646
  },
  "sphinx-protocol": {
   "project": "Sphinx Protocol",
@@ -8394,7 +8571,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 106
  },
  "aztec": {
   "project": "Aztec",
@@ -8436,7 +8614,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4287
  },
  "cysic": {
   "project": "Cysic",
@@ -8467,7 +8646,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3354
  },
  "firewall": {
   "project": "Firewall",
@@ -8516,7 +8696,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2299
  },
  "human-passport": {
   "project": "Human Passport",
@@ -8549,7 +8730,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1218
  },
  "kinetic": {
   "project": "Kinetic",
@@ -8580,7 +8762,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1216
  },
  "minionlab": {
   "project": "MinionLab",
@@ -8613,7 +8796,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2053
  },
  "nosana": {
   "project": "Nosana",
@@ -8646,7 +8830,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3279
  },
  "pi-network": {
   "project": "Pi Network",
@@ -8688,7 +8873,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1824
  },
  "rally": {
   "project": "Rally",
@@ -8737,7 +8923,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3998
  },
  "superboring": {
   "project": "SuperBoring",
@@ -8768,7 +8955,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 86
  },
  "unichain": {
   "project": "Unichain",
@@ -8799,7 +8987,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2750
  },
  "youmio": {
   "project": "Youmio",
@@ -8883,7 +9072,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 269
  },
  "zeni": {
   "project": "ZENi",
@@ -8914,7 +9104,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 76
  },
  "evaa-protocol": {
   "project": "EVAA Protocol",
@@ -8945,7 +9136,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 810
  },
  "plushie-ai": {
   "project": "Plushie AI",
@@ -8978,7 +9170,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 647
  },
  "gte": {
   "project": "GTE",
@@ -9048,7 +9241,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 209
  },
  "american-fortress": {
   "project": "American Fortress",
@@ -9118,7 +9312,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 15332
  },
  "din": {
   "project": "DIN",
@@ -9151,7 +9346,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 194
  },
  "gooddollar": {
   "project": "GoodDollar",
@@ -9184,7 +9380,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 80
  },
  "kaisar-network": {
   "project": "Kaisar Network",
@@ -9238,7 +9435,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 322
  },
  "offline-protocol": {
   "project": "Offline Protocol",
@@ -9269,7 +9467,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 401
  },
  "re": {
   "project": "Re",
@@ -9318,7 +9517,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 794
  },
  "savior-of-health": {
   "project": "Savior of Health",
@@ -9349,7 +9549,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 586
  },
  "technotainment": {
   "project": "Technotainment",
@@ -9380,7 +9581,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 90
  },
  "dagama": {
   "project": "daGama",
@@ -9413,7 +9615,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1256
  },
  "beldex": {
   "project": "Beldex",
@@ -9465,7 +9668,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 76
  },
  "3dos": {
   "project": "3DOS",
@@ -9540,7 +9744,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 10098
  },
  "push-chain": {
   "project": "Push Chain",
@@ -9741,7 +9946,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2655
  },
  "worldie": {
   "project": "Worldie",
@@ -9772,7 +9978,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 244
  },
  "stablestock": {
   "project": "StableStock",
@@ -9821,7 +10028,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2124
  },
  "lighter": {
   "project": "Lighter",
@@ -9868,7 +10076,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4224
  },
  "backtrade": {
   "project": "Backtrade",
@@ -9899,7 +10108,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4895
  },
  "risex": {
   "project": "RISEx",
@@ -9930,7 +10140,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 194
  },
  "rarelist": {
   "project": "Rarelist",
@@ -9984,7 +10195,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 158
  },
  "apyx": {
   "project": "Apyx",
@@ -10026,7 +10238,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 265
  },
  "kalos": {
   "project": "Kalos",
@@ -10057,7 +10270,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 950
  },
  "up": {
   "project": "UP",
@@ -10088,7 +10302,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 10677
  },
  "titan-exchange": {
   "project": "Titan Exchange",
@@ -10121,7 +10336,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 361
  },
  "optimai-network": {
   "project": "OptimAI Network",
@@ -10177,7 +10393,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 106
  },
  "4d-labs": {
   "project": "4D Labs",
@@ -10210,7 +10427,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1947
  },
  "psy-protocol-qed": {
   "project": "Psy Protocol (QED)",
@@ -10273,7 +10491,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 551
  },
  "xo-market": {
   "project": "XO Market",
@@ -10322,7 +10541,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3621
  },
  "papertrade": {
   "project": "Papertrade",
@@ -10353,7 +10573,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 406
  },
  "rwaperp": {
   "project": "RWAPerp",
@@ -10395,7 +10616,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1458
  },
  "vangrid": {
   "project": "Vangrid",
@@ -10470,7 +10692,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 89
  },
  "flop-labs": {
   "project": "Flop Labs",
@@ -10610,7 +10833,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3600
  },
  "alienx": {
   "project": "ALIENX",
@@ -10687,7 +10911,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1899
  },
  "dgrid-ai": {
   "project": "DGrid AI",
@@ -10720,7 +10945,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3349
  },
  "fluence": {
   "project": "Fluence",
@@ -10751,7 +10977,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 85
  },
  "illuvium": {
   "project": "Illuvium",
@@ -10814,7 +11041,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5939
  },
  "miracle": {
   "project": "Miracle",
@@ -10845,7 +11073,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 5535
  },
  "one-fight-arena": {
   "project": "ONE Fight Arena",
@@ -10887,7 +11116,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 8340
  },
  "planemo-trading": {
   "project": "Planemo Trading",
@@ -10920,7 +11150,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1402
  },
  "reddio": {
   "project": "Reddio",
@@ -10962,7 +11193,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3075
  },
  "superfluid": {
   "project": "Superfluid",
@@ -10993,7 +11225,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2389
  },
  "uprock": {
   "project": "UpRock",
@@ -11056,7 +11289,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4628
  },
  "zkcandy": {
   "project": "ZKcandy",
@@ -11110,7 +11344,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2362
  },
  "midas-markets": {
   "project": "Midas Markets",
@@ -11141,7 +11376,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 121
  },
  "xdfi": {
   "project": "xDFi",
@@ -11174,7 +11410,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 540
  },
  "hoppr": {
   "project": "Hoppr",
@@ -11207,7 +11444,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1912
  },
  "quip-network": {
   "project": "Quip Network",
@@ -11263,7 +11501,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1023
  },
  "phyt-fun": {
   "project": "Phyt.fun",
@@ -11296,7 +11535,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 231
  },
  "arena-of-faith": {
   "project": "Arena of Faith",
@@ -11329,7 +11569,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4251
  },
  "canton-network": {
   "project": "Canton Network",
@@ -11360,7 +11601,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 7855
  },
  "delpho": {
   "project": "Delpho",
@@ -11393,7 +11635,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3403
  },
  "harmonix-finance": {
   "project": "Harmonix Finance",
@@ -11424,7 +11667,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 91
  },
  "kinza-finance": {
   "project": "Kinza Finance",
@@ -11457,7 +11701,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 348
  },
  "memebook": {
   "project": "Memebook",
@@ -11545,7 +11790,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 382
  },
  "seismic": {
   "project": "Seismic",
@@ -11578,7 +11824,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3053
  },
  "teller-protocol": {
   "project": "Teller Protocol",
@@ -11648,7 +11895,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2738
  },
  "heyaura": {
   "project": "heyAura",
@@ -11679,7 +11927,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 76
  },
  "captain-tsubasa": {
   "project": "Captain Tsubasa",
@@ -11710,7 +11959,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2027
  },
  "lighter-robinhood": {
   "project": "Lighter Robinhood",
@@ -11757,7 +12007,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4224
  },
  "drake": {
   "project": "Drake",
@@ -11790,7 +12041,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 230
  },
  "nulink": {
   "project": "NuLink",
@@ -11823,7 +12075,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3460
  },
  "sweep-finance": {
   "project": "Sweep Finance",
@@ -11856,7 +12109,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1008
  },
  "shelby": {
   "project": "Shelby",
@@ -12064,7 +12318,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3889
  },
  "fables": {
   "project": "Fables",
@@ -12097,7 +12352,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 198
  },
  "neosoul": {
   "project": "NeoSoul",
@@ -12130,7 +12386,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 461
  },
  "antseed": {
   "project": "Antseed",
@@ -12163,7 +12420,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6909
  },
  "mint": {
   "project": "MINT",
@@ -12194,7 +12452,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 70
  },
  "bullpen": {
   "project": "Bullpen",
@@ -12234,7 +12493,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 75
  },
  "ryfinite": {
   "project": "Ryfinite",
@@ -12265,7 +12525,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2011
  },
  "soei": {
   "project": "SOEI",
@@ -12296,7 +12557,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1033
  },
  "nous-research": {
   "project": "Nous Research",
@@ -12345,7 +12607,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 20852
  },
  "arcus": {
   "project": "Arcus",
@@ -12394,7 +12657,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1454
  },
  "metric": {
   "project": "Metric",
@@ -12443,7 +12707,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 89
  },
  "alphea": {
   "project": "ALPHEA",
@@ -12476,7 +12741,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2634
  },
  "c8ntinuum": {
   "project": "c8ntinuum",
@@ -12507,7 +12773,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 109
  },
  "optimum": {
   "project": "Optimum",
@@ -12540,7 +12807,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 339
  },
  "allox": {
   "project": "AlloX",
@@ -12582,7 +12850,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1118
  },
  "sandwatch": {
   "project": "Sandwatch",
@@ -12631,7 +12900,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 9136
  },
  "powerx-one": {
   "project": "PowerX One",
@@ -12687,7 +12957,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5935
  },
  "rafa-finance": {
   "project": "RAFA Finance",
@@ -12757,7 +13028,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 5856
  },
  "spicenet": {
   "project": "Spicenet",
@@ -12829,7 +13101,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 571
  },
  "moviton": {
   "project": "MovitOn",
@@ -12860,7 +13133,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 76
  },
  "legend": {
   "project": "Legend",
@@ -12912,7 +13186,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3195
  },
  "boop": {
   "project": "Boop",
@@ -12973,7 +13248,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 4824
  },
  "debank": {
   "project": "DeBank",
@@ -13015,7 +13291,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 124
  },
  "fraction-ai": {
   "project": "Fraction AI",
@@ -13046,7 +13323,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 843
  },
  "incentiv": {
   "project": "Incentiv",
@@ -13121,7 +13399,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3704
  },
  "octoswap": {
   "project": "OctoSwap",
@@ -13198,7 +13477,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2259
  },
  "play-ai": {
   "project": "Play AI",
@@ -13231,7 +13511,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1643
  },
  "roach-racing-club": {
   "project": "Roach Racing Club",
@@ -13264,7 +13545,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 114
  },
  "swapper-finance": {
   "project": "Swapper Finance",
@@ -13297,7 +13579,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1752
  },
  "valantis-labs": {
   "project": "Valantis Labs",
@@ -13330,7 +13613,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1155
  },
  "zyfai": {
   "project": "Zyfai",
@@ -13361,7 +13645,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 113
  },
  "fifa-collect": {
   "project": "FIFA Collect",
@@ -13501,7 +13786,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 606
  },
  "nava-ai": {
   "project": "Nava AI",
@@ -13534,7 +13820,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1993
  },
  "0xastra": {
   "project": "0xAstra",
@@ -13565,7 +13852,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 2142
  },
  "iopn": {
   "project": "IOPn",
@@ -13617,7 +13905,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 986
  },
  "stormrae": {
   "project": "Stormrae",
@@ -13648,7 +13937,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3377
  },
  "astra-nova": {
   "project": "Astra Nova",
@@ -13681,7 +13971,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2697
  },
  "chainopera-ai": {
   "project": "ChainOpera AI",
@@ -13714,7 +14005,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 312
  },
  "elysium": {
   "project": "Elysium",
@@ -13745,7 +14037,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 5008
  },
  "heatrush": {
   "project": "HeatRush",
@@ -13776,7 +14069,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 110
  },
  "linera": {
   "project": "Linera",
@@ -13807,7 +14101,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1439
  },
  "mezo": {
   "project": "Mezo",
@@ -13838,7 +14133,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 69
  },
  "photon": {
   "project": "Photon",
@@ -13908,7 +14204,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "terms",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7268
  },
  "sixpence": {
   "project": "Sixpence",
@@ -13939,7 +14236,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1862
  },
  "usd-ai": {
   "project": "USD.ai",
@@ -13988,7 +14286,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 639
  },
  "dropee": {
   "project": "Dropee",
@@ -14021,7 +14320,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4449
  },
  "concrete": {
   "project": "Concrete",
@@ -14054,7 +14354,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3150
  },
  "lowlife-forms": {
   "project": "Lowlife Forms",
@@ -14103,7 +14404,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3623
  },
  "fair-shares": {
   "project": "Fair Shares",
@@ -14194,7 +14496,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2534
  },
  "0xmiden": {
   "project": "0xMiden",
@@ -14308,7 +14611,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 10865
  },
  "turboflow": {
   "project": "TurboFlow",
@@ -14447,7 +14751,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 357
  },
  "fhenix": {
   "project": "Fhenix",
@@ -14501,7 +14806,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1088
  },
  "ipx": {
   "project": "IPX",
@@ -14534,7 +14840,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1721
  },
  "arc": {
   "project": "Arc",
@@ -14598,7 +14905,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 665
  },
  "cambria": {
   "project": "Cambria",
@@ -14731,7 +15039,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 384
  },
  "squeekchain": {
   "project": "Squeekchain",
@@ -14794,7 +15103,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 235
  },
  "baibai": {
   "project": "BaiBai",
@@ -14848,7 +15158,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 490
  },
  "monetrix": {
   "project": "Monetrix",
@@ -14911,7 +15222,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1414
  },
  "blackboard": {
   "project": "Blackboard",
@@ -14944,7 +15256,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1931
  },
  "di": {
   "project": "DI",
@@ -14977,7 +15290,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2425
  },
  "ritual": {
   "project": "Ritual",
@@ -15010,7 +15324,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 358
  },
  "de1": {
   "project": "De1",
@@ -15052,7 +15367,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2509
  },
  "smartx": {
   "project": "SmartX",
@@ -15142,7 +15458,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1634
  },
  "flop": {
   "project": "FLOP",
@@ -15173,7 +15490,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 20352
  },
  "ethos-network": {
   "project": "Ethos Network",
@@ -15248,7 +15566,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 255
  },
  "3jane-logo": {
   "project": "3jane-logo",
@@ -15321,7 +15640,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 580
  },
  "brevis": {
   "project": "Brevis",
@@ -15354,7 +15674,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 13631
  },
  "defi-app": {
   "project": "Defi App",
@@ -15374,7 +15695,8 @@
   "agent_can": [
    "recorded the failure, kept the row"
   ],
-  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.defi.app/\", waiting until \"domcontentloaded\"\n"
+  "note": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://app.defi.app/\", waiting until \"domcontentloaded\"\n",
+  "text_chars": 879
  },
  "gammaswap": {
   "project": "GammaSwap",
@@ -15416,7 +15738,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2146
  },
  "infinity-warlords": {
   "project": "Infinity Warlords",
@@ -15449,7 +15772,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 127
  },
  "liquity": {
   "project": "Liquity",
@@ -15498,7 +15822,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3930
  },
  "myriad-markets": {
   "project": "Myriad Markets",
@@ -15540,7 +15865,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 249
  },
  "onefootball-club": {
   "project": "OneFootball Club",
@@ -15680,7 +16006,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1573
  },
  "ponder": {
   "project": "Ponder",
@@ -15713,7 +16040,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2665
  },
  "shift": {
   "project": "SHIFT",
@@ -15746,7 +16074,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 7618
  },
  "tina": {
   "project": "TINA",
@@ -15798,7 +16127,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3849
  },
  "edgex": {
   "project": "edgeX",
@@ -15872,7 +16202,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 296
  },
  "afx": {
   "project": "AFX",
@@ -15903,7 +16234,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 3406
  },
  "infinity-ground": {
   "project": "Infinity Ground",
@@ -15959,7 +16291,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1106
  },
  "spekter-agency": {
   "project": "Spekter Agency",
@@ -16022,7 +16355,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6928
  },
  "x365-ai": {
   "project": "x365 AI",
@@ -16071,7 +16405,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 588
  },
  "bitcoin-quantum": {
   "project": "Bitcoin Quantum",
@@ -16183,7 +16518,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 20274
  },
  "checkpoint": {
   "project": "Checkpoint",
@@ -16216,7 +16552,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 19862
  },
  "ethermax": {
   "project": "Ethermax",
@@ -16249,7 +16586,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 772
  },
  "hyperlynx": {
   "project": "Hyperlynx",
@@ -16282,7 +16620,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 305
  },
  "liquidium": {
   "project": "Liquidium",
@@ -16345,7 +16684,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 375
  },
  "mirra-ai": {
   "project": "Mirra AI",
@@ -16387,7 +16727,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 391
  },
  "ping-network": {
   "project": "Ping Network",
@@ -16464,7 +16805,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 570
  },
  "rootstock-collective": {
   "project": "Rootstock Collective",
@@ -16495,7 +16837,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 12802
  },
  "skytrade": {
   "project": "SkyTrade",
@@ -16528,7 +16871,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 898
  },
  "well3": {
   "project": "WELL3",
@@ -16561,7 +16905,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 369
  },
  "knidos": {
   "project": "Knidos",
@@ -16603,7 +16948,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 432
  },
  "dustswap": {
   "project": "Dustswap",
@@ -16645,7 +16991,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 426
  },
  "openzk": {
   "project": "OpenZK",
@@ -16678,7 +17025,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1335
  },
  "fight-id": {
   "project": "Fight.ID",
@@ -16711,7 +17059,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4901
  },
  "canborsa": {
   "project": "Canborsa",
@@ -16753,7 +17102,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 362
  },
  "canopy-network": {
   "project": "Canopy Network",
@@ -16998,7 +17348,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 367
  },
  "inverted-lambda": {
   "project": "Inverted Lambda",
@@ -17029,7 +17380,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 125
  },
  "tastyco": {
   "project": "TastyCo",
@@ -17060,7 +17412,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 94
  },
  "ekiden": {
   "project": "Ekiden",
@@ -17109,7 +17462,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1871
  },
  "ascend": {
   "project": "Ascend",
@@ -17159,7 +17513,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 117
  },
  "onre": {
   "project": "OnRe",
@@ -17201,7 +17556,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "kyc",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2721
  },
  "derivio": {
   "project": "Derivio",
@@ -17232,7 +17588,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 204
  },
  "zoi-network": {
   "project": "Zoi Network",
@@ -17274,7 +17631,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4733
  },
  "termix": {
   "project": "TermiX",
@@ -17316,7 +17674,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 706
  },
  "raycash": {
   "project": "Raycash",
@@ -17358,7 +17717,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2034
  },
  "bullshot": {
   "project": "Bullshot",
@@ -17410,7 +17770,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 789
  },
  "doma-protocol": {
   "project": "Doma Protocol",
@@ -17473,7 +17834,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 876
  },
  "dow-protocol": {
   "project": "Dow Protocol",
@@ -17506,7 +17868,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 734
  },
  "sumex": {
   "project": "Sumex",
@@ -17558,7 +17921,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 378
  },
  "vana": {
   "project": "Vana",
@@ -17591,7 +17955,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 420
  },
  "the-pit": {
   "project": "The Pit",
@@ -17622,7 +17987,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 230
  },
  "tzero": {
   "project": "Tzero",
@@ -17656,7 +18022,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1302
  },
  "panther-protocol": {
   "project": "Panther Protocol",
@@ -17689,7 +18056,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 10832
  },
  "sogni-ai": {
   "project": "Sogni AI",
@@ -17822,7 +18190,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 11010
  },
  "katana": {
   "project": "Katana",
@@ -17855,7 +18224,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1383
  },
  "virtuals-protocol": {
   "project": "Virtuals Protocol",
@@ -17927,7 +18297,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4183
  },
  "browser-cash": {
   "project": "Browser Cash",
@@ -17960,7 +18331,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 3835
  },
  "die-last": {
   "project": "Die Last",
@@ -18021,7 +18393,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 108
  },
  "interlink-labs": {
   "project": "InterLink Labs",
@@ -18096,7 +18469,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 1314
  },
  "loopedhype": {
   "project": "LoopedHYPE",
@@ -18159,7 +18533,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 907
  },
  "nakamoto-games": {
   "project": "Nakamoto Games",
@@ -18192,7 +18567,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 143
  },
  "ostium": {
   "project": "Ostium",
@@ -18225,7 +18601,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 6128
  },
  "portrait": {
   "project": "Portrait",
@@ -18279,7 +18656,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1366
  },
  "tari": {
   "project": "Tari",
@@ -18312,7 +18690,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2784
  },
  "w-ai": {
   "project": "W.AI",
@@ -18361,7 +18740,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 830
  },
  "predict-fun": {
   "project": "predict.fun",
@@ -18394,7 +18774,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2501
  },
  "gtr": {
   "project": "GTR",
@@ -18425,7 +18806,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 101
  },
  "pulsar-money": {
   "project": "Pulsar Money",
@@ -18474,7 +18856,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 4144
  },
  "action-model": {
   "project": "Action Model",
@@ -18507,7 +18890,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 393
  },
  "ithaca-protocol": {
   "project": "Ithaca Protocol",
@@ -18582,7 +18966,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 1083
  },
  "black-mirror": {
   "project": "Black Mirror",
@@ -18613,7 +18998,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 114
  },
  "coinquant": {
   "project": "CoinQuant",
@@ -18668,7 +19054,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 647
  },
  "joule-finance": {
   "project": "Joule Finance",
@@ -18701,7 +19088,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 541
  },
  "litvmswap": {
   "project": "LitVMSwap",
@@ -18743,7 +19131,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2057
  },
  "moonbirds": {
   "project": "Moonbirds",
@@ -18776,7 +19165,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 411
  },
  "privex": {
   "project": "PriveX",
@@ -18828,7 +19218,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 233
  },
  "soul-labs": {
   "project": "Soul Labs",
@@ -18859,7 +19250,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "",
-  "status": "ready"
+  "status": "ready",
+  "text_chars": 107
  },
  "x1-ecochain": {
   "project": "X1 EcoChain",
@@ -18907,7 +19299,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "email",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 830
  },
  "prismax": {
   "project": "PrismaX",
@@ -18940,7 +19333,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 532
  },
  "flipper": {
   "project": "Flipper",
@@ -19015,7 +19409,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "wallet_signature",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2365
  },
  "nesa-ai": {
   "project": "Nesa AI",
@@ -19048,7 +19443,8 @@
    "read requirements, capture evidence, record the packet"
   ],
   "blocked_on": "login",
-  "status": "blocked"
+  "status": "blocked",
+  "text_chars": 2131
  },
  "dohm-finance": {
   "project": "DOHM Finance",

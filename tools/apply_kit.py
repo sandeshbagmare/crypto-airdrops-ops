@@ -150,7 +150,9 @@ def main():
             preflight = {}
     pool = [d for d in data if eligible(d)]
     # urgent first, then cheapest, then best evidenced
-    pool.sort(key=lambda d: (0 if isinstance(d.get("days"), int) and d["days"] <= 30 else
+    pool.sort(key=lambda d: (0 if (preflight.get(slugify(d["name"])) or {}).get("status") == "ready"
+                             else 1,
+                             0 if isinstance(d.get("days"), int) and d["days"] <= 30 else
                              1 if isinstance(d.get("days"), int) else 2,
                              d.get("days") if isinstance(d.get("days"), int) else 9999,
                              d.get("friction") or 0,

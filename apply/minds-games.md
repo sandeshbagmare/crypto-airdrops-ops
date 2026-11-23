@@ -1,4 +1,4 @@
-# Minds Games - apply checklist (#15)
+# Minds Games - apply checklist (#5)
 
 - **Confidence** 90/100 - 5 concrete steps, official site linked, deadline stated, operator/team named, costs disclosed, risks disclosed
 - **Effort** wallet connect + email (friction 13)
@@ -39,4 +39,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #16.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #6.

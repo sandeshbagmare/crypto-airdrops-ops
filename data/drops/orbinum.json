@@ -1,0 +1,64 @@
+{
+ "name": "Orbinum",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://app.orbinum.network/community",
+ "needs": "",
+ "steps": [
+  "Open the Orbinum Hub and verify your wallet, Discord, Telegram and X.",
+  "Claim 5 test ORB a day from the faucet . It checks that you're in the Orbinum Discord.",
+  "In Private Pool, unlock your vault by signing a free off-chain message.",
+  "Shield at least 1 ORB, send a private transfer, unshield, and share a disclosure key, pasting each hash or key into its quest. Each quest can be claimed three times a week, once a day. Warning Each hash or disclosure key can be claimed once, by one member. Keep yours private until you have claimed it.",
+  "Do the weekly social quests and keep your streak going."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Orbinum sets aside 20 million ORB, 2% of supply, for Season 1. How ORB Credits work, which testnet quests pay, and when the final snapshot happens.",
+ "behind": "We couldn't find named investors or team members in Orbinum's docs. The token sale page describes a seed round of 3.5% of supply at $0.014 and a public sale of 11.5% at $0.020, and says neither is open yet. The roadmap lists legal incorporation as work in progress for July to September 2026. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Tel",
+ "costs": "Nothing. The docs say faucet ORB has no economic value, and unlocking the vault needs a signature, not gas.",
+ "risks": "Your share depends on everyone else's credits, so a credit's value isn't known until the snapshot. Mainnet has no fixed date. The planned listing price of $0.025 would value the whole Season 1 pool at $500,000.",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops + airdroplet",
+ "source_url": "https://99airdrops.com/airdrops/orbinum/",
+ "checked": "2026-11-23",
+ "friction": 5,
+ "friction_label": "social tasks",
+ "tags": [
+  "testnet",
+  "points",
+  "quests",
+  "staking",
+  "snapshot"
+ ],
+ "also_listed_by": [
+  "99airdrops",
+  "airdroplet"
+ ],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 356 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 356,
+  "checked": "2026-11-23T07:32:45"
+ },
+ "domain_age_days": 355,
+ "slug": "orbinum",
+ "dossier": "drops/orbinum.md",
+ "published": "2026-11-23"
+}

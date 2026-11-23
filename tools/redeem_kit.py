@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS_DATA = ROOT / "docs" / "data.json"
 PREFLIGHT = ROOT / "data" / "preflight.json"
 BATCH = ROOT / "data" / "preflight-batch.json"
+ENTRY = ROOT / "data" / "entry-points.json"
 INPUTS = ROOT / "agent" / "operator-inputs.json"
 OUT = ROOT / "data" / "redeem.xlsx"
 
@@ -92,6 +93,10 @@ def load():
         opt = json.loads(INPUTS.read_text(encoding="utf-8"))
     except Exception:
         opt = {}
+    try:
+        entry = json.loads(ENTRY.read_text(encoding="utf-8"))
+    except Exception:
+        entry = {}
     for p in pre.values():
         if p.get("status") != "ready":
             continue
@@ -102,7 +107,25 @@ def load():
         if chars is not None and chars < 400:
             p["status"] = "unknown"
             p["blocked_on"] = "unknown"
-    return drops, pre, opt
+    return drops, pre, opt, entry
+
+
+def click_hint(slug, entry):
+    e = entry.get(slug) or {}
+    nxt = e.get("next_click") or ""
+    if not nxt or nxt.startswith("page failed"):
+        return ""
+    if nxt.startswith("no obvious"):
+        return ""
+    hint = f" | press: {nxt[:40]}"
+    for f in (e.get("forms") or []):
+        names = [x.get("name") or x.get("placeholder") or x.get("type") for x in
+                 (f.get("fields") or [])]
+        names = [n for n in names if n][:3]
+        if names:
+            hint += f" | fields: {', '.join(names)}"
+            break
+    return hint
 
 
 def what_to_type(blocked, opt):
@@ -121,7 +144,7 @@ def what_to_type(blocked, opt):
     return HUMAN.get(blocked, "")
 
 
-def rows_for(drops, pre, opt, statuses=(), blockers=()):
+def rows_for(drops, pre, opt, entry=None, statuses=(), blockers=()):
     out = []
     for d in drops:
         slug = slugify(d["name"])
@@ -139,7 +162,8 @@ def rows_for(drops, pre, opt, statuses=(), blockers=()):
                     d.get("end") or "-", p.get("official") or d.get("official") or "",
                     "\n".join(f"{i}. {s}" for i, s in enumerate(d.get("steps") or [], 1))
                     or "no steps extracted - read the site",
-                    what_to_type(blocked, opt), blocked or "none",
+                    what_to_type(blocked, opt) + click_hint(slug, entry or {}),
+                    blocked or "none",
                     p.get("domain_verdict") or "not checked",
                     (p.get("evidence") or ["-"])[0],
                     "todo", "", "", "", ""],
@@ -189,7 +213,7 @@ def main():
     ap.add_argument("--open", action="store_true")
     args = ap.parse_args()
 
-    drops, pre, opt = load()
+    drops, pre, opt, entry = load()
     wb = Workbook()
     wb.remove(wb.active)
 
@@ -227,12 +251,12 @@ def main():
 
     counts = {}
     for title, statuses, blockers, note in GROUPS:
-        rows = rows_for(drops, pre, opt, statuses, blockers)
+        rows = rows_for(drops, pre, opt, entry, statuses, blockers)
         add_sheet(wb, title[:31], rows, note)
         counts[title] = len(rows)
 
     # the whole ledger, for completeness
-    allrows = rows_for(drops, pre, opt)
+    allrows = rows_for(drops, pre, opt, entry)
     add_sheet(wb, "All drops", allrows, "Every tracked drop, whatever its status.")
 
     # blank redemption log

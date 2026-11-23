@@ -1,0 +1,3469 @@
+{
+ "aura-protocol": {
+  "project": "Aura Protocol",
+  "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "GET STARTED ON TESTNET",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Network Configuration | LitVM Docs",
+  "next_click": "GET STARTED ON TESTNET"
+ },
+ "perptools": {
+  "project": "PERPTools",
+  "official": "https://app.perptools.ai",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "PERPTools",
+  "next_click": "no obvious control - read it"
+ },
+ "ecash": {
+  "project": "eCash",
+  "official": "https://ecash.com/how-to-claim",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "textarea",
+      "name": "",
+      "placeholder": "Ask a question…",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "eCash | ECX - Bitcoin fork, with Drivechains",
+  "next_click": "a form field on the page"
+ },
+ "sogni-ai": {
+  "project": "Sogni AI",
+  "official": "https://www.sogni.ai/leaderboard",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "EMAIL",
+      "placeholder": "Enter your email",
+      "required": true
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "checkbox",
+      "name": "Necessary",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Analytics",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Marketing",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Preferences",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Preferences",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Preferences",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "Preferences",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Leaderboard Season 13 | Sogni AI",
+  "next_click": "a form field on the page"
+ },
+ "tbook": {
+  "project": "TBook",
+  "official": "https://engage.tbook.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim SBT",
+    "href": "https://engage.tbook.com/tbook-community/11339542623845270",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Incentive Passport",
+  "next_click": "Claim SBT"
+ },
+ "warden-protocol": {
+  "project": "Warden Protocol",
+  "official": "https://app.wardenprotocol.org",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get Started",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Warden App",
+  "next_click": "Get Started"
+ },
+ "jumper-exchange": {
+  "project": "Jumper Exchange",
+  "official": "https://jumper.xyz/campaign/infinifi-chapter",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Jumper Campaign | The infiniFi Chapter",
+  "next_click": "Earn"
+ },
+ "beep": {
+  "project": "Beep",
+  "official": "https://app.justbeep.it",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "beep | agentic finance protocol for AI payments and yield",
+  "next_click": "no obvious control - read it"
+ },
+ "trojan": {
+  "project": "Trojan",
+  "official": "https://trojan.com/arena",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "START EARNING SOL",
+    "href": "http://trojan.com/account/referrals",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "APPLY FOR SPARTAN",
+    "href": "http://trojan.com/account/referrals",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Trojan Arena | Trading Rewards, Cashback & Referral Program",
+  "next_click": "START EARNING SOL"
+ },
+ "gaia": {
+  "project": "Gaia",
+  "official": "https://www.gaianet.ai/reward",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "START EARNING",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Gaia | Living Knowledge Network, Decentralized AI",
+  "next_click": "START EARNING"
+ },
+ "catalyst": {
+  "project": "Catalyst",
+  "official": "https://catalyst.app",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Catalyst | Intelligence at Your Fingertips",
+  "next_click": "Join waitlist"
+ },
+ "perpl": {
+  "project": "Perpl",
+  "official": "https://perpl.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Perpl | On-Chain Perpetual Futures Exchange",
+  "next_click": "no obvious control - read it"
+ },
+ "magma": {
+  "project": "Magma",
+  "official": "https://blog.magmastaking.xyz/p/magma-points-program-is-live",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Enter your email...",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "/api/v1/free?nojs=true",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Type your email...",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "/api/v1/free?nojs=true",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Type your email...",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "/api/v1/free?nojs=true",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Type your email...",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "textarea",
+      "name": "body",
+      "placeholder": "Write a comment...",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Magma Points Program is Live! - by Dan - Magma",
+  "next_click": "a form field on the page"
+ },
+ "rome-protocol": {
+  "project": "Rome Protocol",
+  "official": "https://civitas.mainnet.romeprotocol.xyz/points",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Paste a wallet address",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Laurels · Rome Civitas",
+  "next_click": "a form field on the page"
+ },
+ "firewall": {
+  "project": "Firewall",
+  "official": "https://usefirewall.com/product",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "Email-2",
+      "placeholder": "Email",
+      "required": false
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Firewall - Product",
+  "next_click": "a form field on the page"
+ },
+ "gte": {
+  "project": "GTE",
+  "official": "https://waitlist.gte.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Verify",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim access",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "you@email.com",
+      "required": true
+     },
+     {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "required": true
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "••••••",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "dialog",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "yourusername",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "username",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "GTE",
+  "next_click": "Verify"
+ },
+ "backtrade": {
+  "project": "Backtrade",
+  "official": "https://backtrade.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Backtrade: the next-generation exchange for crypto perps",
+  "next_click": "no obvious control - read it"
+ },
+ "psy-protocol-qed": {
+  "project": "Psy Protocol (QED)",
+  "official": "https://psy.xyz/psychonaut",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join the Movement",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Verify",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "email",
+      "placeholder": "Please enter your email address",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "code",
+      "placeholder": "Email verification code",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "username",
+      "placeholder": "Please enter your Username",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "inviteCode",
+      "placeholder": "Please enter the invitation code",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Psychonaut Incubation Program",
+  "next_click": "Join the Movement"
+ },
+ "superfluid": {
+  "project": "Superfluid",
+  "official": "https://superfluid.org",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Start earning",
+    "href": "https://claim.superfluid.org",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Superfluid | Money Streaming Protocol - Earn Every Second",
+  "next_click": "Start earning"
+ },
+ "harmonix-finance": {
+  "project": "Harmonix Finance",
+  "official": "https://app.harmonix.fi/points",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Harmonix rewards",
+  "next_click": "no obvious control - read it"
+ },
+ "mint": {
+  "project": "MINT",
+  "official": "https://mint.io/mntd",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "$MNTD",
+  "next_click": "no obvious control - read it"
+ },
+ "sandwatch": {
+  "project": "Sandwatch",
+  "official": "https://sandwatch.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Sign up",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Can I earn money?",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Sandwatch | AI Video Platform for Creators",
+  "next_click": "Sign up"
+ },
+ "0xastra": {
+  "project": "0xAstra",
+  "official": "https://0xastra.xyz",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "0xAstra",
+  "next_click": "no obvious control - read it"
+ },
+ "mezo": {
+  "project": "Mezo",
+  "official": "https://mezo.org/rewards",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "",
+  "next_click": "no obvious control - read it"
+ },
+ "de1": {
+  "project": "De1",
+  "official": "https://de1.ai",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Ginza Waitlist ↗",
+    "href": "https://platform.de1.ai/waitlist?src=home",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Ginza Waitlist↗",
+    "href": "https://platform.de1.ai/waitlist?src=home",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Input your email",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "De¹",
+  "next_click": "Join Ginza Waitlist ↗"
+ },
+ "vibe-trading": {
+  "project": "Vibe Trading",
+  "official": "https://vibe.trading",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Now",
+    "href": "https://ref.vibe.trading/waitlist?ref=vibetrading",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn Points",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Vibe Trading",
+  "next_click": "Join Now"
+ },
+ "canborsa": {
+  "project": "Canborsa",
+  "official": "https://canborsa.com/app",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Enter your email",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Canborsa — Trade Real-World Assets On-Chain",
+  "next_click": "a form field on the page"
+ },
+ "garth": {
+  "project": "Garth",
+  "official": "https://garthonqubic.com",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "userQubicId",
+      "placeholder": "paste your 60-character qubic id...",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Garth - Built On Qubic, Fueled By Fear",
+  "next_click": "a form field on the page"
+ },
+ "black-mirror": {
+  "project": "Black Mirror",
+  "official": "https://www.blackmirrorclub.com",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Black Mirror Reputation Dashboard",
+  "next_click": "no obvious control - read it"
+ },
+ "globe": {
+  "project": "Globe",
+  "official": "https://globemarkets.xyz",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join our Telegram community",
+    "href": "https://t.me/globemkts",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join on Guild",
+    "href": "https://guild.xyz/globe",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join on Telegram",
+    "href": "https://t.me/globemkts",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "you@example.com",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "website",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "you@example.com",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "website",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Globe — the first social trading app built on LayerZero ATLAS",
+  "next_click": "Join our Telegram community"
+ },
+ "minds-games": {
+  "project": "Minds Games",
+  "official": "https://minds.games",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "MINDS.GAMES",
+  "next_click": "no obvious control - read it"
+ },
+ "rabby-wallet": {
+  "project": "Rabby Wallet",
+  "official": "https://rabby.io/points",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Rabby Points - Rabby Wallet",
+  "next_click": "no obvious control - read it"
+ },
+ "coinzilla": {
+  "project": "Coinzilla",
+  "official": "https://play.coinzilla.com",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Coinzilla Arcade - catch the cookies, dodge the bugs",
+  "next_click": "no obvious control - read it"
+ },
+ "geton": {
+  "project": "GetOn",
+  "official": "https://waitlist.geton.xyz",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Get your GetOn passport",
+  "next_click": "a form field on the page"
+ },
+ "cables-finance": {
+  "project": "Cables Finance",
+  "official": "https://www.cables.finance/sign-up",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": []
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Sign Up - Cables",
+  "next_click": "a form field on the page"
+ },
+ "robinhood": {
+  "project": "Robinhood",
+  "official": "https://robinhood.com/signup",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Search for a country or region...",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Create your login | Robinhood",
+  "next_click": "a form field on the page"
+ },
+ "extended": {
+  "project": "Extended",
+  "official": "https://app.extended.exchange",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Extended",
+  "next_click": "no obvious control - read it"
+ },
+ "world-liberty": {
+  "project": "World Liberty",
+  "official": "https://worldlibertyfinancial.com/usd1-points",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How can I earn USD1 Points?",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "World Liberty Financial - USD1 Points Program",
+  "next_click": "How can I earn USD1 Points?"
+ },
+ "loopscale": {
+  "project": "Loopscale",
+  "official": "https://app.loopscale.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Loopscale",
+  "next_click": "Earn"
+ },
+ "375ai": {
+  "project": "375ai",
+  "official": "https://www.375.ai",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "375ai",
+  "next_click": "no obvious control - read it"
+ },
+ "umi-network": {
+  "project": "Umi Network",
+  "official": "https://devnet.uminetwork.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "502 Bad Gateway",
+  "next_click": "no obvious control - read it"
+ },
+ "aiw3": {
+  "project": "AIW3",
+  "official": "https://aiw3.ai/airdrop",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "AIW3",
+  "next_click": "no obvious control - read it"
+ },
+ "proto": {
+  "project": "Proto",
+  "official": "https://www.useproto.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "your@email.com",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "company_url",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Proto",
+  "next_click": "Join waitlist"
+ },
+ "kinetic": {
+  "project": "Kinetic",
+  "official": "https://kinetic.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Kinetic: Trade like a champion",
+  "next_click": "no obvious control - read it"
+ },
+ "offline-protocol": {
+  "project": "Offline Protocol",
+  "official": "https://mine.offlineprotocol.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Mine by Offline Protocol",
+  "next_click": "no obvious control - read it"
+ },
+ "risex": {
+  "project": "RISEx",
+  "official": "https://www.rise.trade",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "RISEx - The unified exchange",
+  "next_click": "no obvious control - read it"
+ },
+ "papertrade": {
+  "project": "Papertrade",
+  "official": "https://papertrade.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Papertrade — Synthetic perpetuals on Hyperliquid",
+  "next_click": "no obvious control - read it"
+ },
+ "uprock": {
+  "project": "UpRock",
+  "official": "https://uprock.com/android",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Get started now",
+    "href": "/register",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join now",
+    "href": "/register",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join a program",
+    "href": "https://discord.gg/uprock",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Install Earning App",
+    "href": "https://app-download.uprock.com/UpRock-Mining-v0.0.7.dmg",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "",
+      "required": true
+     },
+     {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "UpRock | Make AI work for you. Share your internet, earn crypto rewards.",
+  "next_click": "Get started now"
+ },
+ "retium": {
+  "project": "Retium",
+  "official": "https://wallet.retium.org",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Retium Wallet",
+  "next_click": "no obvious control - read it"
+ },
+ "bullpen": {
+  "project": "Bullpen",
+  "official": "https://app.bullpen.fi",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Bullpen",
+  "next_click": "no obvious control - read it"
+ },
+ "aro-network": {
+  "project": "ARO Network",
+  "official": "https://aro.network",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How Do I Earn by Participating in ARO?",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Earn Real Income by Sharing Idle Internet to Power AI | ARO Network",
+  "next_click": "How Do I Earn by Participating in ARO?"
+ },
+ "somo": {
+  "project": "SOMO",
+  "official": "https://somo.xyz/games",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SOMO | Our Games",
+  "next_click": "no obvious control - read it"
+ },
+ "sixpence": {
+  "project": "Sixpence",
+  "official": "https://www.sixpence.xyz/campaign",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Sixpence — Lend, Borrow & Earn on Tokenized RWA",
+  "next_click": "Earn"
+ },
+ "flop": {
+  "project": "FLOP",
+  "official": "https://flop.finance/teaser",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "The FLOP Network — Teaser",
+  "next_click": "no obvious control - read it"
+ },
+ "afx": {
+  "project": "AFX",
+  "official": "https://afx.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Discord",
+    "href": "https://discord.gg/tjPYzWqdhr",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "AFX: Anti-Fragile Exchange | Sovereign L1 for Professional Perps",
+  "next_click": "Join Discord"
+ },
+ "derivio": {
+  "project": "Derivio",
+  "official": "https://derivio.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Derivio",
+  "next_click": "no obvious control - read it"
+ },
+ "interlink-labs": {
+  "project": "InterLink Labs",
+  "official": "https://interlinklabs.ai/download",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Download",
+  "next_click": "no obvious control - read it"
+ },
+ "rubicon": {
+  "project": "Rubicon",
+  "official": "https://app.rubicon.finance/earn",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Decentralized Crypto Exchange | Rubicon DEX",
+  "next_click": "no obvious control - read it"
+ },
+ "yakkamon": {
+  "project": "Yakkamon",
+  "official": "https://yakkamon.com",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "SIGN UP",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "VERIFY",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "PRE-REGISTER FREE",
+    "href": "#register",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "CLAIM",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "SIGN UP TO GET YOUR DEPOSIT ADDRESS",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "button",
+    "label": "APPLY",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "your@email.com",
+      "required": true
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "6-DIGIT EMAIL CODE",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Yakkamon - Official Site | Creature Collector Game on Ronin",
+  "next_click": "SIGN UP"
+ },
+ "worldie": {
+  "project": "Worldie",
+  "official": "https://worldie.world",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "404: NOT_FOUND",
+  "next_click": "no obvious control - read it"
+ },
+ "origami-tech": {
+  "project": "Origami Tech",
+  "official": "https://app.origami.tech/register",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Sign Up",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "example@google.com",
+      "required": false
+     },
+     {
+      "type": "password",
+      "name": "password",
+      "placeholder": "●●●●●●●●",
+      "required": false
+     },
+     {
+      "type": "password",
+      "name": "passwordConfirmation",
+      "placeholder": "●●●●●●●●",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "ref_code",
+      "placeholder": "Code",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Origami Tech — Automated Crypto Trading Across CEX & DEX",
+  "next_click": "Sign Up"
+ },
+ "flint": {
+  "project": "Flint",
+  "official": "https://devnet.app.flint.trade",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Flint | Perps",
+  "next_click": "no obvious control - read it"
+ },
+ "3jane": {
+  "project": "3Jane",
+  "official": "https://app.3jane.xyz/supply",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Supply | 3Jane",
+  "next_click": "no obvious control - read it"
+ },
+ "rax-finance": {
+  "project": "RAX Finance",
+  "official": "https://rax.finance",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Pledge & Mint",
+    "href": "#pledge",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join the waitlist",
+    "href": "https://app.rax.finance/waitlist",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Waitlist",
+    "href": "https://app.rax.finance/waitlist",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "RAX Finance",
+  "next_click": "Pledge & Mint"
+ },
+ "snowball-money": {
+  "project": "Snowball Money",
+  "official": "https://www.modular.name/rewards",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "MNS",
+  "next_click": "no obvious control - read it"
+ },
+ "voltrade": {
+  "project": "Voltrade",
+  "official": "https://voltrade.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Proof of Trader: Your Trading Is Worth More | Voltrade",
+  "next_click": "no obvious control - read it"
+ },
+ "cambrian-network": {
+  "project": "Cambrian Network",
+  "official": "https://www.cambrian.org",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join Testnet Waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Add Your E-Mail",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Cambrian Network | Financial intelligence for evolving markets",
+  "next_click": "Join Testnet Waitlist"
+ },
+ "nexchain": {
+  "project": "Nexchain",
+  "official": "https://nexchain.ai",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Presale",
+    "href": "https://nexchain.live",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Nexchain AI Layer 1 Blockchain: Top Crypto Presale",
+  "next_click": "Join Presale"
+ },
+ "cyberkongz": {
+  "project": "CyberKongz",
+  "official": "https://www.cyberkongz.com/kong",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "GET ACCESS",
+    "href": "https://cyberkongz.com/collections",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "$KONG",
+  "next_click": "GET ACCESS"
+ },
+ "chaos-labs": {
+  "project": "Chaos Labs",
+  "official": "https://chaoslabs.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "GET STARTED",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Chaos Labs",
+  "next_click": "GET STARTED"
+ },
+ "janus-protocol": {
+  "project": "Janus Protocol",
+  "official": "https://www.janusdefi.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "JOIN WAITLIST",
+    "href": "#join",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join early access",
+    "href": "#join",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Waitlist Temporarily Paused",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "a",
+    "label": "Zealy quests Earn badges by testing",
+    "href": "https://zealy.io/cw/janustestnet",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "lead.php",
+    "method": "post",
+    "fields": [
+     {
+      "type": "text",
+      "name": "website",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "Jane",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "jane@company.com",
+      "required": true
+     },
+     {
+      "type": "select-one",
+      "name": "role",
+      "placeholder": "",
+      "required": true
+     },
+     {
+      "type": "checkbox",
+      "name": "interest[]",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "interest[]",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "interest[]",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "interest[]",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "handle",
+      "placeholder": "@yourhandle",
+      "required": false
+     },
+     {
+      "type": "textarea",
+      "name": "note",
+      "placeholder": "e.g., LP strategies, integrations, audits, research...",
+      "required": false
+     },
+     {
+      "type": "number",
+      "name": "captcha",
+      "placeholder": "Enter the sum",
+      "required": true
+     },
+     {
+      "type": "checkbox",
+      "name": "consent",
+      "placeholder": "",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Janus — The First Proof-of-Belief Reserve Asset",
+  "next_click": "JOIN WAITLIST"
+ },
+ "sirius-protocol": {
+  "project": "Sirius Protocol",
+  "official": "https://app.siriusprotocol.xyz/invite",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "post",
+    "fields": [
+     {
+      "type": "text",
+      "name": "code",
+      "placeholder": "SIRIUS-XXXX-XXXX",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Join · Sirius",
+  "next_click": "a form field on the page"
+ },
+ "superboring": {
+  "project": "SuperBoring",
+  "official": "https://app.superboring.xyz/en",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SuperBoring",
+  "next_click": "no obvious control - read it"
+ },
+ "savior-of-health": {
+  "project": "Savior of Health",
+  "official": "https://saviorofhealth.app/earn",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "saviorofhealth · Survey-to-Earn Health Panel",
+  "next_click": "no obvious control - read it"
+ },
+ "kalos": {
+  "project": "Kalos",
+  "official": "https://elysium.kinetiq.xyz/testnet-faucet",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Verify contract",
+    "href": "https://testnet.elysium.kinetiq.xyz/verify-contract",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Verify signature",
+    "href": "https://testnet.elysium.kinetiq.xyz/tools/verify-signature",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Elysium testnet faucet | Elysium",
+  "next_click": "Verify contract"
+ },
+ "dgrid-ai": {
+  "project": "DGrid AI",
+  "official": "https://blog.dgrid.ai/posts/2026-08-17",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim Options",
+    "href": "#claim-options",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "$DGAI Airdrop Claim Is Now Live | DGrid AI Blog",
+  "next_click": "Claim Options"
+ },
+ "datahive": {
+  "project": "DataHive",
+  "official": "https://datahive.ai/earn",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Start Earning",
+    "href": "/earn",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Start earning now",
+    "href": "https://chromewebstore.google.com/detail/datahive/bonfdkhbkkdoipfojcnimjagphdnfedb",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Start earning | DataHive AI",
+  "next_click": "Start Earning"
+ },
+ "heyaura": {
+  "project": "heyAura",
+  "official": "https://hub.heyaura.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "heyAura",
+  "next_click": "no obvious control - read it"
+ },
+ "ryfinite": {
+  "project": "Ryfinite",
+  "official": "https://ryfinite.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Why should I join Ryfinite early?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Ryfinite →",
+    "href": "/login",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Ryfinite",
+    "href": "/login",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Ryfinite | Your key to the next era of DeFi",
+  "next_click": "Why should I join Ryfinite early?"
+ },
+ "boop": {
+  "project": "Boop",
+  "official": "https://docs.boop.fun/temple-of-moon",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "claiming ur fee rewards",
+    "href": "/claiming-ur-fee-rewards",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Next claiming ur fee rewards",
+    "href": "/claiming-ur-fee-rewards",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "temple of moon | boop",
+  "next_click": "claiming ur fee rewards"
+ },
+ "stormrae": {
+  "project": "Stormrae",
+  "official": "https://stormrae.ai",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Stormrae - The Participation Layer for AI Development",
+  "next_click": "no obvious control - read it"
+ },
+ "dropee": {
+  "project": "Dropee",
+  "official": "https://waitlist.dropee.xyz",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Dropee Create — AI-built Telegram games, deployed in minutes",
+  "next_click": "no obvious control - read it"
+ },
+ "acki-nacki": {
+  "project": "Acki Nacki",
+  "official": "https://ackinacki.com/wallet",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Acki Nacki Wallet: Non-Custodial App for iOS and Android",
+  "next_click": "no obvious control - read it"
+ },
+ "x365-ai": {
+  "project": "x365 AI",
+  "official": "https://x365.ai/airdrop",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "5 Claim Airdrop",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "X365.AI | The Future of AI-Powered Intelligent Finance Crypto Airdrop 2025 - X365",
+  "next_click": "5 Claim Airdrop"
+ },
+ "raycash": {
+  "project": "Raycash",
+  "official": "https://www.raycash.xyz/user",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "EARN",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Enter email address",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Your account | Raycash",
+  "next_click": "EARN"
+ },
+ "nakamoto-games": {
+  "project": "Nakamoto Games",
+  "official": "https://nakamoto.games/register",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Sign up with Email",
+    "href": "/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Nakamoto Games - Play and Earn in Web3 Gaming",
+  "next_click": "Sign up with Email"
+ },
+ "soul-labs": {
+  "project": "Soul Labs",
+  "official": "https://app.soul.io",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Soul - Cross-Chain Lending Protocol",
+  "next_click": "no obvious control - read it"
+ },
+ "loaf-markets": {
+  "project": "Loaf Markets",
+  "official": "https://beta.loafmarkets.com/league",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "JOIN COMPETITION",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "League of Loaf | Competition | Loaf Markets",
+  "next_click": "JOIN COMPETITION"
+ },
+ "ethos-network": {
+  "project": "Ethos Network",
+  "official": "https://app.ethos.network",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Search",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Search any handle, e.g. @zachxbt…",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Ethos",
+  "next_click": "a form field on the page"
+ },
+ "caster": {
+  "project": "Caster",
+  "official": "https://caster.trade",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "JOIN WAITLIST",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Caster -- The Truth Layer",
+  "next_click": "JOIN WAITLIST"
+ },
+ "bulk": {
+  "project": "BULK",
+  "official": "https://app.bulk.trade",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "BULK Exchange",
+  "next_click": "no obvious control - read it"
+ },
+ "golfn": {
+  "project": "GolfN",
+  "official": "https://www.golfn.com/golf-rewards-program",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Register",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "javascript:throw new Error('React form unexpectedly submitted.')",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Enter your email address",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Golf Rewards Program That Pays You to Play | GolfN",
+  "next_click": "Register"
+ },
+ "bombie": {
+  "project": "Bombie",
+  "official": "https://bombie.xyz",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Bombie",
+  "next_click": "no obvious control - read it"
+ },
+ "fomo": {
+  "project": "fomo",
+  "official": "https://fomo.family/r/cryptofree",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "fomo | Social Crypto Trading App & Web Platform",
+  "next_click": "no obvious control - read it"
+ },
+ "metis": {
+  "project": "Metis",
+  "official": "https://www.metis.io",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "kiedex": {
+  "project": "KieDex",
+  "official": "https://www.kiedex.app/signup",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Choose a username",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "you@gmail.com",
+      "required": true
+     },
+     {
+      "type": "password",
+      "name": "",
+      "placeholder": "Minimum 8 characters",
+      "required": true
+     },
+     {
+      "type": "password",
+      "name": "",
+      "placeholder": "Re-enter your password",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "KieDex | Crypto Futures Platform",
+  "next_click": "a form field on the page"
+ },
+ "strato": {
+  "project": "STRATO",
+  "official": "https://strato.nexus/blog/tokenized-gold",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "GET STARTED",
+    "href": "/get-started",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Telegram",
+    "href": "https://t.me/strato_net",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Discord",
+    "href": "https://discord.com/invite/Nwv83vw4up",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Enter your email",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "What Is Tokenized Gold? How Digital Gold Works and How to Own It | STRATO",
+  "next_click": "GET STARTED"
+ },
+ "haust-network": {
+  "project": "Haust Network",
+  "official": "https://haust.network",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Haust Network is L2 Network with native yield",
+  "next_click": "no obvious control - read it"
+ },
+ "leap": {
+  "project": "Leap",
+  "official": "https://www.leap.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Leap | A Solana Labs Company",
+  "next_click": "no obvious control - read it"
+ },
+ "reaper-actual": {
+  "project": "Reaper Actual",
+  "official": "https://reaperactual.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Reaper Actual - A Distinct Possibility Studios Project",
+  "next_click": "Waitlist"
+ },
+ "saturn": {
+  "project": "Saturn",
+  "official": "https://app.saturn.credit",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Mint",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Deposit USDat and sUSDat | Saturn",
+  "next_click": "Mint"
+ },
+ "unichain": {
+  "project": "Unichain",
+  "official": "https://docs.unichain.org",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get Started",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Get started with wallets, funds, and nodes",
+    "href": "/docs/unichain/getting-started/setting-up-a-wallet",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Unichain Overview | Uniswap Developers",
+  "next_click": "Get Started"
+ },
+ "technotainment": {
+  "project": "Technotainment",
+  "official": "https://hub.technotainment.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Technotainment",
+  "next_click": "no obvious control - read it"
+ },
+ "up": {
+  "project": "UP",
+  "official": "https://up33.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "up.",
+  "next_click": "no obvious control - read it"
+ },
+ "fluence": {
+  "project": "Fluence",
+  "official": "https://flt.fluence.ai",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "GET STARTED",
+    "href": "https://console.fluence.ai/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Fluence Token App",
+  "next_click": "GET STARTED"
+ },
+ "midas-markets": {
+  "project": "Midas Markets",
+  "official": "https://app.midasmarkets.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "The Midas Touch | AI-synthesized Global Markets",
+  "next_click": "no obvious control - read it"
+ },
+ "captain-tsubasa": {
+  "project": "Captain Tsubasa",
+  "official": "https://ton.tsubasa-rivals.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "CAPTAIN TSUBASA -RIVALS- On TON",
+  "next_click": "no obvious control - read it"
+ },
+ "soei": {
+  "project": "SOEI",
+  "official": "https://proof.soei.io",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SOEI Proof · Post like a human",
+  "next_click": "no obvious control - read it"
+ },
+ "fraction-ai": {
+  "project": "Fraction AI",
+  "official": "https://fractionai.xyz/dapp/index",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Index by Fraction AI: Trade perps, stocks and tokens",
+  "next_click": "no obvious control - read it"
+ },
+ "elysium": {
+  "project": "Elysium",
+  "official": "https://elysium.kinetiq.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get started",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "How do builders claim the 25%?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Verify contract",
+    "href": "https://elysium.kinetiq.xyz/verify-contract",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Verify signature",
+    "href": "https://elysium.kinetiq.xyz/tools/verify-signature",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Elysium",
+  "next_click": "Get started"
+ },
+ "nudge": {
+  "project": "Nudge",
+  "official": "https://nudge.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "3 Get Instant Rewards. Claim After 1 Week.",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "Enter your name",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Enter your email address",
+      "required": true
+     },
+     {
+      "type": "textarea",
+      "name": "message",
+      "placeholder": "Write message",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Nudge - the Reallocation Network",
+  "next_click": "3 Get Instant Rewards. Claim After 1 Week."
+ },
+ "liquity": {
+  "project": "Liquity",
+  "official": "https://www.liquity.org/forks",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "BOLD friendly forks Earn",
+    "href": "https://app.lagoon.finance/vault/1/0x68c2243619760abe0982378197c8fef2f651bd31",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Protocol Disclaimer",
+    "href": "/protocol-disclaimer",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "https://liquity.us10.list-manage.com/subscribe/post?u=eb39d7947fd17986bf719c6a7&amp;id=db4b2885af",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "EMAIL",
+      "placeholder": "Email",
+      "required": true
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Forks | Liquity V2",
+  "next_click": "Earn"
+ },
+ "ping-network": {
+  "project": "Ping Network",
+  "official": "https://pingnetwork.io/download",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Submit",
+    "href": "#submit",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Discord Join our Discord community",
+    "href": "https://discord.com/invite/pingnetwork",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "#",
+    "method": "post",
+    "fields": [
+     {
+      "type": "text",
+      "name": "form-spec-comments",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "#",
+    "method": "post",
+    "fields": [
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "Your Name",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "companyname",
+      "placeholder": "Company Name",
+      "required": false
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Your Email",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "form-spec-comments",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Download Ping App",
+  "next_click": "Submit"
+ },
+ "noah-ai": {
+  "project": "Noah AI",
+  "official": "https://trynoah.ai",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "w-ai": {
+  "project": "W.AI",
+  "official": "https://www.w.ai",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "ENTER EMAIL",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "W.AI - Global AI Supercomputer",
+  "next_click": "a form field on the page"
+ },
+ "x1-ecochain": {
+  "project": "X1 EcoChain",
+  "official": "https://testnet.x1ecochain.com",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Claim X1T",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "X1 EcoChain",
+  "next_click": "Claim X1T"
+ },
+ "trueo": {
+  "project": "Trueo",
+  "official": "https://trueo.com",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Trueo",
+  "next_click": "no obvious control - read it"
+ },
+ "tastyco": {
+  "project": "TastyCo",
+  "official": "https://app.tastyco.io/en/quests",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Quests | TastyCo",
+  "next_click": "no obvious control - read it"
+ },
+ "pursuit": {
+  "project": "Pursuit",
+  "official": "https://beta.pursuit.games",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join the waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "website",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "you@example.com",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Pursuit — Beta",
+  "next_click": "Join the waitlist"
+ },
+ "xyper": {
+  "project": "Xyper",
+  "official": "https://xyper.market/points",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Start earning ↗",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "company_website",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "you@example.com",
+      "required": true
+     },
+     {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Xyper Points — Your Journey to XYPER | Xyper Market",
+  "next_click": "Start earning ↗"
+ },
+ "nansen-ai": {
+  "project": "Nansen AI",
+  "official": "https://app.nansen.ai/auth/signup",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "verasity": {
+  "project": "Verasity",
+  "official": "https://plrl.verasity.io",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Telegram",
+    "href": "http://t.me/PLRLOfficial",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "PLRL - The internet equity layer",
+  "next_click": "Join Telegram"
+ },
+ "joincare": {
+  "project": "JoinCare",
+  "official": "https://joincarelabs.com/tasks",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Sign + Claim",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "button",
+    "label": "Join first",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "a",
+    "label": "https://t.me/joincare_task_bot",
+    "href": "https://t.me/joincare_task_bot",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "https://t.me/JoinCareOfficial",
+    "href": "https://t.me/JoinCareOfficial",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "https://x.com/TheJoinCare",
+    "href": "https://x.com/TheJoinCare",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Submit Project",
+    "href": "/launchpad/apply",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "JoinCare - Own the Future of Medicine",
+  "next_click": "Sign + Claim"
+ },
+ "nebulai": {
+  "project": "Nebulai",
+  "official": "https://nebulai.network",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "sovra": {
+  "project": "Sovra",
+  "official": "https://sovra.money",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Sovra — Just you and your money",
+  "next_click": "no obvious control - read it"
+ },
+ "velvet-capital": {
+  "project": "Velvet.Capital",
+  "official": "https://x.velvet.capital",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Explore tokens | Velvet X",
+  "next_click": "no obvious control - read it"
+ },
+ "karrier-one": {
+  "project": "Karrier One",
+  "official": "https://www.karrier.one/mobile",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Karrier One — Connectivity Without Borders",
+  "next_click": "no obvious control - read it"
+ },
+ "brownian": {
+  "project": "Brownian",
+  "official": "https://brownian.xyz/trade/PERP_ETH_USDC",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "ETH/USDC Perpetual | Brownian",
+  "next_click": "no obvious control - read it"
+ },
+ "acepyr": {
+  "project": "Acepyr",
+  "official": "https://www.acepyr.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Acepyr: Trade Cognition",
+  "next_click": "no obvious control - read it"
+ },
+ "aztec": {
+  "project": "Aztec",
+  "official": "https://docs.aztec.network",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Participate",
+    "href": "/participate",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Enter email",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Build unstoppable private apps | Aztec Documentation",
+  "next_click": "Participate"
+ },
+ "zeni": {
+  "project": "ZENi",
+  "official": "https://agent.1zeni.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "ZENi AI",
+  "next_click": "no obvious control - read it"
+ },
+ "konnex": {
+  "project": "Konnex",
+  "official": "https://hub.konnex.world",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Konnex",
+  "next_click": "no obvious control - read it"
+ },
+ "titan-exchange": {
+  "project": "Titan Exchange",
+  "official": "https://waitlist.titanx.cc",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "miracle": {
+  "project": "Miracle",
+  "official": "https://www.miracletrade.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Miracle - Trading Reimagined",
+  "next_click": "no obvious control - read it"
+ },
+ "phyt-fun": {
+  "project": "Phyt.fun",
+  "official": "https://phyt.fun",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "PHYT | SOON",
+  "next_click": "no obvious control - read it"
+ },
+ "lighter-robinhood": {
+  "project": "Lighter Robinhood",
+  "official": "https://docs.lighter.xyz/programs/lighter-on-robinhood-chain-points",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Lighter on Robinhood Chain Points | Programs | Lighter Docs",
+  "next_click": "no obvious control - read it"
+ },
+ "alphea": {
+  "project": "ALPHEA",
+  "official": "https://alphea.ai/alphea-connect-app",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "ALPHEA Connect",
+  "next_click": "no obvious control - read it"
+ },
+ "zyfai": {
+  "project": "Zyfai",
+  "official": "https://www.zyf.ai/dashboard",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Zyfai | Get the Best Risk Adjusted Yield",
+  "next_click": "no obvious control - read it"
+ },
+ "heatrush": {
+  "project": "HeatRush",
+  "official": "https://heatrush.xyz/dashboard",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Claim Rewards",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Airdrop Claim",
+    "href": "/airdrop",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Presale →",
+    "href": "/presale",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "heatrush-staking",
+  "next_click": "Claim Rewards"
+ },
+ "onepump": {
+  "project": "OnePump",
+  "official": "https://www.oneswap.cc/waitlist",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "OnePump: Canton Memecoin Launchpad by OneSwap",
+  "next_click": "no obvious control - read it"
+ },
+ "myriad-markets": {
+  "project": "Myriad Markets",
+  "official": "https://myriad.markets/earn",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Sign up for free",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Your email",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Myriad | DASTAN",
+  "next_click": "Sign up for free"
+ },
+ "rootstock-collective": {
+  "project": "Rootstock Collective",
+  "official": "https://rootstockcollective.xyz",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join the campaign",
+    "href": "https://rskquesthub.xyz/en/campaigns/cmqg85a1o002spdz1ma7lij63",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join us today",
+    "href": "https://app.rootstockcollective.xyz/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "RootstockCollective - Stake RIF, Back Bitcoin Builders, Earn BTC Rewards",
+  "next_click": "Join the campaign"
+ },
+ "forte": {
+  "project": "Forte",
+  "official": "https://app.fairground.fi",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Apply to trade",
+    "href": "/apply",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "",
+  "next_click": "Apply to trade"
+ },
+ "gtr": {
+  "project": "GTR",
+  "official": "https://gtr.trade",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How do I get started with GTR?",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "GTR – Your Edge in Real-Time Trading",
+  "next_click": "How do I get started with GTR?"
+ },
+ "cycles": {
+  "project": "Cycles",
+  "official": "https://apps.apple.com/us/app/cycles-pay/id6761496918",
+  "at": "2026-11-23 14:56",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "View Superform Earn up to 8.5% APY on cash",
+    "href": "https://apps.apple.com/us/app/superform/id6744245210",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "search",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "‎Cycles Pay App - App Store",
+  "next_click": "View Superform Earn up to 8.5% APY on cash"
+ },
+ "moviton": {
+  "project": "MovitOn",
+  "official": "https://hub.moviton.com",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Moviton",
+  "next_click": "no obvious control - read it"
+ },
+ "inverted-lambda": {
+  "project": "Inverted Lambda",
+  "official": "https://inverted-lambda.com/platform/beta",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Inverted Lambda",
+  "next_click": "no obvious control - read it"
+ },
+ "fx100": {
+  "project": "FX100",
+  "official": "https://testnet.fx100.club",
+  "at": "2026-11-23 14:56",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Just a moment...",
+  "next_click": "no obvious control - read it"
+ },
+ "otomato": {
+  "project": "Otomato",
+  "official": "https://otomato.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Otomato | Onchain Alerts for Liquidation Risk & Yield Changes",
+  "next_click": "no obvious control - read it"
+ },
+ "bless-network": {
+  "project": "Bless Network",
+  "official": "https://bless.network",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Bless",
+  "next_click": "no obvious control - read it"
+ },
+ "memebitcoin": {
+  "project": "MemeBitcoin",
+  "official": "https://www.memebitcoin.org",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "MemeBitcoin - MBTC Registration",
+  "next_click": "no obvious control - read it"
+ },
+ "raiku": {
+  "project": "Raiku",
+  "official": "https://raiku.com",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Co-location, rebuilt for Solana",
+  "next_click": "no obvious control - read it"
+ },
+ "camp-network": {
+  "project": "Camp Network",
+  "official": "https://www.campnetwork.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Camp Network",
+  "next_click": "no obvious control - read it"
+ },
+ "morfi-markets": {
+  "project": "Morfi Markets",
+  "official": "https://morfi.markets",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Morfi | Opinion markets for every debate",
+  "next_click": "no obvious control - read it"
+ },
+ "miden": {
+  "project": "Miden",
+  "official": "https://www.miden.xyz/bread",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "@joinbread",
+    "href": "https://x.com/joinbread",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "Jake",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "jake@gmail.com",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "Telegram",
+      "placeholder": "@jakeTelegram",
+      "required": false
+     },
+     {
+      "type": "textarea",
+      "name": "g-recaptcha-response",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Bread Wallet by Miden | Private, Self-Custodial Wallet",
+  "next_click": "@joinbread"
+ },
+ "curvance": {
+  "project": "Curvance",
+  "official": "https://app.curvance.com/bytes",
+  "at": "2026-11-23 14:57",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Bytes | Curvance",
+  "next_click": "no obvious control - read it"
+ },
+ "breath-of-estova": {
+  "project": "Breath of Estova",
+  "official": "https://breathofestova.com/pre-register",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "PRE-REGISTER",
+    "href": "pre-register",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "you@example.com",
+      "required": true
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "code",
+      "placeholder": "000000",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Pre-register, Breath of Estova",
+  "next_click": "PRE-REGISTER"
+ },
+ "cysic": {
+  "project": "Cysic",
+  "official": "https://cysic.xyz",
+  "at": "2026-11-23 14:57",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "CLAIM CYS",
+    "href": "https://cysicfoundation.org/userPortal",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "GET STARTED",
+    "href": "https://app.cysic.xyz",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Cysic",
+  "next_click": "CLAIM CYS"
+ },
+ "evaa-protocol": {
+  "project": "EVAA Protocol",
+  "official": "https://app.evaa.finance",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "EVAA",
+  "next_click": "no obvious control - read it"
+ },
+ "lighter": {
+  "project": "Lighter",
+  "official": "https://docs.lighter.xyz/points-program/lighter-on-robinhood-chain-points",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Lighter on Robinhood Chain Points | Programs | Lighter Docs",
+  "next_click": "no obvious control - read it"
+ },
+ "optimai-network": {
+  "project": "OptimAI Network",
+  "official": "https://node.optimai.network",
+  "at": "2026-11-23 14:58",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "OptimAI Node Dashboard",
+  "next_click": "no obvious control - read it"
+ },
+ "reddio": {
+  "project": "Reddio",
+  "official": "https://www.reddio.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get started",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Reddio | Parallel EVM Blockchain Powered by GPUs | Reddio: The Most Performant Parallel EVM Layer 2",
+  "next_click": "Get started"
+ },
+ "canton-network": {
+  "project": "Canton Network",
+  "official": "https://www.canton.network/blog/canton-coin-rewarding-utility",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join the Global Synchronizer Foundation",
+    "href": "https://sync.global/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Canton Coin: Rewarding Utility",
+  "next_click": "Join the Global Synchronizer Foundation"
+ },
+ "antseed": {
+  "project": "Antseed",
+  "official": "https://antseed.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join a ColonyMany computers. One provider.",
+    "href": "/colony/",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Verify a TEE →",
+    "href": "/docs/verify-tee/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Antseed | The open intelligence network",
+  "next_click": "Join a ColonyMany computers. One provider."
+ },
+ "c8ntinuum": {
+  "project": "c8ntinuum",
+  "official": "https://app.c8ntinuum.com",
+  "at": "2026-11-23 14:58",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "c8ntinuum · Ultimate interoperability",
+  "next_click": "Earn"
+ },
+ "fifa-collect": {
+  "project": "FIFA Collect",
+  "official": "https://collect.fifa.com/signup",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Now",
+    "href": "https://auth.fifa.com/as/authorize?client_id=451e7140-6a78-4862-92e3-375cf3ff2be8&redirect_uri=https%3A%2F%2Fcollect.fifa.com%2Flogin%2F&response_type=code&campaign=Fifa_Collect-Web&scope=openid+profile+email&max_age=3600&state=831c3o&nonce=j4z2vu&flow=register",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "SIGN UP WITH FIFA ID",
+    "href": "https://auth.fifa.com/as/authorize?client_id=451e7140-6a78-4862-92e3-375cf3ff2be8&redirect_uri=https%3A%2F%2Fcollect.fifa.com%2Flogin%2F&response_type=code&campaign=Fifa_Collect-Web&scope=openid+profile+email&max_age=3600&state=wqu1x4&nonce=ybf4qp&flow=register",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Sign Up",
+  "next_click": "Join Now"
+ },
+ "linera": {
+  "project": "Linera",
+  "official": "https://linera.io",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "An update on Linera",
+  "next_click": "no obvious control - read it"
+ },
+ "baibai": {
+  "project": "BaiBai",
+  "official": "https://app.baibai.cx",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "BaiBai - Buy. Sell. Best price.",
+  "next_click": "no obvious control - read it"
+ },
+ "onefootball-club": {
+  "project": "OneFootball Club",
+  "official": "https://onefootball.com/payments/sign-in",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join",
+    "href": "/en/payments/sign-up?redirect=%2Fpayments%2Fprofile%2Faccount",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "password",
+      "name": "password",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "I'm new here | OneFootball",
+  "next_click": "Join"
+ },
+ "fight-id": {
+  "project": "Fight.ID",
+  "official": "https://app.fight.id",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "FIGHT.iD - Claim Your UFC Strike Fan Rewards",
+  "next_click": "no obvious control - read it"
+ },
+ "the-pit": {
+  "project": "The Pit",
+  "official": "https://www.thepitapp.xyz",
+  "at": "2026-11-23 14:59",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "The Pit — The app where trades go viral",
+  "next_click": "no obvious control - read it"
+ },
+ "pulsar-money": {
+  "project": "Pulsar Money",
+  "official": "https://pulsar.money",
+  "at": "2026-11-23 14:59",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get Started Now Get Started Now →",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn Terms (English)",
+    "href": "/earn-terms",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Disclaimers (English)",
+    "href": "/disclaimers",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Enter your email",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Pulsar Money",
+  "next_click": "Get Started Now Get Started Now →"
+ }
+}

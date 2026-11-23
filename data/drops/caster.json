@@ -1,0 +1,56 @@
+{
+ "name": "Caster",
+ "confidence": 60,
+ "status": "Potential",
+ "official": "https://caster.trade",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the Caster site Go to caster.trade and read the homepage description of the prediction-native chain and its orderbook.",
+  "2 Step 2 : Join the waitlist Press the Join Waitlist button on the homepage to ask for early access. As of 2 November 2026 it is the only sign-up the site offers.",
+  "3 Step 3 : Read how markets are priced Read the homepage sections on the Caster Liquidity Pool and the fee structure, which say takers pay fees and makers earn rebates.",
+  "4 Step 4 : Return for trading access Check caster.trade again to see whether trading has opened, since the homepage gives no launch date."
+ ],
+ "end": "2027-11-02",
+ "days": 344,
+ "pool": "",
+ "what": "There is no Caster airdrop to take part in as of 2 November 2026, and the project's site announces none. What stands out is an early-access waitlist that invites visitors to be among the first to trade on Caster, a prediction-market chain. Using Caster today means visiting its site and joining that ",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/caster",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "waitlist",
+  "trading",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 234 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 234,
+  "checked": "2026-11-23T07:30:46"
+ },
+ "domain_age_days": 233,
+ "slug": "caster",
+ "dossier": "drops/caster.md",
+ "published": "2026-11-23"
+}

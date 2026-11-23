@@ -1,0 +1,56 @@
+{
+ "name": "Doppler Finance",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.doppler.finance/airdrop",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the official claim portal Go to the XDP claim portal .",
+  "2 Step 2 : Connect the Base wallet you registered Only the Base address entered during registration can claim its allocation, so connect that wallet.",
+  "3 Step 3 : Review your XDP allocation Once the registered wallet is connected, the portal shows how much XDP is allocated to it.",
+  "4 Step 4 : Approve the claim in your wallet Approve the transaction in your wallet to receive the XDP. Claims close on 28 November 2026 at 12:00 UTC.",
+  "5 Step 5 : Optionally stake XDP for Season 3 points Staked XDP earns Doppler Points at a 20× boost during Season 3. Staking is done on the XDP Staking Portal , and the documentation covers eligibility."
+ ],
+ "end": "2026-11-28",
+ "days": 5,
+ "pool": "",
+ "what": "The Doppler Finance XDP Genesis Airdrop pays XDP to wallets registered for it, and its claim period is open as of 1 November 2026, running until 28 November 2026 at 12:00 UTC. Taking part now means connecting the same Base wallet used at registration on the claim portal, reviewing the allocation sho",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/doppler-finance",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-01-05 (687 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 687,
+  "checked": "2026-11-23T07:28:00"
+ },
+ "domain_age_days": 686,
+ "slug": "doppler-finance",
+ "dossier": "drops/doppler-finance.md",
+ "published": "2026-11-23"
+}

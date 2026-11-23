@@ -1,0 +1,57 @@
+{
+ "name": "MovitOn",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://hub.moviton.com",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the MovitOn Loyalty Program Go to the MovitOn rewards site , where the program runs under the line &quot;Complete Tasks &gt; Earn Move Points &gt; Get Airdrop Eligibility&quot;.",
+  "2 Step 2 : Connect a wallet Link your wallet through the rewards site. Your points history and rewards are shown only after a wallet is connected and you sign in.",
+  "3 Step 3 : Complete tasks to earn Move Points The program runs on the sequence &quot;Complete Tasks &gt; Earn Move Points &gt; Get Airdrop Eligibility&quot;. As of 28 October 2026 the rewards site does not list specific tasks.",
+  "4 Step 4 : Check your points history Come back to the rewards site to review the points and rewards credited to your wallet.",
+  "5 Step 5 : Follow MovitOn for TGE and claim news MovitOn has given no snapshot or claim timing so far. Watch its Telegram channel and X account for announcements."
+ ],
+ "end": "2027-10-28",
+ "days": 339,
+ "pool": "",
+ "what": "The MovitOn airdrop is a points campaign called the MovitOn Loyalty Program, and joining is open as of 28 October 2026. Participants link a wallet, finish tasks and build up Move Points, which the site ties to airdrop eligibility. The MVON token generation event is listed as upcoming in Q4 2026, and",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/moviton",
+ "checked": "2026-11-23",
+ "friction": 15,
+ "friction_label": "wallet connect + social tasks",
+ "tags": [
+  "points",
+  "quests",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2018-11-17 (2928 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 2928,
+  "checked": "2026-11-23T07:29:41"
+ },
+ "domain_age_days": 2927,
+ "slug": "moviton",
+ "dossier": "drops/moviton.md",
+ "published": "2026-11-23"
+}

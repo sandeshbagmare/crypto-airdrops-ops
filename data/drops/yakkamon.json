@@ -1,0 +1,50 @@
+{
+ "name": "Yakkamon",
+ "confidence": 90,
+ "status": "Medium potential | recently updated",
+ "official": "https://yakkamon.com",
+ "needs": "",
+ "steps": [
+  "Pre-register with an email address at yakkamon.com . No wallet or Sunflower Land account is needed.",
+  "Tap your egg daily to build a streak.",
+  "Link Discord and X to your trainer profile and do the weekly quests.",
+  "Connect a wallet before the leaderboard is finalised on 27 November (UTC), since the NFT airdrop needs one. Rankings are hidden from 00:00 UTC on 26 November, so check the important dates page for any change."
+ ],
+ "end": "2026-12-02",
+ "days": 9,
+ "pool": "",
+ "what": "Yakkamon, from the Sunflower Land studio, airdrops Monster NFTs to its top 5,000 Season 0 players on 2 December. The leaderboard is final on 27 November.",
+ "behind": "Thought Farm Pty Ltd, an Australian company, makes Yakkamon. It also runs Sunflower Land, which it says has had over a million players in five years and won the People's Choice award at the Game3 Awards. We found no disclosed outside funding. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Telegram Follow on X",
+ "costs": "Pre-registration and the tasks are free, and $FLOWER deposits are optional. The docs say deposits can be spent in the game or withdrawn tax-free from Chapter 0, which starts once early access is complete, with possible withdrawal caps in the first weeks.",
+ "risks": "Nobody knows yet what the monsters will be worth, and deposited $FLOWER keeps its price risk until you can withdraw it. Thought Farm's terms require you to be 18 or older and bar people in sanctioned countries. Bot and multi-account referrals are removed at the final review, and serious abuse can disqualify an account.",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops+airdropstop",
+ "source_url": "https://99airdrops.com/airdrops/yakkamon/",
+ "checked": "2026-11-23",
+ "slug": "yakkamon",
+ "dossier": "drops/yakkamon.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 160 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 160,
+  "checked": "2026-11-23T01:29:22"
+ }
+}

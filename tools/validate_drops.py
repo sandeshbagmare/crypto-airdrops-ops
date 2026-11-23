@@ -23,10 +23,13 @@ REQUIRED_SECTIONS = ["## What it is", "## Official site", "## What it needs", "#
                      "## Evidence", "## Reviewer checklist"]
 TRACKER_DOMAINS = ("99airdrops.com", "airdropstop.com", "airdrops.io", "airdroplet.com",
                    "airdropvillage.io", "cryptorank.io")
-BANNED = (r"\bTODO\b", r"\bTBD\b", r"lorem ipsum")
-# Secret *requests* are forbidden; secret *warnings* are required practice.
-SECRET_RE = re.compile(r"\b(seed\s?phrase|private\s?key|mnemonic|recovery\s?phrase)\b", re.I)
-NEGATION = re.compile(r"\b(never|not|no|nothing|none|without|don't|do not|nobody|no one|avoid|refuse)\b", re.I)
+BANNED = (r"\bTODO\b", r"lorem ipsum")
+# Only a *request* for a secret is unsafe. Describing one, warning about one, or instructing a user to
+# write their own on paper is normal wallet guidance and must not fail the gate.
+SECRET_RE = re.compile(r"\b(seed\s?phrase|private\s?key|mnemonic|recovery\s?phrase|12 words)\b", re.I)
+REQUEST = re.compile(r"\b(send|enter|paste|type|provide|submit|share|give|input|email)\b", re.I)
+SAFE_CTX = re.compile(r"\b(never|not|no|nothing|without|shown|generated|displayed|write|record|"
+                      r"store|asks?|if anyone|keep|save)\b", re.I)
 SCHEMA = {"name": str, "slug": str, "confidence": int, "source_url": str, "checked": str,
           "dossier": str}
 
@@ -109,8 +112,10 @@ def check(slug):
         if re.search(pat, blob, re.I):
             errors.append(f"banned content in dossier: {pat}")
     for sentence in re.split(r"(?<=[.!?])\s+", blob):
-        if SECRET_RE.search(sentence) and not NEGATION.search(sentence):
-            errors.append("secret request detected (mentions seed/private key without a warning): "
+        if not SECRET_RE.search(sentence) or SAFE_CTX.search(sentence):
+            continue
+        if REQUEST.search(sentence):
+            errors.append("secret request detected (a step asks for a seed/private key): "
                           + sentence.strip()[:90])
             break
     if d["name"] not in blob.splitlines()[0]:

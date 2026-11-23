@@ -109,6 +109,7 @@ python tools/bulk_apply.py --workers 8   # live-check EVERY drop: refuses dead d
 python tools/blocker_workbook.py    # data/blockers.xlsx + notes/batch-report.md +
                                     # notes/credentials-context.md + agent/STATE.json refresh
 python tools/entry_points.py        # per-drop next click + form fields, read-only
+python tools/guided_apply.py --sheet email --limit 10  # prefilled window, human presses submit
 python tools/redeem_kit.py          # data/redeem.xlsx - the workbook to work through and redeem from
 python tools/burner_wallet.py --i-am-the-operator   # OPERATOR ONLY: key prints once, address saved
 ```

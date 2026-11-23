@@ -90,12 +90,12 @@ def load():
     return pre
 
 
-def targets(pre, only=""):
+def targets(pre, only="", blockers=("email",)):
     out = []
     for slug, p in pre.items():
         if only and slugify(only) != slug:
             continue
-        ok = p.get("status") == "ready" or p.get("blocked_on") == "email"
+        ok = p.get("status") == "ready" or p.get("blocked_on") in blockers
         if ok and (p.get("official") or "").startswith("http"):
             out.append((slug, p))
     out.sort(key=lambda s: (s[1].get("days") if isinstance(s[1].get("days"), int) else 9999))
@@ -143,10 +143,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--project", default="")
+    ap.add_argument("--blockers", default="email",
+                    help="comma list: email,wallet_signature,login,kyc,terms")
     args = ap.parse_args()
 
     pre = load()
-    items = targets(pre, args.project)
+    items = targets(pre, args.project, tuple(b.strip() for b in args.blockers.split(",") if b.strip()))
     if not items:
         print("nothing actionable found")
         return 1

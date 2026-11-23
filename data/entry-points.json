@@ -2,7 +2,7 @@
  "aura-protocol": {
   "project": "Aura Protocol",
   "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:15",
   "ctas": [
    {
     "tag": "button",
@@ -19,7 +19,7 @@
  "perptools": {
   "project": "PERPTools",
   "official": "https://app.perptools.ai",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:15",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -29,7 +29,7 @@
  "ecash": {
   "project": "eCash",
   "official": "https://ecash.com/how-to-claim",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [
    {
@@ -129,7 +129,7 @@
  "tbook": {
   "project": "TBook",
   "official": "https://engage.tbook.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "a",
@@ -146,7 +146,7 @@
  "warden-protocol": {
   "project": "Warden Protocol",
   "official": "https://app.wardenprotocol.org",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "button",
@@ -163,7 +163,7 @@
  "jumper-exchange": {
   "project": "Jumper Exchange",
   "official": "https://jumper.xyz/campaign/infinifi-chapter",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "a",
@@ -180,7 +180,7 @@
  "beep": {
   "project": "Beep",
   "official": "https://app.justbeep.it",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -190,7 +190,7 @@
  "trojan": {
   "project": "Trojan",
   "official": "https://trojan.com/arena",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "a",
@@ -247,7 +247,7 @@
  "perpl": {
   "project": "Perpl",
   "official": "https://perpl.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -328,7 +328,7 @@
  "rome-protocol": {
   "project": "Rome Protocol",
   "official": "https://civitas.mainnet.romeprotocol.xyz/points",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [
    {
@@ -458,7 +458,7 @@
  "backtrade": {
   "project": "Backtrade",
   "official": "https://backtrade.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -534,7 +534,7 @@
  "superfluid": {
   "project": "Superfluid",
   "official": "https://superfluid.org",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -551,7 +551,7 @@
  "harmonix-finance": {
   "project": "Harmonix Finance",
   "official": "https://app.harmonix.fi/points",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -561,7 +561,7 @@
  "mint": {
   "project": "MINT",
   "official": "https://mint.io/mntd",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -594,7 +594,7 @@
  "0xastra": {
   "project": "0xAstra",
   "official": "https://0xastra.xyz",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -604,7 +604,7 @@
  "mezo": {
   "project": "Mezo",
   "official": "https://mezo.org/rewards",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -650,7 +650,7 @@
  "vibe-trading": {
   "project": "Vibe Trading",
   "official": "https://vibe.trading",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [
    {
     "tag": "a",
@@ -696,7 +696,7 @@
  "garth": {
   "project": "Garth",
   "official": "https://garthonqubic.com",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [
    {
@@ -719,7 +719,7 @@
  "black-mirror": {
   "project": "Black Mirror",
   "official": "https://www.blackmirrorclub.com",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -795,7 +795,7 @@
  "minds-games": {
   "project": "Minds Games",
   "official": "https://minds.games",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -805,7 +805,7 @@
  "rabby-wallet": {
   "project": "Rabby Wallet",
   "official": "https://rabby.io/points",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -825,7 +825,7 @@
  "geton": {
   "project": "GetOn",
   "official": "https://waitlist.geton.xyz",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [
    {
@@ -848,7 +848,7 @@
  "cables-finance": {
   "project": "Cables Finance",
   "official": "https://www.cables.finance/sign-up",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [
    {
@@ -887,7 +887,7 @@
  "extended": {
   "project": "Extended",
   "official": "https://app.extended.exchange",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -914,12 +914,18 @@
  "loopscale": {
   "project": "Loopscale",
   "official": "https://app.loopscale.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "a",
     "label": "Earn",
     "href": "/earn",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Disclaimer",
+    "href": "https://docs.loopscale.com/resources/disclaimer",
     "disabled": false
    }
   ],
@@ -931,7 +937,7 @@
  "375ai": {
   "project": "375ai",
   "official": "https://www.375.ai",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -941,7 +947,7 @@
  "umi-network": {
   "project": "Umi Network",
   "official": "https://devnet.uminetwork.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -951,7 +957,7 @@
  "aiw3": {
   "project": "AIW3",
   "official": "https://aiw3.ai/airdrop",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -997,7 +1003,7 @@
  "kinetic": {
   "project": "Kinetic",
   "official": "https://kinetic.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1007,7 +1013,7 @@
  "offline-protocol": {
   "project": "Offline Protocol",
   "official": "https://mine.offlineprotocol.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1017,7 +1023,7 @@
  "risex": {
   "project": "RISEx",
   "official": "https://www.rise.trade",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1027,7 +1033,7 @@
  "papertrade": {
   "project": "Papertrade",
   "official": "https://papertrade.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1097,7 +1103,7 @@
  "retium": {
   "project": "Retium",
   "official": "https://wallet.retium.org",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1107,7 +1113,7 @@
  "bullpen": {
   "project": "Bullpen",
   "official": "https://app.bullpen.fi",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1117,7 +1123,7 @@
  "aro-network": {
   "project": "ARO Network",
   "official": "https://aro.network",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "button",
@@ -1134,7 +1140,7 @@
  "somo": {
   "project": "SOMO",
   "official": "https://somo.xyz/games",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1144,7 +1150,7 @@
  "sixpence": {
   "project": "Sixpence",
   "official": "https://www.sixpence.xyz/campaign",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:19",
   "ctas": [
    {
     "tag": "a",
@@ -1161,7 +1167,7 @@
  "flop": {
   "project": "FLOP",
   "official": "https://flop.finance/teaser",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1171,7 +1177,7 @@
  "afx": {
   "project": "AFX",
   "official": "https://afx.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:19",
   "ctas": [
    {
     "tag": "a",
@@ -1188,7 +1194,7 @@
  "derivio": {
   "project": "Derivio",
   "official": "https://derivio.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1198,7 +1204,7 @@
  "interlink-labs": {
   "project": "InterLink Labs",
   "official": "https://interlinklabs.ai/download",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1208,12 +1214,19 @@
  "rubicon": {
   "project": "Rubicon",
   "official": "https://app.rubicon.finance/earn",
-  "at": "2026-11-23 14:59",
-  "ctas": [],
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Earn",
+    "href": "",
+    "disabled": false
+   }
+  ],
   "forms": [],
   "has_wallet": false,
-  "page_title": "Decentralized Crypto Exchange | Rubicon DEX",
-  "next_click": "no obvious control - read it"
+  "page_title": "RUBI | Rubicon DEX",
+  "next_click": "Earn"
  },
  "yakkamon": {
   "project": "Yakkamon",
@@ -1290,7 +1303,7 @@
  "worldie": {
   "project": "Worldie",
   "official": "https://worldie.world",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1348,7 +1361,7 @@
  "flint": {
   "project": "Flint",
   "official": "https://devnet.app.flint.trade",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1358,7 +1371,7 @@
  "3jane": {
   "project": "3Jane",
   "official": "https://app.3jane.xyz/supply",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1397,7 +1410,7 @@
  "snowball-money": {
   "project": "Snowball Money",
   "official": "https://www.modular.name/rewards",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1447,7 +1460,7 @@
  "nexchain": {
   "project": "Nexchain",
   "official": "https://nexchain.ai",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "a",
@@ -1464,7 +1477,7 @@
  "cyberkongz": {
   "project": "CyberKongz",
   "official": "https://www.cyberkongz.com/kong",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "a",
@@ -1481,7 +1494,7 @@
  "chaos-labs": {
   "project": "Chaos Labs",
   "official": "https://chaoslabs.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "button",
@@ -1612,7 +1625,7 @@
  "sirius-protocol": {
   "project": "Sirius Protocol",
   "official": "https://app.siriusprotocol.xyz/invite",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [
    {
@@ -1635,7 +1648,7 @@
  "superboring": {
   "project": "SuperBoring",
   "official": "https://app.superboring.xyz/en",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1645,7 +1658,7 @@
  "savior-of-health": {
   "project": "Savior of Health",
   "official": "https://saviorofhealth.app/earn",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1655,7 +1668,7 @@
  "kalos": {
   "project": "Kalos",
   "official": "https://elysium.kinetiq.xyz/testnet-faucet",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -1718,7 +1731,7 @@
  "heyaura": {
   "project": "heyAura",
   "official": "https://hub.heyaura.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1728,7 +1741,7 @@
  "ryfinite": {
   "project": "Ryfinite",
   "official": "https://ryfinite.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "button",
@@ -1757,7 +1770,7 @@
  "boop": {
   "project": "Boop",
   "official": "https://docs.boop.fun/temple-of-moon",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -1780,7 +1793,7 @@
  "stormrae": {
   "project": "Stormrae",
   "official": "https://stormrae.ai",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1800,7 +1813,7 @@
  "acki-nacki": {
   "project": "Acki Nacki",
   "official": "https://ackinacki.com/wallet",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1874,7 +1887,7 @@
  "soul-labs": {
   "project": "Soul Labs",
   "official": "https://app.soul.io",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1884,7 +1897,7 @@
  "loaf-markets": {
   "project": "Loaf Markets",
   "official": "https://beta.loafmarkets.com/league",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:15",
   "ctas": [
    {
     "tag": "button",
@@ -1901,7 +1914,7 @@
  "ethos-network": {
   "project": "Ethos Network",
   "official": "https://app.ethos.network",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [
    {
@@ -1953,7 +1966,7 @@
  "bulk": {
   "project": "BULK",
   "official": "https://app.bulk.trade",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -1993,7 +2006,7 @@
  "bombie": {
   "project": "Bombie",
   "official": "https://bombie.xyz",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2003,7 +2016,7 @@
  "fomo": {
   "project": "fomo",
   "official": "https://fomo.family/r/cryptofree",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2013,7 +2026,7 @@
  "metis": {
   "project": "Metis",
   "official": "https://www.metis.io",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2143,7 +2156,7 @@
  "saturn": {
   "project": "Saturn",
   "official": "https://app.saturn.credit",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "button",
@@ -2160,7 +2173,7 @@
  "unichain": {
   "project": "Unichain",
   "official": "https://docs.unichain.org",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "button",
@@ -2183,7 +2196,7 @@
  "technotainment": {
   "project": "Technotainment",
   "official": "https://hub.technotainment.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2193,7 +2206,7 @@
  "up": {
   "project": "UP",
   "official": "https://up33.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2203,24 +2216,17 @@
  "fluence": {
   "project": "Fluence",
   "official": "https://flt.fluence.ai",
-  "at": "2026-11-23 14:58",
-  "ctas": [
-   {
-    "tag": "a",
-    "label": "GET STARTED",
-    "href": "https://console.fluence.ai/",
-    "disabled": false
-   }
-  ],
+  "at": "2026-11-23 18:18",
+  "ctas": [],
   "forms": [],
   "has_wallet": false,
   "page_title": "Fluence Token App",
-  "next_click": "GET STARTED"
+  "next_click": "no obvious control - read it"
  },
  "midas-markets": {
   "project": "Midas Markets",
   "official": "https://app.midasmarkets.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2230,7 +2236,7 @@
  "captain-tsubasa": {
   "project": "Captain Tsubasa",
   "official": "https://ton.tsubasa-rivals.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2240,7 +2246,7 @@
  "soei": {
   "project": "SOEI",
   "official": "https://proof.soei.io",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2250,7 +2256,7 @@
  "fraction-ai": {
   "project": "Fraction AI",
   "official": "https://fractionai.xyz/dapp/index",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2260,7 +2266,7 @@
  "elysium": {
   "project": "Elysium",
   "official": "https://elysium.kinetiq.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "button",
@@ -2451,7 +2457,7 @@
  "noah-ai": {
   "project": "Noah AI",
   "official": "https://trynoah.ai",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2501,7 +2507,7 @@
  "trueo": {
   "project": "Trueo",
   "official": "https://trueo.com",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:15",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2511,7 +2517,7 @@
  "tastyco": {
   "project": "TastyCo",
   "official": "https://app.tastyco.io/en/quests",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2599,7 +2605,7 @@
  "nansen-ai": {
   "project": "Nansen AI",
   "official": "https://app.nansen.ai/auth/signup",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2609,7 +2615,7 @@
  "verasity": {
   "project": "Verasity",
   "official": "https://plrl.verasity.io",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "a",
@@ -2626,7 +2632,7 @@
  "joincare": {
   "project": "JoinCare",
   "official": "https://joincarelabs.com/tasks",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [
    {
     "tag": "button",
@@ -2673,7 +2679,7 @@
  "nebulai": {
   "project": "Nebulai",
   "official": "https://nebulai.network",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2683,7 +2689,7 @@
  "sovra": {
   "project": "Sovra",
   "official": "https://sovra.money",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2693,7 +2699,7 @@
  "velvet-capital": {
   "project": "Velvet.Capital",
   "official": "https://x.velvet.capital",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2713,7 +2719,7 @@
  "brownian": {
   "project": "Brownian",
   "official": "https://brownian.xyz/trade/PERP_ETH_USDC",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2763,7 +2769,7 @@
  "zeni": {
   "project": "ZENi",
   "official": "https://agent.1zeni.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2773,7 +2779,7 @@
  "konnex": {
   "project": "Konnex",
   "official": "https://hub.konnex.world",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2793,7 +2799,7 @@
  "miracle": {
   "project": "Miracle",
   "official": "https://www.miracletrade.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2813,7 +2819,7 @@
  "lighter-robinhood": {
   "project": "Lighter Robinhood",
   "official": "https://docs.lighter.xyz/programs/lighter-on-robinhood-chain-points",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2833,7 +2839,7 @@
  "zyfai": {
   "project": "Zyfai",
   "official": "https://www.zyf.ai/dashboard",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -2843,7 +2849,7 @@
  "heatrush": {
   "project": "HeatRush",
   "official": "https://heatrush.xyz/dashboard",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "button",
@@ -2912,7 +2918,7 @@
  "rootstock-collective": {
   "project": "Rootstock Collective",
   "official": "https://rootstockcollective.xyz",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -2935,7 +2941,7 @@
  "forte": {
   "project": "Forte",
   "official": "https://app.fairground.fi",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [
    {
     "tag": "a",
@@ -2946,13 +2952,13 @@
   ],
   "forms": [],
   "has_wallet": false,
-  "page_title": "",
+  "page_title": "Fairground - Stay Tuned",
   "next_click": "Apply to trade"
  },
  "gtr": {
   "project": "GTR",
   "official": "https://gtr.trade",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [
    {
     "tag": "button",
@@ -2969,7 +2975,7 @@
  "cycles": {
   "project": "Cycles",
   "official": "https://apps.apple.com/us/app/cycles-pay/id6761496918",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:15",
   "ctas": [
    {
     "tag": "a",
@@ -2999,7 +3005,7 @@
  "moviton": {
   "project": "MovitOn",
   "official": "https://hub.moviton.com",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3009,7 +3015,7 @@
  "inverted-lambda": {
   "project": "Inverted Lambda",
   "official": "https://inverted-lambda.com/platform/beta",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3019,7 +3025,7 @@
  "fx100": {
   "project": "FX100",
   "official": "https://testnet.fx100.club",
-  "at": "2026-11-23 14:56",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3029,7 +3035,7 @@
  "otomato": {
   "project": "Otomato",
   "official": "https://otomato.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3039,7 +3045,7 @@
  "bless-network": {
   "project": "Bless Network",
   "official": "https://bless.network",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3049,7 +3055,7 @@
  "memebitcoin": {
   "project": "MemeBitcoin",
   "official": "https://www.memebitcoin.org",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3059,7 +3065,7 @@
  "raiku": {
   "project": "Raiku",
   "official": "https://raiku.com",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3069,7 +3075,7 @@
  "camp-network": {
   "project": "Camp Network",
   "official": "https://www.campnetwork.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:16",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3079,7 +3085,7 @@
  "morfi-markets": {
   "project": "Morfi Markets",
   "official": "https://morfi.markets",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3143,7 +3149,7 @@
  "curvance": {
   "project": "Curvance",
   "official": "https://app.curvance.com/bytes",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3195,7 +3201,7 @@
  "cysic": {
   "project": "Cysic",
   "official": "https://cysic.xyz",
-  "at": "2026-11-23 14:57",
+  "at": "2026-11-23 18:17",
   "ctas": [
    {
     "tag": "a",
@@ -3218,7 +3224,7 @@
  "evaa-protocol": {
   "project": "EVAA Protocol",
   "official": "https://app.evaa.finance",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3228,7 +3234,7 @@
  "lighter": {
   "project": "Lighter",
   "official": "https://docs.lighter.xyz/points-program/lighter-on-robinhood-chain-points",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:17",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3265,7 +3271,7 @@
  "canton-network": {
   "project": "Canton Network",
   "official": "https://www.canton.network/blog/canton-coin-rewarding-utility",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -3305,7 +3311,7 @@
  "c8ntinuum": {
   "project": "c8ntinuum",
   "official": "https://app.c8ntinuum.com",
-  "at": "2026-11-23 14:58",
+  "at": "2026-11-23 18:18",
   "ctas": [
    {
     "tag": "a",
@@ -3345,7 +3351,7 @@
  "linera": {
   "project": "Linera",
   "official": "https://linera.io",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:18",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3355,7 +3361,7 @@
  "baibai": {
   "project": "BaiBai",
   "official": "https://app.baibai.cx",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3417,7 +3423,7 @@
  "the-pit": {
   "project": "The Pit",
   "official": "https://www.thepitapp.xyz",
-  "at": "2026-11-23 14:59",
+  "at": "2026-11-23 18:19",
   "ctas": [],
   "forms": [],
   "has_wallet": false,
@@ -3465,5 +3471,2106 @@
   "has_wallet": false,
   "page_title": "Pulsar Money",
   "next_click": "Get Started Now Get Started Now →"
+ },
+ "doppler-finance": {
+  "project": "Doppler Finance",
+  "official": "https://app.doppler.finance/airdrop",
+  "at": "2026-11-23 18:15",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Doppler Finance",
+  "next_click": "no obvious control - read it"
+ },
+ "ekiden": {
+  "project": "Ekiden",
+  "official": "https://app.ekiden.fi",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "$63.61 | HYPE | Ekiden",
+  "next_click": "no obvious control - read it"
+ },
+ "neosoul": {
+  "project": "NeoSoul",
+  "official": "https://airdrop.neosoul.ai",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Airdrop",
+  "next_click": "no obvious control - read it"
+ },
+ "amadeus-protocol": {
+  "project": "Amadeus Protocol",
+  "official": "https://amahub.ama.one/quests",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Get started ⌄",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Tasks — amahub",
+  "next_click": "Join"
+ },
+ "lithos": {
+  "project": "Lithos",
+  "official": "https://lithos.to/genesis",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Genesis Bootstrapping | Lithos.to",
+  "next_click": "no obvious control - read it"
+ },
+ "haha-wallet": {
+  "project": "HaHa Wallet",
+  "official": "https://apps.apple.com/us/app/haha-crypto-portfolio-tracker/id1591158244",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "search",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "‎HaHa Wallet: Invest Smarter App - App Store",
+  "next_click": "a form field on the page"
+ },
+ "gyroscope": {
+  "project": "Gyroscope",
+  "official": "https://app.gyro.finance",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim GYFI",
+    "href": "https://claim.gyroscope.foundation",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Pools | Gyroscope",
+  "next_click": "Claim GYFI"
+ },
+ "yield-basis": {
+  "project": "Yield Basis",
+  "official": "https://yieldbasis.com/airdrop-claim",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "CLAIM",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "a",
+    "label": "EARN",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Yield Basis - Market volatility is your yield",
+  "next_click": "CLAIM"
+ },
+ "voice": {
+  "project": "VOICE",
+  "official": "https://voice.cc/socialcamp",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Participate",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SocialCamp by VOICE. Earn Clout for your opinions",
+  "next_click": "Participate"
+ },
+ "gaib-ai": {
+  "project": "GAIB AI",
+  "official": "https://aid.gaib.ai",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Disclaimers",
+    "href": "/legal#risk-warnings-disclaimers",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Mint AID | AID & sAID by GAIB",
+  "next_click": "Disclaimers"
+ },
+ "nuva": {
+  "project": "NUVA",
+  "official": "https://app.nuva.finance/en/vaults",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "The curated marketplace for institutional real-world assets onchain",
+  "next_click": "no obvious control - read it"
+ },
+ "re": {
+  "project": "Re",
+  "official": "https://app.re.xyz",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claims",
+    "href": "/claims",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claims Terms of Service",
+    "href": "https://re.xyz/claims-terms",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Email Address",
+      "required": true
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Email Address",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Re App | Portfolio, Deposits & Protocol Metrics",
+  "next_click": "Claims"
+ },
+ "xdfi": {
+  "project": "xDFi",
+  "official": "https://alpha.xdfi.net",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join Waitlist",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "xDFi — Institutional-Grade Hedged Yield. Market-Neutral by Design.",
+  "next_click": "Join Waitlist"
+ },
+ "arcus": {
+  "project": "Arcus",
+  "official": "https://app.arcus.xyz/trade/spot",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Trade - Arcus Perpetuals Exchange",
+  "next_click": "no obvious control - read it"
+ },
+ "lowlife-forms": {
+  "project": "Lowlife Forms",
+  "official": "https://www.rtrigger.com",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join The discord",
+    "href": "https://discord.com/invite/cHuenjHeFz",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "post",
+    "fields": [
+     {
+      "type": "email",
+      "name": "Subscriber-Email-2",
+      "placeholder": "your email here",
+      "required": true
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Right Trigger / Lowlife Forms",
+  "next_click": "Join The discord"
+ },
+ "skytrade": {
+  "project": "SkyTrade",
+  "official": "https://www.genesis.sky.trade",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SkyTrade Genesis",
+  "next_click": "no obvious control - read it"
+ },
+ "panther-protocol": {
+  "project": "Panther Protocol",
+  "official": "https://pantherdao.app",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Connect wallet to get started",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Disclaimer",
+    "href": "https://www.curve.finance/dex/ethereum/disclaimer",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Panther dApp",
+  "next_click": "Connect wallet to get started"
+ },
+ "agdex": {
+  "project": "AGDEX",
+  "official": "https://agdex.io/trading-campaign",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "AGDEX | Next-gen Decentralized Perpetual Exchange for Mass Adoption",
+  "next_click": "no obvious control - read it"
+ },
+ "sosovalue": {
+  "project": "SoSoValue",
+  "official": "https://ssi.sosovalue.com/reward",
+  "at": "2026-11-23 18:15",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "When can I claim Genesis Epoch 5 rewards?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "How to earn Loyalty Points?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "How to earn Referral Points?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Stake to Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "15M $SOSO Staking Rewards | SSI Ascent Season Now Live",
+  "next_click": "When can I claim Genesis Epoch 5 rewards?"
+ },
+ "simplechain": {
+  "project": "SimpleChain",
+  "official": "https://task.simplechain.com",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "CLAIM",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SimpleChain Tasks",
+  "next_click": "CLAIM"
+ },
+ "valdora": {
+  "project": "Valdora",
+  "official": "https://valdora.finance/leaderboard",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How do I earn Points?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Refer & Earn",
+    "href": "/leaderboard/refer-and-earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Leaderboard | Valdora",
+  "next_click": "How do I earn Points?"
+ },
+ "motoswap": {
+  "project": "Motoswap",
+  "official": "https://motoswap.org/points",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Points - Motoswap",
+  "next_click": "no obvious control - read it"
+ },
+ "block-street": {
+  "project": "Block Street",
+  "official": "https://blockstreet.money/dashboard",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join Our Community",
+    "href": "https://t.me/BlockStreet_HQ",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "BlockStreet",
+  "next_click": "Join Our Community"
+ },
+ "hashcats": {
+  "project": "Hashcats",
+  "official": "https://hashcats.fun/docs",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Hashcats — a cat you have to mine",
+  "next_click": "no obvious control - read it"
+ },
+ "krain": {
+  "project": "KRAIN",
+  "official": "https://app.krain.ai/airdrop",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Submit App",
+    "href": "/submit",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "$KRAIN Airdrop | Krain AI",
+  "next_click": "Submit App"
+ },
+ "tydro": {
+  "project": "Tydro",
+  "official": "https://app.tydro.com",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Get started",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Tydro - Decentralized lending on Ink",
+  "next_click": "Get started"
+ },
+ "rwaperp": {
+  "project": "RWAPerp",
+  "official": "https://waitlist.rwaperp.xyz",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Submit",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "button",
+    "label": "Join Discord",
+    "href": "",
+    "disabled": true
+   },
+   {
+    "tag": "button",
+    "label": "Join Telegram",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "you@example.com",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "RWA Perp — Waitlist",
+  "next_click": "Submit"
+ },
+ "hoppr": {
+  "project": "Hoppr",
+  "official": "https://hoppr.studio/download",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Get Hoppr, free games one swipe away",
+  "next_click": "no obvious control - read it"
+ },
+ "kinza-finance": {
+  "project": "Kinza Finance",
+  "official": "https://app.kinza.finance",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Kinza Finance",
+  "next_click": "no obvious control - read it"
+ },
+ "drake": {
+  "project": "Drake",
+  "official": "https://drake.exchange/earn",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Liquidity Earn | Drake Exchange",
+  "next_click": "Earn"
+ },
+ "metric": {
+  "project": "Metric",
+  "official": "https://app.metric.xyz",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Swap | Metric",
+  "next_click": "no obvious control - read it"
+ },
+ "brevis": {
+  "project": "Brevis",
+  "official": "https://brevis.network",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Brevis Network",
+  "next_click": "no obvious control - read it"
+ },
+ "spekter-agency": {
+  "project": "Spekter Agency",
+  "official": "https://www.spekter.games",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "JOIN OUR NEWS CHANNEL",
+    "href": "https://t.me/SpekterAgencyNews",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "name",
+      "placeholder": "Name",
+      "required": true
+     },
+     {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Email",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "Message",
+      "placeholder": "Message",
+      "required": false
+     },
+     {
+      "type": "submit",
+      "name": "",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Spekter",
+  "next_click": "JOIN OUR NEWS CHANNEL"
+ },
+ "well3": {
+  "project": "WELL3",
+  "official": "https://well.eco",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim $WELL",
+    "href": "/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "WELL3",
+  "next_click": "Claim $WELL"
+ },
+ "prismax": {
+  "project": "PrismaX",
+  "official": "https://app.prismax.ai",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "PrismaX | Building the bridge between robotics and mainstream adoption",
+  "next_click": "no obvious control - read it"
+ },
+ "infinifi": {
+  "project": "infiniFi",
+  "official": "https://app.infinifi.xyz/points",
+  "at": "2026-11-23 18:15",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint",
+    "href": "/mint",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint and Hold iUSD",
+    "href": "/mint",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint and stake iUSD",
+    "href": "/deposit",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint and lock iUSD",
+    "href": "/lock",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "infiniFi | Points",
+  "next_click": "Earn"
+ },
+ "bigcoin": {
+  "project": "Bigcoin",
+  "official": "https://www.bigcoin.tech",
+  "at": "2026-11-23 18:15",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "BigCoin",
+  "next_click": "no obvious control - read it"
+ },
+ "katana": {
+  "project": "Katana",
+  "official": "https://app.katana.network/quests",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Binance Earn",
+    "href": "/campaigns/binance-earn",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "OKX Earn",
+    "href": "/campaigns/okx-earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Katana App — The DeFi Chain for Deep Liquidity and Real Yield",
+  "next_click": "Earn"
+ },
+ "note-systems": {
+  "project": "Note Systems",
+  "official": "https://note.systems/app",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Notes | Note Systems",
+  "next_click": "no obvious control - read it"
+ },
+ "arc-terminal": {
+  "project": "ARC Terminal",
+  "official": "https://www.arcterminal.ai",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Get started",
+    "href": "#how",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Get started↘",
+    "href": "#how",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Earn SOON",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim points↘",
+    "href": "https://claim.arcterminal.ai/",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim points",
+    "href": "https://claim.arcterminal.ai/",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "textarea",
+      "name": "",
+      "placeholder": "Message ANIMA, or describe a trade: short ETH, risk $40",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "ARC: trade crypto, stocks and gold from one account",
+  "next_click": "Get started"
+ },
+ "probable": {
+  "project": "Probable",
+  "official": "https://probable.markets/points",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Probable - Decentralised Prediction Market on BNB Chain",
+  "next_click": "no obvious control - read it"
+ },
+ "neutral-trade": {
+  "project": "Neutral Trade",
+  "official": "https://www.neutral.trade/strategies",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Market-Neutral Crypto Strategies & Quant Vaults | Neutral Trade",
+  "next_click": "no obvious control - read it"
+ },
+ "watt2trade": {
+  "project": "Watt2Trade",
+  "official": "https://rewards.watt2trade.com",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Watt2Trade",
+  "next_click": "no obvious control - read it"
+ },
+ "reflect": {
+  "project": "Reflect",
+  "official": "https://tranches.reflect.money",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Reflect Tranches",
+  "next_click": "no obvious control - read it"
+ },
+ "space-nation": {
+  "project": "Space Nation",
+  "official": "https://spacenation.online/oik/trading-rush",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Space Nation",
+  "next_click": "no obvious control - read it"
+ },
+ "noon": {
+  "project": "Noon",
+  "official": "https://app.noon.capital/points",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Earn",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Noon App. The Stablecoin for You.",
+  "next_click": "Earn"
+ },
+ "calamity": {
+  "project": "Calamity",
+  "official": "https://app.calamity.online",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Mint a Factory",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint Cosmetics",
+    "href": "/cosmetics",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Discord",
+    "href": "https://discord.gg/n3uBgxpTmE",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Calamity — One open world, built together",
+  "next_click": "Mint a Factory"
+ },
+ "quip-network": {
+  "project": "Quip Network",
+  "official": "https://points.quip.network",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Disclaimer",
+    "href": "/disclaimer",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "post",
+    "fields": [
+     {
+      "type": "text",
+      "name": "service",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "error",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "text",
+      "name": "timestamp",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "QUIP Account",
+  "next_click": "Disclaimer"
+ },
+ "debank": {
+  "project": "DeBank",
+  "official": "https://debank.com/xp",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "DeBank | Your go-to portfolio tracker for Ethereum and EVM",
+  "next_click": "no obvious control - read it"
+ },
+ "monetrix": {
+  "project": "Monetrix",
+  "official": "https://www.monetrix.xyz/app/earn",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Mint",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/app/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Earn With USDM | Monetrix",
+  "next_click": "Mint"
+ },
+ "gammaswap": {
+  "project": "GammaSwap",
+  "official": "https://app.gammaswap.com",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": true,
+  "page_title": "GammaSwap V2 - Trade Up or Down Prediction Markets",
+  "next_click": "no obvious control - read it"
+ },
+ "checkpoint": {
+  "project": "Checkpoint",
+  "official": "https://checkpoint.exchange",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Check, Track & Trade Points | Checkpoint Exchange",
+  "next_click": "no obvious control - read it"
+ },
+ "knidos": {
+  "project": "Knidos",
+  "official": "https://testnet.knidos.xyz/invite",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "On-chain AI Fund Manager",
+  "next_click": "no obvious control - read it"
+ },
+ "dow-protocol": {
+  "project": "Dow Protocol",
+  "official": "https://app.dowprotocol.com/points",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Claim",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Dow Protocol | On-Chain E-Commerce RWA Financing Platform",
+  "next_click": "Claim"
+ },
+ "joule-finance": {
+  "project": "Joule Finance",
+  "official": "https://app.joule.finance/rewards",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Refer & Earn",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Joule Finance",
+  "next_click": "Refer & Earn"
+ },
+ "qms-network": {
+  "project": "QMS Network",
+  "official": "https://docs.qms.finance",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Get started",
+    "href": "#get-started",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "QMS Docs",
+  "next_click": "Get started"
+ },
+ "xstocks": {
+  "project": "xStocks",
+  "official": "https://defi.xstocks.fi/points",
+  "at": "2026-11-23 18:15",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "xPoints Rewards Program - xStocks",
+  "next_click": "no obvious control - read it"
+ },
+ "wick": {
+  "project": "Wick",
+  "official": "https://www.wick.xyz/waitlist",
+  "at": "2026-11-23 18:15",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Wick",
+  "next_click": "no obvious control - read it"
+ },
+ "metamask": {
+  "project": "MetaMask",
+  "official": "https://metamask.com",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "SubmitSubmit",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "MetaMask Crypto Wallet. Buy and Sell Bitcoin, Ethereum, Solana",
+  "next_click": "SubmitSubmit"
+ },
+ "runwago": {
+  "project": "Runwago",
+  "official": "https://www.runwago.com/airdrop",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim",
+    "href": "claim",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "CLAIM INSTRUCTIONS",
+    "href": "https://whitepaper.runwago.com/blockchain/token-claim",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Runwago",
+  "next_click": "Claim"
+ },
+ "chimpx": {
+  "project": "ChimpX",
+  "official": "https://token.chimpx.ai",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "JOIN THE WAITLIST",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Whitelist",
+    "href": "#whitelist",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "address",
+      "placeholder": "Solana or BNB Chain address",
+      "required": false
+     }
+    ]
+   },
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "company",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "email",
+      "name": "",
+      "placeholder": "Enter your email",
+      "required": true
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Introducing $CHIMP",
+  "next_click": "Join"
+ },
+ "onchain-cc": {
+  "project": "Onchain.cc",
+  "official": "https://onchain.cc",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How do I get started?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Join Discord",
+    "href": "https://discord.gg/KqkZFs3j64",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Onchain | Every market. One terminal.",
+  "next_click": "How do I get started?"
+ },
+ "dtelecom": {
+  "project": "dTelecom",
+  "official": "https://rewards.dtelecom.org",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "dTelecom",
+  "next_click": "no obvious control - read it"
+ },
+ "nowa": {
+  "project": "NOWA",
+  "official": "https://app.nowa.finance",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Earn",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "ETHNUSC | Nowa",
+  "next_click": "Earn"
+ },
+ "din": {
+  "project": "DIN",
+  "official": "https://airdrop.din.lol",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "EARN $DIN",
+    "href": "/earn-din",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "DIN Airdrop",
+  "next_click": "EARN $DIN"
+ },
+ "dagama": {
+  "project": "daGama",
+  "official": "https://airdrop.dagama.world",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "CLAIM YOUR AIRDROP",
+    "href": "https://airdrop.dagama.world/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Main AirDrop",
+  "next_click": "CLAIM YOUR AIRDROP"
+ },
+ "apyx": {
+  "project": "Apyx",
+  "official": "https://app.apyx.fi",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Apyx",
+  "next_click": "no obvious control - read it"
+ },
+ "arena-of-faith": {
+  "project": "Arena of Faith",
+  "official": "https://aof.global",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Register and trade",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Arena of Faith",
+  "next_click": "Register and trade"
+ },
+ "teller-protocol": {
+  "project": "Teller Protocol",
+  "official": "https://pro.teller.org",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Teller: Borrow cash without collateral",
+  "next_click": "Earn"
+ },
+ "optimum": {
+  "project": "Optimum",
+  "official": "https://turbocards.getoptimum.xyz/optimum",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Optimum TurboCards",
+  "next_click": "no obvious control - read it"
+ },
+ "di": {
+  "project": "DI",
+  "official": "https://di.xyz/check-in",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "JOIN GROUP",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "DI Check-In | On-Chain Tasks, Points & NFT Whitelist",
+  "next_click": "JOIN GROUP"
+ },
+ "ponder": {
+  "project": "Ponder",
+  "official": "https://ponder.one",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join now",
+    "href": "https://app.ponder.one/airdrop",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Don’t wonder , Ponder | The best way to compare Web3",
+  "next_click": "Join now"
+ },
+ "ethermax": {
+  "project": "Ethermax",
+  "official": "https://www.ethermax.tech",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Disclaimer",
+    "href": "/disclaimer",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Ethermax",
+  "next_click": "Disclaimer"
+ },
+ "dustswap": {
+  "project": "Dustswap",
+  "official": "https://app.dustswap.wtf/quests",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "VERIFY",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim",
+    "href": "/claim",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "DustSwap | Swap, quests, and progress on Base",
+  "next_click": "VERIFY"
+ },
+ "loopedhype": {
+  "project": "LoopedHYPE",
+  "official": "https://app.loopingcollective.org",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "How do I earn LOOP points?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Disclaimer",
+    "href": "/disclaimer",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Higher Yield. Stay Liquid | Looping Collective",
+  "next_click": "How do I earn LOOP points?"
+ },
+ "litvmswap": {
+  "project": "LitVMSwap",
+  "official": "https://www.litvmswap.com/mint",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Connect Wallet to Mint",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Earn",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Creator Earnings",
+    "href": "/creator",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim",
+    "href": "/claim",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Mint NFT",
+    "href": "/mint",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Mint Athes Genesis Pass | Super Contributor NFT",
+  "next_click": "Connect Wallet to Mint"
+ },
+ "ethena": {
+  "project": "Ethena",
+  "official": "https://claim.ethena.fi",
+  "at": "2026-11-23 18:15",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "claim it on Sablier (HyperEVM)",
+    "href": "https://app.sablier.com/airdrops/campaign/0x9cfde37ddc45d48c2c163fb267d7dd922fba820b-999",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Claim | Ethena",
+  "next_click": "claim it on Sablier (HyperEVM)"
+ },
+ "ammora": {
+  "project": "Ammora",
+  "official": "https://ammora.org/waitlist/join",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Submit post",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Join",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Submit your build",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Season 2 | Ammora",
+  "next_click": "Submit post"
+ },
+ "kleos": {
+  "project": "Kleos",
+  "official": "https://www.thekleos.pro",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join a Clan",
+    "href": "/clans",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "1 Royal Earn Yield $REY / HYPE $1.88K 42h",
+    "href": "/token/0xc5f9aca2a11ab110689d8639444f76f6065b231d",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Kleos",
+  "next_click": "Join a Clan"
+ },
+ "giwa": {
+  "project": "GIWA",
+  "official": "https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "GET STARTED",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim Test ETH",
+    "href": "/giwa-chain/en/get-started/faucets",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Next Claim Test ETH",
+    "href": "/giwa-chain/en/get-started/faucets",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Connect to GIWA | GIWA Documentation",
+  "next_click": "GET STARTED"
+ },
+ "spark-finance": {
+  "project": "Spark Finance",
+  "official": "https://app.spark.finance",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Spark: Earn on your stablecoins",
+  "next_click": "no obvious control - read it"
+ },
+ "montra": {
+  "project": "Montra",
+  "official": "https://montramarkets.xyz/airdrop",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "text",
+      "name": "",
+      "placeholder": "Paste an address, 0x…",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "The airdrop · Montra",
+  "next_click": "a form field on the page"
+ },
+ "decibel": {
+  "project": "Decibel",
+  "official": "https://app.decibel.trade",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Decibel",
+  "next_click": "no obvious control - read it"
+ },
+ "puffpaw": {
+  "project": "Puffpaw",
+  "official": "https://gen2.puffpaw.xyz",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Join Leasing Program",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Gen2 Pro Plus Vape - Puffpaw",
+  "next_click": "Join Leasing Program"
+ },
+ "42": {
+  "project": "42",
+  "official": "https://www.42.space",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "42 — Trade the Future | Events Futures Asset Issuance Protocol",
+  "next_click": "no obvious control - read it"
+ },
+ "human-tech": {
+  "project": "human.tech",
+  "official": "https://app.passport.xyz",
+  "at": "2026-11-23 18:17",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Human Passport",
+  "next_click": "no obvious control - read it"
+ },
+ "vibe-vibe": {
+  "project": "vibe/vibe",
+  "official": "https://docs.robinhood.com/chain/add-network-to-wallet",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "div",
+    "label": "Get Started",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Add network to your wallet – Robinhood Chain Documentation",
+  "next_click": "Get Started"
+ },
+ "marginly": {
+  "project": "Marginly",
+  "official": "https://app.marginly.com/mainnet/earn",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/mainnet/earn",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": true,
+  "page_title": "Marginly | Go up to 20X long or short on Uniswap and other DEXes",
+  "next_click": "Earn"
+ },
+ "allox": {
+  "project": "AlloX",
+  "official": "https://app.allox.ai",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Claim",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Earn Points",
+    "href": "/campaigns?campaign=earn-points",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "AlloX AI Agent",
+  "next_click": "Claim"
+ },
+ "swapper-finance": {
+  "project": "Swapper Finance",
+  "official": "https://portal.swapper.finance",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Swapper - Your Gateway to Web3",
+  "next_click": "no obvious control - read it"
+ },
+ "chainopera-ai": {
+  "project": "ChainOpera AI",
+  "official": "https://chat.chainopera.ai",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Sign in to ChainOpera AI",
+  "next_click": "no obvious control - read it"
+ },
+ "usd-ai": {
+  "project": "USD.ai",
+  "official": "https://app.usd.ai",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn",
+    "href": "/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "USD.AI | Earn Yield from AI Infrastructure",
+  "next_click": "Earn"
+ },
+ "ritual": {
+  "project": "Ritual",
+  "official": "https://airdrop.ritualfoundation.org",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Ritual Airdrop",
+  "next_click": "no obvious control - read it"
+ },
+ "hyperlynx": {
+  "project": "Hyperlynx",
+  "official": "https://www.hyperlynx.fi/hunt",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "HOW TO EARN MORE →",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Join",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Hyperlynx — The home for your HYPE on HyperEVM",
+  "next_click": "HOW TO EARN MORE →"
+ },
+ "openzk": {
+  "project": "OpenZK",
+  "official": "https://portal.openzk.net/airdrop",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Airdrop Claim",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "JOIN",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "OpenZK",
+  "next_click": "Airdrop Claim"
+ },
+ "tari": {
+  "project": "Tari",
+  "official": "https://airdrop.tari.com",
+  "at": "2026-11-23 18:19",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "JOIN TELEGRAM",
+    "href": "https://t.me/tariproject",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": true,
+  "page_title": "Tari Rewards",
+  "next_click": "JOIN TELEGRAM"
+ },
+ "moonbirds": {
+  "project": "Moonbirds",
+  "official": "https://claim.moonbirds.com",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Birb",
+  "next_click": "no obvious control - read it"
+ },
+ "abstract": {
+  "project": "Abstract",
+  "official": "https://migrate.abs.xyz",
+  "at": "2026-11-23 18:15",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Abstract Migration",
+  "next_click": "no obvious control - read it"
+ },
+ "decentralized-intelligence": {
+  "project": "Decentralized Intelligence",
+  "official": "https://di.xyz/check-in",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "JOIN GROUP",
+    "href": "",
+    "disabled": true
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "DI Check-In | On-Chain Tasks, Points & NFT Whitelist",
+  "next_click": "JOIN GROUP"
+ },
+ "xian": {
+  "project": "Xian",
+  "official": "https://airdrops.xian.org",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Claim Airdrop",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Xian Airdrop",
+  "next_click": "Claim Airdrop"
+ },
+ "citrea": {
+  "project": "Citrea",
+  "official": "https://app.citrea.xyz/bridge",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Bridge | Citrea Gateway",
+  "next_click": "no obvious control - read it"
+ },
+ "swarmbase": {
+  "project": "SwarmBase",
+  "official": "https://core.swarmbase.io/points",
+  "at": "2026-11-23 18:16",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "Register Now",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Mint Pioneer Badge",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Mint Builder Badge",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Mint OG Badge",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "SwarmBase Points",
+  "next_click": "Register Now"
+ },
+ "orbinum": {
+  "project": "Orbinum",
+  "official": "https://app.orbinum.network/community",
+  "at": "2026-11-23 18:16",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Community · Orbinum Hub",
+  "next_click": "no obvious control - read it"
+ },
+ "wheelx": {
+  "project": "WheelX",
+  "official": "https://wheelx.fi/quest",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Join",
+    "href": "https://discord.gg/GaqW8QEVTF",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Quest | Complete quests to earn XP and unlock more benefits",
+  "next_click": "Join"
+ },
+ "sectora": {
+  "project": "Sectora",
+  "official": "https://sectoraorg.com/guide",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Earn holder rewards →",
+    "href": "https://sectoraorg.com/staking/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Getting started with #SECT on Uniswap — Sectora Foundation",
+  "next_click": "Earn holder rewards →"
+ },
+ "delpho": {
+  "project": "Delpho",
+  "official": "https://prism.delpho.xyz",
+  "at": "2026-11-23 18:17",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "CLAIM SBT",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "LP Participation",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Lending Participation",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Is the Prism Pass free to join?",
+    "href": "",
+    "disabled": false
+   },
+   {
+    "tag": "button",
+    "label": "Can I mint my Prism Pass onchain?",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Delpho",
+  "next_click": "CLAIM SBT"
+ },
+ "rafa-finance": {
+  "project": "RAFA Finance",
+  "official": "https://rafa.ai",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Claim your profile",
+    "href": "/claim",
+    "disabled": false
+   },
+   {
+    "tag": "a",
+    "label": "Claim profile",
+    "href": "/claim",
+    "disabled": false
+   }
+  ],
+  "forms": [
+   {
+    "action": "",
+    "method": "get",
+    "fields": [
+     {
+      "type": "radio",
+      "name": "kind",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "radio",
+      "name": "kind",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "radio",
+      "name": "kind",
+      "placeholder": "",
+      "required": false
+     },
+     {
+      "type": "textarea",
+      "name": "message",
+      "placeholder": "What happened, and what did you expect?",
+      "required": true
+     },
+     {
+      "type": "text",
+      "name": "contact",
+      "placeholder": "",
+      "required": false
+     }
+    ]
+   }
+  ],
+  "has_wallet": false,
+  "page_title": "Followers aren’t a track record · RAFA",
+  "next_click": "Claim your profile"
+ },
+ "valantis-labs": {
+  "project": "Valantis Labs",
+  "official": "https://app.valantis.xyz",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Valantis",
+  "next_click": "no obvious control - read it"
+ },
+ "concrete": {
+  "project": "Concrete",
+  "official": "https://docs.concrete.xyz/Using-Concrete-Vaults/concrete-points",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "a",
+    "label": "Important Disclaimers",
+    "href": "/important-disclosures/",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Concrete Points Program | Concrete Docs",
+  "next_click": "Important Disclaimers"
+ },
+ "picasso-markets": {
+  "project": "Picasso Markets",
+  "official": "https://www.picasso.markets",
+  "at": "2026-11-23 18:18",
+  "ctas": [
+   {
+    "tag": "button",
+    "label": "CLAIM YOUR USERNAME",
+    "href": "",
+    "disabled": false
+   }
+  ],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Picasso Markets",
+  "next_click": "CLAIM YOUR USERNAME"
+ },
+ "ascend": {
+  "project": "Ascend",
+  "official": "https://app.ascendlaunch.xyz",
+  "at": "2026-11-23 18:18",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "Explore coins · Ascend",
+  "next_click": "no obvious control - read it"
+ },
+ "tzero": {
+  "project": "Tzero",
+  "official": "https://testnet.tzer0.fun",
+  "at": "2026-11-23 18:19",
+  "ctas": [],
+  "forms": [],
+  "has_wallet": false,
+  "page_title": "",
+  "next_click": "no obvious control - read it"
  }
 }

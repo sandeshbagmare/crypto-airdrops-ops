@@ -83,6 +83,7 @@ python tools/bulk_apply.py --workers 8       # live-check the whole ledger (~15 
 python tools/blocker_workbook.py             # rebuild data/blockers.xlsx + reports
 python tools/burner_wallet.py --i-am-the-operator   # you only: key prints once, address is saved
 python tools/entry_points.py --workers 6     # per-drop next click + form fields (read-only)
+python tools/guided_apply.py --sheet email --limit 10   # prefilled window, you press submit
 python tools/redeem_kit.py --open            # data/redeem.xlsx: work it, then redeem from it
 ```
 
@@ -145,6 +146,7 @@ every row. That is the ordinary activity of a news aggregator or a search index.
 | `tools/bulk_apply.py` | Live-checks every drop: domain verdict, page text, screenshot, blocker |
 | `tools/blocker_workbook.py` | `data/blockers.xlsx` + batch report + login roster + `STATE.json` |
 | `tools/entry_points.py` | Finds the exact button/form that starts each application (never clicks it) |
+| `tools/guided_apply.py` | Opens the queue prefilled in a real window, marks the submit button, stops there |
 | `tools/redeem_kit.py` | `data/redeem.xlsx` - the workbook you actually work through and redeem from |
 | `tools/burner_wallet.py` | You run it, not the agent: prints a fresh key once, saves only the address |
 | `tools/monitor.py` | Nightly diff of trackers, append-only change log |

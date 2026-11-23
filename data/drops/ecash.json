@@ -1,0 +1,55 @@
+{
+ "name": "eCash",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://ecash.com/how-to-claim",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Move BTC into self-custody Keep the BTC at an address whose keys you control before block 973,728. For BTC left on an exchange, crediting is up to that exchange. The access guide explains the custody options.",
+  "2 Step 2 : Get the official eCash wallet Download the wallet from the eCash download page , since splitting your coins later is done with it.",
+  "3 Step 3 : Hold through the mainnet snapshot Nothing needs to be registered or claimed. ECX is credited to your address at block 973,728, estimated for 29 October 2026; the eCash homepage shows the countdown.",
+  "4 Step 4 : After the fork, split before moving BTC Once the mainnet fork has happened, wait for the official wallet guidance, read the coin-splitting guide , then split with the official wallet. Do this before any BTC is moved, or that transaction can replay on eCash and send your ECX to the recipient."
+ ],
+ "end": "2027-10-29",
+ "days": 340,
+ "pool": "",
+ "what": "The eCash airdrop is a Bitcoin hard fork distribution that credits every Bitcoin address with ECX, one for one, at block 973,728. The distribution is still open on 28 October 2026: mainnet has not happened yet and is estimated for 29 October 2026. Taking part means holding BTC in self-custody until ",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "4 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/ecash",
+ "checked": "2026-11-23",
+ "friction": 0,
+ "friction_label": "free / no identity",
+ "tags": [
+  "staking",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 1995-07-29 (11440 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 11440,
+  "checked": "2026-11-23T07:29:55"
+ },
+ "domain_age_days": 11439,
+ "slug": "ecash",
+ "dossier": "drops/ecash.md",
+ "published": "2026-11-23"
+}

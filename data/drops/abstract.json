@@ -1,0 +1,51 @@
+{
+ "name": "Abstract",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://migrate.abs.xyz",
+ "needs": "",
+ "steps": [
+  "Open the Abstract Migration Hub and check that the address is exactly migrate.abs.xyz. Connect the wallet that holds your funds on Abstract.",
+  "Bridge your assets to another chain. The hub shows the routes it supports, and it also lists the native Abstract bridge , Stargate, Relay and Jumper as alternatives. Crypto Briefing reports a delay of about three hours on the native bridge.",
+  "Check what you hold inside apps. The terms say NFTs, staked or locked assets, liquidity positions and funds held through an app may need action outside the hub. Follow that app's own instructions, which the hub links under \"All Project Specific Instructions\".",
+  "Finish early. The terms say each exit has its own deadlines to start and to complete, which can fall before 15 December, and that a submitted transaction isn't necessarily a completed transfer.",
+  "Don't send new funds to Abstract."
+ ],
+ "end": "2026-12-15",
+ "days": 22,
+ "pool": "",
+ "what": "Abstract shuts down on 15 December 2026 and will not launch a token, so its XP earns no airdrop. How to move your funds off the chain before the deadline.",
+ "behind": "Igloo Inc. raised $11 million in 2024 to build Abstract. Founders Fund led the round, and Fenbushi, 1kx, Everest Ventures Group and Selini also took part, according to The Block. TokenPost reported that Igloo spent tens of millions of dollars on Abstract without finding a sustainable path to growth. The migration terms name Cube, Inc. as the operator of the Migration Hub, separate from the Abstrac",
+ "costs": "The Migration Hub charges no fee of its own. You pay network fees and whatever the bridge you choose charges. The Abstract Migration Hub on 18 October 2026, with the 15 December shutdown notice, a countdown and the list of alternative bridges. Source: migrate.abs.xyz",
+ "risks": "Funds left on Abstract after 15 December 2026 become inaccessible. XP has no value. It won't be redeemed, and no token is coming. Assets locked inside apps can be harder to move than tokens in your wallet, and each app sets its own rules. Abstract says its teams will help apps move to other networks. Whether a given app moves, and where, is up to that app.",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/abstract/",
+ "checked": "2026-11-23",
+ "slug": "abstract",
+ "dossier": "drops/abstract.md",
+ "published": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2014-06-02 (4556 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 4556,
+  "checked": "2026-11-23T01:29:31"
+ }
+}

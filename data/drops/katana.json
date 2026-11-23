@@ -1,0 +1,58 @@
+{
+ "name": "Katana",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.katana.network/quests",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Connect a wallet on the Quests page Open the Katana quests page and connect a wallet to see your XP, rank and daily rate for the October 2026 season. The official rules are linked there.",
+  "2 Step 2 : Deposit into an earn vault Pick a vault on the Earn page , such as the USDC vault . Each vault lists its own XP rate.",
+  "3 Step 3 : Trade perps or borrow for extra XP Perps trades earn about 1.5 XP per dollar on the perps markets , and trading from the United States is blocked. Borrowing, for example USDC on the USDC market , earns up to 1.5 XP per dollar daily.",
+  "4 Step 4 : Check your XP and open Krates XP is credited daily at 00:00 UTC. Once you hold 350K XP, you can spend it on a Krate from the Krates tab , or keep it as an entry toward the season prizes.",
+  "5 Step 5 : Opt in to the perps competition If you also trade perps, opt in on the competition page before the round ends on 11 November 2026."
+ ],
+ "end": "2027-11-11",
+ "days": 353,
+ "pool": "",
+ "what": "The Katana airdrop is an XP season run inside the Katana app, and it was still open to new participants on 29 October 2026. The October 2026 season is monthly, credits XP daily and lists $10,000+ in season prizes. Taking part means connecting a wallet and earning XP through vault deposits, perps tra",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/katana",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points",
+  "quests",
+  "trading",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-11 (926 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 926,
+  "checked": "2026-11-23T07:31:33"
+ },
+ "domain_age_days": 925,
+ "slug": "katana",
+ "dossier": "drops/katana.md",
+ "published": "2026-11-23"
+}

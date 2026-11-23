@@ -43,10 +43,13 @@ Living file. An agent that finishes one item takes the next and updates this lis
 
 ## Recently done
 
-- 533 of 548 drops deep-verified; confidence + steps + official site + costs + risks extracted
-- 448 official domains forensically checked (RDAP age, DNS, TLS) into `data/forensics.json`
-- `notes/watchlist.md` separates **dead links** (59 - stale tracker rows) from **suspicious domains**
-  (11 - young registrations, not accusations)
-- 45 verification PRs, each with a dossier; CI gate `validate-drops` on every one
-- Label-gated auto-merge, daily refresh now opens a PR instead of pushing to `main`
+- 530 of 545 drops deep-verified; confidence + steps + official site + costs + risks extracted
+- 69 rows carry a real deadline (12 within 30 days) after date normalisation
+- 448 official domains forensically checked into `data/forensics.json`
+- `notes/watchlist.md`: 85 dead links separated from 11 suspicious (young) domains
+- friction score + category tags, both filterable on the site
+- 95 verification PRs, each gated by `validate-drops`; dead-link and scam-likely drops refuse to publish
+- `tools/refresh.py` runs the whole chain in one command (9 steps, ~7s when caches are warm)
+- `apply-kit.md` / `apply-kit.xlsx` + `apply/<slug>.md`: 25 turnkey drops, no KYC, no deposit
+- `tools/evidence.py` refuses to mark a drop submitted without a file or URL
 - Persistent browser sessions proven across restarts

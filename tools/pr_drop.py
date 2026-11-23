@@ -172,6 +172,10 @@ def publish(d, tok, dry_run=False):
     if fx.get("verdict") == "SCAM-LIKELY":
         return {"slug": slug, "branch": branch, "pr": None,
                 "blocked": f"domain forensics: SCAM-LIKELY (score {fx.get('score')})"}
+    if fx.get("verdict") == "DEAD-LINK":
+        return {"slug": slug, "branch": branch, "pr": None,
+                "blocked": "official domain is a dead link - row stays in the watchlist, "
+                           "not published as a drop"}
 
     md_path.write_text(dossier(d), encoding="utf-8")
     json_path.write_text(json.dumps(record, indent=1, ensure_ascii=False), encoding="utf-8")

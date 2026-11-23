@@ -1,0 +1,58 @@
+{
+ "name": "SimpleChain",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://task.simplechain.com",
+ "needs": "",
+ "steps": [
+  "Open task.simplechain.com , connect an EVM wallet such as MetaMask and sign the login message. It costs no gas. Warning Use a wallet that holds no real funds. The login box comes already ticked to accept a Terms of Service and Privacy Policy that the portal doesn't link to.",
+  "Add the testnet to your wallet if it asks: Network name: SimpleChain Testnet",
+  "RPC URL: https://rpc-c.simplechain.com",
+  "Currency symbol: SRW",
+  "Block explorer: https://testnet-explorer.simplechain.com",
+  "Request test SRW from the faucet . You can ask once every 24 hours.",
+  "Link your X account and either Telegram or Discord in the portal. Several tasks won't count without them. Warning These links tie your social accounts to your wallet address, and the Telegram link asks for write access.",
+  "On the Daily tab, claim the check-in and the website visit every day.",
+  "On the OnChain tab, swap and add liquidity on the testnet exchange, and stake test SRW with a validator. Unstaking takes seven days. Warning When we checked on 7 October 2026, the exchange that the swap tasks open showed an expired security certificate. Don't click past a browser warning with a wallet you care about.",
+  "On the Social tab, follow, repost and reply on X, and join the Telegram group and the Discord server from the task cards.",
+  "Check your rank on the leaderboard ."
+ ],
+ "end": "7 Oct",
+ "days": "",
+ "pool": "",
+ "what": "SimpleChain says testnet points qualify for a future SRW distribution, with no rate or date. The task values, exact steps, costs and the risks.",
+ "behind": "The project is run in the name of the SimpleChain Foundation, which the whitepaper says is registered in Singapore without giving details. It uses the same domain and the same GitHub organisation as the 2018 project. The only company named on the website is Zhejiang Dataqin Technology Co., Ltd., in the privacy policy of a separate app. Get the next airdrop first We post new guides, claim openings ",
+ "costs": "Nothing. The tasks run on free test SRW from the faucet, and we found no node sale, presale or paid boost.",
+ "risks": "Points only \"qualify\" you for a future distribution. Nothing says what a point is worth or whether points can be cancelled. No founders or team members are named on any SimpleChain page, and no audit is published. TechFlow and ChainCatcher reported a $15 million seed round on 10 April 2026, raised from \"family offices and institutional investors\". No investor is named, so the figure can't be check",
+ "evidence": [
+  "11 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/simplechain/",
+ "checked": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2013-07-17 (4876 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 4876,
+  "checked": "2026-11-23T01:49:42"
+ },
+ "domain_age_days": null,
+ "slug": "simplechain",
+ "dossier": "drops/simplechain.md",
+ "published": "2026-11-23"
+}

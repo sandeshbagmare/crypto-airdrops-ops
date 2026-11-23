@@ -1,0 +1,59 @@
+{
+ "name": "RISEx",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://www.rise.trade",
+ "needs": "",
+ "steps": [
+  "Get an invite code. RISEx is in gated mainnet, and codes come from existing traders, the team or the waitlist referral leaderboard.",
+  "Go to rise.trade , click Trade Now and sign in with Google or an EVM wallet.",
+  "Enter the code, enable trading and switch to the RISE network.",
+  "Deposit USDC from your wallet or to a deposit address.",
+  "Trade. Your balance updates after each weekly drop on the points page ."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "RISEx pays 200,000 RISE Points a week in Season 1, which ends by Q2 2027 at the latest. How to get into the gated perps exchange, costs and risks.",
+ "behind": "RISE is led by co-founder and CEO Sam Battenally; CTO Hai Nguyen previously founded MELD. A $4 million investment from Galaxy Ventures in June 2025 brought RISE's total funding to $8 million, according to its blog, and the docs also name Finality Capital, DACM and Vitalik Buterin as backers. Get the next airdrop first We post new guides, claim openings and deadlines on Telegram and X. Join our Tel",
+ "costs": "At the base fee tier takers pay 0.03% and makers 0.01%, with discounts at higher 14-day volume. The Fees page of the RISE docs on 18 October 2026, with a fee schedule by 14-day volume tier. Source: RISE docs Warning Because fees and slippage count toward points, more points generally means paying more to trade. Leveraged positions can be liquidated, and losses can exceed what the points turn out t",
+ "risks": "The terms bar people in the US, the UK, Canada, Russia, Vietnam, Venezuela and sanctioned countries, among others. From a restricted location the app allows withdrawals only. The audits are now published. The FAQ says: \"Yes. The RISEx exchange contracts were reviewed by Cantina, and the XLP Vault was audited by yAudit.\" An audit doesn't rule out bugs. The terms allow KYC or source-of-funds checks.",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/risex/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "waitlist",
+  "trading"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-09-25 (423 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 423,
+  "checked": "2026-11-23T02:11:04"
+ },
+ "domain_age_days": 423,
+ "slug": "risex",
+ "dossier": "drops/risex.md",
+ "published": "2026-11-23"
+}

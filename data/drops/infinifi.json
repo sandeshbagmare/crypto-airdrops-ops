@@ -1,0 +1,59 @@
+{
+ "name": "infiniFi",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.infinifi.xyz/points",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the Points page Go to the infiniFi Points page and check that Chapter 1 is shown as active.",
+  "2 Step 2 : Connect a wallet Press Connect Wallet on the Points page so your activity can be counted toward points.",
+  "3 Step 3 : Deposit stablecoins to mint iUSD Follow the deposit guide to deposit USDC and receive iUSD, or use the infiniFi app directly.",
+  "4 Step 4 : Hold, stake or lock your iUSD Minting and holding iUSD is listed at 15x. Minting and staking it, or minting and locking it, is listed at 7.5x. Locking means a slower exit.",
+  "5 Step 5 : Check the partner tasks The Points page also lists tasks on partner protocols, such as supplying USDC to the infiniFi vault on Morpho. Read each row&#x27;s task and multiplier before acting.",
+  "6 Step 6 : Follow the chapter dates Chapter 1 ends on 1 December 2026 at 15:59 UTC. The Points Program docs explain how points are earned."
+ ],
+ "end": "2026-12-01",
+ "days": 8,
+ "pool": "",
+ "what": "The InfiniFi Points Program is a live campaign where depositors earn points for minting, staking, locking and holding iUSD, the receipt token of the infiniFi protocol. As of 2 November 2026, the app's Points page shows Chapter 1 as active, running from 1 November to 1 December 2026. Earning requires",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/infinifi",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points",
+  "quests",
+  "nft",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2024-05-06 (931 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 931,
+  "checked": "2026-11-23T07:28:11"
+ },
+ "domain_age_days": 930,
+ "slug": "infinifi",
+ "dossier": "drops/infinifi.md",
+ "published": "2026-11-23"
+}

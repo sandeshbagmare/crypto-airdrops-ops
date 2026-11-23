@@ -86,6 +86,15 @@ A 90 can mean "well documented, and by the way it is shutting down with no token
 
 ## 5. Scripts, in order
 
+One command runs the whole chain in order and reports each step:
+
+```bash
+python tools/refresh.py              # scrape -> verify -> dates -> dedupe -> forensics -> ledger -> site -> queue -> kit
+python tools/refresh.py --skip scrape,forensics
+```
+
+Individual steps:
+
 ```bash
 python tools/scrape_trackers.py     # refresh candidates from 5 trackers
 python tools/verify.py --limit 150  # deep-verify guides, 7-day cache, incremental

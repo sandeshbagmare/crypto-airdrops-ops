@@ -1,0 +1,20 @@
+{
+ "project": "Valantis Labs",
+ "official_url": "https://app.valantis.xyz",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.valantis.xyz",
+ "evidence_so_far": [
+  "airships/valantis-labs/page.txt",
+  "airships/valantis-labs/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Valantis app Go to the Valantis app , where the staking, vault, swap and portfolio sections are listed in the main menu.",
+  "2 Step 2 : Stake HYPE to get stHYPE Use the staking page to stake HYPE and receive stHYPE, the token that Prime trading discounts are built around.",
+  "3 Step 3 : Trade with a Prime account Launch Valantis Prime Trading and trade through a Prime account. This is the activity the Points page suggests.",
+  "4 Step 4 : Check the Points page Return to the Points page to see the suggested activity and the program&#x27;s FAQ."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

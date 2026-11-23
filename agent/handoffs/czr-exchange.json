@@ -1,10 +1,12 @@
 {
  "project": "CZR Exchange",
  "official_url": "",
- "source_url": "https://www.airdropstop.com/airdrops/czr-exchange",
- "blocked_on": "kyc",
- "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
- "what_human_must_do": [
+ "blocked_on": "no-official-site",
+ "why_agent_cannot": "find the official site from the project's own profile",
+ "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
+ "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Open the CZR Genesis Airdrop page Go to the CZR Genesis Airdrop loyalty page , where the quests and your point total are listed.",
   "2 Step 2 : Connect a wallet Press Connect on the wallet quest and approve the link from your wallet. The quest pays 20 points.",
   "3 Step 3 : Register a CZR Exchange account Sign up on the CZR Exchange website and complete its identity verification. The sign-up quest pays 30 points and is one of the required actions.",
@@ -12,14 +14,6 @@
   "5 Step 5 : Work through the unlocked quests Once the required quests are done, the locked ones open: Discord, a second X connection, Telegram follow and channel quests, a referral quest and a 50U token deposit task. The deposit task is optional.",
   "6 Step 6 : Check your points history Sign in with your wallet on the rewards site to view your earned points and your rewards history."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.airdropstop.com/airdrops/czr-exchange",
- "evidence_so_far": [],
- "confidence": 25,
- "evidence": [
-  "6 concrete steps"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

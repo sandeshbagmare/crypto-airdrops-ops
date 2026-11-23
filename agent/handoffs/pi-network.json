@@ -1,0 +1,20 @@
+{
+ "project": "Pi Network",
+ "official_url": "https://minepi.com",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://minepi.com",
+ "evidence_so_far": [
+  "airships/pi-network/page.txt",
+  "airships/pi-network/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Get an invitation from a member Ask an existing trusted member of Pi Network to invite you. The homepage names an invitation as the only thing mining requires.",
+  "2 Step 2 : Download the Pi mobile app Once you have an invitation, install the app from Google Play . The project&#x27;s homepage at minepi.com also links the download.",
+  "3 Step 3 : Start mining Pi Open the app and begin mining Pi. The project says mining is free and that it works on your phone without draining the battery.",
+  "4 Step 4 : Read the whitepaper Read the Pi whitepaper for the mining and token model. The project says its chapters may change as data comes in."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

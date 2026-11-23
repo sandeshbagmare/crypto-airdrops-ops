@@ -1,0 +1,19 @@
+{
+ "project": "xDFi",
+ "official_url": "https://alpha.xdfi.net",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://alpha.xdfi.net",
+ "evidence_so_far": [
+  "airships/xdfi/page.txt",
+  "airships/xdfi/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the xDFi alpha site Go to the official xDFi alpha homepage at alpha.xdfi.net . The airdrop invitation sits at the top of the page, under the main headline.",
+  "2 Step 2 : Join the waitlist Select the Join Waitlist button and follow the sign-up. xDFi says this makes you a recipient of the $100K airdrop.",
+  "3 Step 3 : Follow xDFi for next steps The project has not published a snapshot, a claim date or a payout amount. Check its official homepage again for any update on how the $100K airdrop will be distributed."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

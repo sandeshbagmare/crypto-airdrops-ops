@@ -1,25 +1,21 @@
 {
  "project": "USD.ai",
  "official_url": "https://app.usd.ai",
- "source_url": "https://www.airdropstop.com/airdrops/usd-ai",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.usd.ai",
+ "evidence_so_far": [
+  "airships/usd-ai/page.txt",
+  "airships/usd-ai/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Connect a wallet in the USD.AI app Open the USD.AI app and use Connect Wallet to sign in. The app&#x27;s leaderboard shows Allo for Season 3.",
   "2 Step 2 : Pick the airdrop side with sUSDai Mint USDai on the swap page , then stake it into sUSDai on the stake page . Staking sUSDai is the path the project ties to the airdrop; USDai alone leans toward the ICO. The docs list a 30-day redemption time for sUSDai, against instant for USDai.",
   "3 Step 3 : Choose a strategy Holding USDai or sUSDai is the basic strategy. Curated LP vaults, Pendle liquidity, Pendle YT and YT locking add more Allo, and the project says higher-risk options move Alignment faster. The Allo points guide lists them.",
   "4 Step 4 : Track Allo and Alignment Check your Allo and rank on the leaderboard and your positions under My Positions . Your Airdrop Alignment needs to stay above the average across users.",
   "5 Step 5 : Claim CHIP when it is offered The Season 3 leaderboard carries a Claim CHIP button, and the app has a CHIP section . The project has not published a per-wallet amount."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.usd.ai",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

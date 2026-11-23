@@ -1,24 +1,20 @@
 {
  "project": "ARC Terminal",
  "official_url": "https://www.arcterminal.ai",
- "source_url": "https://www.airdropstop.com/airdrops/arc-terminal",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.arcterminal.ai",
+ "evidence_so_far": [
+  "airships/arc-terminal/page.txt",
+  "airships/arc-terminal/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the ARC homepage The Season 0 claim for Hyperliquid traders sits at the top of the ARC homepage . Use the project&#x27;s own domain to reach it.",
   "2 Step 2 : Connect a wallet that has traded on Hyperliquid The claim tool reads your last 90 days on Hyperliquid, including the fees you paid and any liquidations. It asks for no signature.",
   "3 Step 3 : Review your fees and claim your ARC points Check the totals the tool shows for your wallet and claim the ARC points tied to the fees you already paid.",
   "4 Step 4 : Trade on ARC to keep adding points Open the ARC trading app and place trades. Each trade adds ARC points and moves you up the lifetime leaderboard. ARC is not available to residents of the United Kingdom, the United States or Canada."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.arcterminal.ai",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "4 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

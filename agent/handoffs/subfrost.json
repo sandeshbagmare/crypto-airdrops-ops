@@ -1,27 +1,17 @@
 {
  "project": "Subfrost",
  "official_url": "https://app.subfrost.io/rewards",
- "source_url": "https://99airdrops.com/airdrops/subfrost/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://app.subfrost.io/rewards   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Open app.subfrost.io/rewards and read the three Season 1 steps on the page.",
   "Get the BTC and USD liquidity position. The app can create it from BTC in one transaction.",
   "Deposit it in the PERMAFROST vault to mint cBTCUSD. The vault is open now.",
   "Wait for farming. Opening a farm and bonding FIRE aren't available yet, and the start block hasn't been announced."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.subfrost.io/rewards",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "This is not free and there is no testnet. Wrapping BTC into frBTC costs 0.1%, and so does unwrapping. Pool swaps carry their own fees, and each step is a Bitcoin transaction with a miner fee. On top of those sits the 5% you leave behind when you exit the vault. Warning If you deposit now and change your mind before the season starts, you still pay the 5% exit charge. Waiting for a start date costs",
- "risks": "The full system is unaudited. The docs say that \"although many of its components have been audited, the end-to-end SUBFROST protocol has not.\" The bitcoin behind frBTC is held by nine signers who, according to the docs, \"are not yet publicly identified\". On 2 July 2026 a bug in the Alkanes indexer was used to drain a pool. Subfrost published a post-mortem and says the bitcoin behind it was secured",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,25 +1,18 @@
 {
  "project": "Beldex",
  "official_url": "https://promotions.beldex.io",
- "source_url": "https://www.airdropstop.com/airdrops/beldex",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://promotions.beldex.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Open the Beldex promotions site Go to the Beldex airdrop page and choose to earn credits.",
   "2 Step 2 : Link your X account Connect your X account on the promotions site, which is how you register for the airdrop.",
   "3 Step 3 : Post about Beldex on X Post replies, quote posts or original posts that name @Beldexcoin and include #Beldex. Each kind of post is scored with its own multiplier.",
   "4 Step 4 : Check the Loyalty Program Open the Beldex quest site to see the Loyalty Program, where Beldex Points lead to the leaderboard and airdrop eligibility. Connecting a wallet there lets you view your points and rewards history.",
   "5 Step 5 : Claim after the airdrop event When the airdrop event ends, open the dashboard to collect your share of the BDX."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://promotions.beldex.io",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,11 +1,14 @@
 {
  "project": "infiniFi",
  "official_url": "https://app.infinifi.xyz/points",
- "blocked_on": "unknown",
+ "blocked_on": "wallet_signature",
  "why_agent_cannot": "connect a wallet and approve the signature",
- "what_human_must_do": "Nothing blocking: work the steps in the checklist.",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
  "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.infinifi.xyz/points",
- "evidence_so_far": [],
+ "evidence_so_far": [
+  "airships/infinifi/page.txt",
+  "airships/infinifi/landing.png"
+ ],
  "steps_from_source": [
   "1 Step 1 : Open the Points page Go to the infiniFi Points page and check that Chapter 1 is shown as active.",
   "2 Step 2 : Connect a wallet Press Connect Wallet on the Points page so your activity can be counted toward points.",

@@ -1,0 +1,17 @@
+{
+ "project": "Youmio",
+ "official_url": "https://testnet.youmio.ai",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://testnet.youmio.ai   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Youmio testnet site Go to the Youmio testnet site , which is marked &quot;Live Now&quot; for Season 1 access.",
+  "2 Step 2 : Claim the Green Hoodie wearable if you tested If you took part in the testnet, use the Claim on OpenSea button on that page to claim the Youmio Green Hoodie Digital Wearable SBT.",
+  "3 Step 3 : Apply for access if you missed the testnet If you did not test, use the Apply for Season 1 Access button on the same page to submit the application form.",
+  "4 Step 4 : Earn Stars and Affinity in the Youmio App With Season 1 access, start stacking Stars and building your Affinity in the Youmio App, where Affinity is the route to ecosystem rewards."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,25 +1,21 @@
 {
  "project": "LitVMSwap",
  "official_url": "https://www.litvmswap.com/mint",
- "source_url": "https://www.airdropstop.com/airdrops/litvmswap",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.litvmswap.com/mint",
+ "evidence_so_far": [
+  "airships/litvmswap/page.txt",
+  "airships/litvmswap/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Start from the mint page The homepage banner for the Athes Super Contributor NFT links to the mint page and shows a claim price of 0.00232 ETH.",
   "2 Step 2 : Mint the Athes Super Contributor NFT on Arbitrum The Super Contributor claim page on the rewards site mints the NFT on Arbitrum. The staking page says ASC NFTs are minted there.",
   "3 Step 3 : Use the bridged LitVM copy The staking page says only the soulbound copy bridged to LitVM can be staked, but it does not say how that bridging happens or whether you must do something. The NFTs shown after you connect a wallet on the NFT staking page are the ones that can be staked.",
   "4 Step 4 : Authorize and stake the NFT On the same staking page, approve the staking contract first, then place the NFT into it. Unstaking is open at any time, with no waiting period or penalty.",
   "5 Step 5 : Claim your LitPearls Rewards can be collected on the claim page as long as one NFT remains staked. The LitPearls guide has the full earning rules."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.litvmswap.com/mint",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

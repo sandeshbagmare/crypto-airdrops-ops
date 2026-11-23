@@ -1,0 +1,17 @@
+{
+ "project": "Dreamcash",
+ "official_url": "https://dreamcash.xyz",
+ "blocked_on": "site-unreachable",
+ "why_agent_cannot": "try the URL in your own browser",
+ "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
+ "where_to_resume": "python tools/triage.py https://dreamcash.xyz   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "Download the mobile app from dreamcash.xyz , or open the web app at trade.dreamcash.xyz . Mobile volume carries twice the XP weight of web volume.",
+  "Fund the account. You can buy USDC by card or bank transfer through MoonPay, or deposit crypto such as USDC on Arbitrum.",
+  "Trade perps or spot. All supported markets count equally toward XP. Warning You trade with real money here, and leveraged positions can be liquidated.",
+  "Wait for Thursday, when the XP goes out."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

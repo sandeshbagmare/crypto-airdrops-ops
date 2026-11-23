@@ -1,0 +1,20 @@
+{
+ "project": "Space Nation",
+ "official_url": "https://spacenation.online/oik/trading-rush",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://spacenation.online/oik/trading-rush",
+ "evidence_so_far": [
+  "airships/space-nation/page.txt",
+  "airships/space-nation/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Set up Binance Wallet The campaign runs through Binance Wallet, so have it ready before you start.",
+  "2 Step 2 : Open the Trading Campaign page Start from the Space Nation Trading Campaign page , which the homepage links for joining.",
+  "3 Step 3 : Trade OIK on decentralized exchanges Trade OIK on decentralized exchanges through Binance Wallet. Trading fee rewards of up to 15% are based on your volume.",
+  "4 Step 4 : Read the competition rules The Binance Space Nation trading competition post says only cumulative purchases count and selling is excluded. The homepage does not say whether this applies to the Trading Campaign, so check before you trade."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,20 @@
+{
+ "project": "Picasso Markets",
+ "official_url": "https://www.picasso.markets",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.picasso.markets",
+ "evidence_so_far": [
+  "airships/picasso-markets/page.txt",
+  "airships/picasso-markets/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the homepage Go to the Picasso Markets homepage and read the headline, &quot;The Stock Market. Reimagined.&quot;, along with the ticker row beneath it.",
+  "2 Step 2 : Find the waitlist button The homepage has a button labelled &quot;Join the beta waitlist&quot;. The page does not explain what the button does or when anything opens.",
+  "3 Step 3 : Find the username button The same page has a button labelled &quot;Claim your username&quot;. The homepage does not describe what the username is used for.",
+  "4 Step 4 : Check the homepage again Return to the Picasso Markets homepage later to see whether anything on it has changed."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

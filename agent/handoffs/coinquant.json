@@ -1,25 +1,18 @@
 {
  "project": "CoinQuant",
  "official_url": "https://cqx.coinquant.io",
- "source_url": "https://www.airdropstop.com/airdrops/coinquant",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://cqx.coinquant.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Read the season list on the CQX site Open the CQX token site and look at the airdrop table. Season 3, focused on governance and staking, is the current one and runs from October 2026 to January 2027.",
   "2 Step 2 : Create a CoinQuant account Sign up on the CoinQuant app . Points are tied to your account.",
   "3 Step 3 : Link one wallet to your account Connect a wallet to earn the one-time onboarding points. Each account can link a single wallet, and the privacy policy describes wallet connection as optional for using the platform itself.",
   "4 Step 4 : Run valid backtests Build a strategy in plain English and backtest it on the platform. The points table counts only backtests that meet its validity rules and applies daily and monthly caps.",
   "5 Step 5 : Publish strategies and complete other tasks Share strategies, report bugs, give feedback, refer others or finish the social and content tasks listed in the points table. Read the documentation if you need help with the strategy builder."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://cqx.coinquant.io",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

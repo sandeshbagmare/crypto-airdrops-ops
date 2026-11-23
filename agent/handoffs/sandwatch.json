@@ -1,28 +1,21 @@
 {
  "project": "Sandwatch",
  "official_url": "https://sandwatch.com",
- "source_url": "https://99airdrops.com/airdrops/sandwatch-ai/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://sandwatch.com",
+ "evidence_so_far": [
+  "airships/sandwatch/page.txt",
+  "airships/sandwatch/landing.png"
+ ],
+ "steps_from_source": [
   "Open sandwatch.com and sign in \"With Google, Discord, X, an email code or a Solana wallet.\"",
   "Start Season 2 from your profile, then verify your email.",
   "Connect X, Discord and Telegram, follow @SandwatchAI and @codexsandy, and join the Discord. Each adds to your multiplier.",
   "Share your invite link if you want; a friend only counts after finishing three tasks.",
   "Only if you'd use the app anyway: buy credits and make images or videos, which add more. Warning \"Credits spent on a finished generation, and payments for plans, aren't refundable.\" A Premium Seat isn't sold by Sandwatch: \"Sandwatch doesn't sell seats directly, so you pay the seller's price.\""
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://sandwatch.com",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Signing up and the social tasks cost nothing. Credits are bought in packs or with a monthly plan, and \"Plan credits expire 30 days after they reach your account.\" The app's own code lists videos \"from 48 credits\". The Premium Seat is a Solana NFT, \"2,222 in total and never minted again\", bought from other holders on Magic Eden. Inviting paying users earns real money: \"10% to start, up to 15% as yo",
- "risks": "\"You must be at least 16 years old and legally permitted to enter into binding contracts in your jurisdiction.\" \"You may not use the Platform if you are located in, or a national of, a country subject to sanctions by the UAE, United Nations, European Union, United Kingdom, or OFAC.\" There's no list of countries by name. \"One person may hold one account.\" Multi-accounting and \"exploitation of rewar",
  "created": "2026-11-23",
  "status": "open"
 }

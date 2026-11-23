@@ -1,27 +1,17 @@
 {
  "project": "Variational",
  "official_url": "https://omni.variational.io",
- "source_url": "https://99airdrops.com/airdrops/variational/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://omni.variational.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Find an access code. Omni is in private beta, and Variational shares codes in its Discord and on X.",
   "Go to omni.variational.io , click Connect Wallet and enter the code. Accept the terms of use, wait while your portfolio is created, then click Authenticate and sign the login message. The signature is free. Warning Withdrawals can only go back to the wallet you signed up with, so sign up with a wallet you plan to keep.",
   "Get USDC onto Arbitrum, bridging it from another chain if you need to, and deposit it with the Deposit button. Omni takes a flat 0.1 USDC from every deposit and withdrawal.",
   "Trade. Points arrive every Friday at 0:00 UTC and cover your activity up to 0:00 UTC the day before."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://omni.variational.io",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Using Omni costs very little in fees: nothing to trade and 0.1 USDC per transfer. Warning The bigger cost is market risk. A leveraged position can be liquidated, and a losing trade can easily cost more than the points end up being worth.",
- "risks": "You can't open an account without an access code while the beta lasts. Restricted persons can't use Omni. Variational's docs put people in the US, Canada and Taiwan, US territories and sanctioned regions in that group. Variational can change the points program or any account's total at its discretion. The docs name inorganic behavior and breaches of the terms of use as examples. Points have no fix",
  "created": "2026-11-23",
  "status": "open"
 }

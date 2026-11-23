@@ -1,0 +1,18 @@
+{
+ "project": "Nexira",
+ "official_url": "https://www.nexira.ai/airdrops",
+ "blocked_on": "site-unreachable",
+ "why_agent_cannot": "try the URL in your own browser",
+ "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
+ "where_to_resume": "python tools/triage.py https://www.nexira.ai/airdrops   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the airdrop page and register Go to the Nexira airdrop page and register for the campaigns. The page lists Airdrop Season 1, Airdrop Season 2, the New Year&#x27;s Campaign and Ruby Unlock Week.",
+  "2 Step 2 : Complete missions to claim Reward Boxes Finish the missions, tasks and mini-events shown for a campaign to earn Reward Boxes. The project says it checks task completion with on-chain and social data.",
+  "3 Step 3 : Open your boxes to receive Locked Ruby Opening a Reward Box gives you Locked Ruby. It unlocks into Ruby once you complete the required missions and the Pre-TGE unlock window arrives.",
+  "4 Step 4 : Convert Ruby to NEXI Ruby is what converts to NEXI at TGE. Check the airdrop page for the current state of claiming, since its printed February 2026 dates have passed.",
+  "5 Step 5 : Read the allocation details The tokenomics page shows how the airdrop allocation sits next to the other token allocations and their vesting."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

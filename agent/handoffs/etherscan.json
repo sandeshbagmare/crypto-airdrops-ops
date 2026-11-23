@@ -1,0 +1,17 @@
+{
+ "project": "Etherscan",
+ "official_url": "https://etherscan.io/points",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://etherscan.io/points   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Etherscan Points page Go to the Etherscan Points Beta page , which hosts the 10th Anniversary campaign.",
+  "2 Step 2 : Follow the tasks on the Points page The page invites visitors to earn points, claim the badge and complete tasks. Follow the tasks the Points page shows you.",
+  "3 Step 3 : Sign in from the Points page Use the Sign in button on the Points page . Points can be redeemed only while you are signed in.",
+  "4 Step 4 : Redeem points for a perk Pick a reward from the Points Redemption list, such as the OG Badge or the one-month API upgrade, and spend the points it costs."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

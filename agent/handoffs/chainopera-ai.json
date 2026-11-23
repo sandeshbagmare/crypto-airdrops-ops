@@ -1,24 +1,20 @@
 {
  "project": "ChainOpera AI",
  "official_url": "https://chat.chainopera.ai",
- "source_url": "https://www.airdropstop.com/airdrops/chainopera-ai",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://chat.chainopera.ai",
+ "evidence_so_far": [
+  "airships/chainopera-ai/page.txt",
+  "airships/chainopera-ai/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the ChainOpera AI Terminal Go to the ChainOpera AI sign-in page , which is headed &quot;Log in or sign up&quot;.",
   "2 Step 2 : Connect a wallet Choose one of the wallet options offered on the page and connect it. The page says that logging in and connecting a wallet is what earns points.",
   "3 Step 3 : Read the policies you accept By continuing you agree to the Privacy Policy and read the Terms of Use .",
   "4 Step 4 : Explore the agents in the Terminal The sign-in page lists no point-earning actions beyond connecting. The white paper overview describes what the Terminal offers, so you can see what there is to use."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://chat.chainopera.ai",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "4 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

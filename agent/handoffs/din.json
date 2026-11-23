@@ -1,25 +1,21 @@
 {
  "project": "DIN",
  "official_url": "https://airdrop.din.lol",
- "source_url": "https://www.airdropstop.com/airdrops/din",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://airdrop.din.lol",
+ "evidence_so_far": [
+  "airships/din/page.txt",
+  "airships/din/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the DIN airdrop site Go to the DIN airdrop site , which the project homepage links as Claim Airdrop.",
   "2 Step 2 : Connect a wallet Press Connect Wallet on the airdrop site to link the wallet you want checked.",
   "3 Step 3 : Check your eligibility The site checks whether the wallet is eligible to claim DIN. It gives no eligibility rules in advance, so the result on screen is the only answer.",
   "4 Step 4 : Claim DIN if the wallet qualifies Follow the prompts on the airdrop site if it shows the wallet as eligible. The site gives no claim deadline.",
   "5 Step 5 : Optionally open the staking page The staking page takes an amount of DIN and a lock period of 30D, 90D, 180D or 360D, and has a Claim Rewards tab. It is separate from the eligibility check."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrop.din.lol",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

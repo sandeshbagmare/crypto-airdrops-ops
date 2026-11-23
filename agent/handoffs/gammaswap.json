@@ -1,0 +1,21 @@
+{
+ "project": "GammaSwap",
+ "official_url": "https://app.gammaswap.com",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.gammaswap.com",
+ "evidence_so_far": [
+  "airships/gammaswap/page.txt",
+  "airships/gammaswap/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the GammaSwap app Open the GammaSwap app through the Launch App link on the homepage .",
+  "2 Step 2 : Sign a deposit Fund your account by signing a deposit in the app. The docs say the exchange pays the gas for deposits and order submissions, and later trades skip the wallet confirmation.",
+  "3 Step 3 : Pick a market Choose BTC or ETH and a 5 minute or 15 minute window, then pick Up or Down.",
+  "4 Step 4 : Read the interface guide The GammaSwap blog lists a guide to the V2 interface and order types.",
+  "5 Step 5 : Browse the docs The docs include a page for crypto beginners and a Points page ."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,22 +1,12 @@
 {
  "project": "cambria-logo",
  "official_url": "https://airdrops.io/goto/bybit",
- "source_url": "https://airdrops.io/cambria/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
-  "Read the official site and follow its stated steps."
- ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/bybit",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://airdrops.io/goto/bybit   # then re-run bulk_apply",
  "evidence_so_far": [],
- "confidence": 15,
- "evidence": [
-  "official site linked",
-  "costs disclosed",
-  "no steps found (-15)"
- ],
- "costs": "Medium",
- "risks": "",
+ "steps_from_source": [],
  "created": "2026-11-23",
  "status": "open"
 }

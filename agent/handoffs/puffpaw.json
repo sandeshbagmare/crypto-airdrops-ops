@@ -1,25 +1,21 @@
 {
  "project": "Puffpaw",
  "official_url": "https://gen2.puffpaw.xyz",
- "source_url": "https://www.airdropstop.com/airdrops/puffpaw",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://gen2.puffpaw.xyz",
+ "evidence_so_far": [
+  "airships/puffpaw/page.txt",
+  "airships/puffpaw/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Get a Puffpaw vape Buy a vape from the Puffpaw shop , and pods from the pods page . The Puffpaw site asks visitors to confirm they are 21+, and the app guide also mentions leased vapes.",
   "2 Step 2 : Install the Puffpaw app Open the app guide and pick iOS, Android or the Chrome web app.",
   "3 Step 3 : Pair the vape over Bluetooth Switch on Bluetooth and connect the vape in the app. If a browser finds no vapes, the guide says to enable Bluetooth in Chrome, disconnect from the phone&#x27;s built-in Bluetooth and reconnect in the app.",
   "4 Step 4 : Vape daily and keep the data synced The device records your puffs, and the app includes the uploaded puff data in that day&#x27;s reward distribution. Only one vape can be connected to the app at a time.",
   "5 Step 5 : Reconnect before the day ends Since the vape upgrade , a vape can hold up to 300 puffs while offline. Open the app with the vape connected before the day is over, so that day&#x27;s puff data is uploaded and counted in its reward distribution."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://gen2.puffpaw.xyz",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

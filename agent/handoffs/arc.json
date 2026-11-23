@@ -1,27 +1,17 @@
 {
  "project": "Arc",
  "official_url": "https://community.arc.io",
- "source_url": "https://99airdrops.com/airdrops/arc/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://community.arc.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Join Arc House and finish the onboarding profile for your first 50 points.",
   "Spend your time where the points are: events, useful forum answers and original articles.",
   "If you build, get free testnet USDC from Circle's faucet and deploy on the Arc testnet.",
   "Add Arc mainnet to your wallet and try its apps. Gas is paid in USDC, so a small balance is enough. Warning Mainnet apps use real funds. They are built by other teams, and each one carries its own smart contract risk."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://community.arc.io",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Arc House and the testnet are free. Using apps on mainnet costs a small amount of USDC in fees.",
- "risks": "No airdrop has been announced, and Circle says the ARC mint is not a commitment to a public launch. Arc House points reward community activity. The rules page doesn't link them to any token.",
  "created": "2026-11-23",
  "status": "open"
 }

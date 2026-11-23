@@ -1,28 +1,21 @@
 {
  "project": "Embervale",
  "official_url": "https://embervalegame.com",
- "source_url": "https://99airdrops.com/airdrops/embervale/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "confirm the domain against the project's own profile before touching it (forensics flags it)",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://embervalegame.com   # then re-run bulk_apply",
+ "evidence_so_far": [
+  "airships/embervale/page.txt",
+  "airships/embervale/landing.png"
+ ],
+ "steps_from_source": [
   "Use only embervalegame.com and the X account @Embervale_. We found no official Discord or Telegram.",
   "Open Early Access and press Connect to sign in with X. The page says: \"We only read your username and picture.\" Warning This is an X login on a site that is days old, run by people who don't name themselves. Read the permission screen before you accept, and remove the app's access in your X settings when you're done.",
   "Do the X tasks on the pinned post, then enter a public wallet address for Robinhood Chain and press Join Early Access.",
   "For the whitelist, write your own post, thread or art about the game that tags @Embervale_. Paste its link and your wallet address, and submit. Keep the post up: the site's review code marks applications with flags such as \"post gone\" and \"same post as others\".",
   "Wait for news of the mint on @Embervale_. No date, contract or mint page is published. Warning The forms ask only for a public address. Never type a seed phrase or private key anywhere, and ignore DMs offering early mints or EMBER."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://embervalegame.com",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "The three forms ask for no payment, and the NFT is billed as a free mint. Embervale hasn't said whether minting needs gas. On Robinhood Chain, \"Transaction fees are denominated in ETH, the same as on Ethereum.\" The site's copy for after launch says: \"Connect your wallet, get your farm license and start farming.\" It doesn't say what a farm license is or what it costs. EMBER is meant to be spent in ",
- "risks": "There are no terms of use, no privacy policy, no country list, no age limit and no rules for the mint. Entry is built on promotion. The pinned post had 12,190 replies and 6,958 quote posts by 16 October, mostly from people doing the Early Access tasks. The site collects X names and wallet addresses without saying how they're used. Its admin text says: \"The CSV has everyone with a wallet.\" The Robi",
  "created": "2026-11-23",
  "status": "open"
 }

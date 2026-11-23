@@ -1,10 +1,15 @@
 {
  "project": "SoSoValue",
  "official_url": "https://ssi.sosovalue.com/reward",
- "source_url": "https://www.airdropstop.com/airdrops/sosovalue",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://ssi.sosovalue.com/reward",
+ "evidence_so_far": [
+  "airships/sosovalue/page.txt",
+  "airships/sosovalue/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the SSI rewards site Go to the SSI reward page and read the Epoch 5 details, which show the 21 May to 17 November 2026 schedule and the 15,000,000 SOSO pool.",
   "2 Step 2 : Connect a wallet Use the Connect Wallet button on the SSI site so your holdings and points are tied to one wallet.",
   "3 Step 3 : Get an SSI token Buy one of the SSI index tokens through the SSI site. Points are only counted for SSI tokens you hold, stake or lock.",
@@ -12,16 +17,6 @@
   "5 Step 5 : Optionally stake SOSO for a boost Staking SOSO beside your SSI tokens increases your loyalty points. A boost of at least 1% is required to take part in it.",
   "6 Step 6 : Wait for the distribution Rewards are paid after Epoch 5 ends, following SoSoValue&#x27;s final announcement. The EXP page separately lists Season 3 activity."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://ssi.sosovalue.com/reward",
- "evidence_so_far": [],
- "confidence": 60,
- "evidence": [
-  "6 concrete steps",
-  "official site linked",
-  "deadline stated"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

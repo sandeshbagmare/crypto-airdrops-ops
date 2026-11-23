@@ -1,25 +1,18 @@
 {
  "project": "Wallet V",
  "official_url": "https://walletv.io/public_front/VPointsProgram.html",
- "source_url": "https://www.airdropstop.com/airdrops/wallet-v",
- "blocked_on": "email",
- "why_agent_cannot": "an email confirmation link must be opened by the human",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://walletv.io/public_front/VPointsProgram.html   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Check that you are eligible The VPoints terms require you to be a Canadian resident aged 18 or older, able to enter the program where you live, with a unique and valid email address or mobile number.",
   "2 Step 2 : Install the Wallet V app Download Wallet V from the App Store or Google Play and set up your wallet.",
   "3 Step 3 : Complete the one-time and daily tasks The terms list a first deposit, a first transfer to a perpetual trading account or prediction market account, a first use of earn, and a daily check-in as tasks that earn VPoints.",
   "4 Step 4 : Use the activities that earn points VPoints accrue automatically from on-chain swaps, cross-chain swaps, prediction market trading and perpetual trading, as set out in the app from time to time.",
   "5 Step 5 : Redeem VPoints for a VIP tier Spend VPoints in the app to unlock a Wallet V VIP tier, which raises your multiplier on eligible trading volume in the Trade &amp; Win volume-based draw."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://walletv.io/public_front/VPointsProgram.html",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

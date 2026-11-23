@@ -1,25 +1,18 @@
 {
  "project": "3DOS",
  "official_url": "https://3dos.io",
- "source_url": "https://www.airdropstop.com/airdrops/3dos-and-trade",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://3dos.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Confirm you own a 3D printer The beta is open to 3D printer owners. Have the number of printers and their models ready before you apply.",
   "2 Step 2 : Open the 3DOS homepage Go to the 3DOS homepage and scroll to the sign-up form for connecting printers, below the team section.",
   "3 Step 3 : Fill in the contact form Enter your name and email address, how many printers you have, and which models. The form also asks which appeals to you more: printing for yourself or making money printing for others.",
   "4 Step 4 : Accept the terms and submit Tick the agreement to the Terms &amp; Conditions , complete the robot check and send the form.",
   "5 Step 5 : Follow project updates 3DOS posts on X and runs a Discord server . Check them for news on the beta and rewards."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://3dos.io",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

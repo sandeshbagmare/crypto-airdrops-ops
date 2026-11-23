@@ -1,0 +1,19 @@
+{
+ "project": "GAIB AI",
+ "official_url": "https://aid.gaib.ai",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://aid.gaib.ai",
+ "evidence_so_far": [
+  "airships/gaib-ai/page.txt",
+  "airships/gaib-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Get AID or sAID on Ethereum Open the GAIB app and acquire AID, or stake AID to mint sAID. Holdings on Ethereum are the main route in, and Pendle YT and LP positions in the new sAID market count as well.",
+  "2 Step 2 : Keep at least $300 through the month Keep holdings worth $300 or more in the program for the whole month. The renewal lowered this minimum from $2,500.",
+  "4 Step 4 : Claim your GAIB each month Monthly rewards are distributed on the 7th and arrive with no vesting. Claim them each month: under the original March terms, every payout had a two-week window, after which leftover tokens went back to the treasury. The renewal announcement does not restate that window."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

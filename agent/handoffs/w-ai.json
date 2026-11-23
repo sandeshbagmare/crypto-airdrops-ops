@@ -1,0 +1,20 @@
+{
+ "project": "W.AI",
+ "official_url": "https://www.w.ai",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.w.ai",
+ "evidence_so_far": [
+  "airships/w-ai/page.txt",
+  "airships/w-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the W.AI homepage Go to the W.AI homepage , where the app download and the network panel are found.",
+  "2 Step 2 : Download the W.AI app Use the download option on the homepage to install the W.AI app on the device you want to contribute.",
+  "3 Step 3 : Share idle compute Let the app use the device&#x27;s idle compute power. The homepage says GPU compute cycles are what operators contribute to the network.",
+  "4 Step 4 : Earn W COIN rewards Keep contributing to the network. The homepage says this earns W COIN rewards, and it gives no amount or claim process."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

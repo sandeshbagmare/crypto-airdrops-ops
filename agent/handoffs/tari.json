@@ -1,0 +1,21 @@
+{
+ "project": "Tari",
+ "official_url": "https://airdrop.tari.com",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://airdrop.tari.com",
+ "evidence_so_far": [
+  "airships/tari/page.txt",
+  "airships/tari/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Tari Rewards site Go to the Tari Rewards site , where the campaign is run and Tari Universe is offered for download.",
+  "2 Step 2 : Download Tari Universe for your system Pick the version for your Mac, PC or Linux computer from the rewards site and download it.",
+  "3 Step 3 : Install the app Run the installer for Tari Universe on your computer until the app is ready to open.",
+  "4 Step 4 : Run Tari Universe to mine Start the app. The rewards site says that running it is how you begin earning XTM.",
+  "5 Step 5 : Read the FAQ on claims Check the FAQ on the Tari Rewards site for its entries on the community allocation, unclaimed tokens and the claim deadline."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

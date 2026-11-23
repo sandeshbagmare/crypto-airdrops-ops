@@ -1,0 +1,18 @@
+{
+ "project": "TINA",
+ "official_url": "https://tina.im",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://tina.im   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the TINA homepage Start at the TINA homepage , which presents TINA SPACE and links to the official app downloads.",
+  "2 Step 2 : Install the TINA app Download the app from Google Play or the App Store .",
+  "3 Step 3 : Contribute map data The homepage assigns users data generation (registration) and links to the app for joining TINA SPACE. It does not list the individual task types.",
+  "4 Step 4 : Take part in verification Take part in verification, which the homepage lists as a user role alongside data generation.",
+  "5 Step 5 : Follow the project notices Read the news page and the notices linked from the homepage for project and token updates."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

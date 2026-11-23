@@ -1,0 +1,20 @@
+{
+ "project": "Play AI",
+ "official_url": "https://playai.network/plai",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://playai.network/plai",
+ "evidence_so_far": [
+  "airships/play-ai/page.txt",
+  "airships/play-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the PLAI page Go to the PLAI page on the project&#x27;s own site, where the token and its claim are presented.",
+  "2 Step 2 : Select Claim Now In the Claim Your Tokens section, choose Claim Now and follow what the claim screen asks for.",
+  "3 Step 3 : Compare the contract address The same page prints the PLAI contract address as 0x9215e6362F76fc781df00D51293CC7179C6C99A4. Use it to confirm the token you see in your wallet.",
+  "4 Step 4 : Look at Aura in Play Hub If you also want to follow the Aura side, open Play Hub , which includes a Farm Aura section. The site does not explain how Aura is scored."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

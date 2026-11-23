@@ -1,0 +1,21 @@
+{
+ "project": "OneFootball Club",
+ "official_url": "https://onefootball.com/payments/sign-in",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://onefootball.com/payments/sign-in",
+ "evidence_so_far": [
+  "airships/onefootball-club/page.txt",
+  "airships/onefootball-club/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Log in with a OneFootball account Sign in on the OneFootball sign-in page , or create an account from there. The FanPass site starts from this login.",
+  "2 Step 2 : Create your FanPass Open the FanPass site and create your FanPass with your OneFootball login.",
+  "3 Step 3 : Earn XP and grow your FanScore Play, predict and collect, and interact with OneFootball and its partner apps. Each action adds XP and lifts your FanScore.",
+  "4 Step 4 : Complete the weekly challenges Take on the weekly challenges and keep up club activity to climb the leaderboard. The homepage ties weekly activity to OFC rewards.",
+  "5 Step 5 : Claim your OFC through FanPass Claim the OFC you have earned through FanPass. Start from the OneFootball Club homepage if you want the overview first."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

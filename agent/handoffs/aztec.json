@@ -1,0 +1,22 @@
+{
+ "project": "Aztec",
+ "official_url": "https://docs.aztec.network",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://docs.aztec.network",
+ "evidence_so_far": [
+  "airships/aztec/page.txt",
+  "airships/aztec/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Read the Aztec docs Open the Aztec documentation to see the current developer guides before you install anything.",
+  "2 Step 2 : Install the toolchain Follow the local network guide . It requires Node.js 24 and installs the aztec, aztec-wallet and aztec-nargo tools with one command.",
+  "3 Step 3 : Start the local network Run aztec start --local-network and wait for the log line saying the Aztec server is listening on port 8080.",
+  "4 Step 4 : Create a wallet account Import the three prefunded test accounts with aztec-wallet, then create your own account with the aztec-wallet create-account command shown in the same guide.",
+  "5 Step 5 : Deploy a test token Deploy the example token contract, mint some tokens and move some from public to private balance, following the guide&#x27;s commands.",
+  "6 Step 6 : Request devnet or testnet funds The faucet announcement explains how to request Sepolia ETH and Fee Juice for devnet or testnet."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

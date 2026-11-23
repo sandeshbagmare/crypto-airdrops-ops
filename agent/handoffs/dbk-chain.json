@@ -1,0 +1,12 @@
+{
+ "project": "DBK Chain",
+ "official_url": "https://airdrops.io/goto/binance",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://airdrops.io/goto/binance   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [],
+ "created": "2026-11-23",
+ "status": "open"
+}

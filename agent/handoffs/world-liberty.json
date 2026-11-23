@@ -1,0 +1,21 @@
+{
+ "project": "World Liberty",
+ "official_url": "https://worldlibertyfinancial.com/usd1-points",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://worldlibertyfinancial.com/usd1-points",
+ "evidence_so_far": [
+  "airships/world-liberty/page.txt",
+  "airships/world-liberty/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the USD1 Points page Start on the USD1 Points page , which lists the 8 partner programs and marks each as a hold program, a trade program or both.",
+  "2 Step 2 : Pick a program that fits how you use USD1 WLFI Markets and Dolomite are hold programs. Binance is a trade program, and Flipster, Gate, KuCoin, MEXC and LBank cover trading USD1 pairs or holding USD1.",
+  "3 Step 3 : Supply at least 1,000 USD1 on WLFI Markets For the WLFI Markets route, deposit at least 1,000 USD1 through WLFI Markets and leave it in Dolomite so the points keep building.",
+  "4 Step 4 : Follow the partner&#x27;s own details page For an exchange program, open its &quot;See program details&quot; link on the points page and follow that platform&#x27;s rules for trading or holding USD1.",
+  "5 Step 5 : Check your points on the platform that issued them Points are displayed where they are earned, so look in the WLFI application or on the partner platform. The USD1 Points docs explain the rules."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,28 +1,21 @@
 {
  "project": "Hashcats",
  "official_url": "https://hashcats.fun/docs",
- "source_url": "https://99airdrops.com/airdrops/hashcats/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://hashcats.fun/docs",
+ "evidence_so_far": [
+  "airships/hashcats/page.txt",
+  "airships/hashcats/landing.png"
+ ],
+ "steps_from_source": [
   "Read the Hashcats docs and check the live numbers on the homepage first: the entry price, the epoch and when the last cat was mined.",
   "Set up a wallet on Robinhood Chain with enough ETH for the entry price and gas.",
   "Open the Mine page and connect the wallet. A solution you find works only for your own address.",
   "Choose CPU or GPU mining, check the cost of the next cat and start.",
   "When your browser finds a hash, confirm the transaction, which sends the entry price. The docs say a solution \"dies with the next cat, or in about 25 seconds\", so a mint can fail through no fault of yours."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://hashcats.fun/docs",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "The entry price was 0.16368 ETH on 8 October 2026, and gas on Robinhood Chain adds very little. The early cats cost a small fraction of that. You also spend electricity and time on the mining itself, with no guarantee of finding a hash before someone else does.",
- "risks": "We found no audit. The main collection contract has no verified source code on the public verification services we checked. A single ordinary account owns the collection, the token and the hook, and the staking contracts were upgraded once already, on 18 September 2026. A quarter of what the hook takes in goes to the project. Its token page says: \"25% of everything the hook takes in is set aside f",
  "created": "2026-11-23",
  "status": "open"
 }

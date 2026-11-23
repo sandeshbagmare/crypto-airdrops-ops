@@ -1,10 +1,15 @@
 {
  "project": "Decentralized Intelligence",
  "official_url": "https://di.xyz/check-in",
- "source_url": "https://99airdrops.com/airdrops/decentralized-intelligence/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://di.xyz/check-in",
+ "evidence_so_far": [
+  "airships/decentralized-intelligence/page.txt",
+  "airships/decentralized-intelligence/landing.png"
+ ],
+ "steps_from_source": [
   "Open di.xyz/check-in and check the address bar. Use a wallet that holds only a little BNB.",
   "Press Connect &amp; sign in and choose your wallet. \"First login requires a free signature. No gas or asset transfer.\"",
   "Switch the wallet to BNB Chain and keep some BNB in it. Without it the page answers: \"Add enough BNB to cover network gas, then try again.\"",
@@ -12,19 +17,6 @@
   "For extra points, link your X account in the Task Center (\"Link an X account before starting X tasks.\"), follow DI, join the Telegram group and do the daily tasks that are open. If the X link fails, the page's advice is \"Avoid in-app browsers and VPNs.\"",
   "Keep an eye on DI's X account for the Genesis NFT mint. Its date, price and rules aren't published."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://di.xyz/check-in",
- "evidence_so_far": [],
- "confidence": 90,
- "evidence": [
-  "6 concrete steps",
-  "official site linked",
-  "deadline stated",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "DI takes no fee. The first sign-in is a free signature, and each check-in is a BNB Chain transaction that carries no value, so the cost is network gas: a small amount per day, 30 times over to reach the milestone, paid in BNB. The bigger unknown is the mint. A whitelist spot may still mean paying for the NFT, and DI hasn't published a price. Later on, the whitepaper plans paid data access and a da",
- "risks": "The numbers don't favour you. The Genesis page lists \"2,000 UNIQUE IDENTITIES\", and 126,674 wallets have checked in. DI hasn't said how whitelisted wallets will share 2,000 NFTs, or how many wallets have already reached 30. What the NFT brings is left open: \"Details of token support and benefits will be announced separately.\" The whitepaper says only that \"Seed users from 2,000 founding NFTs will ",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -71,9 +71,16 @@ Classified queue: 231 need a wallet signature, 129 need nothing human-only, 95 n
 session, 43 need KYC, 24 need an email click. An agent can work the 129 alone; the rest resume from
 its handoff file the moment the operator does their part.
 
+Every drop has now been live-checked in a real browser. The result, with one row per drop and the
+exact action that unblocks it, is `data/blockers.xlsx` (546 rows, filterable, `Summary` sheet first).
+The identity/login roster - which identity each drop needs, never a credential - is
+`notes/credentials-context.md`.
+
 ```bash
 python tools/agent_bootstrap.py --top 30     # rebuild the queue and packets
 python tools/agent_browser.py --identity main --url <official>   # login window + saved session
+python tools/bulk_apply.py --workers 8       # live-check the whole ledger (~15 min, 8 tabs)
+python tools/blocker_workbook.py             # rebuild data/blockers.xlsx + reports
 ```
 
 ## Browser site
@@ -128,6 +135,8 @@ every row. That is the ordinary activity of a news aggregator or a search index.
 | `tools/scrape_trackers.py` | Fetches all five trackers; renders two of them with Playwright |
 | `tools/build_ledger.py` | Rebuilds `ledger.md` + `ledger.xlsx` from the JSON |
 | `tools/triage.py` | Domain forensics: RDAP age, punycode/homoglyph, TLS, DNS, scam verdict |
+| `tools/bulk_apply.py` | Live-checks every drop: domain verdict, page text, screenshot, blocker |
+| `tools/blocker_workbook.py` | `data/blockers.xlsx` + batch report + login roster + `STATE.json` |
 | `tools/monitor.py` | Nightly diff of trackers, append-only change log |
 | `skills/` | Agent skills: `airdrop-recon`, `airdrop-apply`, `airdrop-agent` |
 | `airships/` | Proof per project: confirmation screenshots, tx hashes |

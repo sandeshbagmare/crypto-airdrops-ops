@@ -1,0 +1,18 @@
+{
+ "project": "ALIENX",
+ "official_url": "https://bridge.alienxchain.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://bridge.alienxchain.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the ALIENX bridge Go to the ALIENX bridge , which the project&#x27;s homepage links for moving assets onto the chain. Bridging to ALIENX is one of the two actions the Early Bird campaign counts for airdrop points.",
+  "2 Step 2 : Bridge assets to ALIENX Send assets across with the bridge and confirm the transaction in your wallet. The homepage does not say which assets or what minimum amount qualify.",
+  "3 Step 3 : Invite friends Inviting friends is the second action the homepage names for earning airdrop points. It does not describe how invitations are tracked.",
+  "4 Step 4 : Join the Quest Open the ALIENX Quest page to take part in the 3-week Quest that pays AIX. The homepage gives no dates for it.",
+  "5 Step 5 : Watch for the points redemption Check the ALIENX homepage for news on redeeming points, which its roadmap places in June."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

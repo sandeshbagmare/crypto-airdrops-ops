@@ -1,27 +1,20 @@
 {
  "project": "42",
  "official_url": "https://www.42.space",
- "source_url": "https://99airdrops.com/airdrops/42-space/",
- "blocked_on": "email",
- "why_agent_cannot": "an email confirmation link must be opened by the human",
- "what_human_must_do": [
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.42.space",
+ "evidence_so_far": [
+  "airships/42/page.txt",
+  "airships/42/landing.png"
+ ],
+ "steps_from_source": [
   "Check the restricted list below, then open www.42.space . The docs are at docs.42.space. Ignore other domains.",
   "Sign in with an email address or an existing wallet, and use the same method each time. A referral code is optional: you can choose \"or, skip to enter app\".",
   "Fund your account with USDT: \"make sure to only send USDT on BSC to the wallet address.\" Or use the swap option, where \"All tokens will be swapped and bridged to USDT on Binance Smart Chain (BSC).\"",
   "After each Wednesday close, check the Points page. Claim winning positions from your portfolio once a market resolves."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.42.space",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "There is no free route. The fee page puts the 42 app's total at 2.0% per trade, 1.0% to the protocol and 1.0% to the app, though its own worked example uses 1.4%. The fee is charged when you buy and again when you sell. Sells also pay a redemption tax that rises as the market nears its result. Blitz charges 1.6% in total, and its \"positions cannot be sold\". Network gas is \"also paid in BUSDT from ",
- "risks": "The terms bar people \"located in, organized in, residents of, or citizens of\" 35 places, among them the United States, the United Kingdom, France, Germany, Italy, Poland, Portugal, Belgium, Australia, Ontario, Singapore, Thailand, Taiwan and Russia. \"This list may be updated at any time without prior notice.\" VPNs are banned: \"Violation of this provision may result in immediate termination of acce",
  "created": "2026-11-23",
  "status": "open"
 }

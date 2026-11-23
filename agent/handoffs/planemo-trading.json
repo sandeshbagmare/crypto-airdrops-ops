@@ -1,0 +1,20 @@
+{
+ "project": "Planemo Trading",
+ "official_url": "https://www.planemotrading.xyz",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.planemotrading.xyz",
+ "evidence_so_far": [
+  "airships/planemo-trading/page.txt",
+  "airships/planemo-trading/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Planemo site Go to the Planemo Trading homepage and read the restricted jurisdiction notice first, since the product is unavailable to US persons and some other regions.",
+  "2 Step 2 : Read the terms Open the Terms of Service to see the conditions for using the service.",
+  "3 Step 3 : Pick an exchange The homepage has a Trade button for each supported exchange that leads to its Planemo page, for example Extended or Hyperliquid .",
+  "4 Step 4 : Review the strategies The Origin Round page describes the strategies, and the app has users deposit capital for them to trade. That page also covers the round itself, a paid allocation in USDC, USDT or ETH for existing users."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

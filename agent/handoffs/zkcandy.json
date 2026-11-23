@@ -1,0 +1,17 @@
+{
+ "project": "ZKcandy",
+ "official_url": "https://zkcandy.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://zkcandy.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Find the portal link on the homepage The ZKcandy homepage links an &quot;Enter Portal&quot; button to the ZKcandy portal . Sign-up there during the 2024 testnet required an invite code; the current requirement is not stated.",
+  "2 Step 2 : Look at the linked Galxe quest The homepage links a Galxe quest . Its tasks and rewards are not described here.",
+  "3 Step 3 : Look at the linked Layer3 campaign The homepage also links a Layer3 campaign . Its tasks and rewards are not described here.",
+  "4 Step 4 : Check the project&#x27;s homepage for updates Return to the ZKcandy homepage to see whether the campaign invitation is still shown and which quests it links to."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

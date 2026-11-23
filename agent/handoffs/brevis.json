@@ -1,0 +1,21 @@
+{
+ "project": "Brevis",
+ "official_url": "https://brevis.network",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://brevis.network",
+ "evidence_so_far": [
+  "airships/brevis/page.txt",
+  "airships/brevis/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Brevis website Start at the Brevis homepage , which introduces the platform as an infinite compute layer built on zero-knowledge proofs and links to its documentation and community.",
+  "2 Step 2 : Read the ProverNet beta post The mainnet beta announcement explains what is live: the marketplace, proof auctions and the roles open to provers and applications.",
+  "3 Step 3 : Choose a role Decide whether you want to run a prover node or submit proof requests as an application. The announcement describes both roles and is open to each.",
+  "4 Step 4 : Follow the setup guide for your role The announcement links documentation for running a prover node on GPU or CPU, and a separate guide for requesting proofs. Use the one that matches your role.",
+  "5 Step 5 : Note the payment currency During the beta, ProverNet settles payments in USDC. Check the documentation for the role you picked before sending any transaction."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

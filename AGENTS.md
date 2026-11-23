@@ -103,6 +103,11 @@ python tools/build_site.py          # rebuild docs/index.html
 python tools/triage.py <url>        # domain forensics before any wallet touches a site
 python tools/agent_bootstrap.py     # create session dirs + per-drop handoff packets
 python tools/agent_browser.py --identity <id> --url <official>  # persistent login session
+python tools/bulk_apply.py --workers 8   # live-check EVERY drop: refuses dead domains, opens the
+                                         # official page, saves page.txt + landing.png, records the
+                                         # blocker. Never submits, never signs, never types a secret.
+python tools/blocker_workbook.py    # data/blockers.xlsx + notes/batch-report.md +
+                                    # notes/credentials-context.md + agent/STATE.json refresh
 ```
 
 ## 6. Selection policy
@@ -162,6 +167,13 @@ Every blocked step produces `agent/handoffs/<project>-<step>.json`:
 
 `agent/STATE.json` is the machine queue: one entry per drop with `status`, `blocked_on`, `next_action`
 and `updated`. Update it on every transition. Never leave it stale - it is how the next agent resumes.
+
+Two artefacts exist so a human can see the whole picture without reading JSON:
+
+- `data/blockers.xlsx` - every drop, its live status, its blocker and the single action that
+  unblocks it (`python tools/blocker_workbook.py` rebuilds it).
+- `notes/credentials-context.md` - the identity/login roster: which identity a drop needs and which
+  site the human has to log into. It holds **no** password, key, seed or token, by design.
 
 ## 9. Browser sessions
 

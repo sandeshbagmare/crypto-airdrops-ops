@@ -1,27 +1,20 @@
 {
  "project": "Catalyst",
  "official_url": "https://catalyst.app",
- "source_url": "https://99airdrops.com/airdrops/catalyst/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://catalyst.app",
+ "evidence_so_far": [
+  "airships/catalyst/page.txt",
+  "airships/catalyst/landing.png"
+ ],
+ "steps_from_source": [
   "Check that you can use it. You must be at least 18. The terms bar people from countries under US sanctions, among them Russia, Belarus, Iran, Cuba, North Korea, Syria and Venezuela, and they ban VPNs and multiple accounts.",
   "Open catalyst.app and press Join waitlist. Enter your email address. The X handle is optional.",
   "Wait for the invite code by email, then create your account with it. We didn't join, so we haven't seen this part ourselves.",
   "Fund the wallet only if you decide to trade. The FAQ lists Apple Pay, credit cards and \"crypto assets like USDC, SOL, ETH, and BNB\" for deposits. Withdrawals are in stablecoins for now."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://catalyst.app",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "The waitlist costs nothing, and the FAQ says: \"Catalyst is free during our research preview.\" What it will charge afterwards isn't published, and neither are minimum deposits. Trading needs real money, and the terms warn of \"the possible loss of your entire investment\". The top of the Catalyst Terms of Service on 18 October 2026, issued by Catos Labs, Inc. and marked as last revised on 7 October 2",
- "risks": "No reward is promised for anything here. Whatever you gain or lose comes from your own trades. Once you delegate signing, agents can trade without asking you, and an executed trade can't be undone. The terms say: \"Company is not registered with the U.S. Securities and Exchange Commission\". No licence or security audit is published. To trade securities you open an account with Alpaca, which checks ",
  "created": "2026-11-23",
  "status": "open"
 }

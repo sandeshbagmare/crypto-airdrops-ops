@@ -1,0 +1,16 @@
+{
+ "project": "Rainbow",
+ "official_url": "https://rainbow.me",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://rainbow.me   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Download the Rainbow app Get Rainbow for iPhone or Android from the download section of the Rainbow homepage . A desktop browser extension is also offered, for example the Firefox add-on .",
+  "2 Step 2 : Choose a market and place a trade Pick crypto, a prediction market or a perpetual position from the app and place a trade. The homepage says every trade earns RNBW.",
+  "3 Step 3 : Look at the Rainbow Black upgrade Rainbow Black is the tier the homepage links to bigger rewards. The homepage lists no price or terms for it, so the cost of upgrading is not stated there."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

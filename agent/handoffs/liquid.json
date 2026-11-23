@@ -1,27 +1,17 @@
 {
  "project": "Liquid",
  "official_url": "https://app.liquid.trade",
- "source_url": "https://99airdrops.com/airdrops/liquid/",
- "blocked_on": "kyc",
- "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
- "what_human_must_do": [
+ "blocked_on": "site-unreachable",
+ "why_agent_cannot": "try the URL in your own browser",
+ "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
+ "where_to_resume": "python tools/triage.py https://app.liquid.trade   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Create an account at app.liquid.trade . The FAQ says Liquid doesn't require KYC to trade.",
   "Deposit. Crypto deposits are free, and card or bank deposits may carry a fee from the payment provider.",
   "Open a position. The minimum is $10 of collateral. Warning Leverage magnifies losses, and a liquidation can cost more than the points are worth.",
   "Check your points. The docs say they appear on iOS under Profile, Rewards, Points, and on the web in the Points tile of the Referral page. The Leaderboard ranks traders by PnL, volume or trade streak, not by points."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.liquid.trade",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "On perpetuals Liquid charges a 0.05% base fee on every fill, and the all-in rate at the entry tier is 0.095% for takers and 0.065% for makers. Stocks, commodities and other builder-deployed perps have their own tiered schedule plus the same 0.05%. Spot starts at 0.070% for takers and 0.040% for makers, with no Liquid fee on top. Prediction markets cost 0.90% on both buys and sells, and withdrawing",
- "risks": "The terms require users to be at least 18. They bar residents of Crimea, Cuba, Iran, North Korea, Syria and other embargoed countries. No token is announced, so points may never convert into anything. Outside venues execute and settle the trades. The terms say Liquid does not guarantee that a venue will execute or settle a transaction.",
  "created": "2026-11-23",
  "status": "open"
 }

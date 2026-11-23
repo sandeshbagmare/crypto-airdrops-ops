@@ -1,10 +1,15 @@
 {
  "project": "NOWA",
  "official_url": "https://app.nowa.finance",
- "source_url": "https://99airdrops.com/airdrops/nowa-finance/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.nowa.finance",
+ "evidence_so_far": [
+  "airships/nowa/page.txt",
+  "airships/nowa/landing.png"
+ ],
+ "steps_from_source": [
   "Go to app.nowa.finance (linked from nowa.finance) and connect an EVM wallet such as MetaMask. You sign a message to log in; no payment is asked for. Use one wallet throughout.",
   "Enter an invite code. \"NOWA is currently an invite-only platform.\" Without a code, \"the first 1,000 eligible users can claim a Scratch Card to unlock access and continue joining NOWA.\" Whether any are left is not published.",
   "Follow @NowaFinance on X and join the NOWA Telegram, then enter both usernames in the app and press Verify.",
@@ -12,18 +17,6 @@
   "Press Request fund to get demo tokens. With all three tasks done you get 100 NOWA and farming opens.",
   "Check the boards. \"Rankings begin at 00:00 UTC every day.\""
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.nowa.finance",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "6 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "On the devnet it costs nothing but time. All trading uses demo funds, including the BNPL subscription tiers, which run from 5 to 50 NUSC a month in demo money. Fees are charged in demo funds too, \"the standard orderbook fee, 0.01% if your order adds liquidity, 0.015% if it takes it.\" BNPL adds a daily financing fee. The real price of entry is an X account, a Telegram account and recruiting at leas",
- "risks": "The terms and the docs disagree on whether farmed NOWA is worth anything. Rely on the terms. You must be 18 or over: \"Users must be at least 18 years of age and legally capable of entering into binding agreements under applicable laws.\" No list of excluded countries and no governing law are given. No KYC is mentioned, but the app collects your X and Telegram usernames, and the privacy policy cover",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,0 +1,21 @@
+{
+ "project": "OctoSwap",
+ "official_url": "https://octo.exchange/liquidity",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://octo.exchange/liquidity",
+ "evidence_so_far": [
+  "airships/octoswap/page.txt",
+  "airships/octoswap/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the OctoSwap liquidity page Go to the liquidity page , where the banner announces the live point program and the pools are listed with their APR, fee tier and TVL.",
+  "2 Step 2 : Get the pool&#x27;s two assets on Monad Adding liquidity to a pool involves the two assets that make up that pool. OctoSwap is on Monad, so use a wallet on Monad.",
+  "3 Step 3 : Check which pools are marked Points Eligible The list on the homepage shows a Points Eligible mark on some pools. Pick the pool you want to fund from the list.",
+  "4 Step 4 : Add liquidity to the pool Press Add on the pool to add liquidity; the banner says adding liquidity earns points.",
+  "5 Step 5 : Note the Octo ID option The banner says Octo ID is live and that minting it gives boosted points. The pages give no cost or boost size."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

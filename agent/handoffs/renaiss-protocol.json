@@ -1,10 +1,15 @@
 {
  "project": "Renaiss Protocol",
  "official_url": "https://www.renaiss.xyz",
- "source_url": "https://99airdrops.com/airdrops/renaiss-protocol/",
  "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.renaiss.xyz",
+ "evidence_so_far": [
+  "airships/renaiss-protocol/page.txt",
+  "airships/renaiss-protocol/landing.png"
+ ],
+ "steps_from_source": [
   "Open renaiss.xyz , and reach its X, Discord and other channels only through the link page on its X account, @renaissxyz.",
   "Sign in with email, Google, X or a BNB Chain wallet. If you don't bring a wallet, the site makes one for you.",
   "Link your X and Discord accounts in your profile. Renaiss's own beginner guide advises this, because community activities and badges are tied to them.",
@@ -13,18 +18,6 @@
   "If you want yield, stake a card in Renaiss Earn. Renaiss warns: \"You cannot withdraw a card during the lock-up period, and it may sell before that period ends.\" It adds: \"Earning yield does not guarantee capital protection.\"",
   "Join the Discord, linked from Renaiss's link page, for Questline and the monthly rankings."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.renaiss.xyz",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "7 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Everything here costs money: pulls cost $28 to $248, plus gas in BNB. Selling on the marketplace carries \"a secondary transaction fee of 2% of the Platform Valuation\". To get the physical card, \"you pay all shipping, handling, withdrawal fees, taxes, duties, and any insurance charges.\" Since 1 September the handling part has been \"A flat handling fee of 2 USDT per card.\" For redemptions it is waiv",
- "risks": "The terms bar only people in or from sanctioned places and give no country list. Cards can't be shipped to Mainland China. There's no identity check today. Paying for random card pulls may count as gambling where you live, and the terms don't address it. The terms say: \"Our smart contracts may be unaudited.\" We found no audit. The vault companies \"have contractual obligations to us only\", so if a ",
  "created": "2026-11-23",
  "status": "open"
 }

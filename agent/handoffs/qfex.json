@@ -1,10 +1,12 @@
 {
  "project": "QFEX",
  "official_url": "",
- "source_url": "https://99airdrops.com/airdrops/qfex/",
- "blocked_on": "kyc",
- "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
- "what_human_must_do": [
+ "blocked_on": "no-official-site",
+ "why_agent_cannot": "find the official site from the project's own profile",
+ "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
+ "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Check that QFEX accepts users from your country before you sign up. Warning The FAQ lists the United States, the United Kingdom, Spain, Ukraine, Russia, Belarus, Iran, Syria, North Korea, Myanmar, Venezuela and Sudan as blocked, and says the list is \"not limited to\" those.",
   "Create an account at qfex.com with Google, Apple, a wallet or an email address.",
   "Complete identity verification. The app doesn't let you trade before it is done.",
@@ -12,17 +14,6 @@
   "If you want the Loss Refunds draw, link your X account and register in the Rewards Hub. Do this again every week.",
   "Trade. At the entry tier, index and commodity trades cost 0.05% as a taker and 0.02% as a maker, and single stocks cost 0.10% and 0.05%. Warning This is leveraged trading with real money. QFEX warns of \"the risk of losing more than your initial deposit\", and its terms say: \"You may be liquidated without prior notice.\""
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://99airdrops.com/airdrops/qfex/",
- "evidence_so_far": [],
- "confidence": 55,
- "evidence": [
-  "6 concrete steps",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "There is no sign-up fee, but nothing here is free. You deposit real money, pay a fee on every trade and pay or receive funding every hour. Loss Refunds count taker volume, so at the entry tier the $100,000 a week it requires costs about $50 in fees on index markets, or about $100 on single stocks, before any trading loss. Users who had deposited before 24 August 2026 pay less on 21 listed markets.",
- "risks": "QFEX holds your funds while you trade. Its terms allow \"omnibus custody arrangements\", which is the opposite of self-custody. You must be at least 18 and pass identity checks. Loss Refunds can be changed or ended at any time, according to its own rules. No licence, independent audit or proof of reserves is named in the pages we read. QFEX states its maximum leverage differently in different places",
  "created": "2026-11-23",
  "status": "open"
 }

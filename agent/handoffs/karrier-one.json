@@ -1,0 +1,21 @@
+{
+ "project": "Karrier One",
+ "official_url": "https://www.karrier.one/mobile",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.karrier.one/mobile",
+ "evidence_so_far": [
+  "airships/karrier-one/page.txt",
+  "airships/karrier-one/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Karrier One app The homepage points to the Karrier One app for phone service and mobile data. Get it from the mobile page .",
+  "2 Step 2 : Find the wallet in the app The token page points to a wallet section in the app, described as a payment flow tied to a phone number on Sui, with a Download the app button. The app is on the mobile page .",
+  "3 Step 3 : Check the dashboard login The dashboard login is for people who already run Karrier One hardware, who manage their devices and earnings there.",
+  "4 Step 4 : Look at the network on the explorer The Karrier One explorer shows active deployments and coverage areas of the network.",
+  "5 Step 5 : Read the documentation The Karrier One docs cover the network, the wallet and dashboard support, and the KONE token FAQ."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

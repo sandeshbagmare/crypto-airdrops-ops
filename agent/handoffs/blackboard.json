@@ -1,28 +1,21 @@
 {
  "project": "Blackboard",
  "official_url": "https://blackboard.fi",
- "source_url": "https://99airdrops.com/airdrops/blackboard/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "login",
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://blackboard.fi",
+ "evidence_so_far": [
+  "airships/blackboard/page.txt",
+  "airships/blackboard/landing.png"
+ ],
+ "steps_from_source": [
   "Check the restricted list. The terms bar the prediction markets for people in the United States, the United Kingdom, France, Ontario, Singapore, Poland, Thailand, Australia, Belgium and Taiwan, and the docs say \"Regional and provider restrictions can apply\".",
   "Open blackboard.fi and launch the app. Sign in with Google, Apple or email, or connect a wallet. Warning Blackboard's security page says: \"Never share a private key, seed phrase, password or verification code.\" Ignore direct messages that offer Blackboard rewards, and use only links on blackboard.fi.",
   "Deposit funds. Choose the asset and the network carefully. Warning The deposit page says: \"Match the token and network: Arbitrum, Polygon, HyperEVM or Solana.\" It also says: \"Check the destination account before sending.\"",
   "Transfer funds into the product account you want to trade and follow the prompts to authorize trading. The docs say a browser-held agent signs Hyperliquid trades and that \"Setup and wallet actions use separate permissions.\"",
   "Trade. Your share of each week's trading points follows your share of that week's volume."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://blackboard.fi",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Signing up is free. Trading isn't: each venue charges its own fees and Blackboard adds its own, and deposits can carry network fees. Since points come from trading, earning them means paying fees on every trade.",
- "risks": "Rewards carry no entitlement under the terms, and the weekly pool can change. The docs say: \"If no date is shown, do not assume the season is permanent.\" The docs say \"Regional and provider restrictions can apply, including payment-provider verification.\" The privacy policy says ID documents may be requested where checks are needed. We found no audit published by Blackboard itself. Trades settle o",
  "created": "2026-11-23",
  "status": "open"
 }

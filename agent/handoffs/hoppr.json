@@ -1,25 +1,21 @@
 {
  "project": "Hoppr",
  "official_url": "https://hoppr.studio/download",
- "source_url": "https://www.airdropstop.com/airdrops/hoppr",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://hoppr.studio/download",
+ "evidence_so_far": [
+  "airships/hoppr/page.txt",
+  "airships/hoppr/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Get the Hoppr app Start at the Hoppr download page to get the app. The homepage also links to Hoppr on Telegram and Google Play.",
   "2 Step 2 : Play games in the feed Swipe through the free games and play them regularly. Each game played adds to your Hops, within daily caps that Hoppr does not publish.",
   "3 Step 3 : Keep a daily streak Play every day so the streak multiplier keeps growing. The Hops explainer says a missed day resets it.",
   "4 Step 4 : Complete quests Take on the quests the app offers. The Hops explainer says they vary, from simple daily goals to ones tied to certain game types or creators.",
   "5 Step 5 : Refer new players Invite new players who go on to play. The Hops explainer lists referrals as one of the four ways to earn, and your tier shows in Studio."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://hoppr.studio/download",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

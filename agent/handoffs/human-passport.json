@@ -1,10 +1,15 @@
 {
  "project": "Human Passport",
  "official_url": "https://quest.human.tech",
- "source_url": "https://www.airdropstop.com/airdrops/human-passport",
- "blocked_on": "kyc",
- "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
- "what_human_must_do": [
+ "blocked_on": "login",
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://quest.human.tech",
+ "evidence_so_far": [
+  "airships/human-passport/page.txt",
+  "airships/human-passport/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the human.tech Quest site Go to the human.tech Quest , titled &quot;Explore Human Tech&quot;, where your XP total, journeys and achievements are tracked.",
   "2 Step 2 : Start the Passport journey Open the Passport journey , which centres on proving you are a real, unique person without revealing who you are.",
   "3 Step 3 : Complete the Privacy and Wallet journeys Work through the Privacy journey and the Wallet journey , trying each product and sharing your own experience of it.",
@@ -12,15 +17,6 @@
   "5 Step 5 : Finish all three journeys Completing every product journey unlocks the Ecosystem Explorer achievement, which carries +500 XP.",
   "6 Step 6 : Look at the Community journey The Community journey is the Covenant, separate from the three product journeys. The quest site does not say whether it counts toward the XP total."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://quest.human.tech",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "6 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

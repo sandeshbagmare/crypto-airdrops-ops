@@ -1,0 +1,20 @@
+{
+ "project": "Miden",
+ "official_url": "https://www.miden.xyz/bread",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.miden.xyz/bread",
+ "evidence_so_far": [
+  "airships/miden/page.txt",
+  "airships/miden/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Request an early-access code Add yourself to the early access list on the Bread page . Codes go only to people on that list, and places open in waves.",
+  "2 Step 2 : Install the Bread wallet Bread installs on iOS, on Android or in Chrome as an extension. The Miden support page covers help with the app and feedback.",
+  "3 Step 3 : Set up your partner mainnet account Enter your code in the app and finish the fresh wallet setup. The account is pre-funded with a small amount of USDCx for network fees.",
+  "5 Step 5 : Read how Bread handles privacy The How Bread Works article explains what happens in the background. The testnet v0.16 post covers the v0.16 testnet, including its faucet."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

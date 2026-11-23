@@ -1,0 +1,18 @@
+{
+ "project": "Luxxcoin",
+ "official_url": "https://www.luxxcoin.io/reward-terms",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://www.luxxcoin.io/reward-terms   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Set up a non-custodial Solana wallet The reward terms accept only a Solana wallet that you alone control, with Phantom and Solflare given as examples. Wallets held on an exchange or with a custodial service are not eligible. Read the Luxx Hero Rewards terms before you start.",
+  "2 Step 2 : Buy LUX on a decentralized exchange The terms require at least one qualifying DEX purchase of LUX during the round. The Luxxcoin homepage lists the official contract address to check before any trade.",
+  "3 Step 3 : Hold at least 100,000 LUX The wallet must keep a minimum balance of 100,000 LUX at the snapshot. A zero balance at a snapshot resets that round&#x27;s score components for the wallet.",
+  "4 Step 4 : Keep holding and watch the leaderboard Holding time raises the score and net selling lowers it. The live leaderboard on the Luxxcoin homepage shows where the wallet stands.",
+  "5 Step 5 : Wait for the snapshot and payout Unless announced otherwise, the terms put the snapshot at 12:00 UTC and the payout at 18:00 UTC that day. The top 500 wallets by score receive LUX in that round."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

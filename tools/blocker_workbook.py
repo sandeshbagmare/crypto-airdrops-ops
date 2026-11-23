@@ -217,6 +217,19 @@ def main():
         except Exception:
             pass
 
+    # A page that rendered almost no text cannot be called "ready": the detector had nothing to
+    # read. Those go to unknown so nobody reads a green cell as "verified, go".
+    for slug, p in pre.items():
+        if p.get("status") != "ready":
+            continue
+        txt = [e for e in (p.get("evidence") or []) if e.endswith(".txt")]
+        if txt and (ROOT / txt[0]).exists() and (ROOT / txt[0]).stat().st_size < 400:
+            p["status"] = "unknown"
+            p["blocked_on"] = "unknown"
+            p.setdefault("human_must", []).append(
+                "page rendered almost no text (JS-only shell) - read it yourself before acting")
+            p["agent_can"] = (p.get("agent_can") or []) + ["kept the screenshot as the only evidence"]
+
     seen, records = set(), []
     for d in drops:
         slug = slugify(d["name"])
@@ -233,7 +246,8 @@ def main():
     blocked = [r for r in records if r[2].get("status") == "blocked"]
     ready = [r for r in records if r[2].get("status") == "ready"]
     refused = [r for r in records if r[2].get("status") in ("refused", "unreachable", "no-url")]
-    unknown = [r for r in records if not r[2]]
+    unknown = [r for r in records if r[2].get("status") == "unknown"]
+    unchecked = [r for r in records if not r[2]]
 
     wb = Workbook()
     wb.remove(wb.active)
@@ -252,8 +266,11 @@ def main():
     sheet(wb, "Refused - dead - no site", headers, widths,
           [row_values(d, s, p) for d, s, p in refused], status_idx=5)
     if unknown:
-        sheet(wb, "Not checked yet", headers, widths,
+        sheet(wb, "Unknown - read it yourself", headers, widths,
               [row_values(d, s, p) for d, s, p in unknown], status_idx=5)
+    if unchecked:
+        sheet(wb, "Not checked yet", headers, widths,
+              [row_values(d, s, p) for d, s, p in unchecked], status_idx=5)
 
     # summary sheet first
     sc = Counter((p.get("blocked_on") or "none") for _, _, p in records if p)

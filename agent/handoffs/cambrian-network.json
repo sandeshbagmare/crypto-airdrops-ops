@@ -1,0 +1,21 @@
+{
+ "project": "Cambrian Network",
+ "official_url": "https://www.cambrian.org",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.cambrian.org",
+ "evidence_so_far": [
+  "airships/cambrian-network/page.txt",
+  "airships/cambrian-network/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Cambrian site Go to the Cambrian homepage and read how it describes its onchain and offchain financial data API.",
+  "2 Step 2 : Open the pricing page Press Get API Access, which leads to the pricing page , to see how access to the API is offered.",
+  "3 Step 3 : Check account sign-in The privacy policy describes account registration and sign-in through a third-party identity provider.",
+  "4 Step 4 : Try the API On the homepage, Start querying and Try the API both lead to the same pricing page as Get API Access.",
+  "5 Step 5 : Read the comparison page Open the page that the homepage labels &quot;Read more &amp; compare&quot;."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

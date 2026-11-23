@@ -1,0 +1,21 @@
+{
+ "project": "Roach Racing Club",
+ "official_url": "https://app.roachracingclub.com",
+ "blocked_on": "login",
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.roachracingclub.com",
+ "evidence_so_far": [
+  "airships/roach-racing-club/page.txt",
+  "airships/roach-racing-club/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Roach Racing Club app Go to the game app , which the homepage&#x27;s Play Now and Earn buttons lead to.",
+  "2 Step 2 : Claim your Roach Pick up your unique Roach, the hero tied to a live BTC, ETH or PENGU chart.",
+  "3 Step 3 : Check the entry terms before you race The homepage mentions placing real bets to win real money but does not state the entry terms. Check the app for what a race costs before you join one.",
+  "4 Step 4 : Race by opening and closing a position Wait for the entry you want, open a position, then close it when you judge the moment right to earn the Boost.",
+  "5 Step 5 : Earn MTGN and boost your farming Keep racing to earn MTGN and unlock lootboxes. Playing with friends and climbing the leaderboard boosts your MTGN farming. The Roach Racing Club homepage shows the current phase."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

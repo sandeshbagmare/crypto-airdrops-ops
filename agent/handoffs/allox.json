@@ -1,28 +1,21 @@
 {
  "project": "AlloX",
  "official_url": "https://app.allox.ai",
- "source_url": "https://99airdrops.com/airdrops/allox/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.allox.ai",
+ "evidence_so_far": [
+  "airships/allox/page.txt",
+  "airships/allox/landing.png"
+ ],
+ "steps_from_source": [
   "Open app.allox.ai and log in with email, Google or Apple, which creates a wallet for you. You can connect MetaMask, Binance Wallet, OKX, Trust or another wallet instead.",
   "Claim the 5,000-point welcome bonus. The app only releases it to a wallet that has made a transaction and holds a small balance on Ethereum, Base, BNB Chain or Solana.",
   "Claim the daily bonus on the Rewards page once a day. On Ethereum, BNB Chain or Base each claim is a transaction and costs gas.",
   "Link X and Telegram on the Rewards page and do the social tasks.",
   "Check the Campaigns page to see what is open."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.allox.ai",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Logging in, the social tasks and chat messages within the daily limit are free. The daily bonus costs gas on Ethereum, BNB Chain and Base. Portfolios cost real money. Each token in a basket is a swap, and AlloX says gas and platform fees apply. It doesn't publish the platform fee rate; the terms say fees are shown before you confirm. A portfolio under $100 earns 250 points, so the larger tiers nee",
- "risks": "The token has no launch date, and the end of Q3 target was missed. The Points conversion rate isn't published. The campaign page says all rewards are subject to a cliff and linear vesting at TGE. The terms say the value of Points and Gems can change and that AlloX can cancel or suspend reward activities. The terms say AI baskets carry no guarantee, and the app itself says AlloX can make mistakes. ",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,0 +1,18 @@
+{
+ "project": "FATTY",
+ "official_url": "https://fatbot.fatty.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://fatbot.fatty.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open FatBot Go to the FatBot app , which is the platform the Volume airdrop runs inside.",
+  "2 Step 2 : Set up your account Follow the sign-in prompts in FatBot. The homepage describes the platform as non-custodial, with keys handled through Turnkey.",
+  "3 Step 3 : Find the Volume airdrop Look for the Volume airdrop feature in FatBot and join the campaign. The fatty.io homepage describes it as the way to become eligible to claim Fatty tokens.",
+  "4 Step 4 : Trade on FatBot Use the platform&#x27;s trading tools, since the campaign is presented as earning while trading.",
+  "5 Step 5 : Read the allocation post Check the airdrop allocation and details post on the project&#x27;s Medium blog for its conditions."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

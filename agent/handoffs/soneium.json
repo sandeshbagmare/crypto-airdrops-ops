@@ -1,0 +1,21 @@
+{
+ "project": "Soneium",
+ "official_url": "https://portal.soneium.org",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://portal.soneium.org",
+ "evidence_so_far": [
+  "airships/soneium/page.txt",
+  "airships/soneium/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open Soneium Portal Go to Soneium Portal , which the project calls the official platform for Tokenized IP and the home for its discovery and participation.",
+  "2 Step 2 : Browse the ecosystem Look through the Soneium ecosystem list of applications, which can be sorted by category such as DeFi, gaming, NFT and wallet.",
+  "3 Step 3 : Bridge to Soneium Use the bridges page to move assets onto the network. Network gas fees apply to transactions.",
+  "4 Step 4 : Read about ipUSD Open the ipUSD documentation to see how deposit rounds and withdrawals work before using the stablecoin or IP Vault.",
+  "5 Step 5 : Follow the blog Check the Soneium blog for announcements, including the later details on SONEIUM and its TGE."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

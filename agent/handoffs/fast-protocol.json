@@ -1,0 +1,18 @@
+{
+ "project": "Fast Protocol",
+ "official_url": "https://fastprotocol.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://fastprotocol.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Join the early access waitlist Open the Fast Protocol homepage and use the Get Early Access button to join the waitlist. The homepage presents the waitlist as the way to get access to Fast Swap.",
+  "2 Step 2 : Add Fast RPC Use the Add Fast RPC button on the homepage to point your wallet at the project&#x27;s Ethereum RPC endpoint.",
+  "3 Step 3 : Claim the SBT badge Press Claim SBT Badge on the homepage to claim the SBT badge the campaign offers.",
+  "4 Step 4 : Learn how Miles are earned Read the project&#x27;s Miles explainer , which says Miles come from swaps that generate mev and scale with the value created.",
+  "5 Step 5 : Swap through the app Open the Fast Protocol app and trade through Fast Swap once you have access. Miles are earned by swaps that generate mev."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

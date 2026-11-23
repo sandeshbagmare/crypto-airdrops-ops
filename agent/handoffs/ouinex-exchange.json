@@ -1,24 +1,18 @@
 {
  "project": "Ouinex Exchange",
  "official_url": "",
- "source_url": "https://www.airdropstop.com/airdrops/ouinex-exchange",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "no-official-site",
+ "why_agent_cannot": "find the official site from the project's own profile",
+ "what_human_must_do": "No official domain was extracted. Find it from the project's own profile first.",
+ "where_to_resume": "python tools/triage.py <url>   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Open your Ouinex account Start from the Ouinex homepage and use its join button to register, or log in if you already have an account. The rewards site asks you to log in to show your trading volume and special rates. Ouinex says it is not authorized under MiCA in the EU.",
   "2 Step 2 : Connect Discord and X on the rewards site Open the rewards site and use the Connect tasks for Discord and X. The site recommends a desktop browser for the X connection.",
   "3 Step 3 : Complete the social tasks Work through the follow, join and watch tasks listed on the rewards site . The X follow and Discord join tasks show as locked there. Once Ouinex verifies a task, the points are added to your balance.",
   "4 Step 4 : Trade derivatives before the weekly snapshot To take a share of the weekly pool, trade crypto or TradFi derivatives on the Ouinex trading platform before Wednesday 23:59 UTC. Spot trades do not count toward the pool. Trading derivatives costs fees.",
   "5 Step 5 : Wait for the Wednesday distribution Payouts land weekly, on Wednesday night at 23:59 UTC. Until then, balances on the rewards site can still change."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.airdropstop.com/airdrops/ouinex-exchange",
- "evidence_so_far": [],
- "confidence": 25,
- "evidence": [
-  "5 concrete steps"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

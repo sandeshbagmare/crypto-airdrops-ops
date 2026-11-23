@@ -1,10 +1,15 @@
 {
  "project": "Florin",
  "official_url": "https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks",
- "source_url": "https://99airdrops.com/airdrops/florin/",
  "blocked_on": "login",
- "why_agent_cannot": "an X account post or follow is required",
- "what_human_must_do": [
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks",
+ "evidence_so_far": [
+  "airships/florin/page.txt",
+  "airships/florin/landing.png"
+ ],
+ "steps_from_source": [
   "Open the campaign page on Superboard and sign in. We did not go past the sign-in button, so we can't say what the account asks for.",
   "Do the two X tasks: follow Florin, then engage with its Testnet V2 post from the link on the page.",
   "Get test ETH for gas. Florin's faucet links to the Robinhood Chain faucet for it. That page showed us a bot check, so we could not read its limits.",
@@ -12,18 +17,6 @@
   "Deposit some FUSD in the Stability Pool at florin.so/stability.",
   "During market hours, open a Multiply position at florin.so/multiply. \"The loop must borrow at least 1,000 FUSD.\" Then verify each task on Superboard and repeat the last four until each counter shows 3/3."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "6 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "The quest is free. The faucet describes its payout as \"Free testnet funds for your address.\" and gas is paid in test ETH. No page asks for a deposit or a payment. What you give is an X account, a Superboard sign-in and some time over three sessions. Set that against the prize. 100 winners get $5 each, drawn by lot, and 375 people had joined after eight days of a thirty-day campaign. Most people wh",
- "risks": "Florin publishes no terms of service, so there is no list of excluded countries, no age rule and no KYC rule. The privacy policy link in its cookie banner returned an error on 21 November 2026. We did not read Superboard's terms. The raffle is Superboard's, and so are any limits on who can win. No audit of Florin's contracts is published. Florin calls itself \"an official Liquity Friendly Fork\". We",
  "created": "2026-11-23",
  "status": "open"
 }

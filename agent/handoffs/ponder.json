@@ -1,0 +1,20 @@
+{
+ "project": "Ponder",
+ "official_url": "https://ponder.one",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://ponder.one",
+ "evidence_so_far": [
+  "airships/ponder/page.txt",
+  "airships/ponder/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the airdrop page in the Ponder app Use the &quot;Join now&quot; button on the Ponder homepage , which leads to the airdrop page , and read the current campaign details there.",
+  "2 Step 2 : Explore the Ponder app Open the Ponder app , which compares swap and bridge rates across popular chains. The airdrop page holds the details of the current campaign.",
+  "3 Step 3 : Complete the campaign tasks In the 2024 Community Race Airdrop, points came from three kinds of activity. Check the airdrop page for the tasks that apply to the current $10,000 pool.",
+  "4 Step 4 : Pick a team if the page offers one The 2024 format had you choose one of five partner teams, with extra prizes for supporters of the winning team. Follow the leaderboard to see how your activity ranks."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

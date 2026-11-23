@@ -1,0 +1,19 @@
+{
+ "project": "Asymmetry Finance",
+ "official_url": "https://www.asymmetry.finance/usdaf",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.asymmetry.finance/usdaf",
+ "evidence_so_far": [
+  "airships/asymmetry-finance/page.txt",
+  "airships/asymmetry-finance/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Check the banner on the USDaf page Go to the USDaf page and confirm the banner still shows Boosted Gems Quests as active.",
+  "2 Step 2 : Look for quest details in the app and docs Open the USDaf app and the docs to look for quest details. No page names the actions that qualify for Gems Quests.",
+  "3 Step 3 : Review the products the quests sit alongside The USDaf page presents borrowing USDaf , which needs collateral, and earning with sUSDaf , which takes USDaf deposits. No page says that using them earns Gems."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

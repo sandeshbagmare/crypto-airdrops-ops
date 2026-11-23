@@ -1,25 +1,21 @@
 {
  "project": "Onchain.cc",
  "official_url": "https://onchain.cc",
- "source_url": "https://www.airdropstop.com/airdrops/onchain-cc",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://onchain.cc",
+ "evidence_so_far": [
+  "airships/onchain-cc/page.txt",
+  "airships/onchain-cc/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Connect a wallet on the terminal Open the onchain.cc homepage and launch the terminal. Create the self-custodial embedded wallet, or connect Phantom, MetaMask, Rabby or another WalletConnect-compatible wallet.",
   "2 Step 2 : Fund the wallet Add any amount to the wallet and keep a small balance of the native token of the chain you trade on to cover gas. Perps and predictions need a deposit from the terminal first.",
   "3 Step 3 : Make a trade Trade any product, for example perps , spot or a swap . Your first trade enrolls you in the Colosseum and starts points counting automatically.",
   "4 Step 4 : Follow your points and ranks The Colosseum page explains ranks and the season, while your own points, rank, quests and loot boxes are on the Colosseum dashboard in the terminal. The Colosseum docs explain seasons, sessions and ranks.",
   "5 Step 5 : Claim cashback and watch for bonus windows Claim USDC cashback from the Cashback panel in the terminal. The docs say to claim weekly before it expires, while the homepage and Colosseum page say it can be claimed any time. Bonus Windows are announced on the Colosseum dashboard and in the Discord ."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://onchain.cc",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

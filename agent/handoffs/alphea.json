@@ -1,28 +1,21 @@
 {
  "project": "ALPHEA",
  "official_url": "https://alphea.ai/alphea-connect-app",
- "source_url": "https://99airdrops.com/airdrops/alphea/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://alphea.ai/alphea-connect-app",
+ "evidence_so_far": [
+  "airships/alphea/page.txt",
+  "airships/alphea/landing.png"
+ ],
+ "steps_from_source": [
   "Install ALPHEA Connect from Google Play . It's Android only, and you sign up with email, Apple or Google.",
   "Open the app each day, keep it on screen for your sessions and claim the daily quest rewards before midnight UTC.",
   "When a round opens, tap Redeem in the app. It sends you to hub.alphea.ai, where you should \"Log in with the same account as ALPHEA Connect.\"",
   "Choose how many points to redeem and submit. They're gone once accepted: \"the Points used for that Redeem are deducted, and the deducted Points cannot be used again.\"",
   "When the round settles, claim your APT on the Hub within 30 days. Warning Only link a wallet on hub.alphea.ai. ALPHEA says it \"does not request or store a User's private key, Seed Phrase, recovery phrase, or Wallet password through Connect\", so anyone asking for those isn't ALPHEA."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://alphea.ai/alphea-connect-app",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Taking part is free: there's no deposit or entry fee. ALPHEA is unclear about claim fees. One Hub page says \"A claim fee is required to claim APT to your wallet.\" Another says \"ALPHEA pays the claim fee for this claim.\" The terms leave room for one: \"A separate service fee may apply to a Claim.\" The app sells themes, but the terms say a purchase \"does not guarantee any specific amount of Points or",
- "risks": "You must be an adult: \"Minors, as defined under applicable local law, may not sign up for or use the Services.\" No list of excluded countries is published, though the terms ban getting around regional limits. ALPHEA can change results after the fact: \"Even after Redeem is accepted, related settlement or APT Allocation may be corrected or held to the extent necessary if a system error, duplicate ca",
  "created": "2026-11-23",
  "status": "open"
 }

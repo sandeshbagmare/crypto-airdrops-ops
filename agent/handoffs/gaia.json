@@ -1,25 +1,21 @@
 {
  "project": "Gaia",
  "official_url": "https://www.gaianet.ai/reward",
- "source_url": "https://www.airdropstop.com/airdrops/gaia",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.gaianet.ai/reward",
+ "evidence_so_far": [
+  "airships/gaia/page.txt",
+  "airships/gaia/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the Gaia reward program Go to the Gaia reward page and read which role fits you: end user, node operator or domain operator.",
   "2 Step 2 : Choose how you contribute As an end user you chat with AI agents built on Gaia. Node operators run Gaia nodes, and domain operators register Gaia Domains for nodes to connect to.",
   "3 Step 3 : Build with the API if you are a developer Calling the Gaia Domain API needs your own API key, created by following the authentication guide . The API reference lists the endpoints.",
   "4 Step 4 : Join community activities and quests Gaia runs community activities and quest campaigns, online and in real life, that award extra gaiaPoints. Watch the project&#x27;s official announcements for them.",
   "5 Step 5 : Track your points and redeem credits Check your gaiaPoints on the leaderboard of the reward page . User-side points can be redeemed for gaiaCredits, up to a daily cap, to keep using Gaia agents."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.gaianet.ai/reward",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

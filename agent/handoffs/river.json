@@ -1,29 +1,18 @@
 {
  "project": "River",
  "official_url": "https://app.riverai.inc/airdrop",
- "source_url": "https://99airdrops.com/airdrops/river/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "site-unreachable",
+ "why_agent_cannot": "try the URL in your own browser",
+ "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
+ "where_to_resume": "python tools/triage.py https://app.riverai.inc/airdrop   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Check that you're allowed. River's terms say: \"You do not reside in the United States, Canada, or other excluded jurisdictions\" and ban VPNs used to get around that. You must be 18 or older.",
   "Open app.riverai.inc/airdrop . Don't use any river.inc link.",
   "Connect your wallet and your X account. If you earned Season 6 points, \"The page displays the eligible River Pts balance\". Claim them before 31 December 2026.",
   "To convert, check the live rate and the daily cap first, then \"Choose your Staking Epoch, 3 to 24 months\" and confirm on BNB Chain. Warning Staked RIVER stays locked until the date you pick, and a short lock gives up most of the amount. The price of RIVER can fall a long way while it's locked.",
   "Check the leaderboard after each Saturday snapshot. The Season 7 claim date isn't set: River says it will be \"confirmed through official announcement\"."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.riverai.inc/airdrop",
- "evidence_so_far": [],
- "confidence": 90,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "deadline stated",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Claiming and converting cost only network gas, and the terms say: \"Network fees apply and are non-refundable.\" Posting through River4FUN is free. Minting satUSD carries a one-time fee: \"Minting Fee: Calculated as the Base Rate + 0.5% (minimum of 0.5%, maximum of 5%).\" Swapping satUSD back to USDT or USDC is slow: \"Please note that there is a 3-day lock-up period for withdrawals.\" Smart Vault depos",
- "risks": "River has rewritten the rules more than once. In November 2025 it paused conversions and bought back points it had sold, then launched new conversion systems in December 2025 and May 2026. What you get depends on what everyone else does. River's own example: \"Same input, same 3-month staking epoch, three different rates, three different amounts of Staked RIVER.\" Fewer people are taking part. River",
  "created": "2026-11-23",
  "status": "open"
 }

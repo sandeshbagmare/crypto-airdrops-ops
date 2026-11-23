@@ -1,22 +1,12 @@
 {
  "project": "TurboFlow",
  "official_url": "https://airdrops.io/goto/binance",
- "source_url": "https://airdrops.io/turboflow/",
- "blocked_on": "email",
- "why_agent_cannot": "an email confirmation link must be opened by the human",
- "what_human_must_do": [
-  "Read the official site and follow its stated steps."
- ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/goto/binance",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://airdrops.io/goto/binance   # then re-run bulk_apply",
  "evidence_so_far": [],
- "confidence": 15,
- "evidence": [
-  "official site linked",
-  "costs disclosed",
-  "no steps found (-15)"
- ],
- "costs": "Low",
- "risks": "",
+ "steps_from_source": [],
  "created": "2026-11-23",
  "status": "open"
 }

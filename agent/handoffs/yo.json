@@ -1,0 +1,20 @@
+{
+ "project": "YO",
+ "official_url": "https://app.yo.xyz",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.yo.xyz",
+ "evidence_so_far": [
+  "airships/yo/page.txt",
+  "airships/yo/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the YO app Go to the YO app to see the list of vaults and the yield each one shows.",
+  "2 Step 2 : Pick a vault that shows YO rewards Start from a vault such as yoUSD or yoETH , and compare the native APY with the YO rewards APY.",
+  "3 Step 3 : Deposit assets into the vault Deposit the vault&#x27;s asset and you receive vault shares, while the funds sit onchain. Depositing is how the app says YO rewards are earned.",
+  "4 Step 4 : Review the vault&#x27;s rewards tab Each vault has a Rewards tab, for example the yoUSD rewards page , which you can open to see its rewards section."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

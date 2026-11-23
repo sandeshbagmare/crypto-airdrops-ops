@@ -1,0 +1,21 @@
+{
+ "project": "Citrea",
+ "official_url": "https://app.citrea.xyz/bridge",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.citrea.xyz/bridge",
+ "evidence_so_far": [
+  "airships/citrea/page.txt",
+  "airships/citrea/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Get cBTC on Citrea Bridge BTC into cBTC with the Citrea bridge . The mainnet post points new users to the Citrea Bridge Hub for their first cBTC.",
+  "2 Step 2 : Open the vault from the announcement Read the cBTC Earn Vault announcement and follow its deposit link to the vault on the Upshift interface.",
+  "3 Step 3 : Deposit cBTC into the vault Deposit your cBTC through the Upshift interface. The vault&#x27;s strategy then runs on the deposits and the CTR incentive starts to accrue for participants.",
+  "4 Step 4 : Watch the combined APY The Upshift page shows a combined APY for the strategy and the CTR rewards, which can move with the vault&#x27;s TVL.",
+  "5 Step 5 : Claim CTR on Merkl Use the Merkl page the announcement links to, and claim your CTR there by hand."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

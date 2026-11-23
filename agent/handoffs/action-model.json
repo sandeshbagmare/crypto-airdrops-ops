@@ -1,10 +1,15 @@
 {
  "project": "Action Model",
  "official_url": "https://train.actionmodel.com/sign-up",
- "source_url": "https://www.airdropstop.com/airdrops/action-model",
  "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://train.actionmodel.com/sign-up",
+ "evidence_so_far": [
+  "airships/action-model/page.txt",
+  "airships/action-model/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Get a referral code Action Model is invite only. The project points people to its Discord and Telegram to find a code, and says community members also share theirs on X.",
   "2 Step 2 : Register on the training site Create your account on the Action Model sign-up page , using a referral code from step 1 if the form asks for one.",
   "3 Step 3 : Install the browser extension Add the extension from the Chrome Web Store listing . The project says it is also installable in other browsers.",
@@ -12,15 +17,6 @@
   "5 Step 5 : Add ActionFi tasks, quests and referrals Complete partner tasks through ActionFi , join quests and invite others with your own referrals to add to your LAM Points.",
   "6 Step 6 : Follow official updates The project says LAM Points are intended to convert to LAM at the Token Generation Event and that updates will appear on its dashboard and community channels."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://train.actionmodel.com/sign-up",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "6 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

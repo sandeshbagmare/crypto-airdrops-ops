@@ -1,0 +1,21 @@
+{
+ "project": "DGrid AI",
+ "official_url": "https://blog.dgrid.ai/posts/2026-08-17",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://blog.dgrid.ai/posts/2026-08-17",
+ "evidence_so_far": [
+  "airships/dgrid-ai/page.txt",
+  "airships/dgrid-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Read the airdrop claim announcement Open the DGrid post on the DGAI claim , which announces that the airdrop claim has started.",
+  "2 Step 2 : Check your eligibility on the official portal The announcement says the eligibility check and the claim are done on DGrid&#x27;s official portal. No direct portal address is given here, so look for it in the announcement itself. If you qualify, complete the claim there.",
+  "3 Step 3 : Open AI Arena Go to the DGrid AI Arena , the community&#x27;s blind model comparison area.",
+  "4 Step 4 : Earn points through Arena activities Take part in the Arena&#x27;s activities to earn points. DGrid has not listed which activities earn points.",
+  "5 Step 5 : Redeem points for DGAI The Points-to-DGAI announcement says points earned in Arena activities can be redeemed for DGAI. No redemption steps or rate are stated. Read the DGAI documentation for what the token does."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

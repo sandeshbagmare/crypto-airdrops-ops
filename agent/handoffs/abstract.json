@@ -1,29 +1,21 @@
 {
  "project": "Abstract",
  "official_url": "https://migrate.abs.xyz",
- "source_url": "https://99airdrops.com/airdrops/abstract/",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://migrate.abs.xyz",
+ "evidence_so_far": [
+  "airships/abstract/page.txt",
+  "airships/abstract/landing.png"
+ ],
+ "steps_from_source": [
   "Open the Abstract Migration Hub and check that the address is exactly migrate.abs.xyz. Connect the wallet that holds your funds on Abstract.",
   "Bridge your assets to another chain. The hub shows the routes it supports, and it also lists the native Abstract bridge , Stargate, Relay and Jumper as alternatives. Crypto Briefing reports a delay of about three hours on the native bridge.",
   "Check what you hold inside apps. The terms say NFTs, staked or locked assets, liquidity positions and funds held through an app may need action outside the hub. Follow that app's own instructions, which the hub links under \"All Project Specific Instructions\".",
   "Finish early. The terms say each exit has its own deadlines to start and to complete, which can fall before 15 December, and that a submitted transaction isn't necessarily a completed transfer.",
   "Don't send new funds to Abstract."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://migrate.abs.xyz",
- "evidence_so_far": [],
- "confidence": 90,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "deadline stated",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "The Migration Hub charges no fee of its own. You pay network fees and whatever the bridge you choose charges. The Abstract Migration Hub on 18 October 2026, with the 15 December shutdown notice, a countdown and the list of alternative bridges. Source: migrate.abs.xyz",
- "risks": "Funds left on Abstract after 15 December 2026 become inaccessible. XP has no value. It won't be redeemed, and no token is coming. Assets locked inside apps can be harder to move than tokens in your wallet, and each app sets its own rules. Abstract says its teams will help apps move to other networks. Whether a given app moves, and where, is up to that app.",
  "created": "2026-11-23",
  "status": "open"
 }

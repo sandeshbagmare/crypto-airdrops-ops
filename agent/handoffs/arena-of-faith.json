@@ -1,24 +1,20 @@
 {
  "project": "Arena of Faith",
  "official_url": "https://aof.global",
- "source_url": "https://www.airdropstop.com/airdrops/arena-of-faith",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://aof.global",
+ "evidence_so_far": [
+  "airships/arena-of-faith/page.txt",
+  "airships/arena-of-faith/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Connect a wallet on the Arena of Faith site Open the Arena of Faith site and use its Connect Wallet or Login option.",
   "2 Step 2 : Get Hero Cards with ACP Hero Cards are minted by spending ACP, and the site&#x27;s menu has a Hero Card page under Miner Assets. Hero Skins are obtained the same way.",
   "3 Step 3 : Play matches with your Hero Cards The site&#x27;s menu offers a Game Download. Rewards for play with Hero Cards show up in the activity feed on the homepage .",
   "5 Step 5 : Know the 14-day limit on a pledge You cannot take a pledged avatar back for 14 days, and the SVIP level applies from the moment of the pledge."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://aof.global",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "4 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

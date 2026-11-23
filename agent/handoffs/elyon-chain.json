@@ -1,25 +1,16 @@
 {
  "project": "Elyon Chain",
  "official_url": "https://airdrops.io/chaingpt",
- "source_url": "https://airdrops.io/elyon-chain/",
- "blocked_on": "login",
- "why_agent_cannot": "an X account post or follow is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://airdrops.io/chaingpt   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Send 1 test ELN to another address: 15 PTS, up to three times a day",
   "Delegate 10 test ELN to a validator: 150 PTS once, then 50 PTS for every full week it stays delegated",
   "Mint the quest badge: 75 PTS, one per wallet"
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://airdrops.io/chaingpt",
- "evidence_so_far": [],
- "confidence": 60,
- "evidence": [
-  "3 concrete steps",
-  "official site linked",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Free",
- "risks": "Elyon Chain’s whitepaper describes a 24-person core team without naming anyone. We found no published audit. The project’s presale page offers ELN at $0.80, eight times the $0.10 launch price its whitepaper assumes. It also promotes an ElyonDEX trading contest that needs real volume. The quest needs neither. PTS have no published value, the TGE has already moved once and the quest can exclude a wa",
  "created": "2026-11-23",
  "status": "open"
 }

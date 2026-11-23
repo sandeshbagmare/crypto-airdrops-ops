@@ -6,16 +6,24 @@ One row per drop. `Ready` means no identity step was detected on the live page;
 
 | Status | Drops |
 |---|---|
-| blocked | 6 |
-| ready | 4 |
-| refused | 1 |
+| blocked | 276 |
+| refused | 85 |
+| no-url | 62 |
+| ready | 57 |
+| unknown | 56 |
+| unreachable | 10 |
 
 | Blocked on | Drops | Who unblocks it |
 |---|---|---|
-| none | 6 |  |
-| login | 2 | Log in / create the account in the shared profile, then the agent can continue. |
-| domain | 1 | Do not touch it: the domain check flagged it. Verify from the project's own X profile. |
-| wallet_signature | 1 | Connect a burner wallet and approve the signature yourself. |
-| email | 1 | Enter your email and click the confirmation link in your inbox. |
+| wallet_signature | 112 | Connect a burner wallet and approve the signature yourself. |
+| domain | 89 | Do not touch it: the domain check flagged it. Verify from the project's own X profile. |
+| login | 76 | Log in / create the account in the shared profile, then the agent can continue. |
+| no-official-site | 62 | No official domain was extracted. Find it from the project's own profile first. |
+| email | 59 | Enter your email and click the confirmation link in your inbox. |
+| none | 57 |  |
+| unknown | 56 | Needs manual reading - the live page did not expose a clear step. |
+| terms | 16 | Read and accept the project terms in your own name. |
+| site-unreachable | 10 | The page did not load. Try the URL yourself; record 403/404 in fetch-report. |
+| kyc | 9 | Pass KYC in your own name (legal step, agent cannot). Then finish the steps in apply/. |
 
 Full registry: `data/blockers.xlsx`. Handoffs: `agent/handoffs/`.

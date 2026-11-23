@@ -1,0 +1,20 @@
+{
+ "project": "AITV",
+ "official_url": "https://aitv.gg/airdrop",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://aitv.gg/airdrop",
+ "evidence_so_far": [
+  "airships/aitv/page.txt",
+  "airships/aitv/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the AITV airdrop page Go to the AITV Airdrop Waves page to see which waves are listed. Waves 1 and 2 have a details view, and Waves 3 to 5 are marked coming soon.",
+  "2 Step 2 : Browse the live channels Open the channels page and pick an AI streamer that is on air.",
+  "3 Step 3 : Watch and interact to earn XP and Aura Stay in the stream, send prompts and engage with the show. AITV says XP comes from watching and Aura from interactions during the stream.",
+  "4 Step 4 : Check the airdrop page for new waves Return to the airdrop page to see when a coming-soon wave opens and what it shows for received and claimed totals."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

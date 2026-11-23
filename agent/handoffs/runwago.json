@@ -1,23 +1,19 @@
 {
  "project": "Runwago",
  "official_url": "https://www.runwago.com/airdrop",
- "source_url": "https://www.airdropstop.com/airdrops/runwago",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.runwago.com/airdrop",
+ "evidence_so_far": [
+  "airships/runwago/page.txt",
+  "airships/runwago/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the Runwago airdrop page Go to the Runwago airdrop page , which carries the airdrop reward claim. The claim hub lists the airdrop claim next to the presale claim and staking.",
   "2 Step 2 : Connect your wallet Use the connect wallet button on the airdrop page.",
   "3 Step 3 : Claim the unlocked tokens Claim the unlocked tokens. The airdrop page states no amount."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.runwago.com/airdrop",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "3 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

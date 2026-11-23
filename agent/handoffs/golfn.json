@@ -1,0 +1,22 @@
+{
+ "project": "GolfN",
+ "official_url": "https://www.golfn.com/golf-rewards-program",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.golfn.com/golf-rewards-program",
+ "evidence_so_far": [
+  "airships/golfn/page.txt",
+  "airships/golfn/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Read the rewards program page Start with the GolfN rewards program page , which explains how points are earned and what they can be redeemed for.",
+  "2 Step 2 : Get the app and create a free account Download the app from the GolfN homepage , then set up your profile and fill out your bag. Scorecard and performance tracking are free.",
+  "3 Step 3 : Set up your round Before teeing off, enable the digital golf ball and equip up to three Digital Clubs if you own them. Without clubs, a membership adds them to your bag automatically.",
+  "4 Step 4 : Play and finish the round Play with the app running. Round activity is verified through your device&#x27;s location services, and points are added to your balance once the round is complete.",
+  "5 Step 5 : Add off-course points Complete your profile, invite friends, upload course photos, write reviews, check in at participating properties and follow GolfN&#x27;s social accounts to earn more points.",
+  "6 Step 6 : Redeem points in the Pro Shop Spend points on gear or sweepstakes entries in the GolfN Pro Shop . Conversion to the GOLF token is not yet available."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

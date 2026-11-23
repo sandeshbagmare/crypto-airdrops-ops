@@ -50,6 +50,28 @@ there is no email password stored in this repo to use.
 
 ## B. Requested, blocked on you (one action each)
 
+**Batch state as of 2026-11-23:** all 546 tracked drops were live-checked with a real browser
+(`tools/bulk_apply.py`). Result: **0 forms submitted** - no email, burner wallet or social handle was
+supplied, and inventing one would be fraud. What does exist: 546 domain checks, 484 live pages with
+`page.txt` + `landing.png` evidence, and one recorded blocker per drop in `data/blockers.xlsx`.
+
+| Live status | Drops | Meaning |
+|---|---|---|
+| ready | 57 | no identity step detected and the page had real readable content |
+| unknown | 56 | page rendered almost no text (JS shell) - the detector could not judge it |
+| blocked | 276 | a human must cross one line (see the table below) |
+| refused | 85 | DEAD-LINK / SCAM-LIKELY domain, never opened |
+| no official site | 62 | the guide named none; guessing a domain is forbidden |
+| unreachable | 10 | page did not load from here |
+
+Where the 276 blocked drops actually stop: wallet signature 112, domain caution 89, login 76,
+email 59, terms 16, KYC 9. Full registry: `data/blockers.xlsx` (sheet `Summary` first),
+readable digest in `notes/batch-report.md`, per-drop packets in `agent/handoffs/`.
+
+The two inputs that would turn ~170 of those into real submissions are one email address and one
+burner wallet **address** (public only). Put them in `agent/operator-inputs.json` and the batch can
+submit every form that needs nothing secret - that is the only honest route to an "applied" count.
+
 | # | Blocked item | Why | Your action |
 |---|---|---|---|
 | B1 | First login for any site | The agent must not type your password | `python tools/agent_browser.py --identity main --url <official>` - log in in the window that opens; the profile keeps the session (`agent/sessions/main/`) |

@@ -1,26 +1,19 @@
 {
  "project": "Psy Protocol (QED)",
  "official_url": "https://psy.xyz/psychonaut",
- "source_url": "https://99airdrops.com/airdrops/qed-protocol/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://psy.xyz/psychonaut",
+ "evidence_so_far": [
+  "airships/psy-protocol-qed/page.txt",
+  "airships/psy-protocol-qed/landing.png"
+ ],
+ "steps_from_source": [
   "Open psy.xyz/psychonaut and sign up with email, Google or a wallet.",
   "Link your X and Discord accounts. The guide says \"you must link and verify X (Twitter) and Discord.\" for most tasks.",
   "Do the quests: open each task, complete it, then come back and press Verify."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://psy.xyz/psychonaut",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "3 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Everything is free: there is no deposit, mint or minimum. Test gas on Sepolia, BSC Testnet or Base Sepolia comes free from faucets. The Psy test bridge on 18 October 2026, before a wallet is connected, marked Staging and Test assets. Source: app-stg.psy-protocol.xyz",
- "risks": "Points are reputation only, and nothing published links them to a token. Psy has published no terms of use, no privacy policy, no country list and no age limit. Dates have slipped before. Mainnet was due in 2025 and hasn't launched. The five-level referral boost rewards recruiting more than using the network. No security audit has been published.",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,0 +1,17 @@
+{
+ "project": "edgeX",
+ "official_url": "https://pro.edgex.exchange",
+ "blocked_on": "site-unreachable",
+ "why_agent_cannot": "try the URL in your own browser",
+ "what_human_must_do": "The page did not load. Try the URL yourself; record 403/404 in fetch-report.",
+ "where_to_resume": "python tools/triage.py https://pro.edgex.exchange   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Sign up or log in to edgeX Open edgeX and use Sign Up / Log In. Any existing account holder is already enrolled in Trade to Earn, with no separate registration.",
+  "2 Step 2 : Check that your location is supported edgeX restricts access from the US and some other locations. Confirm your access before you fund anything.",
+  "3 Step 3 : Fund your account and trade a supported market Deposits go to your own wallet first, then you authorize the move to your trading account. Each qualifying fill then earns a reward based on its eligible fee.",
+  "4 Step 4 : Track USDC, locked EDGE and boxes Claimable USDC and locked EDGE appear in your rewards dashboard, and box progress shows on the Mystery Box page . The reward shown at order confirmation is only an estimate until the fill settles."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

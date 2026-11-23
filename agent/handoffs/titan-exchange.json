@@ -1,10 +1,15 @@
 {
  "project": "Titan Exchange",
  "official_url": "https://waitlist.titanx.cc",
- "source_url": "https://99airdrops.com/airdrops/titan-exchange/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://waitlist.titanx.cc",
+ "evidence_so_far": [
+  "airships/titan-exchange/page.txt",
+  "airships/titan-exchange/landing.png"
+ ],
+ "steps_from_source": [
   "Open the Titan waitlist and connect a wallet. Titan says this is a signature only, with no transaction and no gas. You get a waitlist position and a referral link.",
   "Open the Titan testnet and connect. It accepts Canton wallets, EVM wallets through WalletConnect, or a login by email, passkey or Google.",
   "Click \"Enable trading\" and sign the message, then enter a referral code. The testnet is invite-only, but the screen offers \"No code? Use Titan's\" if you don't have one. You can't change your referrer later.",
@@ -12,18 +17,6 @@
   "Place a first perpetuals order. The app walks you through it on the BTC market .",
   "Check your points and rank on the Rewards page ."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://waitlist.titanx.cc",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "6 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Nothing, as far as Titan's own pages show. The waitlist asks for a signature, and the testnet runs on free test USDC. Nothing on the site asks for a deposit.",
- "risks": "There is no token and no promise of one. The terms say the waitlist guarantees neither access nor a date, and that Titan can change or end any program at any time. No founders, team members or investors are named anywhere on Titan's pages. Its documentation sits behind a login. The $7 million seed round led by Galaxy Ventures that PANews reported in 2025 belongs to the Solana project of the same n",
  "created": "2026-11-23",
  "status": "open"
 }

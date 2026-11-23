@@ -1,0 +1,21 @@
+{
+ "project": "Firewall",
+ "official_url": "https://usefirewall.com/product",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://usefirewall.com/product",
+ "evidence_so_far": [
+  "airships/firewall/page.txt",
+  "airships/firewall/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Read the product page Open the Firewall product page to see how the Safe Sequencer inspects transactions and what happens when a transaction is wrongly flagged.",
+  "2 Step 2 : Read the Proof of Tech post The Proof of Tech post walks through the Kyber exploit recreation on a Base testnet and on Firewall&#x27;s testnet.",
+  "3 Step 3 : Open the testnet explorer Browse transactions and verified contracts on the Firewall testnet explorer .",
+  "4 Step 4 : Check the Blocked tab The explorer&#x27;s Blocked page lists the attack transaction the sequencer refused to include, which the post calls the correct result.",
+  "5 Step 5 : Inspect the Kyber checker contract Open the Kyber Vulnerability Checker on Firewall&#x27;s testnet. The post says it shares an address with the one on the Base testnet, so you can compare the two."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

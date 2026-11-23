@@ -1,25 +1,18 @@
 {
  "project": "Rhuna",
  "official_url": "https://portal.rhuna.io",
- "source_url": "https://www.airdropstop.com/airdrops/rhuna",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://portal.rhuna.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Connect a wallet on the Rhuna Portal Open the Rhuna Portal and use its Connect Wallet button to sign in.",
   "2 Step 2 : Open the quests page Go to the quests page to see the open quests and the points each one pays.",
   "3 Step 3 : Finish the social quests Follow Rhuna on X, join the Rhuna Discord server and the Telegram channel, and follow the Rhuna LinkedIn page. The Telegram quest says to return to the portal after joining.",
   "4 Step 4 : Complete the product quests The Download Rhuna Mobile App quest pays 100 points and offers the app for iOS and Android. The Create a Rhuna Event quest also pays 100 points and asks you to host your first event on Rhuna. The ProductHunt upvote banner offers 300 points for its three steps.",
   "5 Step 5 : Check in every day Use the Daily Check-in quest each day for 20 points, and stay active in the Rhuna Discord and Telegram to complete the chat quests."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://portal.rhuna.io",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

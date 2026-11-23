@@ -1,0 +1,20 @@
+{
+ "project": "Surf AI",
+ "official_url": "https://asksurf.ai",
+ "blocked_on": "terms",
+ "why_agent_cannot": "accept the project's terms in your own name",
+ "what_human_must_do": "Read and accept the project terms in your own name.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://asksurf.ai",
+ "evidence_so_far": [
+  "airships/surf-ai/page.txt",
+  "airships/surf-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "Open asksurf.ai and sign up. Surf's chief executive has warned about impersonators: \"The only official link is https://asksurf.ai. The account is @SurfAIHQ.\"",
+  "Use the free plan first to see whether the tool is worth paying for. It includes limited research and three deep research sessions a week.",
+  "If you buy a plan, Waves come with it, and higher plans earn more.",
+  "Track your Waves on the leaderboard page, and share your referral link if you want the referral reward."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

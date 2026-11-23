@@ -1,25 +1,18 @@
 {
  "project": "Omega",
  "official_url": "https://olympus.omeganetwork.co/omega/rewards",
- "source_url": "https://www.airdropstop.com/airdrops/omega",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://olympus.omeganetwork.co/omega/rewards   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Open the Omega rewards page Start from the Omega rewards page , or pick a network from the Olympus network list on the Omega homepage .",
   "2 Step 2 : Choose a network Each network has its own page, for example Solana , Aptos or Avalanche . Pick the one whose wallet you hold.",
   "3 Step 3 : Connect your wallet Use the connect button in the page header. The Solana page asks for Phantom and the Aptos page asks for Petra.",
   "4 Step 4 : Claim pOmega The claim transaction carries a network fee, and the tokens show up in the wallet when it confirms.",
   "5 Step 5 : Mint a Guide NFT Select the Guide card for your network and mint it. The Guide comes in a separate version for every supported network, and Solana also lists a Seeker Exclusive card for verified Seeker owners."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://olympus.omeganetwork.co/omega/rewards",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

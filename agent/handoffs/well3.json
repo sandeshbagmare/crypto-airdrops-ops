@@ -1,24 +1,20 @@
 {
  "project": "WELL3",
  "official_url": "https://well.eco",
- "source_url": "https://www.airdropstop.com/airdrops/well3",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://well.eco",
+ "evidence_so_far": [
+  "airships/well3/page.txt",
+  "airships/well3/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the WELL3 homepage Go to well.eco , the project&#x27;s own site, where the Claim WELL button and the heading &quot;It&#x27;s time to claim your token&quot; appear.",
   "2 Step 2 : Connect a wallet Use the Connect Wallet button on well.eco . The prompt shown offers Coinbase Wallet, by scanning a QR code with its mobile app or through its browser extension.",
   "3 Step 3 : Start the claim for WELL With the wallet connected, use the Claim WELL button on well.eco . The page has an Approval stage.",
   "4 Step 4 : Check the result on screen The claim window can show Successful or &quot;Oops, something went wrong&quot; with a Close button."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://well.eco",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "4 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

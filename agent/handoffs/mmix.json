@@ -1,11 +1,14 @@
 {
  "project": "MMIX",
  "official_url": "https://hub.mmix.io",
- "blocked_on": "unknown",
- "why_agent_cannot": "no live page reached",
- "what_human_must_do": "Nothing blocking: work the steps in the checklist.",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "complete identity verification (KYC), connect a wallet and approve the signature",
+ "what_human_must_do": "Pass KYC in your own name (legal step, agent cannot). Then finish the steps in apply/.",
  "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://hub.mmix.io",
- "evidence_so_far": [],
+ "evidence_so_far": [
+  "airships/mmix/page.txt",
+  "airships/mmix/landing.png"
+ ],
  "steps_from_source": [
   "Do the one-time tasks: follow on X, join Discord, join Telegram.",
   "Before 23 November 2026, 21:00 UTC, like, repost and comment on the 17 November announcement for the 200 points.",

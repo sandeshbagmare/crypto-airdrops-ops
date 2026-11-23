@@ -1,10 +1,12 @@
 {
  "project": "Rarelist",
  "official_url": "https://rarelist.io",
- "source_url": "https://99airdrops.com/airdrops/rarelist/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://rarelist.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Open rarelist.io and join with X. The sign-in asks for \"tweet.read users.read offline.access\", so it can read your account but can't post for you.",
   "Pass the account check: \"Rarelist checks your account age, smart score and followers.\" The limits aren't published, and small accounts get this message: \"Your account is too small to participate on Rarelist. Grow it to start earning.\"",
   "Post the verification text, or your own version: \"Post the text below, or write your own with @rarelistio and your verification code.\" Then wait: \"We review your account and your post. Activation usually happens within 24 hours.\"",
@@ -13,18 +15,6 @@
   "Post your own content about the project on X.",
   "Paste your Ethereum, Solana and Robinhood Chain addresses into your profile. Plain addresses only: \"ENS names are not accepted. Paste the 0x address.\" Warning Rarelist asks only for X sign-in and public addresses. If anyone asks for a seed phrase, a private key or a wallet signature in its name, treat it as a scam."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://rarelist.io",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "7 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "We found no payment, deposit, mint or fee on the site or in the app code, and no wallet transaction, so there is no gas. Rarelist never actually calls itself free, though. The real cost is your time and your X account. Prizes go to top ranks, so a small account can do every task and get nothing. Whitelist spots lead to other projects' launches, and those may cost money.",
- "risks": "The team is anonymous. The only person named is an X handle in the profile: \"Partnerships: @samimonday\". We found no company, address, funding or audit. We found no terms of use or privacy policy, and no list of excluded countries, age limit, KYC rule or VPN rule. Even so, the app collects your X identity and wallet addresses. The token promise is one sentence. Without a supply or a rate, nobody c",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,0 +1,20 @@
+{
+ "project": "Sogni AI",
+ "official_url": "https://www.sogni.ai/leaderboard",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.sogni.ai/leaderboard",
+ "evidence_so_far": [
+  "airships/sogni-ai/page.txt",
+  "airships/sogni-ai/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Read the Season 12 rules on the leaderboard Open the Sogni leaderboard and read the staking board and the T&amp;Cs it links. That page states the 8,000,000 SOGNI pool and the 9 November cutoff.",
+  "2 Step 2 : Get SOGNI Staking uses SOGNI, an ERC-20 token on Base. The assets page describes what the token is used for, and the dashboard is where Sogni&#x27;s pricing page sends people who want it.",
+  "3 Step 3 : Stake SOGNI on the dashboard Stake at dashboard.sogni.ai before new stakes close on 9 November at 00:00 UTC. If you already stake with auto-restake on, the leaderboard page says you are already in.",
+  "4 Step 4 : Check your Staking Power on the staking board Return to the staking board to see Staking Power rankings. Your portion of the airdrop follows your share of that pool."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,10 +1,12 @@
 {
  "project": "Vangrid",
  "official_url": "https://app.vangrid.io",
- "source_url": "https://99airdrops.com/airdrops/vangrid/",
- "blocked_on": "kyc",
- "why_agent_cannot": "identity verification is required and cannot be performed by an agent",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://app.vangrid.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "Check that you're 18 or older and not in an excluded place (see below).",
   "Open app.vangrid.io and choose Capture Data. If you prefer the Android app, use the Google Play listing linked from vangrid.io.",
   "Connect a wallet: \"Your wallet is your sign in.\"",
@@ -14,18 +16,6 @@
   "Complete the payment profile. The board says: \"We need your email to contact you, and a CEX account with completed KYC so we can pay rewards.\"",
   "If your clip is accepted, wait for Vangrid to pay you by hand."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.vangrid.io",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "8 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Filming is free: \"You pay nothing to submit. Reconstruction is covered by the bounty.\" The docs say contributors deal with \"no gas\". Your reward gets trimmed, though: \"With current defaults, a $50 reward pays $5 to the platform, $5 for reconstruction, and $40 to the contributor.\" You also pay in time, travel and mobile data, and if another clip wins you earn nothing. The Agents NFT is optional, an",
- "risks": "Excluded: \"The Service is not offered to and may not be used by residents of: Illinois (USA), Texas (USA), Washington (USA), Germany, France, Italy, mainland China, Russia, Iran, North Korea, Syria, Cuba, Crimea, and any other jurisdiction where the Service would be unlawful or restricted.\" Legal risk sits with you: \"You are solely responsible for the legality of every capture you submit.\" The ter",
  "created": "2026-11-23",
  "status": "open"
 }

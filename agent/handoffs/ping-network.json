@@ -1,24 +1,20 @@
 {
  "project": "Ping Network",
  "official_url": "https://pingnetwork.io/download",
- "source_url": "https://www.airdropstop.com/airdrops/ping-network",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://pingnetwork.io/download",
+ "evidence_so_far": [
+  "airships/ping-network/page.txt",
+  "airships/ping-network/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Download the Ping app Get the Ping app for iOS, Android or Chrome from the download page .",
   "2 Step 2 : Keep the VPN connected Switch the VPN on and leave it connected. Each 10 minutes of connection adds 1 point.",
   "3 Step 3 : Do tasks for boosts Complete the tasks offered in the app to unlock boosts that raise how fast VPN points accrue.",
   "4 Step 4 : Read the points rules The Ping Points documentation explains seasons, boosts and the end-of-season snapshot."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://pingnetwork.io/download",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "4 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

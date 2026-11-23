@@ -1,25 +1,21 @@
 {
  "project": "Seismic",
  "official_url": "https://orchestration.seismic.systems/docs",
- "source_url": "https://www.airdropstop.com/airdrops/seismic-2",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "kyc",
+ "why_agent_cannot": "complete identity verification (KYC)",
+ "what_human_must_do": "Pass KYC in your own name (legal step, agent cannot). Then finish the steps in apply/.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://orchestration.seismic.systems/docs",
+ "evidence_so_far": [
+  "airships/seismic/page.txt",
+  "airships/seismic/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the Orchestration docs Start at the Seismic Orchestration docs , which describe an API for virtual accounts, FX and local rails.",
   "2 Step 2 : Install the package Add seismic-orchestration with npm, bun, pnpm or yarn, as the docs list. The docs also link a Getting started page.",
   "3 Step 3 : Check the authentication page The docs home links an Authentication page; open it before you build on the API.",
   "4 Step 4 : Request a first quote Follow the first quote guide to create a sandbox client and price a trade across payment rails.",
   "5 Step 5 : Connect to the public testnet If you build on the blockchain instead, the testnet page gives chain ID 5124 and shows how to connect a provider."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://orchestration.seismic.systems/docs",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

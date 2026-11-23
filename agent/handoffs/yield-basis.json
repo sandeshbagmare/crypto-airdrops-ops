@@ -1,25 +1,21 @@
 {
  "project": "Yield Basis",
  "official_url": "https://yieldbasis.com/airdrop-claim",
- "source_url": "https://www.airdropstop.com/airdrops/yield-basis",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://yieldbasis.com/airdrop-claim",
+ "evidence_so_far": [
+  "airships/yield-basis/page.txt",
+  "airships/yield-basis/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the airdrop claim page Go to the Yield Basis Airdrop page , headed &quot;Withdraw your vesting airdrop&quot;.",
   "2 Step 2 : Connect your wallet Press the Connect Wallet button at the top of the app and connect your wallet, then look at the LP Season 1 figures.",
   "3 Step 3 : Check your vesting figures Read the LP Season 1 section for your total airdrop, the share vested and the YB that is claimable.",
   "4 Step 4 : Press Claim Press Claim and confirm the transaction in your wallet to withdraw the vested YB. You pay the network fee for that transaction.",
   "5 Step 5 : Optionally stake to earn YB emissions On the Earn page , depositing liquidity earns YB emissions only if you stake the yb-LP shares in the gauge. Unstaked shares earn trading fees instead, and staked shares carry watermark risk. The docs on providing liquidity walk through a first deposit."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://yieldbasis.com/airdrop-claim",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

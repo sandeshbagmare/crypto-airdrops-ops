@@ -1,25 +1,20 @@
 {
  "project": "X1 EcoChain",
  "official_url": "https://testnet.x1ecochain.com",
- "source_url": "https://www.airdropstop.com/airdrops/x1-ecochain",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://testnet.x1ecochain.com",
+ "evidence_so_far": [
+  "airships/x1-ecochain/page.txt"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the X1 EcoChain testnet site Go to the X1 EcoChain testnet site , which has a Get ECO Points button.",
   "2 Step 2 : Use the Connect button Use the Connect button at the top of the testnet site. The dashboard shows a balance, an ECO Points total and a rank.",
   "3 Step 3 : Open the Ecosystem Tasks and Quests tabs in the dashboard Select the Ecosystem Tasks and Quests tabs in the dashboard to see what they list. The ecosystem hub lists the dApps built on X1 EcoChain.",
   "4 Step 4 : Check the Leaderboard Open the Leaderboard tab in the dashboard to view the ranking.",
   "5 Step 5 : Follow the banner to mint a Multichain Score If you want eligibility for the airdrop aimed at Multichain Score holders, follow the airdrop banner on the X1 EcoChain homepage . It leads to an external Nomis page, and X1 EcoChain does not say what minting a score costs."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://testnet.x1ecochain.com",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

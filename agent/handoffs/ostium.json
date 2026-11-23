@@ -1,0 +1,21 @@
+{
+ "project": "Ostium",
+ "official_url": "https://app.ostium.com",
+ "blocked_on": "login",
+ "why_agent_cannot": "log in or create the account (human session)",
+ "what_human_must_do": "Log in / create the account in the shared profile, then the agent can continue.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.ostium.com",
+ "evidence_so_far": [
+  "airships/ostium/page.txt",
+  "airships/ostium/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Ostium app and log in Go to the Ostium app and use Log in or Sign up. Check first that your location is not a restricted jurisdiction, since the app blocks those.",
+  "2 Step 2 : Review your standing on the points page Open the points page to see the current week, your weekly trading and LP scores, the next conversion date and the leaderboards.",
+  "3 Step 3 : Trade a market to build a trading score Open a long or short position from the trade page . Trading activity feeds your weekly trading score.",
+  "4 Step 4 : Stake LP to build a liquidity score Stake LP to build your weekly LP score, which the points page tracks separately from your trading score.",
+  "5 Step 5 : Check your scores after each weekly conversion Return to the points page after the weekly conversion to see your scores compiled into points and your place on the leaderboards."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

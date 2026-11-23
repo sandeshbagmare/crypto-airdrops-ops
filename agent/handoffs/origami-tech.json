@@ -1,26 +1,21 @@
 {
  "project": "Origami Tech",
  "official_url": "https://app.origami.tech/register",
- "source_url": "https://www.airdropstop.com/airdrops/origami-tech",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.origami.tech/register",
+ "evidence_so_far": [
+  "airships/origami-tech/page.txt",
+  "airships/origami-tech/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Create an Origami account Open the registration page and create an account, or log in if you already have one.",
   "2 Step 2 : Create a project and connect an exchange Create a project in Origami to hold the exchange account, then add the exchange through API keys, as the getting started guide walks through.",
   "3 Step 3 : Trade through Origami Trade through Origami on the connected exchange. Volume is weighted and realized futures PnL counts toward the total. The points page does not say whether bot trades count.",
   "4 Step 4 : Follow your epoch on the points page Check the points page for the live epoch, its dates and the leaderboard. Epoch 03 runs from 30 Oct to 5 Nov.",
   "5 Step 5 : Wait for points to be confirmed According to the points page, your points are finalised once the weekly epoch has ended."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.origami.tech/register",
- "evidence_so_far": [],
- "confidence": 60,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "deadline stated"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

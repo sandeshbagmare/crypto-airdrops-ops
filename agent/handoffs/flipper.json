@@ -1,25 +1,18 @@
 {
  "project": "Flipper",
  "official_url": "https://app.flpp.io",
- "source_url": "https://www.airdropstop.com/airdrops/flipper",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://app.flpp.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
   "1 Step 1 : Open the Flipper app and connect a wallet Go to the Flipper trading app and connect your wallet, which the app requires before any trading.",
   "2 Step 2 : Fund your account Fund your trading account from one of the supported Solana or EVM networks. The Flipper homepage describes this funding route.",
   "3 Step 3 : Place qualifying trades Place trades on the Flipper terminal and XP is credited to your account for the ones that qualify. The homepage does not list which trades count as eligible.",
   "4 Step 4 : Do the quest tasks Work through the quest tasks for additional XP. The homepage describes quests as exploring Flipper and completing tasks.",
   "5 Step 5 : Share your referral link Invite other traders with your own referral link. Referral rewards depend on the referrals meeting the program&#x27;s conditions."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.flpp.io",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

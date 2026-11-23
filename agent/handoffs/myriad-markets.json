@@ -1,0 +1,21 @@
+{
+ "project": "Myriad Markets",
+ "official_url": "https://myriad.markets/earn",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://myriad.markets/earn",
+ "evidence_so_far": [
+  "airships/myriad-markets/page.txt",
+  "airships/myriad-markets/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Myriad Earn page Open the Earn page and look through the open quests with the points each one pays. Finished quests are marked Completed.",
+  "2 Step 2 : Sign in to Myriad Use the Log in or Sign up window, which offers Continue with Google. Sign-up is described as free.",
+  "3 Step 3 : Complete an Engage to Earn quest Pick an open quest, such as &quot;Vote for Myriad on the Abstract Portal&quot; (10K+ points), and open its own page, linked from the Earn page, to see what the task is.",
+  "4 Step 4 : Optionally look through the markets For background on the app, open the markets list to see the questions it offers. Which Points or USD₮ markets you can use depends on your country.",
+  "5 Step 5 : Open the Points view on the leaderboard Open the leaderboard and select the Points view for SZN 3. The page shows Daily, Weekly, Monthly and All filters beside the tabs."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

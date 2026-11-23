@@ -1,0 +1,21 @@
+{
+ "project": "SHIFT",
+ "official_url": "https://www.shiftrwa.xyz",
+ "blocked_on": "kyc",
+ "why_agent_cannot": "complete identity verification (KYC)",
+ "what_human_must_do": "Pass KYC in your own name (legal step, agent cannot). Then finish the steps in apply/.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.shiftrwa.xyz",
+ "evidence_so_far": [
+  "airships/shift/page.txt",
+  "airships/shift/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the SHIFT site Go to the SHIFT home page and read how the vaults are described: segregated vaults, real-world assets as backing, and no lock-up.",
+  "2 Step 2 : Compare the vaults Open the vaults page to see the fixed-income, S&amp;P 500 covered-call and copper-miners covered-call vaults side by side, with fact sheets.",
+  "3 Step 3 : Read one vault&#x27;s fact sheet Pick a vault such as USD Yield+ and read its strategy and figures, which the site labels illustrative.",
+  "4 Step 4 : Continue to the product overview The docs&#x27; product overview is the page that follows the welcome page, a place to keep reading about SHIFT&#x27;s products.",
+  "5 Step 5 : Check the vault FAQ Read the vaults FAQ for fees, risks, who can use SHIFT and how deposits work before putting funds in."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

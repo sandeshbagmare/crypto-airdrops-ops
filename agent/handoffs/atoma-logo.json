@@ -1,0 +1,22 @@
+{
+ "project": "Atoma-logo",
+ "official_url": "https://airdrops.io/goto/bybit",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://airdrops.io/goto/bybit   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "Weekly referral rewards: you receive 10% of the Atoma Points your direct referrals earn, including their referral boost. This comes on top of their points and is not deducted from them. Points your referrals earn from their own referrals are not counted.",
+  "Faster tier progression: your tier is based on your own deposits plus 10% of your referrals’ deposits.",
+  "Tier benefits: your tier multiplies your own Atoma Points and adds a boost to the points of every wallet you refer.",
+  "Iron (0 USDC): 1.0x your points, 0% boost for referrals",
+  "Bronze (1,000 USDC): 1.1x your points, 5% boost for referrals",
+  "Silver (5,000 USDC): 1.25x your points, 10% boost for referrals",
+  "Gold (20,000 USDC): 1.5x your points, 15% boost for referrals",
+  "Platinum (50,000 USDC): 1.75x your points, 20% boost for referrals",
+  "Black (100,000 USDC): 2.0x your points, 25% boost for referrals"
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

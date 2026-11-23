@@ -1,0 +1,17 @@
+{
+ "project": "Tria",
+ "official_url": "https://app.tria.so",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://app.tria.so   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Tria app and sign in Go to the Tria app and continue with a Google or Apple account to create your self-custodial account.",
+  "2 Step 2 : Use the app to earn Tria Points Pay, trade, earn or move assets across chains inside the app. The homepage says Tria Points, Mystery Boxes, cashback and boosts come as you use it.",
+  "3 Step 3 : Apply for a Tria membership card Apply for Lite, Pro or Max membership in the app . The app page says activity rewards and weekly airdrops are for people who hold and use a Tria card.",
+  "4 Step 4 : Compare membership terms on the Tria website Read the Lite, Pro and Max cashback limits and card perks on the Tria website before choosing a tier."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

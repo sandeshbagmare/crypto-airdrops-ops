@@ -1,26 +1,19 @@
 {
  "project": "Proto",
  "official_url": "https://www.useproto.xyz",
- "source_url": "https://99airdrops.com/airdrops/proto/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://www.useproto.xyz",
+ "evidence_so_far": [
+  "airships/proto/page.txt",
+  "airships/proto/landing.png"
+ ],
+ "steps_from_source": [
   "Open useproto.xyz and check the address in your browser. Two other sites are easy to land on by mistake: useproto.fun, the token launchpad, and proto.xyz, a bitcoin mining brand owned by Block.",
   "Type your email address into the box and press Join waitlist. We read the form's code and didn't submit it: it sends the email address and nothing else about you.",
   "Follow @proto_xyz on X for the Private Alpha and Private Beta announcements. Warning The waitlist asks for an email address only. If someone using Proto's name asks you to connect a wallet, share a seed phrase or send a deposit to hold a place, that isn't part of anything Proto has published."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.useproto.xyz",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "3 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Joining the waitlist is free. No fees, deposits or minimums are published, because the product isn't live. Signing up means agreeing to receive product updates by email. The Proto homepage on 18 October 2026, with the headline, an email box with a Join waitlist button and the line Coming Q4 2026. Source: useproto.xyz",
- "risks": "Nothing is promised to people on the waitlist. Any reward for joining early is a guess. The site has no terms of use, no privacy policy, no company name and no list of supported countries. The product is only teasers so far, so its safety can't be judged. No chain, custody model, fee schedule or audit is published. The marketing points to leverage and to single stocks, with posts that tag Nvidia a",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -1,0 +1,18 @@
+{
+ "project": "Illuvium",
+ "official_url": "https://illuvium.io/terms-and-conditions",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://illuvium.io/terms-and-conditions   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Read the homepage notice The homepage warns that the games are in beta and carry risk, and links the full disclaimer in the terms of use . Read it before you start.",
+  "2 Step 2 : Create an account and get the game The Illuvium homepage offers Sign Up and Log in, and lists the games as available on PC through the Epic Store. The terms add that supplementary terms from providers such as Epic Games may apply.",
+  "3 Step 3 : Pick a game to play Choose from Overworld, Arena, Zero, Beyond or Deathmatch, for example Arena or Overworld . The open beta page does not say which games earn points, so check each game&#x27;s own page.",
+  "4 Step 4 : Play to build up points The open beta page says active players accumulate points that convert to ILV. It does not define active, so follow the game&#x27;s own information and keep playing as the project describes.",
+  "5 Step 5 : Check the news portal for rewards updates Read the Illuvium news portal and the help center for any notice about the rewards, since the open beta page is undated."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

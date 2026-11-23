@@ -1,28 +1,21 @@
 {
  "project": "OptimAI Network",
  "official_url": "https://node.optimai.network",
- "source_url": "https://99airdrops.com/airdrops/optimai/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://node.optimai.network",
+ "evidence_so_far": [
+  "airships/optimai-network/page.txt",
+  "airships/optimai-network/landing.png"
+ ],
+ "steps_from_source": [
   "Create an account on the node dashboard . Sign-up shows a 12-word recovery phrase for the node's wallet. Write it down and never share it.",
   "Link your X, Discord and Telegram accounts under Missions and Rewards. OptimAI says of Island runs: \"We can't approve a run while they're unlinked\".",
   "Open the Router tab in Core Node, click the invite card to get your personal Island link, and open the link in a browser.",
   "Answer the six boxes. The questions are drawn from past quiz events in OptimAI's Discord, so reading those first helps.",
   "If you finish all six, watch the dashboard's notifications for Router early access."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://node.optimai.network",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "No fee, deposit or gas appears on any official page we read, and Island doesn't ask you to connect a crypto wallet. The cost is your machine and your connection. Core Node runs workloads through Docker and earns by sharing bandwidth and computing power while the computer stays on. Router goes further, because you download and run AI models yourself, and its own page says the credit amounts it show",
- "risks": "No country list, identity check or VPN rule is published. The privacy policy sets a minimum age of 13, and it defines the service it covers as the website, not the node software. The terms are short and never mention rewards, points or tokens. They let the company \"modify or discontinue any aspect of the Services at its discretion\". Balances can be changed. A dashboard notice about a bug says: \"We",
  "created": "2026-11-23",
  "status": "open"
 }

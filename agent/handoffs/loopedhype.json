@@ -1,0 +1,21 @@
+{
+ "project": "LoopedHYPE",
+ "official_url": "https://app.loopingcollective.org",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.loopingcollective.org",
+ "evidence_so_far": [
+  "airships/loopedhype/page.txt",
+  "airships/loopedhype/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Looping Collective app Go to the Looping Collective app . It lists loopedHYPE (LHYPE) among its products.",
+  "2 Step 2 : Deposit into loopedHYPE Open the loopedHYPE product page and deposit staked HYPE, kHYPE or HYPE. You receive LHYPE as a receipt token.",
+  "3 Step 3 : Stake LOOP for multipliers Use the points page to stake LOOP. The app invites a deposit of 5,000 LOOP for weekly Loyalty Rewards, and staking adds multipliers to your loopedHYPE rewards.",
+  "4 Step 4 : Check your LoopDrop allocation Open the LoopDrops checker to view your HyperLend points breakdown and allocation.",
+  "5 Step 5 : Read the airdrop phases in the docs The docs describe the Early Adopter, Loyalty and LoopDrops phases that LOOP staking multiplies."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

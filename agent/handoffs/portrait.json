@@ -1,0 +1,18 @@
+{
+ "project": "Portrait",
+ "official_url": "https://portrait.so",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://portrait.so   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Portrait site Go to the Portrait homepage and read how the link-in-bio page and the wallet fit together.",
+  "2 Step 2 : Sign up for a Portrait Press Sign up on the homepage to start your page; if you already have a Portrait, use the Log in link next to it.",
+  "3 Step 3 : Pick a frame and fill it Choose a frame for your grid, then add images, videos, links or text and adjust its size and position.",
+  "4 Step 4 : Apply for wallet early access On an iPhone, use the Apply for early access button on the homepage to try Portrait Wallet, which is live on iOS through TestFlight.",
+  "5 Step 5 : Try sending by username Inside the wallet, send money to another person with their Portrait username instead of a wallet address."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

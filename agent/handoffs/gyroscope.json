@@ -1,0 +1,20 @@
+{
+ "project": "Gyroscope",
+ "official_url": "https://app.gyro.finance",
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.gyro.finance",
+ "evidence_so_far": [
+  "airships/gyroscope/page.txt",
+  "airships/gyroscope/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Gyroscope app Go to the Gyroscope app .",
+  "2 Step 2 : Choose how to earn GYFI Pick one of the three routes shown on the homepage: holding GYD , stable pairs or volatile pairs .",
+  "3 Step 3 : Hold GYD or deposit into a pool Hold GYD without placing it in a pool (the Use GYD page is where the homepage sends you for that), or deposit assets into the pool you chose. The GYFI amounts on the homepage are quoted per $1000 held or deposited.",
+  "4 Step 4 : Check the Claim GYFI page Follow the Claim GYFI button in the header of the Gyroscope homepage to reach the project&#x27;s claim page."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

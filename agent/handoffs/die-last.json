@@ -1,0 +1,18 @@
+{
+ "project": "Die Last",
+ "official_url": "https://dielast.io/token",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://dielast.io/token   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Register in the DAO and request game access Register in the Die Last DAO and request access on the game&#x27;s Steam page, as the LAST token page describes.",
+  "2 Step 2 : Dig for Lost Objects in the game Once the airdrop is running, dig for Lost Objects until you find a Spy Radio.",
+  "3 Step 3 : Craft a message with the Spy Radio Put the Spy Radio into a crafted message and send that message to the Parachute Factory, which answers with an NFT.",
+  "4 Step 4 : Log in and claim the NFT Open the Crafted Objects page to see your crafted objects and claim the NFT. The token page says the claim at dielast.io uses your in-game seed phrase, while the Crafted Objects page offers a Google login.",
+  "5 Step 5 : Check the token requirement of each NFT Each crafted NFT has a distinct trait, and that trait sets a token requirement somewhere between none and 100. Collecting more NFTs raises how many tokens the airdrop gives you."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

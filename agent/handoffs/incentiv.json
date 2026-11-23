@@ -1,0 +1,16 @@
+{
+ "project": "Incentiv",
+ "official_url": "https://portal.incentiv.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://portal.incentiv.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Incentiv Portal Start from the Incentiv Portal , which the project&#x27;s homepage links with a &quot;Go to Portal&quot; button.",
+  "2 Step 2 : See what the network offers Incentiv lists Portal, existing dApps, its native DEX and its bridge as ways to use the network. Incentiv does not say which actions earn Incentiv+ rewards.",
+  "3 Step 3 : Pay network fees as needed Actions on the network carry gas fees, and the Unified Token feature allows those fees to be paid in a supported token."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

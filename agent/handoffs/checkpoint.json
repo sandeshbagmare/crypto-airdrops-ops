@@ -1,25 +1,21 @@
 {
  "project": "Checkpoint",
  "official_url": "https://checkpoint.exchange",
- "source_url": "https://www.airdropstop.com/airdrops/checkpoint",
  "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://checkpoint.exchange",
+ "evidence_so_far": [
+  "airships/checkpoint/page.txt",
+  "airships/checkpoint/landing.png"
+ ],
+ "steps_from_source": [
   "1 Step 1 : Open the Checkpoint app Go to checkpoint.exchange , the home page, which lists connecting a wallet as the first step.",
   "2 Step 2 : Check your points Connect a wallet or paste an address on the home page to see the points tied to that address.",
   "3 Step 3 : Track your addresses Open the Track Points page and add a wallet, ENS name or Farcaster handle to follow its point movements.",
   "4 Step 4 : Try the testnet Open the points markets , connect a wallet and place a test trade. It uses your smart account on Arbitrum Sepolia, with gas sponsored.",
   "5 Step 5 : Read the quickstart The quickstart in the documentation covers the essentials of the product and its core capabilities."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://checkpoint.exchange",
- "evidence_so_far": [],
- "confidence": 45,
- "evidence": [
-  "5 concrete steps",
-  "official site linked"
- ],
- "costs": "",
- "risks": "",
  "created": "2026-11-23",
  "status": "open"
 }

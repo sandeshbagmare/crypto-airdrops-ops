@@ -1,0 +1,20 @@
+{
+ "project": "Caster",
+ "official_url": "https://caster.trade",
+ "blocked_on": "email",
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://caster.trade",
+ "evidence_so_far": [
+  "airships/caster/page.txt",
+  "airships/caster/landing.png"
+ ],
+ "steps_from_source": [
+  "1 Step 1 : Open the Caster site Go to caster.trade and read the homepage description of the prediction-native chain and its orderbook.",
+  "2 Step 2 : Join the waitlist Press the Join Waitlist button on the homepage to ask for early access. As of 2 November 2026 it is the only sign-up the site offers.",
+  "3 Step 3 : Read how markets are priced Read the homepage sections on the Caster Liquidity Pool and the fee structure, which say takers pay fees and makers earn rebates.",
+  "4 Step 4 : Return for trading access Check caster.trade again to see whether trading has opened, since the homepage gives no launch date."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

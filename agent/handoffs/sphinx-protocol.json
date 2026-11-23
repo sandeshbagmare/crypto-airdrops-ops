@@ -1,0 +1,18 @@
+{
+ "project": "Sphinx Protocol",
+ "official_url": "https://www.sphx.io",
+ "blocked_on": "domain",
+ "why_agent_cannot": "nothing - the domain is dead or looks like a scam",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://www.sphx.io   # then re-run bulk_apply",
+ "evidence_so_far": [],
+ "steps_from_source": [
+  "1 Step 1 : Open the Sphinx website Go to sphx.io to see the exchange as it is described before launch, including the markets and margin modes.",
+  "2 Step 2 : Join the access list Use the &quot;Get notified&quot; button on the homepage. The homepage describes the access as institutional and limited to certain jurisdictions, and says Sphinx will be in touch as access opens.",
+  "3 Step 3 : Read about the team The homepage links to an About page for the team, which it says comes from exchanges, clearinghouses, trading firms and energy desks.",
+  "4 Step 4 : Read the Market Trials post The May 2026 Medium post explains the pre-launch challenge and the weekly prompts it describes.",
+  "5 Step 5 : Check the Market Trials page The post names signal.sphx.io as the official entry point. No page shows the challenge open on 2 November 2026, so look at the page itself."
+ ],
+ "created": "2026-11-23",
+ "status": "open"
+}

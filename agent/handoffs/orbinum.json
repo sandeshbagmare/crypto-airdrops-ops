@@ -1,28 +1,21 @@
 {
  "project": "Orbinum",
  "official_url": "https://app.orbinum.network/community",
- "source_url": "https://99airdrops.com/airdrops/orbinum/",
- "blocked_on": "login",
- "why_agent_cannot": "the drop requires a Telegram or Discord account session",
- "what_human_must_do": [
+ "blocked_on": "wallet_signature",
+ "why_agent_cannot": "connect a wallet and approve the signature",
+ "what_human_must_do": "Connect a burner wallet and approve the signature yourself.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://app.orbinum.network/community",
+ "evidence_so_far": [
+  "airships/orbinum/page.txt",
+  "airships/orbinum/landing.png"
+ ],
+ "steps_from_source": [
   "Open the Orbinum Hub and verify your wallet, Discord, Telegram and X.",
   "Claim 5 test ORB a day from the faucet . It checks that you're in the Orbinum Discord.",
   "In Private Pool, unlock your vault by signing a free off-chain message.",
   "Shield at least 1 ORB, send a private transfer, unshield, and share a disclosure key, pasting each hash or key into its quest. Each quest can be claimed three times a week, once a day. Warning Each hash or disclosure key can be claimed once, by one member. Keep yours private until you have claimed it.",
   "Do the weekly social quests and keep your streak going."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.orbinum.network/community",
- "evidence_so_far": [],
- "confidence": 75,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Nothing. The docs say faucet ORB has no economic value, and unlocking the vault needs a signature, not gas.",
- "risks": "Your share depends on everyone else's credits, so a credit's value isn't known until the snapshot. Mainnet has no fixed date. The planned listing price of $0.025 would value the whole Season 1 pool at $500,000.",
  "created": "2026-11-23",
  "status": "open"
 }

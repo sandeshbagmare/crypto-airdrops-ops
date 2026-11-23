@@ -1,0 +1,60 @@
+{
+ "name": "Ryfinite",
+ "confidence": 75,
+ "status": "Early / speculative",
+ "official": "https://ryfinite.com",
+ "needs": "",
+ "steps": [
+  "Go to ryfinite.com and create an account: \"You create a Ryfinite account with an email and password, or by signing in with Google.\"",
+  "Link your X account. The app says: \"Link your X account once. It's used for every X quest and for joining the Launchpool.\" Link a wallet only if a quest asks for it, and use a fresh one. Warning Ryfinite's terms say: \"We never ask for your seed phrase and will never request it.\" Anyone who asks is a scammer.",
+  "Do quests and keep your daily streak to collect Gems.",
+  "Open the RFN Launchpool, check the pool figures and \"Choose how many Gems you want to commit.\" Assume those Gems won't come back: official posts say \"Burn your Gems\", while another page describes locking them. No official page says whether a position can be exited.",
+  "Check that your allocation shows on your account. Nothing arrives in your wallet until around TGE, and only after the anti-sybil review.",
+  "Optional: join the Qern campaign for XP before it ends."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Ryfinite has no classic airdrop: quests earn Gems, and Gems committed to its pool earn RFN allocations. No token is out yet and the team is anonymous.",
+ "behind": "We don't know. No founder or team member is named on any official page we read. The terms say the platform is \"operated by Ryfinite Labs\" and governed by the law of \"the jurisdiction in which Ryfinite Labs is incorporated\", without saying where that is. No investors or funding rounds are named by the project, and we found none in the news. Domain records show ryfinite.com was registered on 2 July ",
+ "costs": "The free route is free so far. The terms say: \"Most activities on the Platform carry no Ryfinite fee.\" Ryfinite also says of the Launchpool: \"You can participate and claim your share without a Passport.\" The Passport is the paid part. It promises \"higher Launchpool capacity, 2× positions, exclusive Quests, and boosted rewards\". So paying improves your share. The public mint opened on 9 October, bu",
+ "risks": "Age: \"You must be at least 18 years old\". No list of excluded countries is published. The terms only bar any place \"where use of the Platform would be prohibited by applicable law.\" No KYC is stated for joining, but \"Ryfinite may decline, delay, or request additional verification for a withdrawal\". Your balances are \"tracked as records in Ryfinite's own systems, not on-chain assets\", and the terms",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/ryfinite/",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "points",
+  "quests",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 15,
+  "findings": [
+   [
+    "MEDIUM",
+    "domain 144 days old"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 144,
+  "checked": "2026-11-23T07:31:48"
+ },
+ "domain_age_days": null,
+ "slug": "ryfinite",
+ "dossier": "drops/ryfinite.md",
+ "published": "2026-11-23"
+}

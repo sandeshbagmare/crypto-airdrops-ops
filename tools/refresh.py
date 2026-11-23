@@ -26,6 +26,7 @@ STEPS = [
     ("site", ["tools/build_site.py"], "rebuild docs/index.html"),
     ("queue", ["tools/agent_bootstrap.py"], "rebuild agent/STATE.json and handoff packets"),
     ("kit", ["tools/apply_kit.py"], "rebuild the 25-drop apply kit and checklists"),
+    ("capability", ["tools/capability_matrix.py"], "classify what an agent vs a human must do"),
 ]
 
 

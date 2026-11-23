@@ -1,0 +1,249 @@
+{
+ "mmix": {
+  "project": "MMIX",
+  "slug": "mmix",
+  "official": "https://hub.mmix.io",
+  "at": "2026-11-23 07:44",
+  "steps_from_source": 5,
+  "domain_verdict": "DEAD-LINK",
+  "domain_score": 35,
+  "status": "refused",
+  "note": "domain check says DEAD-LINK - not opening it"
+ },
+ "doppler-finance": {
+  "project": "Doppler Finance",
+  "slug": "doppler-finance",
+  "official": "https://app.doppler.finance/airdrop",
+  "at": "2026-11-23 07:44",
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/doppler-finance/landing.png",
+  "status": "blocked",
+  "title": "Doppler Finance",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": "Don't show again today"
+   }
+  ],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 3,
+  "agent_can": [
+   "pre-fill 3 form field(s) for human review"
+  ],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
+ },
+ "aura-protocol": {
+  "project": "Aura Protocol",
+  "slug": "aura-protocol",
+  "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
+  "at": "2026-11-23 07:44",
+  "steps_from_source": 7,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/aura-protocol/landing.png",
+  "status": "ready",
+  "title": "Network Configuration | LitVM Docs",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "search-input",
+    "placeholder": "Search…",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Search",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "injected_wallet": false,
+  "cookies": 5,
+  "agent_can": [
+   "pre-fill 2 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ },
+ "globe": {
+  "project": "Globe",
+  "slug": "globe",
+  "official": "https://globemarkets.xyz",
+  "at": "2026-11-23 07:45",
+  "steps_from_source": 6,
+  "domain_verdict": "SUSPICIOUS",
+  "domain_score": 35,
+  "screenshot": "airships/globe/landing.png",
+  "status": "ready",
+  "title": "Globe — the first social trading app built on LayerZero ATLAS",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "email",
+    "name": "email",
+    "placeholder": "you@example.com",
+    "label": "Email address"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "website",
+    "placeholder": "",
+    "label": "Website"
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "name": "email",
+    "placeholder": "you@example.com",
+    "label": "Email address"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "website",
+    "placeholder": "",
+    "label": "Website"
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 5,
+  "agent_can": [
+   "pre-fill 4 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ },
+ "infinifi": {
+  "project": "infiniFi",
+  "slug": "infinifi",
+  "official": "https://app.infinifi.xyz/points",
+  "at": "2026-11-23 07:45",
+  "steps_from_source": 6,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/infinifi/landing.png",
+  "status": "blocked",
+  "title": "infiniFi | Points",
+  "fields": [],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 6,
+  "agent_can": [],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
+ },
+ "yakkamon": {
+  "project": "Yakkamon",
+  "slug": "yakkamon",
+  "official": "https://yakkamon.com",
+  "at": "2026-11-23 07:45",
+  "steps_from_source": 4,
+  "domain_verdict": "no red flags found",
+  "domain_score": 15,
+  "screenshot": "airships/yakkamon/landing.png",
+  "status": "ready",
+  "title": "Yakkamon - Official Site | Creature Collector Game on Ronin",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "email",
+    "name": "",
+    "placeholder": "your@email.com",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "6-DIGIT EMAIL CODE",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "ABC234",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "email, username, discord, YAKKA- code, wallet or IP",
+    "label": ""
+   },
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "",
+    "placeholder": "Your account was suspended for breaking the referral rules.",
+    "label": "Player message - they see this"
+   },
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "",
+    "placeholder": "Evidence, ticket links, anything the next admin needs.",
+    "label": "Internal notes - the team only"
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": "\n      \n      I agree to the terms and conditions and privac"
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 6,
+  "agent_can": [
+   "pre-fill 7 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ }
+}

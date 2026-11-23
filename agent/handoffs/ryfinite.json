@@ -2,8 +2,8 @@
  "project": "Ryfinite",
  "official_url": "https://ryfinite.com",
  "source_url": "https://99airdrops.com/airdrops/ryfinite/",
- "blocked_on": "email",
- "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "blocked_on": "login",
+ "why_agent_cannot": "the drop requires a Telegram or Discord account session",
  "what_human_must_do": [
   "Go to ryfinite.com and create an account: \"You create a Ryfinite account with an email and password, or by signing in with Google.\"",
   "Link your X account. The app says: \"Link your X account once. It's used for every X quest and for joining the Launchpool.\" Link a wallet only if a quest asks for it, and use a fresh one. Warning Ryfinite's terms say: \"We never ask for your seed phrase and will never request it.\" Anyone who asks is a scammer.",

@@ -11,6 +11,24 @@ airdrops.io also publishes per-project requirement flags, so the ledger can tell
 need Telegram, an X post, an email address or KYC before you start: 34 need Telegram, 69 need an
 X post, 54 need email, 19 require KYC.
 
+## How autonomous can an agent be here?
+
+Measured on the extracted steps of all 545 drops (`notes/autonomy.md`):
+
+| Bucket | Drops | Who finishes it |
+|---|---|---|
+| No identity step detected | 98 | agent alone: read requirements, fill form fields, capture evidence |
+| Email / waitlist only | 33 | agent prepares, human clicks the confirmation link |
+| Needs Telegram / Discord / X | 69 | human logs in once, agent continues in that session |
+| Needs a wallet signature | 151 | human approves one signature, agent continues |
+| Deposit or stake required | 146 | human decides whether to spend; usually skip |
+| KYC | 43 | human only, by law |
+
+`python tools/auto_apply.py --top 10` runs a live pre-flight per drop: domain check, official page in
+the persistent profile, requirement detection (form fields, wallet prompt, CAPTCHA, KYC), page text and
+screenshot into `airships/<slug>/`, then a split of `agent_can` vs `human_must`. It never submits a
+form, never types a secret, never signs, and refuses dead or scam-likely domains.
+
 ## Verification as pull requests
 
 Every drop is published as its own PR, so a human approves each verification individually instead of

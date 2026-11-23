@@ -150,7 +150,7 @@
    "end": "2026-12-31",
    "official": "https://app.riverai.inc/airdrop",
    "blocked_on": "wallet_signature",
-   "friction": 35,
+   "friction": 40,
    "friction_label": "deposit + wallet connect",
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
@@ -360,8 +360,8 @@
    "end": "2027-10-18",
    "official": "https://worldie.world",
    "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
+   "friction": 18,
+   "friction_label": "wallet connect + social tasks",
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/worldie.json",
@@ -402,8 +402,8 @@
    "end": "2027-10-22",
    "official": "https://app.startale.com",
    "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
+   "friction": 13,
+   "friction_label": "wallet connect + email",
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/startale.json",
@@ -885,32 +885,18 @@
    "handoff": "",
    "updated": "2026-11-23"
   },
-  "duelbet": {
-   "project": "DuelBet",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://duelbet.com/service-availability",
-   "blocked_on": "login",
-   "friction": 0,
-   "friction_label": "free / no identity",
-   "next_action": "hand off: login",
-   "status": "blocked",
-   "handoff": "agent/handoffs/duelbet.json",
-   "updated": "2026-11-23"
-  },
   "florin": {
    "project": "Florin",
    "confidence": 75,
    "days_left": "",
    "end": "",
    "official": "https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks",
-   "blocked_on": "none",
+   "blocked_on": "login",
    "friction": 0,
    "friction_label": "free / no identity",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/florin.json",
    "updated": "2026-11-23"
   },
   "lighter": {
@@ -969,20 +955,6 @@
    "handoff": "agent/handoffs/onre.json",
    "updated": "2026-11-23"
   },
-  "raflux": {
-   "project": "Raflux",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://raflux.io/quests",
-   "blocked_on": "wallet_signature",
-   "friction": 0,
-   "friction_label": "free / no identity",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/raflux.json",
-   "updated": "2026-11-23"
-  },
   "subfrost": {
    "project": "Subfrost",
    "confidence": 75,
@@ -1003,20 +975,6 @@
    "days_left": "",
    "end": "",
    "official": "https://asksurf.ai",
-   "blocked_on": "none",
-   "friction": 0,
-   "friction_label": "free / no identity",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
-   "updated": "2026-11-23"
-  },
-  "txflow": {
-   "project": "TxFlow",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://app.txflow.com",
    "blocked_on": "none",
    "friction": 0,
    "friction_label": "free / no identity",
@@ -1731,20 +1689,6 @@
    "days_left": "",
    "end": "",
    "official": "https://www.metis.io",
-   "blocked_on": "none",
-   "friction": 0,
-   "friction_label": "free / no identity",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
-   "updated": "2026-11-23"
-  },
-  "midas-markets": {
-   "project": "Midas Markets",
-   "confidence": 45,
-   "days_left": "",
-   "end": "",
-   "official": "https://app.midasmarkets.xyz",
    "blocked_on": "none",
    "friction": 0,
    "friction_label": "free / no identity",
@@ -2831,6 +2775,20 @@
    "handoff": "agent/handoffs/dexari.json",
    "updated": "2026-11-23"
   },
+  "duelbet": {
+   "project": "DuelBet",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://duelbet.com/service-availability",
+   "blocked_on": "login",
+   "friction": 3,
+   "friction_label": "email",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/duelbet.json",
+   "updated": "2026-11-23"
+  },
   "n1": {
    "project": "N1",
    "confidence": 75,
@@ -2879,12 +2837,26 @@
    "days_left": "",
    "end": "",
    "official": "https://ryfinite.com",
+   "blocked_on": "login",
+   "friction": 3,
+   "friction_label": "email",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/ryfinite.json",
+   "updated": "2026-11-23"
+  },
+  "txflow": {
+   "project": "TxFlow",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://app.txflow.com",
    "blocked_on": "email",
    "friction": 3,
    "friction_label": "email",
    "next_action": "hand off: email",
    "status": "blocked",
-   "handoff": "agent/handoffs/ryfinite.json",
+   "handoff": "agent/handoffs/txflow.json",
    "updated": "2026-11-23"
   },
   "zoi-network": {
@@ -3061,12 +3033,12 @@
    "days_left": "",
    "end": "",
    "official": "https://www.leap.xyz",
-   "blocked_on": "none",
+   "blocked_on": "login",
    "friction": 3,
    "friction_label": "email",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/leap.json",
    "updated": "2026-11-23"
   },
   "lora-finance": {
@@ -3083,18 +3055,32 @@
    "handoff": "agent/handoffs/lora-finance.json",
    "updated": "2026-11-23"
   },
+  "midas-markets": {
+   "project": "Midas Markets",
+   "confidence": 45,
+   "days_left": "",
+   "end": "",
+   "official": "https://app.midasmarkets.xyz",
+   "blocked_on": "email",
+   "friction": 3,
+   "friction_label": "email",
+   "next_action": "hand off: email",
+   "status": "blocked",
+   "handoff": "agent/handoffs/midas-markets.json",
+   "updated": "2026-11-23"
+  },
   "nava-ai": {
    "project": "Nava AI",
    "confidence": 45,
    "days_left": "",
    "end": "",
    "official": "https://docs.navalabs.ai",
-   "blocked_on": "none",
+   "blocked_on": "email",
    "friction": 3,
    "friction_label": "email",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
+   "next_action": "hand off: email",
+   "status": "blocked",
+   "handoff": "agent/handoffs/nava-ai.json",
    "updated": "2026-11-23"
   },
   "picasso-markets": {
@@ -3307,6 +3293,20 @@
    "handoff": "agent/handoffs/orbinum.json",
    "updated": "2026-11-23"
   },
+  "raflux": {
+   "project": "Raflux",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://raflux.io/quests",
+   "blocked_on": "wallet_signature",
+   "friction": 5,
+   "friction_label": "social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/raflux.json",
+   "updated": "2026-11-23"
+  },
   "rarelist": {
    "project": "Rarelist",
    "confidence": 75,
@@ -3361,20 +3361,6 @@
    "next_action": "hand off: login",
    "status": "blocked",
    "handoff": "agent/handoffs/termix.json",
-   "updated": "2026-11-23"
-  },
-  "voice": {
-   "project": "VOICE",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://voice.cc/socialcamp",
-   "blocked_on": "login",
-   "friction": 5,
-   "friction_label": "social tasks",
-   "next_action": "hand off: login",
-   "status": "blocked",
-   "handoff": "agent/handoffs/voice.json",
    "updated": "2026-11-23"
   },
   "xyper": {
@@ -3993,6 +3979,20 @@
    "handoff": "agent/handoffs/rialo.json",
    "updated": "2026-11-23"
   },
+  "voice": {
+   "project": "VOICE",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://voice.cc/socialcamp",
+   "blocked_on": "login",
+   "friction": 8,
+   "friction_label": "social tasks + email",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/voice.json",
+   "updated": "2026-11-23"
+  },
   "elyon-chain": {
    "project": "Elyon Chain",
    "confidence": 60,
@@ -4371,20 +4371,6 @@
    "handoff": "agent/handoffs/nullmask.json",
    "updated": "2026-11-23"
   },
-  "panther-protocol": {
-   "project": "Panther Protocol",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://pantherdao.app",
-   "blocked_on": "kyc",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: kyc",
-   "status": "blocked",
-   "handoff": "agent/handoffs/panther-protocol.json",
-   "updated": "2026-11-23"
-  },
   "reflect": {
    "project": "Reflect",
    "confidence": 75,
@@ -4425,34 +4411,6 @@
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/up.json",
-   "updated": "2026-11-23"
-  },
-  "xstable": {
-   "project": "XStable",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://www.xstable.ai/trade",
-   "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/xstable.json",
-   "updated": "2026-11-23"
-  },
-  "vibe-vibe": {
-   "project": "vibe/vibe",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://docs.robinhood.com/chain/add-network-to-wallet",
-   "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/vibe-vibe.json",
    "updated": "2026-11-23"
   },
   "agdex": {
@@ -4763,20 +4721,6 @@
    "handoff": "agent/handoffs/delpho.json",
    "updated": "2026-11-23"
   },
-  "drake": {
-   "project": "Drake",
-   "confidence": 45,
-   "days_left": "",
-   "end": "",
-   "official": "https://drake.exchange/earn",
-   "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/drake.json",
-   "updated": "2026-11-23"
-  },
   "elysium": {
    "project": "Elysium",
    "confidence": 45,
@@ -4803,20 +4747,6 @@
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/ethermax.json",
-   "updated": "2026-11-23"
-  },
-  "flipper": {
-   "project": "Flipper",
-   "confidence": 45,
-   "days_left": "",
-   "end": "",
-   "official": "https://app.flpp.io",
-   "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/flipper.json",
    "updated": "2026-11-23"
   },
   "fungolabs": {
@@ -5449,20 +5379,6 @@
    "handoff": "agent/handoffs/savior-of-health.json",
    "updated": "2026-11-23"
   },
-  "sectora": {
-   "project": "Sectora",
-   "confidence": 45,
-   "days_left": "",
-   "end": "",
-   "official": "https://sectoraorg.com/guide",
-   "blocked_on": "wallet_signature",
-   "friction": 10,
-   "friction_label": "wallet connect",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/sectora.json",
-   "updated": "2026-11-23"
-  },
   "seismic": {
    "project": "Seismic",
    "confidence": 45,
@@ -5813,20 +5729,6 @@
    "handoff": "agent/handoffs/rome-protocol.json",
    "updated": "2026-11-23"
   },
-  "smartx": {
-   "project": "SmartX",
-   "confidence": 75,
-   "days_left": "",
-   "end": "",
-   "official": "https://smartx.io/waitlist",
-   "blocked_on": "wallet_signature",
-   "friction": 13,
-   "friction_label": "wallet connect + email",
-   "next_action": "hand off: wallet_signature",
-   "status": "blocked",
-   "handoff": "agent/handoffs/smartx.json",
-   "updated": "2026-11-23"
-  },
   "titan-exchange": {
    "project": "Titan Exchange",
    "confidence": 75,
@@ -6079,6 +5981,20 @@
    "handoff": "agent/handoffs/tbook.json",
    "updated": "2026-11-23"
   },
+  "xstable": {
+   "project": "XStable",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://www.xstable.ai/trade",
+   "blocked_on": "wallet_signature",
+   "friction": 15,
+   "friction_label": "wallet connect + social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/xstable.json",
+   "updated": "2026-11-23"
+  },
   "human-tech": {
    "project": "human.tech",
    "confidence": 75,
@@ -6091,6 +6007,20 @@
    "next_action": "hand off: kyc",
    "status": "blocked",
    "handoff": "agent/handoffs/human-tech.json",
+   "updated": "2026-11-23"
+  },
+  "vibe-vibe": {
+   "project": "vibe/vibe",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://docs.robinhood.com/chain/add-network-to-wallet",
+   "blocked_on": "wallet_signature",
+   "friction": 15,
+   "friction_label": "wallet connect + social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/vibe-vibe.json",
    "updated": "2026-11-23"
   },
   "aiw3": {
@@ -6161,6 +6091,20 @@
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/dustswap.json",
+   "updated": "2026-11-23"
+  },
+  "flipper": {
+   "project": "Flipper",
+   "confidence": 45,
+   "days_left": "",
+   "end": "",
+   "official": "https://app.flpp.io",
+   "blocked_on": "wallet_signature",
+   "friction": 15,
+   "friction_label": "wallet connect + social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/flipper.json",
    "updated": "2026-11-23"
   },
   "haha-wallet": {
@@ -6499,6 +6443,20 @@
    "handoff": "agent/handoffs/sandwatch.json",
    "updated": "2026-11-23"
   },
+  "smartx": {
+   "project": "SmartX",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://smartx.io/waitlist",
+   "blocked_on": "wallet_signature",
+   "friction": 18,
+   "friction_label": "wallet connect + social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/smartx.json",
+   "updated": "2026-11-23"
+  },
   "vana": {
    "project": "Vana",
    "confidence": 75,
@@ -6525,6 +6483,20 @@
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/3dos.json",
+   "updated": "2026-11-23"
+  },
+  "drake": {
+   "project": "Drake",
+   "confidence": 45,
+   "days_left": "",
+   "end": "",
+   "official": "https://drake.exchange/earn",
+   "blocked_on": "wallet_signature",
+   "friction": 18,
+   "friction_label": "wallet connect + social tasks",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/drake.json",
    "updated": "2026-11-23"
   },
   "fair-shares": {
@@ -6569,20 +6541,6 @@
    "handoff": "agent/handoffs/qms-network.json",
    "updated": "2026-11-23"
   },
-  "sweep-finance": {
-   "project": "Sweep Finance",
-   "confidence": 45,
-   "days_left": "",
-   "end": "",
-   "official": "https://sweep.finance/airdrop",
-   "blocked_on": "kyc",
-   "friction": 18,
-   "friction_label": "wallet connect + social tasks",
-   "next_action": "hand off: kyc",
-   "status": "blocked",
-   "handoff": "agent/handoffs/sweep-finance.json",
-   "updated": "2026-11-23"
-  },
   "dfusion-ai": {
    "project": "dFusion AI",
    "confidence": 45,
@@ -6617,12 +6575,12 @@
    "days_left": "",
    "end": "",
    "official": "https://app.justbeep.it",
-   "blocked_on": "none",
+   "blocked_on": "login",
    "friction": 25,
    "friction_label": "deposit",
-   "next_action": "triage, then run the browser session",
-   "status": "identified",
-   "handoff": "",
+   "next_action": "hand off: login",
+   "status": "blocked",
+   "handoff": "agent/handoffs/beep.json",
    "updated": "2026-11-23"
   },
   "asymmetry-finance": {
@@ -6729,10 +6687,10 @@
    "days_left": "",
    "end": "",
    "official": "https://catalyst.app",
-   "blocked_on": "email",
+   "blocked_on": "login",
    "friction": 28,
    "friction_label": "deposit + email",
-   "next_action": "hand off: email",
+   "next_action": "hand off: login",
    "status": "blocked",
    "handoff": "agent/handoffs/catalyst.json",
    "updated": "2026-11-23"
@@ -7157,6 +7115,20 @@
    "handoff": "agent/handoffs/flop.json",
    "updated": "2026-11-23"
   },
+  "panther-protocol": {
+   "project": "Panther Protocol",
+   "confidence": 75,
+   "days_left": "",
+   "end": "",
+   "official": "https://pantherdao.app",
+   "blocked_on": "kyc",
+   "friction": 40,
+   "friction_label": "KYC + wallet connect",
+   "next_action": "hand off: kyc",
+   "status": "blocked",
+   "handoff": "agent/handoffs/panther-protocol.json",
+   "updated": "2026-11-23"
+  },
   "variational": {
    "project": "Variational",
    "confidence": 75,
@@ -7199,6 +7171,20 @@
    "handoff": "agent/handoffs/reaper-actual.json",
    "updated": "2026-11-23"
   },
+  "sectora": {
+   "project": "Sectora",
+   "confidence": 45,
+   "days_left": "",
+   "end": "",
+   "official": "https://sectoraorg.com/guide",
+   "blocked_on": "wallet_signature",
+   "friction": 40,
+   "friction_label": "deposit + wallet connect",
+   "next_action": "hand off: wallet_signature",
+   "status": "blocked",
+   "handoff": "agent/handoffs/sectora.json",
+   "updated": "2026-11-23"
+  },
   "czr-exchange": {
    "project": "CZR Exchange",
    "confidence": 25,
@@ -7225,6 +7211,20 @@
    "next_action": "hand off: wallet_signature",
    "status": "blocked",
    "handoff": "agent/handoffs/decibel.json",
+   "updated": "2026-11-23"
+  },
+  "sweep-finance": {
+   "project": "Sweep Finance",
+   "confidence": 45,
+   "days_left": "",
+   "end": "",
+   "official": "https://sweep.finance/airdrop",
+   "blocked_on": "kyc",
+   "friction": 48,
+   "friction_label": "KYC + wallet connect",
+   "next_action": "hand off: kyc",
+   "status": "blocked",
+   "handoff": "agent/handoffs/sweep-finance.json",
    "updated": "2026-11-23"
   },
   "liquid": {

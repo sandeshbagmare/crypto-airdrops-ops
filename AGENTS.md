@@ -118,6 +118,17 @@ Never start a second drop before the first is either `submitted` or `dropped` wi
 
 ## 7. Per-drop loop
 
+Start with a live pre-flight, which is autonomous and safe:
+
+```bash
+python tools/auto_apply.py --project <name>     # or --top 10 for the queue
+```
+
+It checks the domain, opens the official page in the persistent profile, saves `airships/<slug>/page.txt`
+and `landing.png`, detects whether the live page wants a form, a wallet, a CAPTCHA or KYC, and writes
+the split between `agent_can` and `human_must`. Refuses to open DEAD-LINK or SCAM-LIKELY domains.
+
+Then:
 1. Read the row plus its `verified.json` entry.
 2. `python tools/triage.py <official_url>` - a `SCAM-LIKELY` verdict ends the drop immediately.
 3. Confirm the official domain against the project's own docs or verified X profile. Never use a

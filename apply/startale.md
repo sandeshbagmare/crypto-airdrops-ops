@@ -1,7 +1,7 @@
-# Startale - apply checklist (#18)
+# Startale - apply checklist (#17)
 
 - **Confidence** 60/100 - 5 concrete steps, official site linked, deadline stated
-- **Effort** wallet connect (friction 10)
+- **Effort** wallet connect + email (friction 13)
 - **Key date** 2027-10-22 (333 days left)
 - **Official site** https://app.startale.com
 - **Domain check** no red flags found (score 0, age 7870d)
@@ -39,4 +39,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #19.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #18.

@@ -1,4 +1,4 @@
-# eCash - apply checklist (#25)
+# eCash - apply checklist (#24)
 
 - **Confidence** 60/100 - 4 concrete steps, official site linked, deadline stated
 - **Effort** free / no identity (friction 0)
@@ -38,4 +38,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #26.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #25.

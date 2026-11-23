@@ -1,4 +1,4 @@
-# MovitOn - apply checklist (#24)
+# MovitOn - apply checklist (#23)
 
 - **Confidence** 60/100 - 5 concrete steps, official site linked, deadline stated
 - **Effort** wallet connect + social tasks (friction 15)
@@ -39,4 +39,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #25.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #24.

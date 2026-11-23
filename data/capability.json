@@ -1,0 +1,4916 @@
+[
+ {
+  "name": "Kleos",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 90,
+  "friction": 0,
+  "days": 357,
+  "official": "https://www.thekleos.pro"
+ },
+ {
+  "name": "Melee",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 90,
+  "friction": 0,
+  "days": 342,
+  "official": "https://www.melee.markets"
+ },
+ {
+  "name": "Monolith",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 0,
+  "days": 354,
+  "official": "https://www.swanusd.com/airdrop"
+ },
+ {
+  "name": "Axis Robotics",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 90,
+  "friction": 3,
+  "days": 334,
+  "official": "https://hub.axisrobotics.ai"
+ },
+ {
+  "name": "Coinzilla",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 90,
+  "friction": 3,
+  "days": 360,
+  "official": "https://play.coinzilla.com"
+ },
+ {
+  "name": "Cycles",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 90,
+  "friction": 3,
+  "days": 297,
+  "official": "https://apps.apple.com/us/app/cycles-pay/id6761496918"
+ },
+ {
+  "name": "Perle",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 90,
+  "friction": 3,
+  "days": 118,
+  "official": "https://app.perle.xyz"
+ },
+ {
+  "name": "Pursuit",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 90,
+  "friction": 3,
+  "days": 347,
+  "official": "https://beta.pursuit.games"
+ },
+ {
+  "name": "Daejin",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 90,
+  "friction": 5,
+  "days": 359,
+  "official": "https://www.daejin.xyz/loyalty"
+ },
+ {
+  "name": "Flint",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 90,
+  "friction": 5,
+  "days": 362,
+  "official": "https://devnet.app.flint.trade"
+ },
+ {
+  "name": "MMIX",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 90,
+  "friction": 5,
+  "days": 0,
+  "official": "https://hub.mmix.io"
+ },
+ {
+  "name": "Abstract",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 10,
+  "days": 22,
+  "official": "https://migrate.abs.xyz"
+ },
+ {
+  "name": "Aura Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 10,
+  "days": 7,
+  "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration"
+ },
+ {
+  "name": "Fables",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 10,
+  "days": 362,
+  "official": "https://claim.fables.fi"
+ },
+ {
+  "name": "Fhenix",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 10,
+  "days": 332,
+  "official": "https://www.fhenix.io"
+ },
+ {
+  "name": "Inverted Lambda",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 10,
+  "days": 350,
+  "official": "https://inverted-lambda.com/platform/beta"
+ },
+ {
+  "name": "PERPTools",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 10,
+  "days": 316,
+  "official": "https://app.perptools.ai"
+ },
+ {
+  "name": "xStocks",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 10,
+  "days": 11,
+  "official": "https://defi.xstocks.fi/points"
+ },
+ {
+  "name": "Grass",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 13,
+  "days": 60,
+  "official": "https://app.grass.io"
+ },
+ {
+  "name": "Minds Games",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 13,
+  "days": 323,
+  "official": "https://minds.games"
+ },
+ {
+  "name": "Decentralized Intelligence",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 15,
+  "days": 360,
+  "official": "https://di.xyz/check-in"
+ },
+ {
+  "name": "NeoSoul",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 15,
+  "days": 333,
+  "official": "https://airdrop.neosoul.ai"
+ },
+ {
+  "name": "SimpleChain",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 15,
+  "days": 318,
+  "official": "https://task.simplechain.com"
+ },
+ {
+  "name": "TastyCo",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 15,
+  "days": 336,
+  "official": "https://app.tastyco.io/en/quests"
+ },
+ {
+  "name": "Trueo",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 15,
+  "days": 69,
+  "official": "https://trueo.com"
+ },
+ {
+  "name": "Vault Street",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 15,
+  "days": 333,
+  "official": "https://vaultstreet.fun/whitelist"
+ },
+ {
+  "name": "Ammora",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 18,
+  "days": 327,
+  "official": "https://ammora.org/waitlist/join"
+ },
+ {
+  "name": "Loaf Markets",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 18,
+  "days": 12,
+  "official": "https://beta.loafmarkets.com/league"
+ },
+ {
+  "name": "Worldie",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 18,
+  "days": 329,
+  "official": "https://worldie.world"
+ },
+ {
+  "name": "Yakkamon",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 18,
+  "days": 9,
+  "official": "https://yakkamon.com"
+ },
+ {
+  "name": "IPX",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 90,
+  "friction": 33,
+  "days": 357,
+  "official": "https://www.ipx.exchange/fanszn"
+ },
+ {
+  "name": "Ekiden",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 35,
+  "days": 317,
+  "official": "https://app.ekiden.fi"
+ },
+ {
+  "name": "MetaMask",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 90,
+  "friction": 35,
+  "days": 354,
+  "official": "https://metamask.com"
+ },
+ {
+  "name": "River",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 40,
+  "days": 38,
+  "official": "https://app.riverai.inc/airdrop"
+ },
+ {
+  "name": "Globe",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 90,
+  "friction": 43,
+  "days": 7,
+  "official": "https://globemarkets.xyz"
+ },
+ {
+  "name": "Bybit WSOT 2026",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 90,
+  "friction": 55,
+  "days": 9,
+  "official": "https://www.bybit.com/wsot2026"
+ },
+ {
+  "name": "StableStock",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 90,
+  "friction": 55,
+  "days": 344,
+  "official": "https://app.stablestock.finance"
+ },
+ {
+  "name": "Antseed",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://antseed.com"
+ },
+ {
+  "name": "Arc",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://community.arc.io"
+ },
+ {
+  "name": "Ascend",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.ascendlaunch.xyz"
+ },
+ {
+  "name": "BULK",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.bulk.trade"
+ },
+ {
+  "name": "ChimpX",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://token.chimpx.ai"
+ },
+ {
+  "name": "Dreamcash",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://dreamcash.xyz"
+ },
+ {
+  "name": "Florin",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.superboard.xyz/campaigns/explore-florin-liquity-v2-for-tokenized-stocks"
+ },
+ {
+  "name": "Lighter",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.lighter.xyz/points-program/lighter-on-robinhood-chain-points"
+ },
+ {
+  "name": "MINT",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://mint.io/mntd"
+ },
+ {
+  "name": "Memebook (ORVI)",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://orvi.fun/claim"
+ },
+ {
+  "name": "OnRe",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.onre.finance/legal/onyc-excluded-jurisdictions"
+ },
+ {
+  "name": "Subfrost",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.subfrost.io/rewards"
+ },
+ {
+  "name": "Surf AI",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 0,
+  "days": "",
+  "official": "https://asksurf.ai"
+ },
+ {
+  "name": "42",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.42.space"
+ },
+ {
+  "name": "Acepyr",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.acepyr.com"
+ },
+ {
+  "name": "Backtrade",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://backtrade.xyz"
+ },
+ {
+  "name": "Bullpen",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://app.bullpen.fi"
+ },
+ {
+  "name": "Cambria",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://lobby.cambria.gg"
+ },
+ {
+  "name": "Derivio",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://derivio.xyz"
+ },
+ {
+  "name": "Dexari",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://dexari.com"
+ },
+ {
+  "name": "DuelBet",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://duelbet.com/service-availability"
+ },
+ {
+  "name": "N1",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://app.n1.xyz"
+ },
+ {
+  "name": "Ondo Perps",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://app.ondoperps.xyz"
+ },
+ {
+  "name": "RISEx",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.rise.trade"
+ },
+ {
+  "name": "Ryfinite",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://ryfinite.com"
+ },
+ {
+  "name": "TxFlow",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://app.txflow.com"
+ },
+ {
+  "name": "Zoi Network",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 75,
+  "friction": 3,
+  "days": "",
+  "official": "https://apps.apple.com/app/id6815543425"
+ },
+ {
+  "name": "Cancore",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://cancore.io"
+ },
+ {
+  "name": "Montra",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://montramarkets.xyz/airdrop"
+ },
+ {
+  "name": "Orbinum",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://app.orbinum.network/community"
+ },
+ {
+  "name": "Raflux",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://raflux.io/quests"
+ },
+ {
+  "name": "Rarelist",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://rarelist.io"
+ },
+ {
+  "name": "SOEI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://proof.soei.io"
+ },
+ {
+  "name": "Squeekchain",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://squeekchain.com/genesis"
+ },
+ {
+  "name": "TermiX",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.agent.family/points"
+ },
+ {
+  "name": "Xyper",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://xyper.market/points"
+ },
+ {
+  "name": "fomo",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 5,
+  "days": "",
+  "official": "https://fomo.family/r/cryptofree"
+ },
+ {
+  "name": "AllScale",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://app.allscale.io"
+ },
+ {
+  "name": "Breath of Estova",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://breathofestova.com/pre-register"
+ },
+ {
+  "name": "Imperial",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://www.imperial.space"
+ },
+ {
+  "name": "Nous Research",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://portal.nousresearch.com"
+ },
+ {
+  "name": "OnePump",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://www.oneswap.cc/waitlist"
+ },
+ {
+  "name": "Raycash",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://www.raycash.xyz/user"
+ },
+ {
+  "name": "Renaiss Protocol",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://www.renaiss.xyz"
+ },
+ {
+  "name": "Rialo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://playground.rialo.io"
+ },
+ {
+  "name": "VOICE",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 8,
+  "days": "",
+  "official": "https://voice.cc/socialcamp"
+ },
+ {
+  "name": "Amadeus Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": 342,
+  "official": "https://amahub.ama.one/quests"
+ },
+ {
+  "name": "Apyx",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.apyx.fi"
+ },
+ {
+  "name": "Arcus",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.arcus.xyz/trade/spot"
+ },
+ {
+  "name": "BaiBai",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.baibai.cx"
+ },
+ {
+  "name": "Bullshot",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://bullshot.io"
+ },
+ {
+  "name": "Embervale",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://embervalegame.com"
+ },
+ {
+  "name": "Ethena",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": 311,
+  "official": "https://claim.ethena.fi"
+ },
+ {
+  "name": "Hashcats",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://hashcats.fun/docs"
+ },
+ {
+  "name": "HertzFlow",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.hertzflow.xyz"
+ },
+ {
+  "name": "Kalos",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://elysium.kinetiq.xyz/testnet-faucet"
+ },
+ {
+  "name": "Metric",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.metric.xyz"
+ },
+ {
+  "name": "Monetrix",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.monetrix.xyz/app/earn"
+ },
+ {
+  "name": "Noah AI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://trynoah.ai"
+ },
+ {
+  "name": "Note Systems",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://note.systems/app"
+ },
+ {
+  "name": "Nullmask",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.nullmask.io/points"
+ },
+ {
+  "name": "Reflect",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://tranches.reflect.money"
+ },
+ {
+  "name": "Tydro",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.tydro.com"
+ },
+ {
+  "name": "UP",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 10,
+  "days": "",
+  "official": "https://up33.xyz"
+ },
+ {
+  "name": "ALPHEA",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://alphea.ai/alphea-connect-app"
+ },
+ {
+  "name": "Blackboard",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://blackboard.fi"
+ },
+ {
+  "name": "Doma Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://app.doma.xyz"
+ },
+ {
+  "name": "Frontier Traders",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://www.frontiertraders.com/join"
+ },
+ {
+  "name": "Minehood",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://www.minehood.io"
+ },
+ {
+  "name": "Morfi Markets",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://morfi.markets"
+ },
+ {
+  "name": "Rome Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://civitas.mainnet.romeprotocol.xyz/points"
+ },
+ {
+  "name": "Titan Exchange",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://waitlist.titanx.cc"
+ },
+ {
+  "name": "c8ntinuum",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 13,
+  "days": "",
+  "official": "https://app.c8ntinuum.com"
+ },
+ {
+  "name": "DI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://di.xyz/check-in"
+ },
+ {
+  "name": "Dow Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.dowprotocol.com/points"
+ },
+ {
+  "name": "FX100",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://testnet.fx100.club"
+ },
+ {
+  "name": "JoinCare",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://joincarelabs.com/tasks"
+ },
+ {
+  "name": "Jupiter",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://docs.jup.ag/user-docs/more/jup-token"
+ },
+ {
+  "name": "NOWA",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.nowa.finance"
+ },
+ {
+  "name": "OptimAI Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://node.optimai.network"
+ },
+ {
+  "name": "Optimum",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://turbocards.getoptimum.xyz/optimum"
+ },
+ {
+  "name": "Ritual",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://airdrop.ritualfoundation.org"
+ },
+ {
+  "name": "Sumex",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.sumex.io"
+ },
+ {
+  "name": "TBook",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://engage.tbook.com"
+ },
+ {
+  "name": "XStable",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://www.xstable.ai/trade"
+ },
+ {
+  "name": "human.tech",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.passport.xyz"
+ },
+ {
+  "name": "vibe/vibe",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 15,
+  "days": "",
+  "official": "https://docs.robinhood.com/chain/add-network-to-wallet"
+ },
+ {
+  "name": "4D Labs",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://dapp.4dlabs.space/tasks"
+ },
+ {
+  "name": "AlloX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://app.allox.ai"
+ },
+ {
+  "name": "De1",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://de1.ai"
+ },
+ {
+  "name": "Forte",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://app.fairground.fi"
+ },
+ {
+  "name": "GetOn",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://waitlist.geton.xyz"
+ },
+ {
+  "name": "MemeBitcoin",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://www.memebitcoin.org"
+ },
+ {
+  "name": "Polyester",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://testnet.polyester.com"
+ },
+ {
+  "name": "Proto",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://www.useproto.xyz"
+ },
+ {
+  "name": "Psy Protocol (QED)",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://psy.xyz/psychonaut"
+ },
+ {
+  "name": "Sandwatch",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://sandwatch.com"
+ },
+ {
+  "name": "SmartX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://smartx.io/waitlist"
+ },
+ {
+  "name": "Vana",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 18,
+  "days": "",
+  "official": "https://community.vana.org"
+ },
+ {
+  "name": "Wick",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 18,
+  "days": 324,
+  "official": "https://www.wick.xyz/waitlist"
+ },
+ {
+  "name": "Beep",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 25,
+  "days": "",
+  "official": "https://app.justbeep.it"
+ },
+ {
+  "name": "Catalyst",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 28,
+  "days": "",
+  "official": "https://catalyst.app"
+ },
+ {
+  "name": "Sirius Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 28,
+  "days": "",
+  "official": "https://app.siriusprotocol.xyz/invite"
+ },
+ {
+  "name": "XO Market",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 28,
+  "days": "",
+  "official": "https://beta.xo.market"
+ },
+ {
+  "name": "PowerX One",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 30,
+  "days": "",
+  "official": "https://powerx.one/en"
+ },
+ {
+  "name": "Polymarket",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 33,
+  "days": "",
+  "official": "https://help.polymarket.com/en/articles/13364163-geographic-restrictions"
+ },
+ {
+  "name": "The Pit",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 75,
+  "friction": 33,
+  "days": "",
+  "official": "https://www.thepitapp.xyz"
+ },
+ {
+  "name": "3Jane",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://app.3jane.xyz/supply"
+ },
+ {
+  "name": "Extended",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://app.extended.exchange"
+ },
+ {
+  "name": "Kryvora Network",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://faucet-testnet.kryvora.network"
+ },
+ {
+  "name": "NUVA",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://app.nuva.finance/en/vaults"
+ },
+ {
+  "name": "Papertrade",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://papertrade.xyz"
+ },
+ {
+  "name": "RAFA Finance",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://rafa.ai"
+ },
+ {
+  "name": "Synthra",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://app.synthra.org"
+ },
+ {
+  "name": "Tzero",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://testnet.tzer0.fun"
+ },
+ {
+  "name": "Valdora",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://valdora.finance/leaderboard"
+ },
+ {
+  "name": "Voltrade",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://voltrade.xyz"
+ },
+ {
+  "name": "ZeruAI",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 35,
+  "days": "",
+  "official": "https://app.zaps.markets"
+ },
+ {
+  "name": "DogeOS",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 38,
+  "days": "",
+  "official": "https://quest.dogeos.com"
+ },
+ {
+  "name": "RWAPerp",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 38,
+  "days": "",
+  "official": "https://waitlist.rwaperp.xyz"
+ },
+ {
+  "name": "Spicenet",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 38,
+  "days": "",
+  "official": "https://portal.spicenet.io"
+ },
+ {
+  "name": "FLOP",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 75,
+  "friction": 40,
+  "days": "",
+  "official": "https://flop.finance/teaser"
+ },
+ {
+  "name": "Panther Protocol",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 40,
+  "days": "",
+  "official": "https://pantherdao.app"
+ },
+ {
+  "name": "Variational",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 40,
+  "days": "",
+  "official": "https://omni.variational.io"
+ },
+ {
+  "name": "Decibel",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 75,
+  "friction": 43,
+  "days": "",
+  "official": "https://app.decibel.trade"
+ },
+ {
+  "name": "Liquid",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 55,
+  "days": "",
+  "official": "https://app.liquid.trade"
+ },
+ {
+  "name": "Saturn",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 65,
+  "days": "",
+  "official": "https://app.saturn.credit"
+ },
+ {
+  "name": "Vangrid",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 75,
+  "friction": 68,
+  "days": "",
+  "official": "https://app.vangrid.io"
+ },
+ {
+  "name": "Familiars",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 70,
+  "friction": 0,
+  "days": 329,
+  "official": ""
+ },
+ {
+  "name": "Ethos Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 60,
+  "friction": 0,
+  "days": 333,
+  "official": "https://app.ethos.network"
+ },
+ {
+  "name": "Sogni AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 60,
+  "friction": 0,
+  "days": 351,
+  "official": "https://www.sogni.ai/leaderboard"
+ },
+ {
+  "name": "Teneo Protocol",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 60,
+  "friction": 0,
+  "days": 338,
+  "official": "https://teneo-protocol.ai/community-node"
+ },
+ {
+  "name": "eCash",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 60,
+  "friction": 0,
+  "days": 340,
+  "official": "https://ecash.com/how-to-claim"
+ },
+ {
+  "name": "Caster",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 60,
+  "friction": 3,
+  "days": 344,
+  "official": "https://caster.trade"
+ },
+ {
+  "name": "Sphinx Protocol",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 60,
+  "friction": 3,
+  "days": 344,
+  "official": "https://www.sphx.io"
+ },
+ {
+  "name": "Elyon Chain",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 60,
+  "friction": 8,
+  "days": "",
+  "official": "https://airdrops.io/chaingpt"
+ },
+ {
+  "name": "Bigcoin",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 10,
+  "days": 250,
+  "official": "https://www.bigcoin.tech"
+ },
+ {
+  "name": "Doppler Finance",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 10,
+  "days": 5,
+  "official": "https://app.doppler.finance/airdrop"
+ },
+ {
+  "name": "Katana",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 60,
+  "friction": 10,
+  "days": 353,
+  "official": "https://app.katana.network/quests"
+ },
+ {
+  "name": "Origami Tech",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 10,
+  "days": 341,
+  "official": "https://app.origami.tech/register"
+ },
+ {
+  "name": "Rabby Wallet",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 10,
+  "days": 340,
+  "official": "https://rabby.io/points"
+ },
+ {
+  "name": "SoSoValue",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 60,
+  "friction": 10,
+  "days": 179,
+  "official": "https://ssi.sosovalue.com/reward"
+ },
+ {
+  "name": "infiniFi",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 60,
+  "friction": 10,
+  "days": 8,
+  "official": "https://app.infinifi.xyz/points"
+ },
+ {
+  "name": "Startale",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 60,
+  "friction": 13,
+  "days": 333,
+  "official": "https://app.startale.com"
+ },
+ {
+  "name": "MovitOn",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 15,
+  "days": 339,
+  "official": "https://hub.moviton.com"
+ },
+ {
+  "name": "3jane-logo",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 60,
+  "friction": 35,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance-discount"
+ },
+ {
+  "name": "Virtuals Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 60,
+  "friction": 35,
+  "days": 338,
+  "official": "https://app.virtuals.io/dashboard"
+ },
+ {
+  "name": "Atoma-logo",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 55,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Backyard Finance",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 55,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Rialto",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 55,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "QFEX",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 55,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Flop Labs",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 55,
+  "friction": 8,
+  "days": "",
+  "official": "https://github.com/flop-labs"
+ },
+ {
+  "name": "Legend",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 55,
+  "friction": 8,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "hoodtracker-logo",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 55,
+  "friction": 30,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "OmenX",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 55,
+  "friction": 33,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "SolPump",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 55,
+  "friction": 35,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Scout",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 55,
+  "friction": 38,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "375ai",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.375.ai"
+ },
+ {
+  "name": "AITV",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://aitv.gg/airdrop"
+ },
+ {
+  "name": "ALIENX",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://bridge.alienxchain.io"
+ },
+ {
+  "name": "ARO Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://aro.network"
+ },
+ {
+  "name": "Acki Nacki",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://ackinacki.com/wallet"
+ },
+ {
+  "name": "Anichess",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://anichess.com"
+ },
+ {
+  "name": "Ankr",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.ankr.com/docs/ankr-forge/overview"
+ },
+ {
+  "name": "Atoma",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.atoma.fi"
+ },
+ {
+  "name": "Axiom Exchange",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://axiom.trade/discover"
+ },
+ {
+  "name": "Aztec",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.aztec.network"
+ },
+ {
+  "name": "Base",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.base.org/get-started/base"
+ },
+ {
+  "name": "Boop",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.boop.fun/temple-of-moon"
+ },
+ {
+  "name": "Brevis",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://brevis.network"
+ },
+ {
+  "name": "Browser Cash",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://browser.cash"
+ },
+ {
+  "name": "Carbon",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.carbon.inc"
+ },
+ {
+  "name": "Citrea",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.citrea.xyz/bridge"
+ },
+ {
+  "name": "CyberKongz",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.cyberkongz.com/kong"
+ },
+ {
+  "name": "Cysic",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://cysic.xyz"
+ },
+ {
+  "name": "DGrid AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://blog.dgrid.ai/posts/2026-08-17"
+ },
+ {
+  "name": "DeBank",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://debank.com/xp"
+ },
+ {
+  "name": "Defi App",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.defi.app"
+ },
+ {
+  "name": "Die Last",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://dielast.io/token"
+ },
+ {
+  "name": "Etherscan",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://etherscan.io/points"
+ },
+ {
+  "name": "FATTY",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://fatbot.fatty.io"
+ },
+ {
+  "name": "FareUp",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://fareup.xyz/app"
+ },
+ {
+  "name": "Firewall",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://usefirewall.com/product"
+ },
+ {
+  "name": "Fluence",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://flt.fluence.ai"
+ },
+ {
+  "name": "Fraction AI",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://fractionai.xyz/dapp/index"
+ },
+ {
+  "name": "GammaSwap",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.gammaswap.com"
+ },
+ {
+  "name": "Garth",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://garthonqubic.com"
+ },
+ {
+  "name": "GolfN",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.golfn.com/golf-rewards-program"
+ },
+ {
+  "name": "Gyroscope",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.gyro.finance"
+ },
+ {
+  "name": "Haust Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://haust.network"
+ },
+ {
+  "name": "Human Passport",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://quest.human.tech"
+ },
+ {
+  "name": "Illuvium",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://illuvium.io/terms-and-conditions"
+ },
+ {
+  "name": "Incentiv",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://portal.incentiv.io"
+ },
+ {
+  "name": "Infinity Warlords",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://infinitywarlords.com/auth"
+ },
+ {
+  "name": "InterLink Labs",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://interlinklabs.ai/download"
+ },
+ {
+  "name": "Interstate",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://interstate.trade"
+ },
+ {
+  "name": "Juice",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.juice.finance"
+ },
+ {
+  "name": "Karrier One",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.karrier.one/mobile"
+ },
+ {
+  "name": "Kinetic",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://kinetic.xyz"
+ },
+ {
+  "name": "LETSTOP",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://apps.apple.com/us/app/letstop/id6477782403"
+ },
+ {
+  "name": "LazyOtter",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://lazyotter.gitbook.io/lazyotter"
+ },
+ {
+  "name": "Liquity",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.liquity.org/forks"
+ },
+ {
+  "name": "LoopedHYPE",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.loopingcollective.org"
+ },
+ {
+  "name": "MegaETH",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.megaeth.com/token"
+ },
+ {
+  "name": "Metis",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.metis.io"
+ },
+ {
+  "name": "Miden",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.miden.xyz/bread"
+ },
+ {
+  "name": "MinionLab",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.minionlab.ai"
+ },
+ {
+  "name": "Miracle",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.miracletrade.com"
+ },
+ {
+  "name": "Moca Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://moca.network"
+ },
+ {
+  "name": "Myriad Markets",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://myriad.markets/earn"
+ },
+ {
+  "name": "Nakamoto Games",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://nakamoto.games/register"
+ },
+ {
+  "name": "Nansen AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.nansen.ai/auth/signup"
+ },
+ {
+  "name": "Nebulai",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://nebulai.network"
+ },
+ {
+  "name": "Nexira",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.nexira.ai/airdrops"
+ },
+ {
+  "name": "Nosana",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://learn.nosana.com/hosts/grid.html"
+ },
+ {
+  "name": "ONE Fight Arena",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://apps.apple.com/app/one-fight-arena/id6670191624"
+ },
+ {
+  "name": "OctoSwap",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://octo.exchange/liquidity"
+ },
+ {
+  "name": "OneFootball Club",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://onefootball.com/payments/sign-in"
+ },
+ {
+  "name": "Ostium",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.ostium.com"
+ },
+ {
+  "name": "Otomato",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://otomato.xyz"
+ },
+ {
+  "name": "Perle Labs",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://perle.gitbook.io/perle-docs/getting-started"
+ },
+ {
+  "name": "Perpl",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://perpl.xyz"
+ },
+ {
+  "name": "Pi Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://minepi.com"
+ },
+ {
+  "name": "Planemo Trading",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.planemotrading.xyz"
+ },
+ {
+  "name": "Play AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://playai.network/plai"
+ },
+ {
+  "name": "Ponder",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://ponder.one"
+ },
+ {
+  "name": "Portrait",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://portrait.so"
+ },
+ {
+  "name": "Project 0",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.0.xyz"
+ },
+ {
+  "name": "Raiku",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://raiku.com"
+ },
+ {
+  "name": "Rainbow",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://rainbow.me"
+ },
+ {
+  "name": "Rally",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.rally.fun"
+ },
+ {
+  "name": "Reddio",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.reddio.com"
+ },
+ {
+  "name": "Roach Racing Club",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.roachracingclub.com"
+ },
+ {
+  "name": "SHIFT",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.shiftrwa.xyz"
+ },
+ {
+  "name": "Senpi AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://senpi.ai/pricing"
+ },
+ {
+  "name": "Singularity",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.thesingularity.network"
+ },
+ {
+  "name": "Soneium",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://portal.soneium.org"
+ },
+ {
+  "name": "Space Nation",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://spacenation.online/oik/trading-rush"
+ },
+ {
+  "name": "SuperBoring",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.superboring.xyz/en"
+ },
+ {
+  "name": "Superfluid",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://superfluid.org"
+ },
+ {
+  "name": "Swapper Finance",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://portal.swapper.finance"
+ },
+ {
+  "name": "TINA",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://tina.im"
+ },
+ {
+  "name": "Tari",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrop.tari.com"
+ },
+ {
+  "name": "Tria",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.tria.so"
+ },
+ {
+  "name": "Trojan",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://trojan.com/arena"
+ },
+ {
+  "name": "Umi Network",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://devnet.uminetwork.com"
+ },
+ {
+  "name": "Unichain",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://docs.unichain.org"
+ },
+ {
+  "name": "UpRock",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://uprock.com/android"
+ },
+ {
+  "name": "Valantis Labs",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.valantis.xyz"
+ },
+ {
+  "name": "Vibe Trading",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://vibe.trading"
+ },
+ {
+  "name": "W.AI",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.w.ai"
+ },
+ {
+  "name": "Warden Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.wardenprotocol.org"
+ },
+ {
+  "name": "World Liberty",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://worldlibertyfinancial.com/usd1-points"
+ },
+ {
+  "name": "YO",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://app.yo.xyz"
+ },
+ {
+  "name": "Youmio",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://testnet.youmio.ai"
+ },
+ {
+  "name": "ZKcandy",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://zkcandy.io"
+ },
+ {
+  "name": "Zyfai",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://www.zyf.ai/dashboard"
+ },
+ {
+  "name": "edgeX",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://pro.edgex.exchange"
+ },
+ {
+  "name": "predict.fun",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 0,
+  "days": "",
+  "official": "https://predict.fun/points"
+ },
+ {
+  "name": "Cables Finance",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.cables.finance/sign-up"
+ },
+ {
+  "name": "Cambrian Network",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.cambrian.org"
+ },
+ {
+  "name": "Chaos Labs",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://chaoslabs.xyz"
+ },
+ {
+  "name": "DATS Project",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://datsproject.io/download"
+ },
+ {
+  "name": "DataHive",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://datahive.ai/earn"
+ },
+ {
+  "name": "FIFA Collect",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://collect.fifa.com/signup"
+ },
+ {
+  "name": "Fast Protocol",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://fastprotocol.io"
+ },
+ {
+  "name": "GTR",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://gtr.trade"
+ },
+ {
+  "name": "June AI",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://askjune.ai/app/chat"
+ },
+ {
+  "name": "KieDex",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.kiedex.app/signup"
+ },
+ {
+  "name": "Leap",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.leap.xyz"
+ },
+ {
+  "name": "Lora Finance",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://lora.finance"
+ },
+ {
+  "name": "Midas Markets",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://app.midasmarkets.xyz"
+ },
+ {
+  "name": "Nava AI",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://docs.navalabs.ai"
+ },
+ {
+  "name": "Picasso Markets",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://www.picasso.markets"
+ },
+ {
+  "name": "Pulsar Money",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://pulsar.money"
+ },
+ {
+  "name": "RAX Finance",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://rax.finance"
+ },
+ {
+  "name": "Sovra",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://sovra.money"
+ },
+ {
+  "name": "Wallet V",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://walletv.io/public_front/VPointsProgram.html"
+ },
+ {
+  "name": "ZENi",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://agent.1zeni.com"
+ },
+ {
+  "name": "xDFi",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 45,
+  "friction": 3,
+  "days": "",
+  "official": "https://alpha.xdfi.net"
+ },
+ {
+  "name": "0xAstra",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://0xastra.xyz"
+ },
+ {
+  "name": "AFX",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://afx.xyz"
+ },
+ {
+  "name": "Action Model",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://train.actionmodel.com/sign-up"
+ },
+ {
+  "name": "Bombie",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://bombie.xyz"
+ },
+ {
+  "name": "Camp Network",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.campnetwork.xyz"
+ },
+ {
+  "name": "Decimated Game",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://magiceden.io/marketplace/decimated"
+ },
+ {
+  "name": "EVAA Protocol",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://app.evaa.finance"
+ },
+ {
+  "name": "Hoppr",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://hoppr.studio/download"
+ },
+ {
+  "name": "IOPn",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://iopn.io"
+ },
+ {
+  "name": "Infinity Ground",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.infinityg.ai/voyage"
+ },
+ {
+  "name": "Ithaca Protocol",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.ithacaprotocol.io"
+ },
+ {
+  "name": "Mars Rally Championship",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://marsrallychampionship.com"
+ },
+ {
+  "name": "Morfi",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://morfi.markets/demo-mode/markets"
+ },
+ {
+  "name": "Paradex",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://app.paradex.trade"
+ },
+ {
+  "name": "Plushie AI",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://plushie.ai/airdrop.html"
+ },
+ {
+  "name": "Quip Network",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://points.quip.network"
+ },
+ {
+  "name": "SOMO",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://somo.xyz/games"
+ },
+ {
+  "name": "Spekter Agency",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.spekter.games"
+ },
+ {
+  "name": "Titan Network",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://www.titannet.io"
+ },
+ {
+  "name": "Verasity",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://plrl.verasity.io"
+ },
+ {
+  "name": "YeNo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 5,
+  "days": "",
+  "official": "https://yeno.pro"
+ },
+ {
+  "name": "BitRobot",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 8,
+  "days": "",
+  "official": "https://app.bitrobot.ai"
+ },
+ {
+  "name": "GTE",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 8,
+  "days": "",
+  "official": "https://waitlist.gte.xyz"
+ },
+ {
+  "name": "Phyt.fun",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 8,
+  "days": "",
+  "official": "https://phyt.fun"
+ },
+ {
+  "name": "Stormrae",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 8,
+  "days": "",
+  "official": "https://stormrae.ai"
+ },
+ {
+  "name": "x365 AI",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 45,
+  "friction": 8,
+  "days": "",
+  "official": "https://x365.ai/airdrop"
+ },
+ {
+  "name": "AGDEX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://agdex.io/trading-campaign"
+ },
+ {
+  "name": "ARC Terminal",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.arcterminal.ai"
+ },
+ {
+  "name": "Affine",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://restaking.affinedefi.com"
+ },
+ {
+  "name": "Ambios Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://ambigo.ambios.network"
+ },
+ {
+  "name": "American Fortress",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://quests.americanfortress.io"
+ },
+ {
+  "name": "Arena of Faith",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://aof.global"
+ },
+ {
+  "name": "Astra Nova",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://blackpass.astranova.world"
+ },
+ {
+  "name": "Bitcoin Quantum",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://github.com/btq-ag/btq-core/releases"
+ },
+ {
+  "name": "Black Mirror",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.blackmirrorclub.com"
+ },
+ {
+  "name": "Bless Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://bless.network"
+ },
+ {
+  "name": "Block Street",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://blockstreet.money/dashboard"
+ },
+ {
+  "name": "Brownian",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://brownian.xyz/trade/PERP_ETH_USDC"
+ },
+ {
+  "name": "Calamity",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.calamity.online"
+ },
+ {
+  "name": "Canton Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.canton.network/blog/canton-coin-rewarding-utility"
+ },
+ {
+  "name": "ChainOpera AI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://chat.chainopera.ai"
+ },
+ {
+  "name": "Checkpoint",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://checkpoint.exchange"
+ },
+ {
+  "name": "CoinQuant",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://cqx.coinquant.io"
+ },
+ {
+  "name": "Confidential Layer",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://confidentiallayer.com"
+ },
+ {
+  "name": "Credible",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://credible.finance"
+ },
+ {
+  "name": "Curvance",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.curvance.com/bytes"
+ },
+ {
+  "name": "DIN",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://airdrop.din.lol"
+ },
+ {
+  "name": "Delpho",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://prism.delpho.xyz"
+ },
+ {
+  "name": "Elysium",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://elysium.kinetiq.xyz"
+ },
+ {
+  "name": "Ethermax",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.ethermax.tech"
+ },
+ {
+  "name": "FungoLabs",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://fungolabs.org/apply"
+ },
+ {
+  "name": "GIWA",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://docs.giwa.io/giwa-chain/en/get-started/connect-to-giwa"
+ },
+ {
+  "name": "Gaia",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.gaianet.ai/reward"
+ },
+ {
+  "name": "Glacier Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.glacier.io/points"
+ },
+ {
+  "name": "GoodDollar",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://wallet.gooddollar.org"
+ },
+ {
+  "name": "Harmonix Finance",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.harmonix.fi/points"
+ },
+ {
+  "name": "HeatRush",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://heatrush.xyz/dashboard"
+ },
+ {
+  "name": "Hyperlynx",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.hyperlynx.fi/hunt"
+ },
+ {
+  "name": "Joule Finance",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.joule.finance/rewards"
+ },
+ {
+  "name": "Jumper Exchange",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://jumper.xyz/campaign/infinifi-chapter"
+ },
+ {
+  "name": "KOR Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://airdrop.korprotocol.foundation"
+ },
+ {
+  "name": "KRAIN",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.krain.ai/airdrop"
+ },
+ {
+  "name": "Kaisar Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://kaisar.io"
+ },
+ {
+  "name": "Kinza Finance",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.kinza.finance"
+ },
+ {
+  "name": "Linera",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://linera.io"
+ },
+ {
+  "name": "Liquidium",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.liquidium.fi"
+ },
+ {
+  "name": "LitVMSwap",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.litvmswap.com/mint"
+ },
+ {
+  "name": "Lithos",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://lithos.to/genesis"
+ },
+ {
+  "name": "Loopscale",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.loopscale.com"
+ },
+ {
+  "name": "Magma",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://blog.magmastaking.xyz/p/magma-points-program-is-live"
+ },
+ {
+  "name": "Marginly",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.marginly.com/mainnet/earn"
+ },
+ {
+  "name": "Memebook",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://memebook.app"
+ },
+ {
+  "name": "Mezo",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://mezo.org/rewards"
+ },
+ {
+  "name": "Mirra AI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://mirraai.xyz/contribute"
+ },
+ {
+  "name": "Moonbirds",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://claim.moonbirds.com"
+ },
+ {
+  "name": "Motoswap",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://motoswap.org/points"
+ },
+ {
+  "name": "Nexchain",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://nexchain.ai"
+ },
+ {
+  "name": "Noon",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.noon.capital/points"
+ },
+ {
+  "name": "Offline Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://mine.offlineprotocol.com"
+ },
+ {
+  "name": "Omega",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://olympus.omeganetwork.co/omega/rewards"
+ },
+ {
+  "name": "Photon",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://photon-sol.tinyastro.io"
+ },
+ {
+  "name": "Ping Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://pingnetwork.io/download"
+ },
+ {
+  "name": "PriveX",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.prvx.io"
+ },
+ {
+  "name": "Probable",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://probable.markets/points"
+ },
+ {
+  "name": "Puffpaw",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://gen2.puffpaw.xyz"
+ },
+ {
+  "name": "Rabbithole",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.rabbithole.gg"
+ },
+ {
+  "name": "Re",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.re.xyz"
+ },
+ {
+  "name": "Retium",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://wallet.retium.org"
+ },
+ {
+  "name": "Revert",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://revert.finance"
+ },
+ {
+  "name": "Rootstock Collective",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://rootstockcollective.xyz"
+ },
+ {
+  "name": "Rubicon",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.rubicon.finance/earn"
+ },
+ {
+  "name": "Runwago",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.runwago.com/airdrop"
+ },
+ {
+  "name": "STRATO",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://strato.nexus/blog/tokenized-gold"
+ },
+ {
+  "name": "Sallar",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.sallar.io"
+ },
+ {
+  "name": "Savior of Health",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://saviorofhealth.app/earn"
+ },
+ {
+  "name": "Seismic",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://orchestration.seismic.systems/docs"
+ },
+ {
+  "name": "Sixpence",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.sixpence.xyz/campaign"
+ },
+ {
+  "name": "SkyTrade",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://www.genesis.sky.trade"
+ },
+ {
+  "name": "Soul Labs",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.soul.io"
+ },
+ {
+  "name": "Spark Finance",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.spark.finance"
+ },
+ {
+  "name": "SwarmBase",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://core.swarmbase.io/points"
+ },
+ {
+  "name": "Talus Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://docs.talus.network/guides/getting-started"
+ },
+ {
+  "name": "Technotainment",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://hub.technotainment.com"
+ },
+ {
+  "name": "Teller Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://pro.teller.org"
+ },
+ {
+  "name": "USD.ai",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://app.usd.ai"
+ },
+ {
+  "name": "WELL3",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://well.eco"
+ },
+ {
+  "name": "X1 EcoChain",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://testnet.x1ecochain.com"
+ },
+ {
+  "name": "Xian",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://airdrops.xian.org"
+ },
+ {
+  "name": "Yield Basis",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://yieldbasis.com/airdrop-claim"
+ },
+ {
+  "name": "dTelecom",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://rewards.dtelecom.org"
+ },
+ {
+  "name": "daGama",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://airdrop.dagama.world"
+ },
+ {
+  "name": "heyAura",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 10,
+  "days": "",
+  "official": "https://hub.heyaura.com"
+ },
+ {
+  "name": "Dropee",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 13,
+  "days": "",
+  "official": "https://waitlist.dropee.xyz"
+ },
+ {
+  "name": "Knidos",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 13,
+  "days": "",
+  "official": "https://testnet.knidos.xyz/invite"
+ },
+ {
+  "name": "PrismaX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 13,
+  "days": "",
+  "official": "https://app.prismax.ai"
+ },
+ {
+  "name": "Robinhood",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 13,
+  "days": "",
+  "official": "https://robinhood.com/signup"
+ },
+ {
+  "name": "Velvet.Capital",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 13,
+  "days": "",
+  "official": "https://x.velvet.capital"
+ },
+ {
+  "name": "AIW3",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://aiw3.ai/airdrop"
+ },
+ {
+  "name": "Beldex",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://promotions.beldex.io"
+ },
+ {
+  "name": "Captain Tsubasa",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://ton.tsubasa-rivals.com"
+ },
+ {
+  "name": "Concrete",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://docs.concrete.xyz/Using-Concrete-Vaults/concrete-points"
+ },
+ {
+  "name": "Dustswap",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.dustswap.wtf/quests"
+ },
+ {
+  "name": "Flipper",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.flpp.io"
+ },
+ {
+  "name": "HaHa Wallet",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://apps.apple.com/us/app/haha-crypto-portfolio-tracker/id1591158244"
+ },
+ {
+  "name": "HyperFlash",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://app.hyperflash.xyz"
+ },
+ {
+  "name": "Janus Protocol",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://www.janusdefi.com"
+ },
+ {
+  "name": "Konnex",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://hub.konnex.world"
+ },
+ {
+  "name": "Lighter Robinhood",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://docs.lighter.xyz/programs/lighter-on-robinhood-chain-points"
+ },
+ {
+  "name": "Lowlife Forms",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://www.rtrigger.com"
+ },
+ {
+  "name": "OpenZK",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://portal.openzk.net/airdrop"
+ },
+ {
+  "name": "Rhuna",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://portal.rhuna.io"
+ },
+ {
+  "name": "Snowball Money",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://www.modular.name/rewards"
+ },
+ {
+  "name": "Watt2Trade",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://rewards.watt2trade.com"
+ },
+ {
+  "name": "WheelX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 15,
+  "days": "",
+  "official": "https://wheelx.fi/quest"
+ },
+ {
+  "name": "3DOS",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://3dos.io"
+ },
+ {
+  "name": "Drake",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://drake.exchange/earn"
+ },
+ {
+  "name": "Fair Shares",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://app.fairshares.io/dashboard"
+ },
+ {
+  "name": "Fight.ID",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://app.fight.id"
+ },
+ {
+  "name": "QMS Network",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://docs.qms.finance"
+ },
+ {
+  "name": "dFusion AI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 18,
+  "days": "",
+  "official": "https://testnet.dfusion.ai"
+ },
+ {
+  "name": "Asymmetry Finance",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 25,
+  "days": "",
+  "official": "https://www.asymmetry.finance/usdaf"
+ },
+ {
+  "name": "GAIB AI",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 25,
+  "days": "",
+  "official": "https://aid.gaib.ai"
+ },
+ {
+  "name": "Luxxcoin",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 25,
+  "days": "",
+  "official": "https://www.luxxcoin.io/reward-terms"
+ },
+ {
+  "name": "NuLink",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 25,
+  "days": "",
+  "official": "https://www.nulink.org/horus"
+ },
+ {
+  "name": "Nudge",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 25,
+  "days": "",
+  "official": "https://nudge.xyz"
+ },
+ {
+  "name": "Canborsa",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 28,
+  "days": "",
+  "official": "https://canborsa.com/app"
+ },
+ {
+  "name": "Nesa AI",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 45,
+  "friction": 35,
+  "days": "",
+  "official": "https://nesa.ai/mining"
+ },
+ {
+  "name": "Neutral Trade",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 35,
+  "days": "",
+  "official": "https://www.neutral.trade/strategies"
+ },
+ {
+  "name": "Onchain.cc",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 40,
+  "days": "",
+  "official": "https://onchain.cc"
+ },
+ {
+  "name": "Reaper Actual",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 40,
+  "days": "",
+  "official": "https://reaperactual.com"
+ },
+ {
+  "name": "Sectora",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 45,
+  "friction": 40,
+  "days": "",
+  "official": "https://sectoraorg.com/guide"
+ },
+ {
+  "name": "Sweep Finance",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 45,
+  "friction": 48,
+  "days": "",
+  "official": "https://sweep.finance/airdrop"
+ },
+ {
+  "name": "0xMiden",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Canopy Network",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "DOHM Finance",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Gyndore",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Hotstuff",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Polaris",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Push Chain",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Shelby",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Swapfone",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Wager Predict",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "XyloNet",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "June",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 35,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Orbinum Network",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Stakr Finance",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "UnitFlow Finance",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "orbinum-logo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "p2p.gifts",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "ADI Predictstreet",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 8,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "IPX Exchange",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 8,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "MindGames",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 8,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Pond",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 35,
+  "friction": 8,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "MoonPay",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 35,
+  "friction": 18,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Namada",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 25,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "SEKAI",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 25,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "GenLayer",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 35,
+  "friction": 30,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "TradeFox",
+  "bucket": "agent_read",
+  "label": "no identity step detected - reading and form fields only",
+  "confidence": 25,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "ZetaChain",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 25,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "EVEDEX",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 25,
+  "friction": 10,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Ouinex Exchange",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 25,
+  "friction": 15,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "SnakeLite x SonicX",
+  "bucket": "human_signature",
+  "label": "wallet connect or signature",
+  "confidence": 25,
+  "friction": 15,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "The RWAX",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": 25,
+  "friction": 15,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "CZR Exchange",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 25,
+  "friction": 40,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Refrax",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 20,
+  "friction": 5,
+  "days": "",
+  "official": "https://github.com/refrax-xyz/refrax-node"
+ },
+ {
+  "name": "OWNIT",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 20,
+  "friction": 8,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "DBK Chain",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 15,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "DualMint",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 15,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "Entropy",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 15,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Privacy Pools",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 15,
+  "friction": 0,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "Reels",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 15,
+  "friction": 3,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Sight",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 15,
+  "friction": 3,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "TurboFlow",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 15,
+  "friction": 3,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "AFX-logo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Ducat",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "GMGN",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "Osero",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/binance"
+ },
+ {
+  "name": "REP",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "cambria-logo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Pascal",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 15,
+  "friction": 8,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "CZR",
+  "bucket": "human_kyc",
+  "label": "KYC / identity documents",
+  "confidence": 15,
+  "friction": 30,
+  "days": "",
+  "official": "https://airdrops.io/stay-safe"
+ },
+ {
+  "name": "SolMoon",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 5,
+  "friction": 5,
+  "days": "",
+  "official": "https://airdrops.io/goto/bybit"
+ },
+ {
+  "name": "Enigma",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 0,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Hey",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 0,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Octos",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 0,
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Tori Finance",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": 0,
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Alloco",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 0,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "CONSO",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 0,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Null",
+  "bucket": "agent_email",
+  "label": "email form only",
+  "confidence": 0,
+  "friction": 3,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Fortune Foes",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 0,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "PowerX OneWallet",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 0,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Tradoor0-logo",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 0,
+  "friction": 5,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Hudi",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": 0,
+  "friction": 8,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "42 Space",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "AV 50$ Giveaway",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Clocked",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "FOOME",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Feather Games",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Formation",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": "",
+  "official": ""
+ },
+ {
+  "name": "Grokie Fun",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "HANDLE",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Lia Labs",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Remix",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 8,
+  "official": ""
+ },
+ {
+  "name": "Trader Chamber",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Tribe",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "ZXOXO",
+  "bucket": "unknown",
+  "label": "no usable steps extracted",
+  "confidence": "",
+  "friction": 0,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Arch Prime",
+  "bucket": "human_money",
+  "label": "deposit, purchase or stake required",
+  "confidence": "",
+  "friction": 3,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Asentum",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": "",
+  "friction": 5,
+  "days": 38,
+  "official": ""
+ },
+ {
+  "name": "Mantle",
+  "bucket": "human_account",
+  "label": "needs a Telegram / Discord / X account",
+  "confidence": "",
+  "friction": 8,
+  "days": 15,
+  "official": ""
+ }
+]

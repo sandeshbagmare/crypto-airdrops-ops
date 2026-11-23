@@ -1,4 +1,4 @@
-# Axis Robotics - apply checklist (#21)
+# Axis Robotics - apply checklist (#20)
 
 - **Confidence** 90/100 - 6 concrete steps, official site linked, deadline stated, operator/team named, costs disclosed, risks disclosed
 - **Effort** email (friction 3)
@@ -40,4 +40,4 @@
 - If it asks for a deposit, skip the drop and note it - a free-entry list should stay free.
 - If the domain differs from the one above, close the tab.
 
-Cannot finish this one? Write it in `notes/backlog.md` and move to #22.
+Cannot finish this one? Write it in `notes/backlog.md` and move to #21.

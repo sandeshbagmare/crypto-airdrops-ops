@@ -1,0 +1,24 @@
+{
+ "project": "Midas Markets",
+ "official_url": "https://app.midasmarkets.xyz",
+ "source_url": "https://www.airdropstop.com/airdrops/midas-markets",
+ "blocked_on": "email",
+ "why_agent_cannot": "an email confirmation link must be opened by the human",
+ "what_human_must_do": [
+  "1 Step 1 : Open the Midas Markets app Go to the trading app at app.midasmarkets.xyz , which is where the homepage&#x27;s Start Trading buttons lead.",
+  "2 Step 2 : Sign in with X The homepage says you sign in with X and can start trading in under a minute.",
+  "3 Step 3 : Fund your account and place trades Choose a market among equities, crypto and perps and trade it, using either a headline-linked idea or your own pick. Each $1 of volume earns 1 point.",
+  "4 Step 4 : Track points and cashback Watch your season points toward gold and your USDC cashback in the app, and keep trading volume up to move between cashback tiers. The project&#x27;s homepage is at midasmarkets.xyz ."
+ ],
+ "where_to_resume": "python tools/agent_browser.py --identity main --url https://app.midasmarkets.xyz",
+ "evidence_so_far": [],
+ "confidence": 45,
+ "evidence": [
+  "4 concrete steps",
+  "official site linked"
+ ],
+ "costs": "",
+ "risks": "",
+ "created": "2026-11-23",
+ "status": "open"
+}

@@ -1,0 +1,55 @@
+{
+ "name": "Sphinx Protocol",
+ "confidence": 60,
+ "status": "Potential",
+ "official": "https://www.sphx.io",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Open the Sphinx website Go to sphx.io to see the exchange as it is described before launch, including the markets and margin modes.",
+  "2 Step 2 : Join the access list Use the &quot;Get notified&quot; button on the homepage. The homepage describes the access as institutional and limited to certain jurisdictions, and says Sphinx will be in touch as access opens.",
+  "3 Step 3 : Read about the team The homepage links to an About page for the team, which it says comes from exchanges, clearinghouses, trading firms and energy desks.",
+  "4 Step 4 : Read the Market Trials post The May 2026 Medium post explains the pre-launch challenge and the weekly prompts it describes.",
+  "5 Step 5 : Check the Market Trials page The post names signal.sphx.io as the official entry point. No page shows the challenge open on 2 November 2026, so look at the page itself."
+ ],
+ "end": "2027-11-02",
+ "days": 344,
+ "pool": "",
+ "what": "No Sphinx Protocol airdrop is open for sign-up as of 2 November 2026. The project's website is a pre-launch page with a \"Get notified\" waitlist, and a May 2026 Medium post describes a pre-launch Market Trials challenge with $10,000 on the board. Using Sphinx today means joining that waitlist for its",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/sphinx-protocol",
+ "checked": "2026-11-23",
+ "friction": 3,
+ "friction_label": "email",
+ "tags": [
+  "waitlist"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "DEAD-LINK",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "sphx.io is not registered in RDAP"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": null,
+  "checked": "2026-11-23T07:31:01"
+ },
+ "domain_age_days": null,
+ "slug": "sphinx-protocol",
+ "dossier": "drops/sphinx-protocol.md",
+ "published": "2026-11-23"
+}

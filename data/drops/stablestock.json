@@ -1,0 +1,53 @@
+{
+ "name": "StableStock",
+ "confidence": 90,
+ "status": "Early / speculative",
+ "official": "https://app.stablestock.finance",
+ "needs": "",
+ "steps": [
+  "Check that you can use it. The app says \"Our services are not available to the United States, Hong Kong and other restricted jurisdictions\". The terms ban getting around this \"via VPN or proxy\".",
+  "Open the official app at app.stablestock.finance , or the mobile app linked from stablestock.finance, and create an account. Warning Type the address yourself. StableStock never needs your seed phrase, and a site or a Telegram message asking for one is a scam.",
+  "Deposit USDT or USDC. The app text says \"A minimum deposit of just 1 USDT.\" Only put in money you could afford to lose in the stock market.",
+  "Buy or hold stocks and ETFs that carry the Points badge. Spot trades count, and so do leveraged spot trades, which need KYC first.",
+  "Open the Points dashboard the next day after 02:00 UTC to see your points. If you used StableStock before 2 November 2026, look for your Retroactive Points and the OG Boost there.",
+  "Optional: once you have $3,000 of your own trading volume, create a referral link under Referrals."
+ ],
+ "end": "2 Nov",
+ "days": "",
+ "pool": "",
+ "what": "No StableStock airdrop is announced. Points: Genesis, live since 2 Nov 2026, pays points for trading or holding stocks bought with USDT or USDC.",
+ "behind": "The terms name the company as \"Stablestocks Lab Limited, a company incorporated under the laws of British Islands\", with British Virgin Islands law in charge. The docs add that \"StableStock is registered as a Financial Service Provider (FSP) in New Zealand\", which we did not check against the register. The founding team, per the docs, comes from \"the U.S.-listed fintech company Rong360 and Matrix ",
+ "costs": "This is not a free program. Points come only from money you put into stocks, and those stocks can fall. StableStock's own disclaimer: \"Points do not protect against trading losses.\" Every trade costs something. StableStock's own charge is \"Service Fee | 0.1% of transaction amount.\" On top of that come broker fees. For US stocks that is \"$0.005 per share (minimum $1 per order); Fractional shares bi",
+ "risks": "Excluded: the United States and Hong Kong, plus unnamed \"other restricted jurisdictions\". The terms also exclude \"(a) Citizens or permanent residents of the United States of America;\". There is no full country list for the main platform. The Hong Kong IPO feature has its own longer list, which includes the UK, Russia, Ukraine, Türkiye, Nigeria and Pakistan. VPN: breaking the location rules leads t",
+ "evidence": [
+  "6 concrete steps",
+  "official site linked",
+  "deadline stated",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops+airdropstop",
+ "source_url": "https://99airdrops.com/airdrops/stablestock/",
+ "checked": "2026-11-23",
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2025-07-21 (489 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Amazon"
+   ]
+  ],
+  "age_days": 489,
+  "checked": "2026-11-23T01:49:52"
+ },
+ "domain_age_days": null,
+ "slug": "stablestock",
+ "dossier": "drops/stablestock.md",
+ "published": "2026-11-23"
+}

@@ -1,0 +1,57 @@
+{
+ "name": "Startale",
+ "confidence": 60,
+ "status": "Live",
+ "official": "https://app.startale.com",
+ "needs": "",
+ "steps": [
+  "1 Step 1 : Create a Startale App account Open Startale App and sign up in one click, or connect a wallet. If you already have an account, use the log-in page .",
+  "2 Step 2 : Send USDC to the Soneium deposit address In the app, go to Deposit, then Bridge to Soneium, then Transfer crypto, and send USDC to the address shown there. Only USDC sent to that address counts for Promotion 1, as set out in the October missions post .",
+  "3 Step 3 : Deposit USDSC into an Earn vault Make the deposit from your Startale Smart Wallet on or after 22 October 2026, and keep at least 25 USDSC in the vault for 14 consecutive days. A balance that dips below 25 USDSC in that window earns no points.",
+  "4 Step 4 : Keep checking in and finish monthly missions GM check-ins, monthly missions and liquidity provision also add STAR Points, according to the STAR Points update .",
+  "5 Step 5 : Watch for the points to arrive Points for a completed promotion are distributed within 72 hours. The campaign period ends on 25 November 2026."
+ ],
+ "end": "2027-10-22",
+ "days": 333,
+ "pool": "",
+ "what": "The Startale airdrop is a points campaign inside Startale App, open as of 27 October 2026. The October missions run from 22 October to 25 November 2026 and pay up to 200 STAR Points for bridging USDC to Soneium and holding USDSC in an Earn vault. Taking part means creating an account and completing ",
+ "behind": "",
+ "costs": "",
+ "risks": "",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "deadline stated"
+ ],
+ "source": "airdropstop",
+ "source_url": "https://www.airdropstop.com/airdrops/startale",
+ "checked": "2026-11-23",
+ "friction": 10,
+ "friction_label": "wallet connect",
+ "tags": [
+  "points",
+  "quests",
+  "staking"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "no red flags found",
+  "score": 0,
+  "findings": [
+   [
+    "OK",
+    "domain registered 2005-05-06 (7871 days)"
+   ],
+   [
+    "OK",
+    "TLS issued by Google Trust Services"
+   ]
+  ],
+  "age_days": 7871,
+  "checked": "2026-11-23T07:28:55"
+ },
+ "domain_age_days": 7870,
+ "slug": "startale",
+ "dossier": "drops/startale.md",
+ "published": "2026-11-23"
+}

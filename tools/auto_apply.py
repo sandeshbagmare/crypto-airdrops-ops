@@ -174,6 +174,8 @@ def main():
             r = {"project": d["name"], "slug": slugify(d["name"]), "status": "error",
                  "note": f"{type(e).__name__}: {str(e)[:120]}"}
         summary[r["slug"]] = r
+        SUMMARY.parent.mkdir(exist_ok=True)
+        SUMMARY.write_text(json.dumps(summary, indent=1, ensure_ascii=False), encoding="utf-8")
         flag = {"ready": "READY ", "blocked": "BLOCK "}.get(r.get("status"), r.get("status", "?"))
         print(f"  {flag} {r['project'][:24]:26} {r.get('domain_verdict','')[:18]:20} "
               f"agent: {len(r.get('agent_can') or [])} human: {len(r.get('human_must') or [])}")

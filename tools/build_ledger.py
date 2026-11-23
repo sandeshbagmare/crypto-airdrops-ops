@@ -184,10 +184,18 @@ def load():
     dup_path = ROOT / "data" / "duplicates.json"
     if dup_path.exists():
         dupes = json.loads(dup_path.read_text(encoding="utf-8"))
-    return records, verified, fx, dupes
+    preflight = {}
+    pf_path = ROOT / "data" / "preflight.json"
+    if pf_path.exists():
+        try:
+            preflight = json.loads(pf_path.read_text(encoding="utf-8"))
+        except Exception:
+            preflight = {}
+    return records, verified, fx, dupes, preflight
 
 
-def build(records, verified, fx, dupes):
+def build(records, verified, fx, dupes, preflight=None):
+    preflight = preflight or {}
     rows, site = [], []
     canonical_of = {}
     for group in dupes.values():
@@ -232,6 +240,8 @@ def build(records, verified, fx, dupes):
             "source_url": r.get("source_url", ""), "checked": v.get("checked", ""),
             "friction": fr, "friction_label": friction_label(drivers),
             "tags": tags_of(what, steps, needs),
+            "live_check": (preflight.get(re.sub(r"[^a-z0-9]+", "-", r["name"].lower()).strip("-")[:60])
+                           or {}).get("status", ""),
             "also_listed_by": group.get("sources", []) if group else [],
             "forensics": {"verdict": f.get("verdict"), "score": f.get("score")} if f else None,
             "domain_age_days": age_from(f),
@@ -336,8 +346,8 @@ def xlsx(all_rows):
 
 
 def main():
-    records, verified, fx, dupes = load()
-    rows, site = build(records, verified, fx, dupes)
+    records, verified, fx, dupes, preflight = load()
+    rows, site = build(records, verified, fx, dupes, preflight)
     md(rows, site)
     xlsx(rows)
     DOCS.mkdir(exist_ok=True)

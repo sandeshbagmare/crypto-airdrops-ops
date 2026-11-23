@@ -3,7 +3,7 @@
   "project": "MMIX",
   "slug": "mmix",
   "official": "https://hub.mmix.io",
-  "at": "2026-11-23 07:44",
+  "at": "2026-11-23 08:20",
   "steps_from_source": 5,
   "domain_verdict": "DEAD-LINK",
   "domain_score": 35,
@@ -14,7 +14,7 @@
   "project": "Doppler Finance",
   "slug": "doppler-finance",
   "official": "https://app.doppler.finance/airdrop",
-  "at": "2026-11-23 07:44",
+  "at": "2026-11-23 08:20",
   "steps_from_source": 5,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
@@ -35,13 +35,6 @@
     "name": "",
     "placeholder": "",
     "label": ""
-   },
-   {
-    "tag": "input",
-    "type": "checkbox",
-    "name": "",
-    "placeholder": "",
-    "label": "Don't show again today"
    }
   ],
   "wallet_prompt": true,
@@ -49,9 +42,9 @@
   "captcha": false,
   "login_prompt": true,
   "injected_wallet": false,
-  "cookies": 3,
+  "cookies": 106,
   "agent_can": [
-   "pre-fill 3 form field(s) for human review"
+   "pre-fill 2 form field(s) for human review"
   ],
   "human_must": [
    "connect a wallet and approve the signature"
@@ -61,7 +54,7 @@
   "project": "Aura Protocol",
   "slug": "aura-protocol",
   "official": "https://docs.litvm.com/get-started-on-testnet/network-configuration",
-  "at": "2026-11-23 07:44",
+  "at": "2026-11-23 08:20",
   "steps_from_source": 7,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
@@ -89,7 +82,7 @@
   "captcha": false,
   "login_prompt": false,
   "injected_wallet": false,
-  "cookies": 5,
+  "cookies": 106,
   "agent_can": [
    "pre-fill 2 form field(s) for human review",
    "read requirements and capture evidence - no identity step seen"
@@ -100,7 +93,7 @@
   "project": "Globe",
   "slug": "globe",
   "official": "https://globemarkets.xyz",
-  "at": "2026-11-23 07:45",
+  "at": "2026-11-23 08:21",
   "steps_from_source": 6,
   "domain_verdict": "SUSPICIOUS",
   "domain_score": 35,
@@ -142,7 +135,7 @@
   "captcha": false,
   "login_prompt": true,
   "injected_wallet": false,
-  "cookies": 5,
+  "cookies": 106,
   "agent_can": [
    "pre-fill 4 form field(s) for human review",
    "read requirements and capture evidence - no identity step seen"
@@ -153,30 +146,30 @@
   "project": "infiniFi",
   "slug": "infinifi",
   "official": "https://app.infinifi.xyz/points",
-  "at": "2026-11-23 07:45",
+  "at": "2026-11-23 08:21",
   "steps_from_source": 6,
   "domain_verdict": "no red flags found",
   "domain_score": 0,
   "screenshot": "airships/infinifi/landing.png",
-  "status": "blocked",
-  "title": "infiniFi | Points",
+  "status": "ready",
+  "title": "Just a moment...",
   "fields": [],
-  "wallet_prompt": true,
+  "wallet_prompt": false,
   "kyc_prompt": false,
   "captcha": false,
-  "login_prompt": true,
+  "login_prompt": false,
   "injected_wallet": false,
-  "cookies": 6,
-  "agent_can": [],
-  "human_must": [
-   "connect a wallet and approve the signature"
-  ]
+  "cookies": 106,
+  "agent_can": [
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
  },
  "yakkamon": {
   "project": "Yakkamon",
   "slug": "yakkamon",
   "official": "https://yakkamon.com",
-  "at": "2026-11-23 07:45",
+  "at": "2026-11-23 08:21",
   "steps_from_source": 4,
   "domain_verdict": "no red flags found",
   "domain_score": 15,
@@ -239,11 +232,516 @@
   "captcha": false,
   "login_prompt": true,
   "injected_wallet": false,
-  "cookies": 6,
+  "cookies": 106,
   "agent_can": [
    "pre-fill 7 form field(s) for human review",
    "read requirements and capture evidence - no identity step seen"
   ],
   "human_must": []
+ },
+ "kleos": {
+  "project": "Kleos",
+  "slug": "kleos",
+  "official": "https://www.thekleos.pro",
+  "at": "2026-11-23 08:05",
+  "confidence": 90,
+  "days": 357,
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "title": "Kleos",
+  "final_url": "https://www.thekleos.pro/",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Search coins",
+    "label": "/"
+   }
+  ],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "email_prompt": false,
+  "terms_prompt": false,
+  "injected_wallet": false,
+  "evidence": [
+   "airships/kleos/page.txt",
+   "airships/kleos/landing.png"
+  ],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ],
+  "agent_can": [
+   "pre-fill 1 form field(s) for review",
+   "read requirements, capture evidence, record the packet"
+  ],
+  "blocked_on": "wallet_signature",
+  "status": "blocked"
+ },
+ "coinzilla": {
+  "project": "Coinzilla",
+  "slug": "coinzilla",
+  "official": "https://play.coinzilla.com",
+  "at": "2026-11-23 08:05",
+  "confidence": 90,
+  "days": 360,
+  "steps_from_source": 4,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "title": "Coinzilla Arcade - catch the cookies, dodge the bugs",
+  "final_url": "https://play.coinzilla.com/",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "email",
+    "name": "",
+    "placeholder": "you@example.com",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "placeholder": "",
+    "label": "\n          \n          I accept the Terms & Conditions\n      "
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "email_prompt": true,
+  "terms_prompt": false,
+  "injected_wallet": false,
+  "evidence": [
+   "airships/coinzilla/page.txt",
+   "airships/coinzilla/landing.png"
+  ],
+  "human_must": [
+   "enter an email and click the confirmation link"
+  ],
+  "agent_can": [
+   "pre-fill 6 form field(s) for review",
+   "read requirements, capture evidence, record the packet"
+  ],
+  "blocked_on": "email",
+  "status": "blocked"
+ },
+ "melee": {
+  "project": "Melee",
+  "slug": "melee",
+  "official": "https://www.melee.markets",
+  "at": "2026-11-23 08:05",
+  "confidence": 90,
+  "days": 342,
+  "steps_from_source": 6,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "title": "Melee",
+  "final_url": "https://beta.melee.markets/",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Trade on anything",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "email_prompt": false,
+  "terms_prompt": false,
+  "injected_wallet": false,
+  "evidence": [
+   "airships/melee/page.txt",
+   "airships/melee/landing.png"
+  ],
+  "human_must": [
+   "log in or create the account (human session)"
+  ],
+  "agent_can": [
+   "pre-fill 1 form field(s) for review",
+   "read requirements, capture evidence, record the packet"
+  ],
+  "blocked_on": "login",
+  "status": "blocked"
+ },
+ "monolith": {
+  "project": "Monolith",
+  "slug": "monolith",
+  "official": "https://www.swanusd.com/airdrop",
+  "at": "2026-11-23 08:05",
+  "confidence": 90,
+  "days": 354,
+  "steps_from_source": 5,
+  "domain_verdict": "SUSPICIOUS",
+  "domain_score": 35,
+  "title": "The Swan launch airdrop · 100,000 SWAN · swanUSD on Monolith",
+  "final_url": "https://www.swanusd.com/airdrop/",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "0x…",
+    "label": "Ethereum address"
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "email_prompt": false,
+  "terms_prompt": false,
+  "injected_wallet": false,
+  "evidence": [
+   "airships/monolith/page.txt",
+   "airships/monolith/landing.png"
+  ],
+  "human_must": [
+   "confirm the domain against the project's own profile before touching it (forensics flags it)"
+  ],
+  "agent_can": [
+   "pre-fill 1 form field(s) for review",
+   "read requirements, capture evidence, record the packet"
+  ],
+  "blocked_on": "domain",
+  "status": "blocked"
+ },
+ "axis-robotics": {
+  "project": "Axis Robotics",
+  "slug": "axis-robotics",
+  "official": "https://hub.axisrobotics.ai",
+  "at": "2026-11-23 08:05",
+  "confidence": 90,
+  "days": 334,
+  "steps_from_source": 6,
+  "domain_verdict": "no red flags found",
+  "domain_score": 15,
+  "title": "Axis Robotics",
+  "final_url": "https://hub.axisrobotics.ai/",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Search tasks",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "email_prompt": false,
+  "terms_prompt": true,
+  "injected_wallet": false,
+  "evidence": [
+   "airships/axis-robotics/page.txt",
+   "airships/axis-robotics/landing.png"
+  ],
+  "human_must": [
+   "log in or create the account (human session)"
+  ],
+  "agent_can": [
+   "pre-fill 1 form field(s) for review",
+   "read requirements, capture evidence, record the packet"
+  ],
+  "blocked_on": "login",
+  "status": "blocked"
+ },
+ "bybit-wsot-2026": {
+  "project": "Bybit WSOT 2026",
+  "slug": "bybit-wsot-2026",
+  "official": "https://www.bybit.com/wsot2026",
+  "at": "2026-11-23 08:22",
+  "steps_from_source": 7,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/bybit-wsot-2026/landing.png",
+  "status": "ready",
+  "title": "WSOT 2026: Global Multi-Asset Trading Competition | Bybit",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 107,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ },
+ "xstocks": {
+  "project": "xStocks",
+  "slug": "xstocks",
+  "official": "https://defi.xstocks.fi/points",
+  "at": "2026-11-23 08:22",
+  "steps_from_source": 6,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/xstocks/landing.png",
+  "status": "blocked",
+  "title": "xPoints Rewards Program - xStocks",
+  "fields": [
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "",
+    "placeholder": "",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 108,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review"
+  ],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
+ },
+ "loaf-markets": {
+  "project": "Loaf Markets",
+  "slug": "loaf-markets",
+  "official": "https://beta.loafmarkets.com/league",
+  "at": "2026-11-23 08:22",
+  "steps_from_source": 7,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/loaf-markets/landing.png",
+  "status": "ready",
+  "title": "League of Loaf | Competition | Loaf Markets",
+  "fields": [
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "g-recaptcha-response",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "h-captcha-response",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "g-recaptcha-response",
+    "placeholder": "",
+    "label": ""
+   },
+   {
+    "tag": "textarea",
+    "type": "textarea",
+    "name": "h-captcha-response",
+    "placeholder": "",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "injected_wallet": false,
+  "cookies": 109,
+  "agent_can": [
+   "pre-fill 4 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ },
+ "abstract": {
+  "project": "Abstract",
+  "slug": "abstract",
+  "official": "https://migrate.abs.xyz",
+  "at": "2026-11-23 08:22",
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/abstract/landing.png",
+  "status": "blocked",
+  "title": "Abstract Migration",
+  "fields": [],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 108,
+  "agent_can": [],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
+ },
+ "river": {
+  "project": "River",
+  "slug": "river",
+  "official": "https://app.riverai.inc/airdrop",
+  "at": "2026-11-23 08:23",
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 15,
+  "screenshot": "airships/river/landing.png",
+  "status": "blocked",
+  "title": "River | Airdrop",
+  "fields": [],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 110,
+  "agent_can": [],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
+ },
+ "trueo": {
+  "project": "Trueo",
+  "slug": "trueo",
+  "official": "https://trueo.com",
+  "at": "2026-11-23 08:23",
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/trueo/landing.png",
+  "status": "ready",
+  "title": "Trueo",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Search",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "placeholder": "Search",
+    "label": ""
+   }
+  ],
+  "wallet_prompt": false,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": false,
+  "injected_wallet": false,
+  "cookies": 111,
+  "agent_can": [
+   "pre-fill 2 form field(s) for human review",
+   "read requirements and capture evidence - no identity step seen"
+  ],
+  "human_must": []
+ },
+ "perle": {
+  "project": "Perle",
+  "slug": "perle",
+  "official": "https://app.perle.xyz",
+  "at": "2026-11-23 08:24",
+  "steps_from_source": 5,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/perle/landing.png",
+  "status": "blocked",
+  "title": "Perle Labs",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "email",
+    "name": "",
+    "placeholder": "Enter your email address...",
+    "label": "Email"
+   }
+  ],
+  "wallet_prompt": true,
+  "kyc_prompt": true,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 110,
+  "agent_can": [
+   "pre-fill 1 form field(s) for human review"
+  ],
+  "human_must": [
+   "connect a wallet and approve the signature",
+   "complete identity verification (KYC)"
+  ]
+ },
+ "sosovalue": {
+  "project": "SoSoValue",
+  "slug": "sosovalue",
+  "official": "https://ssi.sosovalue.com/reward",
+  "at": "2026-11-23 08:25",
+  "steps_from_source": 6,
+  "domain_verdict": "no red flags found",
+  "domain_score": 0,
+  "screenshot": "airships/sosovalue/landing.png",
+  "status": "blocked",
+  "title": "15M $SOSO Staking Rewards | SSI Ascent Season Now Live",
+  "fields": [],
+  "wallet_prompt": true,
+  "kyc_prompt": false,
+  "captcha": false,
+  "login_prompt": true,
+  "injected_wallet": false,
+  "cookies": 112,
+  "agent_can": [],
+  "human_must": [
+   "connect a wallet and approve the signature"
+  ]
  }
 }

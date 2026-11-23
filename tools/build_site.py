@@ -111,6 +111,9 @@ function card(d){
       ${d.pool?`<span>pool: ${esc(d.pool)}</span>`:''}
       ${steps?`<span>${steps} steps</span>`:''}      ${d.forensics&&d.forensics.verdict&&d.forensics.verdict!=='no red flags found'?`<span class="badge ${d.forensics.verdict==='DEAD-LINK'?'c0':'c20'}" title="checked by tools/triage.py">${esc(d.forensics.verdict.toLowerCase())}</span>`:''}
       ${d.friction_label?`<span class="badge ${d.friction<=5?'c80':d.friction<=15?'c40':'c20'}" title="effort: ${d.friction}/100">${esc(d.friction_label)}</span>`:''}
+      ${d.live_check==='ready'?`<span class="badge c80" title="opened in a browser by tools/auto_apply.py">live-checked</span>`:''}
+      ${d.live_check==='blocked'?`<span class="badge c20" title="live page needs one human step">needs you</span>`:''}
+      ${d.live_check==='refused'?`<span class="badge c0" title="domain failed the safety check">refused</span>`:''}
       ${d.domain_age_days?`<span>domain ${d.domain_age_days}d old</span>`:''}
     </div>
     ${d.needs?`<div class="kv"><b>Needs:</b> ${esc(d.needs)}</div>`:''}

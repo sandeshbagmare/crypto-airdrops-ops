@@ -1,28 +1,20 @@
 {
  "project": "Coinzilla",
  "official_url": "https://play.coinzilla.com",
- "source_url": "https://99airdrops.com/airdrops/coinzilla/",
  "blocked_on": "email",
- "why_agent_cannot": "an email confirmation link must be opened by the human",
- "what_human_must_do": [
+ "why_agent_cannot": "enter an email and click the confirmation link",
+ "what_human_must_do": "Enter your email and click the confirmation link in your inbox.",
+ "where_to_resume": "./.venv/Scripts/python.exe tools/agent_browser.py --identity main --url https://play.coinzilla.com",
+ "evidence_so_far": [
+  "airships/coinzilla/page.txt",
+  "airships/coinzilla/landing.png"
+ ],
+ "steps_from_source": [
   "Check that you can win. The contest is \"open to individuals aged 18 or older, with a valid email address\", and residents of about 80 countries are excluded (the list is below).",
   "Open play.coinzilla.com and press Enter. Move with the arrow keys or A and D, and pause with the space bar. On a phone, the game asks you to turn it sideways.",
   "Play a game past 30 points, then sign in with your email address and the code it sends. Use an inbox you read, because that is how winners are told.",
   "Keep playing until 18 November at 23:59 EET. Only your best saved game counts, and \"Each person may take part with one account only.\""
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://play.coinzilla.com",
- "evidence_so_far": [],
- "confidence": 90,
- "evidence": [
-  "4 concrete steps",
-  "official site linked",
-  "deadline stated",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "Entry costs nothing: \"Participation is free. No purchase or payment of any kind is necessary.\" You can even play without an account; you only need one to save a score. Coinzilla says of your email address: \"We do not send marketing email and do not sell or share your address.\" Prizes come as vouchers and digital keys by email, and \"Prizes cannot be exchanged for cash or other goods\". The organizer",
- "risks": "Age: 18 or older. Employees and contractors of the organizer and its group, and their families, can play but can't win. Excluded countries, as the rules list them: Afghanistan, Algeria, Angola, Armenia, Azerbaijan, Bahrain, Belarus, Benin, Botswana, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Cote d'Ivoire, Democratic Republic of the Congo, Djibo",
  "created": "2026-11-23",
  "status": "open"
 }

@@ -24,7 +24,23 @@ DOCS_DATA = ROOT / "docs" / "data.json"
 APPLY = ROOT / "apply"
 
 COLS = ["#", "Project", "Confidence", "Effort", "Needs", "Closes in (days)", "Key date",
-        "Official site", "Steps", "Blocked on", "Checklist", "Status"]
+        "Official site", "Steps", "Live check", "Blocked on", "Checklist", "Status"]
+
+
+def live_status(name, preflight):
+    """What the real browser saw on the live site, when it has been checked."""
+    entry = preflight.get(slugify(name)) or {}
+    if not entry:
+        return "not checked"
+    status = entry.get("status", "")
+    if status == "ready":
+        return "live: ready"
+    if status == "blocked":
+        must = ", ".join(entry.get("human_must") or [])[:60]
+        return f"live: blocked ({must})" if must else "live: blocked"
+    if status == "refused":
+        return "live: refused (domain)"
+    return f"live: {status}"
 
 
 def slugify(name):
@@ -120,9 +136,18 @@ def checklist(d, rank):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--size", type=int, default=25)
+    ap.add_argument("--preflight-only", action="store_true",
+                    help="only include drops whose live pre-flight came back ready")
     args = ap.parse_args()
 
     data = json.loads(DOCS_DATA.read_text(encoding="utf-8"))
+    preflight = {}
+    pf_path = ROOT / "data" / "preflight.json"
+    if pf_path.exists():
+        try:
+            preflight = json.loads(pf_path.read_text(encoding="utf-8"))
+        except Exception:
+            preflight = {}
     pool = [d for d in data if eligible(d)]
     # urgent first, then cheapest, then best evidenced
     pool.sort(key=lambda d: (0 if isinstance(d.get("days"), int) and d["days"] <= 30 else
@@ -130,9 +155,15 @@ def main():
                              d.get("days") if isinstance(d.get("days"), int) else 9999,
                              d.get("friction") or 0,
                              -(d.get("confidence") or 0)))
-    picks = pool[:args.size]
+    picks = pool
+    if args.preflight_only:
+        picks = [d for d in pool
+                 if (preflight.get(slugify(d["name"])) or {}).get("status") == "ready"]
+    picks = picks[:args.size]
 
     APPLY.mkdir(exist_ok=True)
+    for stale in APPLY.glob("*.md"):
+        stale.unlink()
     for i, d in enumerate(picks, 1):
         (APPLY / (slugify(d["name"]) + ".md")).write_text(checklist(d, i), encoding="utf-8")
 
@@ -163,6 +194,7 @@ def main():
             str(d.get("days")) if isinstance(d.get("days"), int) else "-",
             d.get("end") or "-", d.get("official") or "-",
             str(len(d.get("steps") or [])),
+            live_status(d["name"], preflight),
             "none", f"apply/{slug}.md", "identified",
         ]) + " |")
 
@@ -179,9 +211,9 @@ def main():
                    (d.get("needs") or "")[:120],
                    d.get("days") if isinstance(d.get("days"), int) else "",
                    d.get("end") or "", d.get("official") or "",
-                   len(d.get("steps") or []), "none",
-                   f"airships/{slugify(d['name'])}/CHECKLIST.md", "identified"])
-    for col, w in zip("ABCDEFGHIJKL", [5, 22, 11, 26, 40, 14, 13, 40, 7, 16, 40, 12]):
+                   len(d.get("steps") or []), live_status(d["name"], preflight), "none",
+                   f"apply/{slugify(d['name'])}.md", "identified"])
+    for col, w in zip("ABCDEFGHIJKLM", [5, 22, 11, 26, 40, 14, 13, 40, 7, 26, 16, 34, 12]):
         ws.column_dimensions[col].width = w
     ws.freeze_panes = "A2"
 
@@ -211,6 +243,8 @@ def main():
     (ROOT / "apply-kit.md").write_text("\n".join(lines), encoding="utf-8")
 
     print(f"apply kit: {len(picks)} drops | {free} with no identity step | {dated} with a deadline")
+    live_ready = sum(1 for d in picks if live_status(d["name"], preflight) == "live: ready")
+    print(f"live-checked ready: {live_ready} of {len(picks)}")
     print(f"domain-name mismatches flagged for manual check: {mismatched}")
     print(f"checklists: {len(picks)} under apply/<slug>.md")
     print("files: apply-kit.md, apply-kit.xlsx")

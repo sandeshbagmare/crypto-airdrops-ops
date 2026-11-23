@@ -1,29 +1,21 @@
 {
  "project": "Monolith",
  "official_url": "https://www.swanusd.com/airdrop",
- "source_url": "https://99airdrops.com/airdrops/monolith/",
- "blocked_on": "wallet_signature",
- "why_agent_cannot": "a wallet connection or signature is required",
- "what_human_must_do": [
+ "blocked_on": "domain",
+ "why_agent_cannot": "confirm the domain against the project's own profile before touching it (forensics flags it)",
+ "what_human_must_do": "Do not touch it: the domain check flagged it. Verify from the project's own X profile.",
+ "where_to_resume": "python tools/triage.py https://www.swanusd.com/airdrop   # then re-run bulk_apply",
+ "evidence_so_far": [
+  "airships/monolith/page.txt",
+  "airships/monolith/landing.png"
+ ],
+ "steps_from_source": [
   "Open swanusd.com/airdrop from a link you typed yourself and enter your Ethereum address in the checker. If it is not listed, it cannot qualify for the launch pool.",
   "Stake a little over 1,000 swanUSD to get at least 1,000 sSwanUSD.",
   "Optionally deposit the sSwanUSD in SWAN-rewards staking. It still counts for the airdrop and also earns SWAN emissions.",
   "Keep at least 1,000 sSwanUSD for 7 full days. Start no later than 12 November 2026 at 16:00 UTC.",
   "Watch @MonolithMarket for the claim date, then claim before the expiry. Monolith says it never sends DMs first, so ignore anyone who messages you with a claim link."
  ],
- "where_to_resume": "python tools/agent_browser.py --identity main --url https://www.swanusd.com/airdrop",
- "evidence_so_far": [],
- "confidence": 90,
- "evidence": [
-  "5 concrete steps",
-  "official site linked",
-  "deadline stated",
-  "operator/team named",
-  "costs disclosed",
-  "risks disclosed"
- ],
- "costs": "There is no entry fee, but you need about $1,000 or more in sSwanUSD locked up for at least 7 days, and every step pays Ethereum mainnet gas: minting or swapping, staking, depositing and claiming. If you mint, paid debt carries a variable interest rate and free debt is 0% but can be redeemed against your collateral. Liquidations carry a penalty of up to 10%. Monolith has not published swanUSD's mi",
- "risks": "The airdrop is closed to newcomers. Only the 12,078 addresses on the 19 October 2026 snapshot can qualify, and there is no appeal. No terms of service, legal entity, excluded countries, age rule or KYC policy are published for Monolith or swanUSD. The airdrop has campaign terms only. Monolith's risk page says: \"Only deploy capital you are prepared to lose.\" The app adds: \"This is an experimental p",
  "created": "2026-11-23",
  "status": "open"
 }

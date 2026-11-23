@@ -1,0 +1,59 @@
+{
+ "name": "Montra",
+ "confidence": 75,
+ "status": "Medium potential",
+ "official": "https://montramarkets.xyz/airdrop",
+ "needs": "",
+ "steps": [
+  "Open montramarkets.xyz only from the link on Montra's X account, @MontraXYZ. Copycat sites and fake bridges around Elysium are common.",
+  "Check any wallet on the airdrop page. \"Paste any address. No connection, no signature.\" This shows your retroactive and points standing.",
+  "Buy, hold or trade tokens from the weekly Top 10 list shown on the airdrop page. Only the amounts inside the caps count.",
+  "For the free route, post about Montra or bring a project, then submit it on the airdrop page and follow the Discord ticket process to get it verified.",
+  "Check your address again after each weekly review, and watch @MontraXYZ for the claim date."
+ ],
+ "end": "",
+ "days": "",
+ "pool": "",
+ "what": "Montra confirms an airdrop of 25% of MONTRA in five parts. Early points closed on 10 November; the Top 10 round and contributions are still open.",
+ "behind": "No person or legal entity is named on montramarkets.xyz, in its docs or in the posts on @MontraXYZ, and the site footer only reads 2026 Montra. On 15 October 2026 the team wrote on X that it pays for its incentives itself: \"No fundraising, locks, vesting schedules, or any other hairy economics.\" We found no investor or funding round in the news. The auditor SBSecurity posted \"Audit kicked off.\" on",
+ "costs": "Checking an address and sending contributions cost nothing. Trading is where the money goes. \"Every trade pays one fee, the same on buys and sells, at the tier the creator picked: 1%, 2%, 3%, 5%, 10%.\" Gas is paid in HYPE. In the first 30 minutes after a token launches, buys can pay an anti-snipe fee of up to 99%, falling to the pool's normal fee. Launching a token was free when we checked. Bridgi",
+ "risks": "No user terms, no list of excluded countries, no age rule and no KYC are published for users. The team is anonymous and no company is named. Montra says the project is team-funded. Many fake MONTRA tokens trade on Montra itself. Montra's docs: \"Anyone can launch a token called MONTRA. The official one is marked on this site, and nothing else is official, whatever its name, symbol or picture.\" The ",
+ "evidence": [
+  "5 concrete steps",
+  "official site linked",
+  "operator/team named",
+  "costs disclosed",
+  "risks disclosed"
+ ],
+ "source": "99airdrops",
+ "source_url": "https://99airdrops.com/airdrops/montra/",
+ "checked": "2026-11-23",
+ "friction": 5,
+ "friction_label": "social tasks",
+ "tags": [
+  "points",
+  "trading",
+  "snapshot"
+ ],
+ "also_listed_by": [],
+ "forensics": {
+  "verdict": "SUSPICIOUS",
+  "score": 35,
+  "findings": [
+   [
+    "HIGH",
+    "domain only 39 days old (registered 2026-10-15)"
+   ],
+   [
+    "OK",
+    "TLS issued by Let's Encrypt"
+   ]
+  ],
+  "age_days": 39,
+  "checked": "2026-11-23T07:32:31"
+ },
+ "domain_age_days": 38,
+ "slug": "montra",
+ "dossier": "drops/montra.md",
+ "published": "2026-11-23"
+}
